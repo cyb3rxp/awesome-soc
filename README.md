@@ -26,15 +26,19 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 # Critical means (tools/sensors):
 
 ## Critical tools for a SOC/CERT:
-* SIEM (see: https://www.gartner.com/en/information-technology/glossary/security-information-and-event-management-siem)
+* **SIEM** (see: https://www.gartner.com/en/information-technology/glossary/security-information-and-event-management-siem)
    * see Gartner magic quadrant: https://www.bankinfosecurity.com/whitepapers/2021-gartner-magic-quadrant-for-security-information-event-w-8758 
    * e.g.: Splunk, Elastic...
-* SIRP (see: https://d3security.com/blog/whats-the-difference-between-soar-and-sao/)
+* **SIRP** (see: https://d3security.com/blog/whats-the-difference-between-soar-and-sao/)
   * e.g.: TheHive, PAN XSOAR, IBM Resilient, SwimLane...
-* SOA (see: https://d3security.com/blog/whats-the-difference-between-soar-and-sao/)
+* **SOA** (see: https://d3security.com/blog/whats-the-difference-between-soar-and-sao/)
   * e.g.: TheHive, PAN XSOAR, IBM Resilient, SwimLane...
-* TIP (see: https://d3security.com/blog/whats-the-difference-between-soar-and-sao/)
+* **TIP** (see: https://d3security.com/blog/whats-the-difference-between-soar-and-sao/)
   * e.g.: MISP, OpenCTI, ThreatQuotient...
+  * don't forget the needed feeds (community / paid ones)
+     * e.g. for paid ones: ESET, Sekoia.io...
+     * e.g. for community ones: MISP default feeds list.
+     
 
 ## Critical sensors for a SOC:
 
@@ -63,14 +67,21 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * Sigma HQ (detection rules): https://github.com/SigmaHQ/sigma/tree/master/rules 
 * Splunk Security content (free detection rules for Splunk): https://research.splunk.com/ 
 * Awesome Threat Intelligence: https://github.com/hslatman/awesome-threat-intelligence 
-* LinkedIn / Twitter
-* Government CERT, industry sector CERT
+* LinkedIn / Twitter:
+  * e.g.: LinkedIn Information Security Community group: https://www.linkedin.com/groups/38412/ 
+* RSS reader/portal:
+  * e.g.: Netvibes: https://www.netvibes.com/phvialle?page=phvialle#Security  
+* Government CERT, industry sector related CERT...
+  * e.g.: CERT-FR: https://www.cert.ssi.gouv.fr/avis/, CERT-US: https://www.cisa.gov/uscert/ncas/alerts
 
 
 # Management
 
 ## TTP (attack methods) knowledge base reference:
 * MITRE ATT&CK: https://attack.mitre.org/matrices/enterprise/
+
+## Detection quality controls: **run regular purpleteaming sessions** in time!!
+* See: https://about.gitlab.com/handbook/engineering/security/threat-management/red-team/purple-teaming/
 
 ## Detection capabilities representation standard, for a given security solution (like AWS, Azure, NDR, etc.):
 *	Security Stack Mappings: https://github.com/center-for-threat-informed-defense/security-stack-mappings 
