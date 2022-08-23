@@ -64,9 +64,14 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
   * e.g.: for reverse engineering, FireEye Flare-VM: https://github.com/mandiant/flare-vm
 * Incident tracker: 
   * e.g.: Timesketch: https://timesketch.org/ 
+* scanners:
+  * IOC scanners:
+    * e.g.: Loki: https://github.com/Neo23x0/Loki
+  * offline antimalware scanners: 
+    * e.g.: Windows Defender Offline: https://support.microsoft.com/en-us/windows/help-protect-my-pc-with-microsoft-defender-offline-9306d528-64bf-4668-5b80-ff533f183d6c
+    *
 
-
-# IT/sec Watch (sources)
+# IT/security Watch (sources)
 
 * Sigma HQ (detection rules): https://github.com/SigmaHQ/sigma/tree/master/rules 
 * Splunk Security content (free detection rules for Splunk): https://research.splunk.com/ 
@@ -76,7 +81,9 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * RSS reader/portal:
   * e.g.: Netvibes: https://www.netvibes.com/phvialle?page=phvialle#Security  
 * Government CERT, industry sector related CERT...
-  * e.g.: CERT-FR: https://www.cert.ssi.gouv.fr/avis/, CERT-US: https://www.cisa.gov/uscert/ncas/alerts
+  * e.g.: CERT-FR: https://www.cert.ssi.gouv.fr/avis/ , CERT-US: https://www.cisa.gov/uscert/ncas/alerts
+* other interesting websites:
+  * e.g.: ISC: https://isc.sans.edu/ , ENISA: https://www.enisa.europa.eu/publications , ThreatPost: https://threatpost.com/ ...
 
 
 # Management
@@ -90,7 +97,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
   * build / project management team (which does tools deployment, SIEM data ingestion, and secific DevOps tasks).
 
 ## CERT HR and organization:
-* designate: 
+* designate among team analysts: 
   * incident handler;
   * incident manager;
   * triage officer;
@@ -98,17 +105,23 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * Generally speaking, follow best practices as described in ENISA's paper ("Good practice for incident management", see "Must read" section above)
 
 ## TTP (attack methods) knowledge base reference:
-* MITRE ATT&CK: https://attack.mitre.org/matrices/enterprise/
+* Use MITRE ATT&CK: https://attack.mitre.org/matrices/enterprise/
+* Document all detections (SIEM Rules, etc.) using MITRE ATT&CK ID, whenever possible.
+
+## Data quality and management:
+* implement an information model, like the Splunk CIM one (see: https://docs.splunk.com/Documentation/CIM/5.0.1/User/Overview)
+  * do not hesitate to extend it, depending on your needs
+  * make sure this datamodel is being implemented in the SIEM, SIRP, SOA and even TIP.
 
 ## Detection quality controls: 
  * **Run regular purpleteaming sessions** in time!!
     * see: https://about.gitlab.com/handbook/engineering/security/threat-management/red-team/purple-teaming/
 
-## Detection capabilities representation standard, for a given security solution (like AWS, Azure, NDR, etc.):
-*	Security Stack Mappings: https://github.com/center-for-threat-informed-defense/security-stack-mappings 
+## Detection capabilities representation standard:
+*	Use Security Stack Mappings to picture detection capabilities for a given security solution/environment (like AWS, Azure, NDR, etc.): https://github.com/center-for-threat-informed-defense/security-stack-mappings 
 
 ## SOC detection capabilities **simplified** representation:
- * heatmap, see: https://www.signalblur.io/getting-started-with-mitres-att-ck-navigator/)
+ * Generate heatmaps, to picture the SOC detection capabilities, see: https://www.signalblur.io/getting-started-with-mitres-att-ck-navigator/)
 
 ## SOC Self-assessment:
 *	SOC Cyber maturity model: https://www.soc-cmm.com/introduction/ 
@@ -120,7 +133,16 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * CMM, SOC-CMM 4CERT: https://www.soc-cmm.com/4CERT/ 
   * SOC-CMM 4CERT self-assessment tool: https://www.soc-cmm.com/downloads/latest/soc-cmm%20for%20CERT%201.0%20-%20advanced.xlsx 
   
-
+## Reporting:
+* Generate metrics, leveraging the SIRP capabilities to do so:
+  * detection rules triggering most false positives
+  * detection rules taking the longest to be handled
+  * number of false positives
+  * number of detection rules which detection capability and handling process have been confirmed with purpleteaming session, so far
+  * most seen TTP in detection
+  * most common incident types
+  * mean time to verify (confirm) the alerts
+  * mean time to handle (verify and be ready for incident response) the alerts  
 
 
 # To go further
