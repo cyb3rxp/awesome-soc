@@ -164,3 +164,11 @@ e.g.: [TheHive](https://thehive-project.org/), [PAN Cortex XSOAR](https://www.pa
 * Abdessabour Boukari, RACI template (in French): https://github.com/cyberabdou/SOC/blob/77f01ba82c22cb11028cde4a862ae0bea4258378/SOC%20RACI.xlsx 
 * Trellix, XDR Gartner market guide: https://www.trellix.com/fr-fr/solutions/gartner-report-market-guide-xdr.html
 * Awesome Security Resources: https://github.com/Johnson90512/Awesome-Security-Resources
+
+
+## SOC sensors, nice to have:
+* Honeypot
+* NDR
+* MDM
+* DLP
+* network TAP
