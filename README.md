@@ -1,5 +1,5 @@
 # Awesome SOC
-A collection of sources of documentations, and field best practices to build/run a SOC.
+A collection of sources of documentations, and field best practices, to build/run a SOC.
 
 Those are my view, based on my own experience as SOC/CERT analyst and team manager, as well as well-known papers. 
 
@@ -130,3 +130,4 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * CIS, Business Impact Assessment: https://bia.cisecurity.org/ 
 * Abdessabour Boukari, RACI template (in French): https://github.com/cyberabdou/SOC/blob/77f01ba82c22cb11028cde4a862ae0bea4258378/SOC%20RACI.xlsx 
 * Trellix, XDR Gartner market guide: https://www.trellix.com/fr-fr/solutions/gartner-report-market-guide-xdr.html
+* Awesome Security Resources: https://github.com/Johnson90512/Awesome-Security-Resources
