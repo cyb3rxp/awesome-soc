@@ -9,32 +9,32 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 # Must read
 
 ## For a SOC:
-* NIST, Cybersecurity framework: https://www.nist.gov/cyberframework 
-* FIRST, Building a SOC: https://www.first.org/resources/guides/Factsheet_Building_a_SOC_start_small.pdf 
-* NIST, SP800-61 rev2, incident handling guide: https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final 
-* MITRE, 11 strategies for a world-class SOC (part 0, Fundamentals): https://www.mitre.org/publications/technical-papers/11-strategies-world-class-cybersecurity-operations-center 
+* NIST, [Cybersecurity framework](https://www.nist.gov/cyberframework) 
+* FIRST, [Building a SOC](https://www.first.org/resources/guides/Factsheet_Building_a_SOC_start_small.pdf) 
+* NIST, [SP800-61 rev2, incident handling guide](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final) 
+* MITRE, [11 strategies for a world-class SOC](https://www.mitre.org/publications/technical-papers/11-strategies-world-class-cybersecurity-operations-center), part 0 (Fundamentals) 
 
 ## For a CERT: 
-* FIRST, CERT-in-a-box: https://www.first.org/resources/guides/cert-in-a-box.zip 
-* ENISA, Good practice for incident management: https://www.enisa.europa.eu/publications/good-practice-guide-for-incident-management
-* NIST, SP800-86, integration forensics techniques into IR: https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-86.pdf 
+* FIRST, [CERT-in-a-box](https://www.first.org/resources/guides/cert-in-a-box.zip) 
+* ENISA, [Good practice for incident management](https://www.enisa.europa.eu/publications/good-practice-guide-for-incident-management)
+* NIST, [SP800-86, integration forensics techniques into IR](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-86.pdf) 
 
 ## Globally (SOC and CERT):
-* ThreatConnect, SIRP / SOA / TIP benefits: https://threatconnect.com/blog/realizing-the-benefits-of-security-orchestration-automation-and-response-soar/ 
-* Orange Cyberdefense, Feedback regarding experience with SOAR in 2020 (in French): https://www.orangecyberdefense.com/fr/insights/blog/threat-management/soar-quelles-conclusions-en-2020 
-* Lutessa, Red/blue/purple teams’ roles: https://www.lutessa.com/wp-content/uploads/2020/09/red-team-purple-team-blue-team.png  (https://www.lutessa.com/?p=5524)
+* ThreatConnect, [SIRP / SOA / TIP benefits](https://threatconnect.com/blog/realizing-the-benefits-of-security-orchestration-automation-and-response-soar/) 
+* Orange Cyberdefense, [Feedback regarding experience with SOAR in 2020 (in French)](https://www.orangecyberdefense.com/fr/insights/blog/threat-management/soar-quelles-conclusions-en-2020) 
+* Lutessa, [Red/blue/purple teams’ roles](https://www.lutessa.com/wp-content/uploads/2020/09/red-team-purple-team-blue-team.png)  (https://www.lutessa.com/?p=5524)
 
 
 # Critical means (tools/sensors)
 
 ## Critical tools for a SOC/CERT:
 * **SIEM** (see: https://www.gartner.com/en/information-technology/glossary/security-information-and-event-management-siem)
-   * see Gartner magic quadrant: https://www.bankinfosecurity.com/whitepapers/2021-gartner-magic-quadrant-for-security-information-event-w-8758 
-   * e.g.: Splunk: www.splunk.com , Elastic: https://www.elastic.co/ etc.
+   * see [Gartner magic quadrant](https://www.bankinfosecurity.com/whitepapers/2021-gartner-magic-quadrant-for-security-information-event-w-8758) 
+   * e.g.: [Splunk](www.splunk.com), [Elastic](https://www.elastic.co/) etc.
 * **SIRP** (see: https://d3security.com/blog/whats-the-difference-between-soar-and-sao/)
-  * e.g.: TheHive: https://thehive-project.org/ , PAN Cortex XSOAR: https://www.paloaltonetworks.com/cortex/cortex-xsoar , IBM Resilient: https://www.ibm.com/qradar/security-qradar-soar?utm_content=SRCWW&p1=Search&p4=43700068028974608&p5=e&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITW2yUqAfNqWNeYXyENeUAoqLxV543LT0n2oYhYxEQ47Yjm7NfYTFHAaAtwpEALw_wcB&gclsrc=aw.ds, SwimLane: https://swimlane.com/ etc.
+  * e.g.: [TheHive](https://thehive-project.org/), [PAN Cortex XSOAR](https://www.paloaltonetworks.com/cortex/cortex-xsoar), [IBM Resilient]( https://www.ibm.com/qradar/security-qradar-soar?utm_content=SRCWW&p1=Search&p4=43700068028974608&p5=e&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITW2yUqAfNqWNeYXyENeUAoqLxV543LT0n2oYhYxEQ47Yjm7NfYTFHAaAtwpEALw_wcB&gclsrc=aw.ds), [SwimLane](https://swimlane.com/) etc.
 * **SOA** (see: https://d3security.com/blog/whats-the-difference-between-soar-and-sao/)
-  * e.g.: TheHive: https://thehive-project.org/ , PAN Cortex XSOAR: https://www.paloaltonetworks.com/cortex/cortex-xsoar , IBM Resilient: https://www.ibm.com/qradar/security-qradar-soar?utm_content=SRCWW&p1=Search&p4=43700068028974608&p5=e&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITW2yUqAfNqWNeYXyENeUAoqLxV543LT0n2oYhYxEQ47Yjm7NfYTFHAaAtwpEALw_wcB&gclsrc=aw.ds, SwimLane: https://swimlane.com/ etc.
+e.g.: [TheHive](https://thehive-project.org/), [PAN Cortex XSOAR](https://www.paloaltonetworks.com/cortex/cortex-xsoar), [IBM Resilient]( https://www.ibm.com/qradar/security-qradar-soar?utm_content=SRCWW&p1=Search&p4=43700068028974608&p5=e&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITW2yUqAfNqWNeYXyENeUAoqLxV543LT0n2oYhYxEQ47Yjm7NfYTFHAaAtwpEALw_wcB&gclsrc=aw.ds), [SwimLane](https://swimlane.com/) etc.
 * **TIP** (see: https://d3security.com/blog/whats-the-difference-between-soar-and-sao/)
   * e.g.: MISP, OpenCTI, ThreatQuotient...
   * don't forget the needed feeds (community / paid ones)
@@ -45,45 +45,45 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 ## Critical sensors for a SOC:
 
 * **Antimalware**
-  * See Gartner magic quadrant: https://www.threatscape.com/microsoft-security-named-leader-in-4-gartner-magic-quadrants/ 
+  * See [Gartner magic quadrant](https://www.threatscape.com/microsoft-security-named-leader-in-4-gartner-magic-quadrants/) 
 * **Endpoint Detection and Response** (see: https://www.gartner.com/reviews/market/endpoint-detection-and-response-solutions)
-  * see Gartner magic quadrant: https://www.microsoft.com/security/blog/uploads/securityprod/2022/01/Gartner-EIA-1963x2048.png 
+  * see [Gartner magic quadrant](https://www.microsoft.com/security/blog/uploads/securityprod/2022/01/Gartner-EIA-1963x2048.png) 
 * **Security Email Gateway** (see: https://www.gartner.com/reviews/market/email-security)
 * **Security Weg Gateway** / Security Service Edge (see: https://www.gartner.com/en/information-technology/glossary/secure-web-gateway)
-  * see Gartner magic quadrant: https://www.zscaler.fr/cdn-cgi/image/format%3Dauto/sites/default/files/images/page/gartner-magic-quadrant-security-service-edge-sse-2022/zscaler-gartner-sse-2022-%401x.png 
+  * see [Gartner magic quadrant](https://www.zscaler.fr/cdn-cgi/image/format%3Dauto/sites/default/files/images/page/gartner-magic-quadrant-security-service-edge-sse-2022/zscaler-gartner-sse-2022-%401x.png) 
 * **AD security** (audit logs, or specific security monitoring solutions)
-  * e.g.: Semperis: https://www.purple-knight.com/fr/?utm_source=gads&utm_medium=paidsearch&utm_campaign=pk_emea&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITV3yX7Nn6_GR-YVwiOANFvS9wsEQdTyUGHvMMirMzNQEoQ1Q3EQYIMaAjTgEALw_wcB or PingCastle: https://www.pingcastle.com/download/
+  * e.g.: [Semperis](https://www.purple-knight.com/fr/?utm_source=gads&utm_medium=paidsearch&utm_campaign=pk_emea&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITV3yX7Nn6_GR-YVwiOANFvS9wsEQdTyUGHvMMirMzNQEoQ1Q3EQYIMaAjTgEALw_wcB) or [PingCastle](https://www.pingcastle.com/download/)
 * Cloud Access Security Broker, if company's IT environment uses a lot of external services like SaaS/IaaS (see: https://www.gartner.com/en/information-technology/glossary/cloud-access-security-brokers-casbs)
-   * see Gartner magic quadrant: https://www.netskope.com/wp-content/uploads/2021/01/Screen-Shot-2021-01-05-at-10.15.23-AM-1024x456.png
+   * see [Gartner magic quadrant](https://www.netskope.com/wp-content/uploads/2021/01/Screen-Shot-2021-01-05-at-10.15.23-AM-1024x456.png)
 
 ## Critical tools for CERT:
 * On-demand sandbox:
-  * e.g.: Joe's sandbox: https://www.joesandbox.com/#windows , Hybrid Analysis: https://www.hybrid-analysis.com/ , etc.
+  * e.g.: [Joe's sandbox](https://www.joesandbox.com/#windows), [Hybrid Analysis](https://www.hybrid-analysis.com/), etc.
 * Forensics and reverse-engineering tools suite
-  * e.g.: SIFT Workstation: https://www.sans.org/tools/sift-workstation/ , or Tsurugi: https://tsurugi-linux.org/
-  * e.g.: for reverse engineering, FireEye Flare-VM: https://github.com/mandiant/flare-vm
+  * e.g.: [SIFT Workstation](https://www.sans.org/tools/sift-workstation/), or [Tsurugi](https://tsurugi-linux.org/)
+  * e.g.: for reverse engineering, [FireEye Flare-VM](https://github.com/mandiant/flare-vm)
 * Incident tracker: 
-  * e.g.: Timesketch: https://timesketch.org/ 
+  * e.g.: [Timesketch](https://timesketch.org/) 
 * scanners:
   * IOC scanners:
-    * e.g.: Loki: https://github.com/Neo23x0/Loki
+    * e.g.: [Loki](https://github.com/Neo23x0/Loki)
   * offline antimalware scanners: 
-    * e.g.: Windows Defender Offline: https://support.microsoft.com/en-us/windows/help-protect-my-pc-with-microsoft-defender-offline-9306d528-64bf-4668-5b80-ff533f183d6c
-    *
+    * e.g.: [Windows Defender Offline](https://support.microsoft.com/en-us/windows/help-protect-my-pc-with-microsoft-defender-offline-9306d528-64bf-4668-5b80-ff533f183d6c)
+    
 
 # IT/security Watch (sources)
 
-* Sigma HQ (detection rules): https://github.com/SigmaHQ/sigma/tree/master/rules 
-* Splunk Security content (free detection rules for Splunk): https://research.splunk.com/ 
-* Awesome Threat Intelligence: https://github.com/hslatman/awesome-threat-intelligence 
+* [Sigma HQ (detection rules)](https://github.com/SigmaHQ/sigma/tree/master/rules) 
+* [Splunk Security content (free detection rules for Splunk)](https://research.splunk.com/) 
+* [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence) 
 * LinkedIn / Twitter:
-  * e.g.: LinkedIn Information Security Community group: https://www.linkedin.com/groups/38412/ 
+  * e.g.: [LinkedIn Information Security Community group](https://www.linkedin.com/groups/38412/) 
 * RSS reader/portal:
-  * e.g.: Netvibes: https://www.netvibes.com/phvialle?page=phvialle#Security  
+  * e.g.: [Netvibes](https://www.netvibes.com/phvialle?page=phvialle#Security)  
 * Government CERT, industry sector related CERT...
-  * e.g.: CERT-FR: https://www.cert.ssi.gouv.fr/avis/ , CERT-US: https://www.cisa.gov/uscert/ncas/alerts
+  * e.g.: [CERT-FR](https://www.cert.ssi.gouv.fr/avis/), [CERT-US]https://www.cisa.gov/uscert/ncas/alerts)
 * other interesting websites:
-  * e.g.: ISC: https://isc.sans.edu/ , ENISA: https://www.enisa.europa.eu/publications , ThreatPost: https://threatpost.com/ ...
+  * e.g.: [ISC]https://isc.sans.edu/), [ENISA](https://www.enisa.europa.eu/publications), [ThreatPost](https://threatpost.com/) ...
 
 
 # Management
@@ -105,11 +105,11 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * Generally speaking, follow best practices as described in ENISA's paper ("Good practice for incident management", see "Must read" section above)
 
 ## TTP (attack methods) knowledge base reference:
-* Use MITRE ATT&CK: https://attack.mitre.org/matrices/enterprise/
+* Use [MITRE ATT&CK](https://attack.mitre.org/matrices/enterprise/)
 * Document all detections (SIEM Rules, etc.) using MITRE ATT&CK ID, whenever possible.
 
 ## Data quality and management:
-* implement an information model, like the Splunk CIM one (see: https://docs.splunk.com/Documentation/CIM/5.0.1/User/Overview)
+* implement an information model, like the [Splunk CIM one](https://docs.splunk.com/Documentation/CIM/5.0.1/User/Overview)
   * do not hesitate to extend it, depending on your needs
   * make sure this datamodel is being implemented in the SIEM, SIRP, SOA and even TIP.
 
@@ -118,20 +118,20 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
     * see: https://about.gitlab.com/handbook/engineering/security/threat-management/red-team/purple-teaming/
 
 ## Detection capabilities representation standard:
-*	Use Security Stack Mappings to picture detection capabilities for a given security solution/environment (like AWS, Azure, NDR, etc.): https://github.com/center-for-threat-informed-defense/security-stack-mappings 
+*	Use [Security Stack Mappings](https://github.com/center-for-threat-informed-defense/security-stack-mappings) to picture detection capabilities for a given security solution/environment (like AWS, Azure, NDR, etc.): 
 
 ## SOC detection capabilities **simplified** representation:
- * Generate heatmaps, to picture the SOC detection capabilities, see: https://www.signalblur.io/getting-started-with-mitres-att-ck-navigator/)
+ * Generate [ATT&CK heatmaps](https://www.signalblur.io/getting-started-with-mitres-att-ck-navigator/), to picture the SOC detection capabilities
 
 ## SOC Self-assessment:
-*	SOC Cyber maturity model: https://www.soc-cmm.com/introduction/ 
-*	SOC-CMM self-assessment tool: https://www.soc-cmm.com/downloads/latest/ 
+*	[SOC Cyber maturity model](https://www.soc-cmm.com/introduction/) 
+*	[SOC-CMM self-assessment tool](https://www.soc-cmm.com/downloads/latest/) 
 
 ## CERT/CSIRT self-assessment:
-* ENISA, OpenCSIRT cybersecurity maturity framework: https://www.enisa.europa.eu/topics/csirts-in-europe/csirt-capabilities/csirt-maturity/  
-  * OpenCSIRT, SIM3 self-assessment: https://sim3-check.opencsirt.org/#/v1/ 
-* CMM, SOC-CMM 4CERT: https://www.soc-cmm.com/4CERT/ 
-  * SOC-CMM 4CERT self-assessment tool: https://www.soc-cmm.com/downloads/latest/soc-cmm%20for%20CERT%201.0%20-%20advanced.xlsx 
+* ENISA, [OpenCSIRT cybersecurity maturity framework](https://www.enisa.europa.eu/topics/csirts-in-europe/csirt-capabilities/csirt-maturity/)  
+  * OpenCSIRT, [SIM3 self-assessment](https://sim3-check.opencsirt.org/#/v1/) 
+* CMM, [SOC-CMM 4CERT](https://www.soc-cmm.com/4CERT/) 
+  * [SOC-CMM 4CERT self-assessment tool](https://www.soc-cmm.com/downloads/latest/soc-cmm%20for%20CERT%201.0%20-%20advanced.xlsx)
   
 ## Reporting:
 * Generate metrics, leveraging the SIRP capabilities to do so:
