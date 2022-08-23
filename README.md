@@ -3,9 +3,11 @@ A collection of sources of documentations, and field best practices to build/run
 
 Those are my view, based on my own experience as SOC/CERT analyst and team manager, as well as well-known papers. 
 
-NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to incident response.
+NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to incident response activity.
 
-# Must read:
+
+# Must read
+
 ## For a SOC:
 * NIST, Cybersecurity framework: https://www.nist.gov/cyberframework 
 * FIRST, Building a SOC: https://www.first.org/resources/guides/Factsheet_Building_a_SOC_start_small.pdf 
@@ -23,7 +25,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * Lutessa, Red/blue/purple teams’ roles: https://www.lutessa.com/wp-content/uploads/2020/09/red-team-purple-team-blue-team.png  (https://www.lutessa.com/?p=5524)
 
 
-# Critical means (tools/sensors):
+# Critical means (tools/sensors)
 
 ## Critical tools for a SOC/CERT:
 * **SIEM** (see: https://www.gartner.com/en/information-technology/glossary/security-information-and-event-management-siem)
@@ -80,8 +82,9 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 ## TTP (attack methods) knowledge base reference:
 * MITRE ATT&CK: https://attack.mitre.org/matrices/enterprise/
 
-## Detection quality controls: **run regular purpleteaming sessions** in time!!
-* See: https://about.gitlab.com/handbook/engineering/security/threat-management/red-team/purple-teaming/
+## Detection quality controls: 
+ * **Run regular purpleteaming sessions** in time!!
+    * see: https://about.gitlab.com/handbook/engineering/security/threat-management/red-team/purple-teaming/
 
 ## Detection capabilities representation standard, for a given security solution (like AWS, Azure, NDR, etc.):
 *	Security Stack Mappings: https://github.com/center-for-threat-informed-defense/security-stack-mappings 
@@ -102,7 +105,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 
 
 
-# To go further:
+# To go further
 
 ## Must read:
 * MITRE, 11 strategies for a world-class SOC (remaining of PDF): https://www.mitre.org/publications/technical-papers/11-strategies-world-class-cybersecurity-operations-center 
