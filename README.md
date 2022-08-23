@@ -1,5 +1,5 @@
 # Awesome SOC
-A collection of sources of documentations, and field best practices, to build/run a SOC.
+A collection of sources of documentation, and field best practices, to build/run a SOC.
 
 Those are my view, based on my own experience as SOC/CERT analyst and team manager, as well as well-known papers. 
 
@@ -81,6 +81,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 
 ## HR and organization:
 * no need for tiering (L1/L2/L3)
+  * this is an old model for service provider, not necesseraly for a SOC!
 * 3 teams should be needed:
   * security monitoring team (which does actually the "job" of detecting security incident being fully autonomous)
   * security monitoring engineering team (which fixes/improves security monitoring, like SIEM rules and SOA playbooks)
