@@ -79,6 +79,13 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 
 # Management
 
+## HR and organization:
+* no need for tiering (L1/L2/L3)
+* 3 teams should be needed:
+  * security monitoring team (which does actually the "job" of detecting security incident being fully autonomous)
+  * security monitoring engineering team (which fixes/improves security monitoring, like SIEM rules and SOA playbooks)
+  * build / project management team (which does tools deployment, SIEM data ingestion, and secific DevOps tasks).
+
 ## TTP (attack methods) knowledge base reference:
 * MITRE ATT&CK: https://attack.mitre.org/matrices/enterprise/
 
