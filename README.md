@@ -16,7 +16,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 
 ## For a CERT: 
 * FIRST, CERT-in-a-box: https://www.first.org/resources/guides/cert-in-a-box.zip 
-* ENISA, Good practice for incident response: https://www.enisa.europa.eu/publications/good-practice-guide-for-incident-management
+* ENISA, Good practice for incident management: https://www.enisa.europa.eu/publications/good-practice-guide-for-incident-management
 * NIST, SP800-86, integration forensics techniques into IR: https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-86.pdf 
 
 ## Globally (SOC and CERT):
@@ -30,15 +30,15 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 ## Critical tools for a SOC/CERT:
 * **SIEM** (see: https://www.gartner.com/en/information-technology/glossary/security-information-and-event-management-siem)
    * see Gartner magic quadrant: https://www.bankinfosecurity.com/whitepapers/2021-gartner-magic-quadrant-for-security-information-event-w-8758 
-   * e.g.: Splunk, Elastic...
+   * e.g.: Splunk: www.splunk.com , Elastic: https://www.elastic.co/ etc.
 * **SIRP** (see: https://d3security.com/blog/whats-the-difference-between-soar-and-sao/)
-  * e.g.: TheHive, PAN XSOAR, IBM Resilient, SwimLane...
+  * e.g.: TheHive: https://thehive-project.org/ , PAN Cortex XSOAR: https://www.paloaltonetworks.com/cortex/cortex-xsoar , IBM Resilient: https://www.ibm.com/qradar/security-qradar-soar?utm_content=SRCWW&p1=Search&p4=43700068028974608&p5=e&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITW2yUqAfNqWNeYXyENeUAoqLxV543LT0n2oYhYxEQ47Yjm7NfYTFHAaAtwpEALw_wcB&gclsrc=aw.ds, SwimLane: https://swimlane.com/ etc.
 * **SOA** (see: https://d3security.com/blog/whats-the-difference-between-soar-and-sao/)
-  * e.g.: TheHive, PAN XSOAR, IBM Resilient, SwimLane...
+  * e.g.: TheHive: https://thehive-project.org/ , PAN Cortex XSOAR: https://www.paloaltonetworks.com/cortex/cortex-xsoar , IBM Resilient: https://www.ibm.com/qradar/security-qradar-soar?utm_content=SRCWW&p1=Search&p4=43700068028974608&p5=e&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITW2yUqAfNqWNeYXyENeUAoqLxV543LT0n2oYhYxEQ47Yjm7NfYTFHAaAtwpEALw_wcB&gclsrc=aw.ds, SwimLane: https://swimlane.com/ etc.
 * **TIP** (see: https://d3security.com/blog/whats-the-difference-between-soar-and-sao/)
   * e.g.: MISP, OpenCTI, ThreatQuotient...
   * don't forget the needed feeds (community / paid ones)
-     * e.g. for paid ones: ESET, Sekoia.io...
+     * e.g. for paid ones: ESET, Sekoia.io, Mandiant...
      * e.g. for community ones: MISP default feeds list.
      
 
@@ -51,13 +51,14 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * **Security Email Gateway** (see: https://www.gartner.com/reviews/market/email-security)
 * **Security Weg Gateway** / Security Service Edge (see: https://www.gartner.com/en/information-technology/glossary/secure-web-gateway)
   * see Gartner magic quadrant: https://www.zscaler.fr/cdn-cgi/image/format%3Dauto/sites/default/files/images/page/gartner-magic-quadrant-security-service-edge-sse-2022/zscaler-gartner-sse-2022-%401x.png 
-* **AD security** (audit logs, or security monitoring)
-  * e.g.: Semperis
+* **AD security** (audit logs, or specific security monitoring solutions)
+  * e.g.: Semperis: https://www.purple-knight.com/fr/?utm_source=gads&utm_medium=paidsearch&utm_campaign=pk_emea&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITV3yX7Nn6_GR-YVwiOANFvS9wsEQdTyUGHvMMirMzNQEoQ1Q3EQYIMaAjTgEALw_wcB or PingCastle: https://www.pingcastle.com/download/
 * Cloud Access Security Broker, if company's IT environment uses a lot of external services like SaaS/IaaS (see: https://www.gartner.com/en/information-technology/glossary/cloud-access-security-brokers-casbs)
    * see Gartner magic quadrant: https://www.netskope.com/wp-content/uploads/2021/01/Screen-Shot-2021-01-05-at-10.15.23-AM-1024x456.png
 
 ## Critical tools for CERT:
-* On-demand sandbox
+* On-demand sandbox:
+  * e.g.: Joe's sandbox: https://www.joesandbox.com/#windows , Hybrid Analysis: https://www.hybrid-analysis.com/ , etc.
 * Forensics and reverse-engineering tools suite
   * e.g.: SIFT Workstation: https://www.sans.org/tools/sift-workstation/, Tsurugi: https://tsurugi-linux.org/
 * Incident tracker, FireEye Flare-VM: https://github.com/mandiant/flare-vm 
@@ -79,13 +80,21 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 
 # Management
 
-## HR and organization:
-* no need for tiering (L1/L2/L3)
+## SOC HR and organization:
+* no real need for tiering (L1/L2/L3)
   * this is an old model for service provider, not necesseraly for a SOC!
-* 3 teams should be needed:
+* 3 diffeent teams should be needed:
   * security monitoring team (which does actually the "job" of detecting security incident being fully autonomous)
   * security monitoring engineering team (which fixes/improves security monitoring, like SIEM rules and SOA playbooks)
   * build / project management team (which does tools deployment, SIEM data ingestion, and secific DevOps tasks).
+
+## CERT HR and organization:
+* designate: 
+  * incident handler;
+  * incident manager;
+  * triage officer;
+  * deputy CERT manager.
+* Generally speaking, follow best practices as described in ENISA's paper ("Good practice for incident management", see "Must read" section above)
 
 ## TTP (attack methods) knowledge base reference:
 * MITRE ATT&CK: https://attack.mitre.org/matrices/enterprise/
