@@ -60,8 +60,9 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * On-demand sandbox:
   * e.g.: Joe's sandbox: https://www.joesandbox.com/#windows , Hybrid Analysis: https://www.hybrid-analysis.com/ , etc.
 * Forensics and reverse-engineering tools suite
-  * e.g.: SIFT Workstation: https://www.sans.org/tools/sift-workstation/, Tsurugi: https://tsurugi-linux.org/
-* Incident tracker, FireEye Flare-VM: https://github.com/mandiant/flare-vm 
+  * e.g.: SIFT Workstation: https://www.sans.org/tools/sift-workstation/ , or Tsurugi: https://tsurugi-linux.org/
+  * e.g.: for reverse engineering, FireEye Flare-VM: https://github.com/mandiant/flare-vm
+* Incident tracker: 
   * e.g.: Timesketch: https://timesketch.org/ 
 
 
