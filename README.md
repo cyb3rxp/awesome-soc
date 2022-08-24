@@ -107,7 +107,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
   * as per MITRE paper (p65):
   ![image](https://user-images.githubusercontent.com/16035152/186418647-c2d30648-fe83-4065-a68c-2db652e21c40.png)
 
-* 3 diffeent teams should be needed:
+* 3 different teams should be needed:
   * security monitoring team (which does actually the "job" of detecting security incident being fully autonomous)
   * security monitoring engineering team (which fixes/improves security monitoring, like SIEM rules and SOA playbooks)
   * build / project management team (which does tools deployment, SIEM data ingestion, and secific DevOps tasks).
@@ -160,7 +160,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
   * mean time to verify (confirm) the alerts
   * mean time to handle (verify and be ready for incident response) the alerts  
 
-# IT achitecture:
+# IT achitecture
 
 Implement SOC enclaves, as per MITRE paper:
 ![image](https://user-images.githubusercontent.com/16035152/186420265-4c0275b2-d70e-4fec-936c-712c1c4802a8.png)
@@ -203,5 +203,5 @@ Implement SOC enclaves, as per MITRE paper:
 * Network TAP.
 
 
-# Special thanks:
-Clément G., Alexandre C., Jean B., Frédérique B., Pierre d'H., Hamdi C., Fabien L., Gilles B., Olivier R., Jean-François L., Fabrice M., Pascal R., Florian S., Maxime P., Pascal L., Jérémy d'A., Olivier C. x2, David G., Guillaume D., Patrick C., Lesley K., Gérald G., Jean-Baptiste V., Antoine C.,  
+# Special thanks
+Clément G., Alexandre C., Jean B., Frédérique B., Pierre d'H., Hamdi C., Fabien L., Gilles B., Olivier R., Jean-François L., Fabrice M., Pascal R., Florian S., Maxime P., Pascal L., Jérémy d'A., Olivier C. x2, David G., Guillaume D., Patrick C., Lesley K., Gérald G., Jean-Baptiste V., Antoine C.
