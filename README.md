@@ -38,7 +38,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * **TIP** (see: https://d3security.com/blog/whats-the-difference-between-soar-and-sao/)
   * e.g.: MISP, OpenCTI, ThreatQuotient...
   * don't forget the needed feeds (community / paid ones)
-     * e.g. for paid ones: ESET, Sekoia.io, Mandiant...
+     * e.g. for paid ones: [ESET](https://www.eset.com/us/business/services/threat-intelligence/), [Sekoia.io](https://www.sekoia.io/fr/produire-et-personnaliser-votre-propre-intelligence/), [Mandiant](https://www.mandiant.com/advantage/threat-intelligence/subscribe)...
      * e.g. for community ones: MISP default feeds list.
      
 
@@ -83,7 +83,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * Government CERT, industry sector related CERT...
   * e.g.: [CERT-FR](https://www.cert.ssi.gouv.fr/avis/), [CERT-US]https://www.cisa.gov/uscert/ncas/alerts)
 * other interesting websites:
-  * e.g.: [ISC]https://isc.sans.edu/), [ENISA](https://www.enisa.europa.eu/publications), [ThreatPost](https://threatpost.com/) ...
+  * e.g.: [ISC](https://isc.sans.edu/), [ENISA](https://www.enisa.europa.eu/publications), [ThreatPost](https://threatpost.com/) ...
 
 
 # Management
@@ -167,8 +167,10 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 
 
 ## SOC sensors, nice to have:
+* Asset Security Monitoring / Attack Surface Management:
+  * e.g.: [Intrinsec (in French)](https://www.intrinsec.com/monitoring-cyber/), [Mandiant](https://www.mandiant.fr/advantage/attack-surface-management)
 * Honeypot
 * NDR
 * MDM
 * DLP
-* network TAP
+* Network TAP.
