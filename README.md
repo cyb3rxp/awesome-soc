@@ -14,7 +14,8 @@ As per MITRE paper (SOC strategies, see below):
 ## SOC/CERT incident response lifecycle (detection // incident response):
 As per NIST SP800-61 rev2 paper:
 ![image](https://user-images.githubusercontent.com/16035152/186421468-5136db5b-55d4-4841-9a4a-7d03904af81e.png)
-As an IT security teacher used to tell his students, as a SOC motto: "without reaction, detection is useless" (Freely inspired from Bruce Schneier, [Secrets and Lies: Digital Security in a Networked World](https://www.amazon.fr/Secrets-Lies-Digital-Security-Networked/dp/1119092434) book).
+
+As an IT security teacher used to tell his students, like a SOC motto: "Without response, detection is useless" (Freely inspired from Bruce Schneier, [Secrets and Lies: Digital Security in a Networked World](https://www.amazon.fr/Secrets-Lies-Digital-Security-Networked/dp/1119092434) book).
 
 ## SOC mission and context:
 As per MITRE paper:
