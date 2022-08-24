@@ -64,7 +64,7 @@ As per MITRE paper (see [below](https://github.com/cyb3rxp/awesome-soc/blob/main
 
 * **Antimalware**
   * See [Gartner magic quadrant](https://www.threatscape.com/microsoft-security-named-leader-in-4-gartner-magic-quadrants/) 
-* **Endpoint Detection and Response** (see: https://www.gartner.com/reviews/market/endpoint-detection-and-response-solutions)
+* **[Endpoint Detection and Response](https://www.gartner.com/reviews/market/endpoint-detection-and-response-solutions)** 
   * see [Gartner magic quadrant](https://www.microsoft.com/security/blog/uploads/securityprod/2022/01/Gartner-EIA-1963x2048.png) 
 * **[Secure Email Gateway](https://www.gartner.com/reviews/market/email-security)** 
 * **[Secure Weg Gateway](https://www.gartner.com/en/information-technology/glossary/secure-web-gateway)** / Security Service Edge 
