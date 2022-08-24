@@ -148,22 +148,22 @@ e.g.: [TheHive](https://thehive-project.org/), [PAN Cortex XSOAR](https://www.pa
 # To go further
 
 ## Must read:
-* MITRE, 11 strategies for a world-class SOC (remaining of PDF): https://www.mitre.org/publications/technical-papers/11-strategies-world-class-cybersecurity-operations-center 
-*	Microsoft, SOC/IR hierarchy of needs: https://github.com/swannman/ircapabilities 
-* CISA, Cyber Defense Incident Responder role: https://www.cisa.gov/cyber-defense-incident-responder 
-* Betaalvereniging, TahiTI (threat huting methdology): https://www.betaalvereniging.nl/wp-content/uploads/TaHiTI-Threat-Hunting-Methodology-whitepaper.pdf 
-* GMU, Improving Social Maturity of Cybersecurity Incident Response Teams: https://edu.anarcho-copy.org/Against%20Security%20-%20Self%20Security/GMU_Cybersecurity_Incident_Response_Team_social_maturity_handbook.pdf
-* FireEye, Purple Team Assessment: https://www.fireeye.fr/content/dam/fireeye-www/regional/fr_FR/services/pdfs/ds-purple-team-assessment.pdf  
-* FIRST, CVSS v3.1 specs: https://www.first.org/cvss/specification-document 
+* MITRE, [11 strategies for a world-class SOC (remaining of PDF)](https://www.mitre.org/publications/technical-papers/11-strategies-world-class-cybersecurity-operations-center) 
+*	Microsoft, [SOC/IR hierarchy of needs](https://github.com/swannman/ircapabilities) 
+* CISA, [Cyber Defense Incident Responder role](https://www.cisa.gov/cyber-defense-incident-responder)
+* Betaalvereniging, [TahiTI (threat huting methdology)](https://www.betaalvereniging.nl/wp-content/uploads/TaHiTI-Threat-Hunting-Methodology-whitepaper.pdf) 
+* GMU, [Improving Social Maturity of Cybersecurity Incident Response Teams](https://edu.anarcho-copy.org/Against%20Security%20-%20Self%20Security/GMU_Cybersecurity_Incident_Response_Team_social_maturity_handbook.pdf)
+* FireEye, [Purple Team Assessment](https://www.fireeye.fr/content/dam/fireeye-www/regional/fr_FR/services/pdfs/ds-purple-team-assessment.pdf)
+* FIRST, [CVSS v3.1 specs](https://www.first.org/cvss/specification-document) 
 
 ## Nice to read:
-* NIST, SP800-53 rev5 (Security and Privacy Controls for Information Systems and Organizations): https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final 
-* Amazon,	AWS Security Fundamentals: https://aws.amazon.com/fr/training/digital/aws-security-fundamentals/   
-* Microsoft, PAW Microsoft: https://docs.microsoft.com/en-us/security/compass/privileged-access-devices 
-* CIS, Business Impact Assessment: https://bia.cisecurity.org/ 
-* Abdessabour Boukari, RACI template (in French): https://github.com/cyberabdou/SOC/blob/77f01ba82c22cb11028cde4a862ae0bea4258378/SOC%20RACI.xlsx 
-* Trellix, XDR Gartner market guide: https://www.trellix.com/fr-fr/solutions/gartner-report-market-guide-xdr.html
-* Awesome Security Resources: https://github.com/Johnson90512/Awesome-Security-Resources
+* NIST, [SP800-53 rev5 (Security and Privacy Controls for Information Systems and Organizations)](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
+* Amazon,	[AWS Security Fundamentals](https://aws.amazon.com/fr/training/digital/aws-security-fundamentals/)   
+* Microsoft, [PAW Microsoft](https://docs.microsoft.com/en-us/security/compass/privileged-access-devices) 
+* CIS, [Business Impact Assessment](https://bia.cisecurity.org/) 
+* Abdessabour Boukari, [RACI template (in French)](https://github.com/cyberabdou/SOC/blob/77f01ba82c22cb11028cde4a862ae0bea4258378/SOC%20RACI.xlsx) 
+* Trellix, [XDR Gartner market guide](https://www.trellix.com/fr-fr/solutions/gartner-report-market-guide-xdr.html)
+* [Awesome Security Resources](https://github.com/Johnson90512/Awesome-Security-Resources)
 
 
 ## SOC sensors, nice to have:
