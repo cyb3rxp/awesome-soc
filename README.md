@@ -5,6 +5,17 @@ Those are my view, based on my own experience as SOC/CERT analyst and team manag
 
 NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to incident response activity.
 
+# Basic concepts:
+
+* what is a SOC? as per MITRE paper (SOC strategies, see below):
+![image](https://user-images.githubusercontent.com/16035152/186419394-3a6c89b2-dc1f-47aa-bea2-09bfd7238fc3.png)
+
+* SOC/CERT global process (detection / incident response), as per NIST SP800-61 rev2 paper:
+![image](https://user-images.githubusercontent.com/16035152/186419748-bd572f5c-4f84-4a24-aa07-b9dea8ae0ae7.png)
+
+* SOC mission and context, as per MITRE paper:
+![image](https://user-images.githubusercontent.com/16035152/186420020-8507b3b3-7fb8-46cf-a5f9-9d6506284cb2.png)
+
 
 # Must read
 
@@ -23,6 +34,8 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * ThreatConnect, [SIRP / SOA / TIP benefits](https://threatconnect.com/blog/realizing-the-benefits-of-security-orchestration-automation-and-response-soar/) 
 * Orange Cyberdefense, [Feedback regarding experience with SOAR in 2020 (in French)](https://www.orangecyberdefense.com/fr/insights/blog/threat-management/soar-quelles-conclusions-en-2020) 
 * Lutessa, [Red/blue/purple teams’ roles](https://www.lutessa.com/wp-content/uploads/2020/09/red-team-purple-team-blue-team.png)  (https://www.lutessa.com/?p=5524)
+
+
 
 
 # Critical means (tools/sensors)
@@ -91,6 +104,9 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 ## SOC HR and organization:
 * no real need for tiering (L1/L2/L3)
   * this is an old model for service provider, not necesseraly for a SOC!
+  * as per MITRE paper (p65):
+  ![image](https://user-images.githubusercontent.com/16035152/186418647-c2d30648-fe83-4065-a68c-2db652e21c40.png)
+
 * 3 diffeent teams should be needed:
   * security monitoring team (which does actually the "job" of detecting security incident being fully autonomous)
   * security monitoring engineering team (which fixes/improves security monitoring, like SIEM rules and SOA playbooks)
@@ -143,6 +159,12 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
   * most common incident types
   * mean time to verify (confirm) the alerts
   * mean time to handle (verify and be ready for incident response) the alerts  
+
+# IT achitecture:
+
+Implement SOC enclaves, as per MITRE paper:
+![image](https://user-images.githubusercontent.com/16035152/186420265-4c0275b2-d70e-4fec-936c-712c1c4802a8.png)
+
 
 
 # To go further
