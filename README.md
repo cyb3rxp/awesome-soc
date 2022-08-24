@@ -8,17 +8,17 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 # Basic concepts:
 
 ## What is a SOC? 
-As per MITRE paper (SOC strategies, see below):
+As per MITRE paper (SOC strategies, see [below](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#for-a-soc)):
 ![image](https://user-images.githubusercontent.com/16035152/186421761-ff5bab84-5982-43e1-8d0c-fa9406422b2c.png)
 
 ## SOC/CERT incident response lifecycle (detection // incident response):
-As per NIST SP800-61 rev2 paper:
+As per NIST SP800-61 rev2 paper (see [below](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#for-a-soc)):
 ![image](https://user-images.githubusercontent.com/16035152/186421468-5136db5b-55d4-4841-9a4a-7d03904af81e.png)
 
 As an IT security teacher used to tell his students, like a SOC motto: "Without response, detection is useless" (Freely inspired from Bruce Schneier, [Secrets and Lies: Digital Security in a Networked World](https://www.amazon.fr/Secrets-Lies-Digital-Security-Networked/dp/1119092434) book).
 
 ## SOC mission and context:
-As per MITRE paper:
+As per MITRE paper (see [below](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#for-a-soc)):
 ![image](https://user-images.githubusercontent.com/16035152/186420020-8507b3b3-7fb8-46cf-a5f9-9d6506284cb2.png)
 
 
