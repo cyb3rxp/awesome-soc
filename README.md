@@ -48,12 +48,12 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
   * See [Gartner magic quadrant](https://www.threatscape.com/microsoft-security-named-leader-in-4-gartner-magic-quadrants/) 
 * **Endpoint Detection and Response** (see: https://www.gartner.com/reviews/market/endpoint-detection-and-response-solutions)
   * see [Gartner magic quadrant](https://www.microsoft.com/security/blog/uploads/securityprod/2022/01/Gartner-EIA-1963x2048.png) 
-* **Security Email Gateway** (see: https://www.gartner.com/reviews/market/email-security)
-* **Security Weg Gateway** / Security Service Edge (see: https://www.gartner.com/en/information-technology/glossary/secure-web-gateway)
+* **[Secure Email Gateway](https://www.gartner.com/reviews/market/email-security)** 
+* **[Secure Weg Gateway](https://www.gartner.com/en/information-technology/glossary/secure-web-gateway)** / Security Service Edge 
   * see [Gartner magic quadrant](https://www.zscaler.fr/cdn-cgi/image/format%3Dauto/sites/default/files/images/page/gartner-magic-quadrant-security-service-edge-sse-2022/zscaler-gartner-sse-2022-%401x.png) 
 * **AD security** (audit logs, or specific security monitoring solutions)
   * e.g.: [Semperis](https://www.purple-knight.com/fr/?utm_source=gads&utm_medium=paidsearch&utm_campaign=pk_emea&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITV3yX7Nn6_GR-YVwiOANFvS9wsEQdTyUGHvMMirMzNQEoQ1Q3EQYIMaAjTgEALw_wcB) or [PingCastle](https://www.pingcastle.com/download/)
-* Cloud Access Security Broker, if company's IT environment uses a lot of external services like SaaS/IaaS (see: https://www.gartner.com/en/information-technology/glossary/cloud-access-security-brokers-casbs)
+* [Cloud Access Security Broker](https://www.gartner.com/en/information-technology/glossary/cloud-access-security-brokers-casbs), if company's IT environment uses a lot of external services like SaaS/IaaS:
    * see [Gartner magic quadrant](https://www.netskope.com/wp-content/uploads/2021/01/Screen-Shot-2021-01-05-at-10.15.23-AM-1024x456.png)
 
 ## Critical tools for CERT:
@@ -174,8 +174,10 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
   * e.g.: [Canary.tools](https://canary.tools/)
 * NDR:
   * e.g.: [Gatewatcher](https://www.gatewatcher.com/en/our-solutions/trackwatch/)
-* MDM
-* DLP
+* MDM:
+  * e.g.: [Microsoft Intune](https://docs.microsoft.com/en-us/mem/intune/fundamentals/what-is-intune)
+* DLP:
+  * See [Gartner reviews and ratings](https://www.gartner.com/reviews/market/data-loss-prevention)
 * Network TAP.
 
 
