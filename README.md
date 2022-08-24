@@ -36,7 +36,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * **SOA** (see: https://d3security.com/blog/whats-the-difference-between-soar-and-sao/)
   * e.g.: [TheHive](https://thehive-project.org/), [PAN Cortex XSOAR](https://www.paloaltonetworks.com/cortex/cortex-xsoar), [IBM Resilient]( https://www.ibm.com/qradar/security-qradar-soar?utm_content=SRCWW&p1=Search&p4=43700068028974608&p5=e&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITW2yUqAfNqWNeYXyENeUAoqLxV543LT0n2oYhYxEQ47Yjm7NfYTFHAaAtwpEALw_wcB&gclsrc=aw.ds), [SwimLane](https://swimlane.com/) etc.
 * **TIP** (see: https://d3security.com/blog/whats-the-difference-between-soar-and-sao/)
-  * e.g.: MISP, OpenCTI, ThreatQuotient...
+  * e.g.: [MISP](https://www.misp-project.org/), [OpenCTI](https://www.filigran.io/en/products/opencti/), [ThreatQuotient](https://www.threatq.com/)...
   * don't forget the needed feeds (community / paid ones)
      * e.g. for paid ones: [ESET](https://www.eset.com/us/business/services/threat-intelligence/), [Sekoia.io](https://www.sekoia.io/fr/produire-et-personnaliser-votre-propre-intelligence/), [Mandiant](https://www.mandiant.com/advantage/threat-intelligence/subscribe)...
      * e.g. for community ones: MISP default feeds list.
@@ -64,10 +64,10 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
   * e.g.: for reverse engineering, [FireEye Flare-VM](https://github.com/mandiant/flare-vm)
 * Incident tracker: 
   * e.g.: [Timesketch](https://timesketch.org/) 
-* scanners:
+* Scanners:
   * IOC scanners:
     * e.g.: [Loki](https://github.com/Neo23x0/Loki)
-  * offline antimalware scanners: 
+  * Offline antimalware scanners: 
     * e.g.: [Windows Defender Offline](https://support.microsoft.com/en-us/windows/help-protect-my-pc-with-microsoft-defender-offline-9306d528-64bf-4668-5b80-ff533f183d6c)
     
 
@@ -98,9 +98,9 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 
 ## CERT HR and organization:
 * designate among team analysts: 
+  * triage officer;
   * incident handler;
   * incident manager;
-  * triage officer;
   * deputy CERT manager.
 * Generally speaking, follow best practices as described in ENISA's paper ("Good practice for incident management", see "Must read" section above)
 
