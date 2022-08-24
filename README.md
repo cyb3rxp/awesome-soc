@@ -81,7 +81,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * RSS reader/portal:
   * e.g.: [Netvibes](https://www.netvibes.com/phvialle?page=phvialle#Security)  
 * Government CERT, industry sector related CERT...
-  * e.g.: [CERT-FR](https://www.cert.ssi.gouv.fr/avis/), [CERT-US]https://www.cisa.gov/uscert/ncas/alerts)
+  * e.g.: [CERT-FR](https://www.cert.ssi.gouv.fr/avis/), [CERT-US](https://www.cisa.gov/uscert/ncas/alerts)
 * other interesting websites:
   * e.g.: [ISC](https://isc.sans.edu/), [ENISA](https://www.enisa.europa.eu/publications), [ThreatPost](https://threatpost.com/) ...
 
@@ -114,8 +114,8 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
   * make sure this datamodel is being implemented in the SIEM, SIRP, SOA and even TIP.
 
 ## Detection quality controls: 
- * **Run regular purpleteaming sessions** in time!!
-    * see: https://about.gitlab.com/handbook/engineering/security/threat-management/red-team/purple-teaming/
+ * **Run regular [purpleteaming sessions](https://about.gitlab.com/handbook/engineering/security/threat-management/red-team/purple-teaming/)** in time!!
+
 
 ## Detection capabilities representation standard:
 *	Use [Security Stack Mappings](https://github.com/center-for-threat-informed-defense/security-stack-mappings) to picture detection capabilities for a given security solution/environment (like AWS, Azure, NDR, etc.): 
@@ -164,13 +164,20 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * Abdessabour Boukari, [RACI template (in French)](https://github.com/cyberabdou/SOC/blob/77f01ba82c22cb11028cde4a862ae0bea4258378/SOC%20RACI.xlsx) 
 * Trellix, [XDR Gartner market guide](https://www.trellix.com/fr-fr/solutions/gartner-report-market-guide-xdr.html)
 * [Awesome Security Resources](https://github.com/Johnson90512/Awesome-Security-Resources)
+* [Incident Response & Computer Forensics, 3rd ed](https://www.google.fr/books/edition/Incident_Response_Computer_Forensics_Thi/LuWINQEACAAJ?hl=fr)
 
 
 ## SOC sensors, nice to have:
 * Asset Security Monitoring / Attack Surface Management:
   * e.g.: [Intrinsec (in French)](https://www.intrinsec.com/monitoring-cyber/), [Mandiant](https://www.mandiant.fr/advantage/attack-surface-management)
 * Honeypot
-* NDR
+  * e.g.: [Canary.tools](https://canary.tools/)
+* NDR:
+  * e.g.: [Gatewatcher](https://www.gatewatcher.com/en/our-solutions/trackwatch/)
 * MDM
 * DLP
 * Network TAP.
+
+
+# Special thanks:
+Clément G., Alexandre C., Jean B., Frédérique B., Pierre d'H., Hamdi C., Fabien L., Gilles B., Olivier R., Jean-François L., Fabrice M., Pascal R., Florian S., Maxime P., Pascal L., Jérémy d'A., Olivier C. x2, David G., Guillaume D., Patrick C., Lesley K., Gérald G., Jean-Baptiste V., Antoine C.,  
