@@ -8,10 +8,10 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 # Basic concepts:
 
 * what is a SOC? as per MITRE paper (SOC strategies, see below):
-![image](https://user-images.githubusercontent.com/16035152/186419394-3a6c89b2-dc1f-47aa-bea2-09bfd7238fc3.png)
+![image](https://user-images.githubusercontent.com/16035152/186421761-ff5bab84-5982-43e1-8d0c-fa9406422b2c.png)
 
-* SOC/CERT global process (detection / incident response), as per NIST SP800-61 rev2 paper:
-![image](https://user-images.githubusercontent.com/16035152/186419748-bd572f5c-4f84-4a24-aa07-b9dea8ae0ae7.png)
+* SOC/CERT incident response lifecyble (detection / incident response), as per NIST SP800-61 rev2 paper:
+![image](https://user-images.githubusercontent.com/16035152/186421468-5136db5b-55d4-4841-9a4a-7d03904af81e.png)
 
 * SOC mission and context, as per MITRE paper:
 ![image](https://user-images.githubusercontent.com/16035152/186420020-8507b3b3-7fb8-46cf-a5f9-9d6506284cb2.png)
