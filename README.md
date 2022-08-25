@@ -102,11 +102,13 @@ See: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/aweso
 
 # IT/security Watch
 
-* watch SIEM rules publications:
+* SIEM rules publications:
   * [Sigma HQ (detection rules)](https://github.com/SigmaHQ/sigma/tree/master/rules) 
   * [Splunk Security content (free detection rules for Splunk)](https://research.splunk.com/) 
   * [Michel De Crevoisier's Git](https://github.com/mdecrevoisier/SIGMA-detection-rules)
 * [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence) 
+* Known exploited vulnerabilities: 
+  * [CISA catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 * LinkedIn / Twitter:
   * e.g.: [LinkedIn Information Security Community group](https://www.linkedin.com/groups/38412/) 
 * RSS reader/portal:
@@ -156,6 +158,11 @@ describe their structure.
 ## TTP (attack methods) knowledge base reference:
 * Use [MITRE ATT&CK](https://attack.mitre.org/matrices/enterprise/)
 * Document all detections (SIEM Rules, etc.) using MITRE ATT&CK ID, whenever possible.
+
+## TTP detection priorities identification:
+* Use [MITRE Engenuity calculator](https://top-attack-techniques.mitre-engenuity.org/calculator):
+  * focus on the [top TTP for ransomwares](https://top-attack-techniques.mitre-engenuity.org/): 
+    * T1486: Data Encrypted for Impact, T1490: Inhibit System Recovery, T1027: Obfuscated Files or Information, T1047: Windows Management Instrumentation, T1036: Masquerading, T1059: Command and Scripting Interpreter, T1562: Impair Defenses, T1112: Modify Registry, T1204: User Execution, T1055: Process Injection.
 
 ## Data quality and management:
 * implement an information model, like the [Splunk CIM one](https://docs.splunk.com/Documentation/CIM/5.0.1/User/Overview)
