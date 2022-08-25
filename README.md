@@ -131,7 +131,7 @@ describe their structure.
   * incident handler;
   * incident manager;
   * deputy CERT manager.
-* Generally speaking, follow best practices as described in ENISA's paper ("Good practice for incident management", see "Must read" section above)
+* Generally speaking, follow best practices as described in ENISA's paper ("Good practice for incident management", see ["Must read"](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#for-a-cert))
 
 ## TTP (attack methods) knowledge base reference:
 * Use [MITRE ATT&CK](https://attack.mitre.org/matrices/enterprise/)
