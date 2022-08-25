@@ -53,7 +53,7 @@ See: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/aweso
   * See [Gartner magic quadrant](https://www.threatscape.com/microsoft-security-named-leader-in-4-gartner-magic-quadrants/) 
   * My recommendations: Microsoft Defender, BitDefender, ESET Nod32.
 * **[Endpoint Detection and Response](https://www.gartner.com/reviews/market/endpoint-detection-and-response-solutions)** 
-  * see [Gartner magic quadrant](https://www.microsoft.com/security/blog/uploads/securityprod/2022/01/Gartner-EIA-1963x2048.png) 
+  * See [Gartner magic quadrant](https://www.microsoft.com/security/blog/uploads/securityprod/2022/01/Gartner-EIA-1963x2048.png) 
   * My recommendations: SentinelOne, Microsoft Defender for Endpoint, Harfanglab.
 * **[Secure Email Gateway](https://www.gartner.com/reviews/market/email-security)**
   * My recommendation: [Microsoft Defender for Office365](https://www.microsoft.com/en-us/security/business/siem-and-xdr/microsoft-defender-office-365), [ProofPoint](https://www.proofpoint.com/fr/threat-reference/email-gateway), [Mimecast](https://www.mimecast.com/products/email-security/secure-email-gateway/)
@@ -77,15 +77,17 @@ See: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/aweso
   * My recommendations: [Timesketch](https://timesketch.org/), [GitLab](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/sec-incident-response.html)
 * Scanners:
   * IOC scanners:
-    * My recommendations: [Loki](https://github.com/Neo23x0/Loki), [DFIC-ORC](https://github.com/dfir-orc)
+    * My recommendations: [Loki](https://github.com/Neo23x0/Loki), [DFIR-ORC](https://github.com/dfir-orc)
   * Offline antimalware scanners: 
     * My recommendations: [Windows Defender Offline](https://support.microsoft.com/en-us/windows/help-protect-my-pc-with-microsoft-defender-offline-9306d528-64bf-4668-5b80-ff533f183d6c)
     
 
 # IT/security Watch (recommended sources)
 
-* [Sigma HQ (detection rules)](https://github.com/SigmaHQ/sigma/tree/master/rules) 
-* [Splunk Security content (free detection rules for Splunk)](https://research.splunk.com/) 
+* watch SIEM rules publications:
+  * [Sigma HQ (detection rules)](https://github.com/SigmaHQ/sigma/tree/master/rules) 
+  * [Splunk Security content (free detection rules for Splunk)](https://research.splunk.com/) 
+  * [Michel De Crevoisier's Git](https://github.com/mdecrevoisier/SIGMA-detection-rules)
 * [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence) 
 * LinkedIn / Twitter:
   * e.g.: [LinkedIn Information Security Community group](https://www.linkedin.com/groups/38412/) 
@@ -93,7 +95,7 @@ See: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/aweso
   * e.g.: [Netvibes](https://www.netvibes.com/phvialle?page=phvialle#Security)  
 * Government CERT, industry sector related CERT...
   * e.g.: [CERT-FR](https://www.cert.ssi.gouv.fr/avis/), [CERT-US](https://www.cisa.gov/uscert/ncas/alerts)
-* other interesting websites:
+* Other interesting websites:
   * e.g.: [ISC](https://isc.sans.edu/), [ENISA](https://www.enisa.europa.eu/publications), [ThreatPost](https://threatpost.com/) ...
 
 
@@ -157,14 +159,14 @@ describe their structure.
 
 
 ## SOC Self-assessment:
-*	[SOC Cyber maturity model](https://www.soc-cmm.com/introduction/) 
-*	[SOC-CMM self-assessment tool](https://www.soc-cmm.com/downloads/latest/) 
+*	Read the [SOC Cyber maturity model](https://www.soc-cmm.com/introduction/) from CMM
+*	Run the [SOC-CMM self-assessment tool](https://www.soc-cmm.com/downloads/latest/) 
 
 ## CERT/CSIRT self-assessment:
-* ENISA, [OpenCSIRT cybersecurity maturity framework](https://www.enisa.europa.eu/topics/csirts-in-europe/csirt-capabilities/csirt-maturity/)  
-  * OpenCSIRT, [SIM3 self-assessment](https://sim3-check.opencsirt.org/#/v1/) 
-* CMM, [SOC-CMM 4CERT](https://www.soc-cmm.com/4CERT/) 
-  * [SOC-CMM 4CERT self-assessment tool](https://www.soc-cmm.com/downloads/latest/soc-cmm%20for%20CERT%201.0%20-%20advanced.xlsx)
+* Read the [OpenCSIRT cybersecurity maturity framework](https://www.enisa.europa.eu/topics/csirts-in-europe/csirt-capabilities/csirt-maturity/) from ENISA 
+  * Run the OpenCSIRT, [SIM3 self-assessment](https://sim3-check.opencsirt.org/#/v1/) 
+* Read the [SOC-CMM 4CERT](https://www.soc-cmm.com/4CERT/) from CMM
+  * Run the [SOC-CMM 4CERT self-assessment tool](https://www.soc-cmm.com/downloads/latest/soc-cmm%20for%20CERT%201.0%20-%20advanced.xlsx)
   
 ## Reporting:
 * Generate metrics, leveraging the SIRP capabilities to do so:
@@ -238,4 +240,4 @@ describe their structure.
 [CC-BY-SA](https://en.wikipedia.org/wiki/Creative_Commons_license)
 
 ## Special thanks:
-Yann F., Wojtek S., Nicolas R., Clément G., Alexandre C., Jean B., Frédérique B., Pierre d'H., Hamdi C., Fabien L., Gilles B., Olivier R., Jean-François L., Fabrice M., Pascal R., Florian S., Maxime P., Pascal L., Jérémy d'A., Olivier C. x2, David G., Guillaume D., Patrick C., Lesley K., Gérald G., Jean-Baptiste V., Antoine C.
+Yann F., Wojtek S., Nicolas R., Clément G., Alexandre C., Jean B., Frédérique B., Pierre d'H., Hamdi C., Fabien L., Michel de C., Gilles B., Olivier R., Jean-François L., Fabrice M., Pascal R., Florian S., Maxime P., Pascal L., Jérémy d'A., Olivier C. x2, David G., Guillaume D., Patrick C., Lesley K., Gérald G., Jean-Baptiste V., Antoine C.
