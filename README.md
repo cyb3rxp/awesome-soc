@@ -72,29 +72,30 @@ Hence 3 critical tools (see below): SIRP, TIP, SOA, on top of SIEM.
   * See [Gartner magic quadrant](https://www.microsoft.com/security/blog/uploads/securityprod/2022/01/Gartner-EIA-1963x2048.png) 
   * My recommendations: [SentinelOne](https://www.sentinelone.com/blog/active-edr-feature-spotlight/), [Microsoft Defender for Endpoint](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide), [Harfanglab](https://www.harfanglab.io/en/block-cyberattacks).
 * **[Secure Email Gateway](https://www.gartner.com/reviews/market/email-security)**
+  * See [Gartner reviews and ratings](https://www.gartner.com/reviews/market/email-security)
   * My recommendation: [Microsoft Defender for Office365](https://www.microsoft.com/en-us/security/business/siem-and-xdr/microsoft-defender-office-365), [ProofPoint](https://www.proofpoint.com/fr/threat-reference/email-gateway), [Mimecast](https://www.mimecast.com/products/email-security/secure-email-gateway/)
 * **[Secure Weg Gateway](https://www.gartner.com/en/information-technology/glossary/secure-web-gateway)** / Security Service Edge 
   * see [Gartner magic quadrant](https://www.zscaler.fr/cdn-cgi/image/format%3Dauto/sites/default/files/images/page/gartner-magic-quadrant-security-service-edge-sse-2022/zscaler-gartner-sse-2022-%401x.png) 
   * My recommendations: BlueCoat, CISCO, Zscaler
 * **AD security** (audit logs, or specific security monitoring solutions)
   * My recommendations: [Semperis](https://www.purple-knight.com/fr/?utm_source=gads&utm_medium=paidsearch&utm_campaign=pk_emea&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITV3yX7Nn6_GR-YVwiOANFvS9wsEQdTyUGHvMMirMzNQEoQ1Q3EQYIMaAjTgEALw_wcB) or [PingCastle](https://www.pingcastle.com/download/)
-* Asset Security Monitoring / Attack Surface Management:
+* **ASM**: Asset Security Monitoring / Attack Surface Management:
   * My recommendation: [Intrinsec (in French)](https://www.intrinsec.com/monitoring-cyber/), [Mandiant](https://www.mandiant.fr/advantage/attack-surface-management)
-* [Cloud Access Security Broker](https://www.gartner.com/en/information-technology/glossary/cloud-access-security-brokers-casbs), if company's IT environment uses a lot of external services like SaaS/IaaS:
+* **CASB**: [Cloud Access Security Broker](https://www.gartner.com/en/information-technology/glossary/cloud-access-security-brokers-casbs), if company's IT environment uses a lot of external services like SaaS/IaaS:
    * See [Gartner magic quadrant](https://www.netskope.com/wp-content/uploads/2021/01/Screen-Shot-2021-01-05-at-10.15.23-AM-1024x456.png)
    * My recommendations: Microsoft, Zscaler, Netskope.
 
 ## Critical tools for a SOC:
 * ticketing system:
   * My recommendation: [GitLab](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/sec-incident-response.html)
-* knowledge sharing and management:
+* knowledge sharing and management tool:
   * My recommendations: [Microsoft SharePoint](https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration), Wiki (choose the one you prefer, or [use GitLab as a Wiki](https://docs.gitlab.com/ee/user/project/wiki/)).
 
 
 ## Critical tools for CERT:
 * On-demand sandbox:
   * My recommendations: [Joe's sandbox](https://www.joesandbox.com/#windows), [Hybrid Analysis](https://www.hybrid-analysis.com/), etc.
-* Forensics and reverse-engineering tools suite
+* Forensics and reverse-engineering tools suite:
   * My recommendations: [SIFT Workstation](https://www.sans.org/tools/sift-workstation/), or [Tsurugi](https://tsurugi-linux.org/)
   * My recommendation for reverse engineering, [FireEye Flare-VM](https://github.com/mandiant/flare-vm)
 * Incident tracker: 
