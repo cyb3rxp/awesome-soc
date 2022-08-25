@@ -113,7 +113,8 @@ Hence 3 critical tools (see below): SIRP, TIP, SOA, on top of SIEM.
   * [Sigma HQ (detection rules)](https://github.com/SigmaHQ/sigma/tree/master/rules) 
   * [Splunk Security content (free detection rules for Splunk)](https://research.splunk.com/) 
   * [Michel De Crevoisier's Git](https://github.com/mdecrevoisier/SIGMA-detection-rules)
-* [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence) 
+* Threat intel sources:
+  * [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence) 
 * Known exploited vulnerabilities: 
   * [CISA catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 * LinkedIn / Twitter:
@@ -179,7 +180,7 @@ describe their structure.
 ## Detection quality controls: 
  * **Run regular [purpleteaming sessions](https://about.gitlab.com/handbook/engineering/security/threat-management/red-team/purple-teaming/)** in time!!
    * e.g.: [Intrinsec](https://www.intrinsec.com/purple-team/), [FireEye](https://www.fireeye.fr/content/dam/fireeye-www/regional/fr_FR/services/pdfs/ds-purple-team-assessment.pdf)
- * Ricture the detection capabilities and the purpleteaming work, with tools based on ATT&CK:
+ * Picture the detection capabilities and the purpleteaming work, with tools based on ATT&CK:
    * e.g.: [Vectr](https://github.com/securityriskadvisors/vectr)
 
 
