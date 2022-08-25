@@ -86,9 +86,9 @@ Hence 3 critical tools (see below): SIRP, TIP, SOA, on top of SIEM.
    * My recommendations: Microsoft, Zscaler, Netskope.
 
 ## Critical tools for a SOC:
-* ticketing system:
+* Ticketing system:
   * My recommendation: [GitLab](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/sec-incident-response.html)
-* knowledge sharing and management tool:
+* Knowledge sharing and management tool:
   * My recommendations: [Microsoft SharePoint](https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration), Wiki (choose the one you prefer, or [use GitLab as a Wiki](https://docs.gitlab.com/ee/user/project/wiki/)).
 
 
@@ -129,7 +129,7 @@ Hence 3 critical tools (see below): SIRP, TIP, SOA, on top of SIEM.
 # Management
 
 ## SOC HR and organization:
-* no real need for tiering (L1/L2/L3)
+* No real need for tiering (L1/L2/L3)
   * this is an old model for service provider, not necesseraly for a SOC!
   * as per MITRE paper (p65):
   >In this book, the constructs of “tier 1” and “tier 2+” are sometimes used to describe analysts
@@ -155,7 +155,7 @@ describe their structure.
   * build / project management team (which does tools deployment, SIEM data ingestion, and secific DevOps tasks).
 
 ## CERT HR and organization:
-* designate among team analysts: 
+* Designate among team analysts: 
   * triage officer;
   * incident handler;
   * incident manager;
@@ -172,14 +172,14 @@ describe their structure.
     * T1486: Data Encrypted for Impact, T1490: Inhibit System Recovery, T1027: Obfuscated Files or Information, T1047: Windows Management Instrumentation, T1036: Masquerading, T1059: Command and Scripting Interpreter, T1562: Impair Defenses, T1112: Modify Registry, T1204: User Execution, T1055: Process Injection.
 
 ## Data quality and management:
-* implement an information model, like the [Splunk CIM one](https://docs.splunk.com/Documentation/CIM/5.0.1/User/Overview):
+* Implement an information model, like the [Splunk CIM one](https://docs.splunk.com/Documentation/CIM/5.0.1/User/Overview):
   * do not hesitate to extend it, depending on your needs
   * make sure this datamodel is being implemented in the SIEM, SIRP, SOA and even TIP.
 
 ## Detection quality controls: 
  * **Run regular [purpleteaming sessions](https://about.gitlab.com/handbook/engineering/security/threat-management/red-team/purple-teaming/)** in time!!
    * e.g.: [Intrinsec](https://www.intrinsec.com/purple-team/), [FireEye](https://www.fireeye.fr/content/dam/fireeye-www/regional/fr_FR/services/pdfs/ds-purple-team-assessment.pdf)
- * picture the detection capabilities and the purpleteaming work, with tools based on ATT&CK:
+ * Ricture the detection capabilities and the purpleteaming work, with tools based on ATT&CK:
    * e.g.: [Vectr](https://github.com/securityriskadvisors/vectr)
 
 
@@ -264,8 +264,8 @@ describe their structure.
 ## Harden SOC environment
 * Implement hardening measures on SOC workstations, servers, and IT services that are used (if possible).
    * e.g.: [CIS](https://www.cisecurity.org/), [Microsoft Security Compliance Toolkit](https://www.microsoft.com/en-us/download/details.aspx?id=55319)
-* Put the SOC assets in a separate AD forest, as [forest is the AD security boundary](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/gathering-information-about-your-active-directory-deployment)
-* Create a disaster recovery plan for the SOC assets and resources.
+* Put the SOC assets in a separate AD forest, as [forest is the AD security boundary](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/gathering-information-about-your-active-directory-deployment), for isolation purposes, in case of a global enterprise's IT compromise
+* Create/provide a disaster recovery plan for the SOC assets and resources.
 
 
 # Appendix
