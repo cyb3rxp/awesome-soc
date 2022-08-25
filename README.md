@@ -27,6 +27,7 @@ As an IT security teacher used to tell his students, like a SOC motto: "Without 
 
 ### Typical incident handling workflow:
 As per ENISA paper see [below](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#for-a-cert) 
+
 ![image](https://user-images.githubusercontent.com/16035152/186770414-d0d75e68-7c0f-4285-9eb2-a67cabdd5fdd.png)
 
 
@@ -34,12 +35,14 @@ As per ENISA paper see [below](https://github.com/cyb3rxp/awesome-soc/blob/main/
 
 ### SOC operating context:
 As per MITRE paper (SOC strategies, see [below](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#for-a-soc)):
+
 ![image](https://user-images.githubusercontent.com/16035152/186769340-6c621383-d06a-4d48-8c09-f54cc29aaf3c.png)
 
 
 
 ## What is purple/red/blue team?
 Quoting [Lutessa](https://www.lutessa.com/?p=5524):
+
 ![image](https://user-images.githubusercontent.com/16035152/186768852-464d6e3b-1081-45ff-b0bf-0c21ea54dcaf.png)
 
 
