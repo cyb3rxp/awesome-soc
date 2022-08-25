@@ -8,6 +8,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 # TOC
 * [Basic concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#basic-concepts)
 * [Must read](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#must-read)
+* [What is SOAR?](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#what-is-soar)
 * [Critical means (tools/sensors)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#critical-means-toolssensors)
 * [IT/security Watch (recommended sources)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#itsecurity-watch)
 * [Management](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#management)
@@ -36,8 +37,13 @@ See: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/aweso
 * ThreatConnect, [SIRP / SOA / TIP benefits](https://threatconnect.com/blog/realizing-the-benefits-of-security-orchestration-automation-and-response-soar/) 
 * Orange Cyberdefense, [Feedback regarding experience with SOAR in 2020 (in French)](https://www.orangecyberdefense.com/fr/insights/blog/threat-management/soar-quelles-conclusions-en-2020) 
 
+# What is SOAR?
 
+As per [Gartner definition](https://securityboulevard.com/2021/08/gartner-soar-magic-quadrant-when-where-and-how/):
 
+![image](https://user-images.githubusercontent.com/16035152/186781422-ebb3996a-da66-4d27-a55f-6065fa84fca5.png)
+
+Hence 3 critical tools (see below): SIRP, TIP, SOA, on top of SIEM.
 
 
 # Critical means (tools/sensors)
