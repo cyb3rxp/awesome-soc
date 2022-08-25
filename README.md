@@ -143,6 +143,8 @@ As per MITRE paper (see [below](https://github.com/cyb3rxp/awesome-soc/blob/main
 ## Detection quality controls: 
  * **Run regular [purpleteaming sessions](https://about.gitlab.com/handbook/engineering/security/threat-management/red-team/purple-teaming/)** in time!!
    * e.g.: [Intrinsec](https://www.intrinsec.com/purple-team/), [FireEye](https://www.fireeye.fr/content/dam/fireeye-www/regional/fr_FR/services/pdfs/ds-purple-team-assessment.pdf)
+ * picture the detection capabilities and the purpleteaming work, with tools based on ATT&CK
+   * e.g.: [Vectr](https://github.com/securityriskadvisors/vectr)
 
 
 ## Detection capabilities representation standard:
@@ -150,7 +152,7 @@ As per MITRE paper (see [below](https://github.com/cyb3rxp/awesome-soc/blob/main
 
 ## SOC detection capabilities **simplified** representation:
  * Generate [ATT&CK heatmaps](https://www.signalblur.io/getting-started-with-mitres-att-ck-navigator/), to picture the SOC detection capabilities
-   * e.g.: [Vectr](https://github.com/securityriskadvisors/vectr)
+
 
 ## SOC Self-assessment:
 *	[SOC Cyber maturity model](https://www.soc-cmm.com/introduction/) 
