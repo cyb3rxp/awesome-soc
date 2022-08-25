@@ -83,7 +83,7 @@ Hence 3 critical tools (see below): SIRP, TIP, SOA, on top of SIEM.
   * My recommendation: [Intrinsec (in French)](https://www.intrinsec.com/monitoring-cyber/), [Mandiant](https://www.mandiant.fr/advantage/attack-surface-management)
 * **CASB**: [Cloud Access Security Broker](https://www.gartner.com/en/information-technology/glossary/cloud-access-security-brokers-casbs), if company's IT environment uses a lot of external services like SaaS/IaaS:
    * See [Gartner magic quadrant](https://www.netskope.com/wp-content/uploads/2021/01/Screen-Shot-2021-01-05-at-10.15.23-AM-1024x456.png)
-   * My recommendations: Microsoft, Zscaler, Netskope.
+   * My recommendations: [Microsoft MCAS](https://www.microsoft.com/en-us/security/business/siem-and-xdr/microsoft-defender-cloud-apps), [Zscaler](https://info.zscaler.com/resources-white-papers-data-protection-challenges?_bt=534426399999&_bk=%2Bzscaler%20%2Bcasb&_bm=b&_bn=g&_bg=121807608181&utm_source=google&utm_medium=cpc&utm_campaign=google-ads-na&gclid=CjwKCAjwu5yYBhAjEiwAKXk_eKLlKaMfJ-oGYItPTHguAmCA_b9WP0zNZgLPqGKjfC19IGmQFFG_9RoCgJAQAvD_BwE), [Netskope](https://www.netskope.com/security-defined/what-is-casb).
 
 ## Critical tools for a SOC:
 * Ticketing system:
@@ -99,12 +99,12 @@ Hence 3 critical tools (see below): SIRP, TIP, SOA, on top of SIEM.
   * My recommendations: [SIFT Workstation](https://www.sans.org/tools/sift-workstation/), or [Tsurugi](https://tsurugi-linux.org/)
   * My recommendation for reverse engineering, [FireEye Flare-VM](https://github.com/mandiant/flare-vm)
 * Incident tracker: 
-  * My recommendations: [Timesketch](https://timesketch.org/)
+  * My recommendation: [Timesketch](https://timesketch.org/)
 * Scanners:
   * IOC scanners:
     * My recommendations: [Loki](https://github.com/Neo23x0/Loki), [DFIR-ORC](https://github.com/dfir-orc)
   * Offline antimalware scanners: 
-    * My recommendations: [Windows Defender Offline](https://support.microsoft.com/en-us/windows/help-protect-my-pc-with-microsoft-defender-offline-9306d528-64bf-4668-5b80-ff533f183d6c)
+    * My recommendation: [Windows Defender Offline](https://support.microsoft.com/en-us/windows/help-protect-my-pc-with-microsoft-defender-offline-9306d528-64bf-4668-5b80-ff533f183d6c)
     
 
 # IT/security Watch
@@ -245,7 +245,7 @@ describe their structure.
 
 
 ## SOC sensors, nice to have:
-* Honeypot
+* Honeypot:
   * My recommendation: [Canary.tools](https://canary.tools/)
 * NDR:
   * My recommendation: [Gatewatcher](https://www.gatewatcher.com/en/our-solutions/trackwatch/)
@@ -254,15 +254,15 @@ describe their structure.
 * DLP:
   * See [Gartner reviews and ratings](https://www.gartner.com/reviews/market/data-loss-prevention)
 * Network TAP:
-  * my recommendation: [Gigamon](https://www.gigamon.com/products/access-traffic/network-taps.html)
+  * My recommendation: [Gigamon](https://www.gigamon.com/products/access-traffic/network-taps.html)
 
 
 ## Management:
-* Define SOC priorities, with feared events and offensive scenarios (TTP) to be monitored, as per risk analysis results
+* Define SOC priorities, with feared events and offensive scenarios (TTP) to be monitored, as per risk analysis results.
   * My recommendation: leverage EBIOS RM methodology (see above).
 
-* Leverage machine learning, wherever it can be relevant in terms of good ratio false positives / real positives;
-  * My recommendation: be careful, try not to saturate SOC consoleS with FP.
+* Leverage machine learning, wherever it can be relevant in terms of good ratio false positives / real positives.
+  * My recommendation: be careful, try not to saturate SOC consoles with FP.
 
 
 ## Harden SOC environment
