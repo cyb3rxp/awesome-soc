@@ -10,7 +10,7 @@ Data, tools, and capabilities:
 ![image](https://user-images.githubusercontent.com/16035152/186420020-8507b3b3-7fb8-46cf-a5f9-9d6506284cb2.png)
 
 
-## SOC/CERT processes and workflows:
+## SOC/CERT processes and workflows
 
 ### Incident response lifecycle (detection // incident response):
 As per NIST SP800-61 rev2 paper (see [below](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#for-a-soc)):
@@ -24,7 +24,7 @@ As per ENISA paper see [below](https://github.com/cyb3rxp/awesome-soc/blob/main/
 ![image](https://user-images.githubusercontent.com/16035152/186770414-d0d75e68-7c0f-4285-9eb2-a67cabdd5fdd.png)
 
 
-## SOC mission and context:
+## SOC mission and context
 
 ### SOC operating context:
 As per MITRE paper (SOC strategies, see [below](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#for-a-soc)):
@@ -37,3 +37,6 @@ As per MITRE paper (SOC strategies, see [below](https://github.com/cyb3rxp/aweso
 Quoting [Lutessa](https://www.lutessa.com/?p=5524):
 
 ![image](https://user-images.githubusercontent.com/16035152/186768852-464d6e3b-1081-45ff-b0bf-0c21ea54dcaf.png)
+
+# End
+Go to [main page](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md).
