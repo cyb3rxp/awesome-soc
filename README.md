@@ -214,7 +214,7 @@ describe their structure.
 # IT achitecture
 
 ## Disconnect SOC from monitored environment
-* Implement SOC enclaves, as per MITRE paper:
+* Implement SOC enclave (with network isolation), as per MITRE paper drawing:
 ![image](https://user-images.githubusercontent.com/16035152/186420265-4c0275b2-d70e-4fec-936c-712c1c4802a8.png)
 
 
@@ -252,7 +252,9 @@ describe their structure.
   * My recommendation: [Microsoft Intune](https://docs.microsoft.com/en-us/mem/intune/fundamentals/what-is-intune)
 * DLP:
   * See [Gartner reviews and ratings](https://www.gartner.com/reviews/market/data-loss-prevention)
-* Network TAP.
+* Network TAP:
+  * my recommendation: [Gigamon](https://www.gigamon.com/products/access-traffic/network-taps.html)
+
 
 ## Management:
 * Define SOC priorities, with feared events and offensive scenarios (TTP) to be monitored, as per risk analysis results
@@ -262,6 +264,8 @@ describe their structure.
 ## Harden SOC environment
 * Implement hardening measures on SOC workstations, servers, and IT services that are used (if possible).
    * e.g.: [CIS](https://www.cisecurity.org/), [Microsoft Security Compliance Toolkit](https://www.microsoft.com/en-us/download/details.aspx?id=55319)
+* Put the SOC assets in a separate AD forest, as [forest is the AD security boundary](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/gathering-information-about-your-active-directory-deployment)
+* Create a disaster recovery plan for the SOC assets and resources.
 
 
 # Appendix
