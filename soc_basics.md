@@ -34,7 +34,7 @@ As per MITRE paper (SOC strategies, see [below](https://github.com/cyb3rxp/aweso
 
 
 ## What is purple/red/blue team?
-Quoting [Lutessa](https://www.lutessa.com/?p=5524):
+Quoting [Lutessa (in French)](https://www.lutessa.com/?p=5524):
 
 ![image](https://user-images.githubusercontent.com/16035152/186768852-464d6e3b-1081-45ff-b0bf-0c21ea54dcaf.png)
 
