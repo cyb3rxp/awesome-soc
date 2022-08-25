@@ -35,51 +35,51 @@ See: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/aweso
 ## Critical tools for a SOC/CERT:
 * **[SIEM](https://www.gartner.com/en/information-technology/glossary/security-information-and-event-management-siem)**
    * See [Gartner magic quadrant](https://www.bankinfosecurity.com/whitepapers/2021-gartner-magic-quadrant-for-security-information-event-w-8758) 
-   * My recommendation: [Splunk](www.splunk.com), [Elastic](https://www.elastic.co/)
+   * My recommendations: [Splunk](www.splunk.com), [Elastic](https://www.elastic.co/)
 * **[SIRP](https://d3security.com/blog/whats-the-difference-between-soar-and-sao/)**
-  * e.g.: [IBM Resilient](https://www.ibm.com/qradar/security-qradar-soar?utm_content=SRCWW&p1=Search&p4=43700068028974608&p5=e&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITW2yUqAfNqWNeYXyENeUAoqLxV543LT0n2oYhYxEQ47Yjm7NfYTFHAaAtwpEALw_wcB&gclsrc=aw.ds),  [TheHive](https://thehive-project.org/), [SwimLane](https://swimlane.com/), [PAN Cortex XSOAR](https://www.paloaltonetworks.com/cortex/cortex-xsoar)
+  * e.g.: [IBM Resilient](https://www.ibm.com/qradar/security-qradar-soar?utm_content=SRCWW&p1=Search&p4=43700068028974608&p5=e&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITW2yUqAfNqWNeYXyENeUAoqLxV543LT0n2oYhYxEQ47Yjm7NfYTFHAaAtwpEALw_wcB&gclsrc=aw.ds),  [TheHive](https://thehive-project.org/), [SwimLane](https://swimlane.com/)
 * **[SOA](https://d3security.com/blog/whats-the-difference-between-soar-and-sao/)**
-  * My recommendation: [IBM Resilient]( https://www.ibm.com/qradar/security-qradar-soar?utm_content=SRCWW&p1=Search&p4=43700068028974608&p5=e&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITW2yUqAfNqWNeYXyENeUAoqLxV543LT0n2oYhYxEQ47Yjm7NfYTFHAaAtwpEALw_wcB&gclsrc=aw.ds), [SwimLane](https://swimlane.com/), [TheHive](https://thehive-project.org/), [PAN Cortex XSOAR](https://www.paloaltonetworks.com/cortex/cortex-xsoar)
+  * My recommendations: [IBM Resilient]( https://www.ibm.com/qradar/security-qradar-soar?utm_content=SRCWW&p1=Search&p4=43700068028974608&p5=e&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITW2yUqAfNqWNeYXyENeUAoqLxV543LT0n2oYhYxEQ47Yjm7NfYTFHAaAtwpEALw_wcB&gclsrc=aw.ds), [SwimLane](https://swimlane.com/), [TheHive](https://thehive-project.org/), [PAN Cortex XSOAR](https://www.paloaltonetworks.com/cortex/cortex-xsoar)
 * **[TIP](https://www.ssi.gouv.fr/en/actualite/opencti-the-open-source-solution-for-processing-and-sharing-threat-intelligence-knowledge/)**
-  * My recommendation: [MISP](https://www.misp-project.org/), [OpenCTI](https://www.filigran.io/en/products/opencti/), [Sekoia.io](https://www.sekoia.io/fr/produire-et-personnaliser-votre-propre-intelligence/), [ThreatQuotient](https://www.threatq.com/)
+  * My recommendations: [MISP](https://www.misp-project.org/), [OpenCTI](https://www.filigran.io/en/products/opencti/), [Sekoia.io](https://www.sekoia.io/fr/produire-et-personnaliser-votre-propre-intelligence/), [ThreatQuotient](https://www.threatq.com/)
   * don't forget the needed feeds (community / paid ones)
-     * My recommendation for paid ones: [ESET](https://www.eset.com/us/business/services/threat-intelligence/), [Sekoia.io](https://www.sekoia.io/fr/sekoia-io-cti/), [Mandiant](https://www.mandiant.com/advantage/threat-intelligence/subscribe), [RecordedFuture](https://www.recordedfuture.com/platform/threat-intelligence)...
-     * My recommendation for community ones: MISP default feeds list, [ISAC](https://www.enisa.europa.eu/publications/information-sharing-and-analysis-center-isacs-cooperative-models), [OTX](https://otx.alienvault.com/api), the [Covert.io list](http://www.covert.io/threat-intelligence/).
+     * My recommendations for paid ones: [ESET](https://www.eset.com/us/business/services/threat-intelligence/), [Sekoia.io](https://www.sekoia.io/fr/sekoia-io-cti/), [Mandiant](https://www.mandiant.com/advantage/threat-intelligence/subscribe), [RecordedFuture](https://www.recordedfuture.com/platform/threat-intelligence)...
+     * My recommendations for community ones: MISP default feeds list, [ISAC](https://www.enisa.europa.eu/publications/information-sharing-and-analysis-center-isacs-cooperative-models), [OTX](https://otx.alienvault.com/api), the [Covert.io list](http://www.covert.io/threat-intelligence/).
      
 
 ## Critical sensors for a SOC:
 
 * **Antimalware**
   * See [Gartner magic quadrant](https://www.threatscape.com/microsoft-security-named-leader-in-4-gartner-magic-quadrants/) 
-  * My recommendation: Microsoft Defender, BitDefender, ESET Nod32.
+  * My recommendations: Microsoft Defender, BitDefender, ESET Nod32.
 * **[Endpoint Detection and Response](https://www.gartner.com/reviews/market/endpoint-detection-and-response-solutions)** 
   * see [Gartner magic quadrant](https://www.microsoft.com/security/blog/uploads/securityprod/2022/01/Gartner-EIA-1963x2048.png) 
-  * My recommendation: SentinelOne, Microsoft Defender for Endpoint, Harfanglab.
+  * My recommendations: SentinelOne, Microsoft Defender for Endpoint, Harfanglab.
 * **[Secure Email Gateway](https://www.gartner.com/reviews/market/email-security)**
   * My recommendation: [Microsoft Defender for Office365](https://www.microsoft.com/en-us/security/business/siem-and-xdr/microsoft-defender-office-365), [ProofPoint](https://www.proofpoint.com/fr/threat-reference/email-gateway), [Mimecast](https://www.mimecast.com/products/email-security/secure-email-gateway/)
 * **[Secure Weg Gateway](https://www.gartner.com/en/information-technology/glossary/secure-web-gateway)** / Security Service Edge 
   * see [Gartner magic quadrant](https://www.zscaler.fr/cdn-cgi/image/format%3Dauto/sites/default/files/images/page/gartner-magic-quadrant-security-service-edge-sse-2022/zscaler-gartner-sse-2022-%401x.png) 
-  * My recommendation: BLueCoat, CISCO, Zscaler
+  * My recommendations: BLueCoat, CISCO, Zscaler
 * **AD security** (audit logs, or specific security monitoring solutions)
-  * My recommendation: [Semperis](https://www.purple-knight.com/fr/?utm_source=gads&utm_medium=paidsearch&utm_campaign=pk_emea&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITV3yX7Nn6_GR-YVwiOANFvS9wsEQdTyUGHvMMirMzNQEoQ1Q3EQYIMaAjTgEALw_wcB) or [PingCastle](https://www.pingcastle.com/download/)
+  * My recommendations: [Semperis](https://www.purple-knight.com/fr/?utm_source=gads&utm_medium=paidsearch&utm_campaign=pk_emea&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITV3yX7Nn6_GR-YVwiOANFvS9wsEQdTyUGHvMMirMzNQEoQ1Q3EQYIMaAjTgEALw_wcB) or [PingCastle](https://www.pingcastle.com/download/)
 * [Cloud Access Security Broker](https://www.gartner.com/en/information-technology/glossary/cloud-access-security-brokers-casbs), if company's IT environment uses a lot of external services like SaaS/IaaS:
    * See [Gartner magic quadrant](https://www.netskope.com/wp-content/uploads/2021/01/Screen-Shot-2021-01-05-at-10.15.23-AM-1024x456.png)
-   * My recommendation: Microsoft, Zscaler, Netskope.
+   * My recommendations: Microsoft, Zscaler, Netskope.
 
 
 ## Critical tools for CERT:
 * On-demand sandbox:
-  * My recommendation: [Joe's sandbox](https://www.joesandbox.com/#windows), [Hybrid Analysis](https://www.hybrid-analysis.com/), etc.
+  * My recommendations: [Joe's sandbox](https://www.joesandbox.com/#windows), [Hybrid Analysis](https://www.hybrid-analysis.com/), etc.
 * Forensics and reverse-engineering tools suite
-  * My recommendation: [SIFT Workstation](https://www.sans.org/tools/sift-workstation/), or [Tsurugi](https://tsurugi-linux.org/)
-  * My recommendation: for reverse engineering, [FireEye Flare-VM](https://github.com/mandiant/flare-vm)
+  * My recommendations: [SIFT Workstation](https://www.sans.org/tools/sift-workstation/), or [Tsurugi](https://tsurugi-linux.org/)
+  * My recommendations: for reverse engineering, [FireEye Flare-VM](https://github.com/mandiant/flare-vm)
 * Incident tracker: 
-  * My recommendation: [Timesketch](https://timesketch.org/), [GitLab](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/sec-incident-response.html)
+  * My recommendations: [Timesketch](https://timesketch.org/), [GitLab](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/sec-incident-response.html)
 * Scanners:
   * IOC scanners:
-    * My recommendation: [Loki](https://github.com/Neo23x0/Loki)
+    * My recommendations: [Loki](https://github.com/Neo23x0/Loki), [DFIC-ORC](https://github.com/dfir-orc)
   * Offline antimalware scanners: 
-    * My recommendation: [Windows Defender Offline](https://support.microsoft.com/en-us/windows/help-protect-my-pc-with-microsoft-defender-offline-9306d528-64bf-4668-5b80-ff533f183d6c)
+    * My recommendations: [Windows Defender Offline](https://support.microsoft.com/en-us/windows/help-protect-my-pc-with-microsoft-defender-offline-9306d528-64bf-4668-5b80-ff533f183d6c)
     
 
 # IT/security Watch (recommended sources)
@@ -103,7 +103,22 @@ See: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/aweso
 * no real need for tiering (L1/L2/L3)
   * this is an old model for service provider, not necesseraly for a SOC!
   * as per MITRE paper (p65):
-  ![image](https://user-images.githubusercontent.com/16035152/186418647-c2d30648-fe83-4065-a68c-2db652e21c40.png)
+  >In this book, the constructs of “tier 1” and “tier 2+” are sometimes used to describe analysts
+who are primarily responsible for front-line alert triage and in-depth investigation/analysis/
+response, respectively. However, not all SOCs are arranged in this manner. In fact, some
+readers of this book are probably very turned off by the idea of tiering at all [38]. Some
+industry experts have outright called tier 1 as “dead” [39]. Once again, every SOC is different,
+and practitioners can sometimes be divided on the best way to structure operations. SOCs
+which do not organize in tiers may opt for an organizational structure more based on function.
+Many SOCs that have more than a dozen analysts find it necessary and appropriate to tier
+analysis in response to these goals and operational demands. Others do not and yet still
+succeed, both in terms of tradecraft maturity and repeatability in operations. Either arrangement
+can succeed if by observing the following tips that foreshadow a longer conversation about
+finding and nurturing staff in “Strategy 4: Hire AND Grow Quality Staff.”
+
+  > Highly effective SOCs enable their staff to reach outside their assigned
+duties on a routine basis, regardless of whether they use “tier” to
+describe their structure.
 
 * 3 different teams should be needed:
   * security monitoring team (which does actually the "job" of detecting security incident being fully autonomous)
@@ -164,8 +179,10 @@ See: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/aweso
 
 # IT achitecture
 
-Implement SOC enclaves, as per MITRE paper:
+## Disconnect SOC from monitored environment
+* Implement SOC enclaves, as per MITRE paper:
 ![image](https://user-images.githubusercontent.com/16035152/186420265-4c0275b2-d70e-4fec-936c-712c1c4802a8.png)
+
 
 
 
@@ -209,6 +226,10 @@ Implement SOC enclaves, as per MITRE paper:
 * Define SOC priorities, with feared events and offensive scenarios (TTP) to be monitored, as per risk analysis results
   * My recommendation: leverage EBIOS RM methodology (see above).
 
+
+## Harden SOC environment
+* Implement hardening measures on SOC workstations, servers, and IT services that are used (if possible).
+   * e.g.: [CIS](https://www.cisecurity.org/), [Microsoft Security Compliance Toolkit](https://www.microsoft.com/en-us/download/details.aspx?id=55319)
 
 
 # Appendix
