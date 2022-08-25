@@ -38,5 +38,14 @@ Quoting [Lutessa](https://www.lutessa.com/?p=5524):
 
 ![image](https://user-images.githubusercontent.com/16035152/186768852-464d6e3b-1081-45ff-b0bf-0c21ea54dcaf.png)
 
+
+## Most common infection vectors:
+
+Based on experience, and on numerous malware statistics, the following should be considered:
+* emails;
+* web browsing;
+* USB sticks / removable storage;
+* exposed (internet facing) services/apps and equipments (e.g.: appliances)
+
 # End
 Go to [main page](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md).
