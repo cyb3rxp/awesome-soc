@@ -5,7 +5,7 @@
 As per MITRE paper (SOC strategies, see [below](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#for-a-soc)):
 ![image](https://user-images.githubusercontent.com/16035152/186421761-ff5bab84-5982-43e1-8d0c-fa9406422b2c.png)
 
-## Typical SOC:
+### Typical SOC:
 Data, tools, and capabilities:
 ![image](https://user-images.githubusercontent.com/16035152/186420020-8507b3b3-7fb8-46cf-a5f9-9d6506284cb2.png)
 
