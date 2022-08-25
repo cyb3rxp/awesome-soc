@@ -227,7 +227,7 @@ describe their structure.
 * MITRE, [11 strategies for a world-class SOC (remaining of PDF)](https://www.mitre.org/publications/technical-papers/11-strategies-world-class-cybersecurity-operations-center) 
 *	Microsoft, [SOC/IR hierarchy of needs](https://github.com/swannman/ircapabilities) 
 * CISA, [Cyber Defense Incident Responder role](https://www.cisa.gov/cyber-defense-incident-responder)
-* Betaalvereniging, [TahiTI (threat huting methdology)](https://www.betaalvereniging.nl/wp-content/uploads/TaHiTI-Threat-Hunting-Methodology-whitepaper.pdf) 
+* Betaalvereniging, [TahiTI (threat hunting methodology)](https://www.betaalvereniging.nl/wp-content/uploads/TaHiTI-Threat-Hunting-Methodology-whitepaper.pdf) 
 * GMU, [Improving Social Maturity of Cybersecurity Incident Response Teams](https://edu.anarcho-copy.org/Against%20Security%20-%20Self%20Security/GMU_Cybersecurity_Incident_Response_Team_social_maturity_handbook.pdf)
 * FireEye, [Purple Team Assessment](https://www.fireeye.fr/content/dam/fireeye-www/regional/fr_FR/services/pdfs/ds-purple-team-assessment.pdf)
 * FIRST, [CVSS v3.1 specs](https://www.first.org/cvss/specification-document) 
@@ -260,6 +260,9 @@ describe their structure.
 ## Management:
 * Define SOC priorities, with feared events and offensive scenarios (TTP) to be monitored, as per risk analysis results
   * My recommendation: leverage EBIOS RM methodology (see above).
+
+* Leverage machine learning, wherever it can be relevant in terms of good ratio false positives / real positives;
+  * My recommendation: be careful, try not to saturate SOC consoleS with FP.
 
 
 ## Harden SOC environment
