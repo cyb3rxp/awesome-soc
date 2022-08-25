@@ -7,7 +7,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 
 # Basic concepts:
 
-see: 
+See: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md)
 
 # Must read
 
