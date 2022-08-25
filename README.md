@@ -62,6 +62,8 @@ See: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/aweso
   * My recommendations: BLueCoat, CISCO, Zscaler
 * **AD security** (audit logs, or specific security monitoring solutions)
   * My recommendations: [Semperis](https://www.purple-knight.com/fr/?utm_source=gads&utm_medium=paidsearch&utm_campaign=pk_emea&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITV3yX7Nn6_GR-YVwiOANFvS9wsEQdTyUGHvMMirMzNQEoQ1Q3EQYIMaAjTgEALw_wcB) or [PingCastle](https://www.pingcastle.com/download/)
+* Asset Security Monitoring / Attack Surface Management:
+  * My recommendation: [Intrinsec (in French)](https://www.intrinsec.com/monitoring-cyber/), [Mandiant](https://www.mandiant.fr/advantage/attack-surface-management)
 * [Cloud Access Security Broker](https://www.gartner.com/en/information-technology/glossary/cloud-access-security-brokers-casbs), if company's IT environment uses a lot of external services like SaaS/IaaS:
    * See [Gartner magic quadrant](https://www.netskope.com/wp-content/uploads/2021/01/Screen-Shot-2021-01-05-at-10.15.23-AM-1024x456.png)
    * My recommendations: Microsoft, Zscaler, Netskope.
@@ -212,8 +214,6 @@ describe their structure.
 
 
 ## SOC sensors, nice to have:
-* Asset Security Monitoring / Attack Surface Management:
-  * My recommendation: [Intrinsec (in French)](https://www.intrinsec.com/monitoring-cyber/), [Mandiant](https://www.mandiant.fr/advantage/attack-surface-management)
 * Honeypot
   * My recommendation: [Canary.tools](https://canary.tools/)
 * NDR:
