@@ -5,6 +5,16 @@ Those are my view, based on my own experience as SOC/CERT analyst and team manag
 
 NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to incident response activity.
 
+# TOC
+* [Basic concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#basic-concepts)
+* [Must read](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#must-read)
+* [Critical means (tools/sensors)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#critical-means-toolssensors)
+* [IT/security Watch (recommended sources)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#itsecurity-watch)
+* [Management](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#management)
+* [IT achitecture](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#it-achitecture)
+* [To go further (next steps)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#to-go-further)
+* [Appendix](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#appendix)
+
 # Basic concepts:
 
 See: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md)
@@ -68,15 +78,21 @@ See: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/aweso
    * See [Gartner magic quadrant](https://www.netskope.com/wp-content/uploads/2021/01/Screen-Shot-2021-01-05-at-10.15.23-AM-1024x456.png)
    * My recommendations: Microsoft, Zscaler, Netskope.
 
+## Critical tools for a SOC:
+* ticketing system:
+  * My recommendation: [GitLab](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/sec-incident-response.html)
+* knowledge sharing and management:
+  * My recommendations: [Microsoft SharePoint](https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration), Wiki (choose the one you prefer, or [use GitLab as a Wiki](https://docs.gitlab.com/ee/user/project/wiki/)).
+
 
 ## Critical tools for CERT:
 * On-demand sandbox:
   * My recommendations: [Joe's sandbox](https://www.joesandbox.com/#windows), [Hybrid Analysis](https://www.hybrid-analysis.com/), etc.
 * Forensics and reverse-engineering tools suite
   * My recommendations: [SIFT Workstation](https://www.sans.org/tools/sift-workstation/), or [Tsurugi](https://tsurugi-linux.org/)
-  * My recommendations: for reverse engineering, [FireEye Flare-VM](https://github.com/mandiant/flare-vm)
+  * My recommendation for reverse engineering, [FireEye Flare-VM](https://github.com/mandiant/flare-vm)
 * Incident tracker: 
-  * My recommendations: [Timesketch](https://timesketch.org/), [GitLab](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/sec-incident-response.html)
+  * My recommendations: [Timesketch](https://timesketch.org/)
 * Scanners:
   * IOC scanners:
     * My recommendations: [Loki](https://github.com/Neo23x0/Loki), [DFIR-ORC](https://github.com/dfir-orc)
