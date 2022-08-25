@@ -150,6 +150,7 @@ As per MITRE paper (see [below](https://github.com/cyb3rxp/awesome-soc/blob/main
 
 ## SOC detection capabilities **simplified** representation:
  * Generate [ATT&CK heatmaps](https://www.signalblur.io/getting-started-with-mitres-att-ck-navigator/), to picture the SOC detection capabilities
+   * e.g.: [Vectr](https://github.com/securityriskadvisors/vectr)
 
 ## SOC Self-assessment:
 *	[SOC Cyber maturity model](https://www.soc-cmm.com/introduction/) 
@@ -216,4 +217,4 @@ Implement SOC enclaves, as per MITRE paper:
 
 
 # Special thanks
-Clément G., Alexandre C., Jean B., Frédérique B., Pierre d'H., Hamdi C., Fabien L., Gilles B., Olivier R., Jean-François L., Fabrice M., Pascal R., Florian S., Maxime P., Pascal L., Jérémy d'A., Olivier C. x2, David G., Guillaume D., Patrick C., Lesley K., Gérald G., Jean-Baptiste V., Antoine C.
+Yann F., Wojtek S., Nicolas R., Clément G., Alexandre C., Jean B., Frédérique B., Pierre d'H., Hamdi C., Fabien L., Gilles B., Olivier R., Jean-François L., Fabrice M., Pascal R., Florian S., Maxime P., Pascal L., Jérémy d'A., Olivier C. x2, David G., Guillaume D., Patrick C., Lesley K., Gérald G., Jean-Baptiste V., Antoine C.
