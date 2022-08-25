@@ -190,6 +190,7 @@ Implement SOC enclaves, as per MITRE paper:
 * GMU, [Improving Social Maturity of Cybersecurity Incident Response Teams](https://edu.anarcho-copy.org/Against%20Security%20-%20Self%20Security/GMU_Cybersecurity_Incident_Response_Team_social_maturity_handbook.pdf)
 * FireEye, [Purple Team Assessment](https://www.fireeye.fr/content/dam/fireeye-www/regional/fr_FR/services/pdfs/ds-purple-team-assessment.pdf)
 * FIRST, [CVSS v3.1 specs](https://www.first.org/cvss/specification-document) 
+* Club EBIOS, [EBIOS RM (in French)](https://www.ssi.gouv.fr/uploads/2018/10/guide-methode-ebios-risk-manager.pdf)
 
 ## Nice to read:
 * NIST, [SP800-53 rev5 (Security and Privacy Controls for Information Systems and Organizations)](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
@@ -214,6 +215,10 @@ Implement SOC enclaves, as per MITRE paper:
 * DLP:
   * See [Gartner reviews and ratings](https://www.gartner.com/reviews/market/data-loss-prevention)
 * Network TAP.
+
+## Management:
+* Define SOC priorities, with feared events and offensive scenarios (TTP) to be monitored, as per risk analysis results (EBIOS RM methodology, see above).
+
 
 
 # Special thanks
