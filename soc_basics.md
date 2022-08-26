@@ -39,6 +39,13 @@ Quoting [Lutessa (in French)](https://www.lutessa.com/?p=5524):
 ![image](https://user-images.githubusercontent.com/16035152/186768852-464d6e3b-1081-45ff-b0bf-0c21ea54dcaf.png)
 
 
+## Attack lifecycle
+
+As per [Mandiant article](https://www.mandiant.com/resources/insights/targeted-attack-lifecycle):
+
+![image](https://user-images.githubusercontent.com/16035152/186893725-9da9c798-128b-416e-b93e-42cbf30baced.png)
+
+
 ## Most common infection vectors:
 
 Based on experience, and on numerous malware statistics, the following should be considered:
