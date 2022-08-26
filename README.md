@@ -156,8 +156,8 @@ describe their structure.
 
 * 3 different teams should be needed:
   * security monitoring team (which does actually the "job" of detecting security incident being fully autonomous)
-  * security monitoring engineering team (which fixes/improves security monitoring, like SIEM rules and SOA playbooks)
-  * build / project management team (which does tools deployment, SIEM data ingestion, and secific DevOps tasks).
+  * security monitoring engineering team (which fixes/improves security monitoring like SIEM rules and SOA playbooks, generates reportings)
+  * build / project management team (which does tools integration, SIEM data ingestion, specific DevOps tasks, project management).
 
 ## CERT HR and organization:
 * Designate among team analysts: 
