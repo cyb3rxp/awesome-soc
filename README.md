@@ -6,7 +6,7 @@ Those are my view, based on my own experience as SOC/CERT analyst and team manag
 NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to incident response activity.
 
 # TOC
-* [Basic concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#basic-concepts)
+* [Basic concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#fundamental-concepts)
 * [Must read](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#must-read)
 * [What is SOAR?](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#what-is-soar)
 * [Critical means (tools/sensors)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#critical-means-toolssensors)
@@ -16,7 +16,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * [To go further (next steps)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#to-go-further)
 * [Appendix](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#appendix)
 
-# Basic concepts:
+# Fundamental concepts:
 
 See: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md)
 
@@ -37,8 +37,9 @@ See: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/aweso
 * ThreatConnect, [SIRP / SOA / TIP benefits](https://threatconnect.com/blog/realizing-the-benefits-of-security-orchestration-automation-and-response-soar/) 
 * Orange Cyberdefense, [Feedback regarding experience with SOAR in 2020 (in French)](https://www.orangecyberdefense.com/fr/insights/blog/threat-management/soar-quelles-conclusions-en-2020) 
 * OASIS Open, [STIX](https://oasis-open.github.io/cti-documentation/stix/intro.html)
-* FIRST, [TLP](https://www.first.org/tlp/): intelligence sharing and confidentiality
+* FIRST, [TLP](https://www.first.org/tlp/)(intelligence sharing and confidentiality)
 * CIS, [8 critical security controls](https://www.cisecurity.org/controls/cis-controls-list)
+* 
 
 # What is SOAR?
 
@@ -228,14 +229,15 @@ describe their structure.
 
 ## Must read:
 * MITRE, [11 strategies for a world-class SOC (remaining of PDF)](https://www.mitre.org/publications/technical-papers/11-strategies-world-class-cybersecurity-operations-center) 
+* Club EBIOS, [EBIOS RM (in French)](https://www.ssi.gouv.fr/uploads/2018/10/guide-methode-ebios-risk-manager.pdf)
 *	Microsoft, [SOC/IR hierarchy of needs](https://github.com/swannman/ircapabilities) 
-*	FireEye, [OpenIOC format](https://github.com/fireeye/OpenIOC_1.1/blob/master/IOC_Terms_Defs.md)
 * CISA, [Cyber Defense Incident Responder role](https://www.cisa.gov/cyber-defense-incident-responder)
-* Betaalvereniging, [TahiTI (threat hunting methodology)](https://www.betaalvereniging.nl/wp-content/uploads/TaHiTI-Threat-Hunting-Methodology-whitepaper.pdf) 
+* Betaalvereniging, [TaHiTI (threat hunting methodology)](https://www.betaalvereniging.nl/wp-content/uploads/TaHiTI-Threat-Hunting-Methodology-whitepaper.pdf) 
 * GMU, [Improving Social Maturity of Cybersecurity Incident Response Teams](https://edu.anarcho-copy.org/Against%20Security%20-%20Self%20Security/GMU_Cybersecurity_Incident_Response_Team_social_maturity_handbook.pdf)
 * FireEye, [Purple Team Assessment](https://www.fireeye.fr/content/dam/fireeye-www/regional/fr_FR/services/pdfs/ds-purple-team-assessment.pdf)
+*	FireEye, [OpenIOC format](https://github.com/fireeye/OpenIOC_1.1/blob/master/IOC_Terms_Defs.md)
 * FIRST, [CVSS v3.1 specs](https://www.first.org/cvss/specification-document) 
-* Club EBIOS, [EBIOS RM (in French)](https://www.ssi.gouv.fr/uploads/2018/10/guide-methode-ebios-risk-manager.pdf)
+
 
 ## Nice to read:
 * NIST, [SP800-53 rev5 (Security and Privacy Controls for Information Systems and Organizations)](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
@@ -246,6 +248,7 @@ describe their structure.
 * Trellix, [XDR Gartner market guide](https://www.trellix.com/fr-fr/solutions/gartner-report-market-guide-xdr.html)
 * [Awesome Security Resources](https://github.com/Johnson90512/Awesome-Security-Resources)
 * [Incident Response & Computer Forensics, 3rd ed](https://www.google.fr/books/edition/Incident_Response_Computer_Forensics_Thi/LuWINQEACAAJ?hl=fr)
+* [GDPR cybersecurity implications](https://atelier-rgpd.cnil.fr/)(in French)
 
 
 ## SOC sensors, nice to have:
