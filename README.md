@@ -246,6 +246,7 @@ describe their structure.
 * CIS, [Business Impact Assessment](https://bia.cisecurity.org/) 
 * Abdessabour Boukari, [RACI template (in French)](https://github.com/cyberabdou/SOC/blob/77f01ba82c22cb11028cde4a862ae0bea4258378/SOC%20RACI.xlsx) 
 * Trellix, [XDR Gartner market guide](https://www.trellix.com/fr-fr/solutions/gartner-report-market-guide-xdr.html)
+* [RFC2350](https://www.cert.ssi.gouv.fr/uploads/CERT-FR_RFC2350_EN.pdf) (CERT description)
 * [Awesome Security Resources](https://github.com/Johnson90512/Awesome-Security-Resources)
 * [Incident Response & Computer Forensics, 3rd ed](https://www.google.fr/books/edition/Incident_Response_Computer_Forensics_Thi/LuWINQEACAAJ?hl=fr)
 * [GDPR cybersecurity implications](https://atelier-rgpd.cnil.fr/)(in French)
