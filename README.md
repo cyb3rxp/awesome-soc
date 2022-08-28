@@ -19,7 +19,13 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 
 # Fundamental concepts:
 
+## Concepts:
 See: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md).
+
+## SOC core: architecture of detection:
+As per [V1D1AN's Drawing](https://github.com/V1D1AN/S1EM/wiki/Architecture-guide#the-architecture-of-detection), here is an example of architecture of detection (SIEM = Elastic, SIRP = TheHive, SOA = Cortex, TIP = MISP + OpenCTI):
+![image](https://user-images.githubusercontent.com/16035152/187097429-ba64127f-a811-4d85-85b3-78f31c06d157.png)
+
 
 # Must read
 
@@ -288,6 +294,7 @@ describe their structure.
 * CIS, [Business Impact Assessment](https://bia.cisecurity.org/) 
 * Abdessabour Boukari, [RACI template (in French)](https://github.com/cyberabdou/SOC/blob/77f01ba82c22cb11028cde4a862ae0bea4258378/SOC%20RACI.xlsx) 
 * Trellix, [XDR Gartner market guide](https://www.trellix.com/fr-fr/solutions/gartner-report-market-guide-xdr.html)
+* Elastic, [BEATS agents](https://www.elastic.co/beats/)
 * [RFC2350](https://www.cert.ssi.gouv.fr/uploads/CERT-FR_RFC2350_EN.pdf) (CERT description)
 * [Awesome Security Resources](https://github.com/Johnson90512/Awesome-Security-Resources)
 * [Incident Response & Computer Forensics, 3rd ed](https://www.google.fr/books/edition/Incident_Response_Computer_Forensics_Thi/LuWINQEACAAJ?hl=fr)
