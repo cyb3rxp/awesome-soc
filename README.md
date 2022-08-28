@@ -17,16 +17,6 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * [To go further (next steps)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#to-go-further)
 * [Appendix](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#appendix)
 
-# Fundamental concepts:
-
-## Concepts, tools, missions, attack lifecycle, red/blue/purple teams:
-See: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md).
-
-## SOC core: architecture of detection:
-As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an example of architecture of detection (SIEM, SIRP, TIP ):
-![image](https://user-images.githubusercontent.com/16035152/187097659-a1006466-22a5-4c89-b0f1-ace64f54834f.png)
-
-
 # Must read
 
 ## For a SOC:
@@ -47,6 +37,16 @@ As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an exam
 * OASIS Open, [STIX](https://oasis-open.github.io/cti-documentation/stix/intro.html)
 * FIRST, [TLP](https://www.first.org/tlp/)(intelligence sharing and confidentiality)
 * CIS, [8 critical security controls](https://www.cisecurity.org/controls/cis-controls-list)
+
+
+# Fundamental concepts:
+
+## Concepts, tools, missions, attack lifecycle, red/blue/purple teams:
+See: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md).
+
+## SOC core: architecture of detection:
+As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an example of architecture of detection (SIEM, SIRP, TIP ):
+![image](https://user-images.githubusercontent.com/16035152/187097659-a1006466-22a5-4c89-b0f1-ace64f54834f.png)
 
 
 # What is SOAR?
