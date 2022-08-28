@@ -10,6 +10,13 @@ Data, tools, and capabilities:
 ![image](https://user-images.githubusercontent.com/16035152/186420020-8507b3b3-7fb8-46cf-a5f9-9d6506284cb2.png)
 
 
+## What is a SIEM? What for?
+As per [this article (in French)](https://www.sartagas.fr/outils-de-la-ssi/securite-de-l-exploitation/les-outils-siem/):
+
+![image](https://user-images.githubusercontent.com/16035152/187097902-c118a3c9-9288-44f1-9914-65551cc8ee4d.png)
+
+
+
 ## SOC/CERT processes and workflows
 
 ### Incident response lifecycle (detection // incident response):
