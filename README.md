@@ -12,6 +12,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * [Critical means (tools/sensors)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#critical-means-toolssensors)
 * [IT/security Watch (recommended sources)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#itsecurity-watch)
 * [Management](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#management)
+* [HR and training](https://github.com/cyb3rxp/awesome-soc/blob/main/README.hr-and-training)
 * [IT achitecture](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#it-achitecture)
 * [To go further (next steps)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#to-go-further)
 * [Appendix](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#appendix)
@@ -36,6 +37,7 @@ See: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/aweso
 * NIST, [SP800-61 rev2, incident handling guide](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final) 
 * ThreatConnect, [SIRP / SOA / TIP benefits](https://threatconnect.com/blog/realizing-the-benefits-of-security-orchestration-automation-and-response-soar/) 
 * Orange Cyberdefense, [Feedback regarding experience with SOAR in 2020 (in French)](https://www.orangecyberdefense.com/fr/insights/blog/threat-management/soar-quelles-conclusions-en-2020) 
+* FIRST, [CVSS v3.1 specs](https://www.first.org/cvss/specification-document) 
 * OASIS Open, [STIX](https://oasis-open.github.io/cti-documentation/stix/intro.html)
 * FIRST, [TLP](https://www.first.org/tlp/)(intelligence sharing and confidentiality)
 * CIS, [8 critical security controls](https://www.cisecurity.org/controls/cis-controls-list)
@@ -133,7 +135,7 @@ Hence 3 critical tools (see below): SIRP, TIP, SOA, on top of SIEM.
 
 # Management
 
-## SOC HR and organization:
+## SOC organization:
 * No real need for tiering (L1/L2/L3)
   * this is an old model for service provider, not necesseraly for a SOC!
   * as per MITRE paper (p65):
@@ -159,7 +161,7 @@ describe their structure.
   * security monitoring engineering team (which fixes/improves security monitoring like SIEM rules and SOA playbooks, generates reportings)
   * build / project management team (which does tools integration, SIEM data ingestion, specific DevOps tasks, project management).
 
-## CERT HR and organization:
+## CERT organization:
 * Designate among team analysts: 
   * triage officer;
   * incident handler;
@@ -216,6 +218,46 @@ describe their structure.
   * mean time to triage (assign) the alerts
   * mean time to handle (verify and be ready for incident response) the alerts  
 
+
+# HR and training
+
+## Recommended SOC trainings:
+
+### Regular trainings:
+* [LetsDefend](https://letsdefend.io/)
+* [SOC Vel](https://socvel.com/challenges/)
+* [ENISA trainings](https://www.enisa.europa.eu/topics/trainings-for-cybersecurity-specialists/online-training-material)
+* [Splunk attack range](https://github.com/splunk/attack_range_cloud)
+
+
+### Certifications:
+* [BlueTeamLabs](https://securityblue.team/why-btl1/) level 1 & 2
+* [SANS 555: SIEM with tactical analytics](https://www.sans.org/cyber-security-courses/siem-with-tactical-analytics/)
+* [SANS SEC450: Blue Team Fundamentals: Security Operations and Analysis](https://www.sans.org/cyber-security-courses/blue-team-fundamentals-security-operations-analysis/)
+* [OSDA SOC-200](https://www.offensive-security.com/soc200-osda/)
+* [SOC & SIEM Security program: L1, L2, L3](https://ethicalhackersacademy.com/products/soc-siem-security-training-program?_pos=1&_sid=b1d241af4&_ss=r)
+* [Splunk Core User](https://education.splunk.com/single-subject-courses?_ga=2.213139857.446951445.1644415141-362195814.1644415141)
+* [Microsoft Cybersecurity Architect](https://docs.microsoft.com/en-us/certifications/cybersecurity-architect-expert/)
+* [AWS Security Fundamentals](https://aws.amazon.com/training/digital/aws-security-fundamentals/?nc1=h_ls)
+* [CEH](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/)
+
+
+## Recommended CERT/CSIRT trainings:
+
+### Regular trainings:
+* [ENISA trainings](https://www.enisa.europa.eu/topics/trainings-for-cybersecurity-specialists/online-training-material)
+* [FIRST trainings](https://www.first.org/education/trainings)
+* [Malware Traffic Analysis](https://www.malware-traffic-analysis.net/)
+* [Hack The Box](https://www.hackthebox.com/)
+
+### Certifications:
+* [SANS FOR572: Advanced Network Forensics: Threat Hunting, Analysis, and Incident Response](https://www.sans.org/cyber-security-courses/siem-with-tactical-analytics/)
+* [Splunk Core User](https://education.splunk.com/single-subject-courses?_ga=2.213139857.446951445.1644415141-362195814.1644415141
+* [GCIH](https://www.giac.org/certifications/certified-incident-handler-gcih/)
+* [SANS FOR508: Advanced Incident Response, Threat Hunting, and Digital Forensics](https://www.giac.org/certifications/certified-incident-handler-gcih/)
+* [SANS 555: SIEM with tactical analytics](https://www.sans.org/cyber-security-courses/siem-with-tactical-analytics/)
+
+
 # IT achitecture
 
 ## Disconnect SOC from monitored environment
@@ -236,7 +278,7 @@ describe their structure.
 * GMU, [Improving Social Maturity of Cybersecurity Incident Response Teams](https://edu.anarcho-copy.org/Against%20Security%20-%20Self%20Security/GMU_Cybersecurity_Incident_Response_Team_social_maturity_handbook.pdf)
 * FireEye, [Purple Team Assessment](https://www.fireeye.fr/content/dam/fireeye-www/regional/fr_FR/services/pdfs/ds-purple-team-assessment.pdf)
 *	FireEye, [OpenIOC format](https://github.com/fireeye/OpenIOC_1.1/blob/master/IOC_Terms_Defs.md)
-* FIRST, [CVSS v3.1 specs](https://www.first.org/cvss/specification-document) 
+
 
 
 ## Nice to read:
