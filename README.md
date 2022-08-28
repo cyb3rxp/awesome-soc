@@ -1,7 +1,7 @@
 # Awesome SOC
 A collection of sources of documentation, and field best practices, to build/run a SOC.
 
-Those are my view, based on my own experience as SOC/CERT analyst and team manager, as well as well-known papers. 
+Those are my view, based on my own experience as SOC/CERT analyst and team manager, as well as well-known papers. Focus is more on SOC than on CERT.
 
 NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to incident response activity.
 
@@ -231,7 +231,7 @@ describe their structure.
 
 
 ### Certifications:
-* [BlueTeamLabs](https://securityblue.team/why-btl1/) level 1 & 2
+* [BlueTeamLabs](https://securityblue.team/why-btl1/) (level 1 & 2)
 * [SANS 555: SIEM with tactical analytics](https://www.sans.org/cyber-security-courses/siem-with-tactical-analytics/)
 * [SANS SEC450: Blue Team Fundamentals: Security Operations and Analysis](https://www.sans.org/cyber-security-courses/blue-team-fundamentals-security-operations-analysis/)
 * [OSDA SOC-200](https://www.offensive-security.com/soc200-osda/)
@@ -252,7 +252,7 @@ describe their structure.
 
 ### Certifications:
 * [SANS FOR572: Advanced Network Forensics: Threat Hunting, Analysis, and Incident Response](https://www.sans.org/cyber-security-courses/siem-with-tactical-analytics/)
-* [Splunk Core User](https://education.splunk.com/single-subject-courses?_ga=2.213139857.446951445.1644415141-362195814.1644415141
+* [Splunk Core User](https://education.splunk.com/single-subject-courses?_ga=2.213139857.446951445.1644415141-362195814.1644415141)
 * [GCIH](https://www.giac.org/certifications/certified-incident-handler-gcih/)
 * [SANS FOR508: Advanced Incident Response, Threat Hunting, and Digital Forensics](https://www.giac.org/certifications/certified-incident-handler-gcih/)
 * [SANS 555: SIEM with tactical analytics](https://www.sans.org/cyber-security-courses/siem-with-tactical-analytics/)
@@ -308,11 +308,15 @@ describe their structure.
 
 
 ## Management:
-* Define SOC priorities, with feared events and offensive scenarios (TTP) to be monitored, as per risk analysis results.
-  * My recommendation: leverage EBIOS RM methodology (see above).
+* **Define SOC priorities, with feared events and offensive scenarios (TTP) to be monitored**, as per risk analysis results.
+  * My recommendation: leverage EBIOS RM methodology (see [above](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#to-go-further)).
 
 * Leverage machine learning, wherever it can be relevant in terms of good ratio false positives / real positives.
   * My recommendation: be careful, try not to saturate SOC consoles with FP.
+
+* Make sure to **follow the 11 strategies for a (world class) SOC**, as per MITRE paper (see [Must Read](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#must-read)).
+
+* Publish your RFC2350, declaring what your CERT is (see "Nice the read" [above](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#to-go-further))
 
 
 ## Harden SOC environment
