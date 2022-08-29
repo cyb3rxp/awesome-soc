@@ -300,7 +300,7 @@ describe their structure.
 * [RFC2350](https://www.cert.ssi.gouv.fr/uploads/CERT-FR_RFC2350_EN.pdf) (CERT description)
 * [Awesome Security Resources](https://github.com/Johnson90512/Awesome-Security-Resources)
 * [Incident Response & Computer Forensics, 3rd ed](https://www.google.fr/books/edition/Incident_Response_Computer_Forensics_Thi/LuWINQEACAAJ?hl=fr)
-* [GDPR cybersecurity implications](https://atelier-rgpd.cnil.fr/)(in French)
+* [GDPR cybersecurity implications (in French)](https://atelier-rgpd.cnil.fr/) 
 
 
 ## SOC sensors, nice to have:
@@ -325,7 +325,7 @@ describe their structure.
 
 * Make sure to **follow the 11 strategies for a (world class) SOC**, as per MITRE paper (see [Must Read](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#must-read)).
 
-* Publish your RFC2350, declaring what your CERT is (see "Nice the read" [above](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#to-go-further))
+* Publish your RFC2350, declaring what your CERT is (see "Nice to read" [above](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#to-go-further))
 
 
 ## Harden SOC environment
