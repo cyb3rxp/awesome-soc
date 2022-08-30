@@ -8,7 +8,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 # TOC
 * [Basic concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#fundamental-concepts)
 * [Must read](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#must-read)
-* [What is SOAR?](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#what-is-soar)
+* [SOAR](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#soar)
 * [Critical means (tools/sensors)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#critical-means-toolssensors)
 * [IT/security Watch (recommended sources)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#itsecurity-watch)
 * [Management](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#management)
@@ -36,7 +36,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * [Playbook for ransomware incident response (in French)](https://github.com/soufianetahiri/ransomware_Incident_Response_FR)
 * FIRST, [CVSS v3.1 specs](https://www.first.org/cvss/specification-document) 
 * OASIS Open, [STIX](https://oasis-open.github.io/cti-documentation/stix/intro.html)
-* FIRST, [TLP](https://www.first.org/tlp/)(intelligence sharing and confidentiality)
+* FIRST, [TLP](https://www.first.org/tlp/) (intelligence sharing and confidentiality)
 * CIS, [8 critical security controls](https://www.cisecurity.org/controls/cis-controls-list)
 
 
@@ -50,13 +50,29 @@ As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an exam
 ![image](https://user-images.githubusercontent.com/16035152/187097659-a1006466-22a5-4c89-b0f1-ace64f54834f.png)
 
 
-# What is SOAR?
+# SOAR
+
+## What is SOAR?
 
 As per [Gartner definition](https://securityboulevard.com/2021/08/gartner-soar-magic-quadrant-when-where-and-how/):
 
 ![image](https://user-images.githubusercontent.com/16035152/186781422-ebb3996a-da66-4d27-a55f-6065fa84fca5.png)
 
 Hence 3 critical tools (see below): SIRP, TIP, SOA, on top of SIEM.
+
+## Simple and commonly needed automation tools:
+
+* Online automated Hash checker:
+  * my recommendation: [Munin](https://github.com/Neo23x0/munin), or with PowerShell [Posh-VT](https://github.com/darkoperator/Posh-VirusTotal)
+
+* Online automated sample analyzer:
+  * my recommendation: [malwoverview](https://github.com/alexandreborges/malwoverview)
+
+* (pure) Windows tasks automation:
+  * My recommendation: [AutoIT](https://www.autoitscript.com/site/)
+
+* SaaS-based (and partly free, for basic stuff) SOA:
+  * [Shuffle](https://shuffler.io/)
 
 
 # Critical means (tools/sensors)
