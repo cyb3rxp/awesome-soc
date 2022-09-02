@@ -61,6 +61,9 @@ As per [Gartner definition](https://securityboulevard.com/2021/08/gartner-soar-m
 
 Hence 3 critical tools (see below): SIRP, TIP, SOA, on top of SIEM.
 
+And in my view, SOAR is more an approach, a vision, based on technlogy and processes, than a technology or tool per say. 
+
+
 ## Simple and commonly needed automation tools:
 
 * Online automated Hash checker:
@@ -74,6 +77,17 @@ Hence 3 critical tools (see below): SIRP, TIP, SOA, on top of SIEM.
 
 * SaaS-based (and partly free, for basic stuff) SOA:
   * [Shuffle](https://shuffler.io/)
+
+## Common automations:
+
+My recommendation is to aim to implement at least the following automations, leveraging the SOA/SIRP/TIP/SIEM capabilities:
+* Automatically query the TIP for any artefacts or even IOC that is associated to a SIRP ticket.
+* Automatically retrieve the history of antimalware detections for an user or andpoint, that is associated to a SIRP ticket.
+* Automatically query AD or the assets management solution, for artefact anrichment (user, endpoint, IP, application, etc.).
+* Make sure all the context from any alert is being automatically transfered to the SIRP ticket, with a link to the SIEM alert(s) in case of.
+* 
+
+
 
 
 # Critical means (tools/sensors)
