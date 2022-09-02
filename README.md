@@ -8,8 +8,8 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 # TOC
 * [Basic concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md)
 * [Must read](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#must-read)
-* [SOAR](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#soar)
 * [Critical means (tools/sensors)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#critical-means-toolssensors)
+* [SOAR](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#soar)
 * [IT/security Watch (recommended sources)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#itsecurity-watch)
 * [Management](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#management)
 * [HR and training](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#hr-and-training)
@@ -51,54 +51,6 @@ As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an exam
 ![image](https://user-images.githubusercontent.com/16035152/187097659-a1006466-22a5-4c89-b0f1-ace64f54834f.png)
 
 
-# SOAR
-
-## What is SOAR?
-
-As per [Gartner definition](https://securityboulevard.com/2021/08/gartner-soar-magic-quadrant-when-where-and-how/):
-
-![image](https://user-images.githubusercontent.com/16035152/186781422-ebb3996a-da66-4d27-a55f-6065fa84fca5.png)
-
-Hence 3 critical tools (see below): SIRP, TIP, SOA, on top of SIEM.
-
-And in my view, SOAR is more an approach, a vision, based on technlogy and processes, than a technology or tool per say. 
-
-
-## Simple and commonly needed automation tools:
-
-* Online automated Hash checker:
-  * my recommendation: [Munin](https://github.com/Neo23x0/munin), or with PowerShell [Posh-VT](https://github.com/darkoperator/Posh-VirusTotal)
-
-* Online automated sample analyzer:
-  * my recommendation: [malwoverview](https://github.com/alexandreborges/malwoverview)
-
-* (pure) Windows tasks automation:
-  * My recommendation: [AutoIT](https://www.autoitscript.com/site/)
-
-* SaaS-based (and partly free, for basic stuff) SOA:
-  * [Shuffle](https://shuffler.io/)
-
-## Common automations:
-
-### My recommendations for detection (alerts handling)
-
-Try to implement at least the following automations, leveraging the SOA/SIRP/TIP/SIEM capabilities:
-* Make sure all the context from any alert is being automatically transfered to the SIRP ticket, with a link to the SIEM alert(s) in case of.
-  * Leverage API (through SOA) if needed to retrieve the missing context info, when using built-in integrations.
-* Automatically query the TIP for any artefacts or even IOC that is associated to a SIRP ticket.
-* Automatically retrieve the history of antimalware detections for an user and/or endpoint, that is associated to a SIRP ticket.
-* Automatically retrieve the history of SIEM detections for an user and/or endpoint, that is associated to a SIRP ticket.
-* Automatically retrieve the history of SIRP tickets for an user and/or endpoint, that is associated to a new SIRP ticket.
-* Automatically query AD or the assets management solution, for artefact anrichment (user, endpoint, IP, application, etc.).
-
-### My recommendations for reaction (incident response)
-* Block an IP on all firewalls (including VPN), and SWG.
-* Block an URL on SWG. 
-* Block an email address (sender) on SEG.
-* Block an exe file (by hash) on endpoints (leveraging EDR, Sysmon, or AppLocker).
-* Reset an AD account password.
-* Disable an AD account (both user and computer, since computer account disabling will block authentication with any AD account on the endpoint, thus preventing from lateral movement or priv escalation).
-* Report a (undetected) sample to security vendors, via email.
 
 
 # Critical means (tools/sensors)
@@ -162,6 +114,56 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
   * My recommendation: [GitLab](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/sec-incident-response.html)
 * Knowledge sharing and management tool:
   * My recommendations: [Microsoft SharePoint](https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration), Wiki (choose the one you prefer, or [use GitLab as a Wiki](https://docs.gitlab.com/ee/user/project/wiki/)).
+
+
+# SOAR
+
+## What is SOAR?
+
+As per [Gartner definition](https://securityboulevard.com/2021/08/gartner-soar-magic-quadrant-when-where-and-how/):
+
+![image](https://user-images.githubusercontent.com/16035152/186781422-ebb3996a-da66-4d27-a55f-6065fa84fca5.png)
+
+Hence 3 critical tools (see below): SIRP, TIP, SOA, on top of SIEM.
+
+And in my view, SOAR is more an approach, a vision, based on technlogy and processes, than a technology or tool per say. 
+
+
+## Simple and commonly needed automation tools:
+
+* Online automated Hash checker:
+  * my recommendation: [Munin](https://github.com/Neo23x0/munin), or with PowerShell [Posh-VT](https://github.com/darkoperator/Posh-VirusTotal)
+
+* Online automated sample analyzer:
+  * my recommendation: [malwoverview](https://github.com/alexandreborges/malwoverview)
+
+* (pure) Windows tasks automation:
+  * My recommendation: [AutoIT](https://www.autoitscript.com/site/)
+
+* SaaS-based (and partly free, for basic stuff) SOA:
+  * [Shuffle](https://shuffler.io/)
+
+## Common automations:
+
+### My recommendations for detection (alerts handling)
+
+Try to implement at least the following automations, leveraging the SOA/SIRP/TIP/SIEM capabilities:
+* Make sure all the context from any alert is being automatically transfered to the SIRP ticket, with a link to the SIEM alert(s) in case of.
+  * Leverage API (through SOA) if needed to retrieve the missing context info, when using built-in integrations.
+* Automatically query the TIP for any artefacts or even IOC that is associated to a SIRP ticket.
+* Automatically retrieve the history of antimalware detections for an user and/or endpoint, that is associated to a SIRP ticket.
+* Automatically retrieve the history of SIEM detections for an user and/or endpoint, that is associated to a SIRP ticket.
+* Automatically retrieve the history of SIRP tickets for an user and/or endpoint, that is associated to a new SIRP ticket.
+* Automatically query AD or the assets management solution, for artefact anrichment (user, endpoint, IP, application, etc.).
+
+### My recommendations for reaction (incident response)
+* Block an IP on all firewalls (including VPN), and SWG.
+* Block an URL on SWG. 
+* Block an email address (sender) on SEG.
+* Block an exe file (by hash) on endpoints (leveraging EDR, Sysmon, or AppLocker).
+* Reset an AD account password.
+* Disable an AD account (both user and computer, since computer account disabling will block authentication with any AD account on the endpoint, thus preventing from lateral movement or priv escalation).
+* Report a (undetected) sample to security vendors, via email.
 
 
 
