@@ -16,6 +16,13 @@ As per [this article (in French)](https://www.sartagas.fr/outils-de-la-ssi/secur
 ![image](https://user-images.githubusercontent.com/16035152/187097902-c118a3c9-9288-44f1-9914-65551cc8ee4d.png)
 
 
+## SOC mission and context
+
+### SOC operating context:
+As per MITRE paper (SOC strategies, see [below](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#for-a-soc)):
+
+![image](https://user-images.githubusercontent.com/16035152/186769340-6c621383-d06a-4d48-8c09-f54cc29aaf3c.png)
+
 
 ## SOC/CERT processes and workflows
 
@@ -35,12 +42,6 @@ As per ENISA paper see [below](https://github.com/cyb3rxp/awesome-soc/blob/main/
   * My recommendation: take those from CERT-SG, [IRM](https://github.com/certsocietegenerale/IRM), as an example.
 
 
-## SOC mission and context
-
-### SOC operating context:
-As per MITRE paper (SOC strategies, see [below](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#for-a-soc)):
-
-![image](https://user-images.githubusercontent.com/16035152/186769340-6c621383-d06a-4d48-8c09-f54cc29aaf3c.png)
 
 
 
