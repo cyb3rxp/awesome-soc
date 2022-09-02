@@ -80,14 +80,25 @@ And in my view, SOAR is more an approach, a vision, based on technlogy and proce
 
 ## Common automations:
 
-My recommendation is to aim to implement at least the following automations, leveraging the SOA/SIRP/TIP/SIEM capabilities:
-* Automatically query the TIP for any artefacts or even IOC that is associated to a SIRP ticket.
-* Automatically retrieve the history of antimalware detections for an user or andpoint, that is associated to a SIRP ticket.
-* Automatically query AD or the assets management solution, for artefact anrichment (user, endpoint, IP, application, etc.).
+### My recommendations for detection (alerts handling)
+
+Try to implement at least the following automations, leveraging the SOA/SIRP/TIP/SIEM capabilities:
 * Make sure all the context from any alert is being automatically transfered to the SIRP ticket, with a link to the SIEM alert(s) in case of.
-* 
+  * Leverage API (through SOA) if needed to retrieve the missing context info, when using built-in integrations.
+* Automatically query the TIP for any artefacts or even IOC that is associated to a SIRP ticket.
+* Automatically retrieve the history of antimalware detections for an user and/or endpoint, that is associated to a SIRP ticket.
+* Automatically retrieve the history of SIEM detections for an user and/or endpoint, that is associated to a SIRP ticket.
+* Automatically retrieve the history of SIRP tickets for an user and/or endpoint, that is associated to a new SIRP ticket.
+* Automatically query AD or the assets management solution, for artefact anrichment (user, endpoint, IP, application, etc.).
 
-
+### My recommendations for reaction (incident response)
+* Block an IP on all firewalls (including VPN), and SWG.
+* Block an URL on SWG. 
+* Block an email address (sender) on SEG.
+* Block an exe file (by hash) on endpoints (leveraging EDR, Sysmon, or AppLocker).
+* Reset an AD account password.
+* Disable an AD account (both user and computer, since computer account disabling will block authentication with any AD account on the endpoint, thus preventing from lateral movement or priv escalation).
+* Report a (undetected) sample to security vendors, via email.
 
 
 # Critical means (tools/sensors)
