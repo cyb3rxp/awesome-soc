@@ -30,7 +30,7 @@ As per ENISA paper see [below](https://github.com/cyb3rxp/awesome-soc/blob/main/
 
 ![image](https://user-images.githubusercontent.com/16035152/186770414-d0d75e68-7c0f-4285-9eb2-a67cabdd5fdd.png)
 
-### sOC/CERT procedures:
+### SOC/CERT procedures:
 * Write and maintain in time alerts/incident handling procedures.
   * My recommendation: take those from CERT-SG, [IRM](https://github.com/certsocietegenerale/IRM), as an example.
 
