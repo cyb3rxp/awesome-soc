@@ -6,8 +6,8 @@ Those are my view, based on my own experience as SOC/CERT analyst and team manag
 NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to incident response activity.
 
 # TOC
-* [Fundamental concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md)
 * [Must read](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#must-read)
+* [Fundamental concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md)
 * [Critical means (tools/sensors)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#critical-means-toolssensors)
 * [SOAR](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#soar)
 * [IT/security Watch (recommended sources)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#itsecurity-watch)
