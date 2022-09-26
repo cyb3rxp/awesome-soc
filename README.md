@@ -78,10 +78,10 @@ As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an exam
 * **[Endpoint Detection and Response](https://www.gartner.com/reviews/market/endpoint-detection-and-response-solutions)**:
   * See [Gartner magic quadrant](https://www.microsoft.com/security/blog/uploads/securityprod/2022/01/Gartner-EIA-1963x2048.png) 
   * My recommendations: [SentinelOne](https://www.sentinelone.com/blog/active-edr-feature-spotlight/), [Microsoft Defender for Endpoint](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide), [Harfanglab](https://www.harfanglab.io/en/block-cyberattacks).
-* **[Secure Email Gateway](https://www.gartner.com/reviews/market/email-security)**:
+* **[Secure Email Gateway](https://www.gartner.com/reviews/market/email-security)** (SEG):
   * See [Gartner reviews and ratings](https://www.gartner.com/reviews/market/email-security)
   * My recommendations: [Microsoft Defender for Office365](https://www.microsoft.com/en-us/security/business/siem-and-xdr/microsoft-defender-office-365), [ProofPoint](https://www.proofpoint.com/fr/threat-reference/email-gateway), [Mimecast](https://www.mimecast.com/products/email-security/secure-email-gateway/)
-* **[Secure Web Gateway](https://www.gartner.com/en/information-technology/glossary/secure-web-gateway)** / Security Service Edge:
+* **[Secure Web Gateway](https://www.gartner.com/en/information-technology/glossary/secure-web-gateway)** (SWG) / Security Service Edge:
   * see [Gartner magic quadrant](https://www.zscaler.fr/cdn-cgi/image/format%3Dauto/sites/default/files/images/page/gartner-magic-quadrant-security-service-edge-sse-2022/zscaler-gartner-sse-2022-%401x.png) 
   * My recommendations: BlueCoat, CISCO, Zscaler, [Netskope](https://www.netskope.com/security-defined/what-is-casb).
 * **AD security** (audit logs, or specific security monitoring solutions):
@@ -96,6 +96,8 @@ As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an exam
    
 
 ## Critical tools for CERT:
+* on-demand volatile data collection tool:
+  * my recommendations: [VARC](https://github.com/cado-security/varc), [DFIR-ORC](https://github.com/dfir-orc), [FireEye Redline](https://fireeye.market/apps/211364)
 * On-demand sandbox:
   * My recommendations: [Joe's sandbox](https://www.joesandbox.com/#windows), [Hybrid Analysis](https://www.hybrid-analysis.com/), etc.
 * Forensics and reverse-engineering tools suite:
@@ -156,7 +158,7 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
 * Automatically retrieve the history of SIRP tickets for an user and/or endpoint, that is associated to a new SIRP ticket.
 * Automatically query AD or the assets management solution, for artefact anrichment (user, endpoint, IP, application, etc.).
 
-### My recommendations for reaction (incident response)
+### My recommendations for reaction (incident response, containment/eradication steps)
 * Block an IP on all firewalls (including VPN), and SWG.
 * Block an URL on SWG. 
 * Block an email address (sender) on SEG.
@@ -241,7 +243,7 @@ describe their structure.
  * **Run regular [purpleteaming sessions](https://about.gitlab.com/handbook/engineering/security/threat-management/red-team/purple-teaming/)** in time!!
    * e.g.: [Intrinsec](https://www.intrinsec.com/purple-team/), [FireEye](https://www.fireeye.fr/content/dam/fireeye-www/regional/fr_FR/services/pdfs/ds-purple-team-assessment.pdf)
    * To do it on your own, recommended tool: [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team)
- * Picture the detection capabilities and the purpleteaming work, with tools based on ATT&CK:
+ * Picture the currently confirmed detection capabilities thanks to purpleteaming, with tools based on ATT&CK:
    * e.g.: [Vectr](https://github.com/securityriskadvisors/vectr)
 
 
@@ -250,7 +252,6 @@ describe their structure.
 
 ## SOC detection capabilities **simplified** representation:
  * Generate [ATT&CK heatmaps](https://www.signalblur.io/getting-started-with-mitres-att-ck-navigator/), to picture the SOC detection capabilities
-
 
 ## SOC Self-assessment:
 *	Read the [SOC Cyber maturity model](https://www.soc-cmm.com/introduction/) from CMM
@@ -334,6 +335,7 @@ describe their structure.
 * Ch33r10, [Enterprise purple teaming](https://github.com/ch33r10/EnterprisePurpleTeaming)
 * FireEye, [Purple Team Assessment](https://www.fireeye.fr/content/dam/fireeye-www/regional/fr_FR/services/pdfs/ds-purple-team-assessment.pdf)
 *	FireEye, [OpenIOC format](https://github.com/fireeye/OpenIOC_1.1/blob/master/IOC_Terms_Defs.md)
+*	Kaspersky, [AV / EP / EPP / EDR / XDR](https://usa.kaspersky.com/blog/introducing-kedr-optimum/27062/?reseller=usa_regular-sm_acq_ona_smm__onl_b2c_lii_post_sm-team______&utm_source=linkedin&utm_medium=social&utm_campaign=us_regular-sm_en0177&utm_content=sm-post&utm_term=us_linkedin_organic_pmgk1776sk4g1qp)
 
 
 
