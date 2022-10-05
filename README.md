@@ -268,14 +268,21 @@ describe their structure.
   
 ## Reporting:
 * Generate metrics, leveraging the SIRP capabilities to do so:
-  * detection rules triggering most false positives
-  * detection rules taking the longest to be handled
+  * top security incident types
+  * top applications associated to alerts (detections)
+  * top detection rules triggering most false positives
+  * top detection rules taking the longest to be handled
   * number of false positives
+  * top 10 SIEM searches (detection rules) triggering false positives
+  * number of new detection use-cases being put in production.
   * number of detection rules which detection capability and handling process have been confirmed with purpleteaming session, so far
   * most seen TTP in detection
   * most common incident types
   * mean time to triage (assign) the alerts
   * mean time to handle (verify and be ready for incident response) the alerts  
+  * top 10 longest tickets before closure
+  * percentage of SIEM data that is not associated to SIEM searches (detection rules)
+  
 
 
 # HR and training
