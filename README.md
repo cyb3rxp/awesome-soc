@@ -283,7 +283,7 @@ describe their structure.
   * top 10 longest tickets before closure
   * percentage of SIEM data that is not associated to SIEM searches (detection rules)
   
-
+Recommended timeframes to compute those KPI: 1 week, 1 month, and 6 months.
 
 # HR and training
 
