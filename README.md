@@ -50,7 +50,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 ## Concepts, tools, missions, attack lifecycle, red/blue/purple teams:
 See: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md).
 
-## SOC core: architecture of detection:
+## SOC and CISRT core: architecture of detection:
 As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an example of architecture of detection (SIEM, SIRP, TIP ):
 ![image](https://user-images.githubusercontent.com/16035152/187097659-a1006466-22a5-4c89-b0f1-ace64f54834f.png)
 
