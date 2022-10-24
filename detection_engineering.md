@@ -10,7 +10,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * How to feed the Plan phase (detection engineering)
 
 
-# Must read:
+# Must read
 * MITRE, [top TTP for ransomwares](https://top-attack-techniques.mitre-engenuity.org/)
 * LinkedIn, [Risk assessment with ISO 27005](https://www.linkedin.com/pulse/iso-27005-risk-management-aron-lange/?trackingId=oRjjiIdY9BNjne1ALRq02A%3D%3D)
 * Ch33r10, [Enterprise purple teaming](https://github.com/ch33r10/EnterprisePurpleTeaming)
@@ -33,7 +33,7 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 
 
 
-# PDCA being applied to SOC:
+# PDCA being applied to SOC
 
 ## Plan:
 
@@ -109,6 +109,12 @@ My recommendation, still, is to make sure not to spend all you time running afte
   * threat actors (if possible);
   * critical assets;
   * attack scenarios (somewhat, kill chains).
+
+Here is a [simplified drawing](https://www.linkedin.com/pulse/iso-27005-risk-management-aron-lange/?trackingId=oRjjiIdY9BNjne1ALRq02A%3D%3D) of the global process, leveraging ISO 27005 approach:
+![image](https://user-images.githubusercontent.com/16035152/197557946-7bc27c7a-6aee-48f4-a013-2ac20d6b5c76.png)
+
+My recommendation is to follow the [EBIOS RM methodology](https://www.ssi.gouv.fr/guide/ebios-risk-manager-the-method/), from French ANSSI. The fourth workshop will aim at defining the "offensive scenarios" that are relevant for the environment for which you are running the risk management methodology. Those offensive scenarios should be considered as TTP (even if they are not directly referenced in MITRE ATT&CK Enterprise matrix), to be monitored by the OC.
+
 
 ### Focus your SOC detection engineering taskforce on priorities:
 
