@@ -33,6 +33,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * NIST, [SP800-86, integration forensics techniques into IR](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-86.pdf) 
 
 ## Globally (SOC and CERT):
+* CIS, [8 critical security controls](https://www.cisecurity.org/controls/cis-controls-list)
 * NIST, [SP800-61 rev2, incident handling guide](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final) 
 * MITRE, [ATT&CK: Getting started](https://attack.mitre.org/resources/getting-started/)
 * ThreatConnect, [SIRP / SOA / TIP benefits](https://threatconnect.com/blog/realizing-the-benefits-of-security-orchestration-automation-and-response-soar/)
@@ -42,7 +43,6 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * FIRST, [CVSS v3.1 specs](https://www.first.org/cvss/specification-document) 
 * OASIS Open, [STIX](https://oasis-open.github.io/cti-documentation/stix/intro.html)
 * FIRST, [TLP](https://www.first.org/tlp/) (intelligence sharing and confidentiality)
-* CIS, [8 critical security controls](https://www.cisecurity.org/controls/cis-controls-list)
 
 
 # Fundamental concepts:
