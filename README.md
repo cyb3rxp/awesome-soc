@@ -8,7 +8,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 # TOC
 * [Must read](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#must-read)
 * [Fundamental concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md)
-* [Critical means (tools/sensors)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#critical-means-toolssensors)
+* [Mission-critical means (tools/sensors)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#critical-means-toolssensors)
 * [SOAR](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#soar)
 * [IT/security Watch (recommended sources)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#itsecurity-watch)
 * [Management](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#management)
@@ -24,8 +24,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * NIST, [Cybersecurity framework](https://www.nist.gov/cyberframework) 
 * FIRST, [Building a SOC](https://www.first.org/resources/guides/Factsheet_Building_a_SOC_start_small.pdf) 
 * MITRE, [11 strategies for a world-class SOC](https://www.mitre.org/publications/technical-papers/11-strategies-world-class-cybersecurity-operations-center), part 0 (Fundamentals) 
-* LinkedIn, [Risk assessment with ISO 27005](https://www.linkedin.com/pulse/iso-27005-risk-management-aron-lange/?trackingId=oRjjiIdY9BNjne1ALRq02A%3D%3D)
-* Medium, ["About detection engineering"](https://cyb3rops.medium.com/about-detection-engineering-44d39e0755f0)
+
 
 ## For a CERT: 
 * FIRST, [CERT-in-a-box](https://www.first.org/resources/guides/cert-in-a-box.zip) 
@@ -233,11 +232,6 @@ describe their structure.
 * Use [MITRE ATT&CK](https://attack.mitre.org/matrices/enterprise/)
 * Document all detections (SIEM Rules, etc.) using MITRE ATT&CK ID, whenever possible.
 
-## TTP detection priorities identification:
-* Use [MITRE Engenuity calculator](https://ctid.mitre-engenuity.org/our-work/top-attack-techniques/):
-  * focus on the [top TTP for ransomwares](https://top-attack-techniques.mitre-engenuity.org/): 
-    * T1486: Data Encrypted for Impact, T1490: Inhibit System Recovery, T1027: Obfuscated Files or Information, T1047: Windows Management Instrumentation, T1036: Masquerading, T1059: Command and Scripting Interpreter, T1562: Impair Defenses, T1112: Modify Registry, T1204: User Execution, T1055: Process Injection.
-
 ## Data quality and management:
 * Implement an information model, like the [Splunk CIM one](https://docs.splunk.com/Documentation/CIM/5.0.1/User/Overview):
   * do not hesitate to extend it, depending on your needs
@@ -351,7 +345,6 @@ Recommended timeframes to compute those KPI: 1 week, 1 month, and 6 months.
 * CISA, [Cyber Defense Incident Responder role](https://www.cisa.gov/cyber-defense-incident-responder)
 * Betaalvereniging, [TaHiTI (threat hunting methodology)](https://www.betaalvereniging.nl/wp-content/uploads/TaHiTI-Threat-Hunting-Methodology-whitepaper.pdf) 
 * GMU, [Improving Social Maturity of Cybersecurity Incident Response Teams](https://edu.anarcho-copy.org/Against%20Security%20-%20Self%20Security/GMU_Cybersecurity_Incident_Response_Team_social_maturity_handbook.pdf)
-* Ch33r10, [Enterprise purple teaming](https://github.com/ch33r10/EnterprisePurpleTeaming)
 * FireEye, [Purple Team Assessment](https://www.fireeye.fr/content/dam/fireeye-www/regional/fr_FR/services/pdfs/ds-purple-team-assessment.pdf)
 *	FireEye, [OpenIOC format](https://github.com/fireeye/OpenIOC_1.1/blob/master/IOC_Terms_Defs.md)
 *	Kaspersky, [AV / EP / EPP / EDR / XDR](https://usa.kaspersky.com/blog/introducing-kedr-optimum/27062/?reseller=usa_regular-sm_acq_ona_smm__onl_b2c_lii_post_sm-team______&utm_source=linkedin&utm_medium=social&utm_campaign=us_regular-sm_en0177&utm_content=sm-post&utm_term=us_linkedin_organic_pmgk1776sk4g1qp)
