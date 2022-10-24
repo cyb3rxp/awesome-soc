@@ -21,7 +21,8 @@ This page deals with SOC detection engineering and management (detection use cas
 * Known exploited vulnerabilities: 
   * [CISA catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 * Medium, ["About detection engineering"](https://cyb3rops.medium.com/about-detection-engineering-44d39e0755f0)
-* ANSSI (FR), [EBIOS RM methodology](https://www.ssi.gouv.fr/guide/ebios-risk-manager-the-method/)
+* ANSSI, [EBIOS RM methodology](https://www.ssi.gouv.fr/guide/ebios-risk-manager-the-method/)
+* Intrinsec, [Limitations of MITRE ATT&CK (in FR)](https://www.intrinsec.com/pilotage-dun-soc-interets-et-limites-de-la-matrice-attck/)
 
 
 # Generic recommended approach
