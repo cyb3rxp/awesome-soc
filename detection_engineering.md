@@ -52,16 +52,24 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 * Ingest the logs of the security sensor, or endpoint/app logs, that you previously identified;
 * Make sure your data ingestion is compliant with the datamodel you use.
 
-
 ### SIEM rules:
 * Create the detection rules (SIEM searches) that match your previously identified needs;
-* Create the alert objects in the SIEM or SIRP, to contain the contents of the SIEM searches in case something is found;
+* Create the alert objects in the SIEM or SIRP, to contain the contents of the SIEM searches in case something is found.
+
+### Procedure:
+* If it does not exist already, create the handling procedure for the newly created detection rule.
 
 
 ## Check:
 
 ### Logs:
 * Make sure your data ingestion is compliant with the datamodel you use (or, at least, the SIEM one).
+
+### Handling procedures:
+* Make sure that the handling process and procedures is clear and working fine, for the tested alerts.
+
+### Automations:
+* Make sure that the automations capabilities to help in the detection phase, work as expected (ie.: observables enrichment in the SIRP with queries to the TIP).
 
 ### SIEM rules [first run for the assessed detection capabilities]:
 * Test the detection logics with narrowed use cases (specific events, generated on demand).
@@ -76,11 +84,31 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 
 # How to feed the "Plan" phase
 
-## TTP detection priorities identification:
+## Standard maturity and needs:
+
+### TTP detection priorities identification:
 * Use [MITRE Engenuity calculator](https://ctid.mitre-engenuity.org/our-work/top-attack-techniques/):
   * focus on the [top TTP for ransomwares](https://top-attack-techniques.mitre-engenuity.org/): 
     * T1486: Data Encrypted for Impact, T1490: Inhibit System Recovery, T1027: Obfuscated Files or Information, T1047: Windows Management Instrumentation, T1036: Masquerading, T1059: Command and Scripting Interpreter, T1562: Impair Defenses, T1112: Modify Registry, T1204: User Execution, T1055: Process Injection.
 
-## Focus on top relevant vulnerabilities:
+### Focus on top relevant vulnerabilities:
 - that are confirmed exploited in the wild;
-- **AND** that are confirmed as valid (unpatched) within your organization
+- **AND** that are confirmed as valid (unpatched) within your organization.
+
+My recommendation, still, is to make sure not to spend all you time running after latest 0days, as it is time consuming and not that efficient in the end in terms of working SOC detection capabilities.
+
+
+## Advanced maturity and needs:
+
+### Define your needs and the SOC priorities:
+
+* Leverage a risk management-based approach, to determiner:
+  * threat actors (if possible);
+  * critical assets;
+  * attack scenarios (somewhat, kill chains).
+
+### Focus your SOC detection engineering taskforce on priorities:
+
+* Set as priority the detection of confirmed attack scenarios (and the corresponding TTP), as per risk management analysis.
+
+
