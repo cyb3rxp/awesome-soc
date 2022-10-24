@@ -346,7 +346,7 @@ Recommended timeframes to compute those KPI: 1 week, 1 month, and 6 months.
 
 ## Must read:
 * MITRE, [11 strategies for a world-class SOC (remaining of PDF)](https://www.mitre.org/publications/technical-papers/11-strategies-world-class-cybersecurity-operations-center) 
-* Club EBIOS, [EBIOS RM (in French)](https://www.ssi.gouv.fr/uploads/2018/10/guide-methode-ebios-risk-manager.pdf)
+* ANSSI (FR), [EBIOS RM methodology](https://www.ssi.gouv.fr/guide/ebios-risk-manager-the-method/)
 *	Microsoft, [SOC/IR hierarchy of needs](https://github.com/swannman/ircapabilities) 
 * CISA, [Cyber Defense Incident Responder role](https://www.cisa.gov/cyber-defense-incident-responder)
 * Betaalvereniging, [TaHiTI (threat hunting methodology)](https://www.betaalvereniging.nl/wp-content/uploads/TaHiTI-Threat-Hunting-Methodology-whitepaper.pdf) 
