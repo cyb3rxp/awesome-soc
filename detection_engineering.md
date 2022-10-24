@@ -21,6 +21,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * Known exploited vulnerabilities: 
   * [CISA catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 * Medium, ["About detection engineering"](https://cyb3rops.medium.com/about-detection-engineering-44d39e0755f0)
+* ANSSI (FR), [EBIOS RM methodology](https://www.ssi.gouv.fr/guide/ebios-risk-manager-the-method/)
 
 
 # Generic recommended approach
@@ -90,9 +91,11 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 * Use [MITRE Engenuity calculator](https://ctid.mitre-engenuity.org/our-work/top-attack-techniques/):
   * focus on the [top TTP for ransomwares](https://top-attack-techniques.mitre-engenuity.org/): 
     * T1486: Data Encrypted for Impact, T1490: Inhibit System Recovery, T1027: Obfuscated Files or Information, T1047: Windows Management Instrumentation, T1036: Masquerading, T1059: Command and Scripting Interpreter, T1562: Impair Defenses, T1112: Modify Registry, T1204: User Execution, T1055: Process Injection.
+* Leverage daily watch to maintain your knowledge about current most commonly used TTP
+  * for instance: [Recorded Future 2021 top TTP report](https://www.recordedfuture.com/2021-malware-and-ttp-threat-landscape)
 
 ### Focus on top relevant vulnerabilities:
-- that are confirmed exploited in the wild;
+- that are confirmed commonly exploited in the wild;
 - **AND** that are confirmed as valid (unpatched) within your organization.
 
 My recommendation, still, is to make sure not to spend all you time running after latest 0days, as it is time consuming and not that efficient in the end in terms of working SOC detection capabilities.
