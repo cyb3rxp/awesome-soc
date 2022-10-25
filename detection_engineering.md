@@ -27,7 +27,7 @@ This page deals with SOC detection engineering and management (detection use cas
 
 # Generic recommended approach
 
-## PDCA multi-loop:
+## PDCA multi-loop
 
 As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loop.png)
 ![image](https://user-images.githubusercontent.com/16035152/197550801-47f57a99-8d3b-45b1-9c97-be4355a4d9f0.png)
@@ -36,7 +36,7 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 
 # PDCA being applied to SOC
 
-## Plan:
+## Plan
 
 ### Sensors:
 * Determine which sensors or endpoint/app logs, you miss in terms of detection capabilities
@@ -48,7 +48,7 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 * Build a project agenda (deployment).
 
 
-## Do:
+## Do
 
 ### Sensors:
 * Ingest the logs of the security sensor, or endpoint/app logs, that you previously identified;
@@ -62,7 +62,7 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 * If it does not exist already, create the handling procedure for the newly created detection rule.
 
 
-## Check:
+## Check
 
 ### Logs:
 * Make sure your data ingestion is compliant with the datamodel you use (or, at least, the SIEM one).
@@ -80,13 +80,13 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 * Assess your detection capabilities with purpleteaming;
 * Report your results and findings in purpose-built app like Vectr.
 
-## Act:
+## Act
 * Fix everything that was previously identified as not working, or not matching your needs.
 
 
 # How to feed the "Plan" phase
 
-## Standard maturity and needs:
+## Standard maturity and needs
 
 ### TTP detection priorities identification:
 * Use [MITRE Engenuity calculator](https://ctid.mitre-engenuity.org/our-work/top-attack-techniques/):
@@ -103,7 +103,7 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 My recommendation, still, is to make sure not to spend all you time running after latest 0days, as it is time consuming and not that efficient in the end in terms of working SOC detection capabilities.
 
 
-## Advanced maturity and needs:
+## Advanced maturity and needs
 
 ### Precisely define your needs and the SOC priorities:
 
@@ -124,14 +124,18 @@ My recommendation is to follow the [EBIOS RM methodology](https://www.ssi.gouv.f
 
 
 # Common detection use cases
+On top of community SIEM rules, I wanted to highlight the following ones, that I consider as efficient based on experience. Threshold may need to be adapted to every context, obviously.
 
-## Detection logics:
+## Detection logics
 
-### XDR-like logics:
+### XDR-like detection logics:
 
 * Correlation between EDR alert and CASB alert for the same endpoint, per timeframe.
+* Correlation between EDR alert and CASB alert for the same user, per timeframe.
 * Correlation between EDR alert and NDR alert for the same endpoint, per timeframe.
+* Correlation between EDR alert and NDR alert for the same user per timeframe.
 * Correlation between EDR alert and proxy SaaS alert for the same endpoint, per timeframe.
+* Correlation between EDR alert and proxy SaaS alert for the same user, per timeframe.
 * Correlation between EDR alert and identity management (AD, AAD, etc.) alert for the same user, per timeframe.
 
 ### Threat intel-based detections:
@@ -139,7 +143,7 @@ My recommendation is to follow the [EBIOS RM methodology](https://www.ssi.gouv.f
 * IOC match (C&C intel) on proxy SaaS logs, firewall logs, EDR logs (telemetry),
 
 
-### Unblocked infection vector
+### Unblocked infection vector:
 * N EDR/antimalware detections for the same user, per timeframe (trying to detect an unblocked infection vector).
   * for instance, N > 2.
 
@@ -152,6 +156,12 @@ My recommendation is to follow the [EBIOS RM methodology](https://www.ssi.gouv.f
 * Correlation of firewall logs (outgoing traffic) and a list of IP addresses that are sources of detected attacks by WAF and NIDS 
    * NB: this is most likely a hint that a vulnerability has successfully been exploited and there is a callback to an attacker's machine.
 
+### Impossible scenarios
+* Same user authenticating within X min of timeframe, on two different endpoints (not being located in the same place).
+   * for instance, X > 2min.
+* Same user (except admins, to begin with) authenticating on more than X endpoints, per timeframe
+   * for instance, X > 3.   
+ 
 
 
  
