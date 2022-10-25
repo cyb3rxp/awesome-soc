@@ -45,7 +45,7 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 
 ### SIEM rules:
 * Determine which detection logic you miss, directly in the SIEM;
-* Build a project agenda.
+* Build a project agenda (deployment).
 
 
 ## Do:
@@ -74,7 +74,7 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 * Make sure that the automations capabilities to help in the detection phase, work as expected (ie.: observables enrichment in the SIRP with queries to the TIP).
 
 ### SIEM rules [first run for the assessed detection capabilities]:
-* Test the detection logics with narrowed use cases (specific events, generated on demand).
+* Test the detection logics with narrowed use cases (specific events, that are generated on demand).
 
 ### SIEM rules [following runs for the assessed detection capabilities]
 * Assess your detection capabilities with purpleteaming;
@@ -105,7 +105,7 @@ My recommendation, still, is to make sure not to spend all you time running afte
 
 ## Advanced maturity and needs:
 
-### Define your needs and the SOC priorities:
+### Precisely define your needs and the SOC priorities:
 
 * Leverage a risk management-based approach, to determiner:
   * threat actors (if possible);
@@ -123,3 +123,35 @@ My recommendation is to follow the [EBIOS RM methodology](https://www.ssi.gouv.f
 * Set as priority the detection of confirmed attack scenarios (and the corresponding TTP), as per risk management analysis.
 
 
+# Common detection use cases
+
+## Detection logics:
+
+### XDR-like logics:
+
+* Correlation between EDR alert and CASB alert for the same endpoint, per timeframe.
+* Correlation between EDR alert and NDR alert for the same endpoint, per timeframe.
+* Correlation between EDR alert and proxy SaaS alert for the same endpoint, per timeframe.
+* Correlation between EDR alert and identity management (AD, AAD, etc.) alert for the same user, per timeframe.
+
+### Threat intel-based detections:
+
+* IOC match (C&C intel) on proxy SaaS logs, firewall logs, EDR logs (telemetry),
+
+
+### Unblocked infection vector
+* N EDR/antimalware detections for the same user, per timeframe (trying to detect an unblocked infection vector).
+  * for instance, N > 2.
+
+### Persistance or protection bypass capabilities of threat:
+* EDR/antimalware cleaning error,
+* EDR/antimalware detection during scheduled scan (meraning the threat has bypassed realtime protection).
+* A phishing URL has been clicked before it was detected (Eg.: MS 365 Defender and ProofPoint UrlDefense offer this detection capability).
+
+### Successfull vulnerability exploitation detection:
+* Correlation of firewall logs (outgoing traffic) and a list of IP addresses that are sources of detected attacks by WAF and NIDS 
+   * NB: this is most likely a hint that a vulnerability has successfully been exploited and there is a callback to an attacker's machine.
+
+
+
+ 
