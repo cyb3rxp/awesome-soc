@@ -97,8 +97,10 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
     * T1486 (Data Encrypted for Impact), T1082 (System Information Discovery), T1055 (Process Injection), T1027 (Obfuscated Files or Information), T1005 (Data from Local System).
 
 ### Focus on top relevant vulnerabilities:
-- that are confirmed commonly exploited in the wild (see [CISA KEV)](https://www.cisa.gov/known-exploited-vulnerabilities-catalog);
+- Vulnerabilities that are confirmed commonly exploited in the wild (see [CISA KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog));
+
 **AND** 
+
 - that are confirmed as valid (unpatched) within your organization.
 
 My recommendation, still, is to make sure not to spend all your time running after latest 0days, as it is time consuming and not that efficient in the end in terms of working SOC detection capabilities.
