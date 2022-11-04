@@ -41,7 +41,7 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 ### Sensors:
 * Determine which sensors or endpoint/app logs, you miss in terms of detection capabilities
 * Determine how to generate and ingest their logs in the SIEM
-* Build a projet agenda
+* Build a project agenda
 
 ### SIEM rules:
 * Determine which detection logic you miss, directly in the SIEM;
@@ -68,7 +68,7 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 * Make sure your data ingestion is compliant with the datamodel you use (or, at least, the SIEM one).
 
 ### Handling procedures:
-* Make sure that the handling process and procedures is clear and working fine, for the tested alerts.
+* Make sure that the handling process and procedures are clear and working fine, for the tested alerts.
 
 ### Automations:
 * Make sure that the automations capabilities to help in the detection phase, work as expected (ie.: observables enrichment in the SIRP with queries to the TIP).
@@ -78,7 +78,7 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 
 ### SIEM rules [following runs for the assessed detection capabilities]
 * Assess your detection capabilities with purpleteaming;
-* Report your results and findings in purpose-built app like Vectr.
+* Report your results and findings in a purpose-built app like Vectr.
 
 ## Act
 * Fix everything that was previously identified as not working, or not matching your needs.
@@ -110,7 +110,7 @@ My recommendation, still, is to make sure not to spend all your time running aft
 
 ### Precisely define your needs and the SOC priorities:
 
-* Leverage a risk management-based approach, to determiner:
+* Leverage a risk management-based approach, to determine:
   * threat actors (if possible);
   * critical assets;
   * attack scenarios (somewhat, kill chains).
