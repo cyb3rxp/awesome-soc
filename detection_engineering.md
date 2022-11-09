@@ -8,6 +8,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * Generic recommended approach
 * PDCA applied to SOC
 * How to feed the Plan phase (detection engineering)
+* To go further
 
 
 # Must read
@@ -166,5 +167,9 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
    * for instance, X > 3.   
  
 
+# To go further
 
+## Must read
+
+* [Awesome Detection Engineering](https://github.com/infosecB/awesome-detection-engineering)
  
