@@ -97,11 +97,24 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
   * for instance: [Recorded Future 2021 top TTP report](https://www.recordedfuture.com/2021-malware-and-ttp-threat-landscape): 
     * T1486 (Data Encrypted for Impact), T1082 (System Information Discovery), T1055 (Process Injection), T1027 (Obfuscated Files or Information), T1005 (Data from Local System).
 
+### Leverage the native detection coverage of IT environments:
+
+* Refer to [Security Stack Mappings](https://github.com/center-for-threat-informed-defense/security-stack-mappings)
+  * for [AWS](https://mitre-attack.github.io/attack-navigator/#layerURL=https://center-for-threat-informed-defense.github.io/security-stack-mappings/AWS/layers/platform.json)
+  * for [Azure](https://mitre-attack.github.io/attack-navigator/#layerURL=https://center-for-threat-informed-defense.github.io/security-stack-mappings/Azure/layers/platform.json)
+  * for [GCP](https://mitre-attack.github.io/attack-navigator/#layerURL=https://center-for-threat-informed-defense.github.io/security-stack-mappings/AWS/layers/platform.json)
+
+## Leverage the documented detection coverage of security solutions:
+
+* Refer to [Security Stack Mappings](https://github.com/center-for-threat-informed-defense/security-stack-mappings)
+  * Regarding [Vectra](https://support.vectra.ai/s/article/KB-VS-1158)
+
 ### Cyber watch
 
 * SIEM rules publications:
   * [Sigma HQ (detection rules)](https://github.com/SigmaHQ/sigma/tree/master/rules) 
   * [Splunk Security content (free detection rules for Splunk)](https://research.splunk.com/) 
+  * [Elastic rules](https://github.com/elastic/detection-rules/tree/main/rules)
   * [Michel De Crevoisier's Git](https://github.com/mdecrevoisier/SIGMA-detection-rules)
 
 ### Focus on top relevant vulnerabilities:
