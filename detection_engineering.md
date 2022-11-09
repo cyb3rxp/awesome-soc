@@ -192,8 +192,9 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
 
 ## Must read
 
-* [Awesome Detection Engineering](https://github.com/infosecB/awesome-detection-engineering)
-* [MAGMA, a framework and tool for use case management](https://www.betaalvereniging.nl/wp-content/uploads/FI-ISAC-use-case-framework-verkorte-versie.pdf)
+* [Awesome Detection Engineering](https://github.com/infosecB/awesome-detection-engineering).
+* [MAGMA](https://www.betaalvereniging.nl/wp-content/uploads/FI-ISAC-use-case-framework-verkorte-versie.pdf), use case management framework.
+* [ADS Framework](https://github.com/palantir/alerting-detection-strategy-framework), Alerting and Detection Strategies framework.
  
 # End
 Go to [main page](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md).
