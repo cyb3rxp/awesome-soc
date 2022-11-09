@@ -180,3 +180,5 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
 
 * [Awesome Detection Engineering](https://github.com/infosecB/awesome-detection-engineering)
  
+ # End
+Go to [main page](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md).
