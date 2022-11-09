@@ -5,10 +5,10 @@ This page deals with SOC detection engineering and management (detection use cas
 # TOC
 
 * [Must read](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md#must-read)
-* [Generic recommended approach](https://github.com/cyb3rxp/awesome-soc/edit/main/detection_engineering.md#generic-recommended-approach)
-* [PDCA applied to SOC](https://github.com/cyb3rxp/awesome-soc/edit/main/detection_engineering.md#pdca-being-applied-to-soc)
-* [How to feed the Plan phase (detection engineering)](https://github.com/cyb3rxp/awesome-soc/edit/main/detection_engineering.md#how-to-feed-the-plan-phase)
-* [To go further](https://github.com/cyb3rxp/awesome-soc/edit/main/detection_engineering.md#to-go-further)
+* [Generic recommended approach](https://github.com/cyb3rxp/awesome-soc/main/detection_engineering.md#generic-recommended-approach)
+* [PDCA applied to SOC](https://github.com/cyb3rxp/awesome-soc/main/detection_engineering.md#pdca-being-applied-to-soc)
+* [How to feed the Plan phase (detection engineering)](https://github.com/cyb3rxp/awesome-soc/main/detection_engineering.md#how-to-feed-the-plan-phase)
+* [To go further](https://github.com/cyb3rxp/awesome-soc/main/detection_engineering.md#to-go-further)
 
 
 # Must read
