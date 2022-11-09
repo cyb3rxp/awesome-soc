@@ -24,6 +24,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * Medium, ["About detection engineering"](https://cyb3rops.medium.com/about-detection-engineering-44d39e0755f0)
 * ANSSI, [EBIOS RM methodology](https://www.ssi.gouv.fr/guide/ebios-risk-manager-the-method/)
 * Intrinsec, [Limitations of MITRE ATT&CK (in FR)](https://www.intrinsec.com/pilotage-dun-soc-interets-et-limites-de-la-matrice-attck/)
+* David J. Bianco, [Pyramid of pain](https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html)
 
 
 # Generic recommended approach
@@ -192,6 +193,7 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
 ## Must read
 
 * [Awesome Detection Engineering](https://github.com/infosecB/awesome-detection-engineering)
+* [MAGMA, a framework and tool for use case management](https://www.betaalvereniging.nl/wp-content/uploads/FI-ISAC-use-case-framework-verkorte-versie.pdf)
  
- # End
+# End
 Go to [main page](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md).
