@@ -175,18 +175,18 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
 
 ### Persistance or protection bypass capabilities of threat:
 * EDR/antimalware cleaning error,
-* EDR/antimalware detection during scheduled scan (meraning the threat has bypassed realtime protection).
-* A phishing URL has been clicked before it was detected (Eg.: MS 365 Defender and ProofPoint UrlDefense offer this detection capability).
+* EDR/antimalware detection during scheduled scan (meaning the threat has bypassed realtime protection).
+* A phishing URL has been clicked on before it was detected (Eg.: MS 365 Defender and ProofPoint UrlDefense offer this detection capability).
 
 ### Successfull vulnerability exploitation detection:
 * Correlation of firewall logs (outgoing traffic) and a list of IP addresses that are sources of detected attacks by WAF and NIDS 
    * NB: this is most likely a hint that a vulnerability has successfully been exploited and there is a callback to an attacker's machine.
 
 ### Impossible scenarios
-* Same user authenticating within X min of timeframe, on two different endpoints (not being located in the same place).
+* Same user authenticating within X min of timeframe, on two different endpoints (workstations/mobiles, not being located in the same place).
    * for instance, X > 2min.
-* Same user (except admins, to begin with) authenticating on more than X endpoints, per timeframe
-   * for instance, X > 3.   
+* Same user (except admins, to begin with) authenticating on more than X endpoints (workstations/mobiles), per timeframe (eg.: 10 min)
+   * for instance, X > 2.   
  
 
 # To go further
