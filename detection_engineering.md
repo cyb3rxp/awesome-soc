@@ -171,11 +171,11 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
 
 ### Unblocked infection vector:
 * X EDR/antimalware detections for the same user, per timeframe (trying to detect an unblocked infection vector).
-  * for instance, N > 2.
+  * for instance, X > 2.
 * X EDR/antimalware detections for the same workstation, per timeframe (trying to detect an unblocked infection vector).
-  * for instance, N > 2.
+  * for instance, X > 2.
 * X EDR/antimalware detections for the same server, per timeframe (trying to detect an unblocked infection vector).
-  * for instance, N > 9 (NB: might need to be higher for file sharing servers).
+  * for instance, X > 9 (NB: might need to be higher for file sharing servers).
 
 
 
