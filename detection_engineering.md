@@ -170,8 +170,14 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
 
 
 ### Unblocked infection vector:
-* N EDR/antimalware detections for the same user, per timeframe (trying to detect an unblocked infection vector).
+* X EDR/antimalware detections for the same user, per timeframe (trying to detect an unblocked infection vector).
   * for instance, N > 2.
+* X EDR/antimalware detections for the same workstation, per timeframe (trying to detect an unblocked infection vector).
+  * for instance, N > 2.
+* X EDR/antimalware detections for the same server, per timeframe (trying to detect an unblocked infection vector).
+  * for instance, N > 9 (NB: might need to be higher for file sharing servers).
+
+
 
 ### Persistance or protection bypass capabilities of threat:
 * EDR/antimalware cleaning error,
