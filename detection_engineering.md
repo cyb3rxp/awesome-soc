@@ -79,7 +79,8 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 * Make sure that the handling process and procedures are clear and working fine, for the tested alerts.
 
 ### Automations:
-* Make sure that the automations capabilities to help in the detection phase, work as expected (ie.: observables enrichment in the SIRP with queries to the TIP).
+* Make sure that the automations capabilities to help in the **detection** phase, work as expected (ie.: observables enrichment in the SIRP with queries to the TIP).
+* Make sure that the automations capabilities to help in the **response** phase, work as expected (ie.: containment steps).
 
 ### SIEM rules [first run for the assessed detection capabilities]:
 * Test the detection logics with narrowed use cases (specific events, that are generated on demand).
