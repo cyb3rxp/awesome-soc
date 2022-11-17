@@ -116,7 +116,7 @@ As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an exam
     * My recommendation: [Windows Defender Offline](https://support.microsoft.com/en-us/windows/help-protect-my-pc-with-microsoft-defender-offline-9306d528-64bf-4668-5b80-ff533f183d6c)
 
 ## Other critical tools for a SOC and a CERT:
-* Ticketing system:
+* Internal ticketing system (NB: **not** SIRP, not for incident response!):
   * My recommendation: [GitLab](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/sec-incident-response.html)
 * Knowledge sharing and management tool:
   * My recommendations: [Microsoft SharePoint](https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration), Wiki (choose the one you prefer, or [use GitLab as a Wiki](https://docs.gitlab.com/ee/user/project/wiki/)).
