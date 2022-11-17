@@ -332,12 +332,9 @@ Recommended timeframes to compute those KPI: 1 week, 1 month, and 6 months.
 
 # IT achitecture
 
-## Disconnect SOC from monitored environment
+## Disconnect (as much as possible) SOC from monitored environment
 * Implement SOC enclave (with network isolation), as per MITRE paper drawing:
 ![image](https://user-images.githubusercontent.com/16035152/186420265-4c0275b2-d70e-4fec-936c-712c1c4802a8.png)
-
-* Implement admin bastions and silos to administrate the SOC env:
-  * My recommendation: consider the SOC environment as to be administrated by **Tier 1**, if possible with a dedicated admin bastion. Here is a generic drawing from Wavestone's article (see Must read references): ![image](https://user-images.githubusercontent.com/16035152/202517740-812091b6-ff31-49cd-941e-3f6e4b4d140c.png)
 
 
 
@@ -403,6 +400,8 @@ Recommended timeframes to compute those KPI: 1 week, 1 month, and 6 months.
    * e.g.: [CIS](https://www.cisecurity.org/), [Microsoft Security Compliance Toolkit](https://www.microsoft.com/en-us/download/details.aspx?id=55319)
 * Put the SOC assets in a separate AD forest, as [forest is the AD security boundary](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/gathering-information-about-your-active-directory-deployment), for isolation purposes, in case of a global enterprise's IT compromise
 * Create/provide a disaster recovery plan for the SOC assets and resources.
+* Implement admin bastions and silo to administrate the SOC env (equipments, servers, endpoints):
+  * My recommendation: consider the SOC environment as to be administrated by **Tier 1**, if possible with a dedicated admin bastion. Here is a generic drawing from Wavestone's article (see Must read references): ![image](https://user-images.githubusercontent.com/16035152/202517740-812091b6-ff31-49cd-941e-3f6e4b4d140c.png)
 
 
 # Appendix
