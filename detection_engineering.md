@@ -62,7 +62,7 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 * Create the detection rules (SIEM searches) that match your previously identified needs;
 * Create the alert objects in the SIEM or SIRP, to contain the contents of the SIEM searches in case something is found.
 
-### Procedure:
+### Handling procedure (SOP):
 * If it does not exist already, create the handling procedure for the newly created detection rule.
 
 
@@ -71,7 +71,7 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 ### Logs:
 * Make sure your data ingestion is compliant with the datamodel you use (or, at least, the SIEM one).
 
-### Handling procedures:
+### Handling procedures (SOP):
 * Make sure that the handling process and procedures are clear and working fine, for the tested alerts.
 
 ### Automations:
@@ -85,7 +85,7 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 * Report your results and findings in a purpose-built app like Vectr.
 
 ## Act
-* Fix everything that was previously identified as not working, or not matching your needs.
+* Fix everything that was previously identified as not working, missing, or not matching your needs.
 
 
 # How to feed the "Plan" phase
