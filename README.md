@@ -24,7 +24,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * LetsDefend [SOC analyst interview questions](https://github.com/LetsDefend/SOC-Interview-Questions)
 * NIST, [Cybersecurity framework](https://www.nist.gov/cyberframework) 
 * FIRST, [Building a SOC](https://www.first.org/resources/guides/Factsheet_Building_a_SOC_start_small.pdf) 
-* MITRE, [11 strategies for a world-class SOC](https://www.mitre.org/publications/technical-papers/11-strategies-world-class-cybersecurity-operations-center), part 0 (Fundamentals) 
+* MITRE, [11 strategies for a world-class SOC](https://www.mitre.org/publications/technical-papers/11-strategies-world-class-cybersecurity-operations-center), part 0 (Fundamentals) or [local file](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf)
 
 
 ## For a CERT: 
@@ -198,7 +198,7 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
 ## SOC organization:
 * No real need for tiering (L1/L2/L3)
   * this is an old model for service provider, not necesseraly for a SOC!
-  * as per MITRE paper (p65):
+  * as per [MITRE paper](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf) (p65):
   >In this book, the constructs of “tier 1” and “tier 2+” are sometimes used to describe analysts
 who are primarily responsible for front-line alert triage and in-depth investigation/analysis/
 response, respectively. However, not all SOCs are arranged in this manner. In fact, some
@@ -227,7 +227,7 @@ describe their structure.
   * incident handler;
   * incident manager;
   * deputy CERT manager.
-* Generally speaking, follow best practices as described in ENISA's paper ("Good practice for incident management", see ["Must read"](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#for-a-cert))
+* Generally speaking, follow best practices as described in ENISA's ("Good practice for incident management", see ["Must read"](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#for-a-cert))
 
 ## TTP (attack methods) knowledge base reference:
 * Use [MITRE ATT&CK](https://attack.mitre.org/matrices/enterprise/)
