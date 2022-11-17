@@ -294,6 +294,7 @@ Recommended timeframes to compute those KPI: 1 week, 1 month, and 6 months.
 ## Recommended SOC trainings:
 
 ### Regular trainings:
+* [BlueTeamLabs challenges and investigations](https://blueteamlabs.online/home/challenges)
 * [LetsDefend](https://letsdefend.io/)
 * [SOC Vel](https://socvel.com/challenges/)
 * [ENISA trainings](https://www.enisa.europa.eu/topics/trainings-for-cybersecurity-specialists/online-training-material)
@@ -318,6 +319,7 @@ Recommended timeframes to compute those KPI: 1 week, 1 month, and 6 months.
 * [ENISA trainings](https://www.enisa.europa.eu/topics/trainings-for-cybersecurity-specialists/online-training-material)
 * [FIRST trainings](https://www.first.org/education/trainings)
 * [Malware Traffic Analysis](https://www.malware-traffic-analysis.net/)
+* [Become a Microsoft Sentinel Ninja](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/become-a-microsoft-sentinel-ninja-the-complete-level-400/ba-p/1246310)
 * [Hack The Box](https://www.hackthebox.com/)
 
 ### Certifications:
@@ -334,6 +336,9 @@ Recommended timeframes to compute those KPI: 1 week, 1 month, and 6 months.
 * Implement SOC enclave (with network isolation), as per MITRE paper drawing:
 ![image](https://user-images.githubusercontent.com/16035152/186420265-4c0275b2-d70e-4fec-936c-712c1c4802a8.png)
 
+* Implement admin bastions and silos to administrate the SOC env:
+  * My recommendation: consider the SOC environment as to be administrated by **Tier 1**, if possible with a dedicated admin bastion. Here is a generic drawing from Wavestone's article (see Must read references): ![image](https://user-images.githubusercontent.com/16035152/202517740-812091b6-ff31-49cd-941e-3f6e4b4d140c.png)
+
 
 
 
@@ -349,7 +354,7 @@ Recommended timeframes to compute those KPI: 1 week, 1 month, and 6 months.
 * FireEye, [Purple Team Assessment](https://www.fireeye.fr/content/dam/fireeye-www/regional/fr_FR/services/pdfs/ds-purple-team-assessment.pdf)
 *	FireEye, [OpenIOC format](https://github.com/fireeye/OpenIOC_1.1/blob/master/IOC_Terms_Defs.md)
 *	Kaspersky, [AV / EP / EPP / EDR / XDR](https://usa.kaspersky.com/blog/introducing-kedr-optimum/27062/?reseller=usa_regular-sm_acq_ona_smm__onl_b2c_lii_post_sm-team______&utm_source=linkedin&utm_medium=social&utm_campaign=us_regular-sm_en0177&utm_content=sm-post&utm_term=us_linkedin_organic_pmgk1776sk4g1qp)
-
+* Wavestone, [Security bastion (PAM) and Active Directory tiering mode: how to reconcile the two paradigms?](https://www.riskinsight-wavestone.com/en/2022/10/security-bastion-pam-and-active-directory-tiering-mode-how-to-reconcile-the-two-paradigms/)
 
 
 ## Nice to read:
