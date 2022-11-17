@@ -53,6 +53,8 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 * Determine which detection logic you miss, directly in the SIEM;
 * Build a project agenda (deployment).
 
+### Documentation:
+* Double check which Standard Operating Procedures (SOP), and global processes, you may miss or need to update.
 
 ## Do
 
