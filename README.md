@@ -8,7 +8,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 # TOC
 * [Must read](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#must-read)
 * [Fundamental concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md)
-* [Mission-critical means (tools/sensors)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#critical-means-toolssensors)
+* [Mission-critical means (tools/sensors)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#mission-critical-means-toolssensors)
 * [SOAR](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#soar)
 * [IT/security Watch (recommended sources)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#itsecurity-watch)
 * [Detection engineering management](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md)
@@ -57,7 +57,7 @@ As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an exam
 
 
 
-# Critical means (tools/sensors)
+# Mission-critical means (tools/sensors)
 
 ## Critical tools for a SOC/CERT:
 * **[SIEM](https://www.gartner.com/en/information-technology/glossary/security-information-and-event-management-siem)**:
