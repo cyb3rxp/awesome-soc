@@ -2,7 +2,7 @@
 
 This page deals with SOC detection engineering and management (detection use case creation, detection capabilities assessment, etc.)
 
-# TOC
+# ToC
 
 * [Must read](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md#must-read)
 * [Generic recommended approach](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md#generic-recommended-approach)
@@ -53,6 +53,14 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 * Determine which detection logic you miss, directly in the SIEM;
 * Build a project agenda (deployment).
 
+### Detection automation playbooks:
+* Determine which automation you miss, based on feedback from previous alerts and incidents handling;
+* Build a project agenda (deployment).
+
+### Response automation playbooks:
+* Determine which automation you miss, based on feedback from previous alerts and incidents handling;
+* Build a project agenda (deployment).
+
 ### Documentation:
 * Double check which Standard Operating Procedures (SOP), and global processes, you may miss or need to update.
 
@@ -65,6 +73,14 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 ### SIEM rules:
 * Create the detection rules (SIEM searches) that match your previously identified needs;
 * Create the alert objects in the SIEM or SIRP, to contain the contents of the SIEM searches in case something is found.
+
+### Detection automation playbooks:
+* Implement the needed automation, first by drawing the process and procedures (my recommendation is to use [BPMN](https://www.bpmn.org/));
+* and then by implementing it in the SOA.
+
+### Response automation playbooks:
+* Implement the needed automation, first by drawing the process and procedures (my recommendation is to use [BPMN](https://www.bpmn.org/));
+* and then by implementing it in the SOA.
 
 ### Handling procedure (SOP):
 * If it does not exist already, create the handling procedure for the newly created detection rule.
