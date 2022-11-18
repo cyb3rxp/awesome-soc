@@ -143,19 +143,21 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 
 ### Cyber watch
 
-* SIEM rules publications:
-  * [Sigma HQ (detection rules)](https://github.com/SigmaHQ/sigma/tree/master/rules) 
-  * [Splunk Security content (free detection rules for Splunk)](https://research.splunk.com/) 
-  * [Elastic rules](https://github.com/elastic/detection-rules/tree/main/rules)
-  * [Michel De Crevoisier's Git](https://github.com/mdecrevoisier/SIGMA-detection-rules)
+* SIEM rules publications to keep an eye on:
+  * [Sigma HQ (detection rules)](https://github.com/SigmaHQ/sigma/tree/master/rules).
+  * [Splunk Security content (free detection rules for Splunk)](https://research.splunk.com/).
+  * [Elastic rules](https://github.com/elastic/detection-rules/tree/main/rules).
+  * [Michel De Crevoisier's Git](https://github.com/mdecrevoisier/SIGMA-detection-rules).
   * [CAR](https://car.mitre.org/analytics/), MITRE Cyber Analytics Repository.
 
 ### Focus on top relevant vulnerabilities:
-- Vulnerabilities that are confirmed commonly exploited in the wild (see [CISA KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog));
+* Vulnerabilities that are confirmed commonly exploited in the wild (see [CISA KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog));
 
 **AND** 
 
 - that are confirmed as valid (unpatched) within your organization.
+
+Then try to implement detection rules that are specific to those carefully selected 0days.
 
 My recommendation, still, is to make sure not to spend all your time running after latest 0days, as it is time consuming and not that efficient in the end in terms of working SOC detection capabilities.
 
@@ -197,7 +199,7 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
 
 ### Threat intel-based detections:
 
-* IOC match (C&C intel) on proxy SaaS logs, firewall logs, EDR logs (telemetry),
+* IOC match (C&C intel) on proxy SaaS logs, firewall logs, EDR logs (telemetry).
 
 
 ### Unblocked infection vector:
@@ -211,25 +213,25 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
 
 
 ### Persistance or protection bypass capabilities of threat:
-* EDR/antimalware cleaning error,
+* EDR/antimalware cleaning error.
 * EDR/antimalware detection during scheduled scan (meaning the threat has bypassed realtime protection).
 * A phishing URL has been clicked on before it was detected (Eg.: MS 365 Defender and ProofPoint UrlDefense offer this detection capability).
 
 ### Successfull vulnerability exploitation detection:
-* Correlation of firewall logs (outgoing traffic) and a list of IP addresses that are sources of detected attacks by WAF and NIDS 
+* Correlation of firewall logs (outgoing traffic) and a list of IP addresses that are sources of detected attacks by WAF and NIDS;
    * NB: this is most likely a hint that a vulnerability has successfully been exploited and there is a callback to an attacker's machine.
 
 ### Impossible scenarios
-* Same user authenticating within X min of timeframe, on two different endpoints (workstations/mobiles, not being located in the same place).
+* Same user authenticating within X min of timeframe, on two different endpoints (workstations/mobiles, not being located in the same place);
    * for instance, X > 2min.
-* Same user (except admins, to begin with) authenticating on more than X endpoints (workstations/mobiles), per timeframe (eg.: 10 min)
+* Same user (except admins, to begin with) authenticating on more than X endpoints (workstations/mobiles), per timeframe (eg.: 10 min);
    * for instance, X > 2.   
  
  ## Augmenting detection with automation
  
  ### Identity-based detections:
  
- * Correlate identity-related detections (from sensors like EDR, CASB, proxies, WAF, AD, ...) with identity intelligence (for instance, passwords leak/sell detection). 
+ * Correlate identity-related detections (from sensors like EDR, CASB, proxies, WAF, AD, ...) with identity intelligence (for instance, passwords leak/sell detection); 
    * Here is an example of the global detection process (with courtesy of RecordedFuture):
   
   ![Capture9](https://user-images.githubusercontent.com/16035152/202507017-15903302-2a61-40ba-9266-30b27de92af6.PNG)
@@ -237,7 +239,7 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
 
 # Everything-as-code (DevSecOps)
 
-The idea here is to follow the 'as-code' approach, wherever possible, with a central repository as a versioning system and source of truth. This, in order to achieve automation, quality controls, resilience (restore previous version in case something breaks), R&D with PDCA, etc. For instance, based on experience, this is applicable to SIEM rules, SOA playbooks, SOP, etc. This, 
+The idea here is to follow the 'as-code' approach, wherever possible, with a central repository as a versioning system and source of truth. This, in order to achieve automation, quality controls, resilience (restore previous version in case something breaks), R&D with PDCA, etc. For instance, based on experience, this is applicable to SIEM rules, SOA playbooks, SOP, etc. 
 
 ## Required tools:
 * My recommendation: [GitLab](https://about.gitlab.com/) (or equivalent)
