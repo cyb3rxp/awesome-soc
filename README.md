@@ -71,7 +71,7 @@ As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an exam
   * My recommendations: [MISP](https://www.misp-project.org/), [OpenCTI](https://www.filigran.io/en/products/opencti/), [Sekoia.io](https://www.sekoia.io/fr/produire-et-personnaliser-votre-propre-intelligence/), [ThreatQuotient](https://www.threatq.com/)
   * don't forget the needed feeds (community / paid ones)
      * My recommendations for paid ones: [ESET](https://www.eset.com/us/business/services/threat-intelligence/), [Sekoia.io](https://www.sekoia.io/fr/sekoia-io-cti/), [Mandiant](https://www.mandiant.com/advantage/threat-intelligence/subscribe), [RecordedFuture](https://www.recordedfuture.com/platform/threat-intelligence), [Gatewatcher](https://www.gatewatcher.com/en/our-solutions/lastinfosec/)...
-     * My recommendations for community ones: MISP default feeds list, [ISAC](https://www.enisa.europa.eu/publications/information-sharing-and-analysis-center-isacs-cooperative-models), [OTX](https://otx.alienvault.com/api), the [Covert.io list](http://www.covert.io/threat-intelligence/).
+     * My recommendations for community ones: [URLHaus](https://urlhaus.abuse.ch/api/), [ISAC](https://www.enisa.europa.eu/publications/information-sharing-and-analysis-center-isacs-cooperative-models), [OTX](https://otx.alienvault.com/api), the [Covert.io list](http://www.covert.io/threat-intelligence/), [MISP default feeds list](https://www.misp-project.org/feeds/).
      
 
 ## Critical sensors for a SOC:
