@@ -132,7 +132,7 @@ As per [Gartner definition](https://securityboulevard.com/2021/08/gartner-soar-m
 
 ![image](https://user-images.githubusercontent.com/16035152/186781422-ebb3996a-da66-4d27-a55f-6065fa84fca5.png)
 
-Hence 3 critical tools (see below): SIRP, TIP, SOA, on top of SIEM.
+Hence 3 critical tools (see above): SIRP, TIP, SOA, on top of SIEM.
 
 And in my view, SOAR is more an approach, a vision, based on technology and processes, than a technology or tool per say. 
 
