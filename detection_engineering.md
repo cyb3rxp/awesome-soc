@@ -30,6 +30,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * PECB, [ISO 27001:2022, what are the changes?](https://pecb.com/past-webinars/isoiec-270012022--what-are-the-changes)
 * ANSSI, [EBIOS RM methodology](https://www.ssi.gouv.fr/guide/ebios-risk-manager-the-method/)
 * David J. Bianco, [Pyramid of pain](https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html)
+* Atlassian, [CI/CD/CD](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
 
 
 # Generic recommended approach
@@ -233,11 +234,13 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
 The idea here is to follow the 'as-code' approach, wherever possible, with a central repository as a versioning system and source of truth. This, in order to achieve automation, quality controls, resilience (restore previous version in case something breaks), R&D with PDCA, etc. For instance, based on experience, this is applicable to SIEM rules, SOA playbooks, SOP, etc. This, 
 
 ## Required tools:
-* [GitLab]([https://github.com/](https://about.gitlab.com/)) (or equivalent)
+* My recommendation: [GitLab](https://about.gitlab.com/) (or equivalent)
 
 ## Detection-as-code:
 * Implement CI/CD/CD between the SIEM rules and an internal Git repository
   * See [example](https://www.tines.com/blog/automating-detection-as-code) here with Elastic and Git
+  ![image](https://user-images.githubusercontent.com/16035152/202755165-9659d33a-f44f-4acc-86ef-fe11a004af5b.png)
+
 
 ## Response-as-code:
 * Implement CI/CD/CD between the SOA playbooks and an internal Git repository
