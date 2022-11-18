@@ -72,7 +72,7 @@ As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an exam
 * **[TIP](https://www.ssi.gouv.fr/en/actualite/opencti-the-open-source-solution-for-processing-and-sharing-threat-intelligence-knowledge/)**:
   * My recommendations: [MISP](https://www.misp-project.org/), [OpenCTI](https://www.filigran.io/en/products/opencti/), [Sekoia.io](https://www.sekoia.io/fr/produire-et-personnaliser-votre-propre-intelligence/), [ThreatQuotient](https://www.threatq.com/)
   * don't forget the needed feeds (community / paid ones)
-     * My recommendations for paid ones: [ESET](https://www.eset.com/us/business/services/threat-intelligence/), [Sekoia.io](https://www.sekoia.io/fr/sekoia-io-cti/), [Mandiant](https://www.mandiant.com/advantage/threat-intelligence/subscribe), [RecordedFuture](https://www.recordedfuture.com/platform/threat-intelligence), [Gatewatcher](https://www.gatewatcher.com/en/our-solutions/lastinfosec/)...
+     * My recommendations for paid ones: [ESET](https://www.eset.com/us/business/services/threat-intelligence/), [Sekoia.io](https://www.sekoia.io/fr/sekoia-io-cti/), [Mandiant](https://www.mandiant.com/advantage/threat-intelligence/subscribe), [RecordedFuture](https://www.recordedfuture.com/platform/threat-intelligence), [Netcraft](https://www.netcraft.com/cybercrime/malicious-site-feeds/), [Gatewatcher](https://www.gatewatcher.com/en/our-solutions/lastinfosec/)...
      * My recommendations for community ones: [URLHaus](https://urlhaus.abuse.ch/api/), [ISAC](https://www.enisa.europa.eu/publications/information-sharing-and-analysis-center-isacs-cooperative-models), [OTX](https://otx.alienvault.com/api), the [Covert.io list](http://www.covert.io/threat-intelligence/), [MISP default feeds list](https://www.misp-project.org/feeds/).
      
 
@@ -172,6 +172,8 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
 * Reset an AD account password.
 * Disable an AD account (both user and computer, since computer account disabling will block authentication with any AD account on the endpoint, thus preventing from lateral movement or priv escalation).
 * Report a (undetected) sample to security vendors, via email.
+* Report a malicious URL (for instance, phishing) to a security vendor for takedown steps
+  * My recommendation: Netcraft [through API](https://report.netcraft.com/api/v3)
 
 
 
