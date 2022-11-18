@@ -96,13 +96,13 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 
 ### Automations:
 * Make sure that the automations capabilities to help in the **detection** phase, work as expected (ie.: observables enrichment in the SIRP with queries to the TIP).
-* Make sure that the automations capabilities to help in the **response** phase, work as expected (ie.: containment steps), by assessing it with purpleteaming.
+* Make sure that the automations capabilities to help in the **response** phase, work as expected (ie.: containment steps), by assessing it with [purpleteaming](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#what-is-purpleredblue-team).
 
 ### SIEM rules [first run for the assessed detection capabilities]:
 * Test the detection logics with narrowed use cases (specific events, that are generated on demand).
 
 ### SIEM rules [following runs for the assessed detection capabilities]
-* Assess your detection capabilities with purpleteaming.
+* Assess your detection capabilities with [purpleteaming](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#what-is-purpleredblue-team).
 * Report your results and findings in a purpose-built app like Vectr.
 
 ## Act
