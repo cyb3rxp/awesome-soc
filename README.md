@@ -244,7 +244,7 @@ describe their structure.
 ## Key documents for a SOC:
 * Document an audit policy, that is tailored of the detection needs/expectations of the SOC:
   * The document aims to answer a generic question: what to audit/log, on which equipments/OSes/services/apps?
-  * Take the (Yamato Security work)(https://github.com/Yamato-Security/EnableWindowsLogSettings#smbclient-security-log-2-sigma-rules) as an exemple regarding an audit policy required for the Sigma community rules.
+  * Take the [Yamato Security work](https://github.com/Yamato-Security/EnableWindowsLogSettings#smbclient-security-log-2-sigma-rules) as an exemple regarding an audit policy required for the Sigma community rules.
 * Document a detection strategy, tailored to the needs and expectations regarding the SOC capabilities.
   * The document will aim to list the detection rules (SIEM searches, for instance), with key examples of results, and an overview of handling procedures.
 
