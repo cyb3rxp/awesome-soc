@@ -107,6 +107,12 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 * Assess your detection capabilities with [purpleteaming](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#what-is-purpleredblue-team).
 * Report your results and findings in a purpose-built app like Vectr.
 
+### SIEM objects
+* Assess the relevance and freshness of inclusion lists (aka whitelists), within the SIEM (and SIRP?).
+* Assess the relevance and freshness of exclusion lists (aka blacklsits), within the SIEM (and SIRP?).
+* Assess the relevance and freshness of IOC lists (that are supposed to be synced with the TIP), within the SIEM.
+* Assess the relevance and freshness of assets lists (groups, VIP/VOP, endpoints, etc.) that are supposed to be synced with Git.
+
 ## Act
 * Fix everything that was previously identified as not working, missing, or not matching your needs.
 
@@ -237,12 +243,12 @@ The idea here is to follow the 'as-code' approach, wherever possible, with a cen
 * My recommendation: [GitLab](https://about.gitlab.com/) (or equivalent)
 
 ## Detection-as-code:
-* Implement CI/CD/CD between the SIEM rules and an internal Git repository
+* Implement CI/CD/CD between the SIEM rules and an internal Git repository;
   * See [example](https://www.tines.com/blog/automating-detection-as-code) here with Elastic and Git
 ![image](https://user-images.githubusercontent.com/16035152/202756061-2a9d4cc8-ffb9-4e44-a38a-08774af22483.png)
-* Implement CI/CD/CD between the SIEM apps and an internal Git repository
-* Implement CI/CD/CD between the SIEM objects templates (if any) and an internal Git repository
-* Implement CI/CD between the audit policies (e.g.: Sysmon XML files, Linux AuditD conf, ....) and an internal Git repository
+* Implement CI/CD/CD between the SIEM apps and an internal Git repository.
+* Implement CI/CD/CD between the SIEM objects templates (if any) and an internal Git repository.
+* Implement CI/CD between the audit policies (e.g.: Sysmon XML files, Linux AuditD conf, ....) and an internal Git repository.
 
 ## Response-as-code:
 * Implement CI/CD/CD between the SOA playbooks and an internal Git repository
