@@ -9,7 +9,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * [PDCA applied to SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md#pdca-being-applied-to-soc)
 * [How to feed the Plan phase (detection engineering)](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md#how-to-feed-the-plan-phase)
 * [Common detection use cases](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md#common-detection-use-cases)
-* [Everything-as-code]([awesome](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md#everything-as-code))
+* [Everything-as-code](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md#everything-as-code)
 * [To go further](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md#to-go-further)
 
 
@@ -228,10 +228,12 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
   ![Capture9](https://user-images.githubusercontent.com/16035152/202507017-15903302-2a61-40ba-9266-30b27de92af6.PNG)
 
 
-# Everything-as-code
+# Everything-as-code (DevSecOps)
+
+The idea here is to follow the 'as-code' approach, wherever possible, with a central repository as a versioning system and source of truth. This, in order to achieve automation, quality controls, resilience (restore previous version in case something breaks), R&D with PDCA, etc. For instance, based on experience, this is applicable to SIEM rules, SOA playbooks, SOP, etc. This, 
 
 ## Required tools:
-* Git (or equivalent)
+* [GitLab]([https://github.com/](https://about.gitlab.com/)) (or equivalent)
 
 ## Detection-as-code:
 * Implement CI/CD/CD between the SIEM rules and an internal Git repository
