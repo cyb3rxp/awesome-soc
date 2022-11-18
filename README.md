@@ -5,7 +5,7 @@ Those are my view, based on my own experience as SOC/CERT analyst and team manag
 
 NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to incident response activity.
 
-# TOC
+# ToC
 * [Must read](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#must-read)
 * [Fundamental concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md)
 * [Mission-critical means (tools/sensors)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#mission-critical-means-toolssensors)
@@ -53,7 +53,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 See: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md).
 
 ## SOC and CISRT core: architecture of detection:
-As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an example of architecture of detection (SIEM, SIRP, TIP ):
+As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an example of architecture of detection (SIEM, SIRP, TIP):
 ![image](https://user-images.githubusercontent.com/16035152/187097659-a1006466-22a5-4c89-b0f1-ace64f54834f.png)
 
 
