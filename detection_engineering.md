@@ -239,7 +239,7 @@ The idea here is to follow the 'as-code' approach, wherever possible, with a cen
 ## Detection-as-code:
 * Implement CI/CD/CD between the SIEM rules and an internal Git repository
   * See [example](https://www.tines.com/blog/automating-detection-as-code) here with Elastic and Git
-  ![image](https://user-images.githubusercontent.com/16035152/202755165-9659d33a-f44f-4acc-86ef-fe11a004af5b.png)
+![image](https://user-images.githubusercontent.com/16035152/202756061-2a9d4cc8-ffb9-4e44-a38a-08774af22483.png)
 
 
 ## Response-as-code:
