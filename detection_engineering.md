@@ -108,10 +108,10 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 * Report your results and findings in a purpose-built app like Vectr.
 
 ### SIEM objects
-* Assess the relevance and freshness of inclusion lists (aka whitelists), within the SIEM (and SIRP?).
-* Assess the relevance and freshness of exclusion lists (aka blacklsits), within the SIEM (and SIRP?).
-* Assess the relevance and freshness of IOC lists (that are supposed to be synced with the TIP), within the SIEM.
-* Assess the relevance and freshness of assets lists (groups, VIP/VOP, endpoints, etc.) that are supposed to be synced with Git.
+* Assess the relevance and freshness of inclusion lists, aka whitelists (that are supposed to be synced with Git)
+* Assess the relevance and freshness of exclusion lists, aka blacklists (that are supposed to be synced with Git)
+* Assess the relevance and freshness of IOC lists (that are supposed to be synced with the TIP).
+* Assess the relevance and freshness of assets lists (that are supposed to be synced with Git), for instance groups, VIP/VOP, particular endpoints, etc.
 
 ## Act
 * Fix everything that was previously identified as not working, missing, or not matching your needs.
