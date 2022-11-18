@@ -45,20 +45,20 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 ## Plan
 
 ### Sensors:
-* Determine which sensors or endpoint/app logs, you miss in terms of detection capabilities
-* Determine how to generate and ingest their logs in the SIEM
-* Build a project agenda
+* Determine which sensors or endpoint/app logs, you miss in terms of detection capabilities.
+* Determine how to generate and ingest their logs in the SIEM.
+* Build a project agenda.
 
 ### SIEM rules:
-* Determine which detection logic you miss, directly in the SIEM;
+* Determine which detection logic you miss, directly in the SIEM.
 * Build a project agenda (deployment).
 
 ### Detection automation playbooks:
-* Determine which automation you miss, based on feedback from previous alerts and incidents handling;
+* Determine which automation you miss, based on feedback from previous alerts and incidents handling.
 * Build a project agenda (deployment).
 
 ### Response automation playbooks:
-* Determine which automation you miss, based on feedback from previous alerts and incidents handling;
+* Determine which automation you miss, based on feedback from previous alerts and incidents handling.
 * Build a project agenda (deployment).
 
 ### Documentation:
@@ -67,11 +67,11 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 ## Do
 
 ### Sensors:
-* Ingest the logs of the security sensor, or endpoint/app logs, that you previously identified;
+* Ingest the logs of the security sensor, or endpoint/app logs, that you previously identified.
 * Make sure your data ingestion is compliant with the datamodel you use.
 
 ### SIEM rules:
-* Create the detection rules (SIEM searches) that match your previously identified needs;
+* Create the detection rules (SIEM searches) that match your previously identified needs.
 * Create the alert objects in the SIEM or SIRP, to contain the contents of the SIEM searches in case something is found.
 
 ### Detection automation playbooks:
@@ -96,13 +96,13 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 
 ### Automations:
 * Make sure that the automations capabilities to help in the **detection** phase, work as expected (ie.: observables enrichment in the SIRP with queries to the TIP).
-* Make sure that the automations capabilities to help in the **response** phase, work as expected (ie.: containment steps).
+* Make sure that the automations capabilities to help in the **response** phase, work as expected (ie.: containment steps), by assessing it with purpleteaming.
 
 ### SIEM rules [first run for the assessed detection capabilities]:
 * Test the detection logics with narrowed use cases (specific events, that are generated on demand).
 
 ### SIEM rules [following runs for the assessed detection capabilities]
-* Assess your detection capabilities with purpleteaming;
+* Assess your detection capabilities with purpleteaming.
 * Report your results and findings in a purpose-built app like Vectr.
 
 ## Act
