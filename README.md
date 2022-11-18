@@ -25,14 +25,13 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * NIST, [Cybersecurity framework](https://www.nist.gov/cyberframework) 
 * FIRST, [Building a SOC](https://www.first.org/resources/guides/Factsheet_Building_a_SOC_start_small.pdf) 
 * MITRE, [11 strategies for a world-class SOC](https://www.mitre.org/publications/technical-papers/11-strategies-world-class-cybersecurity-operations-center) or [local file](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), part 0 (Fundamentals) 
-* Purp1eW0lf, [Blue Team Notes](https://github.com/Purp1eW0lf/Blue-Team-Notes)
 
 
 ## For a CERT: 
 * FIRST, [CERT-in-a-box](https://www.first.org/resources/guides/cert-in-a-box.zip) 
 * ENISA, [Good practice for incident management](https://www.enisa.europa.eu/publications/good-practice-guide-for-incident-management)
 * NIST, [SP800-86, integration forensics techniques into IR](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-86.pdf)
-* Purp1eW0lf, [Blue Team Notes](https://github.com/Purp1eW0lf/Blue-Team-Notes#rapid-malware-Analysis) 
+
 
 ## Globally (SOC and CERT):
 * CIS, [8 critical security controls](https://www.cisecurity.org/controls/cis-controls-list)
@@ -45,6 +44,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * FIRST, [CVSS v3.1 specs](https://www.first.org/cvss/specification-document) 
 * OASIS Open, [STIX](https://oasis-open.github.io/cti-documentation/stix/intro.html)
 * FIRST, [TLP](https://www.first.org/tlp/) (intelligence sharing and confidentiality)
+* Purp1eW0lf, [Blue Team Notes](https://github.com/Purp1eW0lf/Blue-Team-Notes)
 
 
 # Fundamental concepts:
