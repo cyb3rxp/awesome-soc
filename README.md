@@ -10,8 +10,8 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * [Fundamental concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md)
 * [Mission-critical means (tools/sensors)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#mission-critical-means-toolssensors)
 * [SOAR](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#soar)
-* [IT/security Watch (recommended sources)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#itsecurity-watch)
-* [Detection engineering management](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md)
+* [IT/security Watch](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#itsecurity-watch)
+* [Detection engineering](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md)
 * [Management](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#management)
 * [HR and training](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#hr-and-training)
 * [IT achitecture](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#it-achitecture)
@@ -115,7 +115,7 @@ As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an exam
   * IOC scanners:
     * My recommendations: [Loki](https://github.com/Neo23x0/Loki), [DFIR-ORC](https://github.com/dfir-orc)
   * Offline antimalware scanners: 
-    * My recommendation: [Windows Defender Offline](https://support.microsoft.com/en-us/windows/help-protect-my-pc-with-microsoft-defender-offline-9306d528-64bf-4668-5b80-ff533f183d6c)
+    * My recommendation: [Windows Defender Offline](https://support.microsoft.com/en-us/windows/help-protect-my-pc-with-microsoft-defender-offline-9306d528-64bf-4668-5b80-ff533f183d6c), [ESET SysRecue](https://www.eset.com/int/support/sysrescue/)
   * IOC repos for scanners:
     * Google [CTI's repo](https://github.com/chronicle/GCTI/tree/main/YARA): Yara rules for Cobalt Strike and others.
     * [Yara-rules GitHub repo](https://github.com/Yara-Rules/rules): multiple Yara rules types.
@@ -144,14 +144,18 @@ And in my view, SOAR is more an approach, a vision, based on technology and proc
 
 ## Simple and commonly needed automation tools:
 
-* Online automated Hash checker:
+* Online automated hash checker:
   * my recommendation: [Munin](https://github.com/Neo23x0/munin), or with PowerShell [Posh-VT](https://github.com/darkoperator/Posh-VirusTotal)
 
+* Online URL automated analysis:
+  * my recommendation: [CyberGordon](https://cybergordon.com/), [URLScan.io](https://urlscan.io/)
+
 * Online automated sample analyzer:
-  * my recommendation: [malwoverview](https://github.com/alexandreborges/malwoverview)
+  * my recommendation, for command-line and no sample submission: [Malwoverview](https://github.com/alexandreborges/malwoverview);
+  * my recommendations for online dynamic analysis: [Hybrid-Analysis](https://www.hybrid-analysis.com/), [Joe's sandbox](https://www.joesandbox.com/#windows)
 
 * (pure) Windows tasks automation:
-  * My recommendation: [AutoIT](https://www.autoitscript.com/site/)
+  * My recommendations: [AutoIT](https://www.autoitscript.com/site/), [Chocolatey](https://chocolatey.org/)
 
 * SaaS-based (and partly free, for basic stuff) SOA:
   * [Shuffle](https://shuffler.io/)
@@ -186,7 +190,7 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
 
 
 
-# IT/security Watch
+# IT/security Watch (recommended sources)
 
 * SIEM rules publications:
   * [Sigma HQ (detection rules)](https://github.com/SigmaHQ/sigma/tree/master/rules) 
@@ -357,16 +361,17 @@ Recommended timeframes to compute those KPI: 1 week, 1 month, and 6 months.
 
 ## Must read:
 * MITRE, [11 strategies for a world-class SOC (remaining of PDF)](https://www.mitre.org/publications/technical-papers/11-strategies-world-class-cybersecurity-operations-center) 
-* ANSSI (FR), [EBIOS RM methodology](https://www.ssi.gouv.fr/guide/ebios-risk-manager-the-method/)
-*	Microsoft, [SOC/IR hierarchy of needs](https://github.com/swannman/ircapabilities) 
 * CISA, [Cyber Defense Incident Responder role](https://www.cisa.gov/cyber-defense-incident-responder)
-* Betaalvereniging, [TaHiTI (threat hunting methodology)](https://www.betaalvereniging.nl/wp-content/uploads/TaHiTI-Threat-Hunting-Methodology-whitepaper.pdf) 
-* GMU, [Improving Social Maturity of Cybersecurity Incident Response Teams](https://edu.anarcho-copy.org/Against%20Security%20-%20Self%20Security/GMU_Cybersecurity_Incident_Response_Team_social_maturity_handbook.pdf)
 * FireEye, [Purple Team Assessment](https://www.fireeye.fr/content/dam/fireeye-www/regional/fr_FR/services/pdfs/ds-purple-team-assessment.pdf)
-*	FireEye, [OpenIOC format](https://github.com/fireeye/OpenIOC_1.1/blob/master/IOC_Terms_Defs.md)
 *	Kaspersky, [AV / EP / EPP / EDR / XDR](https://usa.kaspersky.com/blog/introducing-kedr-optimum/27062/?reseller=usa_regular-sm_acq_ona_smm__onl_b2c_lii_post_sm-team______&utm_source=linkedin&utm_medium=social&utm_campaign=us_regular-sm_en0177&utm_content=sm-post&utm_term=us_linkedin_organic_pmgk1776sk4g1qp)
 * Wavestone, [Security bastion (PAM) and Active Directory tiering mode: how to reconcile the two paradigms?](https://www.riskinsight-wavestone.com/en/2022/10/security-bastion-pam-and-active-directory-tiering-mode-how-to-reconcile-the-two-paradigms/)
 * MalAPI, [list of Windows API and their potential use in offensive security](https://malapi.io/)
+*	FireEye, [OpenIOC format](https://github.com/fireeye/OpenIOC_1.1/blob/master/IOC_Terms_Defs.md)
+* Herman Slatman, [Awesome Threat Intel](https://github.com/hslatman/awesome-threat-intelligence)
+*	Microsoft, [SOC/IR hierarchy of needs](https://github.com/swannman/ircapabilities) 
+* Betaalvereniging, [TaHiTI (threat hunting methodology)](https://www.betaalvereniging.nl/wp-content/uploads/TaHiTI-Threat-Hunting-Methodology-whitepaper.pdf) 
+* ANSSI (FR), [EBIOS RM methodology](https://www.ssi.gouv.fr/guide/ebios-risk-manager-the-method/)
+* GMU, [Improving Social Maturity of Cybersecurity Incident Response Teams](https://edu.anarcho-copy.org/Against%20Security%20-%20Self%20Security/GMU_Cybersecurity_Incident_Response_Team_social_maturity_handbook.pdf)
 
 
 ## Nice to read:
