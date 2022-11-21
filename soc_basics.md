@@ -30,7 +30,7 @@ As per [ENISA's whitepaper](https://www.enisa.europa.eu/publications/how-to-set-
 
 ## CSIRT activities:
 
-As per [ENISA's whitepaper](https://www.enisa.europa.eu/publications/how-to-set-up-csirt-and-soc/at_download/fullReport), a minimal set of services for CSIRTs usually includes those those in bold below in accordance with the FIRST services framework.
+As per [ENISA's whitepaper](https://www.enisa.europa.eu/publications/how-to-set-up-csirt-and-soc/at_download/fullReport), a minimal set of services for CSIRTs usually includes those in bold below in accordance with the FIRST services framework.
 ![image](https://user-images.githubusercontent.com/16035152/203086113-2b994d1f-9a27-4cad-8ad2-8da4166366a7.png)
 
 
