@@ -106,13 +106,15 @@ As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an exam
    
 
 ## Critical tools for CERT:
-* on-demand volatile data collection tool:
-  * my recommendations: [VARC](https://github.com/cado-security/varc), [DFIR-ORC](https://github.com/dfir-orc), [FireEye Redline](https://fireeye.market/apps/211364)
+* On-demand volatile data collection tool:
+  * My recommendations: [VARC](https://github.com/cado-security/varc), [DFIR-ORC](https://github.com/dfir-orc), [FireEye Redline](https://fireeye.market/apps/211364)
 * On-demand sandbox:
-  * My recommendations: [Joe's sandbox](https://www.joesandbox.com/#windows), [Hybrid Analysis](https://www.hybrid-analysis.com/), etc.
+  * My recommendations for online ones: [Joe's sandbox](https://www.joesandbox.com/#windows), [Hybrid Analysis](https://www.hybrid-analysis.com/), etc;
+  * My recommendation for local one: Windows 10 native Sandbox, with [automation](https://megamorf.gitlab.io/2020/07/19/automating-the-windows-sandbox/).
 * Forensics and reverse-engineering tools suite:
   * My recommendations: [SIFT Workstation](https://www.sans.org/tools/sift-workstation/), or [Tsurugi](https://tsurugi-linux.org/)
-  * My recommendation for reverse engineering, [FireEye Flare-VM](https://github.com/mandiant/flare-vm)
+  * My recommendation for reverse engineering and malware analysis, under Windows: [FireEye Flare-VM](https://github.com/mandiant/flare-vm)
+  * My recommendation for pure malware analysis, under Linux: [Remnux](https://remnux.org/)
 * Incident tracker: 
   * My recommendation: [Timesketch](https://timesketch.org/)
 * Scanners:
