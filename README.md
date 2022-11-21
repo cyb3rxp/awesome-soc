@@ -43,7 +43,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * ThreatConnect, [SIRP / SOA / TIP benefits](https://threatconnect.com/blog/realizing-the-benefits-of-security-orchestration-automation-and-response-soar/)
 * Gartner, [Market Guide for Security Orchestration, Automation and Response Solutions](https://www.gartner.com/doc/reprints?id=1-2ADE1K2G&ct=220621&st=sb) 
 * Orange Cyberdefense, [Feedback regarding experience with SOAR in 2020 (in French)](https://www.orangecyberdefense.com/fr/insights/blog/threat-management/soar-quelles-conclusions-en-2020) 
-* [Playbook for ransomware incident response (in French)](https://github.com/soufianetahiri/ransomware_Incident_Response_FR)
+* Soufiane Tahiri, [Playbook for ransomware incident response (in French)](https://github.com/soufianetahiri/ransomware_Incident_Response_FR)
 * FIRST, [CVSS v3.1 specs](https://www.first.org/cvss/specification-document) 
 * OASIS Open, [STIX](https://oasis-open.github.io/cti-documentation/stix/intro.html)
 * FIRST, [TLP](https://www.first.org/tlp/) (intelligence sharing and confidentiality)
@@ -403,6 +403,7 @@ As per [NCSC website](https://www.ncsc.gov.uk/collection/building-a-security-ope
 * [Incident Response & Computer Forensics, 3rd ed](https://www.google.fr/books/edition/Incident_Response_Computer_Forensics_Thi/LuWINQEACAAJ?hl=fr)
 * [GDPR cybersecurity implications (in French)](https://atelier-rgpd.cnil.fr/) 
 * [SANS SOC survey 2022](https://www.splunk.com/en_us/pdfs/resources/whitepaper/sans-soc-survey-2022.pdf)
+* [Soufiane Tahiri](https://github.com/soufianetahiri/Digital-Forensics-Incident-Response)
 
 
 ## SOC sensors, nice to have:
