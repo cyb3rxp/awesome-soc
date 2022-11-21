@@ -179,7 +179,7 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
 * Automatically retrieve the history of SIRP tickets for an user and/or endpoint, that is associated to a new SIRP ticket.
 * Automatically query AD or the assets management solution, for artefact anrichment (user, endpoint, IP, application, etc.).
 
-### My recommendations for reaction (incident response, containment/eradication steps)
+### My recommendations for response (incident response, containment/eradication steps)
 * Block an IP on all firewalls (including VPN), and SWG.
 * Block an URL on SWG. 
 * Block an email address (sender) on SEG.
@@ -192,7 +192,7 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
 * Report a false positive to security vendors, via email;
   * You may want to have a look at [this page](https://github.com/yaronelh/False-Positive-Center) to know the required email address.
 * Report a malicious URL (for instance, phishing) to a security vendor for takedown steps
-  * My recommendation: [Netcraft](https://www.netcraft.com/cybercrime/) [via API](https://report.netcraft.com/api/v3)
+  * My recommendation: [Netcraft](https://www.netcraft.com/cybercrime/) [via API](https://report.netcraft.com/api/v3), or [PhishReport](https://phish.report/docs).
 
 
 
