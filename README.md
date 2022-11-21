@@ -150,14 +150,14 @@ And in my view, SOAR is more an approach, a vision, based on technology and proc
 
 ## Simple and commonly needed automation tools:
 
-* Online automated hash checker:
+* Online automated hash checker (script):
   * my recommendation: [Munin](https://github.com/Neo23x0/munin), or with PowerShell [Posh-VT](https://github.com/darkoperator/Posh-VirusTotal)
 
 * Online URL automated analysis:
   * my recommendation: [CyberGordon](https://cybergordon.com/), [URLScan.io](https://urlscan.io/)
 
 * Online automated sample analyzer:
-  * my recommendation, for command-line and no sample submission: [Malwoverview](https://github.com/alexandreborges/malwoverview);
+  * my recommendation, via script and without sample submission: [Malwoverview](https://github.com/alexandreborges/malwoverview);
   * my recommendations for online dynamic analysis: [Hybrid-Analysis](https://www.hybrid-analysis.com/), [Joe's sandbox](https://www.joesandbox.com/#windows)
 
 * (pure) Windows tasks automation:
