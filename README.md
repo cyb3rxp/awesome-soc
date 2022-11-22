@@ -331,7 +331,9 @@ And MTTC:
 
 ### SLA:
 * Number of false positives.
-* Number of new detection use-cases being put in production.
+* Number of new detection use-cases (SIEM rules) being put in production.
+* Number of new detection automation use-cases (enrichment, etc.) being put in production.
+* Number of new response automation use-cases (containment, eradication) being put in production.
 * Number of detection rules which detection capability and handling process have been confirmed with purpleteaming session, so far.
 * MTTT: for critical incidents, mean time in H to triage (assign) the alerts.
 * MTTT: for medium incidents, mean time in H to triage (assign) the alerts.
