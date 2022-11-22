@@ -2,14 +2,14 @@
 
 # ToC
 
-* What is a SOC?
-* SOC Activities vs. CSIRT activities
-* What is a SIEM? What for?
-* SOC mission and context
-* SOC/CERT processes and workflow
-* What is purple/red/blue team?
-* Attack lifecycle
-* Most common infection vectors
+* [What is a SOC?](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#what-is-a-soc)
+* [SOC Activities vs. CSIRT activities](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#soc-activities-vs-csirt-activities)
+* [What is a SIEM? What for?](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#what-is-a-siem-what-for)
+* [SOC mission and context](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#soc-mission-and-context)
+* [SOC/CERT processes and workflow](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#soccert-processes-and-workflows)
+* [What is purple/red/blue team?](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#what-is-purpleredblue-team)
+* [Attack lifecycle](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#attack-lifecycle)
+* [Most common infection vectors](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#most-common-infection-vectors)
 
 
 # What is a SOC? 
