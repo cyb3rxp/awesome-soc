@@ -21,7 +21,7 @@ As per MITRE paper (SOC strategies, see [below](https://github.com/cyb3rxp/aweso
 Data, tools, and capabilities:
 ![image](https://user-images.githubusercontent.com/16035152/186420020-8507b3b3-7fb8-46cf-a5f9-9d6506284cb2.png)
 
-# SOC Activities vs. CSIRT activities
+# SOC activities vs. CSIRT activities
 
 ## SOC activities:
 
@@ -85,7 +85,7 @@ As per [Mandiant article](https://www.mandiant.com/resources/insights/targeted-a
 
 # Most common infection vectors
 
-Based on experience, and on numerous malware statistics, the following should be considered:
+Based on experience, and on numerous malware statistics, the following ones should be considered as priority:
 * emails;
 * web browsing;
 * USB sticks / removable storage;
