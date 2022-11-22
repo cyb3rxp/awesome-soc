@@ -257,8 +257,8 @@ The idea here is to follow the 'as-code' approach, wherever possible, with a cen
 * Implement CI/CD/CD between the SOA playbooks and an internal Git repository
 
 ## SOP-as-code
-* Implement CI/CD/CD between the SOP (Standard Operating Procedures) and an internal Wiki.
-  * My recommendation: [GitLab Docs](https://docs.gitlab.com/)
+* Implement CI/CD/CD between the SOP (Standard Operating Procedures) hosted on a Wiki (or equivalent) and and internal Git repository;
+  * My recommendation, to host the documentation and SOP: [GitLab Docs](https://gitlab.com/gitlab-org/gitlab-docs)
 
 
 # To go further
