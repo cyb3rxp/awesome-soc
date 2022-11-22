@@ -184,7 +184,7 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
 * Block an IP on all firewalls (including VPN), and SWG.
 * Block an URL on SWG. 
 * Block an email address (sender) on SEG.
-* Block an exe file (by hash) on endpoints (leveraging EDR, Sysmon, or AppLocker).
+* Block an exe file (by hash) on endpoints (leveraging antimalware/EDR or AppLocker).
 * Reset an AD account password.
 * Disable an AD account (both user and computer, since computer account disabling will block authentication with any AD account on the endpoint, thus preventing from lateral movement or priv escalation).
 * Report a (undetected) sample to security vendors, via email. Here are a few addresses, in case of: 
