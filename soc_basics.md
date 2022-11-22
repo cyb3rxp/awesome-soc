@@ -38,7 +38,11 @@ As per [ENISA's whitepaper](https://www.enisa.europa.eu/publications/how-to-set-
 
 
 # What is a SIEM? What for?
-As per [this article (in French)](https://www.sartagas.fr/outils-de-la-ssi/securite-de-l-exploitation/les-outils-siem/):
+
+As per [Gartner's glossary](https://www.gartner.com/en/information-technology/glossary/security-information-and-event-management-siem):
+Security information and event management (SIEM) technology supports threat detection, compliance and security incident management through the collection and analysis (both near real time and historical) of security events, as well as a wide variety of other event and contextual data sources. The core capabilities are a broad scope of log event collection and management, the ability to analyze log events and other data across disparate sources, and operational capabilities (such as incident management, dashboards and reporting).
+
+And as per [this article (in French)](https://www.sartagas.fr/outils-de-la-ssi/securite-de-l-exploitation/les-outils-siem/):
 
 ![image](https://user-images.githubusercontent.com/16035152/187097902-c118a3c9-9288-44f1-9914-65551cc8ee4d.png)
 
