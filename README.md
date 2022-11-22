@@ -1,7 +1,7 @@
 # Awesome SOC
 A collection of sources of documentation, and field best practices, to build and run a SOC (including CSIRT).
 
-Those are my view, based on my own experience as SOC/CSIRT analyst and team manager, as well as well-known papers. Focus is more on SOC than on CERT.
+Those are my view, based on my own experience as SOC/CSIRT analyst and team manager, as well as well-known papers. Focus is more on SOC than on CERT/CSIRT.
 
 NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to incident response activity.
 
@@ -28,14 +28,14 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * MITRE, [11 strategies for a world-class SOC](https://www.mitre.org/publications/technical-papers/11-strategies-world-class-cybersecurity-operations-center) (or use [local file](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf)): part 0 (Fundamentals).
 
 
-## For a CERT: 
+## For a CERT/CSIRT: 
 * FIRST, [CERT-in-a-box](https://www.first.org/resources/guides/cert-in-a-box.zip) 
 * FIRST, [CSIRT Services Framework](https://www.first.org/standards/frameworks/csirts/csirt_services_framework_v2.1)
 * ENISA, [Good practice for incident management](https://www.enisa.europa.eu/publications/good-practice-guide-for-incident-management)
 * NIST, [SP800-86, integration forensics techniques into IR](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-86.pdf)
 
 
-## Globally (SOC and CERT):
+## Globally (SOC and CERT/CSIRT):
 * ENISA, [How to set-up a CSIRT and SOC](https://www.enisa.europa.eu/publications/how-to-set-up-csirt-and-soc/at_download/fullReport)
 * NIST, [SP800-61 rev2, incident handling guide](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final) 
 * MITRE, [ATT&CK: Getting started](https://attack.mitre.org/resources/getting-started/)
@@ -66,7 +66,7 @@ As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an exam
 
 # Mission-critical means (tools/sensors)
 
-## Critical tools for a SOC/CERT:
+## Critical tools for a SOC/CSIRT:
 * **[SIEM](https://www.gartner.com/en/information-technology/glossary/security-information-and-event-management-siem)**:
    * See [Gartner magic quadrant](https://www.bankinfosecurity.com/whitepapers/2021-gartner-magic-quadrant-for-security-information-event-w-8758) 
    * My recommendations: [Splunk](www.splunk.com), [Elastic](https://www.elastic.co/)
@@ -106,7 +106,7 @@ As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an exam
     * My recomendation: implement [AD decoy acounts](https://medium.com/securonix-tech-blog/detecting-ldap-enumeration-and-bloodhound-s-sharphound-collector-using-active-directory-decoys-dfc840f2f644)
    
 
-## Critical tools for CERT:
+## Critical tools for CSIRT:
 * On-demand volatile data collection tool:
   * My recommendations: [VARC](https://github.com/cado-security/varc), [DFIR-ORC](https://github.com/dfir-orc), [FireEye Redline](https://fireeye.market/apps/211364)
 * On-demand sandbox:
@@ -246,7 +246,7 @@ describe their structure.
   * **security monitoring engineering team** (which fixes/improves security monitoring like SIEM rules and SOA playbooks, generates reportings, helps with uncommon use cases handling)
   * **build / project management team** (which does tools integration, SIEM data ingestion, specific DevOps tasks, project management).
 
-## CERT organization:
+## CSIRT organization:
 * Designate among team analysts: 
   * triage officer;
   * incident handler;
@@ -471,7 +471,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 * Publish your RFC2350, declaring what your CERT is (see "Nice to read" [above](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#to-go-further))
 
 
-## Harden SOC environment
+## Harden SOC/CSIRT environment
 * Implement hardening measures on SOC workstations, servers, and IT services that are used (if possible).
    * e.g.: [CIS](https://www.cisecurity.org/), [Microsoft Security Compliance Toolkit](https://www.microsoft.com/en-us/download/details.aspx?id=55319)
 * Put the SOC assets in a separate AD forest, as [forest is the AD security boundary](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/gathering-information-about-your-active-directory-deployment), for isolation purposes, in case of a global enterprise's IT compromise
