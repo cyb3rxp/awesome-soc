@@ -406,7 +406,9 @@ As per [NCSC website](https://www.ncsc.gov.uk/collection/building-a-security-ope
 * Implement SOC enclave (with network isolation), as per MITRE paper drawing:
 ![image](https://user-images.githubusercontent.com/16035152/186420265-4c0275b2-d70e-4fec-936c-712c1c4802a8.png)
 
+Only log collectors and WEF should be authorized to send data to the SOC/CSIRT enclave. Whenever possible, the SOC tools pull the data from the monitored environment, and not the contrary.
 
+SOC’s assets should be part of a separate [restricted AD forest](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/forest-design-models ), to allow AD isolation with the rest of the monitored AD domains. 
 
 
 # To go further
