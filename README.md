@@ -387,6 +387,7 @@ As per [NCSC website](https://www.ncsc.gov.uk/collection/building-a-security-ope
 * Betaalvereniging, [TaHiTI (threat hunting methodology)](https://www.betaalvereniging.nl/wp-content/uploads/TaHiTI-Threat-Hunting-Methodology-whitepaper.pdf) 
 * ANSSI (FR), [EBIOS RM methodology](https://www.ssi.gouv.fr/guide/ebios-risk-manager-the-method/)
 * GMU, [Improving Social Maturity of Cybersecurity Incident Response Teams](https://edu.anarcho-copy.org/Against%20Security%20-%20Self%20Security/GMU_Cybersecurity_Incident_Response_Team_social_maturity_handbook.pdf)
+* J0hnbX, [RedTeam resources](https://github.com/J0hnbX/RedTeam-Resources)
 
 
 ## Nice to read:
