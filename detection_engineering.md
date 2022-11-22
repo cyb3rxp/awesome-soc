@@ -146,7 +146,7 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 
 * SIEM rules publications to keep an eye on:
   * [Sigma HQ (detection rules)](https://github.com/SigmaHQ/sigma/tree/master/rules).
-  * [Splunk Security content (free detection rules for Splunk)](https://research.splunk.com/).
+  * [Splunk Security Essentials (free detection rules for Splunk)](https://docs.splunksecurityessentials.com/content-detail/).
   * [Elastic rules](https://github.com/elastic/detection-rules/tree/main/rules).
   * [Michel De Crevoisier's Git](https://github.com/mdecrevoisier/SIGMA-detection-rules).
   * [CAR](https://car.mitre.org/analytics/), MITRE Cyber Analytics Repository.
