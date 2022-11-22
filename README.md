@@ -308,9 +308,11 @@ And MTTC:
 
 ![image](https://user-images.githubusercontent.com/16035152/203334319-4caec07c-f999-4cc1-a506-078a72000359.png)
 
+Below are my recommendation. Unless specified, here are the recommended timeframes to compute those below KPI: 1 week, 1 month, and 6 months.
 
-
-### KPI:
+### SOC/CSIRT KPI:
+* Number of alerts (SIEM).
+* Number of verified alerts (meaning, confirmed security incidents).
 * Top security incident types.
 * Top applications associated to alerts (detections).
 * Top detection rules triggering most false positives.
@@ -321,15 +323,16 @@ And MTTC:
 * Top 10 longest tickets before closure.
 * Percentage of SIEM data that is not associated to SIEM searches (ie: detection rules).
 * Percentage of click-throughs for the organization-wide phishing campaigns in the past 12 months.
-* Percentage of employees who report suspicious emails for the standard organization-wide phishing campaigns.
+
+### Compliance KPI:
 * Percentage of known endpoints with company-required security solutions.
 * Percentage of critical and high-risk applications that are protected by multifactor authentication.
 * Ratio of always-on personal privileged accounts to the number of individuals in roles who should have access to these accounts.
 * Percentage of employees and contractors that have completed mandatory security training.
+* Percentage of employees who report suspicious emails for the standard organization-wide phishing campaigns.
 
 
-
-### SLA:
+### SOC/CSIRT SLA:
 * Number of false positives.
 * Number of new detection use-cases (SIEM rules) being put in production.
 * Number of new detection automation use-cases (enrichment, etc.) being put in production.
@@ -339,10 +342,12 @@ And MTTC:
 * MTTT: for medium incidents, mean time in H to triage (assign) the alerts.
 * MTTC: for critical and medium security incidents, mean time in H to handle the alerts and start mitigation steps (from triage to initial response).
 * MTTR: for critical and medium security incidents, mean time in H to handle the alerts and remediate them (from triage to remediation).
-* Average number of hours from the request for termination of access to sensitive or high-risk systems or information, to deprovisioning of all access.
+
+### Compliance SLA:
+
 * Percentage of critical assets that have successfully run ransomware recovery assessment, in the past 12 months.
-  
-Unless specified, here are the recommended timeframes to compute those KPI: 1 week, 1 month, and 6 months.
+* Average number of hours from the request for termination of access to sensitive or high-risk systems or information, to deprovisioning of all access.  
+
 
 # HR and training
 
