@@ -308,7 +308,7 @@ And MTTC:
 
 ![image](https://user-images.githubusercontent.com/16035152/203334319-4caec07c-f999-4cc1-a506-078a72000359.png)
 
-Below are my recommendation. Unless specified, here are the recommended timeframes to compute those below KPI: 1 week, 1 month, and 6 months.
+Below are my recommendations for KPI and SLA. Unless specified, here are the recommended timeframes to compute those below KPI: 1 week, 1 month, and 6 months.
 
 ### SOC/CSIRT KPI:
 * Number of alerts (SIEM).
@@ -322,7 +322,6 @@ Below are my recommendation. Unless specified, here are the recommended timefram
 * Most common incident types.
 * Top 10 longest tickets before closure.
 * Percentage of SIEM data that is not associated to SIEM searches (ie: detection rules).
-* Percentage of click-throughs for the organization-wide phishing campaigns in the past 12 months.
 
 ### Compliance KPI:
 * Percentage of known endpoints with company-required security solutions.
@@ -330,6 +329,8 @@ Below are my recommendation. Unless specified, here are the recommended timefram
 * Ratio of always-on personal privileged accounts to the number of individuals in roles who should have access to these accounts.
 * Percentage of employees and contractors that have completed mandatory security training.
 * Percentage of employees who report suspicious emails for the standard organization-wide phishing campaigns.
+* Percentage of click-throughs for the organization-wide phishing campaigns in the past 12 months.
+
 
 
 ### SOC/CSIRT SLA:
