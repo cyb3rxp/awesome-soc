@@ -48,6 +48,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * OASIS Open, [STIX](https://oasis-open.github.io/cti-documentation/stix/intro.html)
 * FIRST, [TLP](https://www.first.org/tlp/) (intelligence sharing and confidentiality)
 * CIS, [8 critical security controls](https://www.cisecurity.org/controls/cis-controls-list)
+* Gartner, [Cybersecurity business value benchmark](https://emtemp.gcom.cloud/ngw/globalassets/en/doc/documents/775537-gartner-cybersecurity-business-value-benchmark-1st-generation.pdf)
 
 
 
@@ -295,23 +296,47 @@ describe their structure.
   * Run the [SOC-CMM 4CERT self-assessment tool](https://www.soc-cmm.com/downloads/latest/soc-cmm%20for%20CERT%201.0%20-%20advanced.xlsx)
   
 ## Reporting:
-* Generate metrics, leveraging the SIRP capabilities to do so:
-  * top security incident types
-  * top applications associated to alerts (detections)
-  * top detection rules triggering most false positives
-  * top detection rules taking the longest to be handled
-  * number of false positives
-  * top 10 SIEM searches (detection rules) triggering false positives
-  * number of new detection use-cases being put in production.
-  * number of detection rules which detection capability and handling process have been confirmed with purpleteaming session, so far
-  * most seen TTP in detection
-  * most common incident types
-  * mean time to triage (assign) the alerts
-  * mean time to handle (verify and be ready for incident response) the alerts  
-  * top 10 longest tickets before closure
-  * percentage of SIEM data that is not associated to SIEM searches (detection rules)
+
+Generate metrics, leveraging the SIRP capabilities to do so.
+
+As per Gartner, MTTR:
+![image](https://user-images.githubusercontent.com/16035152/203329146-a3120f71-7d73-42f0-8c8f-fd2909865069.png)
+
+And MTTC:
+![image](https://user-images.githubusercontent.com/16035152/203330676-1132573d-d8c6-4472-b687-998326af3736.png)
+
+
+### KPI:
+* Top security incident types.
+* Top applications associated to alerts (detections).
+* Top detection rules triggering most false positives.
+* Top detection rules which corresponding alerts take the longest to be handled.
+* Top 10 SIEM searches (ie: detection rules) triggering false positives.
+* Most seen TTP in detection.
+* Most common incident types.
+* Top 10 longest tickets before closure.
+* Percentage of SIEM data that is not associated to SIEM searches (ie: detection rules).
+* Percentage of click-throughs for the organization-wide phishing campaigns in the past 12 months.
+* Percentage of employees who report suspicious emails for the standard organization-wide phishing campaigns.
+* Percentage of known endpoints with company-required security solutions.
+* Percentage of critical and high-risk applications that are protected by multifactor authentication.
+* Ratio of always-on personal privileged accounts to the number of individuals in roles who should have access to these accounts.
+* Percentage of employees and contractors that have completed mandatory security training.
+
+
+
+### SLA:
+* Number of false positives.
+* Number of new detection use-cases being put in production.
+* Number of detection rules which detection capability and handling process have been confirmed with purpleteaming session, so far.
+* MTTT: for critical incidents, mean time in H to triage (assign) the alerts.
+* MTTT: for medium incidents, mean time in H to triage (assign) the alerts.
+* MTTC: for critical and medium security incidents, mean time in H to handle the alerts and start mitigation steps (from triage to initial response).
+* MTTR: for critical and medium security incidents, mean time in H to handle the alerts and remediate them (from triage to remediation).
+* Average number of hours from the request for termination of access to sensitive or high-risk systems or information, to deprovisioning of all access.
+* Percentage of critical assets that have successfully run ransomware recovery assessment, in the past 12 months.
   
-Recommended timeframes to compute those KPI: 1 week, 1 month, and 6 months.
+Unless specified, here are the recommended timeframes to compute those KPI: 1 week, 1 month, and 6 months.
 
 # HR and training
 
