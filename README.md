@@ -297,15 +297,17 @@ describe their structure.
   
 ## Reporting:
 
-Generate metrics, leveraging the SIRP capabilities to do so.
+Generate metrics, leveraging the SIRP traceability and logging capabilities to get relevant data, as well as a bit of scripting.
 
 As per Gartner, MTTR:
 
-![image](https://user-images.githubusercontent.com/16035152/203329146-a3120f71-7d73-42f0-8c8f-fd2909865069.png)
+![image](https://user-images.githubusercontent.com/16035152/203334473-d210ed37-3d2d-4e03-a468-9cf72dad8c6f.png)
+
 
 And MTTC:
 
-![image](https://user-images.githubusercontent.com/16035152/203330676-1132573d-d8c6-4472-b687-998326af3736.png)
+![image](https://user-images.githubusercontent.com/16035152/203334319-4caec07c-f999-4cc1-a506-078a72000359.png)
+
 
 
 ### KPI:
