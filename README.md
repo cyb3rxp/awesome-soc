@@ -3,7 +3,7 @@ A collection of sources of documentation, and field best practices, to build and
 
 Those are my view, based on my own experience as SOC/CSIRT analyst and team manager, as well as well-known papers. Focus is more on SOC than on CERT/CSIRT.
 
-NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to incident response activity.
+NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to incident response activity. CERT refers to a (formerly) US trademark, run by [CERT-CC](https://www.sei.cmu.edu/about/divisions/cert/index.cfm), but I prefer the term CSIRT.
 
 # ToC
 * [Must read](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#must-read)
@@ -129,7 +129,7 @@ As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an exam
     * Spectre [Yara rules repo](https://github.com/phbiohazard/Yara)
     * Neo23x0 [Community Yara rules](https://github.com/Neo23x0/signature-base)
 
-## Other critical tools for a SOC and a CERT:
+## Other critical tools for a SOC and a CERT/CSIRT:
 * Internal ticketing system (NB: **not** SIRP, not for incident response!):
   * My recommendation: [GitLab](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/sec-incident-response.html)
 * Knowledge sharing and management tool:
