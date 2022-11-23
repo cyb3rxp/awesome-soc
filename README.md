@@ -208,6 +208,7 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
   * [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence) 
 * Known exploited vulnerabilities: 
   * [CISA catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
+  * [CVETrends](https://cvetrends.com/)
 * LinkedIn / Twitter:
   * e.g.: [LinkedIn Information Security Community group](https://www.linkedin.com/groups/38412/) 
 * RSS reader/portal:
