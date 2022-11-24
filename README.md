@@ -444,7 +444,8 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 * [Incident Response & Computer Forensics, 3rd ed](https://www.google.fr/books/edition/Incident_Response_Computer_Forensics_Thi/LuWINQEACAAJ?hl=fr)
 * [GDPR cybersecurity implications (in French)](https://atelier-rgpd.cnil.fr/) 
 * [SANS SOC survey 2022](https://www.splunk.com/en_us/pdfs/resources/whitepaper/sans-soc-survey-2022.pdf)
-* [Soufiane Tahiri](https://github.com/soufianetahiri/Digital-Forensics-Incident-Response)
+* Soufiane Tahiri, [Digital Forensocs Incident Response Git](https://github.com/soufianetahiri/Digital-Forensics-Incident-Response)
+* [Austin Songer](https://github.com/austinsonger/Incident-Playbook)
 
 
 ## SOC sensors, nice to have:
