@@ -16,12 +16,12 @@ Here is an example of what we commonly see:
 
 (source: https://www.erdalozkaya.com/cyber-threat-intelligence/)
 
-# Threat intel platform
+# Platform
 * TIP: 
   * My recommendations for community ones: [MISP](https://www.misp-project.org/), [OpenCTI](https://www.filigran.io/en/products/opencti/);
   * My recommendations for paid ones: [Sekoia.io](https://www.sekoia.io/fr/produire-et-personnaliser-votre-propre-intelligence/), [ThreatQuotient](https://www.threatq.com/)
 
-# Threat intel sources
+# Sources
 * Feeds:
    * My recommendations for paid ones: 
      * [ESET](https://www.eset.com/us/business/services/threat-intelligence/), 
