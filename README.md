@@ -75,10 +75,7 @@ As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an exam
 * **[SOA](https://d3security.com/blog/whats-the-difference-between-soar-and-sao/)**:
   * My recommendations: [IBM Resilient]( https://www.ibm.com/qradar/security-qradar-soar?utm_content=SRCWW&p1=Search&p4=43700068028974608&p5=e&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITW2yUqAfNqWNeYXyENeUAoqLxV543LT0n2oYhYxEQ47Yjm7NfYTFHAaAtwpEALw_wcB&gclsrc=aw.ds), [SwimLane](https://swimlane.com/), [TheHive](https://thehive-project.org/), [PAN Cortex XSOAR](https://www.paloaltonetworks.com/cortex/cortex-xsoar)
 * **[TIP](https://www.ssi.gouv.fr/en/actualite/opencti-the-open-source-solution-for-processing-and-sharing-threat-intelligence-knowledge/)**:
-  * My recommendations: [MISP](https://www.misp-project.org/), [OpenCTI](https://www.filigran.io/en/products/opencti/), [Sekoia.io](https://www.sekoia.io/fr/produire-et-personnaliser-votre-propre-intelligence/), [ThreatQuotient](https://www.threatq.com/)
-  * don't forget the needed feeds (community / paid ones)
-     * My recommendations for paid ones: [ESET](https://www.eset.com/us/business/services/threat-intelligence/), [Sekoia.io](https://www.sekoia.io/fr/sekoia-io-cti/), [Mandiant](https://www.mandiant.com/advantage/threat-intelligence/subscribe), [RecordedFuture](https://www.recordedfuture.com/platform/threat-intelligence), [Netcraft](https://www.netcraft.com/cybercrime/malicious-site-feeds/), [Gatewatcher](https://www.gatewatcher.com/en/our-solutions/lastinfosec/)...
-     * My recommendations for community ones: [URLHaus](https://urlhaus.abuse.ch/api/), [ISAC](https://www.enisa.europa.eu/publications/information-sharing-and-analysis-center-isacs-cooperative-models), [OTX](https://otx.alienvault.com/api), the [Covert.io list](http://www.covert.io/threat-intelligence/), [MISP default feeds list](https://www.misp-project.org/feeds/).
+   * See [Threat intel page](https://github.com/cyb3rxp/awesome-soc) 
      
 
 ## Critical sensors for a SOC:
