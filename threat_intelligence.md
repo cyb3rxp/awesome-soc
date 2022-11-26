@@ -31,9 +31,9 @@ As per [Forrester article](https://www.forrester.com/blogs/15-11-07-starting_soo
 
 Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-intel/) of an architecture with:
  * SIEM: Elastic;
- * TIP: MISP, OpenCTI;
- * SSIRP TheHive;
- * Threat intel orchestrator: Cortex;
+ * TIP: MISP / OpenCTI;
+ * SIRP: TheHive;
+ * Threat intel orchestrator: Cortex.
  
 ![image](https://user-images.githubusercontent.com/16035152/204066143-6c0a9cf0-67ab-44c7-b67e-af5df5a07219.png)
 
