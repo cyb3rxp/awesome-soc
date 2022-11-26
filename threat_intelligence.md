@@ -10,12 +10,9 @@
 
 # Generic workflow
 
-Here is an example of what we commonly see:
+Here is [an example](https://www.erdalozkaya.com/cyber-threat-intelligence/) of what we could expect to have:
 
 ![image](https://user-images.githubusercontent.com/16035152/204064894-943ad4e9-c1f6-4e5e-a7d8-ac5eb22f13fe.png)
-
-(source: https://www.erdalozkaya.com/cyber-threat-intelligence/)
-
 
 
 # Platform
@@ -28,6 +25,11 @@ Here is an example of what we commonly see:
 As per [Forrester article](https://www.forrester.com/blogs/15-11-07-starting_soon_threat_intelligence_platforms_research_0/), here are examples of common integration between threat intel sources, TIP, and security solutions:
 
 ![image](https://user-images.githubusercontent.com/16035152/204065814-2fc1b048-94d7-4f73-885e-b12d24ae2939.png)
+
+## Architecture example:
+
+Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-intel/) of an architecture with Elastic, MISP, OpenCTI, TheHive/Cortex:
+![image](https://user-images.githubusercontent.com/16035152/204066143-6c0a9cf0-67ab-44c7-b67e-af5df5a07219.png)
 
 
 # Sources
