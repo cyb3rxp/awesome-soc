@@ -41,18 +41,32 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
 # Sources
 * Feeds:
    * My recommendations for paid ones: 
-     * [ESET](https://www.eset.com/us/business/services/threat-intelligence/), 
-     * [Sekoia.io](https://www.sekoia.io/fr/sekoia-io-cti/), 
-     * [Mandiant](https://www.mandiant.com/advantage/threat-intelligence/subscribe), 
-     * [RecordedFuture](https://www.recordedfuture.com/platform/threat-intelligence), 
-     * [Netcraft](https://www.netcraft.com/cybercrime/malicious-site-feeds/), 
-     * [Gatewatcher](https://www.gatewatcher.com/en/our-solutions/lastinfosec/)...
+     * [ESET](https://www.eset.com/us/business/services/threat-intelligence/);
+     * [Sekoia.io](https://www.sekoia.io/fr/sekoia-io-cti/); 
+     * [Mandiant](https://www.mandiant.com/advantage/threat-intelligence/subscribe); 
+     * [RecordedFuture](https://www.recordedfuture.com/platform/threat-intelligence); 
+     * [Netcraft](https://www.netcraft.com/cybercrime/malicious-site-feeds/); 
+     * [Gatewatcher](https://www.gatewatcher.com/en/our-solutions/lastinfosec/);
+     * [CrowdSec](https://app.crowdsec.net/cti)...
    * My recommendations for community ones: 
-     * [URLHaus](https://urlhaus.abuse.ch/api/), 
-     * [ISAC](https://www.enisa.europa.eu/publications/information-sharing-and-analysis-center-isacs-cooperative-models), 
-     * [OTX](https://otx.alienvault.com/api), 
-     * The [Covert.io list](http://www.covert.io/threat-intelligence/), 
-     * [MISP default feeds list](https://www.misp-project.org/feeds/).
+     * [URLHaus](https://urlhaus.abuse.ch/api/); 
+     * [ISAC](https://www.enisa.europa.eu/publications/information-sharing-and-analysis-center-isacs-cooperative-models);
+     * [OTX](https://otx.alienvault.com/api);
+     * [VX Vault URL](http://vxvault.net/URL_List.php);
+     * [PAN Unit42](https://github.com/pan-unit42/iocs);
+     * [ESET IOC](https://github.com/eset/malware-ioc);
+     * [Intrinsec IOC](https://github.com/Intrinsec/IOCs);
+     * [Malware-IOC](https://github.com/executemalware/Malware-IOCs);
+     * [OpenPhish](https://openphish.com/feed.txt);
+     * [Bazaar](https://bazaar.abuse.ch/export/csv/recent/);
+     * [C2IntelFeeds](https://raw.githubusercontent.com/drb-ra/C2IntelFeeds/master/feeds/IPC2s-30day.csv);
+     * [Circle's MISP feed](https://www.circl.lu/doc/misp/feed-osint/);
+     * [Viriback](https://tracker.viriback.com/dump.php);
+     * [CERT-FR's MISP feed](https://misp.cert.ssi.gouv.fr/feed-misp/);
+     * [Orange CyberDefense, Log4Shell IOC](https://github.com/Orange-Cyberdefense/log4shell_iocs);
+     * [Orange CyberDefense, RU/UKR IOC](https://github.com/Orange-Cyberdefense/russia-ukraine_IOCs);
+     * The [Covert.io list](http://www.covert.io/threat-intelligence/).
+
 
 * Portals to query on-the-fly:
   * My recommendations: [VirusTotal API](https://support.virustotal.com/hc/en-us/articles/115002100149-API).
