@@ -230,12 +230,7 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
  
  ## Augmenting detection with automation
  
- ### Identity-based detections:
- 
- * Correlate identity-related detections (from sensors like EDR, CASB, proxies, WAF, AD, ...) with identity intelligence (for instance, passwords leak/sell detection); 
-   * Here is an example of the global detection process (with courtesy of RecordedFuture):
-  
-  ![Capture9](https://user-images.githubusercontent.com/16035152/202507017-15903302-2a61-40ba-9266-30b27de92af6.PNG)
+See [threat intel page](https://github.com/cyb3rxp/awesome-soc/blog/threat_intel.md)
 
 
 # Everything-as-code (DevSecOps)
