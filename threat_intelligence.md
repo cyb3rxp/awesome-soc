@@ -42,6 +42,14 @@ Here is an example of what we commonly see:
 
 # Threat intelligence and automation
 
+## Threat intel program and automation
+
+As per [ThreatConnect artcile](https://threatconnect.com/blog/tip-soar-creating-increased-capability-for-less-mature-teams/):
+> As threat intelligence drives your orchestrated actions, the result of those actions can be used to create or enhance existing threat intelligence. Thus, a feedback loop is created — threat intelligence drives orchestration, orchestration enhances threat intelligence.
+
+![image](https://user-images.githubusercontent.com/16035152/204065697-12466101-aa54-41a6-a462-a5831a1f22ef.png)
+
+
 ## Identity-based detections:
  
 * Correlate identity-related detections (from sensors like EDR, CASB, proxies, WAF, AD, ...) with identity intelligence (for instance, passwords leak/sell detection); 
