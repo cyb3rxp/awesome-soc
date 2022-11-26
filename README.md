@@ -426,6 +426,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 * ANSSI (FR), [EBIOS RM methodology](https://www.ssi.gouv.fr/guide/ebios-risk-manager-the-method/)
 * GMU, [Improving Social Maturity of Cybersecurity Incident Response Teams](https://edu.anarcho-copy.org/Against%20Security%20-%20Self%20Security/GMU_Cybersecurity_Incident_Response_Team_social_maturity_handbook.pdf)
 * J0hnbX, [RedTeam resources](https://github.com/J0hnbX/RedTeam-Resources)
+* iDNA, [how to mange FP in a SOC?](https://www.idna.fr/2018/11/06/comment-gerer-les-faux-positifs-dans-un-soc/), in FR.
 
 
 ## Nice to read:
