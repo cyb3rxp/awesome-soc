@@ -12,6 +12,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * [SOAR](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#soar)
 * [IT/security Watch](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#itsecurity-watch)
 * [Detection engineering](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md)
+* [Threat intelligence](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md)
 * [Management](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#management)
 * [HR and training](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#hr-and-training)
 * [IT achitecture](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#it-achitecture)
@@ -75,7 +76,7 @@ As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an exam
 * **[SOA](https://d3security.com/blog/whats-the-difference-between-soar-and-sao/)**:
   * My recommendations: [IBM Resilient]( https://www.ibm.com/qradar/security-qradar-soar?utm_content=SRCWW&p1=Search&p4=43700068028974608&p5=e&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITW2yUqAfNqWNeYXyENeUAoqLxV543LT0n2oYhYxEQ47Yjm7NfYTFHAaAtwpEALw_wcB&gclsrc=aw.ds), [SwimLane](https://swimlane.com/), [TheHive](https://thehive-project.org/), [PAN Cortex XSOAR](https://www.paloaltonetworks.com/cortex/cortex-xsoar)
 * **[TIP](https://www.ssi.gouv.fr/en/actualite/opencti-the-open-source-solution-for-processing-and-sharing-threat-intelligence-knowledge/)**:
-   * See [Threat intel page](https://github.com/cyb3rxp/awesome-soc) 
+   * See [Threat intel page](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md) 
      
 
 ## Critical sensors for a SOC:
