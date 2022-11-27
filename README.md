@@ -380,6 +380,7 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 * [FIRST trainings](https://www.first.org/education/trainings)
 * [Malware Traffic Analysis](https://www.malware-traffic-analysis.net/)
 * [Become a Microsoft Sentinel Ninja](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/become-a-microsoft-sentinel-ninja-the-complete-level-400/ba-p/1246310)
+* A. Borges, [MAS series](https://exploitreversing.com/2021/12/03/malware-analysis-series-mas-article-1/)
 * [Hack The Box](https://www.hackthebox.com/)
 
 ### Certifications:
