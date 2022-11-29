@@ -21,7 +21,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 
 # Must read
 
-## For a SOC:
+## For a SOC
 * LetsDefend [SOC analyst interview questions](https://github.com/LetsDefend/SOC-Interview-Questions)
 * NIST, [Cybersecurity framework](https://www.nist.gov/cyberframework) 
 * FIRST, [Building a SOC](https://www.first.org/resources/guides/Factsheet_Building_a_SOC_start_small.pdf) 
@@ -29,14 +29,14 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * MITRE, [11 strategies for a world-class SOC](https://www.mitre.org/publications/technical-papers/11-strategies-world-class-cybersecurity-operations-center) (or use [local file](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf)): part 0 (Fundamentals).
 
 
-## For a CERT/CSIRT: 
+## For a CERT/CSIRT
 * FIRST, [CERT-in-a-box](https://www.first.org/resources/guides/cert-in-a-box.zip) 
 * FIRST, [CSIRT Services Framework](https://www.first.org/standards/frameworks/csirts/csirt_services_framework_v2.1)
 * ENISA, [Good practice for incident management](https://www.enisa.europa.eu/publications/good-practice-guide-for-incident-management)
 * NIST, [SP800-86, integration forensics techniques into IR](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-86.pdf)
 
 
-## Globally (SOC and CERT/CSIRT):
+## Globally (SOC and CERT/CSIRT)
 * ENISA, [How to set-up a CSIRT and SOC](https://www.enisa.europa.eu/publications/how-to-set-up-csirt-and-soc/at_download/fullReport)
 * NIST, [SP800-61 rev2, incident handling guide](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final) 
 * MITRE, [ATT&CK: Getting started](https://attack.mitre.org/resources/getting-started/)
@@ -53,12 +53,12 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 
 
 
-# Fundamental concepts:
+# Fundamental concepts
 
-## Concepts, tools, missions, attack lifecycle, red/blue/purple teams:
+## Concepts, tools, missions, attack lifecycle, red/blue/purple teams
 See: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md).
 
-## SOC and CISRT core: architecture of detection:
+## SOC and CISRT core: architecture of detection
 As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an example of architecture of detection (SIEM, SIRP, TIP):
 ![image](https://user-images.githubusercontent.com/16035152/187097659-a1006466-22a5-4c89-b0f1-ace64f54834f.png)
 
@@ -67,7 +67,7 @@ As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an exam
 
 # Mission-critical means (tools/sensors)
 
-## Critical tools for a SOC/CSIRT:
+## Critical tools for a SOC/CSIRT
 * **[SIEM](https://www.gartner.com/en/information-technology/glossary/security-information-and-event-management-siem)**:
    * See [Gartner magic quadrant](https://www.bankinfosecurity.com/whitepapers/2021-gartner-magic-quadrant-for-security-information-event-w-8758) 
    * My recommendations: [Splunk](www.splunk.com), [Elastic](https://www.elastic.co/)
@@ -79,7 +79,7 @@ As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an exam
    * See [Threat intel page](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md) 
      
 
-## Critical sensors for a SOC:
+## Critical sensors for a SOC
 
 * **Antimalware**:
   * See [Gartner magic quadrant](https://www.threatscape.com/microsoft-security-named-leader-in-4-gartner-magic-quadrants/) 
@@ -104,7 +104,7 @@ As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an exam
     * My recomendation: implement [AD decoy acounts](https://medium.com/securonix-tech-blog/detecting-ldap-enumeration-and-bloodhound-s-sharphound-collector-using-active-directory-decoys-dfc840f2f644)
    
 
-## Critical tools for CSIRT:
+## Critical tools for CSIRT
 * On-demand volatile data collection tool:
   * My recommendations: [VARC](https://github.com/cado-security/varc), [DFIR-ORC](https://github.com/dfir-orc), [FireEye Redline](https://fireeye.market/apps/211364)
 * On-demand sandbox:
@@ -126,8 +126,8 @@ As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an exam
     * [Yara-rules GitHub repo](https://github.com/Yara-Rules/rules): multiple Yara rules types.
     * Spectre [Yara rules repo](https://github.com/phbiohazard/Yara)
     * Neo23x0 [Community Yara rules](https://github.com/Neo23x0/signature-base)
-
-## Other critical tools for a SOC and a CERT/CSIRT:
+    
+## Other critical tools for a SOC and a CERT/CSIRT
 * Internal ticketing system (NB: **not** SIRP, not for incident response!):
   * My recommendation: [GitLab](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/sec-incident-response.html)
 * Knowledge sharing and management tool:
@@ -147,7 +147,7 @@ Hence 3 critical tools (see above): SIRP, TIP, SOA, on top of SIEM.
 And in my view, SOAR is more an approach, a vision, based on technology and processes, than a technology or tool per say. 
 
 
-## Simple and commonly needed automation tools:
+## Simple and commonly needed automation tools
 
 * Online automated hash checker (script):
   * my recommendation: [Munin](https://github.com/Neo23x0/munin), or with PowerShell [Posh-VT](https://github.com/darkoperator/Posh-VirusTotal)
@@ -165,9 +165,9 @@ And in my view, SOAR is more an approach, a vision, based on technology and proc
 * SaaS-based (and partly free, for basic stuff) SOA:
   * [Shuffle](https://shuffler.io/)
 
-## Common automations:
+## Common automations
 
-### My recommendations for detection (alerts handling)
+### My recommendations for detection (alerts handling):
 
 Try to implement at least the following automations, leveraging the SOA/SIRP/TIP/SIEM capabilities:
 * Make sure all the context from any alert is being automatically transfered to the SIRP ticket, with a link to the SIEM alert(s) in case of.
@@ -178,7 +178,7 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
 * Automatically retrieve the history of SIRP tickets for an user and/or endpoint, that is associated to a new SIRP ticket.
 * Automatically query AD or the assets management solution, for artefact anrichment (user, endpoint, IP, application, etc.).
 
-### My recommendations for response (incident response, containment/eradication steps)
+### My recommendations for response (incident response, containment/eradication steps):
 * Block an IP on all firewalls (including VPN), SWG and CASB.
 * Block an URL on SWG. 
 * Block an email address (sender) on SEG.
@@ -219,7 +219,7 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
 
 # Management
 
-## SOC organization:
+## SOC organization
 * No real need for tiering (L1/L2/L3)
   * this is an old model for service provider, not necesseraly for a SOC!
   * as per [MITRE paper](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf) (p65):
@@ -245,7 +245,7 @@ describe their structure.
   * **security monitoring engineering team** (which fixes/improves security monitoring like SIEM rules and SOA playbooks, generates reportings, helps with uncommon use cases handling)
   * **build / project management team** (which does tools integration, SIEM data ingestion, specific DevOps tasks, project management).
 
-## CSIRT organization:
+## CSIRT organization
 * Designate among team analysts: 
   * triage officer;
   * incident handler;
@@ -253,16 +253,16 @@ describe their structure.
   * deputy CERT manager.
 * Generally speaking, follow best practices as described in ENISA's ("Good practice for incident management", see ["Must read"](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#for-a-cert))
 
-## TTP (attack methods) knowledge base reference:
+## TTP (attack methods) knowledge base reference
 * Use [MITRE ATT&CK](https://attack.mitre.org/matrices/enterprise/)
 * Document all detections (SIEM Rules, etc.) using MITRE ATT&CK ID, whenever possible.
 
-## Data quality and management:
+## Data quality and management
 * Implement an information model, like the [Splunk CIM one](https://docs.splunk.com/Documentation/CIM/5.0.1/User/Overview):
   * do not hesitate to extend it, depending on your needs
   * make sure this datamodel is being implemented in the SIEM, SIRP, SOA and even TIP.
 
-## Key documents for a SOC:
+## Key documents for a SOC
 * Document an audit policy, that is tailored of the detection needs/expectations of the SOC:
   * The document aims to answer a generic question: what to audit/log, on which equipments/OSes/services/apps?
   * Take the [Yamato Security work](https://github.com/Yamato-Security/EnableWindowsLogSettings#smbclient-security-log-2-sigma-rules) as an exemple regarding an audit policy required for the Sigma community rules.
@@ -270,7 +270,7 @@ describe their structure.
   * The document will aim to list the detection rules (SIEM searches, for instance), with key examples of results, and an overview of handling procedures.
 
 
-## Detection quality controls: 
+## Detection quality controls
  * **Run regular [purpleteaming sessions](https://about.gitlab.com/handbook/engineering/security/threat-management/red-team/purple-teaming/)** in time!!
    * e.g.: [Intrinsec](https://www.intrinsec.com/purple-team/), [FireEye](https://www.fireeye.fr/content/dam/fireeye-www/regional/fr_FR/services/pdfs/ds-purple-team-assessment.pdf)
    * To do it on your own, recommended tool: [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team)
@@ -278,23 +278,23 @@ describe their structure.
    * e.g.: [Vectr](https://github.com/securityriskadvisors/vectr)
 
 
-## Detection capabilities representation standard:
+## Detection capabilities representation standard
 *	Use [Security Stack Mappings](https://github.com/center-for-threat-informed-defense/security-stack-mappings) to picture detection capabilities for a given security solution/environment (like AWS, Azure, NDR, etc.): 
 
-## SOC detection capabilities **simplified** representation:
+## SOC detection capabilities **simplified** representation
  * Generate [ATT&CK heatmaps](https://www.signalblur.io/getting-started-with-mitres-att-ck-navigator/), to picture the SOC detection capabilities
 
-## SOC Self-assessment:
+## SOC Self-assessment
 *	Read the [SOC Cyber maturity model](https://www.soc-cmm.com/introduction/) from CMM
 *	Run the [SOC-CMM self-assessment tool](https://www.soc-cmm.com/downloads/latest/) 
 
-## CERT/CSIRT self-assessment:
+## CERT/CSIRT self-assessment
 * Read the [OpenCSIRT cybersecurity maturity framework](https://www.enisa.europa.eu/topics/csirts-in-europe/csirt-capabilities/csirt-maturity/) from ENISA 
   * Run the OpenCSIRT, [SIM3 self-assessment](https://sim3-check.opencsirt.org/#/v1/) 
 * Read the [SOC-CMM 4CERT](https://www.soc-cmm.com/4CERT/) from CMM
   * Run the [SOC-CMM 4CERT self-assessment tool](https://www.soc-cmm.com/downloads/latest/soc-cmm%20for%20CERT%201.0%20-%20advanced.xlsx)
   
-## Reporting:
+## Reporting
 
 Generate metrics, leveraging the SIRP traceability and logging capabilities to get relevant data, as well as a bit of scripting.
 
@@ -351,7 +351,7 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 
 # HR and training
 
-## Recommended SOC trainings:
+## Recommended SOC trainings
 
 ### Regular trainings:
 * [BlueTeamLabs challenges and investigations](https://blueteamlabs.online/home/challenges)
@@ -373,7 +373,7 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 * [CEH](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/)
 
 
-## Recommended CERT/CSIRT trainings:
+## Recommended CERT/CSIRT trainings
 
 ### Regular trainings:
 * [ENISA trainings](https://www.enisa.europa.eu/topics/trainings-for-cybersecurity-specialists/online-training-material)
@@ -393,7 +393,7 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 
 # IT achitecture
 
-## Have a single and centralized platform
+## Have a single and centralized platform ('single console')
 
 As per [NCSC website](https://www.ncsc.gov.uk/collection/building-a-security-operations-centre/detection/detection-practices#section_2):
 > Indications of an attack will rarely be isolated events on a single system component or system. So, where possible, having a single platform where analysts have the ability to see and query log data from all of your onboarded systems is invaluable.
@@ -413,7 +413,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 
 # To go further
 
-## Must read:
+## Must read
 * MITRE, [11 strategies for a world-class SOC (remaining of PDF)](https://www.mitre.org/publications/technical-papers/11-strategies-world-class-cybersecurity-operations-center) 
 * CISA, [Cyber Defense Incident Responder role](https://www.cisa.gov/cyber-defense-incident-responder)
 * FireEye, [Purple Team Assessment](https://www.fireeye.fr/content/dam/fireeye-www/regional/fr_FR/services/pdfs/ds-purple-team-assessment.pdf)
@@ -430,7 +430,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 * iDNA, [how to mange FP in a SOC?](https://www.idna.fr/2018/11/06/comment-gerer-les-faux-positifs-dans-un-soc/), in FR.
 
 
-## Nice to read:
+## Nice to read
 * NIST, [SP800-53 rev5 (Security and Privacy Controls for Information Systems and Organizations)](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
 * Amazon,	[AWS Security Fundamentals](https://aws.amazon.com/fr/training/digital/aws-security-fundamentals/)   
 * Microsoft, [PAW Microsoft](https://docs.microsoft.com/en-us/security/compass/privileged-access-devices) 
@@ -448,7 +448,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 * [Austin Songer](https://github.com/austinsonger/Incident-Playbook)
 
 
-## SOC sensors, nice to have:
+## SOC sensors, nice to have
 * Honeypot:
   * My recommendation: [Canary.tools](https://canary.tools/)
 * NDR:
@@ -461,7 +461,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
   * My recommendation: [Gigamon](https://www.gigamon.com/products/access-traffic/network-taps.html)
 
 
-## Management:
+## Management
 * **Define SOC priorities, with feared events and offensive scenarios (TTP) to be monitored**, as per risk analysis results.
   * My recommendation: leverage EBIOS RM methodology (see [above](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#to-go-further)).
 
@@ -484,8 +484,8 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 
 # Appendix
 
-## License:
+## License
 [CC-BY-SA](https://en.wikipedia.org/wiki/Creative_Commons_license)
 
-## Special thanks:
+## Special thanks
 Yann F., Wojtek S., Nicolas R., Clément G., Alexandre C., Jean B., Frédérique B., Pierre d'H., Julien C., Hamdi C., Fabien L., Michel de C., Gilles B., Olivier R., Jean-François L., Fabrice M., Pascal R., Florian S., Maxime P., Pascal L., Jérémy d'A., Olivier C. x2, David G., Guillaume D., Patrick C., Lesley K., Gérald G., Jean-Baptiste V., Antoine C. ...
