@@ -179,7 +179,7 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
 * Automatically query AD or the assets management solution, for artefact anrichment (user, endpoint, IP, application, etc.).
 
 ### My recommendations for response (incident response, containment/eradication steps)
-* Block an IP on all firewalls (including VPN), and SWG.
+* Block an IP on all firewalls (including VPN), SWG and CASB.
 * Block an URL on SWG. 
 * Block an email address (sender) on SEG.
 * Block an exe file (by hash) on endpoints (leveraging antimalware/EDR or AppLocker).
