@@ -201,6 +201,7 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
 ### Threat intel-based detections:
 
 * IOC match (C&C intel) on proxy SaaS logs, firewall logs, EDR logs (telemetry).
+* IOC match on outgoing blocked traffic (FW, proxy, CASB), potentially indicating C&C traffic.
 
 
 ### Unblocked infection vector:
@@ -217,7 +218,7 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
 * EDR/antimalware detection during scheduled scan (meaning the threat has bypassed realtime protection).
 * A phishing URL has been clicked on before it was detected (Eg.: MS 365 Defender and ProofPoint UrlDefense offer this detection capability).
 
-### Successfull vulnerability exploitation detection:
+### Successful vulnerability exploitation detection:
 * Correlation of firewall logs (outgoing traffic) and a list of IP addresses that are sources of detected attacks by WAF and NIDS;
    * NB: this is most likely a hint that a vulnerability has successfully been exploited and there is a callback to an attacker's machine.
 
