@@ -234,7 +234,7 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
   * See [this Splunk Webinar](https://on24static.akamaized.net/event/39/91/78/5/rt/1/documents/resourceList1669214675158/splunkwebinarslidesdetectiondeepdive1669214674061.pdf), page 38.
 
 ### Lateral movement [MITRE T1021.001]:
-* Multiple RDP servers to which an user connects to ver RDP for the first time;
+* Multiple RDP servers to which an user connects over RDP for the first time;
   * See [this Splunk Webinar](https://on24static.akamaized.net/event/39/91/78/5/rt/1/documents/resourceList1669214675158/splunkwebinarslidesdetectiondeepdive1669214674061.pdf),  page 33.
 
 ### C&C activity [MITRE T1071.004]:
@@ -251,8 +251,8 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
 
 ### Obfuscated script [T1027, T1059]:
 * Typically obfuscated PowerShell with base64;
-  * See [this Splunk's Git](https://github.com/splunk/security_content/blob/develop/detections/endpoint/powershell_fileless_script_contains_base64_encoded_content.yml)
-  * If you wanna go further, see [this article](https://www.splunk.com/en_us/blog/security/hunting-for-malicious-powershell-using-script-block-logging.html)
+  * See [the Splunk's Git](https://github.com/splunk/security_content/blob/develop/detections/endpoint/powershell_fileless_script_contains_base64_encoded_content.yml)
+  * If you wanna go further, see [this Splunk article](https://www.splunk.com/en_us/blog/security/hunting-for-malicious-powershell-using-script-block-logging.html)
 
 
 ## Augmenting detection with automation
@@ -293,7 +293,8 @@ The idea here is to follow the 'as-code' approach, wherever possible, with a cen
 
 * [Awesome Detection Engineering](https://github.com/infosecB/awesome-detection-engineering).
 * [MAGMA](https://www.betaalvereniging.nl/wp-content/uploads/FI-ISAC-use-case-framework-verkorte-versie.pdf), use case management framework.
-* [ADS Framework](https://github.com/palantir/alerting-detection-strategy-framework), Alerting and Detection Strategies framework.
+* Palantir, [ADS Framework](https://github.com/palantir/alerting-detection-strategy-framework), Alerting and Detection Strategies framework.
+* Splunk, [Detection eep dive](https://on24static.akamaized.net/event/39/91/78/5/rt/1/documents/resourceList1669214675158/splunkwebinarslidesdetectiondeepdive1669214674061.pdf)
  
 # End
 Go to [main page](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md).
