@@ -229,7 +229,7 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
    * for instance, X > 2.   
  
 ### Successful bruteforce [MITRE T1110]:
-* Same user having X wrong passwords followed by successfull authentication;
+* Same user having X wrong passwords followed by successful authentication;
   * for instance, X > 100
   * See [this Splunk Webinar](https://on24static.akamaized.net/event/39/91/78/5/rt/1/documents/resourceList1669214675158/splunkwebinarslidesdetectiondeepdive1669214674061.pdf), page 38.
 
@@ -269,18 +269,22 @@ The idea here is to follow the 'as-code' approach, wherever possible, with a cen
 
 ## Detection-as-code:
 * Implement CI/CD/CD between the SIEM rules and an internal Git repository;
+  * My recommendation: use YAML to declare and store your SIEM rules.
   * See [example](https://www.tines.com/blog/automating-detection-as-code) here with Elastic and Git
 ![image](https://user-images.githubusercontent.com/16035152/202756061-2a9d4cc8-ffb9-4e44-a38a-08774af22483.png)
 * Implement CI/CD/CD between the SIEM apps and an internal Git repository.
 * Implement CI/CD/CD between the SIEM objects templates (if any) and an internal Git repository.
-* Implement CI/CD between the audit policies (e.g.: Sysmon XML files, Linux AuditD conf, ....) and an internal Git repository.
+* Implement CI/CD between the audit policies (e.g.: Sysmon XML files, Linux AuditD conf, ...) and an internal Git repository.
 
 ## Response-as-code:
-* Implement CI/CD/CD between the SOA playbooks and an internal Git repository
+* Implement CI/CD/CD between the SOA and an internal Git repository, for the playbooks;
+  * Store the playbooks on the Git repo.
+  * Version them thanks to Git (test / preprod / prod / disabled).
+  * Deploy them from the Git, as a point of reference, onto the SOA.
 
 ## SOP-as-code
 * Implement CI/CD/CD between the SOP (Standard Operating Procedures) hosted on a Wiki (or equivalent) and and internal Git repository;
-  * My recommendation, to host the documentation and SOP: [GitLab Docs](https://gitlab.com/gitlab-org/gitlab-docs)
+  * My recommendation, to host the documentation and SOP: [GitLab Docs](https://gitlab.com/gitlab-org/gitlab-docs).
 
 
 # To go further
