@@ -227,14 +227,31 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
 * Same user (except admins, to begin with) authenticating on more than X endpoints (workstations/mobiles), per timeframe (eg.: 10 min);
    * for instance, X > 2.   
  
-### Successfull bruteforce [MITRE T1110]:
+### Successful bruteforce [MITRE T1110]:
 * Same user having X wrong passwords followed by successfull authentication;
   * for instance, X > 100
   * See [this Splunk Webinar](https://on24static.akamaized.net/event/39/91/78/5/rt/1/documents/resourceList1669214675158/splunkwebinarslidesdetectiondeepdive1669214674061.pdf), page 38.
 
-### Lateral movement [MITRE T1021.01]:
+### Lateral movement [MITRE T1021.001]:
 * Multiple RDP servers to which an user connects to ver RDP for the first time;
   * See [this Splunk Webinar](https://on24static.akamaized.net/event/39/91/78/5/rt/1/documents/resourceList1669214675158/splunkwebinarslidesdetectiondeepdive1669214674061.pdf),  page 33.
+
+### C&C activity [MITRE T1071.004]
+* C2 beaconing over DNS:
+  * See [this Splunk article](https://lantern.splunk.com/Security/Use_Cases/Threat_Hunting/Monitoring_a_network_for_DNS_exfiltration/Signs_of_beaconing_activity), and [this one](https://www.splunk.com/en_us/blog/security/hunting-your-dns-dragons.html);
+  * See [this blog article](http://findingbad.blogspot.com/2018/03/c2-hunting.html);
+  * See [this presentation](https://www.x33fcon.com/archive/2019/slides/x33fcon19_Hunting_Beacons_Bartek.pdf), hypothesis #2.
+
+### Newly accessed domains:
+* Typically landing page for infection, or C2C;
+  * See [this Splunk article](https://www.splunk.com/en_us/blog/security/finding-new-evil-detecting-new-domains-with-splunk.html) 
+  * NB: you may want to query all of the query results onto your TIP, leveraging automation capabilities (SOA). Thus, you will prioritize the handling of those network traffic logs.
+
+
+### Obfuscated script [T1027, T1059]:
+* Typically obfuscated PowerShell with base64;
+  * See [this Splunk's Git](https://github.com/splunk/security_content/blob/develop/detections/endpoint/powershell_fileless_script_contains_base64_encoded_content.yml)
+  * If you wanna go further, see [this article](https://www.splunk.com/en_us/blog/security/hunting-for-malicious-powershell-using-script-block-logging.html)
 
 
  ## Augmenting detection with automation
