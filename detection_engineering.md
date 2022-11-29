@@ -212,7 +212,6 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
   * for instance, X > 9 (NB: might need to be higher for file sharing servers).
 
 
-
 ### Persistance or protection bypass capabilities of threat:
 * EDR/antimalware cleaning error.
 * EDR/antimalware detection during scheduled scan (meaning the threat has bypassed realtime protection).
@@ -222,12 +221,22 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
 * Correlation of firewall logs (outgoing traffic) and a list of IP addresses that are sources of detected attacks by WAF and NIDS;
    * NB: this is most likely a hint that a vulnerability has successfully been exploited and there is a callback to an attacker's machine.
 
-### Impossible scenarios
+### Impossible scenarios:
 * Same user authenticating within X min of timeframe, on two different endpoints (workstations/mobiles, not being located in the same place);
    * for instance, X > 2min.
 * Same user (except admins, to begin with) authenticating on more than X endpoints (workstations/mobiles), per timeframe (eg.: 10 min);
    * for instance, X > 2.   
  
+### Successfull bruteforce [MITRE T1110]:
+* Same user having X wrong passwords followed by successfull authentication;
+  * for instance, X > 100
+  * See [this Splunk Webinar](https://on24static.akamaized.net/event/39/91/78/5/rt/1/documents/resourceList1669214675158/splunkwebinarslidesdetectiondeepdive1669214674061.pdf), page 38.
+
+### Lateral movement [MITRE T1021.01]:
+* Multiple RDP servers to which an user connects to ver RDP for the first time;
+  * See [this Splunk Webinar](https://on24static.akamaized.net/event/39/91/78/5/rt/1/documents/resourceList1669214675158/splunkwebinarslidesdetectiondeepdive1669214674061.pdf),  page 33.
+
+
  ## Augmenting detection with automation
  
 See [threat intel page](https://github.com/cyb3rxp/awesome-soc/blog/threat_intel.md)
