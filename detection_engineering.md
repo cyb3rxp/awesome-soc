@@ -104,11 +104,11 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 ### SIEM rules [first run for the assessed detection capabilities]:
 * Test the detection logics with narrowed use cases (specific events, that are generated on demand).
 
-### SIEM rules [following runs for the assessed detection capabilities]
+### SIEM rules [following runs for the assessed detection capabilities]:
 * Assess your detection capabilities with [purpleteaming](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#what-is-purpleredblue-team).
 * Report your results and findings in a purpose-built app like Vectr.
 
-### SIEM objects
+### SIEM objects:
 * Assess the relevance and freshness of inclusion lists, aka whitelists (that are supposed to be synced with Git)
 * Assess the relevance and freshness of exclusion lists, aka blacklists (that are supposed to be synced with Git)
 * Assess the relevance and freshness of IOC lists (that are supposed to be synced with the TIP).
@@ -142,7 +142,7 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 * Refer to [Security Stack Mappings](https://github.com/center-for-threat-informed-defense/security-stack-mappings)
   * Regarding [Vectra](https://support.vectra.ai/s/article/KB-VS-1158).
 
-### Cyber watch
+### Cyber watch:
 
 * SIEM rules publications to keep an eye on:
   * [Sigma HQ (detection rules)](https://github.com/SigmaHQ/sigma/tree/master/rules).
@@ -255,7 +255,7 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
   * If you wanna go further, see [this article](https://www.splunk.com/en_us/blog/security/hunting-for-malicious-powershell-using-script-block-logging.html)
 
 
- ## Augmenting detection with automation
+## Augmenting detection with automation
  
 See [threat intel page](https://github.com/cyb3rxp/awesome-soc/blog/threat_intel.md)
 
@@ -264,10 +264,10 @@ See [threat intel page](https://github.com/cyb3rxp/awesome-soc/blog/threat_intel
 
 The idea here is to follow the 'as-code' approach, wherever possible, with a central repository as a versioning system and source of truth. This, in order to achieve automation, quality controls, resilience (restore previous version in case something breaks), R&D with PDCA, etc. For instance, based on experience, this is applicable to SIEM rules, SOA playbooks, SOP, etc. 
 
-## Required tools:
+## Required tools
 * My recommendation: [GitLab](https://about.gitlab.com/) (or equivalent)
 
-## Detection-as-code:
+## Detection-as-code
 * Implement CI/CD/CD between the SIEM rules and an internal Git repository;
   * My recommendation: use YAML to declare and store your SIEM rules.
   * See [example](https://www.tines.com/blog/automating-detection-as-code) here with Elastic and Git
@@ -276,7 +276,7 @@ The idea here is to follow the 'as-code' approach, wherever possible, with a cen
 * Implement CI/CD/CD between the SIEM objects templates (if any) and an internal Git repository.
 * Implement CI/CD between the audit policies (e.g.: Sysmon XML files, Linux AuditD conf, ...) and an internal Git repository.
 
-## Response-as-code:
+## Response-as-code
 * Implement CI/CD/CD between the SOA and an internal Git repository, for the playbooks;
   * Store the playbooks on the Git repo.
   * Version them thanks to Git (test / preprod / prod / disabled).
