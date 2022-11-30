@@ -172,13 +172,27 @@ My recommendation, still, is to make sure not to spend all your time running aft
   * critical assets;
   * attack scenarios (somewhat, kill chains and TTP).
 
+### Identity risks and their treatment:
+
 * Here is a [simplified drawing](https://www.linkedin.com/pulse/iso-27005-risk-management-aron-lange/?trackingId=oRjjiIdY9BNjne1ALRq02A%3D%3D) of the global process, leveraging ISO 27005 approach:
 
 ![image](https://user-images.githubusercontent.com/16035152/197557946-7bc27c7a-6aee-48f4-a013-2ac20d6b5c76.png)
 
-* Here is a complementary drawing of this approach, from NIST, leveraging a Business Impact Analysis to determine risk prioritization (from NIST IR 8286A, see [To Go Further / Must Read](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md#to-go-further)):
+### Define risk prioritization as per BIA:
+
+* Here is a drawing of this approach, from NIST, leveraging a Business Impact Analysis to determine risk prioritization (from NIST IR 8286A, see [To Go Further / Must Read](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md#to-go-further)):
 
  ![image](https://user-images.githubusercontent.com/16035152/204857046-198c1f10-cbd4-4e66-8407-6927ed2ffbbf.png)
+ 
+> The completion of the risk description column is composed of four activities that are detailed in NIST IR 8286A, Subsections 2.2.1 through 2.2.4. The activities include:
+> • Part A – Identification of the organization’s relevant assets and their valuation
+> • Part B – Determination of potential intentional/unintentional threats that might jeopardize the confidentiality, integrity, and availability of those assets
+> • Part C – Consideration of vulnerabilities or other predisposing conditions of assets that make a threat event possible
+> • Part D – High-level evaluation of the potential consequences if the threat source (part B) exploits the weakness (part C) against the organizational asset (part A)
+
+> Information learned while developing the loss scenarios helps to complete Part D of the risk scenario development, as depicted in Figure 4. By determining the various adverse impacts that might occur – whether by intentional attacks, natural events, or inadvertent errors – the enterprise will be able to support effective assessment, response, communications, and monitoring of information security risks. Notably, the goal is not to determine the probability that such a risk 
+could occur since that exercise is part of risk analysis. Rather, the analysis of business impact is to determine what the various effects might be in order to enable risk managers to decide how critical and sensitive a particular business system is. Similar considerations apply to cyber-physical systems and operational technologies. 
+> The risk management process relies on this foundation of asset categorization, enabling a tailored and cost-effective approach to balancing risk and reward. Business impact drives categorization (sometimes called asset classification), which drives risk identification, which will later inform risk response, risk monitoring, and communication.
 
 My recommendation is to follow the [EBIOS RM methodology](https://www.ssi.gouv.fr/guide/ebios-risk-manager-the-method/), from French ANSSI. The fourth workshop will aim at defining the "offensive scenarios" that are relevant for the environment for which you are running the risk management methodology. Those offensive scenarios should be considered as TTP (even if they are not directly referenced in MITRE ATT&CK Enterprise matrix), to be monitored by the SOC.
 
