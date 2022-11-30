@@ -170,14 +170,15 @@ My recommendation, still, is to make sure not to spend all your time running aft
 * Leverage a risk management-based approach, to determine:
   * threat actors (if possible);
   * critical assets;
-  * attack scenarios (somewhat, kill chains).
+  * attack scenarios (somewhat, kill chains and TTP).
 
 * Here is a [simplified drawing](https://www.linkedin.com/pulse/iso-27005-risk-management-aron-lange/?trackingId=oRjjiIdY9BNjne1ALRq02A%3D%3D) of the global process, leveraging ISO 27005 approach:
+
 ![image](https://user-images.githubusercontent.com/16035152/197557946-7bc27c7a-6aee-48f4-a013-2ac20d6b5c76.png)
 
 * Here is a complementary drawing of this approach, from NIST, leveraging a Business Impact Analysis to determine risk prioritization (from NIST IR 8286A, see [To Go Further / Must Read](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md#to-go-further)):
- 
-![image](https://user-images.githubusercontent.com/16035152/204857046-198c1f10-cbd4-4e66-8407-6927ed2ffbbf.png)
+
+ ![image](https://user-images.githubusercontent.com/16035152/204857046-198c1f10-cbd4-4e66-8407-6927ed2ffbbf.png)
 
 My recommendation is to follow the [EBIOS RM methodology](https://www.ssi.gouv.fr/guide/ebios-risk-manager-the-method/), from French ANSSI. The fourth workshop will aim at defining the "offensive scenarios" that are relevant for the environment for which you are running the risk management methodology. Those offensive scenarios should be considered as TTP (even if they are not directly referenced in MITRE ATT&CK Enterprise matrix), to be monitored by the SOC.
 
