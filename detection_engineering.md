@@ -248,6 +248,10 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
   * See [this Splunk article](https://www.splunk.com/en_us/blog/security/finding-new-evil-detecting-new-domains-with-splunk.html) 
   * NB: you may want to query all of the query results onto your TIP, leveraging automation capabilities (SOA). Thus, you will prioritize the handling of those network traffic logs.
 
+### Potential information leak:
+* Detect abnormal traffic peaks, within the outgoing traffic logs (FW, proxies);
+  * See [this Splunk presentation](https://www.splunk.com/en_us/resources/videos/detection-technique-deep-dive.html?utm_medium=email&utm_source=splunk&utm_campaign=FY23Q4_DGN_EMEA_WBR_SEC_FR_conf_Detection_Deep_Dive_Wbnr&LST=ThankYou)
+
 
 ### Obfuscated script [T1027, T1059]:
 * Typically obfuscated PowerShell with base64;
