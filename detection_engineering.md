@@ -172,8 +172,12 @@ My recommendation, still, is to make sure not to spend all your time running aft
   * critical assets;
   * attack scenarios (somewhat, kill chains).
 
-Here is a [simplified drawing](https://www.linkedin.com/pulse/iso-27005-risk-management-aron-lange/?trackingId=oRjjiIdY9BNjne1ALRq02A%3D%3D) of the global process, leveraging ISO 27005 approach:
+* Here is a [simplified drawing](https://www.linkedin.com/pulse/iso-27005-risk-management-aron-lange/?trackingId=oRjjiIdY9BNjne1ALRq02A%3D%3D) of the global process, leveraging ISO 27005 approach:
 ![image](https://user-images.githubusercontent.com/16035152/197557946-7bc27c7a-6aee-48f4-a013-2ac20d6b5c76.png)
+
+* Here is a complementary drawing of this approach, from NIST, leveraging a Business Impact Analysis to determine risk prioritization (from NIST IR 8286A, see [To Go Further / Must Read](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md#to-go-further)):
+ 
+![image](https://user-images.githubusercontent.com/16035152/204857046-198c1f10-cbd4-4e66-8407-6927ed2ffbbf.png)
 
 My recommendation is to follow the [EBIOS RM methodology](https://www.ssi.gouv.fr/guide/ebios-risk-manager-the-method/), from French ANSSI. The fourth workshop will aim at defining the "offensive scenarios" that are relevant for the environment for which you are running the risk management methodology. Those offensive scenarios should be considered as TTP (even if they are not directly referenced in MITRE ATT&CK Enterprise matrix), to be monitored by the SOC.
 
@@ -181,6 +185,7 @@ My recommendation is to follow the [EBIOS RM methodology](https://www.ssi.gouv.f
 ### Focus your SOC detection engineering taskforce on priorities:
 
 * Set as priority the detection of confirmed attack scenarios (and the corresponding TTP), as per risk management analysis.
+  
 
 
 # Common detection use cases
@@ -298,7 +303,8 @@ The idea here is to follow the 'as-code' approach, wherever possible, with a cen
 * [Awesome Detection Engineering](https://github.com/infosecB/awesome-detection-engineering).
 * [MAGMA](https://www.betaalvereniging.nl/wp-content/uploads/FI-ISAC-use-case-framework-verkorte-versie.pdf), use case management framework.
 * Palantir, [ADS Framework](https://github.com/palantir/alerting-detection-strategy-framework), Alerting and Detection Strategies framework.
-* Splunk, [Detection eep dive](https://on24static.akamaized.net/event/39/91/78/5/rt/1/documents/resourceList1669214675158/splunkwebinarslidesdetectiondeepdive1669214674061.pdf)
+* Splunk, [Detection Deep dive](https://on24static.akamaized.net/event/39/91/78/5/rt/1/documents/resourceList1669214675158/splunkwebinarslidesdetectiondeepdive1669214674061.pdf).
+* NIST, [IR 8286D: BIA and Risk Prioritization](https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8286D.pdf)
  
 # End
 Go to [main page](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md).
