@@ -87,6 +87,7 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 
 ### Handling procedure (SOP):
 * If it does not exist already, create the handling procedure for the newly created detection rule.
+  * My recommendation: take the french [CERT-SG IRM procedures](https://github.com/certsocietegenerale/IRM) as templates.
 
 
 ## Check
