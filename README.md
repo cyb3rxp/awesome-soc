@@ -106,7 +106,7 @@ As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an exam
 
 ## Critical tools for CSIRT
 * On-demand volatile data collection tool:
-  * My recommendations: [VARC](https://github.com/cado-security/varc), [DFIR-ORC](https://github.com/dfir-orc), [FireEye Redline](https://fireeye.market/apps/211364)
+  * My recommendations: [VARC](https://github.com/cado-security/varc), [DFIR-ORC](https://github.com/dfir-orc), [FireEye Redline](https://fireeye.market/apps/211364), [CrowdStrike Falcon Toolkit](https://github.com/CrowdStrike/Falcon-Toolkit), [ESET Sysinspector](https://www.eset.com/int/support/sysinspector/)
 * On-demand sandbox:
   * My recommendations for online ones: [Joe's sandbox](https://www.joesandbox.com/#windows), [Hybrid Analysis](https://www.hybrid-analysis.com/), etc;
   * My recommendation for local one: Windows 10 native Sandbox, with [automation](https://megamorf.gitlab.io/2020/07/19/automating-the-windows-sandbox/).
