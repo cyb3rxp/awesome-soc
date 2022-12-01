@@ -316,6 +316,7 @@ The idea here is to follow the 'as-code' approach, wherever possible, with a cen
 
 ## Must read
 
+* Synaktiv, [Traces of Windows Remote Command Execution](https://www.synacktiv.com/en/publications/traces-of-windows-remote-command-execution.html)
 * [Awesome Detection Engineering](https://github.com/infosecB/awesome-detection-engineering).
 * [MAGMA](https://www.betaalvereniging.nl/wp-content/uploads/FI-ISAC-use-case-framework-verkorte-versie.pdf), use case management framework.
 * Palantir, [ADS Framework](https://github.com/palantir/alerting-detection-strategy-framework), Alerting and Detection Strategies framework.
