@@ -452,7 +452,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 
 
 ## SOC sensors, nice to have
-* Honeypot:
+* (full featured) Honeypot:
   * My recommendation: [Canary.tools](https://canary.tools/)
 * NDR:
   * My recommendation: [Gatewatcher](https://www.gatewatcher.com/en/our-solutions/trackwatch/)
