@@ -21,6 +21,14 @@ As per MITRE paper (SOC strategies, see [below](https://github.com/cyb3rxp/aweso
 Data, tools, and capabilities:
 ![image](https://user-images.githubusercontent.com/16035152/186420020-8507b3b3-7fb8-46cf-a5f9-9d6506284cb2.png)
 
+## Evolution of SOC in time
+
+Some people may consider SOC has evolved in time, as the fllowing drawing shows (from [this article](https://www.linkedin.com/pulse/evolution-security-operations-center-lakshminarayanan-kaliyaperumal/)):
+
+![image](https://user-images.githubusercontent.com/16035152/205919783-b1ba9acc-c071-4019-b687-284e9f2ae2f2.png)
+
+I do believe it mostly depends on the context (environment t o the monitored), and the cyber maturity. And on top of that, AI (meaning Artificial Intelligence) still does not exist per say....
+
 # SOC activities vs. CSIRT activities
 
 ## SOC activities:
