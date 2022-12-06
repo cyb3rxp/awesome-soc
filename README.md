@@ -295,12 +295,22 @@ As per [NCSC website](https://www.ncsc.gov.uk/collection/building-a-security-ope
 
 
 ## Disconnect (as much as possible) SOC from monitored environment
+
+The goal is to prevent an attacker from achieving lateral movement from a compromised monitored zone, to the SOC/CSIRT work zone.
+
+### Enclave: 
 * Implement SOC enclave (with network isolation), as per MITRE paper drawing:
 ![image](https://user-images.githubusercontent.com/16035152/186420265-4c0275b2-d70e-4fec-936c-712c1c4802a8.png)
 
-Only log collectors and WEF should be authorized to send data to the SOC/CSIRT enclave. Whenever possible, the SOC tools pull the data from the monitored environment, and not the contrary.
+* Only log collectors and WEF should be authorized to send data to the SOC/CSIRT enclave. Whenever possible, the SOC tools pull the data from the monitored environment, and not the contrary.
 
 SOC’s assets should be part of a separate [restricted AD forest](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/forest-design-models ), to allow AD isolation with the rest of the monitored AD domains. 
+
+
+### Endpoints hardening:
+
+* SOC/CSIRT's endpoints should be hardened with relevant guidelines;
+   * My recommendations: [CIS benchmarks](https://www.cisecurity.org/cis-benchmarks/), [Microsoft Security Compliance Toolkit](https://www.microsoft.com/en-us/download/details.aspx?id=55319)
 
 
 # To go further
