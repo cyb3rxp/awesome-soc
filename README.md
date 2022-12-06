@@ -128,6 +128,7 @@ As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an exam
     * [Yara-rules GitHub repo](https://github.com/Yara-Rules/rules): multiple Yara rules types.
     * Spectre [Yara rules repo](https://github.com/phbiohazard/Yara)
     * Neo23x0 [Community Yara rules](https://github.com/Neo23x0/signature-base)
+    * and those listed here, [Awesome threat intel](https://github.com/hslatman/awesome-threat-intelligence)
     
 ## Other critical tools for a SOC and a CERT/CSIRT
 * Internal ticketing system (NB: **not** SIRP, not for incident response!):
@@ -205,8 +206,6 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
   * [Splunk Security content (free detection rules for Splunk)](https://research.splunk.com/) 
   * [SOC Prime](https://tdm.socprime.com/)
   * [Michel De Crevoisier's Git](https://github.com/mdecrevoisier/SIGMA-detection-rules)
-* Threat intel sources:
-  * [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence) 
 * Known exploited vulnerabilities: 
   * [CISA catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
   * [CVETrends](https://cvetrends.com/)
