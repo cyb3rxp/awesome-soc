@@ -107,8 +107,8 @@ As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an exam
 ## Critical tools for CSIRT
 * On-demand volatile data collection tool:
   * My recommendations: [VARC](https://github.com/cado-security/varc), [DFIR-ORC](https://github.com/dfir-orc), [FireEye Redline](https://fireeye.market/apps/211364), [ESET Sysinspector](https://www.eset.com/int/support/sysinspector/).
-* Remote action capable tools (ie.: remote shell orequivalent):
-  * My recommendations: [CIMSweep](https://github.com/mattifestation/CimSweep), [CrowdStrike Falcon Toolkit](https://github.com/CrowdStrike/Falcon-Toolkit) but it relies on CrowdStrike EDR, [GRR](https://github.com/google/grr) but it needs an agent to be installed.
+* Remote action capable tools (ie.: remote shell or equivalent):
+  * My recommendations: [CIMSweep](https://github.com/mattifestation/CimSweep), [Velociraptor](https://docs.velociraptor.app/docs/deployment/), [CrowdStrike Falcon Toolkit](https://github.com/CrowdStrike/Falcon-Toolkit) but it relies on CrowdStrike EDR, [GRR](https://github.com/google/grr) but it needs an agent to be installed.
 * On-demand sandbox:
   * My recommendations for online ones: [Joe's sandbox](https://www.joesandbox.com/#windows), [Hybrid Analysis](https://www.hybrid-analysis.com/), etc;
   * My recommendation for local one: Windows 10 native Sandbox, with [automation](https://megamorf.gitlab.io/2020/07/19/automating-the-windows-sandbox/).
