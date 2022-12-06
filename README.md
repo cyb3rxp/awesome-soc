@@ -366,7 +366,8 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 * Put the SOC assets in a separate AD forest, as [forest is the AD security boundary](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/gathering-information-about-your-active-directory-deployment), for isolation purposes, in case of a global enterprise's IT compromise
 * Create/provide a disaster recovery plan for the SOC assets and resources.
 * Implement admin bastions and silo to administrate the SOC env (equipments, servers, endpoints):
-  * My recommendation: consider the SOC environment as to be administrated by **Tier 1**, if possible with a dedicated admin bastion. Here is a generic drawing from Wavestone's article (see Must read references): ![image](https://user-images.githubusercontent.com/16035152/202517740-812091b6-ff31-49cd-941e-3f6e4b4d140c.png)
+  * My advice: consider the SOC environment as to be administrated by **Tier 1**, if possible with a dedicated admin bastion. Here is a generic drawing from Wavestone's article (see Must read references): ![image](https://user-images.githubusercontent.com/16035152/202517740-812091b6-ff31-49cd-941e-3f6e4b4d140c.png)
+  * Recommended technology choices: [Wallix PAM](https://www.wallix.com/privileged-access-management/)
 
 
 # Appendix
