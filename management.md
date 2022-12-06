@@ -34,6 +34,7 @@ As per the [aforementioned article](https://www.linkedin.com/pulse/evolution-sec
 ![image](https://user-images.githubusercontent.com/16035152/205914475-2fc16916-e4c8-47ea-a518-a288b98cc7d6.png)
 
 # SOC organization
+## Tiering or not tiering?
 * No real need for tiering (L1/L2/L3)
   * this is an old model for service provider, not necesseraly for a SOC!
   * as per [MITRE paper](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf) (p65):
@@ -54,10 +55,16 @@ finding and nurturing staff in “Strategy 4: Hire AND Grow Quality Staff.”
 duties on a routine basis, regardless of whether they use “tier” to
 describe their structure.
 
+## SOC teams
 * 3 different teams should be needed:
   * **security monitoring team** (which does actually the "job" of detecting security incident being fully autonomous)
   * **security monitoring engineering team** (which fixes/improves security monitoring like SIEM rules and SOA playbooks, generates reportings, helps with uncommon use cases handling)
   * **build / project management team** (which does tools integration, SIEM data ingestion, specific DevOps tasks, project management).
+
+## RACI
+
+* Define a RACI, above all if you contract with an MSSP. 
+  * You may want to consider [my own template](test)
 
 # CSIRT organization
 * Designate among team analysts: 
