@@ -13,7 +13,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * [IT/security Watch](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#itsecurity-watch)
 * [Detection engineering](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md)
 * [Threat intelligence](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md)
-* [Management](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#management)
+* [Management](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md)
 * [HR and training](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#hr-and-training)
 * [IT achitecture](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#it-achitecture)
 * [To go further (next steps)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#to-go-further)
@@ -221,6 +221,8 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
 
 
 # Management
+
+Cf. [management page](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md).
 
 
 # HR and training
