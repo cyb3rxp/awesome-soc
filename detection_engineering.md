@@ -123,6 +123,13 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 
 ## Standard maturity and needs
 
+### Implement an XDR-like approach:
+
+Here is a suggested global overview of it, through [Open-XDR approach](https://stellarcyber.ai/platform/what-is-open-xdr/):
+
+![image](https://user-images.githubusercontent.com/16035152/206029068-f724cb5c-2d7e-4e7e-b260-7d16e5f7bfc8.png)
+
+
 ### TTP detection priorities identification:
 * Use [MITRE Engenuity calculator](https://ctid.mitre-engenuity.org/our-work/top-attack-techniques/):
   * focus on the [top TTP for ransomwares](https://top-attack-techniques.mitre-engenuity.org/): 
@@ -138,7 +145,7 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
   * for [Azure](https://mitre-attack.github.io/attack-navigator/#layerURL=https://center-for-threat-informed-defense.github.io/security-stack-mappings/Azure/layers/platform.json);
   * for [GCP](https://mitre-attack.github.io/attack-navigator/#layerURL=https://center-for-threat-informed-defense.github.io/security-stack-mappings/AWS/layers/platform.json).
 
-## Leverage the documented detection coverage of security solutions
+### Leverage the documented detection coverage of security solutions
 
 * Refer to [Security Stack Mappings](https://github.com/center-for-threat-informed-defense/security-stack-mappings)
   * Regarding [Vectra](https://support.vectra.ai/s/article/KB-VS-1158).
@@ -150,6 +157,7 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
   * [Splunk Security Essentials (free detection rules for Splunk)](https://docs.splunksecurityessentials.com/content-detail/).
   * [Elastic rules](https://github.com/elastic/detection-rules/tree/main/rules).
   * [Michel De Crevoisier's Git](https://github.com/mdecrevoisier/SIGMA-detection-rules).
+  * [SOC Prime](https://socprime.com/)
   * [CAR](https://car.mitre.org/analytics/), MITRE Cyber Analytics Repository.
 
 ### Focus on top relevant vulnerabilities:
