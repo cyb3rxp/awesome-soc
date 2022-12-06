@@ -7,7 +7,7 @@ This page deals with SOC / CSIRT management.
 * [Challenges after pandemic](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#challenges-after-pandemic)
 * [SOC organization](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#soc-organization)
 * [CSIRT organization](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#csirt-organization)
-* [TTP knowledge base ref](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#ttp-attack-methods-knowledge-base-reference)
+* [TTP knowledge base reference](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#ttp-attack-methods-knowledge-base-reference)
 * [Data quality and management](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#data-quality-and-management)
 * [Key documents for a SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#key-documents-for-a-soc)
 * [Detection assessment](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#detection-quality-assessment)
@@ -18,7 +18,16 @@ This page deals with SOC / CSIRT management.
 * Linkedin Pulse, [Evolution Security Operations Center](https://www.linkedin.com/pulse/evolution-security-operations-center-lakshminarayanan-kaliyaperumal/)
 
 
-# Challenges after pandemic
+# Challenges
+
+## Generic ones
+
+As per the [aforementioned article](https://www.linkedin.com/pulse/evolution-security-operations-center-lakshminarayanan-kaliyaperumal/), here are some typical challenges for a SOC/CSIRT:
+
+![image](https://user-images.githubusercontent.com/16035152/205918584-361ba50e-cf5f-48d6-b115-7df9645ed36b.png)
+
+
+## After pandemic
 
 As per the [aforementioned article](https://www.linkedin.com/pulse/evolution-security-operations-center-lakshminarayanan-kaliyaperumal/), I recommend to keep in mind the following common challenges:
 
