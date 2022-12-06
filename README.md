@@ -58,14 +58,16 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 ## Concepts, tools, missions, attack lifecycle, red/blue/purple teams
 See: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md).
 
-## From logs to alerts generic workflow
+## SOC and CSIRT core
+
+### From logs to alerts: global generic workflow
 
 Quoted from [this article](https://www.managedsentinel.com/siem-traditional-vs-cloud/):
 
 ![image](https://user-images.githubusercontent.com/16035152/206025151-759a0040-365e-4145-aa88-f7a7b737f8be.png)
 
 
-## SOC and CSIRT core: architecture of detection
+### SOC/CSIRT architecture of detection
 As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an example of architecture of detection (SIEM, SIRP, TIP):
 ![image](https://user-images.githubusercontent.com/16035152/187097659-a1006466-22a5-4c89-b0f1-ace64f54834f.png)
 
