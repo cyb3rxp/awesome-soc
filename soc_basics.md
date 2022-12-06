@@ -72,7 +72,7 @@ As per NIST SP800-61 rev2 paper (see [below](https://github.com/cyb3rxp/awesome-
 As an IT security teacher used to tell his students, like a SOC motto: "Without response, detection is useless" (Freely inspired from Bruce Schneier, [Secrets and Lies: Digital Security in a Networked World](https://www.amazon.fr/Secrets-Lies-Digital-Security-Networked/dp/1119092434) book).
 
 ## Typical incident handling workflow:
-As per ENISA paper see [below](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#for-a-cert) 
+As per ENISA paper see [below](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#for-a-cert):
 
 ![image](https://user-images.githubusercontent.com/16035152/186770414-d0d75e68-7c0f-4285-9eb2-a67cabdd5fdd.png)
 
@@ -83,7 +83,7 @@ As per ENISA paper see [below](https://github.com/cyb3rxp/awesome-soc/blob/main/
 
 
 # What is purple/red/blue team?
-Quoting [Lutessa (in French)](https://www.lutessa.com/?p=5524):
+Quoting [Lutessa (article in French)](https://www.lutessa.com/?p=5524):
 
 ![image](https://user-images.githubusercontent.com/16035152/186768852-464d6e3b-1081-45ff-b0bf-0c21ea54dcaf.png)
 
