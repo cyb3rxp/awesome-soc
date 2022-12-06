@@ -125,7 +125,11 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 
 ### Implement an XDR-like approach:
 
-Here is a suggested global overview of it, through [Open-XDR approach](https://stellarcyber.ai/platform/what-is-open-xdr/):
+* Leverage threat intel;
+* Leverage built-in detection capabilities of your security solutions/sensors;
+* Implement correlations between those security sensors alerts, within the SIEM.
+
+Here is a suggested global overview of it, through [Open-XDR approach of Stellar Cyber](https://stellarcyber.ai/platform/what-is-open-xdr/):
 
 ![image](https://user-images.githubusercontent.com/16035152/206029068-f724cb5c-2d7e-4e7e-b260-7d16e5f7bfc8.png)
 
@@ -145,7 +149,7 @@ Here is a suggested global overview of it, through [Open-XDR approach](https://s
   * for [Azure](https://mitre-attack.github.io/attack-navigator/#layerURL=https://center-for-threat-informed-defense.github.io/security-stack-mappings/Azure/layers/platform.json);
   * for [GCP](https://mitre-attack.github.io/attack-navigator/#layerURL=https://center-for-threat-informed-defense.github.io/security-stack-mappings/AWS/layers/platform.json).
 
-### Leverage the documented detection coverage of security solutions
+### Leverage the documented detection coverage of security solutions:
 
 * Refer to [Security Stack Mappings](https://github.com/center-for-threat-informed-defense/security-stack-mappings)
   * Regarding [Vectra](https://support.vectra.ai/s/article/KB-VS-1158).
