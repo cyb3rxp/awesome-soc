@@ -81,8 +81,8 @@ As per ENISA paper see [below](https://github.com/cyb3rxp/awesome-soc/blob/main/
   * My recommendation: take those from CERT-SG, [IRM](https://github.com/certsocietegenerale/IRM), as an example.
 
 
-
 # What is purple/red/blue team?
+
 Quoting [Lutessa (article in French)](https://www.lutessa.com/?p=5524):
 
 ![image](https://user-images.githubusercontent.com/16035152/186768852-464d6e3b-1081-45ff-b0bf-0c21ea54dcaf.png)
