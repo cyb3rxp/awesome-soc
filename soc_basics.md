@@ -23,7 +23,7 @@ Data, tools, and capabilities:
 
 ## Evolution of SOC in time
 
-Some people may consider SOC has evolved in time, as the fllowing drawing shows (from [this article](https://www.linkedin.com/pulse/evolution-security-operations-center-lakshminarayanan-kaliyaperumal/)):
+Some people may consider SOC has evolved in time, as the following drawing shows (from [this article](https://www.linkedin.com/pulse/evolution-security-operations-center-lakshminarayanan-kaliyaperumal/)):
 
 ![image](https://user-images.githubusercontent.com/16035152/205919783-b1ba9acc-c071-4019-b687-284e9f2ae2f2.png)
 
