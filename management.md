@@ -56,7 +56,7 @@ duties on a routine basis, regardless of whether they use “tier” to
 describe their structure.
 
 ## SOC teams
-* 3 different teams should be needed:
+* Instead of tiering, 3 different teams should be needed, based on experience:
   * **security monitoring team** (which does actually the "job" of detecting security incident being fully autonomous)
   * **security monitoring engineering team** (which fixes/improves security monitoring like SIEM rules and SOA playbooks, generates reportings, helps with uncommon use cases handling)
   * **build / project management team** (which does tools integration, SIEM data ingestion, specific DevOps tasks, project management).
