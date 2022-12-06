@@ -164,3 +164,8 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 
 * Percentage of critical assets that have successfully run ransomware recovery assessment, in the past 12 months.
 * Average number of hours from the request for termination of access to sensitive or high-risk systems or information, to deprovisioning of all access.  
+
+
+# End
+
+Go to [main page](https://github.com/cyb3rxp/awesome-soc)
