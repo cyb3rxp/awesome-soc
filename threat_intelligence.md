@@ -23,7 +23,7 @@ Here is [an example](https://www.erdalozkaya.com/cyber-threat-intelligence/) of 
 
 
 # Platform
-## TIP choice: 
+## TIP choice 
 Here are my recommendations:
 * for community ones: [MISP](https://www.misp-project.org/), [OpenCTI](https://www.filigran.io/en/products/opencti/);
 * for paid ones: [Sekoia.io](https://www.sekoia.io/fr/produire-et-personnaliser-votre-propre-intelligence/), [ThreatQuotient](https://www.threatq.com/)
@@ -34,7 +34,7 @@ As per [Forrester article](https://www.forrester.com/blogs/15-11-07-starting_soo
 
 ![image](https://user-images.githubusercontent.com/16035152/204065814-2fc1b048-94d7-4f73-885e-b12d24ae2939.png)
 
-## Architecture example:
+## Architecture example
 
 Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-intel/) of an architecture with:
  * SIEM: Elastic;
@@ -83,13 +83,13 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
 
 ## Threat intel program and automation
 
-As per [ThreatConnect artcile](https://threatconnect.com/blog/tip-soar-creating-increased-capability-for-less-mature-teams/):
+As per [ThreatConnect article](https://threatconnect.com/blog/tip-soar-creating-increased-capability-for-less-mature-teams/):
 > As threat intelligence drives your orchestrated actions, the result of those actions can be used to create or enhance existing threat intelligence. Thus, a feedback loop is created — threat intelligence drives orchestration, orchestration enhances threat intelligence.
 
 ![image](https://user-images.githubusercontent.com/16035152/204065697-12466101-aa54-41a6-a462-a5831a1f22ef.png)
 
 
-## Identity-based detections:
+## Identity-based detections
  
 * Correlate identity-related detections (from sensors like EDR, CASB, proxies, WAF, AD, ...) with identity intelligence (for instance, passwords leak/sell detection); 
   * Here is an example of the global detection process (with courtesy of RecordedFuture):
