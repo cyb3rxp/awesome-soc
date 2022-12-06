@@ -64,7 +64,7 @@ describe their structure.
 ## RACI
 
 * Define a RACI, above all if you contract with an MSSP. 
-  * You may want to consider [my own template](test)
+  * You may want to consider [my own template]([test](https://github.com/cyb3rxp/awesome-soc/blob/main/SOC_RACI_template_v1.0.xlsx))
 
 # CSIRT organization
 * Designate among team analysts: 
