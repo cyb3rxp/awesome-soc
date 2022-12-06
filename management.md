@@ -3,7 +3,16 @@
 This page deals with SOC / CSIRT management.
 
 # ToC
-* Must read
+* [Must read](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#must-read)
+* [Challenges after pandemic](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#challenges-after-pandemic)
+* [SOC organization](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#soc-organization)
+* [CSIRT organization](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#csirt-organization)
+* [TTP knowledge base ref](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#ttp-attack-methods-knowledge-base-reference)
+* [Data quality and management](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#data-quality-and-management)
+* [Key documents for a SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#key-documents-for-a-soc)
+* [Detection assessment](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#detection-quality-assessment)
+* [Global self assessment](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#global-self-assessment)
+* [Reporting](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#reporting)
 
 # Must read
 * Linkedin Pulse, [Evolution Security Operations Center](https://www.linkedin.com/pulse/evolution-security-operations-center-lakshminarayanan-kaliyaperumal/)
@@ -66,7 +75,7 @@ describe their structure.
   * The document will aim to list the detection rules (SIEM searches, for instance), with key examples of results, and an overview of handling procedures.
 
 
-# Detection quality controls
+# Detection quality assessment
  * **Run regular [purpleteaming sessions](https://about.gitlab.com/handbook/engineering/security/threat-management/red-team/purple-teaming/)** in time!!
    * e.g.: [Intrinsec](https://www.intrinsec.com/purple-team/), [FireEye](https://www.fireeye.fr/content/dam/fireeye-www/regional/fr_FR/services/pdfs/ds-purple-team-assessment.pdf)
    * To do it on your own, recommended tool: [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team)
@@ -74,17 +83,20 @@ describe their structure.
    * e.g.: [Vectr](https://github.com/securityriskadvisors/vectr)
 
 
-# Detection capabilities representation standard
+# Detection capabilities representation 
+
+## Standard for security technologies
 *	Use [Security Stack Mappings](https://github.com/center-for-threat-informed-defense/security-stack-mappings) to picture detection capabilities for a given security solution/environment (like AWS, Azure, NDR, etc.): 
 
-# SOC detection capabilities **simplified** representation
+## SOC detection capabilities **simplified** view
  * Generate [ATT&CK heatmaps](https://www.signalblur.io/getting-started-with-mitres-att-ck-navigator/), to picture the SOC detection capabilities
 
-# SOC Self-assessment
+# Global self-assessment
+## SOC Self-assessment
 *	Read the [SOC Cyber maturity model](https://www.soc-cmm.com/introduction/) from CMM
 *	Run the [SOC-CMM self-assessment tool](https://www.soc-cmm.com/downloads/latest/) 
 
-# CERT/CSIRT self-assessment
+## CERT/CSIRT self-assessment
 * Read the [OpenCSIRT cybersecurity maturity framework](https://www.enisa.europa.eu/topics/csirts-in-europe/csirt-capabilities/csirt-maturity/) from ENISA 
   * Run the OpenCSIRT, [SIM3 self-assessment](https://sim3-check.opencsirt.org/#/v1/) 
 * Read the [SOC-CMM 4CERT](https://www.soc-cmm.com/4CERT/) from CMM
