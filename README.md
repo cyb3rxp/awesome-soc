@@ -336,6 +336,8 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 ## SOC sensors, nice to have
 * (full featured) Honeypot:
   * My recommendation: [Canary.tools](https://canary.tools/)
+* Phishing and brand infringement protection (domain names):
+  * My recommendation: [PhishLabs](https://www.phishlabs.com/), [Netcraft](https://www.netcraft.com/cybercrime/fraud-detection/)
 * NDR:
   * My recommendation: [Gatewatcher](https://www.gatewatcher.com/en/our-solutions/trackwatch/)
 * MDM:
