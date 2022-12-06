@@ -220,6 +220,14 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
   * e.g.: [ISC](https://isc.sans.edu/), [ENISA](https://www.enisa.europa.eu/publications), [ThreatPost](https://threatpost.com/) ...
 
 
+# Detection engineering
+
+Cf. [detection engineering page](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md)
+
+# Threat intelligence
+
+Cf. [threat intelligence page](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md)
+
 # Management
 
 Cf. [management page](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md).
