@@ -68,7 +68,7 @@ Quoted from [this article](https://www.managedsentinel.com/siem-traditional-vs-c
 
 
 ### SOC/CSIRT architecture of detection
-As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an example of architecture of detection (SIEM, SIRP, TIP):
+As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an example of architecture of detection (SIEM, SIRP, TIP interconnections) and workflow:
 ![image](https://user-images.githubusercontent.com/16035152/187097659-a1006466-22a5-4c89-b0f1-ace64f54834f.png)
 
 
@@ -230,11 +230,11 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
 
 # Detection engineering
 
-Cf. [detection engineering page](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md)
+Cf. [detection engineering page](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md).
 
 # Threat intelligence
 
-Cf. [threat intelligence page](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md)
+Cf. [threat intelligence page](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md).
 
 # Management
 
