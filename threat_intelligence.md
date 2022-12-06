@@ -1,5 +1,12 @@
 # ToC
 
+* [Must read](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md#must-read)
+* [Generic workflow](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md#generic-workflow)
+* [Platform](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md#platform)
+* [Sources](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md#sources)
+* [Threat intelligence and automation](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md#threat-intelligence-and-automation)
+
+
 # Must read
 
 * MITRE, [top TTP for ransomwares](https://top-attack-techniques.mitre-engenuity.org/)
