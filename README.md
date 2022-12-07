@@ -66,6 +66,8 @@ Quoted from [this article](https://www.managedsentinel.com/siem-traditional-vs-c
 
 ![image](https://user-images.githubusercontent.com/16035152/206025151-759a0040-365e-4145-aa88-f7a7b737f8be.png)
 
+Following the arrows, we go from log data sources to data management layer, to then data enrichment layer (where detection happens), to end-up in behavior analytics or at user interaction layer (alerts, threat hunting...). All of that being enabled and supported by automation.
+
 
 ### SOC/CSIRT architecture of detection
 As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an example of architecture of detection (SIEM, SIRP, TIP interconnections) and workflow:
