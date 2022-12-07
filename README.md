@@ -71,6 +71,8 @@ Quoted from [this article](https://www.managedsentinel.com/siem-traditional-vs-c
 As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an example of architecture of detection (SIEM, SIRP, TIP interconnections) and workflow:
 ![image](https://user-images.githubusercontent.com/16035152/187097659-a1006466-22a5-4c89-b0f1-ace64f54834f.png)
 
+* Tier 1 & 2 do not mean anything in particular, in the context of this GitHub repo.
+* Tier 1 sources are likely to be: audit logs, security sensors (antimalware, FW, NIDS, proxies, EDR, NDR, CASB, honeypot...).
 
 
 
