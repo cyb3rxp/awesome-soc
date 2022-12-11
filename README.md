@@ -250,11 +250,56 @@ Cf. [management page](https://github.com/cyb3rxp/awesome-soc/blob/main/managemen
 ## Recommended SOC trainings
 
 ### Regular trainings:
-* [BlueTeamLabs challenges and investigations](https://blueteamlabs.online/home/challenges)
-* [LetsDefend](https://letsdefend.io/)
+* [BlueTeamLabs challenges and investigations](https://blueteamlabs.online/home/challenges), here are a few free trainings:
+   * https://blueteamlabs.online/home/challenge/the-report-ii-82ea7781c5
+   * https://blueteamlabs.online/home/challenge/the-report-a6dd340dba
+   * https://blueteamlabs.online/home/challenge/attck-0e4914db5d
+   * https://blueteamlabs.online/home/challenge/d3fend-6c9dcd4b79
+   * https://blueteamlabs.online/home/challenge/bruteforce-16629bf9a2
+   * https://blueteamlabs.online/home/challenge/phishing-analysis-f92ef500ce
+   * https://blueteamlabs.online/home/challenge/phishing-analysis-2-a1091574b8
+   * https://blueteamlabs.online/home/challenge/log-analysis-sysmon-fabcb83517
+   * https://blueteamlabs.online/home/challenge/meta-b976cec9e2
+   * https://blueteamlabs.online/home/challenge/follina-f1a3452f34
+   * https://blueteamlabs.online/home/challenge/powershell-analysis-keylogger-9f4ab9a11c
+   * https://blueteamlabs.online/home/challenge/secrets-85aa2bb3a9
+   * https://blueteamlabs.online/home/challenge/paranoid-e5e164befb
+   * https://blueteamlabs.online/home/investigation/deep-blue-a4c18ce507
+   * https://blueteamlabs.online/home/investigation/sam-d310695187
+* [Cyberdefenders](https://cyberdefenders.org/), here a few free challenges, among others:
+  * https://cyberdefenders.org/blueteam-ctf-challenges/91
+  * https://cyberdefenders.org/blueteam-ctf-challenges/47
+  * https://cyberdefenders.org/blueteam-ctf-challenges/84
+  * https://cyberdefenders.org/blueteam-ctf-challenges/77
+  * https://cyberdefenders.org/blueteam-ctf-challenges/74
+  * https://cyberdefenders.org/blueteam-ctf-challenges/73
+  * https://cyberdefenders.org/blueteam-ctf-challenges/67
+  * https://cyberdefenders.org/blueteam-ctf-challenges/68
+  * https://cyberdefenders.org/blueteam-ctf-challenges/60
+  * https://cyberdefenders.org/blueteam-ctf-challenges/32
+  * https://cyberdefenders.org/blueteam-ctf-challenges/17
+* [LetsDefend](https://letsdefend.io/), a few of them are free:
+  * https://app.letsdefend.io/monitoring/alerts/
+  * 
 * [SOC Vel](https://socvel.com/challenges/)
-* [ENISA trainings](https://www.enisa.europa.eu/topics/trainings-for-cybersecurity-specialists/online-training-material)
-* [Splunk attack range](https://github.com/splunk/attack_range_cloud)
+* [ENISA trainings](https://www.enisa.europa.eu/topics/trainings-for-cybersecurity-specialists/online-training-material), free!
+* Splunk: 
+  * Free trainings: 
+    * https://education.splunk.com/course/intro-to-splunk-elearning
+    * https://education.splunk.com/course/using-fields
+    * https://education.splunk.com/course/intro-to-dashboards-elearning
+    * https://education.splunk.com/course/scheduling-reports-alerts-elearning
+    * https://education.splunk.com/course/creating-knowledge-objects-elearning
+    * https://education.splunk.com/catalog?category=getting-data-in
+    * https://education.splunk.com/course/intro-to-knowledge-objects-elearning
+    * https://education.splunk.com/catalog?category=search-under-the-hood
+    * https://education.splunk.com/course/visualizations-elearning
+    * https://education.splunk.com/course/creating-field-extractions-elearning
+    * https://education.splunk.com/course/enriching-data-with-lookups-elearning  
+  * BOTS (free):
+    * https://cyberdefenders.org/search/labs/?q=splunk
+  * [Splunk attack range](https://github.com/splunk/attack_range_cloud)
+* Microsoft, [Become an Azure Sentinel Ninja](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/become-a-microsoft-sentinel-ninja-the-complete-level-400/ba-p/1246310)
 
 
 ### Certifications:
