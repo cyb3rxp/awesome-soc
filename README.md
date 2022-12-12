@@ -280,7 +280,13 @@ Cf. [management page](https://github.com/cyb3rxp/awesome-soc/blob/main/managemen
   * https://cyberdefenders.org/blueteam-ctf-challenges/17
 * [LetsDefend](https://letsdefend.io/), a few of them are free:
   * https://app.letsdefend.io/monitoring/alerts/
-  * 
+  * https://app.letsdefend.io/challenge/conti-ransomware/
+  * https://app.letsdefend.io/challenge/IcedID-Malware-Family/
+  * https://app.letsdefend.io/challenge/shellshock-attack/
+  * https://app.letsdefend.io/challenge/phishing-email/
+  * https://app.letsdefend.io/challenge/conti-ransomware/
+  * https://app.letsdefend.io/challenge/investigate-web-attack/
+  * https://app.letsdefend.io/challenge/infection-cobalt-strike/
 * [SOC Vel](https://socvel.com/challenges/)
 * [ENISA trainings](https://www.enisa.europa.eu/topics/trainings-for-cybersecurity-specialists/online-training-material), free!
 * Splunk: 
