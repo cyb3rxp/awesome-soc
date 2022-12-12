@@ -70,8 +70,8 @@ Following the arrows, we go from log data sources to data management layer, to t
 
 
 ### SOC/CSIRT architecture of detection
-As per [CYRAIL's paper](https://slideplayer.com/slide/15779727/) here is an example of architecture of detection (SIEM, SIRP, TIP interconnections) and workflow:
-![image](https://user-images.githubusercontent.com/16035152/187097659-a1006466-22a5-4c89-b0f1-ace64f54834f.png)
+Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that I've slightly modified, here is an example of architecture of detection (SIEM, SIRP, TIP interconnections) and workflow:
+![image](https://user-images.githubusercontent.com/16035152/207148994-8f9ce3f9-cb55-4efa-9e12-bee2652720e4.png)
 
 * Tier 1 & 2 do not mean anything in particular, in the context of this GitHub repo.
 * Tier 1 sources are likely to be: audit logs, security sensors (antimalware, FW, NIDS, proxies, EDR, NDR, CASB, honeypot...).
