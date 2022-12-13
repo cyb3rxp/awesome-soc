@@ -304,6 +304,7 @@ Cf. [management page](https://github.com/cyb3rxp/awesome-soc/blob/main/managemen
   * CTF: BOTS (free):
     * https://cyberdefenders.org/search/labs/?q=splunk
   * Attack simulation & investigation: [Splunk attack range](https://github.com/splunk/attack_range_cloud)
+* PaloAlto, Fundamentals of SOC](https://beacon.paloaltonetworks.com/student/path/521672-the-fundamentals-of-soc-security-operations-center), mainly modules 1 to 8 :)
 * Microsoft, [Become an Azure Sentinel Ninja](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/become-a-microsoft-sentinel-ninja-the-complete-level-400/ba-p/1246310) (free).
 
 
