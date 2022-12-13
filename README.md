@@ -50,6 +50,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * FIRST, [TLP](https://www.first.org/tlp/) (intelligence sharing and confidentiality)
 * CIS, [8 critical security controls](https://www.cisecurity.org/controls/cis-controls-list)
 * Gartner, [Cybersecurity business value benchmark](https://emtemp.gcom.cloud/ngw/globalassets/en/doc/documents/775537-gartner-cybersecurity-business-value-benchmark-1st-generation.pdf)
+* PAN, [Security orchestration for dummies](https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/cortex-xsoar/Security-Orchestration-For-Dummies-Demisto-Special-Edition.pdf)
 
 
 
