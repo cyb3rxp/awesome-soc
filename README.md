@@ -73,7 +73,7 @@ Following the arrows, we go from log data sources to data management layer, to t
 
 ### SOC/CSIRT architecture of detection
 Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that I've slightly modified, here is an example of architecture of detection (SIEM, SIRP, TIP interconnections) and workflow:
-![image](https://user-images.githubusercontent.com/16035152/207148994-8f9ce3f9-cb55-4efa-9e12-bee2652720e4.png)
+![image](https://user-images.githubusercontent.com/16035152/207597681-22c9da6d-d430-4660-b807-3e86138a0d9c.png)
 
 * Sensors log sources are likely to be: audit logs, security sensors (antimalware, FW, NIDS, proxies, EDR, NDR, honeypot...).
 
