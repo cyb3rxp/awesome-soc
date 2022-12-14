@@ -320,6 +320,9 @@ Cf. [management page](https://github.com/cyb3rxp/awesome-soc/blob/main/managemen
 * [Microsoft Sentinel Ninja](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR1irKnVJZ_RBhccteqa39A9UN08wTjY4MzROVDhUUFRZRTgwME1HSUlFQS4u)
 * [AWS Security Fundamentals](https://aws.amazon.com/training/digital/aws-security-fundamentals/?nc1=h_ls)
 * [CEH](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/)
+* [PAN, Fundamentals of network security](https://beacon.paloaltonetworks.com/student/path/673504/activity/726463)
+* [PAN, Fundamentals of SOC](https://beacon.paloaltonetworks.com/student/path/521672-the-fundamentals-of-soc-security-operations-center).
+
 
 
 ## Recommended CERT/CSIRT trainings
