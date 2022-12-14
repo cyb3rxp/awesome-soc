@@ -22,12 +22,11 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 # Must read
 
 ## For a SOC
+* MITRE, [11 strategies for a world-class SOC](https://www.mitre.org/publications/technical-papers/11-strategies-world-class-cybersecurity-operations-center) (or use [local file](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf)): part 0 (Fundamentals).
 * CMM, [SOCTOM](https://soc-cmm.com/downloads/SOCTOM%20whitepaper.pdf)
 * LetsDefend [SOC analyst interview questions](https://github.com/LetsDefend/SOC-Interview-Questions)
-* NIST, [Cybersecurity framework](https://www.nist.gov/cyberframework) 
 * FIRST, [Building a SOC](https://www.first.org/resources/guides/Factsheet_Building_a_SOC_start_small.pdf) 
 * NCSC, [Building a SOC](https://www.ncsc.gov.uk/collection/building-a-security-operations-centre)
-* MITRE, [11 strategies for a world-class SOC](https://www.mitre.org/publications/technical-papers/11-strategies-world-class-cybersecurity-operations-center) (or use [local file](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf)): part 0 (Fundamentals).
 
 
 ## For a CERT/CSIRT
@@ -38,6 +37,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 
 
 ## Globally (SOC and CERT/CSIRT)
+* NIST, [Cybersecurity framework](https://www.nist.gov/cyberframework)
 * ENISA, [How to set-up a CSIRT and SOC](https://www.enisa.europa.eu/publications/how-to-set-up-csirt-and-soc/at_download/fullReport)
 * NIST, [SP800-61 rev2, incident handling guide](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final) 
 * MITRE, [ATT&CK: Getting started](https://attack.mitre.org/resources/getting-started/)
@@ -45,13 +45,13 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * ThreatConnect, [SIRP / SOA / TIP benefits](https://threatconnect.com/blog/realizing-the-benefits-of-security-orchestration-automation-and-response-soar/)
 * Gartner, [Market Guide for Security Orchestration, Automation and Response Solutions](https://www.gartner.com/doc/reprints?id=1-2ADE1K2G&ct=220621&st=sb) 
 * Orange Cyberdefense, [Feedback regarding experience with SOAR in 2020 (in French)](https://www.orangecyberdefense.com/fr/insights/blog/threat-management/soar-quelles-conclusions-en-2020) 
+* PAN, [Security orchestration for dummies](https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/cortex-xsoar/Security-Orchestration-For-Dummies-Demisto-Special-Edition.pdf)
 * Soufiane Tahiri, [Playbook for ransomware incident response (in French)](https://github.com/soufianetahiri/ransomware_Incident_Response_FR)
 * FIRST, [CVSS v3.1 specs](https://www.first.org/cvss/specification-document) 
 * OASIS Open, [STIX](https://oasis-open.github.io/cti-documentation/stix/intro.html)
 * FIRST, [TLP](https://www.first.org/tlp/) (intelligence sharing and confidentiality)
 * CIS, [8 critical security controls](https://www.cisecurity.org/controls/cis-controls-list)
 * Gartner, [Cybersecurity business value benchmark](https://emtemp.gcom.cloud/ngw/globalassets/en/doc/documents/775537-gartner-cybersecurity-business-value-benchmark-1st-generation.pdf)
-* PAN, [Security orchestration for dummies](https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/cortex-xsoar/Security-Orchestration-For-Dummies-Demisto-Special-Edition.pdf)
 
 
 
