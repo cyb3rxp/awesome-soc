@@ -343,6 +343,17 @@ Cf. [management page](https://github.com/cyb3rxp/awesome-soc/blob/main/managemen
 * [SANS 555: SIEM with tactical analytics](https://www.sans.org/cyber-security-courses/siem-with-tactical-analytics/)
 
 
+## Recommended offensive security trainings (for red/purpleteaming activities):
+
+### Regular trainings:
+* CybersecurityUp, [OSCE complete guide](https://github.com/CyberSecurityUP/OSCE-Complete-Guide)
+* [RTFM](https://www.amazon.com/RTFM-Red-Team-Field-Manual/dp/1075091837)
+
+### Certifications:
+* OffenSive Securiy [OSCP](https://www.offensive-security.com/pwk-oscp/)
+* SANS, [SEC565](https://www.sans.org/offensive-operations/)
+ 
+
 # IT achitecture
 
 ## Have a single and centralized platform ('single console')
