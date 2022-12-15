@@ -393,6 +393,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 * Microsoft, [Windows 10 and Windows Server 2016 security auditing and monitoring reference](https://www.microsoft.com/en-us/download/details.aspx?id=52630).
 * iDNA, [how to mange FP in a SOC?](https://www.idna.fr/2018/11/06/comment-gerer-les-faux-positifs-dans-un-soc/), in FR.
 * Soufiane Tahiri, [Playbook for ransomware incident response](https://github.com/soufianetahiri/ransomware_Incident_Response_FR), in FR.
+* PwnDefend, [AD post-compromise checklist](https://www.pwndefend.com/2021/09/15/post-compromise-active-directory-checklist/).
 
 
 
