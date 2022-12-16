@@ -136,9 +136,10 @@ Here is a suggested global overview of it, through [Open-XDR approach of Stellar
 
 ### TTP detection priorities identification:
 * Use [MITRE Engenuity calculator](https://ctid.mitre-engenuity.org/our-work/top-attack-techniques/):
-  * focus on the [top TTP for ransomwares](https://top-attack-techniques.mitre-engenuity.org/): 
+  * Calculate your top 10 TTP, based on your existing logging and detection capabilities.
+  * Focus on the [top TTP for ransomwares](https://top-attack-techniques.mitre-engenuity.org/): 
     * T1486: Data Encrypted for Impact, T1490: Inhibit System Recovery, T1027: Obfuscated Files or Information, T1047: Windows Management Instrumentation, T1036: Masquerading, T1059: Command and Scripting Interpreter, T1562: Impair Defenses, T1112: Modify Registry, T1204: User Execution, T1055: Process Injection.
-* Leverage daily watch to maintain your knowledge about current most commonly used TTP
+* Leverage daily watch to maintain your knowledge about current most commonly used TTP:
   * for instance: [Recorded Future 2021 top TTP report](https://www.recordedfuture.com/2021-malware-and-ttp-threat-landscape): 
     * T1486 (Data Encrypted for Impact), T1082 (System Information Discovery), T1055 (Process Injection), T1027 (Obfuscated Files or Information), T1005 (Data from Local System).
 
