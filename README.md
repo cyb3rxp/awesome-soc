@@ -247,7 +247,8 @@ Cf. [management page](https://github.com/cyb3rxp/awesome-soc/blob/main/managemen
 
 # HR and training
 
- 
+Cf. [HR and training page](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md).
+
 
 # IT achitecture
 
