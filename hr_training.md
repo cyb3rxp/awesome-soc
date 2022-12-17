@@ -5,6 +5,9 @@ This page deals with SOC HR and training topics.
 # ToC
 
 * [Must read](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md#must-read)
+* [Recommended SOC trainings](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md#recommended-soc-trainings)
+* [Recommended CERT/CSIRT trainings](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md#recommended-certcsirt-trainings)
+* [Recommended offesnsive security trainings](https://github.com/cyb3rxp/awesome-soc/edit/main/hr_training.md#recommended-offensive-security-trainings)
 
 
 
@@ -108,7 +111,9 @@ This page deals with SOC HR and training topics.
 * [SANS 555: SIEM with tactical analytics](https://www.sans.org/cyber-security-courses/siem-with-tactical-analytics/)
 
 
-# Recommended offensive security trainings (for red/purpleteaming activities)
+# Recommended offensive security trainings:
+
+NB: this is for red/purpleteaming activities.
 
 ## Regular trainings:
 * CybersecurityUp, [OSCE complete guide](https://github.com/CyberSecurityUP/OSCE-Complete-Guide)
