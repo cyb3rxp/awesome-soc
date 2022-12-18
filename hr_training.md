@@ -17,6 +17,24 @@ This page deals with SOC HR and training topics.
 ![image](https://user-images.githubusercontent.com/16035152/208257245-e481c2ad-4523-438c-9e49-a5e0999c300f.png)
 
 
+# HR roles and organization:
+
+As per what is explained on the [management page](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#soc-organization), I would recommend to make sure the following roles are being assigned to people:
+* SOC analyst;
+* SOC analyst senior;
+* SOC detection engineer;
+* Threat intel analyst;
+* Threat intel lead (if several analysts)
+* SIEM expert and data scientist;
+* Pentester (offensive team);
+* Incident handler;
+* Incident manager;
+* SOC/CSIRT tools admin;
+* SecDevOps analyst;
+* SOC/CERT/CSIRT deputy manager.
+
+They can be FTE or outsourced, it will depend on your needs and constraints. My recommendations are explained in the RACI template that I propose.
+
 
 # Recommended SOC trainings
 
