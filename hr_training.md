@@ -12,7 +12,10 @@ This page deals with SOC HR and training topics.
 
 
 # Must read
-* MITRE, [11 strategies for a world-class SOC](https://top-attack-techniques.mitre-engenuity.org/)
+* MITRE, [11 strategies for a world-class SOC]([https://top-attack-techniques.mitre-engenuity.org/](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf)), Strategy 4, pages 101-123
+
+![image](https://user-images.githubusercontent.com/16035152/208257245-e481c2ad-4523-438c-9e49-a5e0999c300f.png)
+
 
 
 # Recommended SOC trainings
