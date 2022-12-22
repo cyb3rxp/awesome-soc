@@ -16,6 +16,7 @@ This page deals with SOC / CSIRT management.
 
 # Must read
 * Linkedin Pulse, [Evolution Security Operations Center](https://www.linkedin.com/pulse/evolution-security-operations-center-lakshminarayanan-kaliyaperumal/)
+* Gartner, [Cybersecurity business value benchmark](https://emtemp.gcom.cloud/ngw/globalassets/en/doc/documents/775537-gartner-cybersecurity-business-value-benchmark-1st-generation.pdf)
 
 
 # Challenges
