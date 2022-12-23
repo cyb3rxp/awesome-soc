@@ -60,6 +60,7 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * [ISAC](https://www.enisa.europa.eu/publications/information-sharing-and-analysis-center-isacs-cooperative-models);
      * [OTX](https://otx.alienvault.com/api);
      * [VX Vault URL](http://vxvault.net/URL_List.php);
+     * [AbuseIPDB](https://www.abuseipdb.com/);
      * [Feodo Tracker](https://feodotracker.abuse.ch/blocklist/)
      * [PAN Unit42](https://github.com/pan-unit42/iocs);
      * [ESET IOC](https://github.com/eset/malware-ioc);
