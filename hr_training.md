@@ -149,7 +149,7 @@ NB: this is for red/purpleteaming activities.
 
 ## Certifications
 * Offensive Securiy [OSCP](https://www.offensive-security.com/pwk-oscp/)
-* SANS, [SEC565](https://www.sans.org/offensive-operations/)
+* SANS, [SEC565: Red Team Operations and Adversary Emulation](https://www.sans.org/offensive-operations/)
 * SANS, SEC760: Advanced Exploit Development for Penetration Testers
 * SANS, SEC699: Purple Team Tactics - Adversary Emulation for Breach Prevention & Detection.
 * SANS, SEC541: Cloud Security Attacker Techniques, Monitoring, and Threat Detection
