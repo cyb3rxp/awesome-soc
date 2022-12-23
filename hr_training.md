@@ -139,7 +139,7 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
 * [SANS FOR578: Cyber Threat Intelligence](https://www.sans.org/cyber-security-courses/cyber-threat-intelligence/)
 
 
-# Recommended offensive security trainings:
+# Recommended offensive security trainings
 
 NB: this is for red/purpleteaming activities.
 
@@ -154,7 +154,7 @@ NB: this is for red/purpleteaming activities.
 * SANS, SEC699: Purple Team Tactics - Adversary Emulation for Breach Prevention & Detection.
 * SANS, SEC541: Cloud Security Attacker Techniques, Monitoring, and Threat Detection
 
-# Recommended management trainings:
+# Recommended management trainings
 
 ## Certifications
 
