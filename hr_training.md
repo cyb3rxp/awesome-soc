@@ -127,6 +127,7 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
 * [Become a Microsoft Sentinel Ninja](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/become-a-microsoft-sentinel-ninja-the-complete-level-400/ba-p/1246310)
 * A. Borges, [MAS series](https://exploitreversing.com/2021/12/03/malware-analysis-series-mas-article-1/)
 * [Hack The Box](https://www.hackthebox.com/)
+* [Root-me](https://www.root-me.org/)
 
 ## Certifications
 * [SANS FOR572: Advanced Network Forensics: Threat Hunting, Analysis, and Incident Response](https://www.sans.org/cyber-security-courses/siem-with-tactical-analytics/)
@@ -144,6 +145,7 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
 NB: this is for red/purpleteaming activities.
 
 ## Regular trainings
+* [HackTheBox](https://www.hackthebox.com/)
 * CybersecurityUp, [OSCE complete guide](https://github.com/CyberSecurityUP/OSCE-Complete-Guide)
 * [RTFM](https://www.amazon.com/RTFM-Red-Team-Field-Manual/dp/1075091837).
 
