@@ -18,7 +18,7 @@ This page deals with SOC HR and training topics.
 ![image](https://user-images.githubusercontent.com/16035152/208257245-e481c2ad-4523-438c-9e49-a5e0999c300f.png)
 
 
-# HR roles and organization:
+# HR roles and organization
 
 As per what is explained on the [management page](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#soc-organization), I would recommend to make sure the following roles are being assigned to people:
 * SOC analyst;
@@ -39,7 +39,7 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
 
 # Recommended SOC trainings
 
-## Regular trainings:
+## Regular trainings
 * [BlueTeamLabs challenges and investigations](https://blueteamlabs.online/home/challenges), here are a few free trainings that I recommend:
    * https://blueteamlabs.online/home/challenge/the-report-ii-82ea7781c5
    * https://blueteamlabs.online/home/challenge/the-report-a6dd340dba
@@ -99,9 +99,9 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
 * Microsoft, [Become an Azure Sentinel Ninja](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/become-a-microsoft-sentinel-ninja-the-complete-level-400/ba-p/1246310) (free).
 
 
-## Certifications:
+## Certifications
 * [BlueTeamLabs](https://securityblue.team/why-btl1/) (level 1 & 2)
-* [SANS 555: SIEM with tactical analytics](https://www.sans.org/cyber-security-courses/siem-with-tactical-analytics/)
+* [SANS SEC555: SIEM with tactical analytics](https://www.sans.org/cyber-security-courses/siem-with-tactical-analytics/)
 * [SANS SEC450: Blue Team Fundamentals: Security Operations and Analysis](https://www.sans.org/cyber-security-courses/blue-team-fundamentals-security-operations-analysis/)
 * [SOC & SIEM Security program: L1, L2, L3](https://ethicalhackersacademy.com/products/soc-siem-security-training-program?_pos=1&_sid=b1d241af4&_ss=r)
 * [Splunk Core User](https://education.splunk.com/single-subject-courses?_ga=2.213139857.446951445.1644415141-362195814.1644415141)
@@ -120,7 +120,7 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
 
 # Recommended CERT/CSIRT trainings
 
-## Regular trainings:
+## Regular trainings
 * [ENISA trainings](https://www.enisa.europa.eu/topics/trainings-for-cybersecurity-specialists/online-training-material)
 * [FIRST trainings](https://www.first.org/education/trainings)
 * [Malware Traffic Analysis](https://www.malware-traffic-analysis.net/)
@@ -128,31 +128,37 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
 * A. Borges, [MAS series](https://exploitreversing.com/2021/12/03/malware-analysis-series-mas-article-1/)
 * [Hack The Box](https://www.hackthebox.com/)
 
-## Certifications:
-* SANS, FOR508: Advanced Incident Response, Threat Hunting, and Digital Forensics
+## Certifications
 * [SANS FOR572: Advanced Network Forensics: Threat Hunting, Analysis, and Incident Response](https://www.sans.org/cyber-security-courses/siem-with-tactical-analytics/)
 * SANS, SEC541: Cloud Security Attacker Techniques, Monitoring, and Threat Detection
 * [Splunk Core User](https://education.splunk.com/single-subject-courses?_ga=2.213139857.446951445.1644415141-362195814.1644415141)
 * [GCIH](https://www.giac.org/certifications/certified-incident-handler-gcih/)
 * [SANS FOR508: Advanced Incident Response, Threat Hunting, and Digital Forensics](https://www.giac.org/certifications/certified-incident-handler-gcih/)
-* [SANS 555: SIEM with tactical analytics](https://www.sans.org/cyber-security-courses/siem-with-tactical-analytics/)
+* [SANS FOR610: Reverse-Engineering Malware: Malware Analysis Tools and Techniques](https://www.sans.org/cyber-security-courses/reverse-engineering-malware-malware-analysis-tools-techniques/)
+* [SANS SEC555: SIEM with tactical analytics](https://www.sans.org/cyber-security-courses/siem-with-tactical-analytics/)
+* [SANS FOR578: Cyber Threat Intelligence](https://www.sans.org/cyber-security-courses/cyber-threat-intelligence/)
 
 
 # Recommended offensive security trainings:
 
 NB: this is for red/purpleteaming activities.
 
-## Regular trainings:
+## Regular trainings
 * CybersecurityUp, [OSCE complete guide](https://github.com/CyberSecurityUP/OSCE-Complete-Guide)
 * [RTFM](https://www.amazon.com/RTFM-Red-Team-Field-Manual/dp/1075091837).
 
-## Certifications:
+## Certifications
 * Offensive Securiy [OSCP](https://www.offensive-security.com/pwk-oscp/)
 * SANS, [SEC565](https://www.sans.org/offensive-operations/)
 * SANS, SEC760: Advanced Exploit Development for Penetration Testers
 * SANS, SEC699: Purple Team Tactics - Adversary Emulation for Breach Prevention & Detection.
 * SANS, SEC541: Cloud Security Attacker Techniques, Monitoring, and Threat Detection
 
+# Recommended management trainings:
+
+## Certifications
+
+* [SANS, MGT512: Security Leadership Essentials for Managers](https://www.sans.org/cyber-security-courses/security-leadership-essentials-managers/)
 
 # To go further
 
