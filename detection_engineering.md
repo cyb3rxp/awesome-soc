@@ -162,7 +162,8 @@ Here is a suggested global overview of it, through [Open-XDR approach of Stellar
   * [Splunk Security Essentials (free detection rules for Splunk)](https://docs.splunksecurityessentials.com/content-detail/).
   * [Elastic rules](https://github.com/elastic/detection-rules/tree/main/rules).
   * [Michel De Crevoisier's Git](https://github.com/mdecrevoisier/SIGMA-detection-rules).
-  * [SOC Prime](https://socprime.com/)
+  * [SOC Prime](https://socprime.com/).
+  * [ThreatHunterPLaybook](https://threathunterplaybook.com/hunts/windows/intro.html)
   * [CAR](https://car.mitre.org/analytics/), MITRE Cyber Analytics Repository.
 
 ### Focus on top relevant vulnerabilities:
