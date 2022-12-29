@@ -163,8 +163,9 @@ Here is a suggested global overview of it, through [Open-XDR approach of Stellar
   * [Elastic rules](https://github.com/elastic/detection-rules/tree/main/rules).
   * [Michel De Crevoisier's Git](https://github.com/mdecrevoisier/SIGMA-detection-rules).
   * [SOC Prime](https://socprime.com/).
-  * [ThreatHunterPLaybook](https://threathunterplaybook.com/hunts/windows/intro.html)
+  * [ThreatHunterPLaybook](https://threathunterplaybook.com/hunts/windows/intro.html).
   * [CAR](https://car.mitre.org/analytics/), MITRE Cyber Analytics Repository.
+  * [Elastic prebuilt rules](https://www.elastic.co/guide/en/security/current/prebuilt-rules.html).
 
 ### Focus on top relevant vulnerabilities:
 * Vulnerabilities that are confirmed commonly exploited in the wild (see [CISA KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog));
