@@ -87,12 +87,10 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
   * URL Sandbox >> https://urlscan.io/
   * Cisco Reputation Check >> https://lnkd.in/g7uWdC5q
   * Diagnostic & lookup tools >> https://mxtoolbox.com/
-  * Open Source IPS >> https://www.snort.org/
   * CyberChef >> https://lnkd.in/gVjZywKu
   * Browser Sandbox>> https://lnkd.in/gjA-QqdX
   * IBM Reputation Check >> https://lnkd.in/gt8iyHE5
   * IP Reputation Check >>https://www.abuseipdb.com/
-  * Protocol analyzer >> https://www.wireshark.org/
   * DNS related tools >> https://viewdns.info/
   * OSINT Framework >> https://lnkd.in/gXaz_Wry
   * Malfrat's OSINT >> https://lnkd.in/e4nhK2hK
