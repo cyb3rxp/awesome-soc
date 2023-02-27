@@ -74,11 +74,43 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * [CERT-FR's MISP feed](https://misp.cert.ssi.gouv.fr/feed-misp/);
      * [Orange CyberDefense, Log4Shell IOC](https://github.com/Orange-Cyberdefense/log4shell_iocs);
      * [Orange CyberDefense, RU/UKR IOC](https://github.com/Orange-Cyberdefense/russia-ukraine_IOCs);
-     * The [Covert.io list](http://www.covert.io/threat-intelligence/).
+     * The [Covert.io list](http://www.covert.io/threat-intelligence/);
+     
 
 
 * Portals to query on-the-fly:
   * My recommendations: [VirusTotal API](https://support.virustotal.com/hc/en-us/articles/115002100149-API).
+
+* well-known OSINT portals:
+  * Threat Intelligience 101 >> https://lnkd.in/gfpd__xz
+  * URL, IP, domain, file hash >> https://lnkd.in/gNqxtn4d
+  * URL Sandbox >> https://urlscan.io/
+  * Cisco Reputation Check >> https://lnkd.in/g7uWdC5q
+  * Diagnostic & lookup tools >> https://mxtoolbox.com/
+  * Open Source IPS >> https://www.snort.org/
+  * CyberChef >> https://lnkd.in/gVjZywKu
+  * Browser Sandbox>> https://lnkd.in/gjA-QqdX
+  * IBM Reputation Check >> https://lnkd.in/gt8iyHE5
+  * IP Reputation Check >>https://www.abuseipdb.com/
+  * Protocol analyzer >> https://www.wireshark.org/
+  * DNS related tools >> https://viewdns.info/
+  * OSINT Framework >> https://lnkd.in/gXaz_Wry
+  * Malfrat's OSINT >> https://lnkd.in/e4nhK2hK
+  * Find Emails >> https://hunter.io/
+  * Find People >> https://lnkd.in/g4bcUH_b
+  * Internet Archieve >> https://archive.org/web/
+  * Reverse Image search >> https://tineye.com  
+  * Link and data mining >>https://lnkd.in/gf9BUFWk
+  * Data breaches >> https://lnkd.in/gvbzhceV
+  * Search Engine for IoTs>> https://www.shodan.io/
+  * Cyberspace Search >> https://www.zoomeye.org/
+  * Search Engine >> https://search.censys.io/
+  * Website Profiler Tool >>https://builtwith.com/
+  * Email Info >>https://epieos.com/
+  * File Search engine >> https://filepursuit.com/
+  * Domain investigation >> https://lnkd.in/e2c27zc7
+  * CyberGordon >> https://cybergordon.com/
+
 
 # Threat intelligence and automation
 
