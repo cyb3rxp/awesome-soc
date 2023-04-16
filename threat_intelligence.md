@@ -32,7 +32,7 @@ Here are my recommendations:
 
 As per [Forrester article](https://www.forrester.com/blogs/15-11-07-starting_soon_threat_intelligence_platforms_research_0/), here is a drawing about examples of common integration between threat intel sources, TIP, and security solutions:
 
-![image](https://user-images.githubusercontent.com/16035152/204065814-2fc1b048-94d7-4f73-885e-b12d24ae2939.png)
+![image](https://user-images.githubusercontent.com/16035152/232339967-dfa4bab5-79eb-496c-ac19-6d7e3e98af92.png)
 
 ## Architecture example
 
