@@ -54,7 +54,8 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * [RecordedFuture](https://www.recordedfuture.com/platform/threat-intelligence); 
      * [Netcraft](https://www.netcraft.com/cybercrime/malicious-site-feeds/); 
      * [Gatewatcher](https://www.gatewatcher.com/en/our-solutions/lastinfosec/);
-     * [CrowdSec](https://app.crowdsec.net/cti)...
+     * [CrowdSec](https://app.crowdsec.net/cti);
+     * [RedFlag Domains](https://red.flag.domains/)...
    * My recommendations for community ones: 
      * [URLHaus](https://urlhaus.abuse.ch/api/); 
      * [ISAC](https://www.enisa.europa.eu/publications/information-sharing-and-analysis-center-isacs-cooperative-models);
