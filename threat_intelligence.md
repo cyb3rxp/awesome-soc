@@ -54,8 +54,7 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * [RecordedFuture](https://www.recordedfuture.com/platform/threat-intelligence); 
      * [Netcraft](https://www.netcraft.com/cybercrime/malicious-site-feeds/); 
      * [Gatewatcher](https://www.gatewatcher.com/en/our-solutions/lastinfosec/);
-     * [CrowdSec](https://app.crowdsec.net/cti);
-     * [RedFlag Domains](https://red.flag.domains/)...
+     * [CrowdSec](https://www.crowdsec.net/pricing)...
    * My recommendations for community ones: 
      * [URLHaus](https://urlhaus.abuse.ch/api/); 
      * [ISAC](https://www.enisa.europa.eu/publications/information-sharing-and-analysis-center-isacs-cooperative-models);
@@ -75,9 +74,10 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * [CERT-FR's MISP feed](https://misp.cert.ssi.gouv.fr/feed-misp/);
      * [Orange CyberDefense, Log4Shell IOC](https://github.com/Orange-Cyberdefense/log4shell_iocs);
      * [Orange CyberDefense, RU/UKR IOC](https://github.com/Orange-Cyberdefense/russia-ukraine_IOCs);
+     * [RedFlag Domains](https://red.flag.domains/);
+     * [CrowdSec community](https://app.crowdsec.net/cti)
      * The [Covert.io list](http://www.covert.io/threat-intelligence/);
      
-
 
 * Portals to query on-the-fly:
   * My recommendations: [VirusTotal API](https://support.virustotal.com/hc/en-us/articles/115002100149-API).
