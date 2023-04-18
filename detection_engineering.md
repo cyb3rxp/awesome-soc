@@ -33,6 +33,8 @@ This page deals with SOC detection engineering and management (detection use cas
 * ANSSI, [EBIOS RM methodology](https://www.ssi.gouv.fr/guide/ebios-risk-manager-the-method/)
 * David J. Bianco, [Pyramid of pain](https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html)
 * Atlassian, [CI/CD/CD](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
+* Michel de Crevoisier, [|Microsoft Eventlog mindmap](https://github.com/mdecrevoisier/Microsoft-eventlog-mindmap)
+* OWASP, [logging cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html)
 
 
 # Generic recommended approach
