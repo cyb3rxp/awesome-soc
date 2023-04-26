@@ -334,7 +334,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 * [Austin Songer](https://github.com/austinsonger/Incident-Playbook)
 * CISA, [Cybersecurity incident and vulnerability response playbooks](https://www.cisa.gov/sites/default/files/publications/Federal_Government_Cybersecurity_Incident_and_Vulnerability_Response_Playbooks_508C.pdf)
 * Reprise99, [Microsoft Sentinel queries](https://github.com/reprise99/Sentinel-Queries)
-* MyFaberSecurity, [MS Sentienl architecture and recommendations for MSSP](https://myfabersecurity.com/2023/03/31/sentinel-poc-architecture-and-recommendations-for-mssps-part-1/)
+* MyFaberSecurity, [MS Sentinel architecture and recommendations for MSSP](https://myfabersecurity.com/2023/03/31/sentinel-poc-architecture-and-recommendations-for-mssps-part-1/)
 * Gartner, [PAM Magic Quadrant reprint](https://www.gartner.com/doc/reprints?id=1-2AMZ88JO&ct=220721&st=sb)
 
 
