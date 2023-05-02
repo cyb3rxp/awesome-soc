@@ -1,4 +1,4 @@
-# ToC
+# Table of Content
 
 * [Must read](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md#must-read)
 * [Generic workflow](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md#generic-workflow)
@@ -77,6 +77,7 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * [RedFlag Domains](https://red.flag.domains/);
      * [CrowdSec community](https://app.crowdsec.net/cti)
      * The [Covert.io list](http://www.covert.io/threat-intelligence/);
+     * Jeroen Steeman, [IPBlock lists](https://jeroen.steeman.org/IPBlock)
      
 
 * Portals to query on-the-fly:
