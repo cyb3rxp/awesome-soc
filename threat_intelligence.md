@@ -79,6 +79,7 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * [Covert.io list](http://www.covert.io/threat-intelligence/);
      * Jeroen Steeman, [IPBlock lists](https://jeroen.steeman.org/IPBlock)
      * [si3t.ch](http://si3t.ch/evils/)
+     * [FireHOL project: GreenSwow IP set](https://github.com/firehol/blocklist-ipsets/blob/master/greensnow.ipset)
      
 
 * Portals to query on-the-fly:
