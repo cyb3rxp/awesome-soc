@@ -76,8 +76,9 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * [Orange CyberDefense, RU/UKR IOC](https://github.com/Orange-Cyberdefense/russia-ukraine_IOCs);
      * [RedFlag Domains](https://red.flag.domains/);
      * [CrowdSec community](https://app.crowdsec.net/cti)
-     * The [Covert.io list](http://www.covert.io/threat-intelligence/);
+     * [Covert.io list](http://www.covert.io/threat-intelligence/);
      * Jeroen Steeman, [IPBlock lists](https://jeroen.steeman.org/IPBlock)
+     * [si3t.ch](http://si3t.ch/evils/)
      
 
 * Portals to query on-the-fly:
