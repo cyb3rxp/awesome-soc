@@ -147,6 +147,7 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
 NB: this is for red/purpleteaming activities.
 
 ## Regular trainings
+* Mariusz Banach, [Evasion in Depth - Techniques Across the Kill-Chain](https://www.youtube.com/watch?v=IbA7Ung39o4&ab_channel=x33fcon)
 * [Cybrary, MITRE ATT&CK threat hunting](https://www.cybrary.it/course/mitre-attack-threat-hunting/).
 * [HackTheBox](https://www.hackthebox.com/).
 * CybersecurityUp, [OSCE complete guide](https://github.com/CyberSecurityUP/OSCE-Complete-Guide).
