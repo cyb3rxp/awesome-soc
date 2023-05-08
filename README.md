@@ -341,7 +341,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 
 
 ## SOC sensors, nice to have
-* (full featured) Honeypot:
+* (full-featured) Honeypot:
   * My recommendation: [Canary.tools](https://canary.tools/)
 * Phishing and brand infringement protection (domain names):
   * My recommendation: [PhishLabs](https://www.phishlabs.com/), [Netcraft](https://www.netcraft.com/cybercrime/fraud-detection/)
@@ -353,7 +353,8 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
   * See [Gartner reviews and ratings](https://www.gartner.com/reviews/market/data-loss-prevention)
 * Network TAP:
   * My recommendation: [Gigamon](https://www.gigamon.com/products/access-traffic/network-taps.html)
-
+* Mobile network security (2G/3G):
+  * My recommendation: Dust Mobile.
 
 ## Management
 * **Define SOC priorities, with feared events and offensive scenarios (TTP) to be monitored**, as per risk analysis results.
