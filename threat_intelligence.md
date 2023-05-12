@@ -56,11 +56,9 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * [Gatewatcher](https://www.gatewatcher.com/en/our-solutions/lastinfosec/);
      * [CrowdSec](https://www.crowdsec.net/pricing)...
    * My recommendations for community ones: 
-     * [URLHaus](https://urlhaus.abuse.ch/api/); 
+     * [URLHaus](https://urlhaus.abuse.ch/api/#csv);
      * [ISAC](https://www.enisa.europa.eu/publications/information-sharing-and-analysis-center-isacs-cooperative-models);
-     * [OTX](https://otx.alienvault.com/api);
      * [VX Vault URL](http://vxvault.net/URL_List.php);
-     * [AbuseIPDB](https://www.abuseipdb.com/);
      * [Feodo Tracker](https://feodotracker.abuse.ch/blocklist/)
      * [PAN Unit42](https://github.com/pan-unit42/iocs);
      * [ESET IOC](https://github.com/eset/malware-ioc);
@@ -75,15 +73,22 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * [Orange CyberDefense, Log4Shell IOC](https://github.com/Orange-Cyberdefense/log4shell_iocs);
      * [Orange CyberDefense, RU/UKR IOC](https://github.com/Orange-Cyberdefense/russia-ukraine_IOCs);
      * [RedFlag Domains](https://red.flag.domains/);
-     * [CrowdSec community](https://app.crowdsec.net/cti)
-     * [Covert.io list](http://www.covert.io/threat-intelligence/);
      * Jeroen Steeman, [IPBlock lists](https://jeroen.steeman.org/IPBlock)
      * [si3t.ch](http://si3t.ch/evils/)
      * [FireHOL project: GreenSwow IP set](https://github.com/firehol/blocklist-ipsets/blob/master/greensnow.ipset)
+     * [SNORT, IP to block](https://snort-org-site.s3.amazonaws.com/production/document_files/files/000/023/503/original/ip_filter.blf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAU7AK5ITMJQBJPARJ%2F20230509%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230509T141958Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d113f3dd50f82aba363952a1af91294beedf643642f4a8d6f6da804cce4fa802)
+  * To go further, some lists of feeds that could be of interest:
+    * [Covert.io list](http://www.covert.io/threat-intelligence/);
+    * [Intel471](https://intel471.com/modules)
      
 
 * Portals to query on-the-fly:
-  * My recommendations: [VirusTotal API](https://support.virustotal.com/hc/en-us/articles/115002100149-API).
+  * My recommendations: 
+     * [VirusTotal API](https://support.virustotal.com/hc/en-us/articles/115002100149-API).
+     * [CrowdSec community](https://app.crowdsec.net/cti)
+     * [AbuseIPDB](https://www.abuseipdb.com/);
+     * [URLHaus](https://urlhaus.abuse.ch/api/);
+     * [OTX](https://otx.alienvault.com/api);
 
 * well-known OSINT portals:
   * CyberGordon >> https://cybergordon.com/
