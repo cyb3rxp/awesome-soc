@@ -76,7 +76,7 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * Jeroen Steeman, [IPBlock lists](https://jeroen.steeman.org/IPBlock)
      * [si3t.ch](http://si3t.ch/evils/)
      * [FireHOL project: GreenSwow IP set](https://github.com/firehol/blocklist-ipsets/blob/master/greensnow.ipset)
-     * [SNORT, IP to block](https://snort-org-site.s3.amazonaws.com/production/document_files/files/000/023/503/original/ip_filter.blf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAU7AK5ITMJQBJPARJ%2F20230509%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230509T141958Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d113f3dd50f82aba363952a1af91294beedf643642f4a8d6f6da804cce4fa802)
+     * [Snort, IP to block](https://www.snort.org/downloads/ip-block-list)
   * To go further, some lists of feeds that could be of interest:
     * [Covert.io list](http://www.covert.io/threat-intelligence/);
     * [Intel471](https://intel471.com/modules)
