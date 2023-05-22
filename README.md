@@ -26,6 +26,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * CMM, [SOCTOM](https://soc-cmm.com/downloads/SOCTOM%20whitepaper.pdf)
 * LetsDefend [SOC analyst interview questions](https://github.com/LetsDefend/SOC-Interview-Questions)
 * FIRST, [Building a SOC](https://www.first.org/resources/guides/Factsheet_Building_a_SOC_start_small.pdf) 
+* Gartner, [SOC model guide](https://www.gartner.com/doc/reprints?id=1-2C6FPM26&ct=230103&st=sb)
 * NCSC, [Building a SOC](https://www.ncsc.gov.uk/collection/building-a-security-operations-centre)
 
 
