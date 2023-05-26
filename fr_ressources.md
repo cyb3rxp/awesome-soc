@@ -11,3 +11,7 @@
 ### Etat de l'écosystème cybersécurité
 
 * Splunk, [Etat de la cybersécurité 2023](https://www.splunk.com/fr_fr/pdfs/gated/ebooks/state-of-security-2023.pdf)
+
+### RETEX terrain
+
+* OCD, [RETEX sur le SOAR en 2020](https://www.orangecyberdefense.com/fr/insights/blog/threat-management/soar-quelles-conclusions-en-2020) 
