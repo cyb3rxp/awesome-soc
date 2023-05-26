@@ -50,7 +50,6 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * Purp1eW0lf, [Blue Team Notes](https://github.com/Purp1eW0lf/Blue-Team-Notes)
 * ThreatConnect, [SIRP / SOA / TIP benefits](https://threatconnect.com/blog/realizing-the-benefits-of-security-orchestration-automation-and-response-soar/)
 * Gartner, [Market Guide for Security Orchestration, Automation and Response Solutions](https://www.gartner.com/doc/reprints?id=1-2ADE1K2G&ct=220621&st=sb) 
-* Orange Cyberdefense, [Feedback regarding experience with SOAR in 2020 (in French)](https://www.orangecyberdefense.com/fr/insights/blog/threat-management/soar-quelles-conclusions-en-2020) 
 * PAN, [Security orchestration for dummies](https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/cortex-xsoar/Security-Orchestration-For-Dummies-Demisto-Special-Edition.pdf)
 * FIRST, [CVSS v3.1 specs](https://www.first.org/cvss/specification-document) 
 * OASIS Open, [STIX](https://oasis-open.github.io/cti-documentation/stix/intro.html)
