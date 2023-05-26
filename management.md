@@ -25,6 +25,7 @@ This page deals with SOC / CSIRT management.
 * Linkedin Pulse, [Evolution Security Operations Center](https://www.linkedin.com/pulse/evolution-security-operations-center-lakshminarayanan-kaliyaperumal/)
 * Gartner, [Cybersecurity business value benchmark](https://emtemp.gcom.cloud/ngw/globalassets/en/doc/documents/775537-gartner-cybersecurity-business-value-benchmark-1st-generation.pdf)
 * Google, [Modernize your SOC for the future](https://www.brighttalk.com/webcast/18282/565440?utm_source=brighttalk-recommend&utm_campaign=network_weekly_email&utm_medium=email&utm_content=company&utm_term=132023)
+* Signalblur, [Getting started with ATT&CK heatmaps](https://www.signalblur.io/getting-started-with-mitres-att-ck-navigator/)
 
 
 # Challenges
@@ -94,18 +95,18 @@ describe their structure.
 
 # Key documents for a SOC
 * Document an **audit policy**, that is tailored of the detection needs/expectations of the SOC:
-  * The document aims to answer a generic question: what to audit/log, on which equipments/OSes/services/apps?
+  * the document aims to answer a generic question: what to audit/log, on which equipments/OSes/services/apps?
   * Take the [Yamato Security work](https://github.com/Yamato-Security/EnableWindowsLogSettings#smbclient-security-log-2-sigma-rules) as an exemple regarding an audit policy required for the Sigma community rules.
   * Don't forget to read the [Microsoft Windows 10 and Windows Server 2016 security auditing and monitoring reference](https://www.microsoft.com/en-us/download/details.aspx?id=52630).
 * Document a **detection strategy**, tailored to the needs and expectations regarding the SOC capabilities.
-  * The document will aim to list the detection rules (SIEM searches, for instance), with key examples of results, and an overview of handling procedures.
+  * The document will aim at listing the detection rules (SIEM searches, for instance), with key examples of results, and an overview of handling procedures.
 
 
 # Detection quality assessment
  * **Run regular [purpleteaming sessions](https://about.gitlab.com/handbook/engineering/security/threat-management/red-team/purple-teaming/)** in time!!
    * e.g.: [Intrinsec](https://www.intrinsec.com/purple-team/), [FireEye](https://www.fireeye.fr/content/dam/fireeye-www/regional/fr_FR/services/pdfs/ds-purple-team-assessment.pdf)
    * To do it on your own, recommended tool: [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team)
-   * Don't forge to watermark the offensive tools being used! See [ProtectMyTooling](https://web.archive.org/web/20230209131745/https://mgeeky.tech/protectmytooling/)
+   * Don't forget to watermark the offensive tools being used! See [ProtectMyTooling](https://web.archive.org/web/20230209131745/https://mgeeky.tech/protectmytooling/)
  * Picture the currently confirmed detection capabilities thanks to purpleteaming, with tools based on ATT&CK:
    * e.g.: [Vectr](https://github.com/securityriskadvisors/vectr)
 
@@ -116,9 +117,18 @@ describe their structure.
 *	Use [Security Stack Mappings](https://github.com/center-for-threat-informed-defense/security-stack-mappings) to picture detection capabilities for a given security solution/environment (like AWS, Azure, NDR, etc.): 
 
 ## SOC detection capabilities **simplified** view
+ * Leverage the [DeTTECT framework]()
+ * Leverage the [RE&CT framework](https://atc-project.github.io/react-navigator/) to drive detection activities
  * Generate [ATT&CK heatmaps](https://www.signalblur.io/getting-started-with-mitres-att-ck-navigator/), to picture the SOC detection capabilities
 
+# Response capabilities representation :
+
+## Response simplified view
+* Leverage the [RE&CT framework](https://atc-project.github.io/react-navigator/) to drive generic and fundamental containment actions.
+
+
 # Global self-assessment
+
 ## SOC Self-assessment
 *	Read the [SOC Cyber maturity model](https://www.soc-cmm.com/introduction/) from CMM
 *	Run the [SOC-CMM self-assessment tool](https://www.soc-cmm.com/downloads/latest/) 
