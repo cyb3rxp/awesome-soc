@@ -29,6 +29,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * Gartner, [SOC model guide](https://www.gartner.com/doc/reprints?id=1-2C6FPM26&ct=230103&st=sb)
 * NCSC, [Building a SOC](https://www.ncsc.gov.uk/collection/building-a-security-operations-centre)
 * Splunk, [State of Security 2023](https://www.splunk.com/en_us/pdfs/gated/ebooks/state-of-security-2023.pdf) 
+* Rabobank CDC, [DeTTECT](https://github.com/rabobank-cdc/DeTTECT)
 
 
 ## For a CERT/CSIRT
