@@ -119,7 +119,6 @@ describe their structure.
 ## SOC detection capabilities **simplified** view
  * Leverage the [DeTTECT framework]()
  * Leverage the [RE&CT framework](https://atc-project.github.io/react-navigator/) to drive detection activities
- * Generate [ATT&CK heatmaps](https://www.signalblur.io/getting-started-with-mitres-att-ck-navigator/), to picture the SOC detection capabilities
 
 # Response capabilities representation :
 
