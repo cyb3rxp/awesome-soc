@@ -341,6 +341,7 @@ The idea here is to follow the 'as-code' approach, wherever possible, with a cen
 * Palantir, [ADS Framework](https://github.com/palantir/alerting-detection-strategy-framework), Alerting and Detection Strategies framework.
 * Splunk, [Detection Deep dive](https://on24static.akamaized.net/event/39/91/78/5/rt/1/documents/resourceList1669214675158/splunkwebinarslidesdetectiondeepdive1669214674061.pdf).
 * NIST, [IR 8286D: BIA and Risk Prioritization](https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8286D.pdf)
+* BrightTalk/Lacework, [CSPM comparison](https://www.brighttalk.com/webcast/18905/540127?player-preauth=xF5kcx%2FJ1zQGynPog7QyfHEnVg7fUDuwzbjCLWvJ75U%3D&utm_source=brighttalk-promoted&utm_medium=email&utm_term=Audience579476&utm_campaign=AUD-14239&utm_content=2023-05-17)
  
 # End
 Go to [main page](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md).
