@@ -75,6 +75,7 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * [RedFlag Domains](https://red.flag.domains/);
      * Jeroen Steeman, [IPBlock lists](https://jeroen.steeman.org/IPBlock)
      * [si3t.ch](http://si3t.ch/evils/)
+     * [Execute Malware](https://github.com/executemalware/Malware-IOCs/tree/main)
      * [FireHOL project: GreenSwow IP set](https://github.com/firehol/blocklist-ipsets/blob/master/greensnow.ipset)
      * [Snort, IP to block](https://www.snort.org/downloads/ip-block-list)
   * To go further, some lists of feeds that could be of interest:
