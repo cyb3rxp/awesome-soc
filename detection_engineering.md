@@ -15,6 +15,7 @@ This page deals with SOC detection engineering and management (detection use cas
 
 # Must read
 * MITRE, [top TTP for ransomwares](https://top-attack-techniques.mitre-engenuity.org/)
+* Splunk, [Top 50 cybersecurity threats](https://www.splunk.com/content/dam/splunk2/en_us/gated/ebooks/top-50-cybersecurity-threats.pdf)
 * Yogosha, [SIGMA Rules: how to standardize detections for any SIEM](https://yogosha.com/blog/sigma-rules/)
 * Ch33r10, [Enterprise purple teaming](https://github.com/ch33r10/EnterprisePurpleTeaming)
 * F. Roth, [Detection engineering cheat sheet](https://mobile.twitter.com/cyb3rops/status/1592879894396293121/photo/1)
