@@ -55,7 +55,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * FIRST, [CVSS v3.1 specs](https://www.first.org/cvss/specification-document) 
 * OASIS Open, [STIX](https://oasis-open.github.io/cti-documentation/stix/intro.html)
 * FIRST, [TLP](https://www.first.org/tlp/) (intelligence sharing and confidentiality)
-* CIS, [8 critical security controls](https://www.cisecurity.org/controls/cis-controls-list)
+* CIS, [18 critical security controls](https://www.cisecurity.org/controls/cis-controls-list)
 * Gartner, [Cybersecurity business value benchmark](https://emtemp.gcom.cloud/ngw/globalassets/en/doc/documents/775537-gartner-cybersecurity-business-value-benchmark-1st-generation.pdf)
 * CyberArk: [NIS2, how to address the security control gaps](https://event.on24.com/eventRegistration/console/apollox/mainEvent?simulive=y&eventid=4110743&sessionid=1&username=&partnerref=&format=fhvideo1&mobile=&flashsupportedmobiledevice=&helpcenter=&key=588150776CAE70D7F02ECF2848FF11FA&newConsole=true&nxChe=true&newTabCon=true&consoleEarEventConsole=false&text_language_id=en&playerwidth=748&playerheight=526&eventuserid=600843623&contenttype=A&mediametricsessionid=517006274&mediametricid=5797475&usercd=600843623&mode=launch)
 
