@@ -314,6 +314,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 * Soufiane Tahiri, [Playbook for ransomware incident response](https://github.com/soufianetahiri/ransomware_Incident_Response_FR), in FR
 * PwnDefend, [AD post-compromise checklist](https://www.pwndefend.com/2021/09/15/post-compromise-active-directory-checklist/)
 * Gartner, [Market guide for NDR](https://www.gartner.com/doc/reprints?id=1-2C26GPJO&ct=221220&st=sb&utm_campaign=23Q1%20-%20%5BP%5D%20-%20WW%20-%20DR%20-%20Gartner%20Market%20Guide%202022%20for%20NDR&utm_medium=email&_hsmi=238503267&_hsenc=p2ANqtz-8wHF9sVJ7vVNCjT-uxGc2EkfHf_7Rjj3PYQd1AhWkwv-bluEqKKFV_xfeZqdU2sHYMtuximF-J33CBTSwyutZIjcOd5SKywiV6HGRCfolqm1Pg9pU&utm_content=238503267&utm_source=hs_automation)
+* Rawsec, [Resources inventory](https://inventory.raw.pm/resources.html)
 
 
 
@@ -338,6 +339,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 * Reprise99, [Microsoft Sentinel queries](https://github.com/reprise99/Sentinel-Queries)
 * MyFaberSecurity, [MS Sentinel architecture and recommendations for MSSP](https://myfabersecurity.com/2023/03/31/sentinel-poc-architecture-and-recommendations-for-mssps-part-1/)
 * Gartner, [PAM Magic Quadrant reprint](https://www.gartner.com/doc/reprints?id=1-2AMZ88JO&ct=220721&st=sb)
+* Rawsec, [Tools inventory](https://inventory.raw.pm/tools.html)
 
 
 ## SOC sensors, nice to have
