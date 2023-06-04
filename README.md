@@ -340,6 +340,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 * MyFaberSecurity, [MS Sentinel architecture and recommendations for MSSP](https://myfabersecurity.com/2023/03/31/sentinel-poc-architecture-and-recommendations-for-mssps-part-1/)
 * Gartner, [PAM Magic Quadrant reprint](https://www.gartner.com/doc/reprints?id=1-2AMZ88JO&ct=220721&st=sb)
 * Rawsec, [Tools inventory](https://inventory.raw.pm/tools.html)
+* Microsoft, [command line reference](https://cmd.ms/)
 
 
 ## SOC sensors, nice to have
