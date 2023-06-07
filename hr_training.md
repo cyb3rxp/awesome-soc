@@ -98,7 +98,9 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
   * Attack simulation & investigation: [Splunk attack range](https://github.com/splunk/attack_range_cloud).
 * PaloAlto, Fundamentals of SOC](https://beacon.paloaltonetworks.com/student/path/521672-the-fundamentals-of-soc-security-operations-center), mainly modules 1 to 8 :) (free);
 * Microsoft, [Become an Azure Sentinel Ninja](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/become-a-microsoft-sentinel-ninja-the-complete-level-400/ba-p/1246310) (free);
-* Orange Cyberdefense [GOAD](https://github.com/Orange-Cyberdefense/GOAD) (free).
+* Active Directory:
+   * train on AD specific attacks, [Orange Cyberdefense GOAD](https://github.com/Orange-Cyberdefense/GOAD) (free).
+   * Populate AD with "real life" objects, in an automated way, [Badblood](https://github.com/davidprowe/badblood)
 
 
 ## Certifications
