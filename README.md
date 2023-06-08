@@ -23,7 +23,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 
 ## For a SOC
 * MITRE, [11 strategies for a world-class SOC](https://www.mitre.org/publications/technical-papers/11-strategies-world-class-cybersecurity-operations-center) (or use [local file](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf)): part 0 (Fundamentals).
-* CMM, [SOCTOM](https://soc-cmm.com/downloads/SOCTOM%20whitepaper.pdf)
+* CMM, [SOC-CMM](https://www.soc-cmm.com/)
 * LetsDefend [SOC analyst interview questions](https://github.com/LetsDefend/SOC-Interview-Questions)
 * FIRST, [Building a SOC](https://www.first.org/resources/guides/Factsheet_Building_a_SOC_start_small.pdf) 
 * Gartner, [SOC model guide](https://www.gartner.com/doc/reprints?id=1-2C6FPM26&ct=230103&st=sb)
@@ -341,6 +341,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 * Gartner, [PAM Magic Quadrant reprint](https://www.gartner.com/doc/reprints?id=1-2AMZ88JO&ct=220721&st=sb)
 * Rawsec, [Tools inventory](https://inventory.raw.pm/tools.html)
 * Microsoft, [command line reference](https://cmd.ms/)
+* [SOCTOM](https://soc-cmm.com/downloads/SOCTOM%20whitepaper.pdf)
 
 
 ## SOC sensors, nice to have
