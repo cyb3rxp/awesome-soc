@@ -46,7 +46,7 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
 
 
 # Sources
-* Feeds:
+* Feeds and portails:
    * My recommendations for paid ones: 
      * [ESET](https://www.eset.com/us/business/services/threat-intelligence/);
      * [Sekoia.io](https://www.sekoia.io/fr/sekoia-io-cti/); 
@@ -54,7 +54,8 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * [RecordedFuture](https://www.recordedfuture.com/platform/threat-intelligence); 
      * [Netcraft](https://www.netcraft.com/cybercrime/malicious-site-feeds/); 
      * [Gatewatcher](https://www.gatewatcher.com/en/our-solutions/lastinfosec/);
-     * [CrowdSec](https://www.crowdsec.net/pricing)...
+     * [CrowdSec](https://www.crowdsec.net/pricing);
+     * [HaveIBeenPwned](https://haveibeenpwned.com/API/Key)
    * My recommendations for community ones: 
      * [URLHaus](https://urlhaus.abuse.ch/api/#csv);
      * [ISAC](https://www.enisa.europa.eu/publications/information-sharing-and-analysis-center-isacs-cooperative-models);
@@ -77,10 +78,12 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * [si3t.ch](http://si3t.ch/evils/)
      * [Execute Malware](https://github.com/executemalware/Malware-IOCs/tree/main)
      * [FireHOL project: GreenSwow IP set](https://github.com/firehol/blocklist-ipsets/blob/master/greensnow.ipset)
-     * [Snort, IP to block](https://www.snort.org/downloads/ip-block-list)
+     * [Snort, IP list to block](https://www.snort.org/downloads/ip-block-list)
   * To go further, some lists of feeds that could be of interest:
     * [Covert.io list](http://www.covert.io/threat-intelligence/);
     * [Intel471](https://intel471.com/modules)
+  * And a reference framework to analyze data information leaks: [AIL Framework](https://github.com/CIRCL/AIL-framework)
+
      
 
 * Portals to query on-the-fly:
