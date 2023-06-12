@@ -204,7 +204,7 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
 * Automatically retrieve the history of antimalware detections for an user and/or endpoint, that is associated to a SIRP ticket.
 * Automatically retrieve the history of SIEM detections for an user and/or endpoint, that is associated to a SIRP ticket.
 * Automatically retrieve the history of SIRP tickets for an user and/or endpoint, that is associated to a new SIRP ticket.
-* Automatically query AD or the assets management solution, for artefact anrichment (user, endpoint, IP, application, etc.).
+* Automatically query AD or the assets management solution, for artefact enrichment (user, endpoint, IP, application, etc.).
 
 ### My recommendations for response (incident response, containment/eradication steps):
 * Block an IP on all firewalls (including VPN), SWG and CASB.
