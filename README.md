@@ -3,6 +3,8 @@ A collection of sources of documentation, and field best practices, to build and
 
 Those are my view, based on my own experience as SOC/CSIRT analyst and team manager, as well as well-known papers. Focus is more on SOC than on CERT/CSIRT.
 
+My motto is: without reaction (response), detection is useless.
+
 NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to incident response activity. CERT is a well-known (formerly) US trademark, run by [CERT-CC](https://www.sei.cmu.edu/about/divisions/cert/index.cfm), but I prefer the term [CSIRT](https://www.enisa.europa.eu/topics/incident-response).
 
 # Table of Content
