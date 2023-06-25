@@ -13,6 +13,14 @@
 ### [EN] Count number of unique IP addresses that were blocked using Fail2Ban // [FR] Compter le nombre d'adresses IP uniques qui ont été bloquées par Fail2Ban :
 > zgrep "Ban " /var/log/fail2ban.log* |  zgrep -ohE '((1?[0-9][0-9]?|2[0-4][0-9]|25[0-5])\.){3}(1?[0-9][0-9]?|2[0-4][0-9]|25[0-5])'   |sort -n -k 1 |uniq -c |wc -l
 
-### [EN] List active services (Sytems with SystemD) // Lister les services (systèmes avec Systemd) :
+### [EN] List active services (Sytems with SystemD) // [FR] Lister les services (systèmes avec Systemd) :
 > systemctl list-units --type=service --state=active
+
+### [EN] List all TCP/UDP sockets // [FR] Lister toutes les sockets TCP/UDP ouvertes :
+> netstat -laputenv
+
+### [EN] List all TCP/UDP sockets with "established" state // [FR] Lister toutes les sockets TCP/UDP avec status "établi" :
+> netstat -laputenv | grep ESTABLISHED
+
+
 
