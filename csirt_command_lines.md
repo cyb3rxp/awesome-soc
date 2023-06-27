@@ -4,7 +4,7 @@
 
 ## [EN] Find IP address within log lines, using GREP (or any REGEX compatible tool) // [FR] Trouver des adresses IP dans des lignes de journaux, en utilisant Grep (ou un autre outil compatible REGEX) :
 
-### [EN] Search IP addresses within plaintext log files, in /var/log/ // [FR] Recherche d'adresse IP dans les fichiers journaux .log texte dans /var/log/ :
+### [EN] Search IP addresses within plaintext log files // [FR] Recherche d'adresses IP dans les fichiers journaux .log texte dans /var/log/ :
  > grep -ohE '((1?[0-9][0-9]?|2[0-4][0-9]|25[0-5])\.){3}(1?[0-9][0-9]?|2[0-4][0-9]|25[0-5])' /var/log/\*.log\* |sort -n -k 1 |uniq -c |sort -n
 
 ### [EN] Search IP addresses within compressed log files // [FR] Recherche d'adresses IP dans les fichiers journaux compressés :
