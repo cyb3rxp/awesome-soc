@@ -317,6 +317,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 * PwnDefend, [AD post-compromise checklist](https://www.pwndefend.com/2021/09/15/post-compromise-active-directory-checklist/)
 * Gartner, [Market guide for NDR](https://www.gartner.com/doc/reprints?id=1-2C26GPJO&ct=221220&st=sb&utm_campaign=23Q1%20-%20%5BP%5D%20-%20WW%20-%20DR%20-%20Gartner%20Market%20Guide%202022%20for%20NDR&utm_medium=email&_hsmi=238503267&_hsenc=p2ANqtz-8wHF9sVJ7vVNCjT-uxGc2EkfHf_7Rjj3PYQd1AhWkwv-bluEqKKFV_xfeZqdU2sHYMtuximF-J33CBTSwyutZIjcOd5SKywiV6HGRCfolqm1Pg9pU&utm_content=238503267&utm_source=hs_automation)
 * Rawsec, [Resources inventory](https://inventory.raw.pm/resources.html)
+* Quest, [Best practices for AD disaster recovery](https://www.quest.com/webcast-ondemandt/best-practices-for-active-directory-disaster-recovery/?param=L4qcdiH1R46lWbN5Jxs%2fNN0Qky57LDYQTnsyaoWVqKYZTocd3n1RpFTyQegqps0MbW7yx4UWSKyVRVyz%2bwo0XRB2%2fXpFzrMZeOA%2fne%2f4Fm3oH5YJAnFCP%2fnRqs9Rq%2fRD0VTXvdBaojCx5J46htyILvanM5FhOVa7MCGDGYBcq6925YtpmANy9OA1%2fjdtlDrp)
 
 
 
