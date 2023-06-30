@@ -14,4 +14,10 @@
 
 ### RETEX terrain
 
-* OCD, [RETEX sur le SOAR en 2020](https://www.orangecyberdefense.com/fr/insights/blog/threat-management/soar-quelles-conclusions-en-2020) 
+* OCD, [RETEX sur le SOAR en 2020](https://www.orangecyberdefense.com/fr/insights/blog/threat-management/soar-quelles-conclusions-en-2020)
+
+## Bonnes pratiques sécurité
+
+### AD :
+
+* Akril, [Tiers d'admin, en FR](https://akril.net/comprendre-le-tiering-model-de-microsoft-en-francais/)
