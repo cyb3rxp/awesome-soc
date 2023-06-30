@@ -34,7 +34,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * David J. Bianco, [Pyramid of pain](https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html)
 * Atlassian, [CI/CD/CD](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
 * OWASP, [logging cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html)
-* Microsoft, [Monitoring Active Directory for signs of compromise)(https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/monitoring-active-directory-for-signs-of-compromise)
+* Microsoft, [Monitoring Active Directory for signs of compromise](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/monitoring-active-directory-for-signs-of-compromise)
 * TheCloudTechnologist, [Microsoft 365 audit & logging](https://thecloudtechnologist.com/2021/10/15/everything-you-wanted-to-know-about-security-and-audit-logging-in-office-365/)
 * Michel de Crevoisier, [|Microsoft Eventlog mindmap](https://github.com/mdecrevoisier/Microsoft-eventlog-mindmap)
 
