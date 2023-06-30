@@ -301,7 +301,7 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
 
 ## Augmenting detection with automation
  
-See [threat intel page](https://github.com/cyb3rxp/awesome-soc/blog/threat_intel.md)
+See [threat intel page](https://github.com/cyb3rxp/awesome-soc/blog/threat_intelligence.md)
 
 
 # Everything-as-code (DevSecOps)
