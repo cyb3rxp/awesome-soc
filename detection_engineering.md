@@ -192,7 +192,7 @@ My recommendation, still, is to make sure not to spend all your time running aft
   * critical assets;
   * attack scenarios (somewhat, kill chains and TTP).
 
-### Identity risks and their treatment:
+### Risks identification and their treatment:
 
 * Here is a [simplified drawing](https://www.linkedin.com/pulse/iso-27005-risk-management-aron-lange/?trackingId=oRjjiIdY9BNjne1ALRq02A%3D%3D) of the global process, leveraging ISO 27005 approach:
 
