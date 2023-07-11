@@ -111,9 +111,10 @@ Based on experience, and on numerous malware statistics, the following ones shou
 | Detection of malicious files | Hash-based (even if not pure MD5 per say), or binary portions based. Sometimes code emulation-based | Hashed-based (but backed by standards like OpenIOC sometimes |
 | Detection of malicious traffic | Depends on the antivirus solution (some may some may not) | Full capacity (HTTPs and others), endpoint-wide |
 | Detection of malicious behaviour | Limited | Machine-learning-based or with embedded advanced detection logics (like for drive-by download technique detection) |
+| Detection on custom IoC | Uncommon (some may some may not) | Standard: detect custom MD5/SHA1/SHA2, URL/IP/Domain, file path, file name, etc. | 
 | Detection based on logging | Limited: only what is detected is being logged | Full capacity: system, network, security events history is collected and centralized (often called telemetry), allowing to build custom detections in the SIEM |
-| Investigation (eg: on detection cases) | Very limited | Full capacity: system, network, security events history is collected and centralized (often called telemetry) |
-| Containment of endpoint | Limited (only a few solutions provide it AFAIK) | Full capacity |
+| Investigation (eg: on detection cases) | Very limited | Full capacity: system, network, security events history is collected and centralized (often called telemetry), allowing to investigate deeper in the EDR or SIEM console |
+| Containment of endpoint | Uncommon (only a few solutions provide it AFAIK) | Full capacity |
 | Remediation: malware cleaning | Limited to malicious file deletion or quarantine | Same as AV |
 | Remediation: network trafic block |  Depends on the antivirus solution (some may some may not) | Full capacity, endpoint-wide: block on IP or URL at will |
 
