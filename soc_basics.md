@@ -102,6 +102,17 @@ Based on experience, and on numerous malware statistics, the following ones shou
 * web browsing;
 * USB sticks / removable storage;
 * exposed (internet facing) services/apps and equipments (e.g.: appliances)
+ 
+
+# Difference between antivirus and EDR
+
+| Capability | Antivirus | EDR |
+| Detection of malicious files | Hash-based, or binary portions based | Hashed-based (but backed by standards like OpenIOC sometimes |
+| Detection of malicious traffic | Depends on the antivirus solution, some may some may not | Full capacity (HTTPs and others), endpoint-wide |
+| Investigation (eg: on detection cases) | Very limited | Full capacity: system, network, security events history is collected and centralized (often called telemetry) |
+| Remediation: malware cleaning | Limited to malicious file deletion or quarantine | Same as AV |
+| Remediation: network trafic block |  Depends on the antivirus solution | Full capacity, endpoint-wide: block on IP or URL at will |
+
 
 # End
 Go to [main page](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md).
