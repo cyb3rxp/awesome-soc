@@ -123,5 +123,12 @@ Based on experience, and on numerous malware statistics, the following ones shou
 | Remediation: network trafic block |  Depends on the antivirus solution (some may some may not) | Full capability, endpoint-wide: block on IP or URL at will |
 
 
+# EDR / MDR / NDR / XDR
+
+I would recommend [this article](https://www.esecurityplanet.com/threats/xdr-emerges-as-a-key-next-generation-security-tool/) and picture: ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/8be478d7-dfb5-4627-9a04-e31b6e92826e)
+
+IMHO, XDR is more like a mini-SIEM (limited capabilities compared to a full-blown SIEM), with admin capabilities on security solutions (at least for the same vendor as the XDR) and even sometimes orchestration capabilities.
+
+
 # End
 Go to [main page](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md).
