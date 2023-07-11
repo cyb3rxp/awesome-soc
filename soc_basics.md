@@ -107,11 +107,15 @@ Based on experience, and on numerous malware statistics, the following ones shou
 # Difference between antivirus and EDR
 
 | Capability | Antivirus | EDR |
-| Detection of malicious files | Hash-based, or binary portions based | Hashed-based (but backed by standards like OpenIOC sometimes |
-| Detection of malicious traffic | Depends on the antivirus solution, some may some may not | Full capacity (HTTPs and others), endpoint-wide |
+|---|---|---|
+| Detection of malicious files | Hash-based (even if not pure MD5 per say), or binary portions based. Sometimes code emulation-based | Hashed-based (but backed by standards like OpenIOC sometimes |
+| Detection of malicious traffic | Depends on the antivirus solution (some may some may not) | Full capacity (HTTPs and others), endpoint-wide |
+| Detection of malicious behaviour | Limited | Machine-learning-based or with embedded advanced detection logics (like for drive-by download technique detection) |
+| Detection based on logging | Limited: only what is detected is being logged | Full capacity: system, network, security events history is collected and centralized (often called telemetry), allowing to build custom detections in the SIEM |
 | Investigation (eg: on detection cases) | Very limited | Full capacity: system, network, security events history is collected and centralized (often called telemetry) |
+| Containment of endpoint | Limited (only a few solutions provide it AFAIK) | Full capacity |
 | Remediation: malware cleaning | Limited to malicious file deletion or quarantine | Same as AV |
-| Remediation: network trafic block |  Depends on the antivirus solution | Full capacity, endpoint-wide: block on IP or URL at will |
+| Remediation: network trafic block |  Depends on the antivirus solution (some may some may not) | Full capacity, endpoint-wide: block on IP or URL at will |
 
 
 # End
