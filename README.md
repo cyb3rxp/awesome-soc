@@ -148,6 +148,7 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
 * Scanners:
   * IOC scanners:
     * My recommendations: [Loki](https://github.com/Neo23x0/Loki), [DFIR-ORC](https://github.com/dfir-orc)
+* Log scanners: [CrowdSec](https://doc.crowdsec.net/docs/user_guides/replay_mode), [DeepBlue](https://github.com/sans-blue-team/DeepBlueCLI)
   * Offline antimalware scanners: 
     * My recommendation: [Windows Defender Offline](https://support.microsoft.com/en-us/windows/help-protect-my-pc-with-microsoft-defender-offline-9306d528-64bf-4668-5b80-ff533f183d6c), [ESET SysRecue](https://www.eset.com/int/support/sysrescue/)
   * IOC repos for scanners:
