@@ -104,6 +104,7 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
 
 
 ## Certifications
+* [CrowdSec cybersecurity fundamentals](https://academy.crowdsec.net/course/cybersecurity-fundamentals)
 * [BlueTeamLabs](https://securityblue.team/why-btl1/) (level 1 & 2).
 * [SANS SEC555: SIEM with tactical analytics](https://www.sans.org/cyber-security-courses/siem-with-tactical-analytics/).
 * [SANS SEC450: Blue Team Fundamentals: Security Operations and Analysis](https://www.sans.org/cyber-security-courses/blue-team-fundamentals-security-operations-analysis/).
@@ -142,6 +143,7 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
 * [SANS FOR610: Reverse-Engineering Malware: Malware Analysis Tools and Techniques](https://www.sans.org/cyber-security-courses/reverse-engineering-malware-malware-analysis-tools-techniques/).
 * [SANS SEC555: SIEM with tactical analytics](https://www.sans.org/cyber-security-courses/siem-with-tactical-analytics/).
 * [SANS FOR578: Cyber Threat Intelligence](https://www.sans.org/cyber-security-courses/cyber-threat-intelligence/).
+* [CrowdSec Fundamentals](https://academy.crowdsec.net/course/crowdsec-fundamentals)
 
 
 # Recommended offensive security trainings
