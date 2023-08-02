@@ -80,6 +80,7 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * [FireHOL project: GreenSwow IP set](https://github.com/firehol/blocklist-ipsets/blob/master/greensnow.ipset)
      * [Snort, IP list to block](https://www.snort.org/downloads/ip-block-list)
      * [Turris Sentinel Graylist](https://view.sentinel.turris.cz/greylist-data/greylist-latest.csv)
+     * [Laurent Minne](https://raw.githubusercontent.com/duggytuxy/malicious_ip_addresses/main/botnets_zombies_scanner_spam_ips.txt)
   * To go further, some lists of feeds that could be of interest:
     * [Covert.io list](http://www.covert.io/threat-intelligence/);
     * [Intel471](https://intel471.com/modules)
