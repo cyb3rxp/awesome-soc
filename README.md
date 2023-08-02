@@ -226,6 +226,9 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
   * You may want to have a look at [this page](https://github.com/yaronelh/False-Positive-Center) to know the required email address.
 * Report a malicious URL (for instance, phishing) to a security vendor for takedown steps
   * My recommendation: [Netcraft](https://www.netcraft.com/cybercrime/) [via API](https://report.netcraft.com/api/v3), or [PhishReport](https://phish.report/docs).
+* Block an IP address on web servers, linux firewalls, etc. based on community-driven CTI:
+  * My recommendation: [CrowdSec bouncer](https://www.crowdsec.net/blog/crowdsec-not-your-typical-fail2ban-clone)
+  
 
 
 
@@ -353,7 +356,9 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 
 ## SOC sensors, nice to have
 * (full-featured) Honeypot:
-  * My recommendation: [Canary.tools](https://canary.tools/)
+  * My recommendation: [Canary.tools](https://canary.tools/)* 
+* NIDS:
+  * My recommendation: [Crowdsec](https://www.crowdsec.net/product/crowdsec-security-engine)
 * Phishing and brand infringement protection (domain names):
   * My recommendation: [PhishLabs](https://www.phishlabs.com/), [Netcraft](https://www.netcraft.com/cybercrime/fraud-detection/)
 * NDR:
