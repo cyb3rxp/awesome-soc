@@ -16,6 +16,10 @@
 
 * OCD, [RETEX sur le SOAR en 2020](https://www.orangecyberdefense.com/fr/insights/blog/threat-management/soar-quelles-conclusions-en-2020)
 
+## Management de la sécurité
+
+* All4tec, [liens entre ISO27005 et EBIOS RM](https://www.all4tec.com/blog/guides/quels-sont-les-liens-entre-la-norme-iso-27005-2022-et-ebios-risk-manager/)
+
 ## Bonnes pratiques sécurité
 
 ### AD :
