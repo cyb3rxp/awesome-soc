@@ -71,8 +71,8 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * [Circle's MISP feed](https://www.circl.lu/doc/misp/feed-osint/);
      * [Viriback](https://tracker.viriback.com/dump.php);
      * [CERT-FR's MISP feed](https://misp.cert.ssi.gouv.fr/feed-misp/);
-     * [Orange CyberDefense, Log4Shell IOC](https://github.com/Orange-Cyberdefense/log4shell_iocs);
-     * [Orange CyberDefense, RU/UKR IOC](https://github.com/Orange-Cyberdefense/russia-ukraine_IOCs);
+     * Orange CyberDefense, [Log4Shell IOC](https://github.com/Orange-Cyberdefense/log4shell_iocs);
+     * Orange CyberDefense, [RU/UKR IOC](https://github.com/Orange-Cyberdefense/russia-ukraine_IOCs);
      * [RedFlag Domains](https://red.flag.domains/);
      * Jeroen Steeman, [IPBlock lists](https://jeroen.steeman.org/IPBlock)
      * [si3t.ch](http://si3t.ch/evils/)
