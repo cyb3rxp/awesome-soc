@@ -11,6 +11,7 @@
 * [Attack lifecycle](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#attack-lifecycle)
 * [Most common infection vectors](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#most-common-infection-vectors)
 * [Difference/comparison between EDR and antivirus](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#difference-between-antivirus-and-edr)
+* [EDR,XDR,NDR,MDR explained](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#edr--mdr--ndr--xdr)
 
 
 # What is a SOC? 
