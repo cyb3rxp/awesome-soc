@@ -358,7 +358,8 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 
 ## SOC sensors, nice to have
 * (full-featured) Honeypot:
-  * My recommendation: [Canary.tools](https://canary.tools/)* 
+  * My recommendation: [Canary.tools](https://canary.tools/)
+  * Or, have a look at (Awesome honeypots Git](https://github.com/paralax/awesome-honeypots)
 * NIDS:
   * My recommendation: [Crowdsec](https://www.crowdsec.net/product/crowdsec-security-engine)
 * Phishing and brand infringement protection (domain names):
