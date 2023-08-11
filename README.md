@@ -370,6 +370,8 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
   * My recommendation: [Microsoft Intune](https://docs.microsoft.com/en-us/mem/intune/fundamentals/what-is-intune)
 * DLP:
   * See [Gartner reviews and ratings](https://www.gartner.com/reviews/market/data-loss-prevention)
+* OT (industrial) NIDS:
+  * My recommendation: [Nozomi Guardian](https://www.nozominetworks.com/products/guardian/)
 * Network TAP:
   * My recommendation: [Gigamon](https://www.gigamon.com/products/access-traffic/network-taps.html)
 * Mobile network security (2G/3G):
