@@ -80,7 +80,8 @@ As per ENISA paper see [below](https://github.com/cyb3rxp/awesome-soc/blob/main/
 
 ## SOC/CERT procedures:
 * Write and maintain in time alerts/incident handling procedures.
-  * My recommendation: take those from CERT-SG, [IRM](https://github.com/certsocietegenerale/IRM), as an example.
+  * My recommendation: take those from CERT-SG, [IRM](https://github.com/certsocietegenerale/IRM), as an example;
+  * You may want to have a look at the one I propose for [compromise (malware) suspicion use case on Windows](https://github.com/cyb3rxp/awesome-soc/blob/main/sop_malware_critical_controls.md).
 
 
 # What is purple/red/blue team?
