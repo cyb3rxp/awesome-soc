@@ -116,7 +116,7 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
 * **[Secure Web Gateway](https://www.gartner.com/en/information-technology/glossary/secure-web-gateway)** (SWG) / Security Service Edge:
   * see [Gartner magic quadrant](https://www.zscaler.fr/cdn-cgi/image/format%3Dauto/sites/default/files/images/page/gartner-magic-quadrant-security-service-edge-sse-2022/zscaler-gartner-sse-2022-%401x.png) 
   * My recommendations: BlueCoat, CISCO, Zscaler, [Netskope](https://www.netskope.com/security-defined/what-is-casb).
-* **[ITDR](https://www.semperis.com/blog/what-organizations-want-from-expert-itdr-solutions/)** **(Identity Threat Detection and Response):** AD/AAD security (audit logs, or specific security monitoring solutions):
+* **[Identity Threat Detection and Response](https://www.semperis.com/blog/what-organizations-want-from-expert-itdr-solutions/)** **(ITDR)** for identity and AD/AAD security (audit logs, or specific security monitoring solutions):
   * My recommendations: [Semperis Directory Services Protector](https://www.semperis.com/active-directory-security/)
   * for a one-shot security assessment of AD, I recommend: [Semperis](https://www.purple-knight.com/fr/?utm_source=gads&utm_medium=paidsearch&utm_campaign=pk_emea&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITV3yX7Nn6_GR-YVwiOANFvS9wsEQdTyUGHvMMirMzNQEoQ1Q3EQYIMaAjTgEALw_wcB)  or [PingCastle](https://www.pingcastle.com/download/)
 * **EASM**: External Asset Security Monitoring / External Attack Surface Management:
