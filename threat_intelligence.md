@@ -82,6 +82,7 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * [Turris' Sentinel Graylist](https://view.sentinel.turris.cz/greylist-data/greylist-latest.csv)
      * [Laurent Minne"s blacklist](https://raw.githubusercontent.com/duggytuxy/malicious_ip_addresses/main/botnets_zombies_scanner_spam_ips.txt)
      * [MalTrail's daily blacklist](https://raw.githubusercontent.com/stamparm/aux/master/maltrail-malware-domains.txt)
+     * [Awesome Cobalt Strike](https://github.com/MichaelKoczwara/Awesome-CobaltStrike-Defence)
   * To go further, some lists of feeds that could be of interest:
     * [Covert.io list](http://www.covert.io/threat-intelligence/);
     * [Intel471](https://intel471.com/modules)
