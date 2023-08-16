@@ -314,7 +314,7 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
 
 ### Legitimate process abuse (copycats)
 * Detect suspicious execution of an executable with a legit name, but that sits in %temp% or %programdata% instead of "c:\program files" or "C:\program files (x86)\"
-  * ex : c:\programdata\
+  * ex : c:\programdata\chrome.exe
 
 ## Augmenting detection with automation
  
