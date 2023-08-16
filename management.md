@@ -202,7 +202,7 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 
 ## Detections enhancements
 * Leverage machine learning, wherever it can be relevant in terms of good ratio false positives / real positives.
-  * My recommendation: be careful, try not to saturate SOC consoles with FP.
+  * My recommendations: be careful, try not to saturate SOC consoles with FP, and don't forget to grab the required context to be able to analyze (verify) the detection!
 
 ## Leverage best practices:
 * Make sure to **follow the 11 strategies for a (world class) SOC**, as per MITRE paper (see [Must Read](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#must-read)).
