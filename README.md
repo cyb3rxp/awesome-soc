@@ -377,17 +377,6 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 * Mobile network security (2G/3G):
   * My recommendation: Dust Mobile.
 
-## Management
-* **Define SOC priorities, with feared events and offensive scenarios (TTP) to be monitored**, as per risk analysis results.
-  * My recommendation: leverage EBIOS RM methodology (see [above](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#to-go-further)).
-
-* Leverage machine learning, wherever it can be relevant in terms of good ratio false positives / real positives.
-  * My recommendation: be careful, try not to saturate SOC consoles with FP.
-
-* Make sure to **follow the 11 strategies for a (world class) SOC**, as per MITRE paper (see [Must Read](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#must-read)).
-
-* Publish your RFC2350, declaring what your CERT is (see 'Nice to read' [above](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#to-go-further))
-
 
 ## Harden SOC/CSIRT environment
 * Implement hardening measures on SOC workstations, servers, and IT services that are used (if possible).
