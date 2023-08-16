@@ -193,6 +193,23 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 * Average number of hours from the request for termination of access to sensitive or high-risk systems or information, to deprovisioning of all access.  
 
 
+# To go further
+
+## Priorities
+* **Define SOC priorities, with feared events and offensive scenarios (TTP) to be monitored**, as per risk analysis results.
+  * My recommendation: leverage EBIOS RM methodology (see [Detection engineering](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md#define-risk-prioritization-as-per-bia)).
+
+## Detections enhancements
+* Leverage machine learning, wherever it can be relevant in terms of good ratio false positives / real positives.
+  * My recommendation: be careful, try not to saturate SOC consoles with FP.
+
+## Leverage best practices:
+* Make sure to **follow the 11 strategies for a (world class) SOC**, as per MITRE paper (see [Must Read](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#must-read)).
+
+## Follow the security industry standards:
+* Publish your RFC2350, declaring what your CERT is (see ['Nice to read' on the main page](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#to-go-further))
+
+
 # End
 
 Go to [main page](https://github.com/cyb3rxp/awesome-soc)
