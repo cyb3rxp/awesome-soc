@@ -82,6 +82,8 @@ As per ENISA paper see [below](https://github.com/cyb3rxp/awesome-soc/blob/main/
 * Write and maintain in time alerts/incident handling procedures.
   * My recommendation: take those from CERT-SG, [IRM](https://github.com/certsocietegenerale/IRM), as an example;
   * You may want to have a look at [the one I propose](https://github.com/cyb3rxp/awesome-soc/blob/main/sop_malware_critical_controls.md) for compromise (malware) suspicion use case on Windows.
+* Leverage community-standards to define the common questions and checkpoints, for incident response :
+  * My recommendation: [DFIQ](https://dfiq.org/questions/)
 
 
 # What is purple/red/blue team?
