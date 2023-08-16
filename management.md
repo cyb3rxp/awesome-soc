@@ -13,6 +13,7 @@ This page deals with SOC / CSIRT management.
 * [Detection assessment](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#detection-quality-assessment)
 * [Global self assessment](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#global-self-assessment)
 * [Reporting](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#reporting)
+* [To go further](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#to-go-further)
 
 # Must read
 * FIRST, [Building a SOC](https://www.first.org/resources/guides/Factsheet_Building_a_SOC_start_small.pdf) 
