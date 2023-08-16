@@ -294,12 +294,27 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
 * Detect abnormal traffic peaks, within the outgoing traffic logs (FW, proxies);
   * See [this Splunk presentation](https://www.splunk.com/en_us/resources/videos/detection-technique-deep-dive.html?utm_medium=email&utm_source=splunk&utm_campaign=FY23Q4_DGN_EMEA_WBR_SEC_FR_conf_Detection_Deep_Dive_Wbnr&LST=ThankYou)
 
-
 ### Obfuscated script [T1027, T1059]:
 * Typically obfuscated PowerShell with base64;
   * See [the Splunk's Git](https://github.com/splunk/security_content/blob/develop/detections/endpoint/powershell_fileless_script_contains_base64_encoded_content.yml)
   * If you wanna go further, see [this Splunk article](https://www.splunk.com/en_us/blog/security/hunting-for-malicious-powershell-using-script-block-logging.html)
 
+
+## Advanced detection logics
+
+### Named pipe abuse
+* Detect anonymous named pipe
+  * See: [WithSecure's article about Cobalt Strike and named pipes](https://labs.withsecure.com/publications/detecting-cobalt-strike-default-modules-via-named-pipe-analysis)
+
+### Legitimate process abuse (code injection / hollowing)
+* Detect abnormal execution parameters of legit binaries (you may want to double check with their MD5/SHA1 hash, as well as their execution path)
+  * rundll32.exe running without any parameter in the command line (while we should see the DLL and the function to be instanciated, in the arguments)
+* Detect abnormal network trafic of system components
+  * explorer.exe connecting to public IP addresses (that do not belong to the organisation's IT env).
+
+### Legitimate process abuse (copycats)
+* Detect suspicious execution of an executable with a legit name, but that sits in %temp% or %programdata% instead of "c:\program files" or "C:\program files (x86)\"
+  * ex : c:\programdata\
 
 ## Augmenting detection with automation
  
