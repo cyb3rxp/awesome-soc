@@ -22,7 +22,7 @@ This page deals with SOC / CSIRT management.
 * FIRST, [CSIRT Services Framework](https://www.first.org/standards/frameworks/csirts/csirt_services_framework_v2.1)
 * ENISA, [Good practice for incident management](https://www.enisa.europa.eu/publications/good-practice-guide-for-incident-management)
 * CIS, [8 critical security controls](https://www.cisecurity.org/controls/cis-controls-list)
-* CMM, [SOC-CMM]https://www.soc-cmm.com/downloads/soc-cmm%20whitepaper.pdf)
+* CMM, [SOC-CMM](https://www.soc-cmm.com/downloads/soc-cmm%20whitepaper.pdf)
 * Linkedin Pulse, [Evolution Security Operations Center](https://www.linkedin.com/pulse/evolution-security-operations-center-lakshminarayanan-kaliyaperumal/)
 * Gartner, [Cybersecurity business value benchmark](https://emtemp.gcom.cloud/ngw/globalassets/en/doc/documents/775537-gartner-cybersecurity-business-value-benchmark-1st-generation.pdf)
 * Google, [Modernize your SOC for the future](https://www.brighttalk.com/webcast/18282/565440?utm_source=brighttalk-recommend&utm_campaign=network_weekly_email&utm_medium=email&utm_content=company&utm_term=132023)
