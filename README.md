@@ -104,7 +104,7 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
 
 ## Critical sensors for a SOC
 
-* **Antimalware/antivirus** (you may want to have a look at (my feature comparison table between antimalware and EDR)[https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#difference-between-antivirus-and-edr]):
+* **Antimalware/antivirus** (you may want to have a look at [my feature comparison table between antimalware and EDR](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#difference-between-antivirus-and-edr)):
   * See [Gartner magic quadrant](https://www.threatscape.com/microsoft-security-named-leader-in-4-gartner-magic-quadrants/) 
   * My recommendations: [Microsoft Defender](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-antivirus-windows?view=o365-worldwide), [ESET Nod32](https://www.eset.com/int/business/solutions/learn-more-about-endpoint-protection/), [BitDefender](https://www.bitdefender.fr/business/products/workstation-security.html).
 * **[Endpoint Detection and Response](https://www.gartner.com/reviews/market/endpoint-detection-and-response-solutions)**:
