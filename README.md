@@ -45,6 +45,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 
 
 ## Globally (SOC and CERT/CSIRT)
+* SentinelOne, [What is SecOps](https://www.sentinelone.com/cybersecurity-101/secops/?utm_content=white-paper&utm_medium=paid-display&utm_source=gdn-paid&utm_campaign=emea-t1-en-g-dsa&utm_term={demo-request}&utm_campaignid=19179764064&gclid=EAIaIQobChMItYzg5amQ_gIV6pBoCR1u0ACxEAAYAiAAEgJ1ofD_BwE)
 * Shubham, [Security 360](https://twitter.com/Shubham_pen/status/1655192003448020993?s=20)
 * NIST, [Cybersecurity framework](https://www.nist.gov/cyberframework)
 * ENISA, [How to set-up a CSIRT and SOC](https://www.enisa.europa.eu/publications/how-to-set-up-csirt-and-soc/at_download/fullReport)
