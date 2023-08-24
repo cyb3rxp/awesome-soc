@@ -266,7 +266,7 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
 
 ### Impossible scenarios:
 * Same user authenticating within X min of timeframe, on two different endpoints (workstations/mobiles, not being located in the same place);
-   * for instance, X > 2min.
+   * for instance, X < 2min.
 * Same user (except admins, to begin with) authenticating on more than X endpoints (workstations/mobiles), per timeframe (eg.: 10 min);
    * for instance, X > 2.   
  
