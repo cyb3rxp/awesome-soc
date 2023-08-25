@@ -148,7 +148,7 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
 
 # Recommended offensive security trainings
 
-NB: this is for red/purpleteaming activities.
+NB: this is mainly for red/purpleteaming activities.
 
 ## Regular trainings
 * Mariusz Banach, [Evasion in Depth - Techniques Across the Kill-Chain](https://www.youtube.com/watch?v=IbA7Ung39o4&ab_channel=x33fcon)
@@ -158,7 +158,7 @@ NB: this is for red/purpleteaming activities.
 * [RTFM](https://www.amazon.com/RTFM-Red-Team-Field-Manual/dp/1075091837).
 
 ## Certifications
-* Offensive Securiy [OSCP](https://www.offensive-security.com/pwk-oscp/).
+* Offensive Security [OSCP](https://www.offensive-security.com/pwk-oscp/).
 * SANS, [SEC565: Red Team Operations and Adversary Emulation](https://www.sans.org/offensive-operations/).
 * SANS, SEC760: Advanced Exploit Development for Penetration Testers.
 * SANS, SEC699: Purple Team Tactics - Adversary Emulation for Breach Prevention & Detection.
