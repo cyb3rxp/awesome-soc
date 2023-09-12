@@ -193,6 +193,9 @@ And in my view, SOAR is more an approach, a vision, based on technology and proc
   * my recommendation, via script and without sample submission: [Malwoverview](https://github.com/alexandreborges/malwoverview);
   * my recommendations for online dynamic analysis: [Hybrid-Analysis](https://www.hybrid-analysis.com/), [Joe's sandbox](https://www.joesandbox.com/#windows)
 
+* Offline automated sample analyzer:
+  * My recommendation: [Qu1cksc0pe](https://github.com/CYB3RMX/Qu1cksc0pe)
+
 * (pure) Windows tasks automation:
   * My recommendations: [AutoIT](https://www.autoitscript.com/site/), [Chocolatey](https://chocolatey.org/)
 
