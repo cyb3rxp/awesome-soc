@@ -63,6 +63,7 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * [Feodo Tracker](https://feodotracker.abuse.ch/blocklist/)
      * [PAN Unit42](https://github.com/pan-unit42/iocs);
      * [ESET IOC](https://github.com/eset/malware-ioc);
+     * [WithSecure IOC](https://github.com/WithSecureLabs/iocs/tree/master);
      * [Intrinsec IOC](https://github.com/Intrinsec/IOCs);
      * [Malware-IOC](https://github.com/executemalware/Malware-IOCs);
      * [OpenPhish](https://openphish.com/feed.txt);
