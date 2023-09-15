@@ -99,7 +99,7 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * [URLHaus](https://urlhaus.abuse.ch/api/);
      * [OTX](https://otx.alienvault.com/api);
 
-* well-known OSINT portals:
+* Well-known OSINT portals:
   * CyberGordon >> https://cybergordon.com/
   * URL analysis >> https://urlscan.io/
   * Data breaches >> https://haveibeenpwned.com/
@@ -122,7 +122,9 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
   * Email Info >> https://epieos.com/
   * File Search engine >> https://filepursuit.com/
   
-
+* TOR search:
+  * [OnionSearch](https://github.com/megadose/OnionSearch)
+  * [DarkDump2](https://github.com/josh0xA/darkdump)
 
 # Threat intelligence and automation
 
