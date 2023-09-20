@@ -184,8 +184,8 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 * Number of new detection automation use-cases (enrichment, etc.) being put in production.
 * Number of new response automation use-cases (containment, eradication) being put in production.
 * Number of detection rules which detection capability and handling process have been confirmed with purpleteaming session, so far.
-* MTTT: for critical incidents, mean time in H to triage (assign) the alerts.
-* MTTT: for medium incidents, mean time in H to triage (assign) the alerts.
+* MTTH: for all incidents, mean time in H to handle (assign) the alerts.
+* MTTT: for all incidents, mean time in H to triage ("verify") the alerts.
 * MTTC: for critical and medium security incidents, mean time in H to handle the alerts and start mitigation steps (from triage to initial response).
 * MTTR: for critical and medium security incidents, mean time in H to handle the alerts and remediate them (from triage to remediation).
 
