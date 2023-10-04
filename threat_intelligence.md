@@ -62,6 +62,7 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * [VX Vault URL](http://vxvault.net/URL_List.php);
      * [Feodo Tracker](https://feodotracker.abuse.ch/blocklist/)
      * [PAN Unit42](https://github.com/pan-unit42/iocs);
+     * [PAN Unit42 Timely threat intel](https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/tree/main)
      * [ESET IOC](https://github.com/eset/malware-ioc);
      * [WithSecure IOC](https://github.com/WithSecureLabs/iocs/tree/master);
      * [Intrinsec IOC](https://github.com/Intrinsec/IOCs);
