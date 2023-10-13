@@ -287,7 +287,7 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
   * See [this presentation](https://www.x33fcon.com/archive/2019/slides/x33fcon19_Hunting_Beacons_Bartek.pdf), hypothesis #2.
 
 ### Newly accessed domains:
-* Typically landing page for infection, or C2C;
+* Typically landing page for infection, or C&C;
   * See [this Splunk article](https://www.splunk.com/en_us/blog/security/finding-new-evil-detecting-new-domains-with-splunk.html) 
   * NB: you may want to query all of the query results onto your TIP, leveraging automation capabilities (SOA). Thus, you will prioritize the handling of those network traffic logs.
 
