@@ -27,6 +27,8 @@ The list those events is supposed to be generated or identified by security watc
 
 ## Matrix meaning/understanding
 
+* The matrix enumerates all of the security sensors in place, for the SOC perimeter's detection capabilities we wish to represent;
+  * By default, I used the 5 key security sensors for a SOC, as described [here](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#critical-sensors-for-a-soc).
 * For each feared event, the idea is to identify all the security sensors that could/should help in detecting it.
 * If, for some reasons, the detection of a feared event is not considered as working for a specific sensor, then the cross should not be there in the array, for that sensor and that feared event;
   * The provided matrix is meant to be an example, for "best cases", and "not always true in every IT environment";
