@@ -102,6 +102,8 @@ describe their structure.
   * Don't forget to read the [Microsoft Windows 10 and Windows Server 2016 security auditing and monitoring reference](https://www.microsoft.com/en-us/download/details.aspx?id=52630).
 * Document a **detection strategy**, tailored to the needs and expectations regarding the SOC capabilities.
   * The document will aim at listing the detection rules (SIEM searches, for instance), with key examples of results, and an overview of handling procedures.
+* Document and keep up-to-date a detection matrix, which aims at representing the detection capabilities, for designated (feared) events and as per the security sensors known capabilities.
+  * You may want to have a look at [my detection matrix template](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_matrix.md).
 
 
 # Detection quality assessment
