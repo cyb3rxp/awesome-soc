@@ -2,9 +2,9 @@
 
 ## Purpose
 
-This kind of document aims at representing detection (and even response) capabilities, for specifif ("feared") events that are considered as critical. 
+This kind of document aims at representing detection (and even response) capabilities, for specific ("feared") events/incidents that are considered as critical/priority.
 
-The list those events is supposed to be generated or identified by security watch and/or risk analysis. See "[detection engineering page](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md#how-to-feed-the-plan-phase)" for further details.
+The list of those feared events is supposed to be generated or identified by security watch and/or risk analysis. See "[detection engineering page](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md#how-to-feed-the-plan-phase)" for further details.
 
 ## Matrix sample
 
