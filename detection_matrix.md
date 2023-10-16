@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This kind of document aimes at representing detection (and even reaction) capabilities, for specifif ("feared") events that are considered as critical. 
+This kind of document aimes at representing detection (and even response) capabilities, for specifif ("feared") events that are considered as critical. 
 
 The list those events is supposed to be generated or identified by security watch and/or risk analysis. See "[detection engineering page](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md#how-to-feed-the-plan-phase)" for further details.
 
