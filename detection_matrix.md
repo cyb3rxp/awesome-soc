@@ -7,11 +7,11 @@ This kind of document aimes at representing detection (and even reaction) capabi
 ## Matrix sample
 
 
-| Feared event // sensor | AV/EDR | SEG  | SWG  | IDTP | CASB |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-| Business email compromise |      |   X   |      |   X   |   X   |
-| Malware spread |   X   |   X   |   X   |      |   X   |
-| C&C access from an asset |   X   |      |   X   |      |   X   |
-| Malware cleaning error  |   X   |      |   X   |      |      |
-|      |      |      |      |      |      |
+| Feared event // sensor    | AV/EDR |  SEG  |  SWG  |  IDTP | CASB  |
+| ------------------------- | ------ | ----- | ----- | ----- | ----- |
+| Business email compromise |        |   X   |       |   X   |   X   |
+| Malware spread            |    X   |   X   |   X   |       |   X   |
+| C&C access from an asset  |    X   |       |   X   |       |   X   |
+| Malware cleaning error    |    X   |       |   X   |       |       |
+|                           |        |       |       |       |       |
 
