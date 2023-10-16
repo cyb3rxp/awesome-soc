@@ -10,12 +10,12 @@ The list those events is supposed to be generated or identified by security watc
 
 | Feared event // sensor    | AV/EDR |  SEG  |  SWG  |  IDTP | CASB  |
 | ------------------------- | ------ | ----- | ----- | ----- | ----- |
-| Business email compromise |        |   X   |       |   X   |   X   |
 | Malware spread            |    X   |   X   |   X   |       |   X   |
 | Malware cleaning error    |    X   |       |   X   |       |       |
-| C&C access from an asset  |    X   |       |   X   |       |   X   |
-| Impossible travel         |        |       |   X   |   X   |   X   |
-| Phishing on private employees' emails (GMail, Outlook.com, etc.) |   X    |       |   X   |      |      |
+| T1566: Business email compromise |        |   X   |       |   X   |   X   |
+| T1071: C&C access from an asset  |    X   |       |   X   |       |   X   |
+| T1078: Impossible travel         |        |       |   X   |   X   |   X   |
+| T1566: Phishing on private employees' emails (GMail, Outlook.com, etc.) |   X    |       |   X   |      |      |
 | T1059: Command and Scripting Interpreter |   X   |   X   |   X   |       |       |
 | T1218: Signed Binary Proxy Execution |   X   |       |       |       |       |
 | T1055: Process Injection  |   X   |       |       |       |       |
