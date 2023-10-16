@@ -15,7 +15,14 @@ The list those events is supposed to be generated or identified by security watc
 | Malware cleaning error    |    X   |       |   X   |       |       |
 | C&C access from an asset  |    X   |       |   X   |       |   X   |
 | Impossible travel         |        |       |   X   |   X   |   X   |
-| Phishing on private emails (GMail, Outlook.com, etc.) |   X    |       |   X   |      |      |
+| Phishing on private employees' emails (GMail, Outlook.com, etc.) |   X    |       |   X   |      |      |
+| T1059: Command and Scripting Interpreter |   X   |   X   |   X   |       |       |
+| T1218: Signed Binary Proxy Execution |   X   |       |       |       |       |
+| T1055: Process Injection  |   X   |       |       |       |       |
+| T1569: System services    |   X   |       |       |       |       |
+| T1053: Scheduled Task/Job |   X   |       |       |       |       |
+| T1003: OS Credential Dumping |   X   |       |       |       |       |
+
 
 
 ## Matrix meaning/understanding
