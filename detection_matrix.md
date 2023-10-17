@@ -8,6 +8,8 @@ The list of those feared events is supposed to be generated or identified by sec
 
 ## Matrix sample
 
+This detection matrix sample leverages the "top TTP / feared events" that I recommend to consider as priority. Feel free to add/remove some events, depending on the context.
+
 | Feared event // sensor    | AV/EDR |  SEG  |  SWG  |  IDTP | CASB  |
 | ------------------------- | ------ | ----- | ----- | ----- | ----- |
 | Malware spread            |    X   |   X   |   X   |       |   X   |
