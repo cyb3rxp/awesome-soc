@@ -114,7 +114,7 @@ Based on experience, and on numerous malware statistics, the following ones shou
 | Capability | Antivirus (part of EPP) | EDR |
 |---|---|---|
 | Console API | Quite limited | Depends on the vendor: some provide a limited API and force to use their console, some others provide an API that allows to implement a "single pane of glass" approach in the SIEM/SIRP |
-| Detection of malicious files | Hash-based (even if not pure MD5 per say), or binary portions based. Sometimes code emulation-based | Hashed-based (but backed by standards like OpenIOC sometimes |
+| Detection of malicious files | Hash-based (even if not pure MD5 per say), or binary portions based. Sometimes code emulation-based | Hashed-based (but backed by standards like OpenIOC sometimes) |
 | Detection of common malware | AV vendors have knowledgebase of billions of samples (often called something like "cloud protection") | Out of scope: EDR does not replace AV |
 | Detection of advanced malware | Partial, depends on the use case and vendor | Full capability (IoC-based, behaviour-based, ML-based, etc.) |
 | Detection of malicious traffic | Depends on the antivirus solution (some may, some may not) | Full capacity (HTTPs and others), endpoint-wide |
