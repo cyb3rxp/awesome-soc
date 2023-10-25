@@ -91,7 +91,7 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
 
 ## Critical tools for a SOC/CSIRT
 * **[SIEM](https://www.gartner.com/en/information-technology/glossary/security-information-and-event-management-siem)**:
-   * See [Gartner magic quadrant](https://www.gartner.com/doc/reprints?id=1-2BDC4CDW&ct=221010&st=sb) 
+   * See [Gartner magic quadrant](https://www.gartner.com/doc/reprints?id=1-2BDC4CDW&ct=221010&st=sb)
    * My recommendations: [Microsoft Azure Sentinel](https://azure.microsoft.com/en-us/products/microsoft-sentinel/#overview), [Sekoia.io XDR](https://www.sekoia.io/en/sekoia-io-xdr/), [Splunk](www.splunk.com).
 * **[SIRP](https://d3security.com/blog/whats-the-difference-between-soar-and-sao/)**:
   * e.g.: [IBM Resilient](https://www.ibm.com/qradar/security-qradar-soar?utm_content=SRCWW&p1=Search&p4=43700068028974608&p5=e&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITW2yUqAfNqWNeYXyENeUAoqLxV543LT0n2oYhYxEQ47Yjm7NfYTFHAaAtwpEALw_wcB&gclsrc=aw.ds),  [TheHive](https://thehive-project.org/), [SwimLane](https://swimlane.com/), [PAN Cortex XSOAR](https://www.paloaltonetworks.com/cortex/cortex-xsoar)
@@ -109,7 +109,7 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
   * See [Gartner magic quadrant](https://www.threatscape.com/microsoft-security-named-leader-in-4-gartner-magic-quadrants/) 
   * My recommendations: [Microsoft Defender](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-antivirus-windows?view=o365-worldwide), [ESET Nod32](https://www.eset.com/int/business/solutions/learn-more-about-endpoint-protection/), [BitDefender](https://www.bitdefender.fr/business/products/workstation-security.html).
 * **[Endpoint Detection and Response](https://www.gartner.com/reviews/market/endpoint-detection-and-response-solutions)**:
-  * See [Gartner magic quadrant](https://www.microsoft.com/security/blog/uploads/securityprod/2022/01/Gartner-EIA-1963x2048.png) and [MITRE ENGENUITY](https://www.cybervigilance.uk/post/2022-mitre-att-ck-engenuity-results)
+  * See [Gartner magic quadrant](https://www.microsoft.com/security/blog/uploads/securityprod/2022/01/Gartner-EIA-1963x2048.png), [MITRE ENGENUITY](https://www.cybervigilance.uk/post/2022-mitre-att-ck-engenuity-results), and [Forrester Wave](https://www.crowdstrike.com/resources/reports/crowdstrike-recognized-as-dominant-endpoint-solution-with-superior-vision/)
   * My recommendations: [SentinelOne](https://www.sentinelone.com/blog/active-edr-feature-spotlight/), [Microsoft Defender for Endpoint](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide), [Harfanglab](https://www.harfanglab.io/en/block-cyberattacks), [ESET XDR](https://www.eset.com/int/business/enterprise-protection-bundle/), [WithSecure Elements EDR](https://www.withsecure.com/us-en/solutions/software-and-services/elements-endpoint-detection-and-response), [CrowdStrike Falcon EDR](https://www.crowdstrike.com/wp-content/uploads/2022/03/crowdstrike-falcon-insight-data-sheet.pdf), [Tanium](https://www.tanium.com/products/tanium-threat-response/), [Wazuh](https://wazuh.com/)
 * **[Secure Email Gateway](https://www.gartner.com/reviews/market/email-security)** (SEG):
   * See [Gartner reviews and ratings](https://www.gartner.com/reviews/market/email-security)
