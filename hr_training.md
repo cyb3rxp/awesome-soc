@@ -117,6 +117,7 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
 * [PAN, Fundamentals of SOC](https://beacon.paloaltonetworks.com/student/path/521672-the-fundamentals-of-soc-security-operations-center).
 * [CEH](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/).
 * [OSDA SOC-200](https://www.offensive-security.com/soc200-osda/).
+* [XMCyber, Exposure Management](https://xmcyber.com/exposure-management-course/)
 * SANS, SEC501: Advanced Security Essentials - Enterprise Defender.
 * SANS, SEC541: Cloud Security Attacker Techniques, Monitoring, and Threat Detection.
 * SANS, SEC699: Purple Team Tactics - Adversary Emulation for Breach Prevention & Detection.
