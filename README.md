@@ -55,7 +55,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * ThreatConnect, [SIRP / SOA / TIP benefits](https://threatconnect.com/blog/realizing-the-benefits-of-security-orchestration-automation-and-response-soar/)
 * Gartner, [Market Guide for Security Orchestration, Automation and Response Solutions](https://www.gartner.com/doc/reprints?id=1-2ADE1K2G&ct=220621&st=sb) 
 * PAN, [Security orchestration for dummies](https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/cortex-xsoar/Security-Orchestration-For-Dummies-Demisto-Special-Edition.pdf)
-* FIRST, [CVSS v3.1 specs](https://www.first.org/cvss/specification-document) 
+* FIRST, [CVSS v4 specs]([https://www.first.org/cvss/specification-document](https://www.first.org/cvss/v4-0/)) 
 * OASIS Open, [STIX](https://oasis-open.github.io/cti-documentation/stix/intro.html)
 * FIRST, [TLP](https://www.first.org/tlp/) (intelligence sharing and confidentiality)
 * CIS, [18 critical security controls](https://www.cisecurity.org/controls/cis-controls-list)
