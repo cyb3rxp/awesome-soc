@@ -135,7 +135,8 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
 ## Critical tools for CSIRT
 * Compromise assessment tools:
   * My recommendations: [Thor Cloud lite](https://www.nextron-systems.com/2023/10/30/introducing-thor-cloud-lite-seamless-on-demand-security-scanning-made-easy/), and simple but efficient [ESET Sysinspector](https://www.eset.com/int/support/sysinspector/)
-  * for AD / Azure Entra ID: [Semperis Purple Knight](https://www.purple-knight.com/active-directory-security-tool/), or simple but efficient [ADRecon](https://github.com/tomwechsler/Active_Directory_Advanced_Threat_Hunting/blob/main/Different_hunting_methods/In-depth_investigation_active_directory.md)
+  * For AD / Azure Entra ID: [Semperis Purple Knight](https://www.purple-knight.com/active-directory-security-tool/), or simple but efficient [ADRecon](https://github.com/tomwechsler/Active_Directory_Advanced_Threat_Hunting/blob/main/Different_hunting_methods/In-depth_investigation_active_directory.md)
+  * For Windows workstations: [Sysmon](https://learn.microsoft.com/fr-fr/sysinternals/downloads/sysmon) (install it, let it run for a few hours/days, then investigate its log), with [Olaf Hartong's config](https://github.com/olafhartong/sysmon-modular/blob/master/sysmonconfig.xml)
 * On-demand volatile data collection tool:
   * My recommendations: [VARC](https://github.com/cado-security/varc), [DFIR-ORC](https://github.com/dfir-orc), [FireEye Redline](https://fireeye.market/apps/211364) .
 * Remote action capable tools (ie.: remote shell or equivalent):
