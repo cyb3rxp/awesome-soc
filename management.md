@@ -1,8 +1,5 @@
-# SOC/CSIRT management
+# SOC/CSIRT management: ToC
 
-This page deals with SOC / CSIRT management.
-
-# ToC
 * [Must read](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#must-read)
 * [Challenges after pandemic](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#challenges-after-pandemic)
 * [SOC organization](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#soc-organization)
