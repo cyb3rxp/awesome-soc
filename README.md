@@ -153,16 +153,17 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
 * Scanners:
   * IOC scanners:
     * My recommendations: [Loki](https://github.com/Neo23x0/Loki), [DFIR-ORC](https://github.com/dfir-orc)
-* Log scanners: [CrowdSec](https://doc.crowdsec.net/docs/user_guides/replay_mode), [DeepBlue](https://github.com/sans-blue-team/DeepBlueCLI)
-  * Offline antimalware scanners: 
-    * My recommendation: [Windows Defender Offline](https://support.microsoft.com/en-us/windows/help-protect-my-pc-with-microsoft-defender-offline-9306d528-64bf-4668-5b80-ff533f183d6c), [ESET SysRecue](https://www.eset.com/int/support/sysrescue/)
   * IOC repos for scanners:
     * Google [CTI's repo](https://github.com/chronicle/GCTI/tree/main/YARA): Yara rules for Cobalt Strike and others.
     * [Yara-rules GitHub repo](https://github.com/Yara-Rules/rules): multiple Yara rules types.
     * Spectre [Yara rules repo](https://github.com/phbiohazard/Yara)
     * Neo23x0 [Community Yara rules](https://github.com/Neo23x0/signature-base)
     * and those listed here, [Awesome threat intel](https://github.com/hslatman/awesome-threat-intelligence)
-    
+  * Offline antimalware scanners:
+    * My recommendation: [Windows Defender Offline](https://support.microsoft.com/en-us/windows/help-protect-my-pc-with-microsoft-defender-offline-9306d528-64bf-4668-5b80-ff533f183d6c), [ESET SysRecue](https://www.eset.com/int/support/sysrescue/)
+* Logs analyzers with detection capabilities:
+    * My recommendations: [CrowdSec](https://doc.crowdsec.net/docs/user_guides/replay_mode), [Sekoia XDR](https://www.sekoia.io/en/product/xdr/), , [DeepBlue](https://github.com/sans-blue-team/DeepBlueCLI)
+      
 ## Other critical tools for a SOC and a CERT/CSIRT
 * Internal ticketing system (NB: **not** SIRP, not for incident response!):
   * My recommendation: [GitLab](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/sec-incident-response.html)
