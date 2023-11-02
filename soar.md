@@ -1,4 +1,8 @@
-# SOAR page 
+# SOAR: Table of content
+
+* What is SOAR?
+* Simple and commonly needed automation tools
+* Common automations
 
 
 ## What is SOAR?
