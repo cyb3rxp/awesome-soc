@@ -108,7 +108,7 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
 
 ### Free certifications:
 * CrowdSec, [cybersecurity fundamentals](https://academy.crowdsec.net/course/cybersecurity-fundamentals)
-* FIST, [CVSS v4](https://learn.first.org/catalog/info/id:126)
+* FIRST, [CVSS v4](https://learn.first.org/catalog/info/id:126)
 * Splunk, [Core User](https://education.splunk.com/single-subject-courses?_ga=2.213139857.446951445.1644415141-362195814.1644415141).
 * Microsoft, [Microsoft Sentinel Ninja](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR1irKnVJZ_RBhccteqa39A9UN08wTjY4MzROVDhUUFRZRTgwME1HSUlFQS4u).
 * Amazon, [AWS Security Fundamentals](https://aws.amazon.com/training/digital/aws-security-fundamentals/?nc1=h_ls).
@@ -142,7 +142,7 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
 * [Root-me](https://www.root-me.org/).
 
 ## Certifications
-* CrowdSec, [CrowdSec Fundamentals](https://academy.crowdsec.net/course/crowdsec-fundamentals)
+* CrowdSec, [CrowdSec Fundamentals](https://academy.crowdsec.net/course/crowdsec-fundamentals)  [free]
 * SANS, [FOR572: Advanced Network Forensics: Threat Hunting, Analysis, and Incident Response](https://www.sans.org/cyber-security-courses/siem-with-tactical-analytics/).
 * SANS, SEC541: Cloud Security Attacker Techniques, Monitoring, and Threat Detection.
 * Splunk, [Core User](https://education.splunk.com/single-subject-courses?_ga=2.213139857.446951445.1644415141-362195814.1644415141).
