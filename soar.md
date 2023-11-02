@@ -3,12 +3,11 @@ This page deals with Security Orchestration Automation and Response.
 
 # Table of content
 
-* What is SOAR?
-* Simple and commonly needed automation tools
-* Common automations
+* [What is SOAR](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md#what-is-soar)?
+* [Simple and commonly needed automation tools](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md#simple-and-commonly-needed-automation-tools)
+* [Common automations](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md#common-automations)
 
-
-## What is SOAR?
+# What is SOAR?
 
 As per [Gartner definition](https://securityboulevard.com/2021/08/gartner-soar-magic-quadrant-when-where-and-how/):
 
@@ -19,7 +18,7 @@ Hence 3 critical tools (see above): SIRP, TIP, SOA, on top of SIEM.
 And in my view, SOAR is more an approach, a vision, based on technology and processes, than a technology or tool per say. 
 
 
-## Simple and commonly needed automation tools
+# Simple and commonly needed automation tools
 
 * Online automated hash checker (script):
   * my recommendation: [Munin](https://github.com/Neo23x0/munin), or with PowerShell [Posh-VT](https://github.com/darkoperator/Posh-VirusTotal)
@@ -40,9 +39,9 @@ And in my view, SOAR is more an approach, a vision, based on technology and proc
 * SaaS-based (and partly free, for basic stuff) SOA:
   * [Shuffle](https://shuffler.io/)
 
-## Common automations
+# Common automations
 
-### My recommendations for detection (alerts handling):
+## My recommendations for detection (alerts handling):
 
 Try to implement at least the following automations, leveraging the SOA/SIRP/TIP/SIEM capabilities:
 * Make sure all the context from any alert is being automatically transfered to the SIRP ticket, with a link to the SIEM alert(s) in case of.
@@ -53,7 +52,7 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
 * Automatically retrieve the history of SIRP tickets for an user and/or endpoint, that is associated to a new SIRP ticket.
 * Automatically query AD or the assets management solution, for artefact enrichment (user, endpoint, IP, application, etc.).
 
-### My recommendations for response (incident response, containment/eradication steps):
+## My recommendations for response (incident response, containment/eradication steps):
 * Block an IP on all firewalls (including VPN), SWG and CASB.
 * Block an URL on SWG. 
 * Block an email address (sender) on SEG.
