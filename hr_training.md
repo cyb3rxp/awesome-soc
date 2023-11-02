@@ -22,7 +22,7 @@ This page deals with SOC HR and training topics.
 
 As per what is explained on the [management page](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#soc-organization), I would recommend to make sure the following roles are being assigned to people:
 * SOC analyst;
-* SOC analyst senior;
+* SOC analyst lead;
 * SOC detection engineer;
 * Threat intel analyst;
 * Threat intel lead (if several analysts)
@@ -33,6 +33,7 @@ As per what is explained on the [management page](https://github.com/cyb3rxp/awe
 * SOC/CSIRT tools admin;
 * SecDevOps analyst;
 * SOC/CERT/CSIRT deputy manager.
+* SOC/CERT/CSIRT manager.
 
 They can be FTE or outsourced, it will depend on your needs and constraints. My recommendations are explained in the RACI template that I propose.
 
@@ -93,10 +94,10 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
     * https://education.splunk.com/course/visualizations-elearning
     * https://education.splunk.com/course/creating-field-extractions-elearning
     * https://education.splunk.com/course/enriching-data-with-lookups-elearning  
-  * CTF: BOTS (free):
+  * CTF: BOTS [free]:
     * https://cyberdefenders.org/search/labs/?q=splunk
   * Attack simulation & investigation: [Splunk attack range](https://github.com/splunk/attack_range_cloud).
-* PaloAlto, Fundamentals of SOC](https://beacon.paloaltonetworks.com/student/path/521672-the-fundamentals-of-soc-security-operations-center), mainly modules 1 to 8 :) (free);
+* PaloAlto, [Fundamentals of SOC](https://beacon.paloaltonetworks.com/student/path/521672-the-fundamentals-of-soc-security-operations-center), mainly modules 1 to 8 :) (free);
 * Microsoft, [Become an Azure Sentinel Ninja](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/become-a-microsoft-sentinel-ninja-the-complete-level-400/ba-p/1246310) (free);
 * Active Directory:
    * train on AD specific attacks, [Orange Cyberdefense GOAD](https://github.com/Orange-Cyberdefense/GOAD) (free).
@@ -116,12 +117,12 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
 
 ### Paid certifications:
 * BlueTeamLabs, [BTL](https://securityblue.team/why-btl1/) (level 1 & 2).
-* [SOC & SIEM Security program: L1, L2, L3](https://ethicalhackersacademy.com/products/soc-siem-security-training-program?_pos=1&_sid=b1d241af4&_ss=r).
+* EthicalHackersAcademy, [SOC & SIEM Security program: L1, L2, L3](https://ethicalhackersacademy.com/products/soc-siem-security-training-program?_pos=1&_sid=b1d241af4&_ss=r).
 * SANS [SEC555: SIEM with tactical analytics](https://www.sans.org/cyber-security-courses/siem-with-tactical-analytics/).
 * SANS, [SEC450: Blue Team Fundamentals: Security Operations and Analysis](https://www.sans.org/cyber-security-courses/blue-team-fundamentals-security-operations-analysis/).
 * EC-Council, [CEH](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/).
-* [OSDA SOC-200](https://www.offensive-security.com/soc200-osda/).
-* XMCyber, [XMCyber, Exposure Management](https://xmcyber.com/exposure-management-course/).
+* OffensiveSecurity, [OSDA SOC-200](https://www.offensive-security.com/soc200-osda/).
+* XMCyber, [Exposure Management](https://xmcyber.com/exposure-management-course/).
 * Microsoft, [Microsoft Cybersecurity Architect](https://docs.microsoft.com/en-us/certifications/cybersecurity-architect-expert/).
 * SANS, SEC501: Advanced Security Essentials - Enterprise Defender.
 * SANS, SEC541: Cloud Security Attacker Techniques, Monitoring, and Threat Detection.
