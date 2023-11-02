@@ -34,4 +34,4 @@ This detection matrix sample leverages the "top TTP / feared events" that I reco
 * For each feared event, the idea is to identify all the security sensors that could/should help in detecting it.
 * If, for some reasons, the detection of a feared event is not considered as working for a specific sensor, then the cross should not be there in the array, for that sensor and that feared event;
   * The provided matrix is meant to be an example, for "best cases", and "not always true in every IT environment";
-  * As a consequence, the detection matrix has to be adapted, and kept up-to-date in time, for every organizations' environments that have a SOC in place.
+  * As a consequence, the detection matrix has to be adapted, and kept up-to-date in time, for every organizations' environments that have a SOC in place. In order to do so, the best practices recommend to run regular purpleteaming sessions (see [management page](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#detection-quality-assessment) for further info), for instance once a year.
