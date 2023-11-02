@@ -1,4 +1,7 @@
-# SOC/CSIRT management: ToC
+# SOC/CSIRT management: 
+This page deals with SOC and CERT management
+
+# Table of Content
 
 * [Must read](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#must-read)
 * [Challenges after pandemic](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#challenges-after-pandemic)
