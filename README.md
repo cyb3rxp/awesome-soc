@@ -133,8 +133,10 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
    
 
 ## Critical tools for CSIRT
+* Compromise assessment tools:
+  * My recommendations: [Thor Cloud lite](https://www.nextron-systems.com/2023/10/30/introducing-thor-cloud-lite-seamless-on-demand-security-scanning-made-easy/), and simple but efficient [ESET Sysinspector](https://www.eset.com/int/support/sysinspector/)
 * On-demand volatile data collection tool:
-  * My recommendations: [VARC](https://github.com/cado-security/varc), [DFIR-ORC](https://github.com/dfir-orc), [FireEye Redline](https://fireeye.market/apps/211364), [ESET Sysinspector](https://www.eset.com/int/support/sysinspector/).
+  * My recommendations: [VARC](https://github.com/cado-security/varc), [DFIR-ORC](https://github.com/dfir-orc), [FireEye Redline](https://fireeye.market/apps/211364) .
 * Remote action capable tools (ie.: remote shell or equivalent):
   * My recommendations: [CIMSweep](https://github.com/mattifestation/CimSweep), [Velociraptor](https://docs.velociraptor.app/docs/deployment/), [CrowdStrike Falcon Toolkit](https://github.com/CrowdStrike/Falcon-Toolkit) but it relies on CrowdStrike EDR, [GRR](https://github.com/google/grr) but it needs an agent to be installed.
 * On-demand sandbox:
