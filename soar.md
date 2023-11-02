@@ -17,7 +17,7 @@ Hence 3 critical tools (see above): SIRP, TIP, SOA, on top of SIEM.
 
 And in my view, SOAR is more an approach, a vision, based on technology and processes, than a technology or tool per say. 
 
-It aims mainly at:
+More especially, SOAR mainly aims at:
 * reducing human error;
 * offloading repetitive and valueless tasks for humans, to an automate (security orchestrator);
 * improving integration between tools (thanks to API);
