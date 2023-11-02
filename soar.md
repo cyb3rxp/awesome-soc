@@ -66,4 +66,4 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
   
 
 # End
-Go to main page.
+Go to [main page](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md).
