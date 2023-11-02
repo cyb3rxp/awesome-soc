@@ -1,4 +1,4 @@
-# Table of Content
+# Threat intelligence: Table of Content
 
 * [Must read](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md#must-read)
 * [Generic workflow](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md#generic-workflow)
