@@ -174,6 +174,7 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
 
 # SOAR
 
+Cf. [SOAR page](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md)
 
 # IT/security Watch (recommended sources)
 
