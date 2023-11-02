@@ -1,4 +1,7 @@
-# SOAR: Table of content
+# SOAR 
+This page deals with Security Orchestration Automation and Response.
+
+# Table of content
 
 * What is SOAR?
 * Simple and commonly needed automation tools
