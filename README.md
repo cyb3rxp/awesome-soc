@@ -135,6 +135,7 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
 ## Critical tools for CSIRT
 * Compromise assessment tools:
   * My recommendations: [Thor Cloud lite](https://www.nextron-systems.com/2023/10/30/introducing-thor-cloud-lite-seamless-on-demand-security-scanning-made-easy/), and simple but efficient [ESET Sysinspector](https://www.eset.com/int/support/sysinspector/)
+  * for AD / Azure Entra ID: [Semperis Purple Knight](https://www.purple-knight.com/active-directory-security-tool/), or simple but efficient [ADRecon](https://github.com/tomwechsler/Active_Directory_Advanced_Threat_Hunting/blob/main/Different_hunting_methods/In-depth_investigation_active_directory.md)
 * On-demand volatile data collection tool:
   * My recommendations: [VARC](https://github.com/cado-security/varc), [DFIR-ORC](https://github.com/dfir-orc), [FireEye Redline](https://fireeye.market/apps/211364) .
 * Remote action capable tools (ie.: remote shell or equivalent):
@@ -147,7 +148,7 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
   * My recommendation for reverse engineering and malware analysis, under Windows: [FireEye Flare-VM](https://github.com/mandiant/flare-vm)
   * My recommendation for pure malware analysis, under Linux: [Remnux](https://remnux.org/)
 * Incident tracker: 
-  * My recommendation: [Timesketch](https://timesketch.org/)
+  * My recommendations: [Timesketch](https://timesketch.org/), [DFIR IRIS](https://dfir-iris.org/)
 * Scanners:
   * IOC scanners:
     * My recommendations: [Loki](https://github.com/Neo23x0/Loki), [DFIR-ORC](https://github.com/dfir-orc)
