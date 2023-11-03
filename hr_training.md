@@ -139,7 +139,8 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
 * Microsoft, [Become a Microsoft Sentinel Ninja](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/become-a-microsoft-sentinel-ninja-the-complete-level-400/ba-p/1246310).
 * A. Borges, [MAS series](https://exploitreversing.com/2021/12/03/malware-analysis-series-mas-article-1/).
 * [Hack The Box](https://www.hackthebox.com/).
-* [Root-me](https://www.root-me.org/).
+* Root-me, ["Entretien avec l'ANSSI"-named challenges](https://www.root-me.org/).
+* Embee Research, [Unpacking .Net malware](https://embee-research.ghost.io/unpacking-net-malware-with-process-hacker/)
 
 ## Certifications
 * CrowdSec, [CrowdSec Fundamentals](https://academy.crowdsec.net/course/crowdsec-fundamentals)  [free]
