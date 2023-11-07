@@ -363,6 +363,8 @@ The idea here is to follow the 'as-code' approach, wherever possible, with a cen
 * BrightTalk/Lacework, [CSPM comparison](https://www.brighttalk.com/webcast/18905/540127?player-preauth=xF5kcx%2FJ1zQGynPog7QyfHEnVg7fUDuwzbjCLWvJ75U%3D&utm_source=brighttalk-promoted&utm_medium=email&utm_term=Audience579476&utm_campaign=AUD-14239&utm_content=2023-05-17)
 * Mthcht, [Detection of C2 hiding in legit API services](https://github.com/mthcht/Purpleteam/blob/main/Detection/Threat%20Hunting/generic/C2_abusing_API_services.md)
 * Soteria-Security, [365Inspect](https://github.com/soteria-security/365Inspect)
+* CheckPoint, [Sandbox evasion techniques](https://evasions.checkpoint.com/techniques/timing.html)
  
 # End
 Go to [main page](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md).
+
