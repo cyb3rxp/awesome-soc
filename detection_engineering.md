@@ -364,6 +364,7 @@ The idea here is to follow the 'as-code' approach, wherever possible, with a cen
 * Mthcht, [Detection of C2 hiding in legit API services](https://github.com/mthcht/Purpleteam/blob/main/Detection/Threat%20Hunting/generic/C2_abusing_API_services.md)
 * Soteria-Security, [365Inspect](https://github.com/soteria-security/365Inspect)
 * CheckPoint, [Sandbox evasion techniques](https://evasions.checkpoint.com/techniques/timing.html)
+* Quest, [9 best practices to improve AD security](https://www.quest.com/docs/nine-best-practices-to-improve-active-directory-security-and-cyber-resilience-ebook-25678.pdf)
 * Politoinc, [LDAP queries for offensive and defensive OPS](https://www.politoinc.com/post/ldap-queries-for-offensive-and-defensive-operations)
  
 # End
