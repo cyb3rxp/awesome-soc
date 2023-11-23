@@ -14,7 +14,7 @@ This page deals with Security Orchestration Automation and Response.
 * ThreatConnect, [SIRP / SOA / TIP benefits](https://threatconnect.com/blog/realizing-the-benefits-of-security-orchestration-automation-and-response-soar/)
 * Swimlane, [Cyber Threat readiness report 2023](https://swimlane.com/wp-content/uploads/Cyber-Threat-Readiness-Report-2023.pdf);
 * Gartner, [Market Guide for Security Orchestration, Automation and Response Solutions](https://www.gartner.com/doc/reprints?id=1-2ADE1K2G&ct=220621&st=sb)
-* Microsoft, [Microsoft Defender XDR and Security Copilot integrated to Sentinel](https://techcommunity.microsoft.com/t5/microsoft-mechanics-blog/microsoft-defender-xdr-security-copilot-amp-microsoft-sentinel/ba-p/3989312)
+* Microsoft, [Microsoft Defender XDR , Security Copilot and Sentinel integrated into 1 portal](https://techcommunity.microsoft.com/t5/microsoft-mechanics-blog/microsoft-defender-xdr-security-copilot-amp-microsoft-sentinel/ba-p/3989312)
 
 # What is SOAR?
 
