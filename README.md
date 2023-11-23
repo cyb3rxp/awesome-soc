@@ -167,6 +167,10 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
     * My recommendations: [CrowdSec](https://doc.crowdsec.net/docs/user_guides/replay_mode), [Sekoia XDR](https://www.sekoia.io/en/product/xdr/), , [DeepBlue](https://github.com/sans-blue-team/DeepBlueCLI)
       
 ## Other critical tools for a SOC and a CERT/CSIRT
+* Data analysis tools:
+  * My recommendations: [CyberChef](https://github.com/NextronSystems/CyberChef), [Notepad++](https://notepad-plus-plus.org/downloads/)
+* Admin tools: 
+  * My recomendations: [Azure AD Internals suite](https://aadinternals.com/), [SysInternals Suite](https://learn.microsoft.com/fr-fr/sysinternals/downloads/sysinternals-suite)
 * Internal ticketing system (NB: **not** SIRP, not for incident response!):
   * My recommendation: [GitLab](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/sec-incident-response.html)
 * Knowledge sharing and management tool:
