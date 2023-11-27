@@ -29,6 +29,7 @@ This page deals with SOC and CERT management
 * Google, [Modernize your SOC for the future](https://www.brighttalk.com/webcast/18282/565440?utm_source=brighttalk-recommend&utm_campaign=network_weekly_email&utm_medium=email&utm_content=company&utm_term=132023)
 * Signalblur, [Getting started with ATT&CK heatmaps](https://www.signalblur.io/getting-started-with-mitres-att-ck-navigator/)
 * First, [ISO 27035 Practical value for CSIRT and SOCs ](https://www.first.org/resources/papers/conf2023/FIRSTCON23-TLPCLEAR-Benetis-ISO-27035-practical-value-for-CSIRTs-and-SOCs.pdf)
+* Infoblox, [NIS2 & NCSC CAF](https://insights.infoblox.com/solution-notes/infoblox-solution-note-nis2-and-the-caf-framework)
 
 
 # Challenges
