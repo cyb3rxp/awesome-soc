@@ -41,6 +41,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * Medium, [Named pipe impersonation abuse](https://bherunda.medium.com/hunting-named-pipe-token-impersonation-abuse-573dcca36ae0)
 * Picus Security [Active Directory Security Guide](https://media.licdn.com/dms/document/media/D4E1FAQGsc2JA72C1kw/feedshare-document-pdf-analyzed/0/1694990735280?e=1695859200&v=beta&t=r0aNzcofWKEvEK287Xqa8KApDt05455pTg2XSaMbK1I)
 * Synaktiv, [Azure Entra ID pentesting mindmap](https://github.com/synacktiv/Mindmaps?s=03 )
+* RULER project, (forensics tracks of common security tools)(https://ruler-project.github.io/ruler-project/)
 
 # Generic recommended approach
 
