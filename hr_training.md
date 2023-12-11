@@ -117,7 +117,6 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
 
 ### Paid certifications:
 * BlueTeamLabs, [BTL](https://securityblue.team/why-btl1/) (level 1 & 2).
-* EthicalHackersAcademy, [SOC & SIEM Security program: L1, L2, L3](https://ethicalhackersacademy.com/products/soc-siem-security-training-program?_pos=1&_sid=b1d241af4&_ss=r).
 * SANS [SEC555: SIEM with tactical analytics](https://www.sans.org/cyber-security-courses/siem-with-tactical-analytics/).
 * SANS, [SEC450: Blue Team Fundamentals: Security Operations and Analysis](https://www.sans.org/cyber-security-courses/blue-team-fundamentals-security-operations-analysis/).
 * EC-Council, [CEH](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/).
@@ -129,6 +128,7 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
 * SANS, SEC699: Purple Team Tactics - Adversary Emulation for Breach Prevention & Detection.
 * SANS, SEC497: Practical Open-Source Intelligence (OSINT).
 
+Not working anymore ATOW: EthicalHackersAcademy, [SOC & SIEM Security program: L1, L2, L3](https://ethicalhackersacademy.com/products/soc-siem-security-training-program?_pos=1&_sid=b1d241af4&_ss=r).
 
 # Recommended CERT/CSIRT trainings
 
