@@ -43,6 +43,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * NIST, [SP800-86, integration forensics techniques into IR](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-86.pdf)
 * Microsoft/EY/Edelman, [Incident response reference guide](https://www.linkedin.com/posts/the-cyber-security-hub_incident-response-reference-guide-activity-7033563558642642944-0zav?utm_source=share&utm_medium=member_desktop)
 * LinkedIn Pulse, [Security incident management according to ISO 27005](https://www.linkedin.com/pulse/security-incident-management-according-iso-27035-dipen-das-)
+* [ForensicsArtefacts](https://github.com/ForensicArtifacts/artifacts)
 
 
 ## Globally (SOC and CERT/CSIRT)
@@ -144,7 +145,7 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
   * For AD / Azure Entra ID: [Semperis Purple Knight](https://www.purple-knight.com/active-directory-security-tool/), or simple but efficient [ADRecon](https://github.com/tomwechsler/Active_Directory_Advanced_Threat_Hunting/blob/main/Different_hunting_methods/In-depth_investigation_active_directory.md)
   * For Windows workstations: [Sysmon](https://learn.microsoft.com/fr-fr/sysinternals/downloads/sysmon) (install it, let it run for a few hours/days, then investigate its log), with [Olaf Hartong's config](https://github.com/olafhartong/sysmon-modular/blob/master/sysmonconfig.xml)
 * On-demand volatile data collection tool:
-  * My recommendations: [VARC](https://github.com/cado-security/varc), [DFIR-ORC](https://github.com/dfir-orc), [FireEye Redline](https://fireeye.market/apps/211364) .
+  * My recommendations: [FastIR](https://github.com/OWNsecurity/fastir_artifacts), [Velociraptor](https://docs.velociraptor.app/docs/), [VARC](https://github.com/cado-security/varc), [DFIR-ORC](https://github.com/dfir-orc), [FireEye Redline](https://fireeye.market/apps/211364) .
 * Remote action capable tools (ie.: remote shell or equivalent):
   * My recommendations: [CIMSweep](https://github.com/mattifestation/CimSweep), [Velociraptor](https://docs.velociraptor.app/docs/deployment/), [CrowdStrike Falcon Toolkit](https://github.com/CrowdStrike/Falcon-Toolkit) but it relies on CrowdStrike EDR, [GRR](https://github.com/google/grr) but it needs an agent to be installed.
 * On-demand sandbox:
