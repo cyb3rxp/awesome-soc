@@ -174,7 +174,7 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
 * Data analysis tools:
   * My recommendations: [CyberChef](https://github.com/NextronSystems/CyberChef), [Notepad++](https://notepad-plus-plus.org/downloads/)
 * Admin tools: 
-  * My recomendations: [Azure AD Internals suite](https://aadinternals.com/), [SysInternals Suite](https://learn.microsoft.com/fr-fr/sysinternals/downloads/sysinternals-suite)
+  * My recommendations: [Azure AD Internals suite](https://aadinternals.com/), [SysInternals Suite](https://learn.microsoft.com/fr-fr/sysinternals/downloads/sysinternals-suite)
 * Internal ticketing system (NB: **not** SIRP, not for incident response!):
   * My recommendation: [GitLab](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/sec-incident-response.html)
 * Knowledge sharing and management tool:
@@ -310,17 +310,19 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 * Rawsec, [Tools inventory](https://inventory.raw.pm/tools.html)
 * Microsoft, [command line reference](https://cmd.ms/)
 * Microsoft, [Sentinel data collection scenarios](https://learn.microsoft.com/en-us/azure/sentinel/connect-cef-ama#how-collection-works-with-the-common-event-format-cef-via-ama-connector)
-* SOC CMM, [SOCTOM](https://soc-cmm.com/downloads/SOCTOM%20whitepaper.pdf)
+* SOC CMM, [SOCfTOM](https://soc-cmm.com/downloads/SOCTOM%20whitepaper.pdf)
 
 
 ## SOC sensors, nice to have
+* Dark Web monitoring (data leaks, etc.)
+  * My recommendation: [AIL Framework](https://github.com/CIRCL/AIL-framework)
 * (full-featured) Honeypot:
   * My recommendation: [Canary.tools](https://canary.tools/)
   * Or, have a look at [Awesome honeypots Git](https://github.com/paralax/awesome-honeypots)
-* NIDS:
-  * My recommendation: [Crowdsec](https://www.crowdsec.net/product/crowdsec-security-engine)
 * Phishing and brand infringement protection (domain names):
   * My recommendation: [PhishLabs](https://www.phishlabs.com/), [Netcraft](https://www.netcraft.com/cybercrime/fraud-detection/)
+* NIDS:
+  * My recommendation: [Crowdsec](https://www.crowdsec.net/product/crowdsec-security-engine)
 * NDR:
   * My recommendation: [Gatewatcher](https://www.gatewatcher.com/en/our-solutions/trackwatch/)
 * MDM:
