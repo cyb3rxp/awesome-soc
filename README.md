@@ -44,6 +44,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * Microsoft/EY/Edelman, [Incident response reference guide](https://www.linkedin.com/posts/the-cyber-security-hub_incident-response-reference-guide-activity-7033563558642642944-0zav?utm_source=share&utm_medium=member_desktop)
 * LinkedIn Pulse, [Security incident management according to ISO 27005](https://www.linkedin.com/pulse/security-incident-management-according-iso-27035-dipen-das-)
 * [ForensicsArtefacts](https://github.com/ForensicArtifacts/artifacts)
+* Kaspersky, [Incident Response Playbook: Dark Web Breaches](https://media.licdn.com/dms/document/media/D4D1FAQGNnA_2uNbdpg/feedshare-document-pdf-analyzed/0/1701500614215?e=1702512000&v=beta&t=K7hE9V4OuF9-D1tUyH2ClR04kbG2d5ZM72avDMZ3Asg)
 
 
 ## Globally (SOC and CERT/CSIRT)
