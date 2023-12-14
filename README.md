@@ -196,9 +196,10 @@ Cf. [SOAR page](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md)
   * [Splunk Security content (free detection rules for Splunk)](https://research.splunk.com/) 
   * [SOC Prime](https://tdm.socprime.com/)
   * [Michel De Crevoisier's Git](https://github.com/mdecrevoisier/SIGMA-detection-rules)
-* Known exploited vulnerabilities: 
+* Known exploited vulnerabilities +0days: 
   * [CISA catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
   * [CVETrends](https://cvetrends.com/)
+  * [Top 0days](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)
 * LinkedIn / Twitter:
   * e.g.: [LinkedIn Information Security Community group](https://www.linkedin.com/groups/38412/) 
 * RSS reader/portal:
