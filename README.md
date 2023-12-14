@@ -199,7 +199,7 @@ Cf. [SOAR page](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md)
 * Known exploited vulnerabilities +0days: 
   * [CISA catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
   * [CVETrends](https://cvetrends.com/)
-  * [Top 0days](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)
+  * [Top 0days "in the wild"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)
 * LinkedIn / Twitter:
   * e.g.: [LinkedIn Information Security Community group](https://www.linkedin.com/groups/38412/) 
 * RSS reader/portal:
