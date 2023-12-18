@@ -119,14 +119,16 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
 * BlueTeamLabs, [BTL](https://securityblue.team/why-btl1/) (level 1 & 2).
 * SANS [SEC555: SIEM with tactical analytics](https://www.sans.org/cyber-security-courses/siem-with-tactical-analytics/).
 * SANS, [SEC450: Blue Team Fundamentals: Security Operations and Analysis](https://www.sans.org/cyber-security-courses/blue-team-fundamentals-security-operations-analysis/).
+* Microsoft, [SC-200: Microsoft Security Operations Analyst](https://learn.microsoft.com/fr-fr/credentials/certifications/exams/sc-200/)
 * EC-Council, [CEH](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/).
 * OffensiveSecurity, [OSDA SOC-200](https://www.offensive-security.com/soc200-osda/).
 * XMCyber, [Exposure Management](https://xmcyber.com/exposure-management-course/).
-* Microsoft, [Microsoft Cybersecurity Architect](https://docs.microsoft.com/en-us/certifications/cybersecurity-architect-expert/).
-* SANS, SEC501: Advanced Security Essentials - Enterprise Defender.
-* SANS, SEC541: Cloud Security Attacker Techniques, Monitoring, and Threat Detection.
-* SANS, SEC699: Purple Team Tactics - Adversary Emulation for Breach Prevention & Detection.
-* SANS, SEC497: Practical Open-Source Intelligence (OSINT).
+* Microsoft, [SC-100: Cybersecurity Architect](https://docs.microsoft.com/en-us/certifications/cybersecurity-architect-expert/).
+* SANS, [SEC587: Advanced Open-Source Intelligence (OSINT) gathering and analysis](https://www.sans.org/cyber-security-courses/advanced-open-source-intelligence-gathering-analysis/).
+* SANS, [SEC501: Advanced Security Essentials - Enterprise Defender](https://www.sans.org/cyber-security-courses/advanced-security-essentials-enterprise-defender/).
+* SANS, [SEC541: Cloud Security Attacker Techniques, Monitoring, and Threat Detection](https://www.sans.org/cyber-security-courses/cloud-security-attacker-techniques-monitoring-threat-detection/).
+* SANS, [SEC699: Purple Team Tactics - Adversary Emulation for Breach Prevention & Detection](https://www.sans.org/cyber-security-courses/purple-team-tactics-adversary-emulation/).
+
 
 Not working anymore ATOW: EthicalHackersAcademy, [SOC & SIEM Security program: L1, L2, L3](https://ethicalhackersacademy.com/products/soc-siem-security-training-program?_pos=1&_sid=b1d241af4&_ss=r).
 
@@ -143,15 +145,21 @@ Not working anymore ATOW: EthicalHackersAcademy, [SOC & SIEM Security program: L
 * Embee Research, [Unpacking .Net malware](https://embee-research.ghost.io/unpacking-net-malware-with-process-hacker/)
 
 ## Certifications
-* CrowdSec, [CrowdSec Fundamentals](https://academy.crowdsec.net/course/crowdsec-fundamentals)  [free]
-* SANS, [FOR572: Advanced Network Forensics: Threat Hunting, Analysis, and Incident Response](https://www.sans.org/cyber-security-courses/siem-with-tactical-analytics/).
-* SANS, SEC541: Cloud Security Attacker Techniques, Monitoring, and Threat Detection.
-* Splunk, [Core User](https://education.splunk.com/single-subject-courses?_ga=2.213139857.446951445.1644415141-362195814.1644415141).
+
+### Paid certifications:
+
 * GIAC, [GCIH](https://www.giac.org/certifications/certified-incident-handler-gcih/).
+* SANS, [SEC541: Cloud Security Attacker Techniques, Monitoring, and Threat Detection](https://www.sans.org/cyber-security-courses/cloud-security-attacker-techniques-monitoring-threat-detection/).
 * SANS, [FOR508: Advanced Incident Response, Threat Hunting, and Digital Forensics](https://www.giac.org/certifications/certified-incident-handler-gcih/).
-* SANS, [FOR610: Reverse-Engineering Malware: Malware Analysis Tools and Techniques](https://www.sans.org/cyber-security-courses/reverse-engineering-malware-malware-analysis-tools-techniques/).
 * SANS, [SEC555: SIEM with tactical analytics](https://www.sans.org/cyber-security-courses/siem-with-tactical-analytics/).
-* SANS, [ FOR578: Cyber Threat Intelligence](https://www.sans.org/cyber-security-courses/cyber-threat-intelligence/).
+* SANS, [FOR572: Advanced Network Forensics: Threat Hunting, Analysis, and Incident Response](https://www.sans.org/cyber-security-courses/siem-with-tactical-analytics/).
+* SANS, [FOR578: Cyber Threat Intelligence](https://www.sans.org/cyber-security-courses/cyber-threat-intelligence/).
+* SANS, [FOR610: Reverse-Engineering Malware: Malware Analysis Tools and Techniques](https://www.sans.org/cyber-security-courses/reverse-engineering-malware-malware-analysis-tools-techniques/).
+  
+### Free certifications:
+* CrowdSec, [CrowdSec Fundamentals](https://academy.crowdsec.net/course/crowdsec-fundamentals)  [free]
+* Splunk, [Core User](https://education.splunk.com/single-subject-courses?_ga=2.213139857.446951445.1644415141-362195814.1644415141).
+
 
 
 
@@ -168,16 +176,18 @@ NB: this is mainly for red/purpleteaming activities.
 
 ## Certifications
 * Offensive Security [OSCP](https://www.offensive-security.com/pwk-oscp/).
+* SANS, [SEC541: Cloud Security Attacker Techniques, Monitoring, and Threat Detection](https://www.sans.org/cyber-security-courses/cloud-security-attacker-techniques-monitoring-threat-detection/).
 * SANS, [SEC565: Red Team Operations and Adversary Emulation](https://www.sans.org/offensive-operations/).
-* SANS, SEC760: Advanced Exploit Development for Penetration Testers.
-* SANS, SEC699: Purple Team Tactics - Adversary Emulation for Breach Prevention & Detection.
-* SANS, SEC541: Cloud Security Attacker Techniques, Monitoring, and Threat Detection.
+* SANS, [SEC699: Purple Team Tactics - Adversary Emulation for Breach Prevention & Detection](https://www.sans.org/cyber-security-courses/purple-team-tactics-adversary-emulation/).
+* SANS, [SEC760: Advanced Exploit Development for Penetration Testers](https://www.sans.org/cyber-security-courses/advanced-exploit-development-penetration-testers/).
 
 # Recommended management trainings
 
-## Certifications
+## Paid certifications
 
 * SANS, [MGT512: Security Leadership Essentials for Managers](https://www.sans.org/cyber-security-courses/security-leadership-essentials-managers/)
+* SANS, [SEC450: Blue Team Fundamentals: Security Operations and Analysis](https://www.sans.org/cyber-security-courses/blue-team-fundamentals-security-operations-analysis/).
+* ISC2, [CISSP](https://www.isc2.org/certifications/cissp)
 
 # To go further
 
