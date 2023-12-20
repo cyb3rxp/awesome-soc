@@ -139,23 +139,33 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
 ## Critical tools for CSIRT
 * Compromise assessment tools:
   * My recommendations:
-    * Paid ones: [Thor Cloud lite](https://www.nextron-systems.com/2023/10/30/introducing-thor-cloud-lite-seamless-on-demand-security-scanning-made-easy/);
+    * Paid ones: [Thor Cloud lite](https://www.nextron-systems.com/2023/10/30/introducing-thor-cloud-lite-seamless-on-demand-security-scanning-made-easy/).
     * free ones:
-       * for Linux : WithSecure [Cat-Scale](https://labs.withsecure.com/tools/cat-scale-linux-incident-response-collection);
-       * for Windows: simple but efficient ESET [Sysinspector](https://www.eset.com/int/support/sysinspector/)
-  * For AD / Azure Entra ID: [Semperis Purple Knight](https://www.purple-knight.com/active-directory-security-tool/), or simple but efficient [ADRecon](https://github.com/tomwechsler/Active_Directory_Advanced_Threat_Hunting/blob/main/Different_hunting_methods/In-depth_investigation_active_directory.md)
-  * For Windows workstations: [Sysmon](https://learn.microsoft.com/fr-fr/sysinternals/downloads/sysmon) (install it, let it run for a few hours/days, then investigate its log), with [Olaf Hartong's config](https://github.com/olafhartong/sysmon-modular/blob/master/sysmonconfig.xml)
+       * for Linux: WithSecure [Cat-Scale](https://labs.withsecure.com/tools/cat-scale-linux-incident-response-collection), [UAC](https://github.com/tclahr/uac).
+       * for Windows:
+          * simple but efficient ESET [Sysinspector](https://www.eset.com/int/support/sysinspector/);
+          * [Velociraptor](https://docs.velociraptor.app/docs/);
+          * [DFIR-ORC](https://github.com/dfir-orc);
+          * [Sysmon](https://learn.microsoft.com/fr-fr/sysinternals/downloads/sysmon) (install it, let it run for a few hours/days, then investigate its log), with [Olaf Hartong's config](https://github.com/olafhartong/sysmon-modular/blob/master/sysmonconfig.xml);
+       * For AD: 
+         * [Semperis Purple Knight](https://www.purple-knight.com/active-directory-security-tool/);
+       * For MS Entra ID & M365:
+         * [Semperis Purple Knight](https://www.purple-knight.com/active-directory-security-tool/);
+         * simple but efficient [ADRecon](https://github.com/tomwechsler/Active_Directory_Advanced_Threat_Hunting/blob/main/Different_hunting_methods/In-depth_investigation_active_directory.md);
+         * [365Inspect](https://github.com/soteria-security/365Inspect).
+       * For Azure / GCP / AWS:
+         * [ScootSuite](https://github.com/nccgroup/ScoutSuite)
 * On-demand volatile data collection tool:
-  * My recommendations: [FastIR](https://github.com/OWNsecurity/fastir_artifacts), [Velociraptor](https://docs.velociraptor.app/docs/), [VARC](https://github.com/cado-security/varc), [DFIR-ORC](https://github.com/dfir-orc), [FireEye Redline](https://fireeye.market/apps/211364) .
+  * My recommendations: [FastIR](https://github.com/OWNsecurity/fastir_artifacts), [VARC](https://github.com/cado-security/varc), [FireEye Redline](https://fireeye.market/apps/211364), [DFIR-ORC](https://github.com/dfir-orc);
 * Remote action capable tools (ie.: remote shell or equivalent):
   * My recommendations: [CIMSweep](https://github.com/mattifestation/CimSweep), [Velociraptor](https://docs.velociraptor.app/docs/deployment/), [CrowdStrike Falcon Toolkit](https://github.com/CrowdStrike/Falcon-Toolkit) but it relies on CrowdStrike EDR, [GRR](https://github.com/google/grr) but it needs an agent to be installed.
 * On-demand sandbox:
   * My recommendations for online ones: [Joe's sandbox](https://www.joesandbox.com/#windows), [Hybrid Analysis](https://www.hybrid-analysis.com/), etc;
   * My recommendation for local one: Windows 10 native Sandbox, with [automation](https://megamorf.gitlab.io/2020/07/19/automating-the-windows-sandbox/).
 * Forensics and reverse-engineering tools suite:
-  * My recommendations: [SIFT Workstation](https://www.sans.org/tools/sift-workstation/), or [Tsurugi](https://tsurugi-linux.org/)
-  * My recommendation for reverse engineering and malware analysis, under Windows: [FireEye Flare-VM](https://github.com/mandiant/flare-vm)
-  * My recommendation for pure malware analysis, under Linux: [Remnux](https://remnux.org/)
+  * My recommendations: [SIFT Workstation](https://www.sans.org/tools/sift-workstation/), or [Tsurugi](https://tsurugi-linux.org/);
+  * My recommendation for reverse engineering and malware analysis, under Windows: [FireEye Flare-VM](https://github.com/mandiant/flare-vm);
+  * My recommendation for pure malware analysis, under Linux: [Remnux](https://remnux.org/).
 * Incident tracker: 
   * My recommendations: [Timesketch](https://timesketch.org/), [DFIR IRIS](https://dfir-iris.org/)
 * Scanners:
