@@ -11,8 +11,8 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * [Must read](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#must-read)
 * [Fundamental concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md)
 * [Mission-critical means (tools/sensors)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#mission-critical-means-toolssensors)
-* [SOAR](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#soar)
 * [IT/security Watch](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#itsecurity-watch-recommended-sources)
+* [SOAR](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#soar)
 * [Detection engineering](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md)
 * [Threat intelligence](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md)
 * [Management](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md)
@@ -196,10 +196,6 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
   * My recommendation: [OSINTracker](https://app.osintracker.com/)
 
 
-# SOAR
-
-Cf. [SOAR page](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md)
-
 # IT/security Watch (recommended sources)
 
 * SIEM rules publications:
@@ -219,6 +215,11 @@ Cf. [SOAR page](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md)
   * e.g.: [CERT-FR](https://www.cert.ssi.gouv.fr/avis/), [CERT-US](https://www.cisa.gov/uscert/ncas/alerts)
 * Other interesting websites:
   * e.g.: [ISC](https://isc.sans.edu/), [ENISA](https://www.enisa.europa.eu/publications), [ThreatPost](https://threatpost.com/) ...
+
+
+# SOAR
+
+Cf. [SOAR page](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md)
 
 
 # Detection engineering
