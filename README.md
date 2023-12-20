@@ -171,6 +171,7 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
 * Scanners:
   * IOC scanners:
     * My recommendations: [Loki](https://github.com/Neo23x0/Loki), [DFIR-ORC](https://github.com/dfir-orc)
+    * For smartphones: [Tiny Check](https://github.com/KasperskyLab/TinyCheck)
   * IOC repos for scanners:
     * Google [CTI's repo](https://github.com/chronicle/GCTI/tree/main/YARA): Yara rules for Cobalt Strike and others.
     * [Yara-rules GitHub repo](https://github.com/Yara-Rules/rules): multiple Yara rules types.
