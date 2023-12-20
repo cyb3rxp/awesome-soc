@@ -180,7 +180,7 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
   * Offline antimalware scanners:
     * My recommendation: [Windows Defender Offline](https://support.microsoft.com/en-us/windows/help-protect-my-pc-with-microsoft-defender-offline-9306d528-64bf-4668-5b80-ff533f183d6c), [ESET SysRecue](https://www.eset.com/int/support/sysrescue/)
 * Logs analyzers with detection capabilities:
-    * My recommendations: [CrowdSec](https://doc.crowdsec.net/docs/user_guides/replay_mode), [Sekoia XDR](https://www.sekoia.io/en/product/xdr/), , [DeepBlue](https://github.com/sans-blue-team/DeepBlueCLI)
+    * My recommendations: [CrowdSec](https://doc.crowdsec.net/docs/user_guides/replay_mode), [Sekoia XDR](https://www.sekoia.io/en/product/xdr/), [DeepBlue](https://github.com/sans-blue-team/DeepBlueCLI)
       
 ## Other critical tools for a SOC and a CERT/CSIRT
 * Data analysis tools:
