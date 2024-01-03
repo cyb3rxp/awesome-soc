@@ -14,17 +14,22 @@ This page deals with SOC detection engineering and management (detection use cas
 
 
 # Must read
+## Threat statistics/trends 
 * MITRE, [top TTP for ransomwares](https://top-attack-techniques.mitre-engenuity.org/)
 * Splunk, [Top 50 cybersecurity threats](https://www.splunk.com/content/dam/splunk2/en_us/gated/ebooks/top-50-cybersecurity-threats.pdf)
-* Yogosha, [SIGMA Rules: how to standardize detections for any SIEM](https://yogosha.com/blog/sigma-rules/)
-* Ch33r10, [Enterprise purple teaming](https://github.com/ch33r10/EnterprisePurpleTeaming)
-* F. Roth, [Detection engineering cheat sheet](https://mobile.twitter.com/cyb3rops/status/1592879894396293121/photo/1)
-* SIEM rules publications:
+* Known exploited vulnerabilities: 
+  * [CISA catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
+## SIEM rules publications:
   * [Sigma HQ (detection rules)](https://github.com/SigmaHQ/sigma/tree/master/rules) 
   * [Splunk Security content (free detection rules for Splunk)](https://research.splunk.com/) 
   * [Michel De Crevoisier's Git](https://github.com/mdecrevoisier/SIGMA-detection-rules)
-* Known exploited vulnerabilities: 
-  * [CISA catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
+  * [SOC Prime](https://socprime.com/)
+## SIEM standards
+* Yogosha, [SIGMA Rules: how to standardize detections for any SIEM](https://yogosha.com/blog/sigma-rules/)
+## SecOps activities
+* Ch33r10, [Enterprise purple teaming](https://github.com/ch33r10/EnterprisePurpleTeaming)
+## Detection engineering
+* F. Roth, [Detection engineering cheat sheet](https://mobile.twitter.com/cyb3rops/status/1592879894396293121/photo/1)
 * Medium, ['About detection engineering'](https://cyb3rops.medium.com/about-detection-engineering-44d39e0755f0)
 * NCSC, [Detection Practices](https://www.ncsc.gov.uk/collection/building-a-security-operations-centre/detection/detection-practices)
 * Intrinsec, ['Limitations of MITRE ATT&CK' (in FR)](https://www.intrinsec.com/pilotage-dun-soc-interets-et-limites-de-la-matrice-attck/)
@@ -32,17 +37,21 @@ This page deals with SOC detection engineering and management (detection use cas
 * PECB, [ISO 27001:2022, what are the changes?](https://pecb.com/past-webinars/isoiec-270012022--what-are-the-changes)
 * ANSSI, [EBIOS RM methodology](https://www.ssi.gouv.fr/guide/ebios-risk-manager-the-method/)
 * David J. Bianco, [Pyramid of pain](https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html)
-* Atlassian, [CI/CD/CD](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
+* Tsale, [EDR telemetry](https://github.com/tsale/EDR-Telemetry)
+* RULER project, [forensics tracks of common security tools](https://ruler-project.github.io/ruler-project/)
+### Audit policy
 * OWASP, [logging cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html)
 * Microsoft, [Monitoring Active Directory for signs of compromise](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/monitoring-active-directory-for-signs-of-compromise)
 * TheCloudTechnologist, [Microsoft 365 audit & logging](https://thecloudtechnologist.com/2021/10/15/everything-you-wanted-to-know-about-security-and-audit-logging-in-office-365/)
 * Michel de Crevoisier, [Microsoft Eventlog mindmap](https://github.com/mdecrevoisier/Microsoft-eventlog-mindmap)
 * Michel de Crevoisier, [Mapping MITRE ATT&CK with Window Event Log IDs](https://www.socinvestigation.com/mapping-mitre-attck-with-window-event-log-ids/)
-* Medium, [Named pipe impersonation abuse](https://bherunda.medium.com/hunting-named-pipe-token-impersonation-abuse-573dcca36ae0)
 * Picus Security [Active Directory Security Guide](https://media.licdn.com/dms/document/media/D4E1FAQGsc2JA72C1kw/feedshare-document-pdf-analyzed/0/1694990735280?e=1695859200&v=beta&t=r0aNzcofWKEvEK287Xqa8KApDt05455pTg2XSaMbK1I)
+## IT best practices for SOC engineering
+* Atlassian, [CI/CD/CD](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
+## Offensive activity watch
+* Medium, [Named pipe impersonation abuse](https://bherunda.medium.com/hunting-named-pipe-token-impersonation-abuse-573dcca36ae0)
 * Synaktiv, [Azure Entra ID pentesting mindmap](https://github.com/synacktiv/Mindmaps?s=03)
-* RULER project, [forensics tracks of common security tools](https://ruler-project.github.io/ruler-project/)
-* Tsale, [EDR telemetry](https://github.com/tsale/EDR-Telemetry)
+* Rootkit POC in Rust, [MemN0ps](https://github.com/memN0ps/rootkit-rs/?tab=readme-ov-file)
 
 # Generic recommended approach
 
