@@ -46,7 +46,7 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
 
 
 # Sources
-* Feeds and portails:
+* Feeds and portals:
    * My recommendations for paid ones: 
      * [ESET](https://www.eset.com/us/business/services/threat-intelligence/);
      * [Sekoia.io](https://www.sekoia.io/fr/sekoia-io-cti/); 
@@ -88,6 +88,7 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
   * To go further, some lists of feeds that could be of interest:
     * [Covert.io list](http://www.covert.io/threat-intelligence/);
     * [Intel471](https://intel471.com/modules)
+    * [Bert JanP](https://github.com/Bert-JanP/Open-Source-Threat-Intel-Feeds/tree/main)
   * And a reference framework to analyze data information leaks: [AIL Framework](https://github.com/CIRCL/AIL-framework)
 
      
