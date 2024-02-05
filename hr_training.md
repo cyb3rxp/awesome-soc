@@ -122,7 +122,6 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
 ### Free certifications:
 * CrowdSec, [cybersecurity fundamentals](https://academy.crowdsec.net/course/cybersecurity-fundamentals)
 * FIRST, [CVSS v4](https://learn.first.org/catalog/info/id:126)
-* Splunk, [Core User](https://education.splunk.com/single-subject-courses?_ga=2.213139857.446951445.1644415141-362195814.1644415141).
 * Microsoft, [Microsoft Sentinel Ninja](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR1irKnVJZ_RBhccteqa39A9UN08wTjY4MzROVDhUUFRZRTgwME1HSUlFQS4u).
 * Amazon, [AWS Security Fundamentals](https://aws.amazon.com/training/digital/aws-security-fundamentals/?nc1=h_ls).
 * PaloAlto, [Fundamentals of network security](https://beacon.paloaltonetworks.com/student/path/673504/activity/726463).
@@ -137,6 +136,8 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
 * OffensiveSecurity, [OSDA SOC-200](https://www.offensive-security.com/soc200-osda/).
 * XMCyber, [Exposure Management](https://xmcyber.com/exposure-management-course/).
 * Microsoft, [SC-100: Cybersecurity Architect](https://docs.microsoft.com/en-us/certifications/cybersecurity-architect-expert/).
+* Splunk, [Certified Power User](https://www.splunk.com/en_us/training/certification-track/splunk-core-certified-power-user.html)
+* Splunk, [Certified Cyberdefense Analyst](https://www.splunk.com/en_us/training/certification-track/splunk-certified-cybersecurity-defense-analyst.html)
 * SANS, [SEC587: Advanced Open-Source Intelligence (OSINT) gathering and analysis](https://www.sans.org/cyber-security-courses/advanced-open-source-intelligence-gathering-analysis/).
 * SANS, [SEC501: Advanced Security Essentials - Enterprise Defender](https://www.sans.org/cyber-security-courses/advanced-security-essentials-enterprise-defender/).
 * SANS, [SEC541: Cloud Security Attacker Techniques, Monitoring, and Threat Detection](https://www.sans.org/cyber-security-courses/cloud-security-attacker-techniques-monitoring-threat-detection/).
