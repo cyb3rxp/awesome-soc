@@ -41,16 +41,16 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
 # Recommended SOC trainings
 
 ## Regular trainings
-* PaloAlto, [Fundamentals of SOC](https://beacon.paloaltonetworks.com/student/path/521672-the-fundamentals-of-soc-security-operations-center), mainly modules 1 to 8 :) (free);
-* LetsDefend, [Fundamentals of SOC](https://app.letsdefend.io/training/lessons/soc-fundamentals) (free)
-* [Cybrary, MITRE ATT&CK threat hunting](https://www.cybrary.it/course/mitre-attack-threat-hunting/), free!
-* [ENISA trainings](https://www.enisa.europa.eu/topics/trainings-for-cybersecurity-specialists/online-training-material), free!
-* Active Directory:
-   * train on AD specific attacks, [Orange Cyberdefense GOAD](https://github.com/Orange-Cyberdefense/GOAD) (free).
-   * Populate AD with "real life" objects, in an automated way, [Badblood](https://github.com/davidprowe/badblood)
+* PaloAlto, [Fundamentals of SOC](https://beacon.paloaltonetworks.com/student/path/521672-the-fundamentals-of-soc-security-operations-center), mainly modules 1 to 8 :) [free];
+* LetsDefend, [Fundamentals of SOC](https://app.letsdefend.io/training/lessons/soc-fundamentals) [free]
+* [Cybrary, MITRE ATT&CK threat hunting](https://www.cybrary.it/course/mitre-attack-threat-hunting/), [free]
+* [ENISA trainings](https://www.enisa.europa.eu/topics/trainings-for-cybersecurity-specialists/online-training-material), [free]
+* Active Directory specifics:
+   * train on AD specific attacks, [Orange Cyberdefense GOAD](https://github.com/Orange-Cyberdefense/GOAD) [free].
+     * Populate AD with "real life" objects, in an automated way, [Badblood](https://github.com/davidprowe/badblood)
 
 ### Challenges
-* [BlueTeamLabs challenges and investigations](https://blueteamlabs.online/home/challenges), here are a few free trainings that I recommend:
+* [**BlueTeamLabs** challenges and investigations](https://blueteamlabs.online/home/challenges), here are a few free trainings that I recommend:
    * https://blueteamlabs.online/home/challenge/the-report-ii-82ea7781c5
    * https://blueteamlabs.online/home/challenge/the-report-a6dd340dba
    * https://blueteamlabs.online/home/challenge/attck-0e4914db5d
@@ -66,7 +66,7 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
    * https://blueteamlabs.online/home/challenge/paranoid-e5e164befb
    * https://blueteamlabs.online/home/investigation/deep-blue-a4c18ce507
    * https://blueteamlabs.online/home/investigation/sam-d310695187
-* [Cyberdefenders](https://cyberdefenders.org/), here are a few free trainings that I recommend:
+* [**Cyberdefenders**](https://cyberdefenders.org/), here are a few free trainings that I recommend:
   * https://cyberdefenders.org/blueteam-ctf-challenges/91
   * https://cyberdefenders.org/blueteam-ctf-challenges/47
   * https://cyberdefenders.org/blueteam-ctf-challenges/84
@@ -78,7 +78,7 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
   * https://cyberdefenders.org/blueteam-ctf-challenges/60
   * https://cyberdefenders.org/blueteam-ctf-challenges/32
   * https://cyberdefenders.org/blueteam-ctf-challenges/17
-* [LetsDefend](https://letsdefend.io/), here are a few free trainings that I recommend:
+* [**LetsDefend**](https://letsdefend.io/), here are a few free trainings that I recommend:
   * https://app.letsdefend.io/monitoring/alerts/
   * https://app.letsdefend.io/challenge/conti-ransomware/
   * https://app.letsdefend.io/challenge/IcedID-Malware-Family/
@@ -91,30 +91,29 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
 * [SOC Vel](https://socvel.com/challenges/).
 
 ### SIEM
-* Splunk: 
-  * Trainings [free]:
-    * [Getting data into Splunk](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003373?returnurl=common%2Flearningcatalog%2F)
-    * [Intro to SPL2](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail;spf-url=common%2Fledetail%2Fcours000000000017620%3Fcontext%3Duser&learnerId%3Dpersn000000000844498&returnPage%3Dlearningcatalog)
-    * [Comparing values](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003246?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&amp;categoryId=categ000000000003041&amp;embeddedInTorque=true)
-    * [Working with time](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003621?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&amp;categoryId=categ000000000003041&amp;embeddedInTorque=true)
-    * [Result modification](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003392?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&categoryId=categ000000000003041&embeddedInTorque=true)
-    * [Scheduling reports & alerts](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003397?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&categoryId=categ000000000003041&embeddedInTorque=true)
-    * [Visualizations](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003643?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&amp;categoryId=categ000000000003041&amp;embeddedInTorque=true)
-    * [Using fields](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003611?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&amp;categoryId=categ000000000003041&amp;embeddedInTorque=true)
-    * [Creating field extraction](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003321?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&categoryId=categ000000000003041&embeddedInTorque=true)
-    * [Intro to dashboards](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003411?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&amp;categoryId=categ000000000003041&amp;embeddedInTorque=true)
-    * [Intro to knowledge objects](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003413?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&amp;categoryId=categ000000000003041&amp;embeddedInTorque=true)
-    * [Datamodels](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003337?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&amp;categoryId=categ000000000003041&amp;embeddedInTorque=true)
-    * [Security operations and defense analyst](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000014180?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&categoryId=categ000000000003041&embeddedInTorque=true)
-    * [Intro to Splunk Security Essentials](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003433?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&amp;categoryId=categ000000000003041&amp;embeddedInTorque=true)
-    * [Splunk Enterprise installation & configuration](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003503?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&categoryId=categ000000000003041&embeddedInTorque=true)
-    * [Using the monitoring console](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003639?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&categoryId=categ000000000003041&embeddedInTorque=true)
+* **Splunk** Trainings [free]:
+  * [Getting data into Splunk](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003373?returnurl=common%2Flearningcatalog%2F)
+  * [Intro to SPL2](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail;spf-url=common%2Fledetail%2Fcours000000000017620%3Fcontext%3Duser&learnerId%3Dpersn000000000844498&returnPage%3Dlearningcatalog)
+  * [Comparing values](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003246?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&amp;categoryId=categ000000000003041&amp;embeddedInTorque=true)
+  * [Working with time](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003621?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&amp;categoryId=categ000000000003041&amp;embeddedInTorque=true)
+  * [Result modification](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003392?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&categoryId=categ000000000003041&embeddedInTorque=true)
+  * [Scheduling reports & alerts](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003397?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&categoryId=categ000000000003041&embeddedInTorque=true)
+  * [Visualizations](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003643?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&amp;categoryId=categ000000000003041&amp;embeddedInTorque=true)
+  * [Using fields](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003611?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&amp;categoryId=categ000000000003041&amp;embeddedInTorque=true)
+  * [Creating field extraction](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003321?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&categoryId=categ000000000003041&embeddedInTorque=true)
+  * [Intro to dashboards](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003411?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&amp;categoryId=categ000000000003041&amp;embeddedInTorque=true)
+  * [Intro to knowledge objects](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003413?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&amp;categoryId=categ000000000003041&amp;embeddedInTorque=true)
+  * [Datamodels](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003337?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&amp;categoryId=categ000000000003041&amp;embeddedInTorque=true)
+  * [Security operations and defense analyst](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000014180?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&categoryId=categ000000000003041&embeddedInTorque=true)
+  * [Intro to Splunk Security Essentials](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003433?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&amp;categoryId=categ000000000003041&amp;embeddedInTorque=true)
+  * [Splunk Enterprise installation & configuration](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003503?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&categoryId=categ000000000003041&embeddedInTorque=true)
+  * [Using the monitoring console](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003639?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&categoryId=categ000000000003041&embeddedInTorque=true)
     
-    * Attack simulation & investigation: [Splunk attack range](https://github.com/splunk/attack_range_cloud).
+  * Attack simulation & investigation: [Splunk attack range](https://github.com/splunk/attack_range_cloud).
   * CTF: BOTS [free]:
     * https://cyberdefenders.org/search/labs/?q=splunk
  
-* Microsoft Sentinel (Defender XDR), [Become an Azure Sentinel Ninja](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/become-a-microsoft-sentinel-ninja-the-complete-level-400/ba-p/1246310) [free];
+* **Microsoft Sentinel** (Defender XDR), [Become an Azure Sentinel Ninja](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/become-a-microsoft-sentinel-ninja-the-complete-level-400/ba-p/1246310) [free];
 
 
 ## Certifications
