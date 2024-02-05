@@ -78,6 +78,7 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
   * https://app.letsdefend.io/challenge/conti-ransomware/
   * https://app.letsdefend.io/challenge/investigate-web-attack/
   * https://app.letsdefend.io/challenge/infection-cobalt-strike/
+  * https://app.letsdefend.io/challenge/malicious-chrome-extension
 * [SOC Vel](https://socvel.com/challenges/).
 * [Cybrary, MITRE ATT&CK threat hunting](https://www.cybrary.it/course/mitre-attack-threat-hunting/), free!
 * [ENISA trainings](https://www.enisa.europa.eu/topics/trainings-for-cybersecurity-specialists/online-training-material), free!
