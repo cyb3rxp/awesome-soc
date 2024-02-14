@@ -125,6 +125,7 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
 
 ### Free certifications:
 * CrowdSec, [cybersecurity fundamentals](https://academy.crowdsec.net/course/cybersecurity-fundamentals)
+* RecordedFuture, [Threat Intelligence Fundamentals](https://university.recordedfuture.com/page/intelligence-fundamentals-certification)
 * FIRST, [CVSS v4](https://learn.first.org/catalog/info/id:126)
 * Microsoft, [Microsoft Sentinel Ninja](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR1irKnVJZ_RBhccteqa39A9UN08wTjY4MzROVDhUUFRZRTgwME1HSUlFQS4u).
 * Amazon, [AWS Security Fundamentals](https://aws.amazon.com/training/digital/aws-security-fundamentals/?nc1=h_ls).
