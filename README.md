@@ -214,6 +214,8 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
   * e.g.: [Netvibes](https://www.netvibes.com/phvialle?page=phvialle#Security)  
 * Government CERT, industry sector related CERT...
   * e.g.: [CERT-FR](https://www.cert.ssi.gouv.fr/avis/), [CERT-US](https://www.cisa.gov/uscert/ncas/alerts)
+* Newsletters:
+  * e.g.: [TheRecord.media](https://therecord.media/subscribe), [Intrinsec Threat Landscape](https://intrinsec.us13.list-manage.com/subscribe?u=403249ad144b732517b9fca94&id=041976f275)
 * Other interesting websites:
   * e.g.: [ISC](https://isc.sans.edu/), [ENISA](https://www.enisa.europa.eu/publications), [ThreatPost](https://threatpost.com/) ...
 
