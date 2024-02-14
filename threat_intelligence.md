@@ -9,6 +9,7 @@
 
 # Must read
 
+* Thomas Roccia, [Visual Threat Intelligence](https://www.amazon.fr/Visual-Threat-Intelligence-Illustrated-Researchers/dp/B0C7JCF8XD)
 * MITRE, [top TTP for ransomwares](https://top-attack-techniques.mitre-engenuity.org/)
 * David J. Bianco, [Pyramid of pain](https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html)
 * OASIS Open, [STIX](https://oasis-open.github.io/cti-documentation/stix/intro.html)
