@@ -111,7 +111,14 @@ describe their structure.
 # Detection quality assessment
  * **Run regular [purpleteaming sessions](https://about.gitlab.com/handbook/engineering/security/threat-management/red-team/purple-teaming/)** in time!!
    * e.g.: [Intrinsec](https://www.intrinsec.com/purple-team/), [FireEye](https://www.fireeye.fr/content/dam/fireeye-www/regional/fr_FR/services/pdfs/ds-purple-team-assessment.pdf)
-   * To do it on your own, recommended frameworks: [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team), [CTID](https://github.com/center-for-threat-informed-defense/adversary_emulation_library/tree/master)
+   * To do it on your own, here are a few recommended frameworks/tools:
+       * Frameworks:
+         * RedCanary [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team)
+         * [CTID](https://github.com/center-for-threat-informed-defense/adversary_emulation_library/tree/master)
+       * Tools:
+         * [Ytisf's zoo](https://github.com/ytisf/theZoo)
+         * Abuse.ch [Malware Bazaar](https://bazaar.abuse.ch/)
+         * Knowbe4 [ransomware simulator](https://www.knowbe4.com/ransomware-simulator)
    * NB: don't forget to watermark the offensive tools being used! See [ProtectMyTooling](https://web.archive.org/web/20230209131745/https://mgeeky.tech/protectmytooling/)
  * Picture the currently confirmed detection capabilities thanks to purpleteaming, with tools based on ATT&CK:
    * e.g.: [Vectr](https://github.com/securityriskadvisors/vectr)
