@@ -194,6 +194,7 @@ NB: this is mainly for red/purpleteaming activities.
 * [RTFM](https://www.amazon.com/RTFM-Red-Team-Field-Manual/dp/1075091837).
 
 ## Certifications
+* SkillsForAll, [Ethical Hacker](https://skillsforall.com/course/ethical-hacker?courseLang=en-US)
 * Offensive Security [OSCP](https://www.offensive-security.com/pwk-oscp/).
 * SANS, [SEC541: Cloud Security Attacker Techniques, Monitoring, and Threat Detection](https://www.sans.org/cyber-security-courses/cloud-security-attacker-techniques-monitoring-threat-detection/).
 * SANS, [SEC565: Red Team Operations and Adversary Emulation](https://www.sans.org/offensive-operations/).
