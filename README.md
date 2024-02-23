@@ -329,6 +329,8 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 * Microsoft, [command line reference](https://cmd.ms/)
 * Microsoft, [Sentinel data collection scenarios](https://learn.microsoft.com/en-us/azure/sentinel/connect-cef-ama#how-collection-works-with-the-common-event-format-cef-via-ama-connector)
 * SOC CMM, [SOCTOM](https://soc-cmm.com/downloads/SOCTOM%20whitepaper.pdf)
+* [PTES](http://www.pentest-standard.org/index.php/Main_Page)
+* OWASP, [WSTG](https://owasp.org/www-project-web-security-testing-guide/)
 
 
 ## SOC sensors, nice to have
