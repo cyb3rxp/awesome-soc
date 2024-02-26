@@ -111,7 +111,7 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
 ## Critical sensors for a SOC
 
 * **Antimalware/antivirus** (you may want to have a look at [my antivirus and EDR differences table](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#difference-between-antivirus-and-edr)):
-  * See [Gartner magic quadrant](https://www.threatscape.com/microsoft-security-named-leader-in-4-gartner-magic-quadrants/) 
+  * See [Gartner magic quadrant](https://www.threatscape.com/microsoft-security-named-leader-in-4-gartner-magic-quadrants/) or [Forrester Wave](https://explore.bitdefender.com/epp-nurture-2023_2/report-forrester-wave-endpoint-security-q4-2023?cid=emm%7Cb%7Chubspot%7Cnrt-epp-2023&utm_campaign=nurture-epp-2023&utm_medium=email&_hsmi=280555694&utm_content=280555694&utm_source=hs_automation)
   * My recommendations: [Microsoft Defender](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-antivirus-windows?view=o365-worldwide), [ESET Nod32](https://www.eset.com/int/business/solutions/learn-more-about-endpoint-protection/), [BitDefender](https://www.bitdefender.fr/business/products/workstation-security.html).
 * **[Endpoint Detection and Response](https://www.gartner.com/reviews/market/endpoint-detection-and-response-solutions)**:
   * See [Gartner magic quadrant](https://www.microsoft.com/security/blog/uploads/securityprod/2022/01/Gartner-EIA-1963x2048.png), [MITRE ENGENUITY](https://attackevals.mitre-engenuity.org/), and [Forrester Wave](https://www.crowdstrike.com/resources/reports/crowdstrike-recognized-as-dominant-endpoint-solution-with-superior-vision/)
