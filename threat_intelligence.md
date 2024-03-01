@@ -83,7 +83,7 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * [FireHOL project: GreenSwow IP set](https://github.com/firehol/blocklist-ipsets/blob/master/greensnow.ipset)
      * [Snort, IP list to block](https://www.snort.org/downloads/ip-block-list)
      * [Turris' Sentinel Graylist](https://view.sentinel.turris.cz/greylist-data/greylist-latest.csv)
-     * [Laurent Minne"s blacklist](https://raw.githubusercontent.com/duggytuxy/malicious_ip_addresses/main/botnets_zombies_scanner_spam_ips.txt)
+     * [Laurent Minne's blacklist](https://github.com/duggytuxy/malicious_ip_addresses)
      * [MalTrail's daily blacklist](https://raw.githubusercontent.com/stamparm/aux/master/maltrail-malware-domains.txt)
      * [Awesome Cobalt Strike](https://github.com/MichaelKoczwara/Awesome-CobaltStrike-Defence)
      * [AVAST][https://github.com/avast/ioc?tab=readme-ov-file]
