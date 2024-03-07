@@ -337,6 +337,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 ## SOC sensors, nice to have
 * Dark Web monitoring (data leaks, etc.)
   * My recommendation: [AIL Framework](https://github.com/CIRCL/AIL-framework)
+  * for paid SaaS solutions, I recommend to have a look at this [top 10](https://expertinsights.com/insights/the-top-dark-web-monitoring-solutions/)
 * (full-featured) Honeypot:
   * My recommendation: [Canary.tools](https://canary.tools/)
   * Or, have a look at [Awesome honeypots Git](https://github.com/paralax/awesome-honeypots)
