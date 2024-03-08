@@ -12,7 +12,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * [Fundamental concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md)
 * [Mission-critical means (tools/sensors)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#mission-critical-means-toolssensors)
 * [IT/security Watch](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#itsecurity-watch-recommended-sources)
-* [SOAR](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#soar)
+* [SOAR](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md)
 * [Detection engineering](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md)
 * [Threat intelligence](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md)
 * [Management](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md)
