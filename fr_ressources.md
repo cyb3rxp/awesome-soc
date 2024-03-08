@@ -14,6 +14,8 @@
 
 * Mandiant, [Prévisions 2023](https://www.mandiant.com/media/18961)
 
+* CLUSIF, [Panocrim 2023](https://clusif.fr/live/)
+
 ### Etat de l'écosystème cybersécurité
 
 * Splunk, [Etat de la cybersécurité 2023](https://www.splunk.com/fr_fr/pdfs/gated/ebooks/state-of-security-2023.pdf)
