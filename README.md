@@ -40,15 +40,20 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 
 
 ## For a CERT/CSIRT
-* FIRST, [CERT-in-a-box](https://www.first.org/resources/guides/cert-in-a-box.zip) 
-* FIRST, [CSIRT Services Framework](https://www.first.org/standards/frameworks/csirts/csirt_services_framework_v2.1)
-* ENISA, [Good practice for incident management](https://www.enisa.europa.eu/publications/good-practice-guide-for-incident-management)
-* EE-ISAC [Incident Response whitepaper](https://www.ee-isac.eu/comp/uploads/2020/12/EE-ISAC-Incident-Response-White-Paper-1.pdf)
-* NIST, [SP800-86, integration forensics techniques into IR](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-86.pdf)
-* Microsoft/EY/Edelman, [Incident response reference guide](https://www.linkedin.com/posts/the-cyber-security-hub_incident-response-reference-guide-activity-7033563558642642944-0zav?utm_source=share&utm_medium=member_desktop)
-* LinkedIn Pulse, [Security incident management according to ISO 27005](https://www.linkedin.com/pulse/security-incident-management-according-iso-27035-dipen-das-)
-* [ForensicsArtefacts](https://github.com/ForensicArtifacts/artifacts)
-* Kaspersky, [Incident Response Playbook: Dark Web Breaches](https://media.licdn.com/dms/document/media/D4D1FAQGNnA_2uNbdpg/feedshare-document-pdf-analyzed/0/1701500614215?e=1702512000&v=beta&t=K7hE9V4OuF9-D1tUyH2ClR04kbG2d5ZM72avDMZ3Asg)
+* CSIRT build:
+  * FIRST, [CERT-in-a-box](https://www.first.org/resources/guides/cert-in-a-box.zip) 
+  * FIRST, [CSIRT Services Framework](https://www.first.org/standards/frameworks/csirts/csirt_services_framework_v2.1)
+* Security incident response management:
+  * ENISA, [Good practice for incident management](https://www.enisa.europa.eu/publications/good-practice-guide-for-incident-management)
+  * EE-ISAC [Incident Response whitepaper](https://www.ee-isac.eu/comp/uploads/2020/12/EE-ISAC-Incident-Response-White-Paper-1.pdf)
+  * LinkedIn Pulse, [Security incident management according to ISO 27005](https://www.linkedin.com/pulse/security-incident-management-according-iso-27035-dipen-das-)
+  * Microsoft/EY/Edelman, [Incident response reference guide](https://www.linkedin.com/posts/the-cyber-security-hub_incident-response-reference-guide-activity-7033563558642642944-0zav?utm_source=share&utm_medium=member_desktop) 
+* Forensics:
+  * NIST, [SP800-86, integration forensics techniques into IR](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-86.pdf)
+  * [ForensicsArtefacts](https://github.com/ForensicArtifacts/artifacts)
+* Incident response playbooks:
+  * Kaspersky, [Incident Response Playbook: Dark Web Breaches](https://dfi.kaspersky.com/blog/dark-web-threats-response-guideline#form)
+  * SANS, [IR Mitigations tasks](https://board.flexibleir.com/b/VtdssIfCJ6Z2LYLED/1)
 
 
 ## Globally (SOC and CERT/CSIRT)
@@ -136,7 +141,7 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
   * My recommendations: [BlueCoat Edge SWG](https://www.broadcom.com/products/cybersecurity/network/web-protection/proxy-sg-and-advanced-secure-gateway), [CISCO SASE](https://www.cisco.com/site/us/en/solutions/secure-access-service-edge-sase/index.html), [Zscaler Cloud proxy](https://www.zscaler.com/resources/security-terms-glossary/what-is-cloud-proxy), [Netskope](https://www.netskope.com/security-defined/what-is-casb).
 * **[Identity Threat Detection and Response](https://www.semperis.com/blog/what-organizations-want-from-expert-itdr-solutions/)** **(ITDR)** for identity and AD/AAD security (audit logs, or specific security monitoring solutions):
   * My recommendations: [Semperis Directory Services Protector](https://www.semperis.com/active-directory-security/)
-  * for a one-shot security assessment of AD, I recommend: [Semperis](https://www.purple-knight.com/fr/?utm_source=gads&utm_medium=paidsearch&utm_campaign=pk_emea&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITV3yX7Nn6_GR-YVwiOANFvS9wsEQdTyUGHvMMirMzNQEoQ1Q3EQYIMaAjTgEALw_wcB)  or [PingCastle](https://www.pingcastle.com/download/)
+  * for a one-shot security assessment of AD and Enta ID, I recommend: [Semperis Purple Knight](https://www.purple-knight.com/fr/?utm_source=gads&utm_medium=paidsearch&utm_campaign=pk_emea&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITV3yX7Nn6_GR-YVwiOANFvS9wsEQdTyUGHvMMirMzNQEoQ1Q3EQYIMaAjTgEALw_wcB)  or [PingCastle](https://www.pingcastle.com/download/)
 * **EASM**: External Asset Security Monitoring / External Attack Surface Management:
   * My recommendations: [Intrinsec (in French)](https://www.intrinsec.com/monitoring-cyber/), [Mandiant](https://www.mandiant.fr/advantage/attack-surface-management), [Microsoft EASM](https://learn.microsoft.com/en-us/azure/external-attack-surface-management/)
   * for a security check-up:
