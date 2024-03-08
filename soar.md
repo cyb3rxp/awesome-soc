@@ -8,7 +8,7 @@ This page deals with Security Orchestration Automation and Response.
 * [Simple and commonly needed automation tools](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md#simple-and-commonly-needed-automation-tools)
 * [Common automations](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md#common-automations)
 
-# Must read/wach
+# Must read/watch
 
 * PaloAlto, [Security orchestration for dummies](https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/cortex-xsoar/Security-Orchestration-For-Dummies-Demisto-Special-Edition.pdf)
 * ThreatConnect, [SIRP / SOA / TIP benefits](https://threatconnect.com/blog/realizing-the-benefits-of-security-orchestration-automation-and-response-soar/)
@@ -90,6 +90,10 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
   * My recommendation: [Netcraft](https://www.netcraft.com/cybercrime/) [via API](https://report.netcraft.com/api/v3), or [PhishReport](https://phish.report/docs).
 * Block an IP address on web servers, linux firewalls, etc. based on community-driven CTI:
   * My recommendation: [CrowdSec bouncer](https://www.crowdsec.net/blog/crowdsec-not-your-typical-fail2ban-clone)
+ 
+ ## Automation example around identity-based detections
+
+ * https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md#identity-based-detections
   
 
 # End
