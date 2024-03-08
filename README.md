@@ -131,7 +131,7 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
   * See [Gartner magic quadrant](https://www.microsoft.com/en-us/security/blog/2024/01/12/microsoft-is-named-a-leader-in-the-2023-gartner-magic-quadrant-for-endpoint-protection-platforms/) or [Forrester Wave](https://explore.bitdefender.com/epp-nurture-2023_2/report-forrester-wave-endpoint-security-q4-2023?cid=emm%7Cb%7Chubspot%7Cnrt-epp-2023&utm_campaign=nurture-epp-2023&utm_medium=email&_hsmi=280555694&utm_content=280555694&utm_source=hs_automation)
   * My recommendations: [Microsoft Defender](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-antivirus-windows?view=o365-worldwide), [ESET Nod32](https://www.eset.com/int/business/solutions/learn-more-about-endpoint-protection/), [BitDefender](https://www.bitdefender.fr/business/products/workstation-security.html).
 * **[Endpoint Detection and Response](https://www.gartner.com/reviews/market/endpoint-detection-and-response-solutions)**:
-  * See [Gartner magic quadrant](https://www.microsoft.com/security/blog/uploads/securityprod/2022/01/Gartner-EIA-1963x2048.png), [MITRE ENGENUITY](https://attackevals.mitre-engenuity.org/), and [Forrester Wave](https://www.crowdstrike.com/resources/reports/crowdstrike-recognized-as-dominant-endpoint-solution-with-superior-vision/)
+  * See [Gartner magic quadrant](https://www.sentinelone.com/lp/gartnermq/), [MITRE ENGENUITY](https://attackevals.mitre-engenuity.org/), and [Forrester Wave](https://www.crowdstrike.com/resources/reports/crowdstrike-recognized-as-dominant-endpoint-solution-with-superior-vision/)
   * My recommendations: [SentinelOne](https://www.sentinelone.com/blog/active-edr-feature-spotlight/), [Microsoft Defender for Endpoint](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide), [Harfanglab](https://www.harfanglab.io/en/block-cyberattacks), [ESET XDR](https://www.eset.com/int/business/enterprise-protection-bundle/), [WithSecure Elements EDR](https://www.withsecure.com/us-en/solutions/software-and-services/elements-endpoint-detection-and-response), [CrowdStrike Falcon EDR](https://www.crowdstrike.com/wp-content/uploads/2022/03/crowdstrike-falcon-insight-data-sheet.pdf), [Tanium](https://www.tanium.com/products/tanium-threat-response/), [Wazuh](https://wazuh.com/)
 * **[Secure Email Gateway](https://www.gartner.com/reviews/market/email-security)** (SEG):
   * See [Gartner reviews and ratings](https://www.gartner.com/reviews/market/email-security)
@@ -143,7 +143,7 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
   * My recommendations: [Semperis Directory Services Protector](https://www.semperis.com/active-directory-security/)
   * for a one-shot security assessment of AD and Enta ID, I recommend: [Semperis Purple Knight](https://www.purple-knight.com/fr/?utm_source=gads&utm_medium=paidsearch&utm_campaign=pk_emea&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITV3yX7Nn6_GR-YVwiOANFvS9wsEQdTyUGHvMMirMzNQEoQ1Q3EQYIMaAjTgEALw_wcB)  or [PingCastle](https://www.pingcastle.com/download/)
 * **EASM**: External Asset Security Monitoring / External Attack Surface Management:
-  * My recommendations: [Intrinsec (in French)](https://www.intrinsec.com/monitoring-cyber/), [Mandiant](https://www.mandiant.fr/advantage/attack-surface-management), [Microsoft EASM](https://learn.microsoft.com/en-us/azure/external-attack-surface-management/)
+  * My recommendations: [Intrinsec (in French)](https://www.intrinsec.com/monitoring-cyber/), [Mandiant](https://www.mandiant.fr/advantage/attack-surface-management), [Qualys EASM](https://www.qualys.com/apps/external-attack-surface-management/)
   * for a security check-up:
      * quick security assessment of your website: [ImmuniWeb](https://www.immuniweb.com/websec/)
      * AWS/Azure/GCP security assessment (community tool): [ScootSuite](https://github.com/nccgroup/ScoutSuite)
@@ -157,9 +157,13 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
 ## Critical tools for CSIRT
 * Compromise assessment tools:
   * My recommendations:
-    * Paid ones: [Thor Cloud lite](https://www.nextron-systems.com/2023/10/30/introducing-thor-cloud-lite-seamless-on-demand-security-scanning-made-easy/), [WithSecure Elements EDR](https://www.withsecure.com/us-en/solutions/software-and-services/elements-endpoint-detection-and-response)
+    * Paid ones:
+      * [Thor Cloud lite](https://www.nextron-systems.com/2023/10/30/introducing-thor-cloud-lite-seamless-on-demand-security-scanning-made-easy/);
+      * [WithSecure Elements EDR](https://www.withsecure.com/us-en/solutions/software-and-services/elements-endpoint-detection-and-response);
     * free ones:
-       * for Linux: WithSecure [Cat-Scale](https://labs.withsecure.com/tools/cat-scale-linux-incident-response-collection), [UAC](https://github.com/tclahr/uac).
+       * for Linux:
+         * WithSecure [Cat-Scale](https://labs.withsecure.com/tools/cat-scale-linux-incident-response-collection);
+         * [UAC](https://github.com/tclahr/uac);
        * for Windows:
           * simple but efficient ESET [Sysinspector](https://www.eset.com/int/support/sysinspector/);
           * [Velociraptor](https://docs.velociraptor.app/docs/);
