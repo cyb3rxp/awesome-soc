@@ -1,4 +1,4 @@
-![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/91166d32-de35-4564-9b23-9aace5b1999a)# SOC/CSIRT Basic and fundamental concepts
+# SOC/CSIRT Basic and fundamental concepts
 
 # ToC
 
@@ -48,7 +48,7 @@ As per [ENISA's whitepaper](https://www.enisa.europa.eu/publications/how-to-set-
 
 ## SOC vs. CSIRT vs. ISAC vs. PSIRT
 
-As per [this article on LinkedIn](https://www.linkedin.com/pulse/csirt-soc-isac-psirt-definitions)
+As per [this article on LinkedIn](https://www.linkedin.com/pulse/csirt-soc-isac-psirt-definitions):
 
 ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/4ba54685-6140-40f4-8f16-8d9996faf318)
 
@@ -101,14 +101,14 @@ Quoting [Lutessa (article in French)](https://www.lutessa.com/?p=5524):
 ![image](https://user-images.githubusercontent.com/16035152/186768852-464d6e3b-1081-45ff-b0bf-0c21ea54dcaf.png)
 
 
-# Attack lifecycle
+# What is an attack lifecycle?
 
 As per [Mandiant article](https://www.mandiant.com/resources/insights/targeted-attack-lifecycle):
 
 ![image](https://user-images.githubusercontent.com/16035152/186893725-9da9c798-128b-416e-b93e-42cbf30baced.png)
 
 
-# Most common infection vectors
+# What are the most common infection vectors?
 
 Based on experience, and on numerous malware statistics, the following ones should be considered as priority:
 * emails;
@@ -117,7 +117,7 @@ Based on experience, and on numerous malware statistics, the following ones shou
 * exposed (internet facing) services/apps and equipments (e.g.: appliances)
  
 
-# Difference between antivirus and EDR
+# What are the differences between antivirus and EDR?
 
 | Capability | Antivirus (part of EPP) | EDR |
 |---|---|---|
@@ -138,7 +138,7 @@ Based on experience, and on numerous malware statistics, the following ones shou
 
 
 
-# EDR / MDR / NDR / XDR
+# EDR / MDR / NDR / XDR ?
 
 I would recommend [this article](https://www.esecurityplanet.com/threats/xdr-emerges-as-a-key-next-generation-security-tool/) and picture: ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/8be478d7-dfb5-4627-9a04-e31b6e92826e)
 
