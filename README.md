@@ -153,7 +153,8 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
        * For MS Entra ID & M365:
          * [Semperis Purple Knight](https://www.purple-knight.com/active-directory-security-tool/);
          * simple but efficient [ADRecon](https://github.com/tomwechsler/Active_Directory_Advanced_Threat_Hunting/blob/main/Different_hunting_methods/In-depth_investigation_active_directory.md);
-         * [365Inspect](https://github.com/soteria-security/365Inspect).
+         * [365Inspect](https://github.com/soteria-security/365Inspect);
+         * [Azure AD Incident Response Powershell](https://github.com/reprise99/kql-for-dfir/tree/main/Azure%20Active%20Directory)
        * For Azure / GCP / AWS:
          * [ScootSuite](https://github.com/nccgroup/ScoutSuite)
 * On-demand volatile data collection tool:
