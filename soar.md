@@ -23,15 +23,19 @@ As per [Gartner definition](https://securityboulevard.com/2021/08/gartner-soar-m
 
 ![image](https://user-images.githubusercontent.com/16035152/186781422-ebb3996a-da66-4d27-a55f-6065fa84fca5.png)
 
-Hence 3 critical tools (see above): SIRP, TIP, SOA, on top of SIEM.
+Hence the statement that **SOAR is in fact made of 3 critical tools** (see drawing above): 
+* SIRP;
+* TIP;
+* SOA.
+And on top of taht, SIEM.
 
-And in my view, SOAR is more an approach, a vision, based on technology and processes, than a technology or tool per say. 
+And in my view, **SOAR is more an approach, a vision, based on technology and processes**, than a technology or a tool per say. 
 
 More especially, SOAR mainly aims at:
 * reducing human error;
 * offloading repetitive and valueless tasks for humans, to an automate (security orchestrator);
 * improving integration between tools (thanks to API);
-* increasing performance of SOC/CERT teams (higher workload with the same teams) and processes (quicker processes runs);
+* increasing performance of SOC/CERT teams (higher workload with the same team size), constant quality, and improved processes (quicker processes runs);
 
 
 
