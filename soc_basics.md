@@ -1,4 +1,4 @@
-# SOC/CSIRT Basic and fundamental concepts
+![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/91166d32-de35-4564-9b23-9aace5b1999a)# SOC/CSIRT Basic and fundamental concepts
 
 # ToC
 
@@ -45,6 +45,14 @@ As per [ENISA's whitepaper](https://www.enisa.europa.eu/publications/how-to-set-
 
 ![image](https://user-images.githubusercontent.com/16035152/203086113-2b994d1f-9a27-4cad-8ad2-8da4166366a7.png)
 
+
+## SOC vs. CSIRT vs. ISAC vs. PSIRT
+
+As per [this article on LinkedIn](https://www.linkedin.com/pulse/csirt-soc-isac-psirt-definitions)
+
+![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/4ba54685-6140-40f4-8f16-8d9996faf318)
+
+![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/70f02d66-7f28-4b80-9b43-29b90355b925)
 
 
 # What is a SIEM? What for?
