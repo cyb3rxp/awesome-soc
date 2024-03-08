@@ -47,3 +47,10 @@
 ### Conteneurs
 
 * ANSSI, [Recommandations de sécurité relatives au déploiement de conteneurs Docker](https://cyber.gouv.fr/publications/recommandations-de-securite-relatives-au-deploiement-de-conteneurs-docker)
+
+## Veille juridique & règlementaire
+
+### NIS2 :
+
+* Sekoia, [webinaire NIS2](https://www.youtube.com/watch?v=78KIo3iXjow)
+
