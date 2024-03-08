@@ -74,7 +74,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 ## Concepts, tools, missions, attack lifecycle, red/blue/purple teams
 See: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md).
 
-## SOC and CSIRT core
+## SOC core
 
 ### From logs to alerts: global generic workflow
 
@@ -85,7 +85,7 @@ Quoted from [this article](https://www.managedsentinel.com/siem-traditional-vs-c
 Following the arrows, we go from log data sources to data management layer, to then data enrichment layer (where detection happens), to end-up in behavior analytics or at user interaction layer (alerts, threat hunting...). All of that being enabled and supported by automation.
 
 
-### SOC/CSIRT architecture of detection
+### SOC architecture of detection
 Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that I've slightly modified, here is an example of architecture of detection (SIEM, SIRP, TIP interconnections) and workflow:
 ![image](https://user-images.githubusercontent.com/16035152/207597681-22c9da6d-d430-4660-b807-3e86138a0d9c.png)
 
