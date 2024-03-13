@@ -71,7 +71,7 @@ Version: 0.1 as of 03/13/2024
 
 # 6) Antispam checks
 
-* Check in the antispam policy the emails and domains that are set as Blocked or Allow Senders, are legitime. 
+* Check in the antispam policy the emails and domains that are set as Blocked or Allow Senders: are they valid and legitimate?
 
 
 # Protective (recommended!) measures during investigation (incident response time)
@@ -93,6 +93,8 @@ Version: 0.1 as of 03/13/2024
   * check "Enforce custom list" is being set to "Yes".
 
 ## Exchange Online
+* Block antispam bypass with the following PS commandline for all mailboxes
+  > set-Mailbox -AntispamBypassEnabled $false
 * Enable quarantine for high-confidence phishings;
   *  Check that "High confidence phishing" is being set to "Quarantine Message".
 * Enable anti-phishing first contact tip;
