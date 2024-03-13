@@ -21,17 +21,18 @@ Version: 0.1 as of 03/13/2024
      * if possible, disable them or at least, reset their password and enable MFA.
 
 
-# 2) Generic authentication settings/events checks
+# 2) Generic authentication and configuration checks
 
 ## Modern authentication
 * Check that modern authentication is enabled;
   * if no, enable it with the following PS command:
     > Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
 
-## Risky sign-ins
-* Review all the reported risky sign-ins [MS Entra ID console link](https://portal.azure.com/#view/Microsoft_AAD_IAM/RiskySignInsBlade);
-  * if any real suspicion of a compromise, reset user password and enable MFA.
-
+## Run a scan with relevant tools:
+   * [Semperis Purple Knight](https://www.purple-knight.com/active-directory-security-tool/);
+       * review in priority any item reported as "IOC" in the report.
+   * [365Inspect](https://github.com/soteria-security/365Inspect)
+   * [Sparrow](https://github.com/cisagov/Sparrow)
 
 
 # 3) User checks
@@ -39,6 +40,9 @@ Version: 0.1 as of 03/13/2024
 ## Risk detections
 * Review all the reported risks in Entra ID [MS Entra ID console link](https://portal.azure.com/#view/Microsoft_AAD_IAM/RiskDetectionsBlade)
 
+## Risky sign-ins
+* Review all the reported risky sign-ins [MS Entra ID console link](https://portal.azure.com/#view/Microsoft_AAD_IAM/RiskySignInsBlade);
+  * if any real suspicion of a compromise, reset user password and enable MFA.
 
 ## Guests
 * Check Guest user permissions is being set to: "Guest user access is restricted to properties and memberships of their own directory objects (most restrictive)"
@@ -47,7 +51,6 @@ Version: 0.1 as of 03/13/2024
 ## Password compromise
 * If there are user accounts that were identified as potentially compromised, search for password compromise for their email addresses on: [HaveIBeenPwned](https://haveibeenpwned.com/Passwords)
   * reset password for any user that was found in the results.
-
 
 # 4) DNS domains checks
 * Check all "custom domains names" in Entra ID:
@@ -74,6 +77,8 @@ Version: 0.1 as of 03/13/2024
 # 6) Antispam checks
 
 * Check in the antispam policy the emails and domains that are set as Blocked or Allow Senders: are they valid and legitimate?
+
+# 7) 
 
 
 # Protective (recommended!) measures during investigation (incident response time)
