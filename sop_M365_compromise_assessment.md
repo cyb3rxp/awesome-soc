@@ -88,13 +88,16 @@ Version: 0.1 as of 03/13/2024
 * implement banned password list in [MS Entra ID console](https://portal.azure.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/PasswordProtection)
    * you may find a top 1000 worst passwords on Google or [here](https://gitlab.com/kalilinux/packages/seclists/-/tree/kali/master/Passwords/Common-Credentials) :)
 * Enable protective Conditional access policies in [Entra ID console](https://portal.azure.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Overview):
+  * require a password change for high risk usersn, see [MS documentation](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-policy-risk-user)
+  * require MFA when sign-in risk has been identified, see [MS documentation](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-policy-risk)
   * risky sign-in location:
     * if the investigated organisation is located within a designated country, and its employees are not supposed to travel the world: implement a conditional access that will deny sign-ins from countries different from one where the organisation is located (you may need to define your trusted locations in ["named locations"](https://portal.azure.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/NamedLocations), and use it then in your policy).
     * else, implement a conditional access that will force MFA for sign-ins that occur outside the main country where the organisation is located.
   * enforce MFA for all admin access (you may want to use the template "Require multifactor authentication for admins");
   * enforce MFA for Azure management (you may want to use the template "Require multifactor authentication for Azure management");
   * block persistent browser sessions (you may want to use the template "No persistent browser session"), with a max number of days set to 7 (or 30 if you can't do better).
-* "Password protection":
+   
+* Password protection:
   * check "Lockout threshold" is being set to a value (something like 50)
   * check "Lockout duration in seconds" is being set to a value (something like 60)
   * check "Enforce custom list" is being set to "Yes".
