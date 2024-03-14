@@ -2,7 +2,7 @@
 
 All main steps of the SOP may not be always required, and depending on the context, one may want to go through the end of the SOP anyhow after a detection, or not. 
 
-Version: 0.1 as of 03/13/2024
+Version: 0.2 as of 03/14/2024
 
 # 1) Admin check
 
@@ -76,6 +76,8 @@ Version: 0.1 as of 03/13/2024
       * Service Principals Found on Tenant with Certificate Credentials
       * Service Principals Found on Tenant with Client Secret (Password) Credentials
 
+## Global checks workflow
+* Follow the Microsoft recommended workflow for Azure applications compromise: https://learn.microsoft.com/en-us/security/operations/incident-response-playbook-compromised-malicious-app
    
 
 # 5) Data exfiltration check
