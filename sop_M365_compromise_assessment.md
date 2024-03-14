@@ -8,9 +8,9 @@ Version: 0.2 as of 03/14/2024
 
 ## List users having privileged roles (Entra ID)
 * Run a scan with [365Inspect](https://github.com/soteria-security/365Inspect):
-  * Check Users found in Azure AD Roles:
+  * Check users found in Azure AD Roles membership extraction:
     * Check that there are at least 2 users having "global administrator" role for redundancy and recovery purposes;
-    * Check that they are all legitimate (known admins, that do require such high privileges);
+    * Check that they are all legitimate (known admins, that do require such high privileges) and active;
     * Check that they all have MFA enabled.
 
 ## Check sessions (Entra ID)
