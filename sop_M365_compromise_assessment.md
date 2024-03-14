@@ -62,14 +62,9 @@ Version: 0.1 as of 03/13/2024
   * Check Exchange mailboxes with SendAs delegates;
   * Check Exchange mailboxes with SendOnBehalfOf delegates 
 
-# 4) DNS domains checks
-* Check all "custom domains names" in Entra ID:
-  * TXT records;
-  * MX records.
 
 
-
-# 5) Applications checks
+# 4) Applications checks
 
 ## Security settings
 * Run a scan with [365Inspect](https://github.com/soteria-security/365Inspect):
@@ -83,7 +78,7 @@ Version: 0.1 as of 03/13/2024
 
    
 
-# 6) Data exfiltration check
+# 5) Data exfiltration check
 
 ## Exchange Online
 * Check the "Auto forwarded message report": [MS Exchange Admin Console link](https://admin.exchange.microsoft.com/#/reports/autoforwardedmessages);
@@ -101,12 +96,18 @@ Version: 0.1 as of 03/13/2024
   * Check Third Party File Sharing Enabled in Microsoft Teams policy
   * Check Microsoft Teams Policies Allow Anonymous Members policy
 
+
+## DNS domains checks
+* Check all "custom domains names" in Entra ID:
+  * TXT records;
+  * MX records.
+
+
+
 # 6) Antispam checks
 
 * Check in the antispam policy the emails and domains that are set as Blocked or Allow Senders: are they valid and legitimate?
 * Check in the anti-spoofing policy the entities allowed to Perform domain spoofing
-
-# 7) 
 
 
 # Protective (recommended!) measures during investigation (incident response time)
