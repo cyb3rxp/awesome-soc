@@ -2,6 +2,8 @@
 
 All main steps of the SOP may not be always required, and depending on the context, one may want to go through the end of the SOP anyhow after a detection, or not. 
 
+Be aware that this procedure may take hours if not days, and is quite non-predictable in terms of required time!
+
 Version: 0.2 as of 03/14/2024
 
 # 1) Admin check
@@ -153,7 +155,6 @@ Version: 0.2 as of 03/14/2024
 
 
 
-Be aware that this analysis step may require hours if not days, and is quite non-predictable in terms of required time!
 
 
 # END
