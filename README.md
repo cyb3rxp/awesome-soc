@@ -155,7 +155,7 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
    
 
 ## Critical tools for CSIRT
-* Compromise assessment tools:
+* **Compromise assessment tools**:
   * My recommendations:
     * Paid ones:
       * [Thor Cloud lite](https://www.nextron-systems.com/2023/10/30/introducing-thor-cloud-lite-seamless-on-demand-security-scanning-made-easy/);
@@ -178,20 +178,20 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
          * [Azure AD Incident Response Powershell](https://github.com/reprise99/kql-for-dfir/tree/main/Azure%20Active%20Directory)
        * For Azure / GCP / AWS:
          * [ScootSuite](https://github.com/nccgroup/ScoutSuite)
-* On-demand volatile data collection tool:
+* **On-demand volatile data collection tool**:
   * My recommendations: [FastIR](https://github.com/OWNsecurity/fastir_artifacts), [VARC](https://github.com/cado-security/varc), [FireEye Redline](https://fireeye.market/apps/211364), [DFIR-ORC](https://github.com/dfir-orc);
-* Remote action capable tools (ie.: remote shell or equivalent):
+* **Remote action capable tools (ie.: remote shell or equivalent)**:
   * My recommendations: [CIMSweep](https://github.com/mattifestation/CimSweep), [Velociraptor](https://docs.velociraptor.app/docs/deployment/), [CrowdStrike Falcon Toolkit](https://github.com/CrowdStrike/Falcon-Toolkit) but it relies on CrowdStrike EDR, [GRR](https://github.com/google/grr) but it needs an agent to be installed.
-* On-demand sandbox:
+* **On-demand sandbox**:
   * My recommendations for online ones: [Joe's sandbox](https://www.joesandbox.com/#windows), [Hybrid Analysis](https://www.hybrid-analysis.com/), etc;
   * My recommendation for local one: Windows 10 native Sandbox, with [automation](https://megamorf.gitlab.io/2020/07/19/automating-the-windows-sandbox/).
-* Forensics and reverse-engineering tools suite:
+* **Forensics and reverse-engineering tools suite**:
   * My recommendations: [SIFT Workstation](https://www.sans.org/tools/sift-workstation/), or [Tsurugi](https://tsurugi-linux.org/);
   * My recommendation for reverse engineering and malware analysis, under Windows: [FireEye Flare-VM](https://github.com/mandiant/flare-vm);
   * My recommendation for pure malware analysis, under Linux: [Remnux](https://remnux.org/).
-* Incident tracker: 
+* **Incident maangement tracker**: 
   * My recommendations: [Timesketch](https://timesketch.org/), [DFIR IRIS](https://dfir-iris.org/)
-* Scanners:
+* **Scanners**:
   * IOC scanners:
     * My recommendations: [Loki](https://github.com/Neo23x0/Loki), [DFIR-ORC](https://github.com/dfir-orc)
     * For smartphones: [Tiny Check](https://github.com/KasperskyLab/TinyCheck)
@@ -203,19 +203,19 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
     * and those listed here, [Awesome threat intel](https://github.com/hslatman/awesome-threat-intelligence)
   * Offline antimalware scanners:
     * My recommendation: [Windows Defender Offline](https://support.microsoft.com/en-us/windows/help-protect-my-pc-with-microsoft-defender-offline-9306d528-64bf-4668-5b80-ff533f183d6c), [ESET SysRecue](https://www.eset.com/int/support/sysrescue/)
-* Logs analyzers with detection capabilities:
+* **Logs analyzers with detection capabilities**:
     * My recommendations: [CrowdSec](https://doc.crowdsec.net/docs/user_guides/replay_mode), [Sekoia XDR](https://www.sekoia.io/en/product/xdr/), [DeepBlue](https://github.com/sans-blue-team/DeepBlueCLI)
       
 ## Other critical tools for a SOC and a CERT/CSIRT
-* Data analysis tools:
+* **Data analysis tools**:
   * My recommendations: [CyberChef](https://github.com/NextronSystems/CyberChef), [Notepad++](https://notepad-plus-plus.org/downloads/)
-* Admin tools: 
+* **Admin tools**: 
   * My recommendations: [Azure AD Internals suite](https://aadinternals.com/), [SysInternals Suite](https://learn.microsoft.com/fr-fr/sysinternals/downloads/sysinternals-suite)
-* Internal ticketing system (NB: **not** SIRP, not for incident response!):
+* **Internal ticketing system** (NB: **not** SIRP, not for incident response!):
   * My recommendation: [GitLab](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/sec-incident-response.html)
-* Knowledge sharing and management tool:
+* **Knowledge sharing and management tool**:
   * My recommendations: [Microsoft SharePoint](https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration), Wiki (choose the one you prefer, or [use GitLab as a Wiki](https://docs.gitlab.com/ee/user/project/wiki/)).
-* Vizualization tool for OSINT search and IOC:
+* **Vizualization tool for OSINT search and IOC**:
   * My recommendation: [OSINTracker](https://app.osintracker.com/)
 
 
