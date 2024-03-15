@@ -124,13 +124,20 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
 ## Certifications
 
 ### Free certifications:
+* LetsDefend, [SOC Fundamentals](https://app.letsdefend.io/training/lessons/soc-fundamentals)
+* PaloAlto, [PAN, Fundamentals of SOC](https://beacon.paloaltonetworks.com/student/path/521672-the-fundamentals-of-soc-security-operations-center).
 * CrowdSec, [cybersecurity fundamentals](https://academy.crowdsec.net/course/cybersecurity-fundamentals)
-* RecordedFuture, [Threat Intelligence Fundamentals](https://university.recordedfuture.com/page/intelligence-fundamentals-certification)
 * FIRST, [CVSS v4](https://learn.first.org/catalog/info/id:126)
-* Microsoft, [Microsoft Sentinel Ninja](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR1irKnVJZ_RBhccteqa39A9UN08wTjY4MzROVDhUUFRZRTgwME1HSUlFQS4u).
-* Amazon, [AWS Security Fundamentals](https://aws.amazon.com/training/digital/aws-security-fundamentals/?nc1=h_ls).
 * PaloAlto, [Fundamentals of network security](https://beacon.paloaltonetworks.com/student/path/673504/activity/726463).
-* PaloALto, [PAN, Fundamentals of SOC](https://beacon.paloaltonetworks.com/student/path/521672-the-fundamentals-of-soc-security-operations-center).
+* Cybrary, [Log analysis](https://app.cybrary.it/browse/assessment/log-analysis)
+* Cybrary, [Host analysis](https://app.cybrary.it/browse/assessment/host-analysis)
+* Cybrary, [Digital forensics](https://app.cybrary.it/browse/assessment/digital-forensics)
+* Cybrary, [Network communication analysis](https://app.cybrary.it/browse/assessment/network-traffic-analysis)
+* Cybrary, [CyberSecurity Fundamentals](https://app.cybrary.it/browse/assessment/cybersecurity-fundamentals)
+* Cybrary, [Defensive Security Fundamentals](https://app.cybrary.it/browse/assessment/defensive-security-fundamentals) 
+* Microsoft, [Microsoft Sentinel Ninja](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR1irKnVJZ_RBhccteqa39A9UN08wTjY4MzROVDhUUFRZRTgwME1HSUlFQS4u).
+* Amazon, [AWS Security Fundamentals](https://aws.amazon.com/training/digital/aws-security-fundamentals/?nc1=h_ls)
+
 
 ### Paid certifications:
 * BlueTeamLabs, [BTL](https://securityblue.team/why-btl1/) (level 1 & 2).
@@ -150,6 +157,7 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
 
 
 Not working anymore ATOW: EthicalHackersAcademy, [SOC & SIEM Security program: L1, L2, L3](https://ethicalhackersacademy.com/products/soc-siem-security-training-program?_pos=1&_sid=b1d241af4&_ss=r).
+
 
 # Recommended CERT/CSIRT trainings
 
@@ -179,6 +187,17 @@ Not working anymore ATOW: EthicalHackersAcademy, [SOC & SIEM Security program: L
 * CrowdSec, [CrowdSec Fundamentals](https://academy.crowdsec.net/course/crowdsec-fundamentals)  [free]
 * Splunk, [Core User](https://education.splunk.com/single-subject-courses?_ga=2.213139857.446951445.1644415141-362195814.1644415141).
 
+
+
+# Recommended CTI trainings
+
+## Certifications 
+* RecordedFuture, [Cyber Threat Intelligence Fundamentals](https://university.recordedfuture.com/page/intelligence-fundamentals-certification)  
+
+# Recommended VOC (Vulnerability management) trainings
+
+## Certifications
+* XM Cyber, [Exposure Management Certification](https://xm-cyber.thinkific.com/courses/take/exposure-management-certification)
 
 
 
