@@ -124,8 +124,8 @@ Version: 0.2 as of 03/14/2024
   * require a password change for high risk users, see [MS documentation](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-policy-risk-user)
   * require MFA when sign-in risk has been identified, see [MS documentation](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-policy-risk)
   * risky sign-in location:
-    * if the investigated organisation is located within a designated country, and its employees are not supposed to travel the world: implement a conditional access that will deny sign-ins from countries different from one where the organisation is located (you may need to define your trusted locations in ["named locations"](https://portal.azure.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/NamedLocations), and use it then in your policy).
-    * else, implement a conditional access that will force MFA for sign-ins that occur outside the main country where the organisation is located.
+    * if the investigated organization is located within a designated country, and its employees are not supposed to travel the world: implement a conditional access that will deny sign-ins from countries different from one where the organization is located (you may need to define your trusted locations in ["named locations"](https://portal.azure.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/NamedLocations), and use it then in your policy).
+    * else, implement a conditional access that will force MFA for sign-ins that occur outside the main country where the organization is located.
   * enforce MFA for all admin access (you may want to use the template "Require multifactor authentication for admins");
   * enforce MFA for Azure management (you may want to use the template "Require multifactor authentication for Azure management");
   * block persistent browser sessions (you may want to use the template "No persistent browser session"), with a max number of days set to 7 (or 30 if you can't do better).
@@ -142,7 +142,7 @@ Version: 0.2 as of 03/14/2024
   *  Check that "High confidence phishing" is being set to "Quarantine Message".
 * Enable anti-phishing first contact tip;
   * in the anti-phishing policy, "Edit actions", check that "Show first contact safety tip (Recommended)" is enabled.
-* Enable mailbox auditing for potentiel further investigation with the following PS command:
+* Enable mailbox auditing for a potential further investigation with the following PS command:
 > Set-OrganizationConfig -AuditDisabled $false
 * Block auditing bypass for admin/VIP/VOP users' mailboxes, with the following PS command:
 > Set-MailboxAuditBypassAssociation -Identity "<Identity>" -AuditBypassEnabled $false
