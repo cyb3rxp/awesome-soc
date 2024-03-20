@@ -4,7 +4,7 @@ All main steps of the SOP may not be always required, and depending on the conte
 
 Be aware that this procedure may take hours if not days, and is quite non-predictable in terms of required time!
 
-Version: 0.2 as of 03/14/2024
+Version: 0.3 as of 03/20/2024
 
 # 1) Admin check
 
@@ -42,11 +42,13 @@ Version: 0.2 as of 03/14/2024
 # 3) User/mailbox checks
 
 ## Risk detections
-* Review all the reported risks in Entra ID [MS Entra ID console link](https://portal.azure.com/#view/Microsoft_AAD_IAM/RiskDetectionsBlade)
+* Review all the reported risks in Entra ID [MS Entra ID console link](https://portal.azure.com/#view/Microsoft_AAD_IAM/RiskDetectionsBlade);
+  - you may want to use this [Azure script](https://github.com/AzureAD/IdentityProtectionTools).
 
 ## Risky sign-ins
 * Review all the reported risky sign-ins [MS Entra ID console link](https://portal.azure.com/#view/Microsoft_AAD_IAM/RiskySignInsBlade);
-  * if any real suspicion of a compromise, reset user password and enable MFA.
+  - if any real suspicion of a compromise, reset user password and enable MFA;
+  - you may want to use this [Azure script](https://github.com/AzureAD/IdentityProtectionTools).
 
 ## Guests
 * Check Guest user permissions is being set to: "Guest user access is restricted to properties and memberships of their own directory objects (most restrictive)";
