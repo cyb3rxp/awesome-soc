@@ -172,6 +172,7 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
        * For AD: 
          * [Semperis Purple Knight](https://www.purple-knight.com/active-directory-security-tool/);
        * For MS Entra ID & M365:
+         * [CrowdStrike Reporting Tool for Azure](https://github.com/CrowdStrike/CRT)
          * [Semperis Purple Knight](https://www.purple-knight.com/active-directory-security-tool/);
          * simple but efficient [ADRecon](https://github.com/tomwechsler/Active_Directory_Advanced_Threat_Hunting/blob/main/Different_hunting_methods/In-depth_investigation_active_directory.md);
          * [365Inspect](https://github.com/soteria-security/365Inspect);
