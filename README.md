@@ -171,11 +171,12 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
           * [DFIR-ORC](https://github.com/dfir-orc);
           * [Sysmon](https://learn.microsoft.com/fr-fr/sysinternals/downloads/sysmon) (install it, let it run for a few hours/days, then investigate its log), with [Olaf Hartong's config](https://github.com/olafhartong/sysmon-modular/blob/master/sysmonconfig.xml);
        * For AD: 
+         * simple but efficient [ADRecon](https://github.com/tomwechsler/Active_Directory_Advanced_Threat_Hunting/blob/main/Different_hunting_methods/In-depth_investigation_active_directory.md);
          * [Semperis Purple Knight](https://www.purple-knight.com/active-directory-security-tool/);
+         * [BloodHound Community](https://github.com/SpecterOps/BloodHound)
        * For MS Entra ID & M365:
          * [CrowdStrike Reporting Tool for Azure](https://github.com/CrowdStrike/CRT)
          * [Semperis Purple Knight](https://www.purple-knight.com/active-directory-security-tool/);
-         * simple but efficient [ADRecon](https://github.com/tomwechsler/Active_Directory_Advanced_Threat_Hunting/blob/main/Different_hunting_methods/In-depth_investigation_active_directory.md);
          * [365Inspect](https://github.com/soteria-security/365Inspect);
          * [Azure AD Incident Response Powershell](https://github.com/reprise99/kql-for-dfir/tree/main/Azure%20Active%20Directory)
        * For Azure / GCP / AWS:
