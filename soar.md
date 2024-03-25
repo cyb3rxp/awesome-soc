@@ -82,7 +82,7 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
 * Reset an AD account password.
 * Disable an AD account (both user and computer, since computer account disabling will block authentication with any AD account on the endpoint, thus preventing from lateral movement or priv escalation).
 * Report a (undetected) sample to security vendors, via email. Here are a few addresses, in case of: 
-  * Files samples (to be attached in a password-protected Zip file, with 'infected' as password): samples@eset.com, report@sentinelone.com, virus_submission@bitdefender.com, vsamples@f-secure.com, virus_malware@avira.com, submitvirus@fortinet.com, virus_research@avertlabs.com, virus_doctor@trendmicro.com
+  * Files samples (to be attached in a password-protected Zip file, with 'infected' as password): samples@eset.com, report@sentinelone.com, virus_submission@bitdefender.com, vsamples@f-secure.com, virus@avira.com, submitvirus@fortinet.com, virus_research@avertlabs.com, virus_doctor@trendmicro.com
   * URL/IP samples: samples@eset.com, report@sentinelone.com, virus_submission@bitdefender.com, phishing-samples@email-samples.withsecure.com, phish@office365.microsoft.com, report@openphish.com, reportphishing@apple.com, abuse@clean-mx.de, datasubmission@mcafee.com
 * Report a false positive to security vendors, via email;
   * You may want to have a look at [this page](https://github.com/yaronelh/False-Positive-Center) to know the required email address;
