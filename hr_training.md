@@ -47,7 +47,8 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
 * [ENISA trainings](https://www.enisa.europa.eu/topics/trainings-for-cybersecurity-specialists/online-training-material); [free]
 * Active Directory specifics:
    * train on AD specific attacks, [Orange Cyberdefense GOAD](https://github.com/Orange-Cyberdefense/GOAD) [free];
-     * Populate AD with "real life" objects, in an automated way, [Badblood](https://github.com/davidprowe/badblood)
+     * Populate AD with "real life" objects, in an automated way, [Badblood](https://github.com/davidprowe/badblood).
+* Microsoft, [NIS2 webinar](https://info.microsoft.com/CE-NoGEP-VDEO-FY24-10Oct-09-What-is-NIS20-and-how-to-prepare-your-organization-and-customers-for-it-SREVM23845_LP02-Thank-You---Standard-Hero.html)
 
 ## Challenges
 * [**BlueTeamLabs** challenges and investigations](https://blueteamlabs.online/home/challenges), here are a few free trainings that I recommend:
