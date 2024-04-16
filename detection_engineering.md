@@ -14,6 +14,12 @@ This page deals with SOC detection engineering and management (detection use cas
 
 
 # Must read
+* MITRE, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/a99cf732-34ce-47a8-bbb9-ca5afc101d4d), Strategy 7, pages 101-123
+* MITRE, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/95c8157e-6a6a-427c-b657-7718ff6a5619), Strategy 8, pages 101-123
+* MITRE, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/8da93e9f-d1c7-4e02-a907-597fc7237111), Strategy 11, pages 101-123
+
+
+
 ## Threat statistics/trends 
 * MITRE, [top TTP for ransomwares](https://top-attack-techniques.mitre-engenuity.org/)
 * Splunk, [Top 50 cybersecurity threats](https://www.splunk.com/content/dam/splunk2/en_us/gated/ebooks/top-50-cybersecurity-threats.pdf)
