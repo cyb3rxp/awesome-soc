@@ -23,6 +23,20 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 
 # Must read
 
+## MITRE references
+* MITRE, [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 8, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/8f024318-824b-4541-9692-7e65d786fd48)
+* MITRE, [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 5, pages 101-123,
+![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/50290a9d-01f0-4ef6-8cd9-59861ac1f521)
+![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/2c0da40d-04d2-40b2-9307-2a886ec7eefa)
+* MITRE, [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 6, pages 101-123,
+![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/7c8a4475-8919-4279-b1c2-e210843c9768)
+* MITRE, [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 7, pages 101-123,
+![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/dd2feefa-b319-4e35-be4a-020aee677b9b)
+
+
+
+
+
 ## For a SOC
 * SOC build:
   * MITRE, [11 strategies for a world-class SOC](https://www.mitre.org/publications/technical-papers/11-strategies-world-class-cybersecurity-operations-center) (or use [local file](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf)): part 0 (Fundamentals).
