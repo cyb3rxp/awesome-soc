@@ -4,7 +4,7 @@ This page deals with SOC and CERT management
 # Table of Content
 
 * [Must read](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#must-read)
-* [Challenges after pandemic](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#challenges-after-pandemic)
+* [Challenges](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#challenges)
 * [SOC organization](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#soc-organization)
 * [CSIRT organization](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#csirt-organization)
 * [TTP knowledge base reference](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#ttp-attack-methods-knowledge-base-reference)
