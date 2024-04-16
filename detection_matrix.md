@@ -6,6 +6,11 @@ This kind of document aims at representing detection (and even response) capabil
 
 The list of those feared events is supposed to be generated or identified by security watch and/or risk analysis. See "[detection engineering page](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md#how-to-feed-the-plan-phase)" for further details.
 
+## MITRE reference
+
+* MITRE, [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 10, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/2ff550fb-4424-4489-b8fb-852eb7f9cdbf)
+
+
 ## Matrix sample
 
 This detection matrix sample leverages the "top TTP / feared events" that I recommend to consider as priority. Feel free to add/remove some events, depending on the context.
