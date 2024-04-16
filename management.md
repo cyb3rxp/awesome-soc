@@ -16,6 +16,10 @@ This page deals with SOC and CERT management
 * [To go further](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#to-go-further)
 
 # Must read
+* MITRE, [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 10, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/2ff550fb-4424-4489-b8fb-852eb7f9cdbf)
+* MITRE, [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 1, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/438fda21-06a3-4f99-b0a0-d5ee9722fbf0)
+* MITRE, [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 3, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/15dcd32a-689d-4917-a39b-d6d290b48a77)
+
 * FIRST, [Building a SOC](https://www.first.org/resources/guides/Factsheet_Building_a_SOC_start_small.pdf) 
 * NCSC, [Building a SOC](https://www.ncsc.gov.uk/collection/building-a-security-operations-centre)
 * FIRST, [CERT-in-a-box](https://www.first.org/resources/guides/cert-in-a-box.zip) 
