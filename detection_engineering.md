@@ -14,11 +14,6 @@ This page deals with SOC detection engineering and management (detection use cas
 
 
 # Must read
-* MITRE, [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 7, pages 101-123: ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/a99cf732-34ce-47a8-bbb9-ca5afc101d4d), 
-* MITRE, [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 8, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/95c8157e-6a6a-427c-b657-7718ff6a5619), 
-* MITRE, [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 11, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/8da93e9f-d1c7-4e02-a907-597fc7237111), 
-
-
 
 ## Threat statistics/trends 
 * MITRE, [top TTP for ransomwares](https://top-attack-techniques.mitre-engenuity.org/)
