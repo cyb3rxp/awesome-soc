@@ -280,8 +280,9 @@ Cf. [SOAR page](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md)
 
 ## MITRE reference
 * [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 1, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/438fda21-06a3-4f99-b0a0-d5ee9722fbf0)
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 3, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/15dcd32a-689d-4917-a39b-d6d290b48a77)
 * [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 7, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/dd2feefa-b319-4e35-be4a-020aee677b9b)
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 11, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/ac0ac1f0-e3c7-4381-baba-d9eac783a400)
+
 
 ## Dedicated page
 Cf. [detection engineering page](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md).
@@ -302,7 +303,10 @@ Cf. [threat intelligence page](https://github.com/cyb3rxp/awesome-soc/blob/main/
 ## MITRE reference
 * [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 1, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/438fda21-06a3-4f99-b0a0-d5ee9722fbf0)
 * [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 3, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/15dcd32a-689d-4917-a39b-d6d290b48a77)
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 9, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/c96da3eb-bad4-4d41-bc91-9af9f07fada8)
 * [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 10, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/2ff550fb-4424-4489-b8fb-852eb7f9cdbf)
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 11, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/ac0ac1f0-e3c7-4381-baba-d9eac783a400)
+
 
 ## Dedicated page
 Cf. [management page](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md).
