@@ -9,10 +9,6 @@
 
 # Must read/watch
 
-## MITRE references
-
-* MITRE, * MITRE, [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 6, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/e359600b-c1e9-491e-aae8-f003c7ed7a2d)
-
 ## Books/articles/recordings
 
 * Thomas Roccia, [Visual Threat Intelligence](https://www.amazon.fr/Visual-Threat-Intelligence-Illustrated-Researchers/dp/B0C7JCF8XD)
