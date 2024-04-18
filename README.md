@@ -280,8 +280,8 @@ Cf. [SOAR page](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md)
 
 ## MITRE reference
 * [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 1, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/438fda21-06a3-4f99-b0a0-d5ee9722fbf0)
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 1, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/438fda21-06a3-4f99-b0a0-d5ee9722fbf0)
 * [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 7, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/dd2feefa-b319-4e35-be4a-020aee677b9b)
-
 
 ## Dedicated page
 Cf. [detection engineering page](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md).
@@ -300,6 +300,8 @@ Cf. [threat intelligence page](https://github.com/cyb3rxp/awesome-soc/blob/main/
 # Management
 
 ## MITRE reference
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 1, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/438fda21-06a3-4f99-b0a0-d5ee9722fbf0)
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 1, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/438fda21-06a3-4f99-b0a0-d5ee9722fbf0)
 * [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 10, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/2ff550fb-4424-4489-b8fb-852eb7f9cdbf)
 
 ## Dedicated page
