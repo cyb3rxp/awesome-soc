@@ -123,9 +123,7 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
 ## MITRE references
 * [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 7, pages 101-123,
 ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/dd2feefa-b319-4e35-be4a-020aee677b9b)
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 5, pages 101-123,
-![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/50290a9d-01f0-4ef6-8cd9-59861ac1f521)
-![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/2c0da40d-04d2-40b2-9307-2a886ec7eefa)
+
 
 
 ## Critical tools for a SOC/CSIRT
