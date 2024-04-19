@@ -89,15 +89,20 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 # Fundamental concepts
 
 ## MITRE references
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 5, pages 101-123,
-![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/50290a9d-01f0-4ef6-8cd9-59861ac1f521)
-![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/2c0da40d-04d2-40b2-9307-2a886ec7eefa)
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 5: Prioritize Incident Response, pages 101-123,
+> Prepare for handling incidents by defining incident categories, response steps, and escalation
+paths, and codifying those into SOPs and playbooks. Determine the priorities of incidents for
+the organization and allocate the resources to respond. Execute response with precision and
+care toward constituency mission and business.
 
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 8, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/8f024318-824b-4541-9692-7e65d786fd48)
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 8: Leverage Tools to Support Analyst Workflow, pages 101-123,
+> Consolidate and harmonize views into tools and data and integrate them to maximize SOC
+workflow. Consider how the many SOC tools, including SIEM, UEBA, SOAR, and others fit
+in with the organization’s technical landscape, to include cloud and OT environments
 
 ## Concepts, tools, missions, attack lifecycle, red/blue/purple teams
 
-See: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md).
+See dedicated page: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md).
 
 ## SOC core
 
@@ -121,8 +126,11 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
 # Mission-critical means (tools/sensors)
 
 ## MITRE references
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 7, pages 101-123,
-![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/dd2feefa-b319-4e35-be4a-020aee677b9b)
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 7: Select and Collect the Right Data, pages 101-123,
+> Choose data by considering relative value of different data types such as sensor and log data
+collected by network and host systems, cloud resources, applications, and sensors. Consider
+the trade-offs of too little data and therefore not having the relevant information available and
+too much data such that tools and analysts become overwhelmed.
 
 
 
@@ -240,8 +248,11 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
 # IT/security Watch 
 
 ## MITRE reference
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 6, pages 101-123,
-![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/7c8a4475-8919-4279-b1c2-e210843c9768)
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 6: Illuminate Adversaries with Cyber Threat Intelligence, pages 101-123,
+> Tailor the collection and use of cyber threat intelligence by analyzing the intersection of
+adversary information, organization relevancy, and technical environment to prioritize
+defenses, monitoring, and other actions.
+
 
 ## Recommended sources
 * SIEM rules publications:
@@ -268,7 +279,11 @@ Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that
 # SOAR
 
 ## MITRE references
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 8, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/8f024318-824b-4541-9692-7e65d786fd48)
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 8: Leverage Tools to Support Analyst Workflow, pages 101-123,
+> Consolidate and harmonize views into tools and data and integrate them to maximize SOC
+workflow. Consider how the many SOC tools, including SIEM, UEBA, SOAR, and others fit
+in with the organization’s technical landscape, to include cloud and OT environments.
+
 
 ## Dedicated page
 Cf. [SOAR page](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md)
@@ -277,9 +292,23 @@ Cf. [SOAR page](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md)
 # Detection engineering
 
 ## MITRE reference
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 1, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/438fda21-06a3-4f99-b0a0-d5ee9722fbf0)
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 7, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/dd2feefa-b319-4e35-be4a-020aee677b9b)
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 11, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/ac0ac1f0-e3c7-4381-baba-d9eac783a400)
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 1: Know What You Are Protecting and Why, pages 101-123,
+> Develop situational awareness through understanding the mission; legal regulatory
+environment; technical and data environment; user, user behaviors and service interactions;
+and the threat. Prioritize gaining insights into critical systems and data and iterate understanding
+over time.
+
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 7: Select and Collect the Right Data, pages 101-123, 
+> Choose data by considering relative value of different data types such as sensor and log data
+collected by network and host systems, cloud resources, applications, and sensors. Consider
+the trade-offs of too little data and therefore not having the relevant information available and
+too much data such that tools and analysts become overwhelmed.
+
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 11: Turn up the Volume by Expanding SOC Functionality, pages 101-123,
+> Enhance SOC activities to include threat hunting, red teaming, deception, malware analysis,
+forensics, and/or tabletop exercises, once incident response is mature. Any of these can
+improve the SOCs operating ability and increase the likelihood of finding more sophisticated
+adversaries.
 
 
 ## Dedicated page
@@ -289,8 +318,10 @@ Cf. [detection engineering page](https://github.com/cyb3rxp/awesome-soc/blob/mai
 # Threat intelligence
 
 ## MITRE reference
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 6, pages 101-123,
-![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/7c8a4475-8919-4279-b1c2-e210843c9768)
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 6: Illuminate Adversaries with Cyber Threat Intelligence, pages 101-123,
+> Tailor the collection and use of cyber threat intelligence by analyzing the intersection of
+adversary information, organization relevancy, and technical environment to prioritize
+defenses, monitoring, and other actions.
 
 ## Dedicated page
 Cf. [threat intelligence page](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md).
@@ -299,11 +330,31 @@ Cf. [threat intelligence page](https://github.com/cyb3rxp/awesome-soc/blob/main/
 # Management
 
 ## MITRE reference
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 1, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/438fda21-06a3-4f99-b0a0-d5ee9722fbf0)
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 3, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/15dcd32a-689d-4917-a39b-d6d290b48a77)
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 9, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/c96da3eb-bad4-4d41-bc91-9af9f07fada8)
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 10, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/2ff550fb-4424-4489-b8fb-852eb7f9cdbf)
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 11, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/ac0ac1f0-e3c7-4381-baba-d9eac783a400)
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 1: Know What You Are Protecting and Why, pages 101-123
+> Develop situational awareness through understanding the mission; legal regulatory
+environment; technical and data environment; user, user behaviors and service interactions;
+and the threat. Prioritize gaining insights into critical systems and data and iterate understanding
+over time.
+
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 3: Build a SOC Structure to Match Your Organizational Needs, pages 101-123
+> Structure SOCs by considering the constituency, SOC functions and responsibilities, service
+availability, and any operational efficiencies gained by selecting one construct over another
+
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 9: Communicate Clearly, Collaborate Often, Share Generously, pages 101-123
+> Engage within the SOC, with stakeholders and constituents, and with the broader cyber
+community to evolve capabilities and contribute to the overall security of the broader
+community.
+
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 10: Measure Performance to Improve Performance, pages 101-123
+> Determine qualitative and quantitative measures to know what is working well, and where to
+improve. A SOC metrics program includes business objectives, data sources and collection,
+data synthesis, reporting, and decision-making and action
+
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 11: Turn up the Volume by Expanding SOC Functionality, pages 101-123
+> Enhance SOC activities to include threat hunting, red teaming, deception, malware analysis,
+forensics, and/or tabletop exercises, once incident response is mature. Any of these can
+improve the SOCs operating ability and increase the likelihood of finding more sophisticated
+adversaries.
 
 
 ## Dedicated page
@@ -313,8 +364,11 @@ Cf. [management page](https://github.com/cyb3rxp/awesome-soc/blob/main/managemen
 # HR and training
 
 ## MITRE reference
-* MITRE, [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 4, pages 101-123
-![image](https://user-images.githubusercontent.com/16035152/208257245-e481c2ad-4523-438c-9e49-a5e0999c300f.png)
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 4: Hire AND Grow Quality Staff, pages 101-123
+> Create an environment to attract the right people and encourage them to stay through career
+progression opportunities and great culture and operating environment. Plan for turnover
+and build a pipeline to hire. Consider how many personnel are needed for the different SOC
+functions.
 
 ## Dedicated page
 Cf. [HR and training page](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md).
