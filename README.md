@@ -17,7 +17,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * [Threat intelligence](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md)
 * [Management](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md)
 * [HR and training](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md)
-* [IT achitecture](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#it-achitecture)
+* [IT achitecture](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#it-achitecture-of-a-soc)
 * [To go further (next steps)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#to-go-further)
 * [Appendix](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#appendix)
 
@@ -88,23 +88,26 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 
 # Fundamental concepts
 
-## MITRE references
+## Concepts, tools, missions, attack lifecycle, red/blue/purple teams
+
+### MITRE references:
 * [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 5: Prioritize Incident Response, pages 101-123,
 > Prepare for handling incidents by defining incident categories, response steps, and escalation
 paths, and codifying those into SOPs and playbooks. Determine the priorities of incidents for
 the organization and allocate the resources to respond. Execute response with precision and
 care toward constituency mission and business.
 
+### Dedicated page
+Cf.: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md).
+
+## SOC core
+
+### MITRE references:
+
 * [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 8: Leverage Tools to Support Analyst Workflow, pages 101-123,
 > Consolidate and harmonize views into tools and data and integrate them to maximize SOC
 workflow. Consider how the many SOC tools, including SIEM, UEBA, SOAR, and others fit
 in with the organization’s technical landscape, to include cloud and OT environments
-
-## Concepts, tools, missions, attack lifecycle, red/blue/purple teams
-
-See dedicated page: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md).
-
-## SOC core
 
 ### From logs to alerts: global generic workflow
 
@@ -374,7 +377,7 @@ functions.
 Cf. [HR and training page](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md).
 
 
-# IT achitecture
+# IT achitecture of a SOC
 
 ## Have a single and centralized platform ('single console')
 
