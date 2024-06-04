@@ -171,6 +171,7 @@ Not working anymore ATOW: EthicalHackersAcademy, [SOC & SIEM Security program: L
 * A. Borges, [MAS series](https://exploitreversing.com/2021/12/03/malware-analysis-series-mas-article-1/);
 * [Hack The Box](https://www.hackthebox.com/);
 * Root-me, ["Entretien avec l'ANSSI"-named challenges](https://www.root-me.org/);
+* Sleuthkit, [Investigating data exfiltration"](https://training.dfirdiva.com/listing/investigating-data-exfiltration-basistech)
 * Embee Research, [Unpacking .Net malware](https://embee-research.ghost.io/unpacking-net-malware-with-process-hacker/).
 
 ## Certifications
@@ -186,8 +187,10 @@ Not working anymore ATOW: EthicalHackersAcademy, [SOC & SIEM Security program: L
 * SANS, [FOR610: Reverse-Engineering Malware: Malware Analysis Tools and Techniques](https://www.sans.org/cyber-security-courses/reverse-engineering-malware-malware-analysis-tools-techniques/).
   
 ### Free certifications:
+* EC-Council, [Digital Forensics Essentials](https://codered.eccouncil.org/course/digital-forensics-essentials?logged=true)
 * CrowdSec, [CrowdSec Fundamentals](https://academy.crowdsec.net/course/crowdsec-fundamentals)  [free];
 * Splunk, [Core User](https://education.splunk.com/single-subject-courses?_ga=2.213139857.446951445.1644415141-362195814.1644415141).
+
 
 
 
