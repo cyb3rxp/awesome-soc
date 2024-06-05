@@ -29,7 +29,7 @@ Some people may consider SOC has evolved in time, as the following drawing shows
 
 ![image](https://user-images.githubusercontent.com/16035152/205919783-b1ba9acc-c071-4019-b687-284e9f2ae2f2.png)
 
-I do believe it mostly depends on the context (environment t o the monitored), and the cyber maturity. And on top of that, AI (meaning Artificial Intelligence) still does not exist per say....
+I do believe it mostly depends on the context (environment to the monitored), and the cyber maturity. And on top of that, AI (meaning Artificial Intelligence) still does not exist per say....
 
 # SOC activities vs. CSIRT activities
 
