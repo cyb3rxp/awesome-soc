@@ -86,7 +86,6 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
   * https://app.letsdefend.io/challenge/IcedID-Malware-Family/;
   * https://app.letsdefend.io/challenge/shellshock-attack/;
   * https://app.letsdefend.io/challenge/phishing-email/;
-  * https://app.letsdefend.io/challenge/conti-ransomware/;
   * https://app.letsdefend.io/challenge/investigate-web-attack/;
   * https://app.letsdefend.io/challenge/infection-cobalt-strike/;
   * https://app.letsdefend.io/challenge/malicious-chrome-extension.
