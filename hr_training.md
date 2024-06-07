@@ -80,14 +80,6 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
   * https://cyberdefenders.org/blueteam-ctf-challenges/60;
   * https://cyberdefenders.org/blueteam-ctf-challenges/32;
   * https://cyberdefenders.org/blueteam-ctf-challenges/17.
-* [**LetsDefend**](https://letsdefend.io/), here are a few free trainings that I recommend:
-  * https://app.letsdefend.io/challenge/conti-ransomware/;
-  * https://app.letsdefend.io/challenge/IcedID-Malware-Family/;
-  * https://app.letsdefend.io/challenge/shellshock-attack/;
-  * https://app.letsdefend.io/challenge/phishing-email/;
-  * https://app.letsdefend.io/challenge/investigate-web-attack/;
-  * https://app.letsdefend.io/challenge/infection-cobalt-strike/;
-  * https://app.letsdefend.io/challenge/malicious-chrome-extension.
 * [SOC Vel](https://socvel.com/challenges/).
 
 ## SIEM
@@ -189,7 +181,15 @@ Not working anymore ATOW: EthicalHackersAcademy, [SOC & SIEM Security program: L
 * CrowdSec, [CrowdSec Fundamentals](https://academy.crowdsec.net/course/crowdsec-fundamentals)  [free];
 * Splunk, [Core User](https://education.splunk.com/single-subject-courses?_ga=2.213139857.446951445.1644415141-362195814.1644415141).
 
-
+### Challenges
+* [**LetsDefend**](https://letsdefend.io/), here are a few free trainings that I recommend:
+  * https://app.letsdefend.io/challenge/conti-ransomware/;
+  * https://app.letsdefend.io/challenge/IcedID-Malware-Family/;
+  * https://app.letsdefend.io/challenge/shellshock-attack/;
+  * https://app.letsdefend.io/challenge/phishing-email/;
+  * https://app.letsdefend.io/challenge/investigate-web-attack/;
+  * https://app.letsdefend.io/challenge/infection-cobalt-strike/;
+  * https://app.letsdefend.io/challenge/malicious-chrome-extension.
 
 
 # Recommended CTI trainings
