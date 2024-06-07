@@ -81,7 +81,6 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
   * https://cyberdefenders.org/blueteam-ctf-challenges/32;
   * https://cyberdefenders.org/blueteam-ctf-challenges/17.
 * [**LetsDefend**](https://letsdefend.io/), here are a few free trainings that I recommend:
-  * https://app.letsdefend.io/monitoring/alerts/;
   * https://app.letsdefend.io/challenge/conti-ransomware/;
   * https://app.letsdefend.io/challenge/IcedID-Malware-Family/;
   * https://app.letsdefend.io/challenge/shellshock-attack/;
