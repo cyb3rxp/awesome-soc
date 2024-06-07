@@ -118,10 +118,10 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
   * CTF: BOTS [free]:
     * https://cyberdefenders.org/search/labs/?q=splunk
  
-### **Microsoft Sentinel** (Defender XDR)
+### **Microsoft** (Defender XDR / Sentinel)
 
 * [Become an Azure Sentinel Ninja](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/become-a-microsoft-sentinel-ninja-the-complete-level-400/ba-p/1246310) [free];
-
+* [Incident Response with alerting on Azure](https://learn.microsoft.com/en-us/training/modules/incident-response-with-alerting-on-azure/)
 
 ## Certifications
 
