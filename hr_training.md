@@ -8,7 +8,7 @@ This page deals with SOC HR and training topics.
 * [HR roles and organization](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md#hr-roles-and-organization)
 * [Recommended SOC trainings](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md#recommended-soc-trainings)
 * [Recommended CERT/CSIRT trainings](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md#recommended-certcsirt-trainings)
-* [Recommended offesnsive security trainings](https://github.com/cyb3rxp/awesome-soc/edit/main/hr_training.md#recommended-offensive-security-trainings)
+* [Recommended offesnsive security trainings](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md#recommended-offensive-security-trainings)
 
 
 
