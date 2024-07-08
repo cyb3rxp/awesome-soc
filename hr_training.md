@@ -229,7 +229,8 @@ NB: this is mainly for red/purpleteaming activities.
 
 * SANS, [MGT512: Security Leadership Essentials for Managers](https://www.sans.org/cyber-security-courses/security-leadership-essentials-managers/);
 * SANS, [SEC450: Blue Team Fundamentals: Security Operations and Analysis](https://www.sans.org/cyber-security-courses/blue-team-fundamentals-security-operations-analysis/);
-* ISC2, [CISSP](https://www.isc2.org/certifications/cissp).
+* ISC2, [CISSP](https://www.isc2.org/certifications/cissp);
+* NIST, [Risk management framework](https://csrc.nist.gov/Projects/risk-management/rmf-courses)
 
 # To go further
 
