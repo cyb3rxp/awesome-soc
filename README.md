@@ -472,6 +472,10 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 * Dark Web monitoring (data leaks, etc.)
   * My recommendation: [AIL Framework](https://github.com/CIRCL/AIL-framework)
   * for paid SaaS solutions, I recommend to have a look at this [top 10](https://expertinsights.com/insights/the-top-dark-web-monitoring-solutions/)
+* WAF for internet-facing websites/apps:
+  * My recommendations:
+     * FOSS: [Crowdsec WAF](https://www.crowdsec.net/solutions/application-security), [Bunkerweb](https://github.com/bunkerity/bunkerweb?tab=readme-ov-file=)
+     * paid but good price: [CloudFlare](https://www.cloudflare.com/plans/)
 * (full-featured) Honeypot:
   * My recommendation: [Canary.tools](https://canary.tools/)
   * Or, have a look at [Awesome honeypots Git](https://github.com/paralax/awesome-honeypots)
