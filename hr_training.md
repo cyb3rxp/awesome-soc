@@ -18,6 +18,8 @@ This page deals with SOC HR and training topics.
 * MITRE, [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 4, pages 101-123
 ![image](https://user-images.githubusercontent.com/16035152/208257245-e481c2ad-4523-438c-9e49-a5e0999c300f.png)
 
+## Reverse engineering 
+* NATO, [reverse engineering handbook](https://www.linkedin.com/posts/julienprovenzano_malware-reverse-engineering-handbook-ugcPost-7216606319305187328-rGG2?utm_source=share&utm_medium=member_android )
 
 # HR roles and organization
 
