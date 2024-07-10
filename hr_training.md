@@ -18,8 +18,7 @@ This page deals with SOC HR and training topics.
 * MITRE, [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 4, pages 101-123
 ![image](https://user-images.githubusercontent.com/16035152/208257245-e481c2ad-4523-438c-9e49-a5e0999c300f.png)
 
-## Reverse engineering 
-* NATO, [reverse engineering handbook](https://www.linkedin.com/posts/julienprovenzano_malware-reverse-engineering-handbook-ugcPost-7216606319305187328-rGG2?utm_source=share&utm_medium=member_android )
+
 
 # HR roles and organization
 
@@ -154,6 +153,13 @@ Not working anymore ATOW: EthicalHackersAcademy, [SOC & SIEM Security program: L
 
 
 # Recommended CERT/CSIRT trainings
+
+## Must read/watch:
+* Microsoft, [New threat actor naming taxonomy](https://www.microsoft.com/en-us/security/blog/2023/04/18/microsoft-shifts-to-a-new-threat-actor-naming-taxonomy/)
+* Mariusz Banach, [Techniques Across the Kill-Chain](https://www.youtube.com/watch?v=IbA7Ung39o4)
+* DFIRReport, [Cobalt Strike Defender's guide](https://thedfirreport.com/2021/08/29/cobalt-strike-a-defenders-guide/)
+* NATO, [reverse engineering handbook](https://www.linkedin.com/posts/julienprovenzano_malware-reverse-engineering-handbook-ugcPost-7216606319305187328-rGG2?utm_source=share&utm_medium=member_android )
+
 
 ## Regular trainings & challenges [Free]
 * ENISA, [trainings](https://www.enisa.europa.eu/topics/trainings-for-cybersecurity-specialists/online-training-material);
