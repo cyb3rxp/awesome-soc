@@ -9,6 +9,10 @@ This page deals with SOC HR and training topics.
 * [Recommended SOC trainings](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md#recommended-soc-trainings)
 * [Recommended CERT/CSIRT trainings](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md#recommended-certcsirt-trainings)
 * [Recommended offesnsive security trainings](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md#recommended-offensive-security-trainings)
+* [Recommended CTI trainings](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md#recommended-cti-trainings)
+* [Recommended VOC trainings](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md#recommended-voc-vulnerability-management-trainings)
+* [Recommmend management trainings](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md#recommended-management-trainings)
+* [To go further](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md#to-go-further)
 
 
 
@@ -243,6 +247,7 @@ NB: this is mainly for red/purpleteaming activities.
 # To go further
 
 * [The best BlackHat and DefCon talks of all time](https://portswigger.net/daily-swig/the-best-black-hat-and-def-con-talks-of-all-time)
+* Paul Jerimy, [Security certification roadmap](https://pauljerimy.com/security-certification-roadmap/)
  
 # End
 Go to [main page](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md).
