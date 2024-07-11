@@ -8,7 +8,7 @@ This page deals with SOC HR and training topics.
 * [HR roles and organization](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md#hr-roles-and-organization)
 * [Recommended SOC trainings](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md#recommended-soc-trainings)
 * [Recommended CERT/CSIRT trainings](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md#recommended-certcsirt-trainings)
-* [Recommended offesnsive security trainings](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md#recommended-offensive-security-trainings)
+* [Recommended offensive security trainings](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md#recommended-offensive-security-trainings)
 * [Recommended CTI trainings](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md#recommended-cti-trainings)
 * [Recommended VOC trainings](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md#recommended-voc-vulnerability-management-trainings)
 * [Recommmend management trainings](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md#recommended-management-trainings)
