@@ -55,4 +55,5 @@
 ### NIS2 :
 
 * Sekoia, [webinaire NIS2](https://www.youtube.com/watch?v=78KIo3iXjow)
+* Liste des exigences ANSSI [LeMagIT](https://www.lemagit.fr/rms/LeMagIT/NIS2-PROJETphase3decret20Reglesdesecuritev5.2.pdf)
 
