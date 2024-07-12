@@ -506,6 +506,10 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
   * My advice: consider the SOC environment as to be administrated by **Tier 1**, if possible with a dedicated admin bastion. Here is a generic drawing from Wavestone's article (see Must read references): ![image](https://user-images.githubusercontent.com/16035152/202517740-812091b6-ff31-49cd-941e-3f6e4b4d140c.png)
   * Recommended technology choices: [Wallix PAM](https://www.wallix.com/privileged-access-management/)
   * Implement a [level 3 of network segmentation](https://github.com/sergiomarotco/Network-segmentation-cheat-sheet#level-3-of-network-segmentation-high-adoption-of-security-practices)
+  * You may want to use throwable machines (virtual machines) for incident response or specific artefacts analysis. Here are my recommendations:
+    * [Microsoft Developer virtual machines](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/);
+    * Hardening [script](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat);
+    * If needed, [Flare-VM](https://github.com/mandiant/flare-vm) framework to automate tools installation;
 
 
 # Appendix
