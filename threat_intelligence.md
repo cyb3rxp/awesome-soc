@@ -90,6 +90,7 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * [MalTrail's daily blacklist](https://raw.githubusercontent.com/stamparm/aux/master/maltrail-malware-domains.txt)
      * [Awesome Cobalt Strike](https://github.com/MichaelKoczwara/Awesome-CobaltStrike-Defence)
      * [AVAST][https://github.com/avast/ioc?tab=readme-ov-file]
+     * [ThreatFox](https://threatfox.abuse.ch/)
   * To go further, some lists of feeds that could be of interest:
     * [Covert.io list](http://www.covert.io/threat-intelligence/);
     * [Intel471](https://intel471.com/modules)
