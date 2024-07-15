@@ -107,16 +107,19 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * [URLHaus](https://urlhaus.abuse.ch/api/);
      * [OTX](https://otx.alienvault.com/api);
 
-* Well-known OSINT portals:
-  * CyberGordon >> https://cybergordon.com/
+* Well-known OSINT portals/websites:
+  * CyberChef >> https://cyberchef.io/
+  * URL/IP multi-search portal:
+     * CyberGordon >> https://cybergordon.com/
   * URL analysis >> https://urlscan.io/
-  * Data breaches >> https://haveibeenpwned.com/
+  * Data breaches search portals:
+     * https://haveibeenpwned.com/
+     * https://www.pcloud.com/fr/pass/free-personal-data-breach-checker.html
   * Cisco Reputation Check >> https://www.talosintelligence.com/
   * IBM Reputation Check >> https://exchange.xforce.ibmcloud.com/
   * IP Reputation Check >>https://www.abuseipdb.com/
-  * Domain diagnostic & lookup tools >> https://mxtoolbox.com/
   * Domain/IP investigation >> https://cipher387.github.io/domain_investigation_toolbox/ip.html
-  * CyberChef >> https://cyberchef.io/
+  * Domain diagnostic & lookup tools >> https://mxtoolbox.com/
   * DNS related tools >> https://viewdns.info/
   * Search Engine for IoTs >> https://www.shodan.io/
   * OSINT Framework >> https://lnkd.in/gXaz_Wry
