@@ -112,15 +112,15 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
   * URL analysis >> https://urlscan.io/
   * Data breaches >> https://haveibeenpwned.com/
   * Cisco Reputation Check >> https://www.talosintelligence.com/
-  * IBM Reputation Check >> https://lnkd.in/gt8iyHE5
+  * IBM Reputation Check >> https://exchange.xforce.ibmcloud.com/
   * IP Reputation Check >>https://www.abuseipdb.com/
   * Domain diagnostic & lookup tools >> https://mxtoolbox.com/
   * Domain/IP investigation >> https://cipher387.github.io/domain_investigation_toolbox/ip.html
-  * CyberChef >> https://lnkd.in/gVjZywKu
+  * CyberChef >> https://cyberchef.io/
   * DNS related tools >> https://viewdns.info/
   * Search Engine for IoTs >> https://www.shodan.io/
   * OSINT Framework >> https://lnkd.in/gXaz_Wry
-  * Malfrat's OSINT >> https://lnkd.in/e4nhK2hK
+  * Malfrat's OSINT >> https://map.malfrats.industries/
   * Find Emails >> https://hunter.io/
   * Internet Archieve >> https://archive.org/web/
   * Reverse Image search >> https://tineye.com  
