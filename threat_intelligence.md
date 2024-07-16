@@ -11,13 +11,13 @@
 
 ## Books/articles/recordings
 
-* Thomas Roccia, [Visual Threat Intelligence](https://www.amazon.fr/Visual-Threat-Intelligence-Illustrated-Researchers/dp/B0C7JCF8XD)
-* MITRE, [top TTP for ransomwares](https://top-attack-techniques.mitre-engenuity.org/)
-* David J. Bianco, [Pyramid of pain](https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html)
-* OASIS Open, [STIX](https://oasis-open.github.io/cti-documentation/stix/intro.html)
-* FIRST, [TLP](https://www.first.org/tlp/) (intelligence sharing and confidentiality)
-* [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence)
-* RecordedFuture, [Accelerate SecOps workflows in Microsoft Sentinel](https://go.recordedfuture.com/recordings/webinar-how-to-accelerate-secops-workflows-in-microsoft-azure-sentinel)
+* Thomas Roccia, [Visual Threat Intelligence](https://www.amazon.fr/Visual-Threat-Intelligence-Illustrated-Researchers/dp/B0C7JCF8XD);
+* MITRE, [top TTP for ransomwares](https://top-attack-techniques.mitre-engenuity.org/);
+* David J. Bianco, [Pyramid of pain](https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html);
+* OASIS Open, [STIX](https://oasis-open.github.io/cti-documentation/stix/intro.html);
+* FIRST, [TLP](https://www.first.org/tlp/) (intelligence sharing and confidentiality);
+* [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence);
+* RecordedFuture, [Accelerate SecOps workflows in Microsoft Sentinel](https://go.recordedfuture.com/recordings/webinar-how-to-accelerate-secops-workflows-in-microsoft-azure-sentinel).
 
 # Generic workflow
 
@@ -30,7 +30,7 @@ Here is [an example](https://www.erdalozkaya.com/cyber-threat-intelligence/) of 
 ## TIP choice 
 Here are my recommendations:
 * for community ones: [MISP](https://www.misp-project.org/), [OpenCTI](https://www.filigran.io/en/products/opencti/);
-* for paid ones: [Sekoia.io](https://www.sekoia.io/fr/produire-et-personnaliser-votre-propre-intelligence/), [ThreatQuotient](https://www.threatq.com/)
+* for paid ones: [Sekoia.io](https://www.sekoia.io/fr/produire-et-personnaliser-votre-propre-intelligence/), [ThreatQuotient](https://www.threatq.com/).
 
 ## Common TIP integrations (dataflow)
 
@@ -80,30 +80,30 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * Orange CyberDefense, [Log4Shell IOC](https://github.com/Orange-Cyberdefense/log4shell_iocs);
      * Orange CyberDefense, [RU/UKR IOC](https://github.com/Orange-Cyberdefense/russia-ukraine_IOCs);
      * [RedFlag Domains](https://red.flag.domains/);
-     * Jeroen Steeman, [IPBlock lists](https://jeroen.steeman.org/IPBlock)
-     * [si3t.ch](http://si3t.ch/evils/)
-     * [Execute Malware](https://github.com/executemalware/Malware-IOCs/tree/main)
-     * [FireHOL project: GreenSwow IP set](https://github.com/firehol/blocklist-ipsets/blob/master/greensnow.ipset)
-     * [Snort, IP list to block](https://www.snort.org/downloads/ip-block-list)
-     * [Turris' Sentinel Graylist](https://view.sentinel.turris.cz/greylist-data/greylist-latest.csv)
-     * [Laurent Minne's blacklist](https://github.com/duggytuxy/malicious_ip_addresses)
-     * [MalTrail's daily blacklist](https://raw.githubusercontent.com/stamparm/aux/master/maltrail-malware-domains.txt)
-     * [Awesome Cobalt Strike](https://github.com/MichaelKoczwara/Awesome-CobaltStrike-Defence)
-     * [AVAST][https://github.com/avast/ioc?tab=readme-ov-file]
-     * [ThreatFox](https://threatfox.abuse.ch/)
-     * CrowdSec, [Free Paris2024 Olympic Games blocklist)(https://app.crowdsec.net/blocklists/665d96cf0a60f8f3808a5d5c)
+     * Jeroen Steeman, [IPBlock lists](https://jeroen.steeman.org/IPBlock);
+     * [si3t.ch](http://si3t.ch/evils/);
+     * [Execute Malware](https://github.com/executemalware/Malware-IOCs/tree/main);
+     * [FireHOL project: GreenSwow IP set](https://github.com/firehol/blocklist-ipsets/blob/master/greensnow.ipset);
+     * [Snort, IP list to block](https://www.snort.org/downloads/ip-block-list);
+     * [Turris' Sentinel Graylist](https://view.sentinel.turris.cz/greylist-data/greylist-latest.csv);
+     * [Laurent Minne's blacklist](https://github.com/duggytuxy/malicious_ip_addresses);
+     * [MalTrail's daily blacklist](https://raw.githubusercontent.com/stamparm/aux/master/maltrail-malware-domains.txt);
+     * [Awesome Cobalt Strike](https://github.com/MichaelKoczwara/Awesome-CobaltStrike-Defence);
+     * [AVAST][https://github.com/avast/ioc?tab=readme-ov-file];
+     * [ThreatFox](https://threatfox.abuse.ch/);
+     * CrowdSec, [Free Paris2024 Olympic Games blocklist)(https://app.crowdsec.net/blocklists/665d96cf0a60f8f3808a5d5c).
   * To go further, some lists of feeds that could be of interest:
     * [Covert.io list](http://www.covert.io/threat-intelligence/);
-    * [Intel471](https://intel471.com/modules)
-    * [Bert JanP](https://github.com/Bert-JanP/Open-Source-Threat-Intel-Feeds/tree/main)
-  * And a reference framework to analyze data information leaks: [AIL Framework](https://github.com/CIRCL/AIL-framework)
+    * [Intel471](https://intel471.com/modules);
+    * [Bert JanP](https://github.com/Bert-JanP/Open-Source-Threat-Intel-Feeds/tree/main);
+  * And a reference framework to analyze data information leaks: [AIL Framework](https://github.com/CIRCL/AIL-framework).
 
      
 
 * Portals to query on-the-fly:
   * My recommendations: 
-     * [VirusTotal API](https://support.virustotal.com/hc/en-us/articles/115002100149-API).
-     * [CrowdSec community](https://app.crowdsec.net/cti)
+     * [VirusTotal API](https://docs.virustotal.com/reference/overview);  
+     * [CrowdSec community](https://app.crowdsec.net/cti);
      * [AbuseIPDB](https://www.abuseipdb.com/);
      * [URLHaus](https://urlhaus.abuse.ch/api/);
      * [OTX](https://otx.alienvault.com/api);
