@@ -239,7 +239,8 @@ too much data such that tools and analysts become overwhelmed.
 * **Data analysis tools**:
   * My recommendations: [CyberChef](https://github.com/NextronSystems/CyberChef), [Notepad++](https://notepad-plus-plus.org/downloads/)
 * **Admin tools**: 
-  * My recommendations: [Azure AD Internals suite](https://aadinternals.com/), [SysInternals Suite](https://learn.microsoft.com/fr-fr/sysinternals/downloads/sysinternals-suite)
+  * My recommendations: [Azure AD Internals suite](https://aadinternals.com/), [SysInternals Suite](https://learn.microsoft.com/fr-fr/sysinternals/downloads/sysinternals-suite), [EMCO Remote installer](https://emcosoftware.com/remote-installer)
+  * 
 * **Internal ticketing system** (NB: **not** SIRP, not for incident response!):
   * My recommendation: [GitLab](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/sec-incident-response.html)
 * **Knowledge sharing and management tool**:
