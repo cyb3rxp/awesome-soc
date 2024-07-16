@@ -91,6 +91,7 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * [Awesome Cobalt Strike](https://github.com/MichaelKoczwara/Awesome-CobaltStrike-Defence)
      * [AVAST][https://github.com/avast/ioc?tab=readme-ov-file]
      * [ThreatFox](https://threatfox.abuse.ch/)
+     * CrowdSec, [Free Paris2024 Olympic Games blocklist)(https://app.crowdsec.net/blocklists/665d96cf0a60f8f3808a5d5c)
   * To go further, some lists of feeds that could be of interest:
     * [Covert.io list](http://www.covert.io/threat-intelligence/);
     * [Intel471](https://intel471.com/modules)
