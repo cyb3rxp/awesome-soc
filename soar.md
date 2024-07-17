@@ -10,12 +10,13 @@ This page deals with Security Orchestration Automation and Response.
 
 # Must read/watch
 
-* PaloAlto, [Security orchestration for dummies](https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/cortex-xsoar/Security-Orchestration-For-Dummies-Demisto-Special-Edition.pdf)
-* ThreatConnect, [SIRP / SOA / TIP benefits](https://threatconnect.com/blog/realizing-the-benefits-of-security-orchestration-automation-and-response-soar/)
+* PaloAlto, [Security orchestration for dummies](https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/cortex-xsoar/Security-Orchestration-For-Dummies-Demisto-Special-Edition.pdf);
+* ThreatConnect, [SIRP / SOA / TIP benefits](https://threatconnect.com/blog/realizing-the-benefits-of-security-orchestration-automation-and-response-soar/);
 * Swimlane, [Cyber Threat readiness report 2023](https://swimlane.com/wp-content/uploads/Cyber-Threat-Readiness-Report-2023.pdf);
-* Swimlane, [Automating SIEM alert triage](https://swimlane.com/resources/videos/automating-siem-alert-triage-demo/?utm_source=pardot&utm_medium=email_newsletter)
-* Gartner, [Market Guide for Security Orchestration, Automation and Response Solutions](https://www.gartner.com/doc/reprints?id=1-2ADE1K2G&ct=220621&st=sb)
-* Microsoft, [Microsoft Defender XDR , Security Copilot and Sentinel integrated into 1 portal](https://techcommunity.microsoft.com/t5/microsoft-mechanics-blog/microsoft-defender-xdr-security-copilot-amp-microsoft-sentinel/ba-p/3989312)
+* Swimlane, [Automating SIEM alert triage](https://swimlane.com/resources/videos/automating-siem-alert-triage-demo/?utm_source=pardot&utm_medium=email_newsletter);
+* Gartner, [Market Guide for Security Orchestration, Automation and Response Solutions](https://www.gartner.com/doc/reprints?id=1-2ADE1K2G&ct=220621&st=sb);
+* Microsoft, [Microsoft Defender XDR , Security Copilot and Sentinel integrated into 1 portal](https://techcommunity.microsoft.com/t5/microsoft-mechanics-blog/microsoft-defender-xdr-security-copilot-amp-microsoft-sentinel/ba-p/3989312);
+* RecordedFuture [The Automation Advantage: Transforming Cybersecurity and Efficiency in Organisations](https://go.recordedfuture.com/automation-advantage-webinar?utm_medium=email&_hsenc=p2ANqtz-_zNWKiR0eBOCpx_R5cUwRu3iPfgPI8BeMLutfF1ywpL5i6LleQRxBvCUZ-dbaseqlfOWtLVikC5-lmwPYyhQCltn4Clg&_hsmi=316108876&utm_content=316108876&utm_source=hs_email)
 
 # What is SOAR?
 
