@@ -17,7 +17,8 @@
 * OASIS Open, [STIX](https://oasis-open.github.io/cti-documentation/stix/intro.html);
 * FIRST, [TLP](https://www.first.org/tlp/) (intelligence sharing and confidentiality);
 * [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence);
-* RecordedFuture, [Accelerate SecOps workflows in Microsoft Sentinel](https://go.recordedfuture.com/recordings/webinar-how-to-accelerate-secops-workflows-in-microsoft-azure-sentinel).
+* RecordedFuture, [Accelerate SecOps workflows in Microsoft Sentinel](https://go.recordedfuture.com/recordings/webinar-how-to-accelerate-secops-workflows-in-microsoft-azure-sentinel);
+* Frost & Sullivan, [Frost Radar™: Cyber Threat Intelligence Radar, 2024](https://go.recordedfuture.com/hubfs/reports/Frost%20Radar_Cyber%20Threat%20Intelligence%20Radar%2c%202024.pdf?utm_medium=email&_hsmi=315810587&utm_content=315810587&utm_source=hs_automation)
 
 # Generic workflow
 
