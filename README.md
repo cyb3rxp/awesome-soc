@@ -29,7 +29,8 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
   * FIRST, [Building a SOC](https://www.first.org/resources/guides/Factsheet_Building_a_SOC_start_small.pdf)
   * NCSC, [Building a SOC](https://www.ncsc.gov.uk/collection/building-a-security-operations-centre)
   * Gartner, [SOC model guide](https://www.gartner.com/doc/reprints?id=1-2FWTKHQ8&ct=231213&st=sb&mkt_tok=MDAzLVlSVS0zMTQAAAGUXOi9oTLjhQW0-t-jtiz4cThV6UsESsg-qUUWy_3_yjQ9UY0gFSR_n-VslHyg4f9ZE5q07y8naSI8aEyK__RPezZ2Ub_Xi1b-N2aFO7gpmXLi)
-  * Splunk, [State of Security 2023](https://www.splunk.com/en_us/pdfs/gated/ebooks/state-of-security-2023.pdf) 
+  * Splunk, [State of Security 2023](https://www.splunk.com/en_us/pdfs/gated/ebooks/state-of-security-2023.pdf)
+  * Microsoft, [Secure your business with 365](https://learn.microsoft.com/en-us/microsoft-365/business-premium/secure-your-business-data?view=o365-worldwide) 
 * SOC training/interview:
   * LetsDefend [SOC analyst interview questions](https://github.com/LetsDefend/SOC-Interview-Questions)
 * SOC management:
