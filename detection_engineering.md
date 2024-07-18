@@ -17,7 +17,7 @@ This page deals with SOC detection engineering and management (detection use cas
 
 ## Threat statistics/trends 
 * MITRE, [top TTP for ransomwares](https://top-attack-techniques.mitre-engenuity.org/)
-* Splunk, [Top 50 cybersecurity threats](https://www.splunk.com/content/dam/splunk2/en_us/gated/ebooks/top-50-cybersecurity-threats.pdf)
+* Splunk, [Top 50 cybersecurity threats](https://www.splunk.com/en_us/pdfs/gated/ebooks/top-50-cybersecurity-threats.pdf)
 * Known exploited vulnerabilities: 
   * [CISA catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 ## SIEM rules publications:
@@ -46,7 +46,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * TheCloudTechnologist, [Microsoft 365 audit & logging](https://thecloudtechnologist.com/2021/10/15/everything-you-wanted-to-know-about-security-and-audit-logging-in-office-365/)
 * Michel de Crevoisier, [Microsoft Eventlog mindmap](https://github.com/mdecrevoisier/Microsoft-eventlog-mindmap)
 * Michel de Crevoisier, [Mapping MITRE ATT&CK with Window Event Log IDs](https://www.socinvestigation.com/mapping-mitre-attck-with-window-event-log-ids/)
-* Picus Security [Active Directory Security Guide](https://media.licdn.com/dms/document/media/D4E1FAQGsc2JA72C1kw/feedshare-document-pdf-analyzed/0/1694990735280?e=1695859200&v=beta&t=r0aNzcofWKEvEK287Xqa8KApDt05455pTg2XSaMbK1I)
+* Picus Security [Active Directory Security Guide](https://www.picussecurity.com/hubfs/Threat%20Readiness%20-%20Active%20Directory%20Ebook%20-%20Q123/Picus-The-Complete-Active-Directory-Security-Handbook.pdf)
 ## IT best practices for SOC engineering
 * Atlassian, [CI/CD/CD](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
 ## Offensive activity watch
@@ -306,7 +306,7 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
 
 ### Potential information leak:
 * Detect abnormal traffic peaks, within the outgoing traffic logs (FW, proxies);
-  * See [this Splunk presentation](https://www.splunk.com/en_us/resources/videos/detection-technique-deep-dive.html?utm_medium=email&utm_source=splunk&utm_campaign=FY23Q4_DGN_EMEA_WBR_SEC_FR_conf_Detection_Deep_Dive_Wbnr&LST=ThankYou)
+  * See [this Splunk presentation](https://conf.splunk.com/files/2022/slides/SEC1428B.pdf)
 
 ### Obfuscated script [T1027, T1059]:
 * Typically obfuscated PowerShell with base64;
@@ -376,7 +376,7 @@ The idea here is to follow the 'as-code' approach, wherever possible, with a cen
 * BrightTalk/Lacework, [CSPM comparison](https://www.brighttalk.com/webcast/18905/540127?player-preauth=xF5kcx%2FJ1zQGynPog7QyfHEnVg7fUDuwzbjCLWvJ75U%3D&utm_source=brighttalk-promoted&utm_medium=email&utm_term=Audience579476&utm_campaign=AUD-14239&utm_content=2023-05-17)
 * Mthcht, [Detection of C2 hiding in legit API services](https://github.com/mthcht/Purpleteam/blob/main/Detection/Threat%20Hunting/generic/C2_abusing_API_services.md)
 * Soteria-Security, [365Inspect](https://github.com/soteria-security/365Inspect)
-* CheckPoint, [Sandbox evasion techniques](https://evasions.checkpoint.com/techniques/timing.html)
+* CheckPoint, [Sandbox evasion techniques](https://evasions.checkpoint.com/src/Evasions/techniques/timing.html)
 * Quest, [9 best practices to improve AD security](https://www.quest.com/docs/nine-best-practices-to-improve-active-directory-security-and-cyber-resilience-ebook-25678.pdf)
 * Politoinc, [LDAP queries for offensive and defensive OPS](https://www.politoinc.com/post/ldap-queries-for-offensive-and-defensive-operations)
  
