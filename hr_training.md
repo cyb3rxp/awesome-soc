@@ -76,9 +76,7 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
 * [**Cyberdefenders**](https://cyberdefenders.org/), here are a few free trainings that I recommend:
   * https://cyberdefenders.org/blueteam-ctf-challenges/91;
   * https://cyberdefenders.org/blueteam-ctf-challenges/47;
-  * https://cyberdefenders.org/blueteam-ctf-challenges/84;
   * https://cyberdefenders.org/blueteam-ctf-challenges/77;
-  * https://cyberdefenders.org/blueteam-ctf-challenges/74;
   * https://cyberdefenders.org/blueteam-ctf-challenges/73;
   * https://cyberdefenders.org/blueteam-ctf-challenges/67;
   * https://cyberdefenders.org/blueteam-ctf-challenges/68;
@@ -123,6 +121,7 @@ They can be FTE or outsourced, it will depend on your needs and constraints. My 
 ### Free certifications:
 * LetsDefend, [SOC Fundamentals](https://app.letsdefend.io/training/lessons/soc-fundamentals);
 * PaloAlto, [PAN, Fundamentals of SOC](https://beacon.paloaltonetworks.com/student/path/521672-the-fundamentals-of-soc-security-operations-center);
+  * NB: you'll need to [log-in](https://login.paloaltonetworks.com/) first!
 * CrowdSec, [cybersecurity fundamentals](https://academy.crowdsec.net/course/cybersecurity-fundamentals);
 * FIRST, [CVSS v4](https://learn.first.org/catalog/info/id:126);
 * PaloAlto, [Fundamentals of network security](https://beacon.paloaltonetworks.com/student/path/673504/activity/726463);
@@ -191,7 +190,7 @@ Not working anymore ATOW: EthicalHackersAcademy, [SOC & SIEM Security program: L
 ### Free certifications:
 * EC-Council, [Digital Forensics Essentials](https://codered.eccouncil.org/course/digital-forensics-essentials?logged=true)
 * CrowdSec, [CrowdSec Fundamentals](https://academy.crowdsec.net/course/crowdsec-fundamentals)  [free];
-* Splunk, [Core User](https://education.splunk.com/single-subject-courses?_ga=2.213139857.446951445.1644415141-362195814.1644415141).
+* Splunk, [free training](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/shared;spf-url=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT%252COFFERINGTEMPLATE%252CCERTIFICATION%252CCURRICULUM%252CPLAYLIST%252COFFERING%252CPACKAGE%252CLXPCONTENT%252CLEARNINGPATHWAY%3Fadvsearch%3Dtrue&categoryId%3Dcateg000000000003041).
 
 ### Challenges
 * [**LetsDefend**](https://letsdefend.io/), here are a few free trainings that I recommend:
