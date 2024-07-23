@@ -237,6 +237,8 @@ too much data such that tools and analysts become overwhelmed.
     * My recommendations: [CrowdSec](https://doc.crowdsec.net/docs/user_guides/replay_mode), [Sekoia XDR](https://www.sekoia.io/en/product/xdr/), [DeepBlue](https://github.com/sans-blue-team/DeepBlueCLI)
       
 ## Other critical tools for a SOC and a CERT/CSIRT
+* **Secure secrets sharing**:
+  * (OneTimeSecret)[https://onetimesecret.com/]  
 * **Data analysis tools**:
   * My recommendations: [CyberChef](https://github.com/NextronSystems/CyberChef), [Notepad++](https://notepad-plus-plus.org/downloads/)
 * **Admin tools**: 
