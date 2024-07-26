@@ -55,7 +55,8 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * Incident response playbooks:
   * Kaspersky, [Incident Response Playbook: Dark Web Breaches](https://dfi.kaspersky.com/blog/dark-web-threats-response-guideline#form)
   * SANS, [IR Mitigations tasks](https://board.flexibleir.com/b/VtdssIfCJ6Z2LYLED/1)
-
+* Threat matrix:
+  * Microsoft, [Threat Matrix for Azure Storage services](https://microsoft.github.io/Threat-matrix-for-storage-services/) 
 
 ## Globally (SOC and CERT/CSIRT)
 * Terms and concepts:
