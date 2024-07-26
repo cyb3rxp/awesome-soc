@@ -66,7 +66,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
   * PAN, [Security orchestration for dummies](https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/cortex-xsoar/Security-Orchestration-For-Dummies-Demisto-Special-Edition.pdf)
   * ThreatConnect, [SIRP / SOA / TIP benefits](https://threatconnect.com/blog/realizing-the-benefits-of-security-orchestration-automation-and-response-soar/)
 * SOC/CSIRT processes:
-  * NIST, [SP800-61 rev2, incident handling guide](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final)
+  * NIST, [SP800-61 rev3, incident handling guide](https://csrc.nist.gov/pubs/sp/800/61/r3/ipd)
 * CSIRT build:
   * ENISA, [How to set-up a CSIRT and SOC](https://www.enisa.europa.eu/publications/how-to-set-up-csirt-and-soc/at_download/fullReport)
 * Frameworks and materials:
@@ -76,6 +76,8 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
   * OASIS Open, [STIX](https://oasis-open.github.io/cti-documentation/stix/intro.html)
   * FIRST, [TLP](https://www.first.org/tlp/) (intelligence sharing and confidentiality), and [PAP](https://cert.ssi.gouv.fr/csirt/sharing-policy/)
   * CIS, [18 critical security controls](https://www.cisecurity.org/controls/cis-controls-list)
+* Security capabilities mappings:
+  * CTID, [Mappings explorer](https://center-for-threat-informed-defense.github.io/mappings-explorer/external/)
 * Threat matrix:
   * Push Security, [SaaS attack matrix](https://github.com/pushsecurity/saas-attacks#the-saas-attacks-matrix)
   * Microsoft, [Threat Matrix for Azure Storage services](https://microsoft.github.io/Threat-matrix-for-storage-services/)
