@@ -85,12 +85,15 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
   * MITRE, [Threat Matrix for AI-systems](https://github.com/mitre/advmlthreatmatrix/blob/master/pages/adversarial-ml-threat-matrix.md#adversarial-ml-threat-matrix)
 * SOAR solutions:
   * Swimlane, [Cyber Threat readiness report 2023](https://swimlane.com/wp-content/uploads/Cyber-Threat-Readiness-Report-2023.pdf);
-  * Gartner, [Market Guide for Security Orchestration, Automation and Response Solutions](https://www.gartner.com/doc/reprints?id=1-2ADE1K2G&ct=220621&st=sb) 
+  * Gartner, [Market Guide for Security Orchestration, Automation and Response Solutions](https://www.gartner.com/doc/reprints?id=1-2ADE1K2G&ct=220621&st=sb)
 * NIS2:
   * LinkedIn: [How will NIS2 impact your organization?](https://www.linkedin.com/pulse/how-eu-directive-nis2-impact-your-organization-anders-fleinert-larsen%3FtrackingId=Vq3GCGlOTXe1u0dllhn9MA%253D%253D/?_l=fr_FR)
   * CyberArk: [NIS2, how to address the security control gaps](https://event.on24.com/eventRegistration/console/apollox/mainEvent?simulive=y&eventid=4110743&sessionid=1&username=&partnerref=&format=fhvideo1&mobile=&flashsupportedmobiledevice=&helpcenter=&key=588150776CAE70D7F02ECF2848FF11FA&newConsole=true&nxChe=true&newTabCon=true&consoleEarEventConsole=false&text_language_id=en&playerwidth=748&playerheight=526&eventuserid=600843623&contenttype=A&mediametricsessionid=517006274&mediametricid=5797475&usercd=600843623&mode=launch)
 * Management:
   * Gartner, [Cybersecurity business value benchmark](https://emtemp.gcom.cloud/ngw/globalassets/en/doc/documents/775537-gartner-cybersecurity-business-value-benchmark-1st-generation.pdf)
+  * Forrester, [Best practices for automating SecOps workflow](https://reprints2.forrester.com/#/assets/2/721/RES179705/report)
+  * Microsoft, ["While the initial trigger event was a Distributed Denial-of-Service (DDoS) attack... initial investigations suggest that an error in the implementation of our defences amplified the impact of the attack rather than mitigating it"](https://www.bbc.com/news/articles/c903e793w74o)
+
 
 
 # Fundamental concepts
