@@ -91,7 +91,7 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * [Laurent Minne's blacklist](https://github.com/duggytuxy/malicious_ip_addresses);
      * [MalTrail's daily blacklist](https://raw.githubusercontent.com/stamparm/aux/master/maltrail-malware-domains.txt);
      * [Awesome Cobalt Strike](https://github.com/MichaelKoczwara/Awesome-CobaltStrike-Defence);
-     * [AVAST][https://github.com/avast/ioc?tab=readme-ov-file];
+     * [AVAST](https://github.com/avast/ioc?tab=readme-ov-file);
      * [ThreatFox](https://threatfox.abuse.ch/);
      * CrowdSec, [Free Paris2024 Olympic Games blocklist](https://app.crowdsec.net/blocklists/665d96cf0a60f8f3808a5d5c).
   * To go further, some lists of feeds that could be of interest:
