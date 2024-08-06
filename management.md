@@ -52,7 +52,7 @@ As per the [aforementioned article](https://www.linkedin.com/pulse/evolution-sec
 # SOC organization
 ## Tiering or not tiering?
 * No real need for tiering (L1/L2/L3)
-  * this is an old model for service provider, not necesseraly for a SOC!
+  * this is an old model for service provider, not necesserarily for a SOC!
   * as per [MITRE paper](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf) (p65):
   >In this book, the constructs of “tier 1” and “tier 2+” are sometimes used to describe analysts
 who are primarily responsible for front-line alert triage and in-depth investigation/analysis/
@@ -76,6 +76,17 @@ describe their structure.
   * **security monitoring team** (which does actually the "job" of detecting security incident being fully autonomous)
   * **security monitoring engineering team** (which fixes/improves security monitoring like SIEM rules and SOA playbooks, generates reportings, helps with uncommon use cases handling)
   * **build / project management team** (which does tools integration, SIEM data ingestion, specific DevOps tasks, project management).
+ 
+## SOF shifts (24*7)
+* There is a huge difference between "on-call" and "24x7":
+  * "on-call" service is supposed to handle pre-validated types of alerts, with maximum severity and urgency.
+  * "24*7" service is supposed to provide same quality of service, no matter the time of day and date it is (night, WE, holidays).
+ 
+* Here is an example of teams shifts to really achieve "24*7":
+![image](https://github.com/user-attachments/assets/f7a3d44c-a209-41cb-81b0-4c55ea2ca648)
+
+Source: [LinkedIn article](https://www.linkedin.com/posts/teodorchabin_soc-cybersaezcuritaez-activity-7223975633607897089-Hhrw?utm_source=share&utm_medium=member_android)
+
 
 ## RACI
 
