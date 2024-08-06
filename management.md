@@ -77,12 +77,12 @@ describe their structure.
   * **security monitoring engineering team** (which fixes/improves security monitoring like SIEM rules and SOA playbooks, generates reportings, helps with uncommon use cases handling)
   * **build / project management team** (which does tools integration, SIEM data ingestion, specific DevOps tasks, project management).
  
-## SOF shifts (24*7)
+## SOC shifts for 24*7
 * There is a huge difference between "on-call" and "24x7":
   * "on-call" service is supposed to handle pre-validated types of alerts, with maximum severity and urgency.
-  * "24*7" service is supposed to provide same quality of service, no matter the time of day and date it is (night, WE, holidays).
+  * "24x7" service is supposed to provide same quality of service, no matter the time of day and date it is (night, WE, holidays).
  
-* Here is an example of teams shifts to really achieve "24*7":
+* Here is an example of teams shifts to really achieve "24x7":
 ![image](https://github.com/user-attachments/assets/f7a3d44c-a209-41cb-81b0-4c55ea2ca648)
 
 Source: [LinkedIn article](https://www.linkedin.com/posts/teodorchabin_soc-cybersaezcuritaez-activity-7223975633607897089-Hhrw?utm_source=share&utm_medium=member_android)
