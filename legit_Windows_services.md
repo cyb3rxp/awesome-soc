@@ -7,7 +7,7 @@ The check should then be done at an execution context level, with surrounding pr
 
 # Table of legit Windows' services
 
-## Tabe reference 
+## Table reference 
 * **Service_Short_name**: the technical short name of the service, that my be used in commandline.
   * e.g.: wuauserv
 * **CommandLine**: the command line of the binary of the service.
@@ -27,7 +27,7 @@ The check should then be done at an execution context level, with surrounding pr
   * e.g.: Enables detection, download and installation of Windows and other programs updates [...]
 
  
-## Table
+## Windows 10/11 services table
 
 This table describes legit system Windows 10/11 services, that are expected to be found on an investigated Windows machine:
 
