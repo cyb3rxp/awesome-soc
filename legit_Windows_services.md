@@ -5,29 +5,31 @@ This page aims at documenting legitimate Windows services and programs, meaning 
 **Please note** that, during an investigation, if there is any chance that a code injection happened (using API, or even DLL load order hijack), then one or more of those services might be malicious though, because their code was modified in-memory!
 The check should then be done at an execution context level, with surrounding processes (and their associated privileges), and behaviour detection-like approach.
 
-# Table of Windows' services
+# Table of legit Windows' services
 
 ## Tabe reference 
-* Service_Short_name: the technical short name of the service, that my be used in commandline.
+* **Service_Short_name**: the technical short name of the service, that my be used in commandline.
   * e.g.: wuauserv
-* CommandLine: the command line of the binary of the service.
+* **CommandLine**: the command line of the binary of the service.
   * e.g.: C:\WINDOWS\system32\svchost.exe -k netsvcs -p
-* Expected_Execution_status: exected to be found on a investigated machine, or not. 
-  * Should be active or on demand  = > usually, critical system processes, and should be either permanently active or launched on-demand
+* **Expected_Execution_status**: exected to be found on a investigated machine, or not. 
+  * Should be active or (started) on demand  = > usually, critical system processes, and should be either permanently active or launched on-demand
   * Could be active  = > may not be critical, but quite commonly present
   * Might be active  = > should not be critical, but still present
-* Startup_Type_(Default): the default autostart setting of the service. Must be one of the following:
+* **Startup_Type_(Default)**: the default autostart setting of the service. Must be one of the following:
   * Automatic
   * Automatic (delayed start)
   * Manual
   * Disabled
-* Service_Full_Name: the fuyll human-readable name of the service.
+* ***Service_Full_Name**: the fuyll human-readable name of the service.
   * e.g.: Windows Update
-* Description: the full (human-readable) description of the service.
+* **Description**: the full (human-readable) description of the service.
   * e.g.: Enables detection, download and installation of Windows and other programs updates [...]
 
  
 ## Table
+
+This table describes legit system Windows 10/11 services, that are expected to be found on an investigated Windows machine:
 
 | Service_Short_name | CommandLine | Expected_Execution_status | Startup_Type_(Default) | Service_Full_Name | Description |
 | --- | --- | --- | --- | --- | ---| 
@@ -266,5 +268,5 @@ Anything that uses the network stack can have a functional dependency on this se
 
 # Sources 
 
-* Windows Internals books
+* Windows Internals [books](https://www.amazon.fr/Windows-Internals-Part-architecture-management/dp/0735684189)
 * [Microsoft Docs](https://github.com/MicrosoftDocs/windows-iot-public/blob/main/windows-iot/iot-enterprise/Optimize/Services.md)
