@@ -8,7 +8,7 @@ The check should then be done at an execution context level, with surrounding pr
 # Table of legit Windows' services
 
 ## Table reference 
-* **Service_Short_name**: the technical short name of the service, that my be used in commandline.
+* **Service_Short_Name**: the technical short name of the service, that my be used in commandline.
   * e.g.: wuauserv
 * **CommandLine**: the command line of the binary of the service.
   * e.g.: C:\WINDOWS\system32\svchost.exe -k netsvcs -p
@@ -31,7 +31,7 @@ The check should then be done at an execution context level, with surrounding pr
 
 This table describes legit system Windows 10/11 services, that are expected to be found on an investigated Windows machine:
 
-| Service_Short_name | CommandLine | Expected_Execution_status | Startup_Type_(Default) | Service_Full_Name | Description |
+| Service_Short_Name | CommandLine | Expected_Execution_status | Startup_Type_(Default) | Service_Full_Name | Description |
 | --- | --- | --- | --- | --- | ---| 
 |AxInstSV | C:\WINDOWS\system32\svchost.exe -k AxInstSVGroup | Could be active | Manual | ActiveX Installer | Provides User Account Control validation for the installation of ActiveX controls from the Internet and enables management of ActiveX control installation based on Group Policy settings. This service is started on demand and if disabled the installation of ActiveX controls behaves according to default browser settings. |
 | AJRouter | C:\WINDOWS\system32\svchost.exe -k LocalServiceNetworkRestricted -p | Could be active | Manual | AllJoyn Router Service | Routes AllJoyn messages for the local AllJoyn clients. If this service is stopped the AllJoyn clients that don't have their own bundled routers are unable to run. |
