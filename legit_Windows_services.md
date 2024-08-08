@@ -21,7 +21,7 @@ The check should then be done at an execution context level, with surrounding pr
   * Automatic (delayed start)
   * Manual
   * Disabled
-* ***Service_Full_Name**: the fuyll human-readable name of the service.
+* **Service_Full_Name**: the full human-readable name of the service.
   * e.g.: Windows Update
 * **Description**: the full (human-readable) description of the service.
   * e.g.: Enables detection, download and installation of Windows and other programs updates [...]
