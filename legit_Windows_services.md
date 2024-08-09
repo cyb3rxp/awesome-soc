@@ -8,7 +8,7 @@ The check should then be done at an execution context level, with surrounding pr
 # Table of legit Windows' services
 
 ## Table reference 
-* **Service_Short_Name**: the technical short name of the service, that my be used in commandline.
+* **Service_Short_Name**: the technical short name of the service, that is likely to be used in commandline.
   * e.g.: wuauserv
 * **CommandLine**: the command line of the binary of the service.
   * e.g.: C:\WINDOWS\system32\svchost.exe -k netsvcs -p
