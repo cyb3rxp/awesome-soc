@@ -12,7 +12,7 @@ The check should then be done at an execution context level, with surrounding pr
   * e.g.: wuauserv
 * **CommandLine**: the command line of the binary of the service.
   * e.g.: C:\WINDOWS\system32\svchost.exe -k netsvcs -p
-* **Expected_Execution_status**: exected to be found on a investigated machine, or not. 
+* **Expected_Execution_status**: expected to be found on a investigated machine, or not. 
   * Should be active or (started) on demand  = > usually, critical system processes, and should be either permanently present (in the active processes list) or launched on-demand
   * Could be active  = > may not be critical, but quite commonly present (in the active processes list) 
   * Might be active  = > should not be critical, but could still be present (in the active processes list) 
