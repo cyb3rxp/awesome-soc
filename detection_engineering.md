@@ -27,6 +27,7 @@ This page deals with SOC detection engineering and management (detection use cas
   * [SOC Prime](https://socprime.com/)
 ## SIEM standards
 * Yogosha, [SIGMA Rules: how to standardize detections for any SIEM](https://yogosha.com/blog/sigma-rules/)
+* Uncoder.io [UncoderIO Git](https://github.com/UncoderIO/Uncoder_IO)
 ## SecOps activities
 * Ch33r10, [Enterprise purple teaming](https://github.com/ch33r10/EnterprisePurpleTeaming)
 ## Detection engineering
