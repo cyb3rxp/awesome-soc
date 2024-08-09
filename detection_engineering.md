@@ -27,7 +27,7 @@ This page deals with SOC detection engineering and management (detection use cas
   * [SOC Prime](https://socprime.com/)
 ## SIEM standards
 * Yogosha, [SIGMA Rules: how to standardize detections for any SIEM](https://yogosha.com/blog/sigma-rules/)
-* Uncoder.io [UncoderIO Git](https://github.com/UncoderIO/Uncoder_IO)
+* UncoderIO, [RootA](https://github.com/UncoderIO/RootA)
 ## SecOps activities
 * Ch33r10, [Enterprise purple teaming](https://github.com/ch33r10/EnterprisePurpleTeaming)
 ## Detection engineering
@@ -41,6 +41,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * David J. Bianco, [Pyramid of pain](https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html)
 * Tsale, [EDR telemetry](https://github.com/tsale/EDR-Telemetry)
 * RULER project, [forensics tracks of common security tools](https://ruler-project.github.io/ruler-project/)
+* Uncoder.io [UncoderIO Git](https://github.com/UncoderIO/Uncoder_IO)
 ### Audit policy
 * OWASP, [logging cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html)
 * Microsoft, [Monitoring Active Directory for signs of compromise](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/monitoring-active-directory-for-signs-of-compromise)
