@@ -75,25 +75,23 @@ NB: All main steps of the SOP may not be always required, and depending on the c
 - Run a scan of the website(s) URL(s) with https://urlscan.io/ and https://sitecheck.sucuri.net/;
   - If detections, mark the files/URL as IOC. 
   
-## Website files advanced scan
-- Extract all the files that may contain active content (HTML, PHP, JS, etc.), and run a full antimalware scan on them (e.g.: with Windows Defender, ESET AV, WithSecure AV, etc.).
-  - If detections, mark the files/URL as IOC. 
-
-
 
 # 3) Detection: Generic antimalware/IOC local check
 
-## Install
+## ClamAV/Loki install
 - Install ClamAV
 - Install Loki, with its dependencies: https://github.com/Neo23x0/Loki?tab=readme-ov-file
 
 
-## Scan
+## ClamAV/Loki scan
 - Run a clamAV scan.
 - Run a Loki scan.
 
 - If detections, mark the files as IOC.
-  
+
+## Website files advanced scan
+- Extract all the files that may contain active content (HTML, PHP, JS, etc.), and run a full antimalware scan on them (e.g.: with Windows Defender, ESET AV, WithSecure AV, etc.).
+  - If detections, mark the files/URL as IOC. 
   
   
 # 4) Response
