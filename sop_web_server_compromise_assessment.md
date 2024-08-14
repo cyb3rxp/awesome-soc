@@ -67,7 +67,7 @@ NB: All main steps of the SOP may not be always required, and depending on the c
 
 ## Security reputation
 - Search your TIP for the domain name of the investigated server(s);
-  - if found, wich may mean the server is already known as malicious/compromised, mark the associated URL as IOC.
+  - if found, which may mean the server is already known as malicious/compromised, mark the associated URL as IOC.
 - Search VirusTotal for history of scans for the invedstigated server(s), with its domain name and main web pages;
   - if found, with detections, mark the associated URL as IOC.
  
