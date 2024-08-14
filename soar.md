@@ -76,6 +76,8 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
 * Automatically query AD or the assets management solution, for artefact enrichment (user, endpoint, IP, application, etc.).
 
 ## My recommendations for response (incident response, containment/eradication steps):
+* Search for a list of IP addresses in the TIP:
+   * My recommendation: use a script to query OpenCTI for with a CSV file, and make sure the output will confirm known malicious IP addresses (+ OpenCTI link to the IOC).
 * Block an IP on all firewalls (including VPN), SWG and CASB.
 * Block an URL on SWG. 
 * Block an email address (sender) on SEG.
