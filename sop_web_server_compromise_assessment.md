@@ -36,7 +36,7 @@ NB: All main steps of the SOP may not be always required, and depending on the c
 - Check that all the users that are root group members are legit;
   - if a suspicious account is found, mark it as an IOC.
 
-- Remove the non-legit/suspicious users that could be found.
+- Remove the non-legit/suspicious users that could be found, and kill their potential local session processes.
 
 ## Secure admin protocols
 - Make sure that only SSH is enabled and allowed to do remote admin tasks on the server(s);
