@@ -73,9 +73,9 @@ NB: All main steps of the SOP may not be always required, and depending on the c
  
 ## CMS security check
 - If there is a CMS like Wordpress on the investigated servers:
-  - Install the required extension (e.g.: WPscan, https://wordpress.com/plugins/wpscan, leveraging Jetpack) to scan extensions and vulnerabilities.
-  - Run a scan; 
-     - if malicious extension found, mark its name and URL as IOC.
+  - Run the security check of the CMS;
+  - If needed, install the required extension (e.g.: WPscan, https://wordpress.com/plugins/wpscan, leveraging Jetpack) to scan extensions and vulnerabilities.
+  - Run a scan with the security extension; 
 - If there is no tool to scan the CMS extensions, review them one by one.
   - if malicious extension found, mark its name and URL as IOC.
 
