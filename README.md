@@ -66,6 +66,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
   * Purp1eW0lf, [Blue Team Notes](https://github.com/Purp1eW0lf/Blue-Team-Notes)
   * PAN, [Security orchestration for dummies](https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/cortex-xsoar/Security-Orchestration-For-Dummies-Demisto-Special-Edition.pdf)
   * ThreatConnect, [SIRP / SOA / TIP benefits](https://threatconnect.com/blog/realizing-the-benefits-of-security-orchestration-automation-and-response-soar/)
+  * Medium, [Compromise assessment methodology](https://evrenbey.medium.com/compromise-assessment-methodology-820910efb6a4)
 * SOC/CSIRT processes:
   * NIST, [SP800-61 rev3, incident handling guide](https://csrc.nist.gov/pubs/sp/800/61/r3/ipd)
 * CSIRT build:
