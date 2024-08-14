@@ -126,4 +126,5 @@ NB: All main steps of the SOP may not be always required, and depending on the c
 ## Improve protection
 - Make sure a WAF (like MoedSecurity or CloudFlare) is being deployed ASAP, if not already there, to protect the web server(s).
 - Make sure Fail2Ban is up and running.
+- Install potentially missing security updates.
 
