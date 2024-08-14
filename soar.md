@@ -75,9 +75,17 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
 * Automatically retrieve the history of SIRP tickets for an user and/or endpoint, that is associated to a new SIRP ticket.
 * Automatically query AD or the assets management solution, for artefact enrichment (user, endpoint, IP, application, etc.).
 
-## My recommendations for response (incident response, containment/eradication steps):
+
+## My recommendations for detection (artefacts investigation):
+
 * Search for a list of IP addresses in the TIP:
    * My recommendation: use a script to query OpenCTI for with a CSV file, and make sure the output will confirm known malicious IP addresses (+ OpenCTI link to the IOC).
+* Extract a list of fresh IOCs from the TIP, and embed them in an IOC scanner:
+   * My recommendation: use a script extract IP/URL/domains over the last month, MD5 over the last year, and embed them in [Thor Lite](https://www.nextron-systems.com/thor-lite/) or [DFIR-ORC](https://github.com/dfir-orc).
+
+
+## My recommendations for response (incident response, containment/eradication steps):
+
 * Block an IP on all firewalls (including VPN), SWG and CASB.
 * Block an URL on SWG. 
 * Block an email address (sender) on SEG.
