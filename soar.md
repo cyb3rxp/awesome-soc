@@ -6,7 +6,7 @@ This page deals with Security Orchestration Automation and Response.
 * [Must read](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md#must-read)
 * [What is SOAR](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md#what-is-soar)?
 * [Simple and commonly needed automation tools](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md#simple-and-commonly-needed-automation-tools)
-* [Common automations](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md#common-automations)
+* [Common automations](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md#common-security-automation-use-cases)
 
 # Must read/watch
 
@@ -17,6 +17,7 @@ This page deals with Security Orchestration Automation and Response.
 * Gartner, [Market Guide for Security Orchestration, Automation and Response Solutions](https://www.gartner.com/doc/reprints?id=1-2ADE1K2G&ct=220621&st=sb);
 * Microsoft, [Microsoft Defender XDR , Security Copilot and Sentinel integrated into 1 portal](https://techcommunity.microsoft.com/t5/microsoft-mechanics-blog/microsoft-defender-xdr-security-copilot-amp-microsoft-sentinel/ba-p/3989312);
 * RecordedFuture [The Automation Advantage: Transforming Cybersecurity and Efficiency in Organisations](https://go.recordedfuture.com/automation-advantage-webinar?utm_medium=email&_hsenc=p2ANqtz-_zNWKiR0eBOCpx_R5cUwRu3iPfgPI8BeMLutfF1ywpL5i6LleQRxBvCUZ-dbaseqlfOWtLVikC5-lmwPYyhQCltn4Clg&_hsmi=316108876&utm_content=316108876&utm_source=hs_email)
+* PaloAlto, [Top security orchestration use cases](https://www.paloaltonetworks.com/engage/cortex-xsoar/top-security-orchestration-use-cases?utm_source=marketo&utm_medium=email&utm_campaign=Global-NU-EN-21-04-14-XX-P3-Cortex-XSOAR.EN-NU05-Cortex_XSOAR-MOFU&utm_network=pf&mkt_tok=NTMxLU9DUy0wMTgAAAGRtyevdpJBsF0cPQpwRMziLi8AsU4MneA1CMmGAGggPsBuYenJW9khG5e7Wqa78zC0GcLaP0a2R-e6bJpJ0BQAwEKLDrSpqe6npkmcM3DpNXSeqbeAJ9E&_pfses=Rx9LBfVH47t8TMQ542Kr7pCt#page=3)
 
 # What is SOAR?
 
@@ -61,7 +62,7 @@ More especially, SOAR mainly aims at:
 * SaaS-based (and partly free, for basic stuff) SOA:
   * [Shuffle](https://shuffler.io/)
 
-# Common automations
+# Common security automation use cases
 
 ## My recommendations for detection (alerts handling):
 
