@@ -40,7 +40,7 @@ NB: All main steps of the SOP may not be always required, and depending on the c
 
 ## Secure admin protocols
 - Make sure that only SSH is enabled and allowed to do remote admin tasks on the server(s);
-  - Block/disable other protocols, otherwise, at least temporarily.
+  - Block/disable other remote admin protocols, otherwise, at least temporarily.
 
 
 ## Temporary SOC protection
