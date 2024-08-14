@@ -81,7 +81,7 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
 * Block an email address (sender) on SEG.
 * Block an exe file (by hash) on endpoints (leveraging antimalware/EDR or AppLocker).
 * Block an exe file (by hash) on gateways and CASB: SWG, SEG, CASB.
-* Reset an AD account password.
+* Reset an ID-provider (AD, Entra ID, etc.) account password.
 * Disable an AD account (both user and computer, since computer account disabling will block authentication with any AD account on the endpoint, thus preventing from lateral movement or priv escalation).
 * Report a (undetected) sample to security vendors, via email. Here are a few addresses, in case of: 
   * Files samples (to be attached in a password-protected Zip file, with 'infected' as password): samples@eset.com, report@sentinelone.com, virus_submission@bitdefender.com, vsamples@f-secure.com, virus@avira.com, submitvirus@fortinet.com, virus_research@avertlabs.com, virus_doctor@trendmicro.com;
