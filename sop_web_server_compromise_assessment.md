@@ -18,7 +18,7 @@ NB: All main steps of the SOP may not be always required, and depending on the c
 
 ## "root" account remote access check for past events
 - Extract all IP addresses listed in SSH server logs, associated to authentications events with "root" local account.
-- Extract all IP addresses listed in web server logs, associated to authentications events with "root" local account.
+- Extract all IP addresses listed in web server logs, associated to authentications events with "root/admin" local account.
 - Extract all IP addresses listed in netstat as destination addresses (outgoing traffic).
 
 - Run the OpenCTI script to search for those IP addresses in the TIP;
@@ -76,6 +76,8 @@ NB: All main steps of the SOP may not be always required, and depending on the c
   - Install the required extension (e.g.: WPscan, https://wordpress.com/plugins/wpscan, leveraging Jetpack) to scan extensions and vulnerabilities.
   - Run a scan; 
      - if malicious extension found, mark its name and URL as IOC.
+- If there is no tool to scan the CMS extensions, review them one by one.
+  - if malicious extension found, mark its name and URL as IOC.
 
 ## Public scanner
 - Run a scan of the website(s) URL(s) with https://urlscan.io/ and https://sitecheck.sucuri.net/;
