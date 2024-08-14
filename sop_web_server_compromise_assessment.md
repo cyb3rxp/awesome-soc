@@ -70,6 +70,12 @@ NB: All main steps of the SOP may not be always required, and depending on the c
   - if found, with detections, mark the associated URL as IOC.
 - Search VirusTotal for history of scans for the invedstigated server(s), with its domain name and main web pages;
   - if found, with detections, mark the associated URL as IOC.
+ 
+## CMS security check
+- If there is a CMS like Wordpress on the investigated servers:
+  - Install the required extension (e.g.: WPscan, https://wordpress.com/plugins/wpscan, leveraging Jetpack) to scan extensions and vulnerabilities.
+  - Run a scan; 
+     - if malicious extension found, mark its name and URL as IOC.
 
 ## Public scanner
 - Run a scan of the website(s) URL(s) with https://urlscan.io/ and https://sitecheck.sucuri.net/;
@@ -125,4 +131,5 @@ NB: All main steps of the SOP may not be always required, and depending on the c
 - Make sure a WAF (like MoedSecurity or CloudFlare) is being deployed ASAP, if not already there, to protect the web server(s).
 - Make sure Fail2Ban is up and running.
 - Install potentially missing security updates.
+- Enable strong authentication wherever possible.
 
