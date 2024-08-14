@@ -60,6 +60,11 @@
 
 # Veille juridique & règlementaire
 
+## Règlementations FR
+
+* Technique et Droit du Numérique, [Etat de l'art cybersécurité : technique et juridique en 2024](https://technique-et-droit-du-numerique.fr/cyber-securite-etat-de-l-art-et-negligence-un-point-technique-et-juridique-en-2024/)
+
+
 ## NIS2 :
 
 * Sekoia, [webinaire NIS2](https://www.youtube.com/watch?v=78KIo3iXjow)
