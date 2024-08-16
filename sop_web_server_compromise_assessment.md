@@ -25,10 +25,8 @@ NB: All main steps of the SOP may not be always required, and depending on the c
 
 - Run the OpenCTI script to search for those IP addresses in the TIP;
   - If detection, mark the corresponding IP address as an IOC, and consider to block it at firewall level ASAP.
-- Manually check all the destination IP addresses, against online tools like cybergordon.com;
+- Manually check all the destination IP addresses, against online tools like [CyberGordon](cybergordon.com);
   - If detection, mark the corresponding IP address as an IOC, and consider to block it at firewall level ASAP.
-
-  
   
 ## Local users check
 - Check who is connected right now on the server with the "w" command;
@@ -43,6 +41,12 @@ NB: All main steps of the SOP may not be always required, and depending on the c
 ## Secure admin protocols
 - Make sure that only SSH is enabled and allowed to do remote admin tasks on the server(s);
   - Block/disable other remote admin protocols, otherwise, at least temporarily.
+ 
+## Persistence 
+- Check all services set to be started at boot-up time;
+  - If a suspicious item is found, mark it as an IOC (path, hash).
+- Check all scheduled tasks.
+  - If a suspicious item is found, mark it as an IOC (path, hash).
 
 
 ## Temporary SOC protection
@@ -66,11 +70,11 @@ NB: All main steps of the SOP may not be always required, and depending on the c
 - If there is a specific web page that is considered as suspicious, or even malicious, investigate it and confirm it is malicious or not;
   - If confirmed malicious:
     - mark the page URL + file path + MD5, as IOC.
-    - search in the server logs for all IP addresses that have accessed this page, and mark those as IOC (C&C) or artefacts (compromised machines).
+    - search in the server logs for all IP addresses that have accessed this page, and mark those as IOC (attacker's access) or artefacts (internal/legit compromised machines).
 
 ## Security reputation
 - Search your TIP for the domain name of the investigated server(s);
-  - If found, which may mean the server is already known as malicious/compromised, mark the associated URL as IOC.
+  - If found, which may mean the server(s) is(are) already known as malicious/compromised, mark the associated URL as IOC.
 - Search VirusTotal for history of scans for the investigated server(s), with its domain name and main web pages;
   - If found, with detections, mark the associated URL as IOC.
  
@@ -83,7 +87,7 @@ NB: All main steps of the SOP may not be always required, and depending on the c
   - If malicious extension found, mark its name and URL as IOC.
 
 ## Public scanner
-- Run a scan of the website(s) URL(s) with https://urlscan.io/ and https://sitecheck.sucuri.net/;
+- Run a scan of the website(s) URL(s) with [URLScan](https://urlscan.io/) and [Sucuri](https://sitecheck.sucuri.net/);
   - If detections, mark the files/URL as IOC. 
   
 
@@ -159,8 +163,9 @@ NB: All main steps of the SOP may not be always required, and depending on the c
 - Make sure the server logs are being sent to an sustainable XDR/SIEM service, for security monitoring by a SOC.
 
 ## Improve protection
-- Make sure a WAF (like ModSecurity or CloudFlare) is being deployed ASAP, if not already there, to protect the web server(s).
-- Make sure Fail2Ban is up and running, or if possible, install [CrowdSec WAF](https://www.crowdsec.net/solutions/application-security)
+- Make sure a WAF is being deployed ASAP, if not already there, to protect the web server(s);
+  - My recommendations: [CrowdSec WAF](https://www.crowdsec.net/solutions/application-security) or [CloudFlare](https://www.cloudflare.com/) with OWASP Core Ruleset and CloudFlare Managed Ruleset.
+- Make sure Fail2Ban is up and running.
 - Install potentially missing security updates, including CMS extensions/components updates.
 - Install an EDR, or at least [SysmonForLinux](https://github.com/Sysinternals/SysmonForLinux), on the server.
 - Enable strong authentication wherever possible.
