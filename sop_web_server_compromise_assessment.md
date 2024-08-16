@@ -161,27 +161,27 @@ NB: All main steps of the SOP may not be always required, and depending on the c
  
 ## Manual investigation
 - In the web server(s) logs, look for the following patterns:
-  - HTTP code equals 200, HTTP request type POST, and string ".php" at the end of the query (Note the User-agent, URL, artefact being requested, etc.).
-  - HTTP code equals 200, HTTP request type POST, and string "panel" in the query (Note the User-agent, URL, artefact being requested, etc.).
-  - HTTP code equals 200, HTTP request type POST, and one of the following strings in the query (Note the User-agent, URL, page being requested on disk, etc.):
+  - HTTP code equals 200, HTTP request type POST, and string ".php" at the end of the query (Note the source IP address, User-agent, URL, artefact being requested, etc.).
+  - HTTP code equals 200, HTTP request type POST, and string "panel" in the query (Note the source IP address, User-agent, URL, artefact being requested, etc.).
+  - HTTP code equals 200, HTTP request type POST, and one of the following strings in the query (Note source IP address, the User-agent, URL, page being requested on disk, etc.):
     - "shell";
     - "panel";
     - "admin". 
-  - HTTP code equals 200, HTTP request type GET, and one of the following strings in the query (Note the User-agent, URL, page being requested on disk, etc.):
+  - HTTP code equals 200, HTTP request type GET, and one of the following strings in the query (Note the source IP address, User-agent, URL, page being requested on disk, etc.):
     - "whoami";
     - "uname";
     - "ifconfig";
     - "netstat";
     - "etc/passwd";
     - "install".
-  - HTTP code equals 200, HTTP request type GET, and the following strings in the query (Note the User-agent, URL, page being requested on disk, etc.):
+  - HTTP code equals 200, HTTP request type GET, and the following strings in the query (Note the source IP address, User-agent, URL, page being requested on disk, etc.):
     - single quote + "or";
     - "UNION";
     - "SELECT".
-  - HTTP code equals 40X, HTTP request type GET or POST, and string "shell" in the query (Note the User-agent, URL, artefact being requested, etc.).
+  - HTTP code equals 40X, HTTP request type GET or POST, and string "shell" in the query (Note the source IP address, User-agent, URL, artefact being requested, etc.).
   - IP addresses trigerring the most HTTP code 50X: double check the requests (Note the User-agent, URL, artefact being requested, etc.).
   - IP addresses trigerring the most HTTP codes 404, 403, or 400: double check the requests (Note the User-agent, URL, artefact being requested, etc.).
-  - IP addresses that poll a particular server URL with a constant frequency (Note the IP, User-agent, URL, artefact being requested, etc.).
+  - IP addresses that poll a particular server URL with a constant frequency (Note the IP address, User-agent, URL, artefact being requested, etc.).
   - Rare User-Agent.
   - Longest URL.
 - If any malicious IP address, or user-agent, or file, is being found: mark it as IOC.
