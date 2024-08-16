@@ -19,9 +19,11 @@ NB: All main steps of the SOP may not be always required, and depending on the c
 
 # 0) Prepair: Cautiousness
 
-## Current state of server backup
+## Srver backup for investigation
 - [If possible] Run a backup of the server(s) to be investigated, before touching them. 
   - Then work as much as possible on the copy of the server(s)
+
+## Copy the minimum required file
 - At least, copy the following folders to a safe and remote place: 
   - /var/log/
   - /etc/
