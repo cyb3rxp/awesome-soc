@@ -173,7 +173,7 @@ NB: All main steps of the SOP may not be always required, and depending on the c
     - "etc/passwd";
     - "install".
   - HTTP code equals 200, HTTP request type GET, and the following strings in the query (Note the User-agent, URL, page being requested on disk, etc.):
-  - single quote + "or";
+    - single quote + "or";
     - "UNION";
     - "SELECT".
   - HTTP code equals 40X, HTTP request type GET or POST, and string "shell" in the query (Note the User-agent, URL, artefact being requested, etc.).
