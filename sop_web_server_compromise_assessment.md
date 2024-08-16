@@ -163,19 +163,19 @@ NB: All main steps of the SOP may not be always required, and depending on the c
   - HTTP code equals 200, HTTP request type POST, and string "panel" in the query (Note the User-agent, URL, artefact being requested, etc.).
   - HTTP code equals 200, HTTP request type POST, and one of the following strings in the query (Note the User-agent, URL, page being requested on disk, etc.):
     - "shell";
-	  - "panel";
-	  - "admin". 
+    - "panel";
+    - "admin". 
   - HTTP code equals 200, HTTP request type GET, and one of the following strings in the query (Note the User-agent, URL, page being requested on disk, etc.):
     - "whoami";
-	  - "uname";
-	  - "ifconfig";
-	  - "netstat";
-	  - "etc/passwd";
-	  - "install".
+    - "uname";
+    - "ifconfig";
+    - "netstat";
+    - "etc/passwd";
+    - "install".
   - HTTP code equals 200, HTTP request type GET, and the following strings in the query (Note the User-agent, URL, page being requested on disk, etc.):
-	  - single quote + "or";
+  - single quote + "or";
     - "UNION";
-	  - "SELECT".
+    - "SELECT".
   - HTTP code equals 40X, HTTP request type GET or POST, and string "shell" in the query (Note the User-agent, URL, artefact being requested, etc.).
   - IP addresses trigerring the most HTTP code 50X: double check the requests (Note the User-agent, URL, artefact being requested, etc.).
   - IP addresses trigerring the most HTTP codes 404, 403, or 400: double check the requests (Note the User-agent, URL, artefact being requested, etc.).
