@@ -1,4 +1,4 @@
-#  SOP (Standard Operating Procedure) for compromise assessment use case on a web server (mostly Linux)
+#  SOP (Standard Operating Procedure) for compromise assessment on a web server (mostly Linux)
 
 Derivated from the Incident response framework as described in NIST SP800-61 rev3 and NIST CSF.
 
@@ -22,19 +22,19 @@ NB: All main steps of the SOP may not be always required, and depending on the c
 - Extract all IP addresses listed in netstat as destination addresses (outgoing traffic).
 
 - Run the OpenCTI script to search for those IP addresses in the TIP;
-  - if detection, mark the corresponding IP address as an IOC, and consider to block it at firewall level ASAP.
+  - If detection, mark the corresponding IP address as an IOC, and consider to block it at firewall level ASAP.
 - Manually check all the destination IP addresses, against online tools like cybergordon.com;
-  - if detection, mark the corresponding IP address as an IOC, and consider to block it at firewall level ASAP.
+  - If detection, mark the corresponding IP address as an IOC, and consider to block it at firewall level ASAP.
 
   
   
 ## Local users check
 - Check who is connected right now on the server with the "w" command;
-  - if a suspicious account is found, mark it as an IOC.
+  - If a suspicious account is found, mark it as an IOC.
 - Check that all the users that are Sudoers members are legit;
-  - if a suspicious account is found, mark it as an IOC.
+  - If a suspicious account is found, mark it as an IOC.
 - Check that all the users that are root group members are legit;
-  - if a suspicious account is found, mark it as an IOC.
+  - If a suspicious account is found, mark it as an IOC.
 
 - Remove the non-legit/suspicious users that could be found, and kill their potential local session processes.
 
@@ -128,7 +128,7 @@ NB: All main steps of the SOP may not be always required, and depending on the c
 
 ## Leverage backups
 - If there is any doubt on a system component, account, or web server content, restore backup from last known clean one.
-
+- If there is no clean backup available (or not too old), reinstall a fresh new server, and export/import the web server configuration and data, from the investigated one.
 
 
 # 7) Feedback/PDCA
