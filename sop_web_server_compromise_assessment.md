@@ -1,6 +1,6 @@
 #  Standard Operating Procedure for compromise assessment on a web server (mostly Linux)
 
-Derivated from the Incident response framework as described in NIST SP800-61 rev3 and NIST CSF.
+Derivated from the Incident response framework as described in NIST SP800-61 rev3,  NIST CSF, and this [paper](https://media.defense.gov/2020/Jun/09/2002313081/-1/-1/0/CSI-DETECT-AND-PREVENT-WEB-SHELL-MALWARE-20200422.PDF).
 
 Version: 0.3, as of 08/16/2024.
 
@@ -13,15 +13,32 @@ NB: All main steps of the SOP may not be always required, and depending on the c
 - OpenCTI (or MISP) with threat intel feeds enabled.
 - Script to query OpenCTI with a list of IP addresses/hashes.
 - IOC Scanner, like [THOR Lite](https://www.nextron-systems.com/thor-lite/), ready to go.
+- OSINTracker or Timesketch, to document and work on discovered IOC.
 - XDR/SIEM ready to ingest event logs (Linux), with threat intel feeds being ingested to produce correlation-based detections, and if possible, ready-to-go SIEM rules.
 
 
-# 1) Detection: Admin check ("who does currently own the server?")
+# 0) Prepair: Cautiousness
+
+## Current state of server backup
+- [If possible] Run a backup of the server(s) to be investigated, before touching them. 
+  - Then work as much as possible on the copy of the server(s)
+- At least, copy the following folders to a safe and remote place: 
+  - /var/log/
+  - /etc/
+
+
+# 1) Detection: Admin and remote access check ("who does currently own the server?")
 
 ## "root" account remote access check for past events
 - Extract all IP addresses listed in SSH server logs, associated to authentications events with "root" local account.
 - Extract all IP addresses listed in web server logs, associated to authentications events with "root/admin" local account.
+
+- Run the OpenCTI script to search for those IP addresses in the TIP;
+  - If detection, mark the corresponding IP address as an IOC, and consider to block it at firewall level ASAP.
+
+## Outgoing traffic
 - Extract all IP addresses listed in netstat as destination addresses (outgoing traffic).
+- [If possible] extract all IP addresses that could be found in files located in /var/log/*
 
 - Run the OpenCTI script to search for those IP addresses in the TIP;
   - If detection, mark the corresponding IP address as an IOC, and consider to block it at firewall level ASAP.
@@ -53,18 +70,22 @@ NB: All main steps of the SOP may not be always required, and depending on the c
 - Export the SSH logs to your XDR/SIEM solution, like Sekoia XDR for instance.
 
 
-# 2) Detection: Admin (SSH) security
+# 2) Detection: Admin security
 
 ## Harden SSH
-- Install Fail2ban ASAP, to protect against SSH brute-force attacks.
+- Install Fail2ban ASAP, to detect and protect against SSH brute-force attacks.
 - Reset all root accounts' passwords (if there are others than yours).
 
+## Check CMS / Web admin panel
+- Check that default admin passwords have been changed for CMS [if present];
+- Check that default admin passwords have been changed for web admin panel [if present]
+
 ## Temporary SOC protection
-- Export the fail2ban logs to your XDR/SIEM solution;
+- Export the fail2ban and SSH logs to your XDR/SIEM solution;
   - e.g.: Sekoia XDR.
 
 
-# 2) Detection: Web external checks
+# 3) Detection: Web external checks
 
 ## Specific web page check 
 - If there is a specific web page that is considered as suspicious, or even malicious, investigate it and confirm it is malicious or not;
@@ -83,7 +104,7 @@ NB: All main steps of the SOP may not be always required, and depending on the c
   - Run the security check of the CMS;
   - If needed, install the required extension (e.g.: WPscan, https://wordpress.com/plugins/wpscan, leveraging Jetpack) to scan extensions and vulnerabilities.
   - Run a scan with the security extension; 
-- If there is no tool to scan the CMS extensions, review them one by one.
+- If there is no tool to scan the CMS extensions, review them one by one;
   - If malicious extension found, mark its name and URL as IOC.
 
 ## Public scanner
@@ -91,7 +112,7 @@ NB: All main steps of the SOP may not be always required, and depending on the c
   - If detections, mark the files/URL as IOC. 
   
 
-# 3) Detection: Generic antimalware/IOC local check
+# 4) Detection: Generic antimalware/IOC local check
 
 ## ClamAV / THOST Lite install
 - Install ClamAV
@@ -104,13 +125,17 @@ NB: All main steps of the SOP may not be always required, and depending on the c
 - If detections, mark the files as IOC.
 
 ## Website files advanced scan
-- Extract all the files that may contain active content (HTML, PHP, JS, etc.), and run a full antimalware scan on them (searching for exploit codes, webshells, malicious script files, RAT, etc.):
+- Filter all the files that may contain active content (HTML, PHP, JS, etc.), and run a full antimalware scan on them (searching for exploit codes, webshells, malicious script files, RAT, etc.):
   - My recommendation: Windows Defender, ESET AV.
   - If detections, mark the files/URL as IOC.
 
+## Manual search
+- On the web server(s) disk, look for files that were recently modified (a few hours/days ago, for instance).
+  - If any malicious file is being found: mark it as IOC.
+- [If possible] compare the investigated server(s) with last known clean backups, and double check the changes.
 
 
-# 4) Detection: Website content source checks
+# 5) Detection: Website content source checks
 
 ## File storage service 
 - If the webserver(s) uses() a file storage service (even a SAN) to store files to be served as web content, then run a full antimalware check on this file share;
@@ -126,14 +151,51 @@ NB: All main steps of the SOP may not be always required, and depending on the c
   - Enable MFA for all Git accounts, wherever possible.
 
 
-# 5) Detection: On-the-fly alerts of XDR/SIEM 
+# 6) Detection: XDR/SIEM alerts and logs investigation
 
 ## Existing alerts
 - If any alert was generated by the XDR/SIEM after the beginning of log ingestion, handle them.
   - If any malicious IP address, or URL, or account, is being found, mark it as IOC.
+ 
+## Manual investigation
+- In the web server(s) logs, look for the following patterns:
+  - HTTP code equals 200, HTTP request type POST, and string ".php" at the end of the query (Note the User-agent, URL, artefact being requested, etc.).
+  - HTTP code equals 200, HTTP request type POST, and string "panel" in the query (Note the User-agent, URL, artefact being requested, etc.).
+  - HTTP code equals 200, HTTP request type POST, and one of the following strings in the query (Note the User-agent, URL, page being requested on disk, etc.):
+    - "shell";
+	  - "panel";
+	  - "admin". 
+  - HTTP code equals 200, HTTP request type GET, and one of the following strings in the query (Note the User-agent, URL, page being requested on disk, etc.):
+    - "whoami";
+	  - "uname";
+	  - "ifconfig";
+	  - "netstat";
+	  - "etc/passwd";
+	  - "install".
+  - HTTP code equals 200, HTTP request type GET, and the following strings in the query (Note the User-agent, URL, page being requested on disk, etc.):
+	  - single quote + "or";
+    - "UNION";
+	  - "SELECT".
+  - HTTP code equals 40X, HTTP request type GET or POST, and string "shell" in the query (Note the User-agent, URL, artefact being requested, etc.).
+  - IP addresses trigerring the most HTTP code 50X: double check the requests (Note the User-agent, URL, artefact being requested, etc.).
+  - IP addresses trigerring the most HTTP codes 404, 403, or 400: double check the requests (Note the User-agent, URL, artefact being requested, etc.).
+  - IP addresses that poll a particular server URL with a constant frequency (Note the IP, User-agent, URL, artefact being requested, etc.).
+  - Rare User-Agent.
+  - Longest URL.
+- If any malicious IP address, or user-agent, or file, is being found: mark it as IOC.
+
+- In the AuditD logs, look for the following patterns:
+  - Apache/Nginx process' children, such as one the followings:
+    - "cat";
+    - "ifconfig";
+    - "ls";
+    - "crontab";
+    - "netstat";
+    - "iptables";
+    - "whoami"   
 
 
-# 6) Response
+# 7) Response: contain/eradicate
 
 ## Contain: 
 - Make sure the IP addresses that are associated to IOC are being blocked: 
@@ -143,30 +205,41 @@ NB: All main steps of the SOP may not be always required, and depending on the c
 
 
 ## Eradicate: IOC cleaning
-- Double check all artefacts marked as IOC, to confirm they are malicious;
+- Double check all artefacts marked as IOC, to confirm they are malicious.
 - Clean/restore or at least block, depending on the case, the files associated to IOC.
 
 
 
-# 7) Response/recover
+# 8) Response/recover
 
 ## Leverage backups
-- If there is any doubt on a system component, account, or web server content, restore backup from last known clean one.
-- If there is no clean backup available (or not too old), reinstall a fresh new server, and export/import the web server configuration and data, from the investigated one.
+- If there is any doubt on a system component, account, or web server(s) content, restore backup from last known clean one.
+- If there is no clean backup available (or not too old), reinstall a fresh new server(s), and export/import the web server(s) configuration and data, from the investigated one(s).
 
 
-# 8) Feedback/PDCA
+# 9) Feedback/PDCA
+
+## Final check
+- Run again the online checks on the "Public scanner" part of the SOP, to make sure there no malicious leftover artefact:
+  - If any malicious IP address, or URL, is being found: mark it as IOC;
+    - Extend the temporarily SOC for a few weeks.
+	  - Clean the malicious artefact(s).
+
 
 ## Improve detection
 - Make sure all confirmed IOC are listed in the TIP that the SOC uses, as well as ingested in security/system tools configurations (whenever possible).
 - Disable temporary XDR/SIEM monitoring service.
-- Make sure the server logs are being sent to an sustainable XDR/SIEM service, for security monitoring by a SOC.
+- Make sure the server(s) logs are being sent to an sustainable XDR/SIEM service, for security monitoring by a SOC.
+
 
 ## Improve protection
 - Make sure a WAF is being deployed ASAP, if not already there, to protect the web server(s);
   - My recommendations: [CrowdSec WAF](https://www.crowdsec.net/solutions/application-security) or [CloudFlare](https://www.cloudflare.com/) with OWASP Core Ruleset and CloudFlare Managed Ruleset.
-- Make sure Fail2Ban is up and running.
+- Make sure automated ban of non-web malicious traffic is implemented;
+  - My recommendations: Fail2Ban, or if possible, [CrowdSec Firewall bouncer](https://docs.crowdsec.net/u/bouncers/firewall/).
 - Install potentially missing security updates, including CMS extensions/components updates.
-- Install an EDR, or at least [SysmonForLinux](https://github.com/Sysinternals/SysmonForLinux), on the server.
+- Install an EDR, or at least [SysmonForLinux](https://github.com/Sysinternals/SysmonForLinux), on the server(s).
 - Enable strong authentication wherever possible.
+- Harden admin workstations.
+- Update server(s) backups.
 
