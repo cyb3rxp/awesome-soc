@@ -1,4 +1,4 @@
-#  SOP (Standard Operating Procedure) for compromise assessment on a web server (mostly Linux)
+#  Standard Operating Procedure for compromise assessment on a web server (mostly Linux)
 
 Derivated from the Incident response framework as described in NIST SP800-61 rev3 and NIST CSF.
 
@@ -12,7 +12,7 @@ NB: All main steps of the SOP may not be always required, and depending on the c
 - Root access to the server(s) to be investigated.
 - OpenCTI (or MISP) with threat intel feeds enabled.
 - Script to query OpenCTI with a list of IP addresses/hashes.
-- IOC Scanner, like THOR Lite, ready to go.
+- IOC Scanner, like [THOR Lite](https://www.nextron-systems.com/thor-lite/), ready to go.
 - XDR/SIEM ready to ingest event logs (Linux), with threat intel feeds being ingested to produce correlation-based detections, and if possible, ready-to-go SIEM rules.
 
 
@@ -91,7 +91,7 @@ NB: All main steps of the SOP may not be always required, and depending on the c
 
 ## ClamAV / THOST Lite install
 - Install ClamAV
-- Install [THOR Lite](https://www.nextron-systems.com/thor-lite/), with its dependencies.
+- Install THOR Lite, with its dependencies.
 
 ## ClamAV / THOR Lite scan
 - Run a ClamAV scan.
