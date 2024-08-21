@@ -10,6 +10,10 @@
 
 * RedHat, [Le SOAR, qu'est-ce que c'est ?](https://www.redhat.com/fr/topics/security/what-is-soar)
 
+## "Threat hunting" / chasse 
+
+* CrowdStrike, [Qu'est-ce que le "threat hunting ?"](https://www.crowdstrike.fr/cybersecurity-101/threat-hunting/)
+
 # Veille
 
 ## Etat de la menace :
