@@ -35,6 +35,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
   * LetsDefend [SOC analyst interview questions](https://github.com/LetsDefend/SOC-Interview-Questions)
 * SOC management:
   * FIRST, [ISO 27035 Practical value for CSIRT and SOCs ](https://www.first.org/resources/papers/conf2023/FIRSTCON23-TLPCLEAR-Benetis-ISO-27035-practical-value-for-CSIRTs-and-SOCs.pdf)
+  * SANS, [2024 SOC survey](https://swimlane.com/wp-content/uploads/SANS-SOC-Survey_2024.pdf)
 * SOC assessment:
   * CMM, [SOC-CMM](https://www.soc-cmm.com/)
   * Rabobank CDC, [DeTTECT](https://github.com/rabobank-cdc/DeTTECT)
