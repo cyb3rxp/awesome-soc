@@ -33,7 +33,7 @@ Hence the statement that **SOAR is in fact made of 3 critical tools** (see drawi
 
 And on top of that, SIEM.
 
-Thus, in my view as well in Gartner's mind when they invented the name, **SOAR is more an approach, a vision, based on technologies and processes**, than a technology or a tool per say. 
+Thus, in my view and probably as well in Gartner's mind when they invented the name, **SOAR is more an approach, a vision, based on technologies and processes**, than a technology or a tool per say. 
 
 More especially, SOAR mainly aims at:
 * reducing human error;
