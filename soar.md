@@ -41,6 +41,17 @@ More especially, SOAR mainly aims at:
 * increasing performance of SOC/CERT teams (higher workload with the same team size), constant quality, and improved processes (quicker processes runs);
 
 
+# SOAR need for security monitoring
+
+Here is [an example](https://ptp.cloud/soar-based-security-monitoring/) of a SOC workflow leveraging SOAR approach, with the following technology layers in place:
+* SIEM: [Fluency](https://www.fluencysecurity.com/),
+* SIRP: [TheHive](https://github.com/TheHive-Project/TheHive),
+* SOA: [Shuffle](https://github.com/Shuffle/Shuffle),
+* TIP: [MISP](https://www.misp-project.org/),
+* ITSM: [ConnectWise](https://www.connectwise.com/)
+
+![image](https://github.com/user-attachments/assets/fefe6c00-7f20-4408-a1eb-91622c2c3fbd)
+
 
 # Simple and commonly needed automation tools
 
@@ -63,17 +74,6 @@ More especially, SOAR mainly aims at:
 * SaaS-based (and partly free, for basic stuff) SOA:
   * [Shuffle](https://shuffler.io/)
 
-
-# SOAR need for security monitoring
-
-Here is [an example](https://ptp.cloud/soar-based-security-monitoring/) of a SOC workflow with the following technology layers:
-* SIEM: [Fluency](https://www.fluencysecurity.com/),
-* SIRP: [TheHive](https://github.com/TheHive-Project/TheHive),
-* SOA: [Shuffle](https://github.com/Shuffle/Shuffle),
-* TIP: [MISP](https://www.misp-project.org/),
-* ITSM: [ConnectWise](https://www.connectwise.com/)
-
-![image](https://github.com/user-attachments/assets/fefe6c00-7f20-4408-a1eb-91622c2c3fbd)
 
 
 # Common security automation use cases
