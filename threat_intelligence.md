@@ -40,8 +40,13 @@ As per [Gartner](https://www.gartner.com/doc/reprints?id=1-2IJMCHZX&ct=240815&st
 ## TI / DRPS / EASM
 
 Reminder:
-* DRPS = digital risk protection services
-* EASM = external attack surface management 
+* DRPS = digital risk protection services.
+  * As per Gartner:
+   > DRPS stretch detection and monitoring activities outside of the enterprise perimeter by searching for threats to enterprise digital resources, such as IP addresses, domains and brand-related assets. DRPS solutions provide visibility into the open (surface) web, dark web and deep web environments by providing contextual information on threat actors and the tactics and processes that they exploit to conduct malicious activities.
+    > DRPS providers support a variety of roles (such as chief information security officers, risk, compliance and legal teams, HR and marketing professionals) to map and monitor digital assets. They also support mitigating activities such as site/account takedowns and the generation of customized reporting. Takedown services can include forensics (postinvestigation and data recovery) and after-action monitoring.
+* EASM = external attack surface management
+  * As per Gartner:
+  > EASM is an adjacent technology market that overlaps with DRPS and TI. It is a combination of technology, processes and managed services that provides visibility of known and unknown digital assets to give organizations an outside-in view of their environment [...]. This, in turn, can help organizations prioritize threat and exposure treatment activity. However, Gartner predicts that EASM capabilities will be assimilated into other security solutions (i.e., DRPS, TI, vulnerability management, exposure assessment and adversarial exposure validation) in the near future, and may no longer be a stand-alone market in the next three to five years.
 
 As per [Gartner](https://www.gartner.com/doc/reprints?id=1-2IJMCHZX&ct=240815&st=sb):
 
