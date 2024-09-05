@@ -43,7 +43,7 @@ Reminder:
 * DRPS = digital risk protection services
 * EASM = external attack surface management 
 
-As per [Gartner](https://www.gartner.com/doc/reprints?id=1-2IJMCHZX&ct=240815&st=sb), here is the market Overlap Between Threat Intelligence, DRPS and EASM:
+As per [Gartner](https://www.gartner.com/doc/reprints?id=1-2IJMCHZX&ct=240815&st=sb):
 
 ![image](https://github.com/user-attachments/assets/899ff352-3eb3-460f-8a0e-9d6cce5bdfa3)
 
@@ -63,6 +63,7 @@ Here is [an example](https://www.erdalozkaya.com/cyber-threat-intelligence/) of 
 
 
 # Platform
+
 ## TIP choice 
 Here are my recommendations:
 * for community ones: [MISP](https://www.misp-project.org/), [OpenCTI](https://www.filigran.io/en/products/opencti/);
