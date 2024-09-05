@@ -122,7 +122,7 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
  
  ## Automation example around identity-based detections
 
- * https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md#identity-based-detections
+ * Cf. [my page](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md#identity-based-detections)
   
 
 # End
