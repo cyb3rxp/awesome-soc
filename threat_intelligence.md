@@ -22,6 +22,39 @@
 * SecurityAffairs, [UKR/RU cyberwar](https://securityaffairs.com/128727/cyber-warfare-2/feb-27-mar-05-ukraine-russia-cyberwar.html)
 * Gartner, [Market Guide for Security Threat Intelligence Products and Services](https://www.gartner.com/doc/reprints?id=1-2IJMCHZX&ct=240815&st=sb)
 
+
+## What is threat intel (service)?
+
+As per [Gartner](https://www.gartner.com/doc/reprints?id=1-2IJMCHZX&ct=240815&st=sb):
+> The mandatory features for services in this market include:
+> * Indicators of compromise (IoCs), including malicious or suspicious ratings, such as IP addresses, URLs, domains and file hashes.
+> * Direct technical intelligence collection or research, enabling the consumer to tailor collection or search functionality for relevant IoCs.
+> * Configuration of alerting thresholds based on predefined criteria.
+> * Machine-to-machine integrations to either push or pull intelligence artifacts through to multiple solutions.
+> * Out-of-the-box enrichments to IoCs, such as tentative attribution, geolocation data and registration information.
+> * An interactive user portal with built-in analysis functionalities such as contextualized dashboards, configurable alerting and search features.
+> * IOC scoring or risk rating as a way to illustrate confidence in maliciousness or suspiciousness.
+> * Investigative support options, which may include ad hoc requests-for-information, longer-term analysis or recurring analyst augmentation.
+
+
+## TI / DRPS / EASM
+
+Reminder:
+* DRPS = digital risk protection services
+* EASM = external attack surface management 
+
+As per [Gartner](https://www.gartner.com/doc/reprints?id=1-2IJMCHZX&ct=240815&st=sb), here is the market Overlap Between Threat Intelligence, DRPS and EASM:
+
+![image](https://github.com/user-attachments/assets/899ff352-3eb3-460f-8a0e-9d6cce5bdfa3)
+
+
+
+## Threat Intel DIKI Pyramid
+
+As per [Gartner](https://www.gartner.com/doc/reprints?id=1-2IJMCHZX&ct=240815&st=sb), 
+![image](https://github.com/user-attachments/assets/4c7a673f-8eb6-4873-a01f-3d5d1db0efad)
+
+
 # Generic workflow
 
 Here is [an example](https://www.erdalozkaya.com/cyber-threat-intelligence/) of what we could expect to have:
