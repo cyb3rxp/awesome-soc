@@ -18,6 +18,7 @@ This page deals with Security Orchestration Automation and Response.
 * Microsoft, [Microsoft Defender XDR , Security Copilot and Sentinel integrated into 1 portal](https://techcommunity.microsoft.com/t5/microsoft-mechanics-blog/microsoft-defender-xdr-security-copilot-amp-microsoft-sentinel/ba-p/3989312);
 * RecordedFuture [The Automation Advantage: Transforming Cybersecurity and Efficiency in Organisations](https://go.recordedfuture.com/automation-advantage-webinar?utm_medium=email&_hsenc=p2ANqtz-_zNWKiR0eBOCpx_R5cUwRu3iPfgPI8BeMLutfF1ywpL5i6LleQRxBvCUZ-dbaseqlfOWtLVikC5-lmwPYyhQCltn4Clg&_hsmi=316108876&utm_content=316108876&utm_source=hs_email)
 * PaloAlto, [Top security orchestration use cases](https://www.paloaltonetworks.com/engage/cortex-xsoar/top-security-orchestration-use-cases?utm_source=marketo&utm_medium=email&utm_campaign=Global-NU-EN-21-04-14-XX-P3-Cortex-XSOAR.EN-NU05-Cortex_XSOAR-MOFU&utm_network=pf&mkt_tok=NTMxLU9DUy0wMTgAAAGRtyevdpJBsF0cPQpwRMziLi8AsU4MneA1CMmGAGggPsBuYenJW9khG5e7Wqa78zC0GcLaP0a2R-e6bJpJ0BQAwEKLDrSpqe6npkmcM3DpNXSeqbeAJ9E&_pfses=Rx9LBfVH47t8TMQ542Kr7pCt#page=3)
+* PTP, [SOAR-based security monitoring](https://ptp.cloud/soar-based-security-monitoring/)
 
 # What is SOAR?
 
@@ -61,6 +62,19 @@ More especially, SOAR mainly aims at:
 
 * SaaS-based (and partly free, for basic stuff) SOA:
   * [Shuffle](https://shuffler.io/)
+
+
+# SOAR need for security monitoring
+
+Here is [an example](https://ptp.cloud/soar-based-security-monitoring/) of a SOC workflow with the following technology layers:
+* SIEM: [Fluency](https://www.fluencysecurity.com/),
+* SIRP: [TheHive](https://github.com/TheHive-Project/TheHive),
+* SOA: [Shuffle](https://github.com/Shuffle/Shuffle),
+* TIP: [MISP](https://www.misp-project.org/),
+* ITSM: [ConnectWise](https://www.connectwise.com/)
+
+![image](https://github.com/user-attachments/assets/fefe6c00-7f20-4408-a1eb-91622c2c3fbd)
+
 
 # Common security automation use cases
 
