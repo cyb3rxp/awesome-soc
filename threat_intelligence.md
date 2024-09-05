@@ -55,11 +55,17 @@ As per [Gartner](https://www.gartner.com/doc/reprints?id=1-2IJMCHZX&ct=240815&st
 ![image](https://github.com/user-attachments/assets/4c7a673f-8eb6-4873-a01f-3d5d1db0efad)
 
 
-# Generic workflow
+# Threat intel life cycle
 
-Here is [an example](https://www.erdalozkaya.com/cyber-threat-intelligence/) of what we could expect to have:
+Here is [an overview](https://erdalozkaya.com/2021/06/06/cyber-threat-intelligence/) of a generic cyber threat intel lifecycle, with the following key steps:
+* Plannning & Direction,
+* Collection,
+* Processing & Exploitation;
+* Analysis & Production,
+* Dissemination & Integration.
 
-![image](https://user-images.githubusercontent.com/16035152/204064894-943ad4e9-c1f6-4e5e-a7d8-ac5eb22f13fe.png)
+![image](https://github.com/user-attachments/assets/64762e93-6266-4a5f-874b-a6d1dd639ac0)
+
 
 
 # Platform
