@@ -169,6 +169,7 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
   * IBM Reputation Check >> https://exchange.xforce.ibmcloud.com/
   * IP Reputation Check >>https://www.abuseipdb.com/
   * Domain/IP investigation >> https://cipher387.github.io/domain_investigation_toolbox/ip.html
+  * Malicious IPs and domains >> https://check-the-sum.fr
   * Domain diagnostic & lookup tools >> https://mxtoolbox.com/
   * DNS related tools >> https://viewdns.info/
   * Search Engine for IoTs >> https://www.shodan.io/
