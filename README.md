@@ -254,7 +254,7 @@ too much data such that tools and analysts become overwhelmed.
       
 ## Other critical tools for a SOC and a CERT/CSIRT
 * **Secure secrets sharing**:
-  * (OneTimeSecret)[https://onetimesecret.com/]  
+  * [OneTimeSecret](https://onetimesecret.com/)  
 * **Data analysis tools**:
   * My recommendations: [CyberChef](https://github.com/NextronSystems/CyberChef), [Notepad++](https://notepad-plus-plus.org/downloads/)
 * **Admin tools**: 
