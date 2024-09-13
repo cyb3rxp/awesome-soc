@@ -49,7 +49,7 @@ NIST 800-181 National Initiative for Cybersecurity Education Framework (NICE Fra
 
 https://niccs.cisa.gov/workforce-development/nice-framework
 
-These roles can be difficult to understand intiially, but it is simple to map them through to your existing roles (for example, *Cyber Defence Analyst* = SOC Analyst, *Cyber Defence Infrastructure Support* = SOC Detection Engineer). Alternatively you can readily build custom job roles utilising the Tasks, Knowledge, Abilities, and Skills listed in the framework. 
+These roles can be difficult to understand initially, but it is simple to map them through to your existing roles (for example, *Cyber Defence Analyst* = SOC Analyst, *Cyber Defence Infrastructure Support* = SOC Detection Engineer). Alternatively you can readily build custom job roles utilising the Tasks, Knowledge, Abilities, and Skills listed in the framework. 
 
 There is a reference spreadsheet that NIST released that can assist in building custom roles:
 https://www.nist.gov/document/supplementnicespecialtyareasandworkroleksasandtasksxlsx
