@@ -43,6 +43,16 @@ As per what is explained on the [management page](https://github.com/cyb3rxp/awe
 
 They can be FTE or outsourced, it will depend on your needs and constraints. My recommendations are explained in the RACI template that I propose.
 
+## NICE Framework
+
+NIST 800-181 National Initiative for Cybersecurity Education Framework (NICE Framework) has done work to standardise job roles in the area. These roles have standardised descriptions with a list of Tasks that the role typically does, as well as Tasks, Knowledge and Abiltiy to undertake that role. It is mainly focused on US Government, and includes some roles which are typical for the defence or intelligence sector. 
+
+https://niccs.cisa.gov/workforce-development/nice-framework
+
+These roles can be difficult to understand intiially, but it is simple to map them through to your existing roles (for example, *Cyber Defence Analyst* = SOC Analyst, *Cyber Defence Infrastructure Support* = SOC Detection Engineer). Alternatively you can readily build custom job roles utilising the Tasks, Knowledge, Abilities, and Skills listed in the framework. 
+
+There is a reference spreadsheet that NIST released that can assist in building custom roles:
+https://www.nist.gov/document/supplementnicespecialtyareasandworkroleksasandtasksxlsx
 
 # Recommended SOC trainings
 
