@@ -212,7 +212,9 @@ too much data such that tools and analysts become overwhelmed.
           * simple but efficient ESET [Sysinspector](https://www.eset.com/int/support/sysinspector/);
           * [Velociraptor](https://docs.velociraptor.app/docs/);
           * [DFIR-ORC](https://github.com/dfir-orc);
-          * [Sysmon](https://learn.microsoft.com/fr-fr/sysinternals/downloads/sysmon) (install it, let it run for a few hours/days, then investigate its log), with [Olaf Hartong's config](https://github.com/olafhartong/sysmon-modular/blob/master/sysmonconfig.xml) and [Zircolite](https://github.com/wagga40/Zircolite)
+          * [Sysmon](https://learn.microsoft.com/fr-fr/sysinternals/downloads/sysmon):
+            * install it (if not done already, let it run for a few hours/days), with [Olaf Hartong's config](https://github.com/olafhartong/sysmon-modular/blob/master/sysmonconfig.xml);
+            * then investigate its log with a regarlar SIEM or with [Zircolite](https://github.com/wagga40/Zircolite)
        * For AD: 
          * simple but efficient [ADRecon](https://github.com/tomwechsler/Active_Directory_Advanced_Threat_Hunting/blob/main/Different_hunting_methods/In-depth_investigation_active_directory.md);
          * [Semperis Purple Knight](https://www.purple-knight.com/active-directory-security-tool/);
@@ -250,7 +252,9 @@ too much data such that tools and analysts become overwhelmed.
   * Offline antimalware scanners:
     * My recommendation: [Windows Defender Offline](https://support.microsoft.com/en-us/windows/help-protect-my-pc-with-microsoft-defender-offline-9306d528-64bf-4668-5b80-ff533f183d6c), [ESET SysRecue](https://www.eset.com/int/support/sysrescue/)
 * **Logs analyzers with detection capabilities**:
-    * My recommendations: [CrowdSec](https://doc.crowdsec.net/docs/user_guides/replay_mode), [Sekoia XDR](https://www.sekoia.io/en/product/xdr/), [DeepBlue](https://github.com/sans-blue-team/DeepBlueCLI)
+    * My recommendations:
+      * Paid ones: [Sekoia XDR](https://www.sekoia.io/en/product/xdr/), 
+      * Community-provided / free ones: [Zircolite](https://github.com/wagga40/Zircolite), [DeepBlue](https://github.com/sans-blue-team/DeepBlueCLI), [CrowdSec](https://doc.crowdsec.net/docs/user_guides/replay_mode)
       
 ## Other critical tools for a SOC and a CERT/CSIRT
 * **Secure secrets sharing**:
