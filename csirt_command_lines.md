@@ -23,4 +23,8 @@
 > netstat -laputenv | grep ESTABLISHED
 
 
+# Sysmon
 
+## [EN] Command line to run Zircolite from Docker on Windows, have it analyse Sysmon XML file, and generate a report in a shared folder // [FR] Ligne de commande pour exécuter Zircolite depuis un Docker Windows, afin d'analyser un journal XML Sysmon et générer un rapport dans un dossier partagé 
+
+> docker run -it -v c:\docker\zircolite\:/mnt/disk_Win wagga40/zircolite:latest     --evtx data/sysmon.evtx     -o /mnt/disk_win/case/detected_events.json    --template templates/exportForZircoGui.tmpl --templateOutput /mnt/disk_win/case/data.js
