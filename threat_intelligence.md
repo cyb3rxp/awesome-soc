@@ -191,6 +191,13 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
 
 # Threat intelligence and automation
 
+## Threat intel data collection and automation
+
+Considering the huge number of OSINT sources you are likely to need to watch for threat intel (IOC, etc.), my recommendation is to try to automate as much as possible the manual part of this recurring process.
+
+Thus, you may want to have a look at tools such as: [Wather](https://github.com/thalesgroup-cert/Watcher)
+
+
 ## Threat intel program and automation
 
 As per [ThreatConnect article](https://threatconnect.com/blog/tip-soar-creating-increased-capability-for-less-mature-teams/):
