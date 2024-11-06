@@ -195,7 +195,8 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
 
 Considering the huge number of OSINT sources you are likely to need to watch for threat intel (IOC, etc.), my recommendation is to try to automate as much as possible the manual part of this recurring process.
 
-Thus, you may want to have a look at tools such as: [Watcher](https://github.com/thalesgroup-cert/Watcher). Here is a sample screenshot of it: https://github.com/thalesgroup-cert/Watcher/blob/master/Watcher/static/Watcher-threats-detection.png
+Thus, you may want to have a look at tools such as: [Watcher](https://github.com/thalesgroup-cert/Watcher). Here is a sample screenshot of it: 
+![image](https://github.com/user-attachments/assets/8a2b2c15-76ee-42de-bcdb-23f4648a3422)
 
 
 ## Threat intel program and automation
