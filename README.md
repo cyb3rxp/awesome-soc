@@ -197,8 +197,6 @@ too much data such that tools and analysts become overwhelmed.
 * **Mobile Threat Defense:**
   * See the [latest Forrester Wave about MTD](https://reprint.forrester.com/reports/the-forrester-wave-tm-mobile-threat-defense-solutions-q3-2024-fd48faab/index.html)
   * my recommendation : [Zimperium MTD](https://www.zimperium.com/mtd/)
-* **Deceptive technology:**
-  * My recommendation: implement [AD decoy acounts](https://medium.com/securonix-tech-blog/detecting-ldap-enumeration-and-bloodhound-s-sharphound-collector-using-active-directory-decoys-dfc840f2f644) and [AD DNS canary](https://www.protect.airbus.com/blog/active-directory-a-canary-under-your-hat/)
    
 
 ## Critical tools for CSIRT
