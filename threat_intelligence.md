@@ -21,6 +21,7 @@
 * Frost & Sullivan, [Frost Radar™: Cyber Threat Intelligence Radar, 2024](https://go.recordedfuture.com/hubfs/reports/Frost%20Radar_Cyber%20Threat%20Intelligence%20Radar%2c%202024.pdf?utm_medium=email&_hsmi=315810587&utm_content=315810587&utm_source=hs_automation)
 * SecurityAffairs, [UKR/RU cyberwar](https://securityaffairs.com/128727/cyber-warfare-2/feb-27-mar-05-ukraine-russia-cyberwar.html)
 * Gartner, [Market Guide for Security Threat Intelligence Products and Services](https://www.gartner.com/doc/reprints?id=1-2IJMCHZX&ct=240815&st=sb)
+* Filigran & RecordedFuture, [Automate security response with RecordedFuture and Filigran](https://go.recordedfuture.com/automate-security-response-with-recorded-future-and-filigran?utm_medium=email&_hsmi=333916307&utm_content=333916307&utm_source=hs_email)
 
 
 ## What is threat intel (service)?
