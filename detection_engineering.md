@@ -19,7 +19,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * MITRE, [top TTP for ransomwares](https://top-attack-techniques.mitre-engenuity.org/)
 * Splunk, [Top 50 cybersecurity threats](https://www.splunk.com/en_us/pdfs/gated/ebooks/top-50-cybersecurity-threats.pdf)
 * Known exploited vulnerabilities: 
-  * [CISA catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
+  * [CISA KEV catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 ## SIEM rules publications:
   * [Sigma HQ (detection rules)](https://github.com/SigmaHQ/sigma/tree/master/rules) 
   * [Splunk Detections (free detection rules for Splunk)](https://research.splunk.com/detections/)
