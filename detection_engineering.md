@@ -22,7 +22,8 @@ This page deals with SOC detection engineering and management (detection use cas
   * [CISA catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 ## SIEM rules publications:
   * [Sigma HQ (detection rules)](https://github.com/SigmaHQ/sigma/tree/master/rules) 
-  * [Splunk Security content (free detection rules for Splunk)](https://research.splunk.com/) 
+  * [Splunk Detections (free detection rules for Splunk)](https://research.splunk.com/detections/)
+  * [Splunk Stories for Office 365](https://research.splunk.com/stories/office_365_collection_techniques/)
   * [Michel De Crevoisier's Git](https://github.com/mdecrevoisier/SIGMA-detection-rules)
   * [SOC Prime](https://socprime.com/)
 ## SIEM standards
