@@ -41,6 +41,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * ANSSI, [EBIOS RM methodology](https://www.ssi.gouv.fr/guide/ebios-risk-manager-the-method/)
 * David J. Bianco, [Pyramid of pain](https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html)
 * Tsale, [EDR telemetry](https://github.com/tsale/EDR-Telemetry)
+* MITRE ATT&CK [Evaluations: Enterprise, 2024](https://www.withsecure.com/en/expertise/campaigns/mitre-2024)
 * RULER project, [forensics tracks of common security tools](https://ruler-project.github.io/ruler-project/)
 * Uncoder.io [UncoderIO Git](https://github.com/UncoderIO/Uncoder_IO)
 ### Audit policy
