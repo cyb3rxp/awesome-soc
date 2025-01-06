@@ -105,9 +105,10 @@ Quoting [Lutessa (article in French)](https://www.lutessa.com/?p=5524):
 
 # What is an attack lifecycle?
 
-As per [Mandiant article](https://www.mandiant.com/resources/insights/targeted-attack-lifecycle):
+As per [Mandiant article](https://cloud.google.com/blog/topics/threat-intelligence/sandworm-disrupts-power-ukraine-operational-technology/?hl=en):
 
-![image](https://user-images.githubusercontent.com/16035152/186893725-9da9c798-128b-416e-b93e-42cbf30baced.png)
+![image](https://github.com/user-attachments/assets/4f8dd097-65b0-4d1b-8f35-baa69a971245)
+
 
 
 # What are the most common infection vectors?
