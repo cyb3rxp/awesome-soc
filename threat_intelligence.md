@@ -133,16 +133,17 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * [si3t.ch](http://si3t.ch/evils/);
      * [Execute Malware](https://github.com/executemalware/Malware-IOCs/tree/main);
      * [FireHOL project: GreenSwow IP set](https://github.com/firehol/blocklist-ipsets/blob/master/greensnow.ipset);
-     * [Snort, IP list to block](https://www.snort.org/downloads/ip-block-list);
-     * [Turris' Sentinel Graylist](https://view.sentinel.turris.cz/greylist-data/greylist-latest.csv);
-     * [Laurent Minne's blacklist](https://github.com/duggytuxy/malicious_ip_addresses);
-     * [MalTrail's daily blacklist](https://raw.githubusercontent.com/stamparm/aux/master/maltrail-malware-domains.txt);
+     * Snort, [IP list to block](https://www.snort.org/downloads/ip-block-list);
+     * Turris' [Sentinel Graylist](https://view.sentinel.turris.cz/greylist-data/greylist-latest.csv);
+     * Laurent Minne's [blacklist](https://github.com/duggytuxy/malicious_ip_addresses);
+     * MalTrail's [daily blacklist](https://raw.githubusercontent.com/stamparm/aux/master/maltrail-malware-domains.txt);
      * [Awesome Cobalt Strike](https://github.com/MichaelKoczwara/Awesome-CobaltStrike-Defence);
      * [AVAST](https://github.com/avast/ioc?tab=readme-ov-file);
      * [ThreatFox](https://threatfox.abuse.ch/);
      * MontySecurity, [C2-Tracker](https://github.com/montysecurity/C2-Tracker/tree/main/data);
      * CrowdSec, [Free Paris2024 Olympic Games blocklist](https://app.crowdsec.net/blocklists/665d96cf0a60f8f3808a5d5c);
      * Mhtcht, [Security lists for SOC/DFIR detections](https://github.com/mthcht/awesome-lists)
+     * Sekoia, [Happy YARA Christmas](https://github.com/SEKOIA-IO/Community/tree/main/yara_rules)
   * To go further, some lists of feeds that could be of interest:
     * [Covert.io list](http://www.covert.io/threat-intelligence/);
     * [Intel471](https://intel471.com/modules);
