@@ -212,6 +212,7 @@ too much data such that tools and analysts become overwhelmed.
        * for Windows:
           * simple but efficient ESET [Sysinspector](https://www.eset.com/int/support/sysinspector/);
           * [Velociraptor](https://docs.velociraptor.app/docs/);
+          * [Powershell Hunter](https://github.com/MHaggis/PowerShell-Hunter/tree/main)
           * [DFIR-ORC](https://github.com/dfir-orc);
           * [Sysmon](https://learn.microsoft.com/fr-fr/sysinternals/downloads/sysmon):
             * install it (if not done already, let it run for a few hours/days), with [Olaf Hartong's config](https://github.com/olafhartong/sysmon-modular/blob/master/sysmonconfig.xml);
