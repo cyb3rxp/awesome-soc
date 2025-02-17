@@ -284,20 +284,20 @@ defenses, monitoring, and other actions.
 
 
 ## Recommended sources
-* SIEM rules publications:
-  * [Sigma HQ (detection rules)](https://github.com/SigmaHQ/sigma/tree/master/rules) 
-  * [Splunk Security content (free detection rules for Splunk)](https://research.splunk.com/) 
-  * [SOC Prime](https://tdm.socprime.com/)
-  * [Michel De Crevoisier's Git](https://github.com/mdecrevoisier/SIGMA-detection-rules)
+* RSS reader/portal:
+  * e.g.: [Netvibes](https://www.netvibes.com/phvialle?page=phvialle#Security)  
 * Known exploited vulnerabilities +0days: 
   * [CISA catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
   * [Top 0days "in the wild"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)
 * LinkedIn / Twitter:
   * e.g.: [LinkedIn Information Security Community group](https://www.linkedin.com/groups/38412/) 
-* RSS reader/portal:
-  * e.g.: [Netvibes](https://www.netvibes.com/phvialle?page=phvialle#Security)  
 * Government CERT, industry sector related CERT...
   * e.g.: [CERT-FR](https://www.cert.ssi.gouv.fr/avis/), [CERT-US](https://www.cisa.gov/uscert/ncas/alerts)
+* SIEM rules publications:
+  * [Sigma HQ (detection rules)](https://github.com/SigmaHQ/sigma/tree/master/rules) 
+  * [Splunk Security content (free detection rules for Splunk)](https://research.splunk.com/) 
+  * [SOC Prime](https://tdm.socprime.com/)
+  * [Michel De Crevoisier's Git](https://github.com/mdecrevoisier/SIGMA-detection-rules)
 * Newsletters:
   * e.g.: [TheRecord.media](https://therecord.media/subscribe), [Intrinsec Threat Landscape](https://intrinsec.us13.list-manage.com/subscribe?u=403249ad144b732517b9fca94&id=041976f275) & [LinkedIn posts](https://www.linkedin.com/company/intrinsec/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BAyS%2B%2F6ysQ5G%2BBlZQjTWrKg%3D%3D)
 * Podcasts:
