@@ -52,6 +52,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * Michel de Crevoisier, [Mapping MITRE ATT&CK with Window Event Log IDs](https://www.socinvestigation.com/mapping-mitre-attck-with-window-event-log-ids/)
 * Mhtcht, [Windows DFIR artifacts collection mindmap](https://github.com/mthcht/awesome-lists/blob/a0d64850bb79902f3e3518489288eb0b62c5d9d8/Lists/CheatSheets/mthcht/windows_dfir_artifacts_collection_mindmap_high_resolution.jpg)
 * Picus Security [Active Directory Security Guide](https://www.picussecurity.com/hubfs/Threat%20Readiness%20-%20Active%20Directory%20Ebook%20-%20Q123/Picus-The-Complete-Active-Directory-Security-Handbook.pdf)
+* [EventLog Compendium](https://eventlog-compendium.streamlit.app/)
 ## IT best practices for SOC engineering
 * Atlassian, [CI/CD/CD](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
 ## Offensive activity watch
