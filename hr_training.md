@@ -130,6 +130,7 @@ https://www.nist.gov/document/supplementnicespecialtyareasandworkroleksasandtask
 
 ### Free certifications:
 * LetsDefend, [SOC Fundamentals](https://app.letsdefend.io/training/lessons/soc-fundamentals);
+* CISCO Netacad [Ethical Hacker](https://www.netacad.com/courses/ethical-hacker?courseLang=en-US);
 * PaloAlto, [PAN, Fundamentals of SOC](https://beacon.paloaltonetworks.com/student/path/521672-the-fundamentals-of-soc-security-operations-center);
   * NB: you'll need to [log-in](https://login.paloaltonetworks.com/) first!
 * CrowdSec, [cybersecurity fundamentals](https://academy.crowdsec.net/course/cybersecurity-fundamentals);
@@ -237,7 +238,12 @@ NB: this is mainly for red/purpleteaming activities.
 * [RTFM](https://www.amazon.com/RTFM-Red-Team-Field-Manual/dp/1075091837).
 
 ## Certifications
-* SkillsForAll, [Ethical Hacker](https://skillsforall.com/course/ethical-hacker?courseLang=en-US);
+
+### Free certifications
+* CISCO Netacad, [Ethical Hacker](https://skillsforall.com/course/ethical-hacker?courseLang=en-US);
+
+### Paid certifications
+* Altered Security [CRTP](https://www.alteredsecurity.com/post/certified-red-team-professional-crtp);
 * Offensive Security [OSCP](https://www.offensive-security.com/pwk-oscp/);
 * SANS, [SEC541: Cloud Security Attacker Techniques, Monitoring, and Threat Detection](https://www.sans.org/cyber-security-courses/cloud-security-attacker-techniques-monitoring-threat-detection/);
 * SANS, [SEC565: Red Team Operations and Adversary Emulation](https://www.sans.org/offensive-operations/);
