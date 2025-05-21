@@ -174,7 +174,6 @@ Not working anymore ATOW: EthicalHackersAcademy, [SOC & SIEM Security program: L
 * DFIRReport, [Cobalt Strike Defender's guide](https://thedfirreport.com/2021/08/29/cobalt-strike-a-defenders-guide/)
 * NATO, [reverse engineering handbook](https://www.linkedin.com/posts/julienprovenzano_malware-reverse-engineering-handbook-ugcPost-7216606319305187328-rGG2?utm_source=share&utm_medium=member_android )
 
-
 ## Regular trainings & challenges [Free]
 * ENISA, [trainings](https://www.enisa.europa.eu/topics/trainings-for-cybersecurity-specialists/online-training-material);
 * FIRST, [trainings](https://www.first.org/education/trainings);
@@ -185,6 +184,7 @@ Not working anymore ATOW: EthicalHackersAcademy, [SOC & SIEM Security program: L
 * Root-me, ["Entretien avec l'ANSSI"-named challenges](https://www.root-me.org/);
 * Sleuthkit, [Investigating data exfiltration"](https://training.dfirdiva.com/listing/investigating-data-exfiltration-basistech)
 * Embee Research, [Unpacking .Net malware](https://embee-research.ghost.io/unpacking-net-malware-with-process-hacker/).
+* Cybrary, [MITRE ATT&CK threat hunting](https://www.cybrary.it/course/mitre-attack-threat-hunting/);
 
 ## Certifications
 
@@ -230,13 +230,16 @@ Not working anymore ATOW: EthicalHackersAcademy, [SOC & SIEM Security program: L
 
 NB: this is mainly for red/purpleteaming activities.
 
-## Regular trainings
+
+## Must read/watch
 * Mariusz Banach, [Evasion in Depth - Techniques Across the Kill-Chain](https://www.youtube.com/watch?v=IbA7Ung39o4&ab_channel=x33fcon);
-* Cybrary, [MITRE ATT&CK threat hunting](https://www.cybrary.it/course/mitre-attack-threat-hunting/);
-* [HackTheBox](https://www.hackthebox.com/);
 * CybersecurityUp, [OSCE complete guide](https://github.com/CyberSecurityUP/OSCE-Complete-Guide);
 * [RTFM](https://www.amazon.com/RTFM-Red-Team-Field-Manual/dp/1075091837).
 
+## Regular trainings [free]
+* [HackTheBox]([https://www.hackthebox.com/](https://app.hackthebox.com/starting-point));
+
+  
 ## Certifications
 
 ### Free certifications
