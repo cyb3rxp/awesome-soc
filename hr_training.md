@@ -230,14 +230,13 @@ Not working anymore ATOW: EthicalHackersAcademy, [SOC & SIEM Security program: L
 
 NB: this is mainly for red/purpleteaming activities.
 
-
 ## Must read/watch
 * Mariusz Banach, [Evasion in Depth - Techniques Across the Kill-Chain](https://www.youtube.com/watch?v=IbA7Ung39o4&ab_channel=x33fcon);
 * CybersecurityUp, [OSCE complete guide](https://github.com/CyberSecurityUP/OSCE-Complete-Guide);
 * [RTFM](https://www.amazon.com/RTFM-Red-Team-Field-Manual/dp/1075091837).
 
 ## Regular trainings [free]
-* [HackTheBox]([https://www.hackthebox.com/](https://app.hackthebox.com/starting-point));
+* [HackTheBox](https://app.hackthebox.com/starting-point);
 
   
 ## Certifications
