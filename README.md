@@ -517,6 +517,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
   * My recommendation: [Crowdsec](https://www.crowdsec.net/product/crowdsec-security-engine)
 * NDR:
   * My recommendation: [Gatewatcher](https://www.gatewatcher.com/en/our-solutions/trackwatch/)
+  * See [Gartner MAgic Quadrant for NDR](https://www.gartner.com/doc/reprints?id=1-2L4DC15S&ct=250602&st=sb&utm_campaign=2023_INTL_NDR&utm_medium=email&utm_content=364396704&utm_source=hs_automation&_hsmi=364396704&hsCtaAttrib=190924237752)
 * DLP:
   * See [Gartner reviews and ratings](https://www.gartner.com/reviews/market/data-loss-prevention)
 * OT (industrial) NIDS:
