@@ -28,7 +28,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
   * MITRE, [11 strategies for a world-class SOC](https://www.mitre.org/publications/technical-papers/11-strategies-world-class-cybersecurity-operations-center) (or use [local file](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf)): part 0 (Fundamentals).
   * FIRST, [Building a SOC](https://www.first.org/resources/guides/Factsheet_Building_a_SOC_start_small.pdf)
   * NCSC, [Building a SOC](https://www.ncsc.gov.uk/collection/building-a-security-operations-centre)
-  * Gartner, [SOC model guide](https://www.gartner.com/doc/reprints?id=1-2FWTKHQ8&ct=231213&st=sb&mkt_tok=MDAzLVlSVS0zMTQAAAGUXOi9oTLjhQW0-t-jtiz4cThV6UsESsg-qUUWy_3_yjQ9UY0gFSR_n-VslHyg4f9ZE5q07y8naSI8aEyK__RPezZ2Ub_Xi1b-N2aFO7gpmXLi)
+  * Gartner, [SOC model guide](https://fr.scribd.com/document/732782046/Gartner-SOC-Model-Guide-2023)
   * Splunk, [State of Security 2023](https://www.splunk.com/en_us/pdfs/gated/ebooks/state-of-security-2023.pdf)
   * Microsoft, [Secure your business with 365](https://learn.microsoft.com/en-us/microsoft-365/business-premium/secure-your-business-data?view=o365-worldwide) 
 * SOC training/interview:
