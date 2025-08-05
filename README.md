@@ -56,7 +56,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
   * [ForensicsArtefacts](https://github.com/ForensicArtifacts/artifacts)
 * Incident response playbooks:
   * Kaspersky, [Incident Response Playbook: Dark Web Breaches](https://dfi.kaspersky.com/blog/dark-web-threats-response-guideline#form)
-  * IncidentResponse.org, [IR playbooks](https://www.incidentresponse.org/playbooks/)
+  * CISA, [Incident Response playbooks](https://www.cisa.gov/sites/default/files/2024-08/Federal_Government_Cybersecurity_Incident_and_Vulnerability_Response_Playbooks_508C.pdf)
   * SANS, [IR Mitigations tasks](https://board.flexibleir.com/b/VtdssIfCJ6Z2LYLED/1)
 
 ## Globally (SOC and CERT/CSIRT)
