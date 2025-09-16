@@ -143,6 +143,9 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 * Assess the relevance and freshness of IOC lists (that are supposed to be synced with the TIP).
 * Assess the relevance and freshness of assets lists (that are supposed to be synced with Git), for instance groups, VIP/VOP, particular endpoints, etc.
 
+### AI/LLM embedded in cybersecurity solutions assessment
+* [CyberSecEval 4 is an extensive benchmark suite designed to assess the cybersecurity vulnerabilities and defensive capabilities of Large Language Models (LLMs)](https://github.com/meta-llama/PurpleLlama/tree/main/CybersecurityBenchmarks)
+
 ## Act
 * Fix everything that was previously identified as not working, missing, or not matching your needs.
 
