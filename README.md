@@ -495,7 +495,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 * [PTES](http://www.pentest-standard.org/index.php/Main_Page)
 * OWASP, [WSTG](https://owasp.org/www-project-web-security-testing-guide/)
 * BitDefender, [Analyzing MITRE ATT&CK evaluations 2023](https://explore.bitdefender.com/epp-nurture-2023_2/blog-mitre-attck-evaluations-2023?cid=emm%7Cb%7Chubspot%7Cnrt-epp-2023&utm_campaign=nurture-epp-2023&utm_medium=email&_hsmi=280552612&utm_content=280552612&utm_source=hs_automation)
-* Microsoft, [Licensing maps, eg. for Defender](https://m365maps.com/)
+* Microsoft, [Licensing maps, eg. for Defender](https://m365maps.com/) & [Modern work plan comparison SMB](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/modern-work-plan-comparison-smb5.pdf)
 
 
 ## SOC sensors, nice to have
