@@ -142,8 +142,10 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * [ThreatFox](https://threatfox.abuse.ch/);
      * MontySecurity, [C2-Tracker](https://github.com/montysecurity/C2-Tracker/tree/main/data);
      * CrowdSec, [Free Paris2024 Olympic Games blocklist](https://app.crowdsec.net/blocklists/665d96cf0a60f8f3808a5d5c);
-     * Mhtcht, [Security lists for SOC/DFIR detections](https://github.com/mthcht/awesome-lists)
-     * Sekoia, [Happy YARA Christmas](https://github.com/SEKOIA-IO/Community/tree/main/yara_rules)
+     * Mhtcht, [Security lists for SOC/DFIR detections](https://github.com/mthcht/awesome-lists);
+     * Sekoia, [Happy YARA Christmas](https://github.com/SEKOIA-IO/Community/tree/main/yara_rules);
+     * [Maltiverse](https://whatis.maltiverse.com/feeds/)
+     * [StalkPhish](https://www.stalkphish.io/)
   * To go further, some lists of feeds that could be of interest:
     * [Covert.io list](http://www.covert.io/threat-intelligence/);
     * [Intel471](https://intel471.com/modules);
