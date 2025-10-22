@@ -287,7 +287,7 @@ defenses, monitoring, and other actions.
 
 ## Recommended sources
 * RSS reader/portal:
-  * e.g.: [Netvibes](https://www.netvibes.com/phvialle?page=phvialle#Security)  
+  * e.g.: []
 * Known exploited vulnerabilities +0days: 
   * [CISA catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
   * [Top 0days "in the wild"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)
@@ -465,6 +465,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 * Microsoft, [Isolate Tier 0 assets with group policy](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/initially-isolate-tier-0-assets-with-group-policy-to-start/ba-p/1184934)
 * Securenvoy, [How to be compliant with NIS2?](https://securenvoy.com/blog/how-to-be-compliant-with-new-nis-directive/)
 * CyberVigilance, [Mitre Engenuity Evaluations 2022 review](https://www.cybervigilance.uk/post/2022-mitre-att-ck-engenuity-results)
+* [Wazuh at the heart of a SOC architecture for public/critical infrastructures](https://medium.com/@ludovic.doamba/wazuh-at-the-heart-of-sovereign-soc-architecture-for-public-and-critical-infrastructures-f0d18562d14b)
 
 
 
