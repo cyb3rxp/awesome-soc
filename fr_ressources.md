@@ -65,7 +65,7 @@
 
 ## Publications spécialisées (PDF)
 
-* MISC
+* [MISC mag](https://connect.ed-diamond.com/misc)
 
 # Management de la sécurité
 
