@@ -302,7 +302,7 @@ defenses, monitoring, and other actions.
   * [Schneier on Security](http://feeds.feedburner.com/schneier/excerpts)
   * Microsoft [MMPC](https://blogs.technet.microsoft.com/mmpc/feed/)
   * ZDI [Upcoming advisories](https://www.zerodayinitiative.com/rss/upcoming/)
-  * ESET [We Live Security]("http://feeds.feedburner.com/eset/blog?format=xml)
+  * ESET [We Live Security](http://feeds.feedburner.com/eset/blog?format=xml)
   * [CrowdStrike](https://www.crowdstrike.com/blog/feed)
   * [PacketStorm Security](https://packetstorm.news/rss/news)
   * Kaspersky [SecureList](https://securelist.com/feed/)
