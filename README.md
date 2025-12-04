@@ -303,6 +303,10 @@ defenses, monitoring, and other actions.
   * [Splunk Security content (free detection rules for Splunk)](https://research.splunk.com/) 
   * [SOC Prime](https://tdm.socprime.com/)
   * [Michel De Crevoisier's Git](https://github.com/mdecrevoisier/SIGMA-detection-rules)
+* security vendors' threat landscape / cybersecurity incidents reports:
+  * Microsoft [Digital Defense Report](https://www.microsoft.com/en-us/corporate-responsibility/cybersecurity/)
+  * ESET [Threat report](https://www.welivesecurity.com/en/eset-research/)
+  * Verizon [Databreach reports](https://www.verizon.com/business/resources/reports/dbir/)
 * Newsletters:
   * e.g.: [TheRecord.media](https://therecord.media/subscribe), [Intrinsec Threat Landscape](https://intrinsec.us13.list-manage.com/subscribe?u=403249ad144b732517b9fca94&id=041976f275) & [LinkedIn posts](https://www.linkedin.com/company/intrinsec/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BAyS%2B%2F6ysQ5G%2BBlZQjTWrKg%3D%3D)
 * Podcasts:
