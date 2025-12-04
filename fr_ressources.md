@@ -18,23 +18,54 @@
 
 ## Etat de la menace :
 
+* CERT-FR : [Avis](https://www.cert.ssi.gouv.fr/avis/feed/)
+* CERT-FR : [incidents](https://www.cert.ssi.gouv.fr/cti/feed)
+
 * Microsoft, [Rapport sur la défense numérique 2022](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWZdIk?culture=fr-fr&country=fr)
 
 * Mandiant, [Prévisions 2023](https://www.mandiant.com/media/18961)
 
 * CLUSIF, [Panocrim 2023](https://clusif.fr/live/)
 
+* Cybermalveillance.gouv.fr [actualités](https://www.cybermalveillance.gouv.fr/feed/atom-flux-actualites)
+
+* ZATAZ [news](https://www.zataz.com/rss/zataz-news.rss)
+
+* [C'est qui qui a fuité aujourd'hui ?](https://bonjourlafuite.eu.org/feed.xml)
+
+* [CERT-XMCO](https://www.xmco.fr/feed/)
+
+* [CERT Santé](https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml)
+
+## Podcats cyber francophones :
+
+* [Le Déjargonneur](https://feeds.acast.com/public/shows/le-dejargonneur-cyber)
+
+* [NoLimitSecu](https://www.nolimitsecu.fr/)
+  * [Lien RSS](https://www.nolimitsecu.fr/feed/podcast/)
+ 
+* [RadioCSIRT](https://www.radiocsirt.org/RadioCSIRT/radio/)
+  * [liens pour services de podcast](https://www.radiocsirt.org/qui-sommes-nous/)
+
 ## Etat de l'écosystème cybersécurité
 
 * Splunk, [Etat de la cybersécurité 2023](https://www.splunk.com/fr_fr/pdfs/gated/ebooks/state-of-security-2023.pdf)
 
-## RETEX terrain
+## RETEX terrain notables
 
 * OCD, [RETEX sur le SOAR en 2020](https://www.orangecyberdefense.com/fr/insights/blog/threat-management/soar-quelles-conclusions-en-2020)
+
+## Juridique :
+
+* CNIL [actualités](https://www.cnil.fr/fr/rss.xml)
 
 ## Offensif 
 
 * Wiki-tech, ["Process hollowing"](https://wiki-tech.io/S%C3%A9curit%C3%A9/Pentest/Process-Hollowing)
+
+## Publications spécialisées (PDF)
+
+* MISC
 
 # Management de la sécurité
 
