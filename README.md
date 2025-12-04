@@ -306,8 +306,8 @@ defenses, monitoring, and other actions.
   * [CrowdStrike](https://www.crowdstrike.com/blog/feed)
   * [PacketStorm Security](https://packetstorm.news/rss/news)
   * Kaspersky [SecureList](https://securelist.com/feed/)
-  * [ProofPoint]("https://www.proofpoint.com/us/rss.xml)
-  * 
+  * [ProofPoint](https://www.proofpoint.com/us/rss.xml)
+    
 * Known exploited vulnerabilities +0days: 
   * [CISA catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
   * [Top 0days "in the wild"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)
