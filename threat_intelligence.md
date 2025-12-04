@@ -146,6 +146,7 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * Sekoia, [Happy YARA Christmas](https://github.com/SEKOIA-IO/Community/tree/main/yara_rules);
      * [Maltiverse](https://whatis.maltiverse.com/feeds/)
      * [StalkPhish](https://www.stalkphish.io/)
+     * CIRCL [GCVE Vulnerability Lookup](https://vulnerability.circl.lu/)
   * To go further, some lists of feeds that could be of interest:
     * [Covert.io list](http://www.covert.io/threat-intelligence/);
     * [Intel471](https://intel471.com/modules);
