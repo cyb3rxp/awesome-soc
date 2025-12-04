@@ -43,6 +43,18 @@
 
 * [NoLimitSecu](https://www.nolimitsecu.fr/)
   * [Lien RSS](https://www.nolimitsecu.fr/feed/podcast/)
+  * Episodes recommandés :
+    * [Les dangers de l'OSINT](https://www.nolimitsecu.fr/les-dangers-de-losint/)
+    * [ENISA Threat landscape 2025](https://www.nolimitsecu.fr/enisa-threat-landscape-2025/)
+    * [La face cachée du Bug bounty](https://www.nolimitsecu.fr/la-face-cachee-du-bug-bounty/)
+    * [StalkPhish](https://www.nolimitsecu.fr/stalkphish/)
+    * [TLTP](https://www.nolimitsecu.fr/tltp/)
+    * [Recherche de vulnérabilités](https://www.nolimitsecu.fr/referentiels-de-vulnerabilites/)
+    * [Détection vs recherche de compro](https://www.nolimitsecu.fr/detection-vs-recherche-de-compromissions-la-discussion-continue/)
+    * [Modèle de PSSI pour IA](https://www.nolimitsecu.fr/modele-de-politique-de-securite-des-systemes-dinformation-pour-lia/)
+    * [Sécurisation chaîne d'appro logicielle](https://www.nolimitsecu.fr/securisation-de-la-chaine-dapprovisionnement-logicielle/)
+    * [Compro de distributions linux](https://www.nolimitsecu.fr/compromission-de-distributions-linux/)
+    * [Panorama règlementaire](https://www.nolimitsecu.fr/panorama-reglementaire/)
  
 * [RadioCSIRT](https://www.radiocsirt.org/RadioCSIRT/radio/)
   * [liens pour services de podcast](https://www.radiocsirt.org/qui-sommes-nous/)
