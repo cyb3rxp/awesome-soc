@@ -21,11 +21,9 @@
 * CERT-FR : [Avis](https://www.cert.ssi.gouv.fr/avis/feed/)
 * CERT-FR : [incidents](https://www.cert.ssi.gouv.fr/cti/feed)
 
-* Microsoft, [Rapport sur la défense numérique 2022](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWZdIk?culture=fr-fr&country=fr)
+* Microsoft, [Rapport Digital Defense Report 2025](https://news.microsoft.com/source/emea/2025/10/lextorsion-et-les-rancongiciels-sont-a-lorigine-de-plus-de-la-moitie-des-cyberattaques/?lang=fr)
 
-* Mandiant, [Prévisions 2023](https://www.mandiant.com/media/18961)
-
-* CLUSIF, [Panocrim 2023](https://clusif.fr/live/)
+* CLUSIF, [Panocrim 2025](https://clusif.fr/replay/voir-ou-revoir-le-panorama-de-la-cybercriminalite-janvier-2025/)
 
 * Cybermalveillance.gouv.fr [actualités](https://www.cybermalveillance.gouv.fr/feed/atom-flux-actualites)
 
