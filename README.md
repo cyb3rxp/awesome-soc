@@ -295,7 +295,9 @@ defenses, monitoring, and other actions.
 * LinkedIn / Twitter:
   * e.g.: [LinkedIn Information Security Community group](https://www.linkedin.com/groups/38412/) 
 * Government CERT, industry sector related CERT...
-  * e.g.: [CERT-FR](https://www.cert.ssi.gouv.fr/avis/), [CERT-US](https://www.cisa.gov/uscert/ncas/alerts)
+  * e.g.: [CERT-FR](https://www.cert.ssi.gouv.fr/avis/),
+  * [CERT-US](https://www.cisa.gov/uscert/ncas/alerts)
+  * [ISC] [Diaries](https://isc.sans.edu/diary/0)
 * SIEM rules publications:
   * [Sigma HQ (detection rules)](https://github.com/SigmaHQ/sigma/tree/master/rules) 
   * [Splunk Security content (free detection rules for Splunk)](https://research.splunk.com/) 
