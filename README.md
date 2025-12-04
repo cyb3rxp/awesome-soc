@@ -287,8 +287,27 @@ defenses, monitoring, and other actions.
 
 
 ## Recommended sources
-* RSS reader/portal:
-  * e.g.: []
+* RSS:
+  * CISA [alerts](https://www.us-cert.gov/ncas/alerts.xml)
+  * [Ransomware live feeds](https://ransomware.live/rss.xml)
+  * CERT EU [Security advisories](https://cert.europa.eu/publications/security-advisories-rss)
+  * NIST [news](https://www.nist.gov/news-events/cybersecurity/rss.xml)
+  * Google [Online Security blog](http://feeds.feedburner.com/GoogleOnlineSecurityBlog)
+  * TheRecord [Recorded Future News](https://therecord.media/feed)
+  * [TheHacker news](http://feeds.feedburner.com/TheHackersNews?format=xml)
+  * Dark Reading [All stories](https://www.darkreading.com/rss.xml)
+  * Medium [CyberSecurity](https://medium.com/feed/tag/cybersecurity)
+  * [Krebs on security](https://krebsonsecurity.com/feed/)
+  * [Graham Cluley's blog](https://grahamcluley.com/feed/)
+  * [Schneier on Security](http://feeds.feedburner.com/schneier/excerpts)
+  * Microsoft [MMPC](https://blogs.technet.microsoft.com/mmpc/feed/)
+  * ZDI [Upcoming advisories](https://www.zerodayinitiative.com/rss/upcoming/)
+  * ESET [We Live Security]("http://feeds.feedburner.com/eset/blog?format=xml)
+  * [CrowdStrike](https://www.crowdstrike.com/blog/feed)
+  * [PacketStorm Security](https://packetstorm.news/rss/news)
+  * Kaspersky [SecureList](https://securelist.com/feed/)
+  * [ProofPoint]("https://www.proofpoint.com/us/rss.xml)
+  * 
 * Known exploited vulnerabilities +0days: 
   * [CISA catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
   * [Top 0days "in the wild"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)
