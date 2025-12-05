@@ -67,10 +67,6 @@
 
 * OCD, [RETEX sur le SOAR en 2020](https://www.orangecyberdefense.com/fr/insights/blog/threat-management/soar-quelles-conclusions-en-2020)
 
-## Juridique :
-
-* CNIL [actualités](https://www.cnil.fr/fr/rss.xml)
-
 ## Offensif 
 
 * Wiki-tech, ["Process hollowing"](https://wiki-tech.io/S%C3%A9curit%C3%A9/Pentest/Process-Hollowing)
@@ -83,6 +79,12 @@
 
 * All4tec, [liens entre ISO27005 et EBIOS RM](https://www.all4tec.com/blog/guides/quels-sont-les-liens-entre-la-norme-iso-27005-2022-et-ebios-risk-manager/)
 
+
+# Formation 
+
+## OSINT/ROSO
+
+* OSINTFR : [OPSEC OSINT](https://mooc.osintfr.com/mod/book/tool/print/index.php?id=14)
 
 # Bonnes pratiques sécurité
 
@@ -118,6 +120,10 @@
 ## Règlementations FR
 
 * Technique et Droit du Numérique, [Etat de l'art cybersécurité : technique et juridique en 2024](https://technique-et-droit-du-numerique.fr/cyber-securite-etat-de-l-art-et-negligence-un-point-technique-et-juridique-en-2024/)
+
+## RGPD / CNIL :
+
+* CNIL [actualités](https://www.cnil.fr/fr/rss.xml)
 
 
 ## NIS2 :
