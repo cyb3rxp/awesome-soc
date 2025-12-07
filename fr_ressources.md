@@ -64,6 +64,11 @@
 
 * Splunk, [Etat de la cybersécurité 2023](https://www.splunk.com/fr_fr/pdfs/gated/ebooks/state-of-security-2023.pdf)
 
+## RETEX de réponse à incident cyber
+
+* SSTIC [Retour technique sur la cyberattaque ayant ciblé TV5Monde](https://www.sstic.org/2017/presentation/2017_cloture/)
+* NoLimitSecu [RETEX incident cyber au CHU Brest](https://www.nolimitsecu.fr/retex-incident-de-securite/)
+
 ## Offensif 
 
 * Wiki-tech, ["Process hollowing"](https://wiki-tech.io/S%C3%A9curit%C3%A9/Pentest/Process-Hollowing)
@@ -71,6 +76,7 @@
 ## Publications spécialisées (PDF)
 
 * [MISC mag](https://connect.ed-diamond.com/misc)
+* XMCO [ActuSecu](https://www.xmco.fr/actusecu/)
 
 # Management de la sécurité
 
