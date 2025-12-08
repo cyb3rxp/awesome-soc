@@ -85,6 +85,10 @@
 
 # Formation 
 
+## Sensibilisation
+
+* Cybermalveillance.gouv.fr [10 mesures essentielles pour la sécurité numérique](https://www.cybermalveillance.gouv.fr/tous-nos-contenus/bonnes-pratiques/10-mesures-essentielles-assurer-securite-numerique)
+
 ## OSINT/ROSO
 
 * OSINTFR : [OPSEC OSINT](https://mooc.osintfr.com/mod/book/tool/print/index.php?id=14)
@@ -93,6 +97,7 @@
 
 ## Global S.I. 
 
+* ANSSI [Guide sécurité pour TPE/PME en 13 questions](https://cyber.gouv.fr/publications/la-cybersecurite-pour-les-tpepme-en-treize-questions)
 * ANSSI [Guide d'Hygiène Informatique](https://cyber.gouv.fr/publications/guide-dhygiene-informatique)
 
 ## Fiches réflexe de réponse à incident
