@@ -2,10 +2,10 @@
 
 **SOMMAIRE :**
 * [Concepts fondamentaux et outils](https://github.com/cyb3rxp/awesome-soc/blob/main/fr_ressources.md#concepts-fondamentaux-et-outils-indispensables)
-* [veille](https://github.com/cyb3rxp/awesome-soc/blob/main/fr_ressources.md#veille)
+* [Veille](https://github.com/cyb3rxp/awesome-soc/blob/main/fr_ressources.md#veille)
 * [Formation](https://github.com/cyb3rxp/awesome-soc/blob/main/fr_ressources.md#formation)
 * [Bonnes pratiques](https://github.com/cyb3rxp/awesome-soc/blob/main/fr_ressources.md#bonnes-pratiques-s%C3%A9curit%C3%A9)
-* [Veille juridique](https://github.com/cyb3rxp/awesome-soc/blob/main/fr_ressources.md#veille-juridique)
+* [Juridique](https://github.com/cyb3rxp/awesome-soc/blob/main/fr_ressources.md#Juridique--r%C3%A8glementaire)
 
 # Concepts fondamentaux et outils indispensables
 
@@ -138,7 +138,7 @@
 
 * CNIL [Guide sécurité des données personnelles](https://www.cnil.fr/sites/cnil/files/2024-03/guide_securite_donnees_personnelles_checklist.pdf)
 
-# Veille juridique & règlementaire
+# Juridique & règlementaire
 
 ## Règlementations FR
 
