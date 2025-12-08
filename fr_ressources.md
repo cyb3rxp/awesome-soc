@@ -1,10 +1,11 @@
 # Ressources en français
 
-SOMMAIRE :
+**SOMMAIRE :**
 * [Concepts fondamentaux et outils](https://github.com/cyb3rxp/awesome-soc/blob/main/fr_ressources.md#concepts-fondamentaux-et-outils-indispensables)
-* [veille](https://github.com/cyb3rxp/awesome-soc/blob/main/fr_ressources.md#veile)
+* [veille](https://github.com/cyb3rxp/awesome-soc/blob/main/fr_ressources.md#veille)
 * [Formation](https://github.com/cyb3rxp/awesome-soc/blob/main/fr_ressources.md#formation)
-* [Bonnes pratiques](https://github.com/cyb3rxp/awesome-soc/blob/main/fr_ressources.md#bonnes-pratiques-securite)
+* [Bonnes pratiques](https://github.com/cyb3rxp/awesome-soc/blob/main/fr_ressources.md#bonnes-pratiques-s%C3%A9curit%C3%A9)
+* [Veille juridique](https://github.com/cyb3rxp/awesome-soc/blob/main/fr_ressources.md#veille-juridique)
 
 # Concepts fondamentaux et outils indispensables
 
