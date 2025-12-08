@@ -118,6 +118,10 @@
 
 * ANSSI, [Recommandations de sécurité relatives au déploiement de conteneurs Docker](https://cyber.gouv.fr/publications/recommandations-de-securite-relatives-au-deploiement-de-conteneurs-docker)
 
+## Questionnaire RGPD
+
+* CNIL [Guide sécurité des données personnelles](https://www.cnil.fr/sites/cnil/files/2024-03/guide_securite_donnees_personnelles_checklist.pdf)
+
 # Veille juridique & règlementaire
 
 ## Règlementations FR
