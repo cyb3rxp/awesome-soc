@@ -115,6 +115,10 @@
 * Akril, [Tiers d'admin, en FR](https://akril.net/comprendre-le-tiering-model-de-microsoft-en-francais/)
 * HardenAD, [HardenAD](https://hardenad.net/)
 
+## Journalisation Windows / AD
+
+* ANSSI, [Journalisation en environnement MS Active Directory](https://cyber.gouv.fr/publications/securiser-la-journalisation-dans-un-environnement-microsoft-active-directory)
+
 ## Microsoft 365
 
 * HardenAD, [Harden365](https://hardenad.net/)
