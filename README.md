@@ -317,6 +317,7 @@ defenses, monitoring, and other actions.
   * e.g.: [CERT-FR](https://www.cert.ssi.gouv.fr/avis/),
   * [CERT-US](https://www.cisa.gov/uscert/ncas/alerts)
   * [ISC] [Diaries](https://isc.sans.edu/diary/0)
+  * ENISA [Threat landscape 2025](https://www.enisa.europa.eu/publications/enisa-threat-landscape-2025) 
 * SIEM rules publications:
   * [Sigma HQ (detection rules)](https://github.com/SigmaHQ/sigma/tree/master/rules) 
   * [Splunk Security content (free detection rules for Splunk)](https://research.splunk.com/) 
