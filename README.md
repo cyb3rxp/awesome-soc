@@ -255,7 +255,7 @@ too much data such that tools and analysts become overwhelmed.
     * Neo23x0 [Community Yara rules](https://github.com/Neo23x0/signature-base)
     * and those listed here, [Awesome threat intel](https://github.com/hslatman/awesome-threat-intelligence)
   * Offline antimalware scanners:
-    * My recommendation: [Windows Defender Offline](https://support.microsoft.com/en-us/windows/help-protect-my-pc-with-microsoft-defender-offline-9306d528-64bf-4668-5b80-ff533f183d6c), [ESET SysRecue](https://www.eset.com/int/support/sysrescue/)
+    * My recommendation: [Windows Defender Offline](https://support.microsoft.com/en-us/windows/help-protect-my-pc-with-microsoft-defender-offline-9306d528-64bf-4668-5b80-ff533f183d6c)
 * **Logs analyzers with detection capabilities**:
     * My recommendations:
       * Paid ones: [Sekoia XDR](https://www.sekoia.io/en/product/xdr/), 
