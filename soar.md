@@ -20,6 +20,7 @@ This page deals with Security Orchestration Automation and Response.
 * PaloAlto, [Top security orchestration use cases](https://www.paloaltonetworks.com/engage/cortex-xsoar/top-security-orchestration-use-cases?utm_source=marketo&utm_medium=email&utm_campaign=Global-NU-EN-21-04-14-XX-P3-Cortex-XSOAR.EN-NU05-Cortex_XSOAR-MOFU&utm_network=pf&mkt_tok=NTMxLU9DUy0wMTgAAAGRtyevdpJBsF0cPQpwRMziLi8AsU4MneA1CMmGAGggPsBuYenJW9khG5e7Wqa78zC0GcLaP0a2R-e6bJpJ0BQAwEKLDrSpqe6npkmcM3DpNXSeqbeAJ9E&_pfses=Rx9LBfVH47t8TMQ542Kr7pCt#page=3)
 * PTP, [SOAR-based security monitoring](https://ptp.cloud/soar-based-security-monitoring/)
 * CyberSecurityForMe, [MS Copilot Security vulnerabilities and countermeasures](https://cybersecurityforme.com/copilot-security-vulnerabilities-and-safety-measures-for-enterprises/)
+* Microsoft [Copilot Security use cases](https://learn.microsoft.com/en-us/copilot/security/use-case-role-overview)
 
 # What is SOAR?
 
