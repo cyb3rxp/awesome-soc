@@ -94,7 +94,7 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
 
 ### ML / LLM
 
-NB : The above scenarios can be supported by machine learning / LLM capabilities, aiming at helping the analyst by suggesting him/her next steps of the detection phase.
+NB : The above use cases can be supported by machine learning / LLM capabilities, aiming at helping the analyst by suggesting him/her next steps of the detection phase.
 
 ## My recommendations for detection (artefacts investigation):
 
@@ -105,7 +105,7 @@ NB : The above scenarios can be supported by machine learning / LLM capabilities
 
 ### ML / LLM
 
-NB : The above scenarios can be supported by machine learning / LLM capabilities, aiming at helping the analyst by suggesting him/her next steps of the detection phase.
+NB : The above use cases can be supported by machine learning / LLM capabilities, aiming at helping the analyst by suggesting him/her next steps of the detection phase.
 
 
 ## My recommendations for response (incident response, containment/eradication steps):
@@ -131,7 +131,7 @@ NB : The above scenarios can be supported by machine learning / LLM capabilities
  
 ### ML / LLM
 
-NB : The above scenarios can be supported by machine learning / LLM capabilities, aiming at helping the analyst by suggesting him/her next steps of the response phase.
+NB : The above use cases can be supported by machine learning / LLM capabilities, aiming at helping the analyst by suggesting him/her next steps of the response phase.
 
  
  ## Automation example around identity-based detections
