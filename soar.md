@@ -92,6 +92,9 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
 * Automatically retrieve the history of SIRP tickets for an user and/or endpoint, that is associated to a new SIRP ticket.
 * Automatically query AD or the assets management solution, for artefact enrichment (user, endpoint, IP, application, etc.).
 
+### ML / LLM
+
+NB : The above scenarios can be supported by machine learning / LLM capabilities, aiming at helping the analyst by suggesting him/her next steps of the detection phase.
 
 ## My recommendations for detection (artefacts investigation):
 
@@ -99,6 +102,10 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
    * My recommendation: use a script to query OpenCTI for with a CSV file, and make sure the output will confirm known malicious IP addresses (+ OpenCTI link to the IOC).
 * Extract a list of fresh IOCs from the TIP, and embed them in an IOC scanner:
    * My recommendation: use a script extract IP/URL/domains over the last month, MD5 over the last year, and embed them in [Thor Lite](https://www.nextron-systems.com/thor-lite/) or [DFIR-ORC](https://github.com/dfir-orc).
+
+### ML / LLM
+
+NB : The above scenarios can be supported by machine learning / LLM capabilities, aiming at helping the analyst by suggesting him/her next steps of the detection phase.
 
 
 ## My recommendations for response (incident response, containment/eradication steps):
@@ -121,6 +128,11 @@ Try to implement at least the following automations, leveraging the SOA/SIRP/TIP
   * Report false positive on VT (ML scanner) to CrowdStrike: VTscanner@crowdstrike.com.
 * Report a malicious URL (for instance, phishing) to a security vendor for takedown steps
   * My recommendation: [Netcraft](https://www.netcraft.com/cybercrime/) [via API](https://report.netcraft.com/api/v3), or [PhishReport](https://phish.report/docs).
+ 
+### ML / LLM
+
+NB : The above scenarios can be supported by machine learning / LLM capabilities, aiming at helping the analyst by suggesting him/her next steps of the response phase.
+
  
  ## Automation example around identity-based detections
 
