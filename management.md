@@ -157,10 +157,10 @@ Source: [LinkedIn article](https://www.linkedin.com/posts/teodorchabin_soc-cyber
 
 ## SOC Self-assessment
 *	SOC Basics:
-  *	Run the [Google SecOps assessment](https://securityassessments.withgoogle.com/secops/)
+ 	*	Run the [Google SecOps assessment](https://securityassessments.withgoogle.com/secops/)
 *	Thorough SOC assessment:
-  *	Read the [SOC Cyber maturity model](https://www.soc-cmm.com/introduction/) from CMM
-  *	Run the [SOC-CMM self-assessment tool](https://www.soc-cmm.com/downloads/latest/)
+ 	*	Read the [SOC Cyber maturity model](https://www.soc-cmm.com/introduction/) from CMM
+ 	*	Run the [SOC-CMM self-assessment tool](https://www.soc-cmm.com/downloads/latest/)
 
 
 ## CERT/CSIRT self-assessment
