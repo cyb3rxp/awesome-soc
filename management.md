@@ -156,8 +156,12 @@ Source: [LinkedIn article](https://www.linkedin.com/posts/teodorchabin_soc-cyber
 # Global self-assessment
 
 ## SOC Self-assessment
-*	Read the [SOC Cyber maturity model](https://www.soc-cmm.com/introduction/) from CMM
-*	Run the [SOC-CMM self-assessment tool](https://www.soc-cmm.com/downloads/latest/) 
+*	SOC Basics:
+  *	Run the [Google SecOps assessment](https://securityassessments.withgoogle.com/secops/)
+*	Thorough SOC assessment:
+  *	Read the [SOC Cyber maturity model](https://www.soc-cmm.com/introduction/) from CMM
+  *	Run the [SOC-CMM self-assessment tool](https://www.soc-cmm.com/downloads/latest/)
+
 
 ## CERT/CSIRT self-assessment
 * Read the [OpenCSIRT cybersecurity maturity framework](https://www.enisa.europa.eu/topics/csirts-in-europe/csirt-capabilities/csirt-maturity/) from ENISA 
