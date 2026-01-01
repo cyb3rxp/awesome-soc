@@ -24,6 +24,11 @@
 
 # Veille
 
+## Infolettres :
+
+* [Erreur 403](https://newsletter.erreur403.fr/)
+* [veille cyber](https://veillecyber.fr/)
+
 ## Etat de la menace :
 
 * CERT-FR : [Avis](https://www.cert.ssi.gouv.fr/avis/feed/)
