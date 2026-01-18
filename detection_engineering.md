@@ -64,6 +64,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * Rootkit POC in Rust, [MemN0ps](https://github.com/memN0ps/rootkit-rs/?tab=readme-ov-file)
 * A Poc, [Red Team tools](https://github.com/A-poc/RedTeam-Tools)
 * Technics [Unprotect.it](https://unprotect.it/techniques/)
+* VVSwift, EDR killers lis](https://github.com/vvswift/Bypass-Protection0x00)
 * [MITRE ATLAS](https://atlas.mitre.org/)
 ## Operating systems knowledge
 * List of the expected legit system services to be found on a Windows 10/11 box, [my Git page](https://github.com/cyb3rxp/awesome-soc/blob/main/legit_Windows_services.md)
