@@ -297,7 +297,7 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
 * Correlation of firewall logs (outgoing traffic) and a list of IP addresses that are sources of detected attacks by WAF and NIDS;
    * NB: this is most likely a hint that a vulnerability has successfully been exploited and there is a callback to an attacker's machine.
 
-### Impossible scenarios:
+### Impossible travel scenarios:
 * Same user authenticating within X min of timeframe, on two different endpoints (workstations/mobiles, not being located in the same place);
    * for instance, X < 2min.
 * Same user (except admins, to begin with) authenticating on more than X endpoints (workstations/mobiles), per timeframe (eg.: 10 min);
@@ -324,8 +324,17 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
   * NB: you may want to query all of the query results onto your TIP, leveraging automation capabilities (SOA). Thus, you will prioritize the handling of those network traffic logs.
 
 ### Potential information leak:
-* Detect abnormal traffic peaks, within the outgoing traffic logs (FW, proxies);
+* Detect abnormal traffic peaks, within the outgoing traffic logs (FW, proxies):
   * See [this Splunk presentation](https://conf.splunk.com/files/2022/slides/SEC1428B.pdf)
+* Detect sensitive (PII, passwords, etc.) shared with anybody on cloud services:
+  * With [Cyera DSPM](https://www.cyera.com/platform/dspm) on Google workspace or Microsoft 365 :
+    * leverage the generated issues named "Publicly shared sensitive Google Drive files" or "Publicly shared sensitive Microsoft 365 files":
+      * confirm, based on filename/filepath, that the detection seems to be consistent with file properties (eg. filename being "health_data.gdoc"), to qualify the alert as an incident;
+      * if not possible to qualify the alert based on filename/filepath, then that will be up to relevant business/production managers to confirm the detection.
+    * leverage the generated issues named "Credentials in plain text":
+      * confirm, based on filename/filepath, that the detection seems to be consistent with file properties (eg. filename being "passwords.gsheet"),, to qualify the alert as an incident;
+      * if not possible to qualify the alert based on filename/filepath, then that will be up to relevant business/production managers to confirm the detection.
+
 
 ### Obfuscated script [T1027, T1059]:
 * Typically obfuscated PowerShell with base64;
