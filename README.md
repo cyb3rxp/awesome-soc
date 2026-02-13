@@ -336,7 +336,7 @@ defenses, monitoring, and other actions.
 * Podcasts:
   * WithSecure [Xposed](https://www.withsecure.com/en/expertise/podcasts)
 * Other interesting websites:
-  * e.g.: [ISC](https://isc.sans.edu/), [ENISA](https://www.enisa.europa.eu/publications), [ThreatPost](https://threatpost.com/) ...
+  * e.g.: [ISC](https://isc.sans.edu/), [ENISA](https://www.enisa.europa.eu/publications), [ThreatPost](https://threatpost.com/), [sase.cloud](https://sase.cloud/) (vendor-neutral SASE/SSE architecture guides and comparisons)
 
 
 # SOAR
