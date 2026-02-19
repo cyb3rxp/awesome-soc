@@ -77,6 +77,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
   * MITRE, [ATT&CK: Getting started](https://attack.mitre.org/resources/getting-started/)
   * NIST, [Cybersecurity framework](https://www.nist.gov/cyberframework)
   * FIRST, [CVSS v4 specs](https://www.first.org/cvss/v4-0/)
+  * CERT-EU, [CTI Framework](https://www.cert.europa.eu/publications/threat-intelligence/cyber-threat-intelligence-framework/)
   * OASIS Open, [STIX](https://oasis-open.github.io/cti-documentation/stix/intro.html)
   * FIRST, [TLP](https://www.first.org/tlp/) (intelligence sharing and confidentiality), and [PAP](https://cert.ssi.gouv.fr/csirt/sharing-policy/)
   * CIS, [18 critical security controls](https://www.cisecurity.org/controls/cis-controls-list)
