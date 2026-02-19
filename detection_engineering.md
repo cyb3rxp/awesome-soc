@@ -67,6 +67,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * VVSwift, [EDR killers list](https://github.com/vvswift/Bypass-Protection0x00)
 * Mandiant, [Net-NTLM v1 rainbow tables](https://cloud.google.com/blog/topics/threat-intelligence/net-ntlmv1-deprecation-rainbow-tables?hl=en)
 * [MITRE ATLAS](https://atlas.mitre.org/)
+* DarkOperator, [Mimikatz missing manual](https://github.com/darkoperator/mimikatz-missing-manual)
 ## Operating systems knowledge
 * List of the expected legit system services to be found on a Windows 10/11 box, [my Git page](https://github.com/cyb3rxp/awesome-soc/blob/main/legit_Windows_services.md)
 
