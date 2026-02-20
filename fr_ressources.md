@@ -117,6 +117,10 @@
 
 * InterCERT [fiches réflexe](https://www.intercert-france.fr/publications/fiches-reflexes/)
 
+## Postes Windows (non classifiés)
+
+* ANSSI, [Sécurisation du poste de travail multi-environnements (non classifiés)](https://messervices.cyber.gouv.fr/guides/fondamentaux-poste-multi-environnements)
+
 ## Postes nomades
 
 * ANSSI, [Guide nomadisme numérique](https://cyber.gouv.fr/publications/recommandations-sur-le-nomadisme-numerique)
@@ -139,6 +143,10 @@
 ## Conteneurs
 
 * ANSSI, [Recommandations de sécurité relatives au déploiement de conteneurs Docker](https://cyber.gouv.fr/publications/recommandations-de-securite-relatives-au-deploiement-de-conteneurs-docker)
+
+## IA
+
+* InterCERT, [Intelligence artificielle dans la cybersécurité : un atout puissant à savoir maîtriser](https://www.intercert-france.fr/intelligence-artificielle-dans-la-cybersecurite-un-atout-puissant-a-savoir-maitriser/)
 
 ## Questionnaire RGPD
 
