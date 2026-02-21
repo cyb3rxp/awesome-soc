@@ -22,6 +22,10 @@
 
 * CrowdStrike, [Qu'est-ce que le "threat hunting ?"](https://www.crowdstrike.fr/cybersecurity-101/threat-hunting/)
 
+## Analyse de configuration sécurité
+
+* Pour Google Workspace : [GWS Audit](https://github.com/cyb3rxp/GWS-Audit)
+
 # Veille
 
 ## Infolettres :
