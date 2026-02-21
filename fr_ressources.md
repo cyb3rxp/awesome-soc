@@ -24,6 +24,7 @@
 
 ## Analyse de configuration sécurité
 
+* Pour Windows 11 : [Harden Windows Security](https://github.com/HotCakeX/Harden-Windows-Security/wiki/Harden-System-Security)  (l'interface est dispo en Français).
 * Pour Google Workspace : [GWS Audit](https://github.com/cyb3rxp/GWS-Audit)
 
 # Veille
