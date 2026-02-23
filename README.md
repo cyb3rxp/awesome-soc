@@ -106,7 +106,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * SOP (Standard Operating Procedures):
   * [Antimalware check SOP](https://github.com/cyb3rxp/awesome-soc/blob/main/sop_malware_critical_controls.md)
   * [M365/Azure compromise asssessment SOP](https://github.com/cyb3rxp/awesome-soc/blob/main/sop_M365_compromise_assessment.md)
-  * [Web server compromise assessment](https://github.com/cyb3rxp/awesome-soc/blob/main/sop_web_server_compromise_assessment.md)
+  * [Web server compromise assessment SOP](https://github.com/cyb3rxp/awesome-soc/blob/main/sop_web_server_compromise_assessment.md)
 
 
 # Fundamental concepts
@@ -576,8 +576,9 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
   * Implement a [level 3 of network segmentation](https://github.com/sergiomarotco/Network-segmentation-cheat-sheet#level-3-of-network-segmentation-high-adoption-of-security-practices)
   * You may want to use throwable machines (virtual machines) for incident response or specific artefacts analysis. Here are my recommendations:
     * [Microsoft Developer virtual machines](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/);
-    * Hardening [script](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat);
-    * If needed, [Flare-VM](https://github.com/mandiant/flare-vm) framework to automate tools installation;
+    * Windows 11 [clean-up script](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat);
+    * Windows 11 [hardening tool](https://apps.microsoft.com/detail/9p7ggfl7dx57)
+    * If needed, [Flare-VM](https://github.com/mandiant/flare-vm) framework to automate security tools installation on analysts workstations;
 
 
 # Appendix
