@@ -352,7 +352,8 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
 ## Advanced detection logics
 
 ### Athentications attempts from known threat actor  [MITRE TA0001]
-* Detect VPN / Entra ID, etc. authentication attempts from IP addresses that are known to be malicious and associated to a defined threat actor.
+* Detect VPN / Entra ID, etc. authentication attempts from IP addresses that are known to be malicious and associated to a defined threat actor;
+  * Correlate authentication logs with curated and up-to-date threat intel (IOC).
 
 ### Named pipe abuse
 * Detect anonymous named pipe
