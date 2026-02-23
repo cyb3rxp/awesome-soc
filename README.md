@@ -225,6 +225,7 @@ too much data such that tools and analysts become overwhelmed.
             * then investigate its log with a regarlar SIEM or with [Zircolite](https://github.com/wagga40/Zircolite)
        * For AD: 
          * simple but efficient [ADRecon](https://github.com/tomwechsler/Active_Directory_Advanced_Threat_Hunting/blob/main/Different_hunting_methods/In-depth_investigation_active_directory.md);
+         * [ADTrapper](https://github.com/MHaggis/ADTrapper);
          * [Semperis Purple Knight](https://www.purple-knight.com/active-directory-security-tool/);
          * [BloodHound Community](https://github.com/SpecterOps/BloodHound)
        * For MS Entra ID & M365:
@@ -280,6 +281,8 @@ too much data such that tools and analysts become overwhelmed.
   * My recommendations: [Microsoft SharePoint](https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration), Wiki (choose the one you prefer, or [use GitLab as a Wiki](https://docs.gitlab.com/ee/user/project/wiki/)).
 * **Vizualization tool for OSINT search and IOC**:
   * My recommendation: [OSINTracker](https://app.osintracker.com/)
+* **Secure file sharing service**:
+  * My recommandation: [Chapril](https://drop.chapril.org/)
 
 
 # IT/security Watch 
