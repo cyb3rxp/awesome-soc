@@ -72,7 +72,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * SOC/CSIRT processes:
   * NIST, [SP800-61 rev3, incident handling guide](https://csrc.nist.gov/pubs/sp/800/61/r3/ipd)
 * CSIRT build:
-  * ENISA, [How to set-up a CSIRT and SOC](https://www.enisa.europa.eu/publications/how-to-set-up-csirt-and-soc/at_download/fullReport)
+  * ENISA, [How to set-up a CSIRT and SOC](https://www.enisa.europa.eu/publications/how-to-set-up-csirt-and-soc)
 * Frameworks and materials:
   * MITRE, [ATT&CK: Getting started](https://attack.mitre.org/resources/getting-started/)
   * NIST, [Cybersecurity framework](https://www.nist.gov/cyberframework)
@@ -181,7 +181,7 @@ too much data such that tools and analysts become overwhelmed.
   * See [Gartner magic quadrant](https://www.gartner.com/doc/reprints?id=1-2IYCQ1TR&ct=241001&st=sb) or [Forrester Wave](https://explore.bitdefender.com/epp-nurture-2023_2/report-forrester-wave-endpoint-security-q4-2023?cid=emm%7Cb%7Chubspot%7Cnrt-epp-2023&utm_campaign=nurture-epp-2023&utm_medium=email&_hsmi=280555694&utm_content=280555694&utm_source=hs_automation)
   * My recommendations: [Microsoft Defender](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-antivirus-windows?view=o365-worldwide), [ESET Nod32](https://www.eset.com/int/business/solutions/learn-more-about-endpoint-protection/), [BitDefender](https://www.bitdefender.fr/business/products/workstation-security.html), [WithSecure Elements EPP](https://www.withsecure.com/fr/solutions/software-and-services/elements-endpoint-protection/computer)
 * **[Endpoint Detection and Response](https://www.gartner.com/reviews/market/endpoint-detection-and-response-solutions)**:
-  * See [Gartner magic quadrant](https://www.sentinelone.com/lp/gartnermq/), [MITRE ENGENUITY](https://attackevals.mitre-engenuity.org/), and [Forrester Wave](https://www.crowdstrike.com/resources/reports/crowdstrike-recognized-as-dominant-endpoint-solution-with-superior-vision/)
+  * See [Gartner magic quadrant](https://www.sentinelone.com/lp/gartnermq/), [MITRE ATT&CK Evaluations](https://evals.mitre.org/results/enterprise?view=cohort&evaluation=er7&result_type=DETECTION&scenarios=1,2), and [Forrester Wave](https://www.crowdstrike.com/resources/reports/crowdstrike-recognized-as-dominant-endpoint-solution-with-superior-vision/)
   * My recommendations: [SentinelOne](https://www.sentinelone.com/blog/active-edr-feature-spotlight/), [Microsoft Defender for Endpoint](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide), [Harfanglab](https://www.harfanglab.io/en/block-cyberattacks), [ESET XDR](https://www.eset.com/int/business/enterprise-protection-bundle/), [WithSecure Elements EDR](https://www.withsecure.com/us-en/solutions/software-and-services/elements-endpoint-detection-and-response), [CrowdStrike Falcon EDR](https://www.crowdstrike.com/wp-content/uploads/2022/03/crowdstrike-falcon-insight-data-sheet.pdf), [Tanium](https://www.tanium.com/products/tanium-threat-response/), [Wazuh](https://wazuh.com/)
 * **[Secure Email Gateway](https://www.proofpoint.com/fr/threat-reference/email-gateway)** (SEG):
   * See [Gartner reviews and ratings](https://www.gartner.com/reviews/market/email-security)
@@ -253,7 +253,7 @@ too much data such that tools and analysts become overwhelmed.
 * **Scanners**:
   * IOC scanners:
     * My recommendations: [Loki](https://github.com/Neo23x0/Loki), [DFIR-ORC](https://github.com/dfir-orc)
-    * For smartphones: [Tiny Check](https://github.com/KasperskyLab/TinyCheck)
+    * For smartphones: [Tiny Check](https://tiny-check.com/#/)
   * IOC repos for scanners:
     * Google [CTI's repo](https://github.com/chronicle/GCTI/tree/main/YARA): Yara rules for Cobalt Strike and others.
     * [Yara-rules GitHub repo](https://github.com/Yara-Rules/rules): multiple Yara rules types.
@@ -276,7 +276,7 @@ too much data such that tools and analysts become overwhelmed.
   * My recommendations for (free) admin tools: [Azure AD Internals suite](https://aadinternals.com/), [SysInternals Suite](https://learn.microsoft.com/fr-fr/sysinternals/downloads/sysinternals-suite), [MRemoteNG](https://mremoteng.org/)
   * My recommendations for (free) remote deployment tools: [EMCO Remote installer](https://emcosoftware.com/remote-installer)
 * **Internal ticketing system** (NB: **not** SIRP, not for incident response!):
-  * My recommendation: [GitLab](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/sec-incident-response.html)
+  * My recommendation: [GitLab](https://github.com/diffblue/gitlab/blob/master/doc/operations/incident_management/incidents.md)
 * **Knowledge sharing and management tool**:
   * My recommendations: [Microsoft SharePoint](https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration), Wiki (choose the one you prefer, or [use GitLab as a Wiki](https://docs.gitlab.com/ee/user/project/wiki/)).
 * **Vizualization tool for OSINT search and IOC**:
@@ -308,7 +308,6 @@ defenses, monitoring, and other actions.
   * [Krebs on security](https://krebsonsecurity.com/feed/)
   * [Graham Cluley's blog](https://grahamcluley.com/feed/)
   * [Schneier on Security](http://feeds.feedburner.com/schneier/excerpts)
-  * Microsoft [MMPC](https://blogs.technet.microsoft.com/mmpc/feed/)
   * ZDI [Upcoming advisories](https://www.zerodayinitiative.com/rss/upcoming/)
   * ESET [We Live Security](http://feeds.feedburner.com/eset/blog?format=xml)
   * [CrowdStrike](https://www.crowdstrike.com/blog/feed)
@@ -318,7 +317,7 @@ defenses, monitoring, and other actions.
     
 * Known exploited vulnerabilities +0days: 
   * [CISA catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
-  * [Top 0days "in the wild"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)
+  * [Top 0days "in the wild"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit?gid=1331951416#gid=1331951416)
 * LinkedIn / Twitter:
   * e.g.: [LinkedIn Information Security Community group](https://www.linkedin.com/groups/38412/) 
 * Government CERT, industry sector related CERT...
@@ -487,8 +486,8 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 *	Microsoft, [SOC/IR hierarchy of needs](https://github.com/swannman/ircapabilities) 
 * Betaalvereniging, [TaHiTI (threat hunting methodology)](https://www.betaalvereniging.nl/wp-content/uploads/TaHiTI-Threat-Hunting-Methodology-whitepaper.pdf) 
 * ANSSI (FR), [EBIOS RM methodology](https://www.ssi.gouv.fr/guide/ebios-risk-manager-the-method/)
-* GMU, [Improving Social Maturity of Cybersecurity Incident Response Teams](https://edu.anarcho-copy.org/Against%20Security%20-%20Self%20Security/GMU_Cybersecurity_Incident_Response_Team_social_maturity_handbook.pdf)
-* J0hnbX, [RedTeam resources](https://github.com/J0hnbX/RedTeam-Resources)
+* GMU, [Improving Social Maturity of Cybersecurity Incident Response Teams](https://web.archive.org/web/20250816141217/https://edu.anarcho-copy.org/Against%20Security%20-%20Self%20Security/GMU_Cybersecurity_Incident_Response_Team_social_maturity_handbook.pdf)
+* J0hnbX, [RedTeam resources](https://archive.org/details/github.com-J0hnbX-RedTeam-Resources_-_2022-02-20_01-12-12)
 * Fabacab, [Awesome CyberSecurity BlueTeam](https://github.com/fabacab/awesome-cybersecurity-blueteam)
 * Microsoft, [Windows 10 and Windows Server 2016 security auditing and monitoring reference](https://www.microsoft.com/en-us/download/details.aspx?id=52630).
 * iDNA, [how to mange FP in a SOC?](https://www.idna.fr/2018/11/06/comment-gerer-les-faux-positifs-dans-un-soc/), in FR
@@ -528,7 +527,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 * Rawsec, [Tools inventory](https://inventory.raw.pm/tools.html)
 * Microsoft, [command line reference](https://cmd.ms/)
 * Microsoft, [Sentinel data collection scenarios](https://learn.microsoft.com/en-us/azure/sentinel/connect-cef-ama#how-collection-works-with-the-common-event-format-cef-via-ama-connector)
-* SOC CMM, [SOCTOM](https://soc-cmm.com/downloads/SOCTOM%20whitepaper.pdf)
+* SOC CMM, [SOCTOM](https://soc-cmm.com/img/upload/files/54-soctom-whitepaper.pdf)
 * [PTES](http://www.pentest-standard.org/index.php/Main_Page)
 * OWASP, [WSTG](https://owasp.org/www-project-web-security-testing-guide/)
 * BitDefender, [Analyzing MITRE ATT&CK evaluations 2023](https://explore.bitdefender.com/epp-nurture-2023_2/blog-mitre-attck-evaluations-2023?cid=emm%7Cb%7Chubspot%7Cnrt-epp-2023&utm_campaign=nurture-epp-2023&utm_medium=email&_hsmi=280552612&utm_content=280552612&utm_source=hs_automation)
@@ -580,7 +579,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
   * You may want to use throwable machines (virtual machines) for incident response or specific artefacts analysis. Here are my recommendations:
     * [Microsoft Developer virtual machines](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/);
     * Windows 11 [clean-up script](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat);
-    * Windows 11 [hardening tool](https://apps.microsoft.com/detail/9p7ggfl7dx57)
+    * Windows 11 [hardening tool](https://apps.microsoft.com/detail/9p7ggfl7dx57?hl=en-US&gl=US)
     * If needed, [Flare-VM](https://github.com/mandiant/flare-vm) framework to automate security tools installation on analysts workstations;
 
 
