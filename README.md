@@ -172,7 +172,7 @@ too much data such that tools and analysts become overwhelmed.
   * I recommend to read the SoftwareReview's [SOAR Data quadrant awards](https://swimlane.com/resources/reports/soar-quadrant/)
   * e.g. of solutions: [IBM Resilient](https://www.ibm.com/qradar/security-qradar-soar?utm_content=SRCWW&p1=Search&p4=43700068028974608&p5=e&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITW2yUqAfNqWNeYXyENeUAoqLxV543LT0n2oYhYxEQ47Yjm7NfYTFHAaAtwpEALw_wcB&gclsrc=aw.ds), [SwimLane](https://swimlane.com/), [TheHive](https://thehive-project.org/), [PAN Cortex XSOAR](https://www.paloaltonetworks.com/cortex/cortex-xsoar), [Microsoft Logic Apps](https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-overview)
   * My recommendations: [SwimLane](https://swimlane.com/), [TheHive](https://thehive-project.org/), [PAN Cortex XSOAR](https://www.paloaltonetworks.com/cortex/cortex-xsoar) 
-* **[TIP](https://www.ssi.gouv.fr/en/actualite/opencti-the-open-source-solution-for-processing-and-sharing-threat-intelligence-knowledge/)**:
+* **[TIP](https://www.enisa.europa.eu/sites/default/files/publications/ENISA%20Report%20-%20How%20to%20setup%20CSIRT%20and%20SOC.pdf)**:
    * See [Threat intel page](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md) 
      
 
@@ -183,7 +183,7 @@ too much data such that tools and analysts become overwhelmed.
   * My recommendations: [Microsoft Defender](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-antivirus-windows?view=o365-worldwide), [ESET Nod32](https://www.eset.com/int/business/solutions/learn-more-about-endpoint-protection/), [BitDefender](https://www.bitdefender.fr/business/products/workstation-security.html), [WithSecure Elements EPP](https://www.withsecure.com/fr/solutions/software-and-services/elements-endpoint-protection/computer)
 * **[Endpoint Detection and Response](https://www.gartner.com/reviews/market/endpoint-detection-and-response-solutions)**:
   * See [Gartner magic quadrant](https://www.sentinelone.com/lp/gartnermq/), [MITRE ATT&CK Evaluations](https://evals.mitre.org/results/enterprise?view=cohort&evaluation=er7&result_type=DETECTION&scenarios=1,2), and [Forrester Wave](https://www.crowdstrike.com/resources/reports/crowdstrike-recognized-as-dominant-endpoint-solution-with-superior-vision/)
-  * My recommendations: [SentinelOne](https://www.sentinelone.com/blog/active-edr-feature-spotlight/), [Microsoft Defender for Endpoint](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide), [Harfanglab](https://www.harfanglab.io/en/block-cyberattacks), [ESET XDR](https://www.eset.com/int/business/enterprise-protection-bundle/), [WithSecure Elements EDR](https://www.withsecure.com/us-en/solutions/software-and-services/elements-endpoint-detection-and-response), [CrowdStrike Falcon EDR](https://www.crowdstrike.com/wp-content/uploads/2022/03/crowdstrike-falcon-insight-data-sheet.pdf), [Tanium](https://www.tanium.com/products/tanium-threat-response/), [Wazuh](https://wazuh.com/)
+  * My recommendations: [SentinelOne](https://www.sentinelone.com/blog/active-edr-feature-spotlight/), [Microsoft Defender for Endpoint](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide), [Harfanglab](https://harfanglab.io/), [ESET XDR](https://www.eset.com/int/business/enterprise-protection-bundle/), [WithSecure Elements EDR](https://www.withsecure.com/us-en/solutions/software-and-services/elements-endpoint-detection-and-response), [CrowdStrike Falcon EDR](https://www.crowdstrike.com/wp-content/uploads/2022/03/crowdstrike-falcon-insight-data-sheet.pdf), [Tanium](https://www.tanium.com/products/tanium-threat-response/), [Wazuh](https://wazuh.com/)
 * **[Secure Email Gateway](https://www.proofpoint.com/fr/threat-reference/email-gateway)** (SEG):
   * See [Gartner reviews and ratings](https://www.gartner.com/reviews/market/email-security)
   * My recommendations: [Microsoft Defender for Office365](https://www.microsoft.com/en-us/security/business/siem-and-xdr/microsoft-defender-office-365), [ProofPoint](https://www.proofpoint.com/fr/threat-reference/email-gateway), [Mimecast](https://www.mimecast.com/products/email-security/secure-email-gateway/), [WithSecure Elements Collaboration Protection](https://www.withsecure.com/en/solutions/software-and-services/elements-collaboration-protection)
@@ -192,9 +192,9 @@ too much data such that tools and analysts become overwhelmed.
   * My recommendations: [BlueCoat Edge SWG](https://www.broadcom.com/products/cybersecurity/network/web-protection/proxy-sg-and-advanced-secure-gateway), [CISCO SASE](https://www.cisco.com/site/us/en/solutions/secure-access-service-edge-sase/index.html), [Zscaler Cloud proxy](https://www.zscaler.com/resources/security-terms-glossary/what-is-cloud-proxy), [Netskope](https://www.netskope.com/security-defined/what-is-casb).
 * **[Identity Threat Detection and Response](https://www.semperis.com/blog/evaluating-identity-threat-detection-response-solutions/)** **(ITDR)** for identity and AD/AAD security (audit logs, or specific security monitoring solutions):
   * My recommendations: [Semperis Directory Services Protector](https://www.semperis.com/active-directory-security/)
-  * for a one-shot security assessment of AD and Enta ID, I recommend: [Semperis Purple Knight](https://www.purple-knight.com/fr/?utm_source=gads&utm_medium=paidsearch&utm_campaign=pk_emea&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITV3yX7Nn6_GR-YVwiOANFvS9wsEQdTyUGHvMMirMzNQEoQ1Q3EQYIMaAjTgEALw_wcB)  or [PingCastle](https://www.pingcastle.com/download/)
+  * for a one-shot security assessment of AD and Enta ID, I recommend: [Semperis Purple Knight](https://www.semperis.com/purple-knight/)  or [PingCastle](https://www.pingcastle.com/download/)
 * **EASM**: External Asset Security Monitoring / External Attack Surface Management:
-  * My recommendations: [Intrinsec (in French)](https://www.intrinsec.com/monitoring-cyber/), [Mandiant](https://www.mandiant.fr/advantage/attack-surface-management), [Qualys EASM](https://www.qualys.com/apps/external-attack-surface-management/)
+  * My recommendations: [Intrinsec](https://www.intrinsec.com/en/easm-external-attack-surface-management/), [Mandiant](https://cloud.google.com/security/products/attack-surface-management), [Qualys EASM](https://www.qualys.com/apps/external-attack-surface-management/)
   * for a security check-up:
      * quick security assessment of your website: [ImmuniWeb](https://www.immuniweb.com/websec/)
      * AWS/Azure/GCP security assessment (community tool): [ScootSuite](https://github.com/nccgroup/ScoutSuite)
@@ -227,11 +227,11 @@ too much data such that tools and analysts become overwhelmed.
        * For AD: 
          * simple but efficient [ADRecon](https://github.com/tomwechsler/Active_Directory_Advanced_Threat_Hunting/blob/main/Different_hunting_methods/In-depth_investigation_active_directory.md);
          * [ADTrapper](https://github.com/MHaggis/ADTrapper);
-         * [Semperis Purple Knight](https://www.purple-knight.com/active-directory-security-tool/);
+         * [Semperis Purple Knight](https://www.semperis.com/purple-knight/);
          * [BloodHound Community](https://github.com/SpecterOps/BloodHound)
        * For MS Entra ID & M365:
          * [CrowdStrike Reporting Tool for Azure](https://github.com/CrowdStrike/CRT)
-         * [Semperis Purple Knight](https://www.purple-knight.com/active-directory-security-tool/);
+         * [Semperis Purple Knight](https://www.semperis.com/purple-knight/);
          * [365Inspect](https://github.com/soteria-security/365Inspect);
          * [Azure AD Incident Response Powershell](https://github.com/reprise99/kql-for-dfir/tree/main/Azure%20Active%20Directory)
        * For Azure / GCP / AWS:
@@ -485,7 +485,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 * Herman Slatman, [Awesome Threat Intel](https://github.com/hslatman/awesome-threat-intelligence)
 *	Microsoft, [SOC/IR hierarchy of needs](https://github.com/swannman/ircapabilities) 
 * Betaalvereniging, [TaHiTI (threat hunting methodology)](https://www.betaalvereniging.nl/wp-content/uploads/TaHiTI-Threat-Hunting-Methodology-whitepaper.pdf) 
-* ANSSI (FR), [EBIOS RM methodology](https://www.ssi.gouv.fr/guide/ebios-risk-manager-the-method/)
+* ANSSI (FR), [EBIOS RM methodology](https://messervices.cyber.gouv.fr/guides/en-ebios-risk-manager-method)
 * GMU, [Improving Social Maturity of Cybersecurity Incident Response Teams](https://web.archive.org/web/20250816141217/https://edu.anarcho-copy.org/Against%20Security%20-%20Self%20Security/GMU_Cybersecurity_Incident_Response_Team_social_maturity_handbook.pdf)
 * J0hnbX, [RedTeam resources](https://archive.org/details/github.com-J0hnbX-RedTeam-Resources_-_2022-02-20_01-12-12)
 * Fabacab, [Awesome CyberSecurity BlueTeam](https://github.com/fabacab/awesome-cybersecurity-blueteam)
@@ -510,7 +510,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 * Microsoft, [PAW Microsoft](https://docs.microsoft.com/en-us/security/compass/privileged-access-devices) 
 * CIS, [Business Impact Assessment](https://bia.cisecurity.org/) 
 * Abdessabour Boukari, [RACI template (in French)](https://github.com/cyberabdou/SOC/blob/77f01ba82c22cb11028cde4a862ae0bea4258378/SOC%20RACI.xlsx) 
-* Trellix, [XDR Gartner market guide](https://www.trellix.com/fr-fr/solutions/gartner-report-market-guide-xdr.html)
+* Sekoia, [What is XDR?](https://www.sekoia.io/en/glossary/what-is-xdr/)
 * Elastic, [BEATS agents](https://www.elastic.co/beats/)
 * [V1D1AN's Drawing: architecture of detection](https://github.com/V1D1AN/S1EM/wiki/Architecture-guide#the-architecture-of-detection),
 * [RFC2350](https://www.cert.ssi.gouv.fr/uploads/CERT-FR_RFC2350_EN.pdf) (CERT description)
