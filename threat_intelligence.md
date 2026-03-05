@@ -12,6 +12,7 @@
 ## Books/articles/recordings
 
 * Thomas Roccia, [Visual Threat Intelligence](https://www.amazon.fr/Visual-Threat-Intelligence-Illustrated-Researchers/dp/B0C7JCF8XD);
+* SGDSN (France), [OpenCTI Doctrine](https://www.sgdsn.gouv.fr/files/2025-04/20250415_NP_SGDSN_VIGINUM_DoctrineOpenCTI_versionENG.pdf)
 * EE-ISAC, [Threat Intel Management](https://www.ee-isac.eu/media/2023/05/Threat-Management-Master-v1.2_ENISA_Proofreading_SA.pdf)
 * MITRE, [top TTP for ransomwares](https://top-attack-techniques.mitre-engenuity.org/);
 * David J. Bianco, [Pyramid of pain](https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html);
