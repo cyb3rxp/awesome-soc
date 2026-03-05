@@ -195,7 +195,7 @@ Here is a suggested global overview of it, through [Open-XDR approach of Stellar
 ### Leverage the documented detection coverage of security solutions:
 
 * Refer to [Security Stack Mappings](https://github.com/center-for-threat-informed-defense/security-stack-mappings)
-  * Regarding [Vectra](https://support.vectra.ai/s/article/KB-VS-1158).
+  * For instance, regarding Vectra: [Vectra's coverage of MITRE ATT&CK](https://docs.vectra.ai/reference/vectras-coverage-of-mitre-att-and-ck-and-d3fend).
 
 ### Cyber watch:
 
