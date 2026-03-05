@@ -16,7 +16,6 @@
 ## SOAR :
 
 * RedHat, [Le SOAR, qu'est-ce que c'est ?](https://www.redhat.com/fr/topics/security/what-is-soar)
-* OCD, [RETEX sur le SOAR en 2020](https://www.orangecyberdefense.com/fr/insights/blog/threat-management/soar-quelles-conclusions-en-2020)
 
 ## "Threat hunting" / chasse 
 
