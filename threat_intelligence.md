@@ -14,7 +14,7 @@
 * Thomas Roccia, [Visual Threat Intelligence](https://www.amazon.fr/Visual-Threat-Intelligence-Illustrated-Researchers/dp/B0C7JCF8XD);
 * SGDSN (France), [OpenCTI Doctrine](https://www.sgdsn.gouv.fr/files/2025-04/20250415_NP_SGDSN_VIGINUM_DoctrineOpenCTI_versionENG.pdf)
 * EE-ISAC, [Threat Intel Management](https://www.ee-isac.eu/media/2023/05/Threat-Management-Master-v1.2_ENISA_Proofreading_SA.pdf)
-* MITRE, [top TTP for ransomwares](https://top-attack-techniques.mitre-engenuity.org/);
+* MITRE, [top TTP for ransomwares](https://ctid.mitre.org/projects/top-attack-techniques/);
 * David J. Bianco, [Pyramid of pain](https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html);
 * OASIS Open, [STIX](https://oasis-open.github.io/cti-documentation/stix/intro.html);
 * FIRST, [TLP](https://www.first.org/tlp/) (intelligence sharing and confidentiality);
@@ -66,7 +66,7 @@ As per [Gartner](https://www.gartner.com/doc/reprints?id=1-2IJMCHZX&ct=240815&st
 
 # Threat intel life cycle
 
-Here is [an overview](https://erdalozkaya.com/2021/06/06/cyber-threat-intelligence/) of a generic cyber threat intel lifecycle, with the following key steps:
+Here is [an overview](https://erdalozkaya.com/cyber-threat-intelligence/) of a generic cyber threat intel lifecycle, with the following key steps:
 * Plannning & Direction,
 * Collection,
 * Processing & Exploitation;
@@ -109,7 +109,6 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * [Mandiant](https://www.mandiant.com/advantage/threat-intelligence/subscribe); 
      * [RecordedFuture](https://www.recordedfuture.com/platform/threat-intelligence); 
      * [Netcraft](https://www.netcraft.com/cybercrime/malicious-site-feeds/); 
-     * [Gatewatcher](https://www.gatewatcher.com/en/our-solutions/lastinfosec/);
      * [CrowdSec](https://www.crowdsec.net/pricing);
      * [HaveIBeenPwned](https://haveibeenpwned.com/API/Key)
    * My recommendations for community ones: 
@@ -132,7 +131,6 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * Orange CyberDefense, [Log4Shell IOC](https://github.com/Orange-Cyberdefense/log4shell_iocs);
      * Orange CyberDefense, [RU/UKR IOC](https://github.com/Orange-Cyberdefense/russia-ukraine_IOCs);
      * [RedFlag Domains](https://red.flag.domains/);
-     * Jeroen Steeman, [IPBlock lists](https://jeroen.steeman.org/IPBlock);
      * [si3t.ch](http://si3t.ch/evils/);
      * [Execute Malware](https://github.com/executemalware/Malware-IOCs/tree/main);
      * [FireHOL project: GreenSwow IP set](https://github.com/firehol/blocklist-ipsets/blob/master/greensnow.ipset);
@@ -147,12 +145,11 @@ Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-
      * CrowdSec, [Free Paris2024 Olympic Games blocklist](https://app.crowdsec.net/blocklists/665d96cf0a60f8f3808a5d5c);
      * Mhtcht, [Security lists for SOC/DFIR detections](https://github.com/mthcht/awesome-lists);
      * Sekoia, [Happy YARA Christmas](https://github.com/SEKOIA-IO/Community/tree/main/yara_rules);
-     * [Maltiverse](https://whatis.maltiverse.com/feeds/)
+     * [Maltiverse](https://lumu.io/maltiverse/)
      * [StalkPhish](https://www.stalkphish.io/)
      * CIRCL [GCVE Vulnerability Lookup](https://vulnerability.circl.lu/)
   * To go further, some lists of feeds that could be of interest:
     * [Covert.io list](http://www.covert.io/threat-intelligence/);
-    * [Intel471](https://intel471.com/modules);
     * [Bert JanP](https://github.com/Bert-JanP/Open-Source-Threat-Intel-Feeds/tree/main);
   * And a reference framework to analyze data information leaks: [AIL Framework](https://github.com/CIRCL/AIL-framework).
 
