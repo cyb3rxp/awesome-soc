@@ -43,7 +43,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * Intrinsec, ['Limitations of MITRE ATT&CK' (in FR)](https://www.intrinsec.com/pilotage-dun-soc-interets-et-limites-de-la-matrice-attck/)
 * LinkedIn, [Risk assessment with ISO 27005](https://www.linkedin.com/pulse/iso-27005-risk-management-aron-lange/?trackingId=oRjjiIdY9BNjne1ALRq02A%3D%3D)
 * PECB, [ISO 27001:2022, what are the changes?](https://pecb.com/past-webinars/isoiec-270012022--what-are-the-changes)
-* ANSSI, [EBIOS RM methodology](https://www.ssi.gouv.fr/guide/ebios-risk-manager-the-method/)
+* ANSSI, [EBIOS RM methodology](https://messervices.cyber.gouv.fr/guides/en-ebios-risk-manager-method)
 * David J. Bianco, [Pyramid of pain](https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html)
 * Tsale, [EDR telemetry](https://github.com/tsale/EDR-Telemetry)
 * MITRE ATT&CK [Evaluations: Enterprise, 2024](https://www.withsecure.com/en/expertise/campaigns/mitre-2024)
@@ -177,13 +177,14 @@ Here is a suggested global overview of it, through [Open-XDR approach of Stellar
 
 
 ### TTP detection priorities identification:
-* Use [MITRE Engenuity calculator](https://ctid.mitre-engenuity.org/our-work/top-attack-techniques/):
+* Use [MITRE Engenuity calculator](https://center-for-threat-informed-defense.github.io/top-attack-techniques/#/calculator):
   * Calculate your top 10 TTP, based on your existing logging and detection capabilities.
-  * Focus on the [top TTP for ransomwares](https://top-attack-techniques.mitre-engenuity.org/): 
+  * Focus on the [top TTP for ransomwares](https://center-for-threat-informed-defense.github.io/top-attack-techniques/#/top-10-lists): 
     * T1486: Data Encrypted for Impact, T1490: Inhibit System Recovery, T1027: Obfuscated Files or Information, T1047: Windows Management Instrumentation, T1036: Masquerading, T1059: Command and Scripting Interpreter, T1562: Impair Defenses, T1112: Modify Registry, T1204: User Execution, T1055: Process Injection.
 * Leverage daily watch to maintain your knowledge about current most commonly used TTP:
-  * for instance: [Recorded Future 2021 top TTP report](https://www.recordedfuture.com/2021-malware-and-ttp-threat-landscape): 
+  * for instance: [Recorded Future 2021 top TTP report](https://www.recordedfuture.com/research/2021-malware-and-ttp-threat-landscape) and [Recorded Future H1 2025 Malware and vuln trends](https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends): 
     * T1486 (Data Encrypted for Impact), T1082 (System Information Discovery), T1055 (Process Injection), T1027 (Obfuscated Files or Information), T1005 (Data from Local System).
+  * and also [RecordedFuture 2025 Cloud Threat hunting landscape](https://www.recordedfuture.com/research/2025-cloud-threat-hunting-defense-landscape)
 
 ### Leverage the native detection coverage of IT environments:
 
@@ -252,7 +253,7 @@ My recommendation, still, is to make sure not to spend all your time running aft
 could occur since that exercise is part of risk analysis. Rather, the analysis of business impact is to determine what the various effects might be in order to enable risk managers to decide how critical and sensitive a particular business system is. Similar considerations apply to cyber-physical systems and operational technologies. 
 > The risk management process relies on this foundation of asset categorization, enabling a tailored and cost-effective approach to balancing risk and reward. Business impact drives categorization (sometimes called asset classification), which drives risk identification, which will later inform risk response, risk monitoring, and communication.
 
-My recommendation is to follow the [EBIOS RM methodology](https://www.ssi.gouv.fr/guide/ebios-risk-manager-the-method/), from French ANSSI. The fourth workshop will aim at defining the "offensive scenarios" that are relevant for the environment for which you are running the risk management methodology. Those offensive scenarios should be considered as TTP (even if they are not directly referenced in MITRE ATT&CK Enterprise matrix), to be monitored by the SOC.
+My recommendation is to follow the [EBIOS RM methodology](https://messervices.cyber.gouv.fr/guides/en-ebios-risk-manager-method), from French ANSSI. The fourth workshop will aim at defining the "offensive scenarios" that are relevant for the environment for which you are running the risk management methodology. Those offensive scenarios should be considered as TTP (even if they are not directly referenced in MITRE ATT&CK Enterprise matrix), to be monitored by the SOC.
 
 
 ### Focus your SOC detection engineering taskforce on priorities:
