@@ -24,13 +24,13 @@ This page deals with SOC and CERT management
 * FIRST, [CSIRT Services Framework](https://www.first.org/standards/frameworks/csirts/csirt_services_framework_v2.1)
 * ENISA, [Good practice for incident management](https://www.enisa.europa.eu/publications/good-practice-guide-for-incident-management)
 * CIS, [18 critical security controls](https://www.cisecurity.org/controls/cis-controls-list)
-* CMM, [SOC-CMM](https://www.soc-cmm.com/downloads/soc-cmm%20whitepaper.pdf)
+* CMM, [SOC-CMM](https://www.soc-cmm.com/img/upload/files/32-soc-cmm-whitepaper.pdf)
 * Linkedin Pulse, [Evolution Security Operations Center](https://www.linkedin.com/pulse/evolution-security-operations-center-lakshminarayanan-kaliyaperumal/)
 * Gartner, [Cybersecurity business value benchmark](https://emtemp.gcom.cloud/ngw/globalassets/en/doc/documents/775537-gartner-cybersecurity-business-value-benchmark-1st-generation.pdf)
 * Gartner, [Priorities navigator for CISOs](https://view.ceros.com/gartner/sec31-priorities-navigator/p/1)
 * LogRythm, [7 metrics to measure the effectiveness of your SOC](https://www.compuquip.com/hubfs/Vendors/LogRhythm/LogRhythm-7-Metrics-to-Measure-the-Effectiveness-of-Your-SOC-Ebook.pdf?hsCtaTracking=6f44e275-b498-4bee-af8e-c5c5b7aca241%7Cec4bcb3b-9186-4252-a4df-2e9efd8c4d47)
 * Google, [Modernize your SOC for the future](https://www.brighttalk.com/webcast/18282/565440?utm_source=brighttalk-recommend&utm_campaign=network_weekly_email&utm_medium=email&utm_content=company&utm_term=132023)
-* Signalblur, [Getting started with ATT&CK heatmaps](https://www.signalblur.io/getting-started-with-mitres-att-ck-navigator/)
+* DogeSec, [Getting started with ATT&CK heatmaps](https://www.dogesec.com/blog/getting_started_attck_navigator/)
 * TheHackerNews, [NIST CSF v2](https://thehackernews.com/2024/09/nist-cybersecurity-framework-csf-and.html)
 * First, [ISO 27035 Practical value for CSIRT and SOCs ](https://www.first.org/resources/papers/conf2023/FIRSTCON23-TLPCLEAR-Benetis-ISO-27035-practical-value-for-CSIRTs-and-SOCs.pdf)
 * Infoblox, [NIS2 & NCSC CAF](https://insights.infoblox.com/solution-notes/infoblox-solution-note-nis2-and-the-caf-framework)
@@ -124,8 +124,8 @@ Source: [LinkedIn article](https://www.linkedin.com/posts/teodorchabin_soc-cyber
 
 
 # Detection quality assessment
- * **Run regular [purpleteaming sessions](https://about.gitlab.com/handbook/engineering/security/threat-management/red-team/purple-teaming/)** in time!!
-   * e.g.: [Intrinsec](https://www.intrinsec.com/purple-team/), [FireEye](https://www.fireeye.fr/content/dam/fireeye-www/regional/fr_FR/services/pdfs/ds-purple-team-assessment.pdf)
+ * **Run regular [https://docs.vectr.io/user/important-concepts/)** in time!!
+   * e.g.: [Intrinsec](https://www.intrinsec.com/purple-team/), [SpecterOps](https://specterops.io/news/specterops-introduces-purple-team-assessments-service-to-help-customers-understand-the-efficacy-of-their-detection-capabilities/)
    * To do it on your own, here are a few recommended frameworks/tools:
        * Frameworks:
          * RedCanary [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team)
@@ -165,10 +165,9 @@ Source: [LinkedIn article](https://www.linkedin.com/posts/teodorchabin_soc-cyber
 
 
 ## CERT/CSIRT self-assessment
-* Read the [OpenCSIRT cybersecurity maturity framework](https://www.enisa.europa.eu/topics/csirts-in-europe/csirt-capabilities/csirt-maturity/) from ENISA 
+* Read the [OpenCSIRT cybersecurity maturity framework](https://www.enisa.europa.eu/topics/incident-response/csirt-capabilities/csirt-maturity) from ENISA 
   * Run the OpenCSIRT, [SIM3 self-assessment](https://sim3-check.opencsirt.org/#/v1/) 
-* Read the [SOC-CMM 4CERT](https://www.soc-cmm.com/4CERT/) from CMM
-  * Run the [SOC-CMM 4CERT self-assessment tool](https://www.soc-cmm.com/downloads/latest/soc-cmm%20for%20CERT%201.0%20-%20advanced.xlsx)
+
   
 # Reporting
 
