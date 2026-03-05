@@ -33,7 +33,7 @@ Version: 0.3 as of 03/20/2024
     > Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
 
 ## Run a scan with relevant tools:
-   * [Semperis Purple Knight](https://www.purple-knight.com/active-directory-security-tool/);
+   * [Semperis Purple Knight](https://www.semperis.com/purple-knight/);
        * review in priority any item reported as "IOC" in the report.
    * [365Inspect](https://github.com/soteria-security/365Inspect)
    * [Sparrow](https://github.com/cisagov/Sparrow)
