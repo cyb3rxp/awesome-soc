@@ -60,7 +60,6 @@ https://www.nist.gov/document/supplementnicespecialtyareasandworkroleksasandtask
 * PaloAlto, [Fundamentals of SOC](https://beacon.paloaltonetworks.com/student/path/521672-the-fundamentals-of-soc-security-operations-center), mainly modules 1 to 8 :) [free]
 * LetsDefend, [Fundamentals of SOC](https://app.letsdefend.io/training/lessons/soc-fundamentals); [free]
 * [Cybrary, MITRE ATT&CK threat hunting](https://www.cybrary.it/course/mitre-attack-threat-hunting/); [free]
-* [ENISA trainings](https://www.enisa.europa.eu/topics/trainings-for-cybersecurity-specialists/online-training-material); [free]
 * Active Directory specifics:
    * train on AD specific attacks, [Orange Cyberdefense GOAD](https://github.com/Orange-Cyberdefense/GOAD) [free];
      * Populate AD with "real life" objects, in an automated way, [Badblood](https://github.com/davidprowe/badblood).
@@ -94,7 +93,7 @@ https://www.nist.gov/document/supplementnicespecialtyareasandworkroleksasandtask
   * https://cyberdefenders.org/blueteam-ctf-challenges/60;
   * https://cyberdefenders.org/blueteam-ctf-challenges/32;
   * https://cyberdefenders.org/blueteam-ctf-challenges/17.
-* [SOC Vel](https://socvel.com/challenges/).
+* [SOC Vel](https://socvel.com/).
 
 ## SIEM
 ### **Splunk** 
@@ -176,7 +175,6 @@ Not working anymore ATOW: EthicalHackersAcademy, [SOC & SIEM Security program: L
 * NATO, [reverse engineering handbook](https://www.linkedin.com/posts/julienprovenzano_malware-reverse-engineering-handbook-ugcPost-7216606319305187328-rGG2?utm_source=share&utm_medium=member_android )
 
 ## Regular trainings & challenges [Free]
-* ENISA, [trainings](https://www.enisa.europa.eu/topics/trainings-for-cybersecurity-specialists/online-training-material);
 * FIRST, [trainings](https://www.first.org/education/trainings);
 * [Malware Traffic Analysis](https://www.malware-traffic-analysis.net/);
 * Microsoft, [Become a Microsoft Sentinel Ninja](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/become-a-microsoft-sentinel-ninja-the-complete-level-400/ba-p/1246310);
@@ -200,7 +198,7 @@ Not working anymore ATOW: EthicalHackersAcademy, [SOC & SIEM Security program: L
 * SANS, [FOR610: Reverse-Engineering Malware: Malware Analysis Tools and Techniques](https://www.sans.org/cyber-security-courses/reverse-engineering-malware-malware-analysis-tools-techniques/).
   
 ### Free certifications:
-* EC-Council, [Digital Forensics Essentials](https://codered.eccouncil.org/course/digital-forensics-essentials?logged=true)
+* EC-Council, [Digital Forensics Essentials](https://www.coursera.org/learn/digital-forensics-essentials-dfe)
 * CrowdSec, [CrowdSec Fundamentals](https://academy.crowdsec.net/course/crowdsec-fundamentals)  [free];
 * Splunk, [free training](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/shared;spf-url=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT%252COFFERINGTEMPLATE%252CCERTIFICATION%252CCURRICULUM%252CPLAYLIST%252COFFERING%252CPACKAGE%252CLXPCONTENT%252CLEARNINGPATHWAY%3Fadvsearch%3Dtrue&categoryId%3Dcateg000000000003041).
 
