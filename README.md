@@ -270,6 +270,8 @@ too much data such that tools and analysts become overwhelmed.
 ## Other critical tools for a SOC and a CERT/CSIRT
 * **Secure secrets sharing**:
   * [OneTimeSecret](https://onetimesecret.com/)  
+* **Log analysis and threat detection**:
+  * My recommendation: [NullSec LogReaper](https://github.com/bad-antics/nullsec-logreaper) - real-time log analysis with pattern matching, anomaly detection, and threat scoring.
 * **Data analysis tools**:
   * My recommendations: [CyberChef](https://github.com/NextronSystems/CyberChef), [Notepad++](https://notepad-plus-plus.org/downloads/)
 * **Admin tools**: 
