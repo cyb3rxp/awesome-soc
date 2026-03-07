@@ -1,11 +1,7 @@
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![GitHub stars](https://img.shields.io/github/stars/cyb3rxp/awesome-soc?style=social) ![License](https://img.shields.io/github/license/cyb3rxp/awesome-soc) ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen)
 # Awesome SOC
-An operational handbook and knowledge base to build, run and mature a SOC (including CSIRT).
 
-
-Those are my view, based on my own experience as SOC/CSIRT analyst and team manager, as well as well-known papers. Focus is more on SOC than on CERT/CSIRT.
-
-Covering:
+An operational handbook and knowledge base to build, run and mature a SOC (including CSIRT). Covering:
 - SOC architecture
 - detection engineering
 - threat intelligence
@@ -14,23 +10,26 @@ Covering:
 - hiring and training
 - SOP (SOC playbooks)
 
+Those are my view, based on my own experience as SOC/CSIRT analyst and team manager, as well as well-known papers. Focus is more on SOC than on CERT/CSIRT.
+
 My motto is: without reaction (response), detection is useless.
 
 NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to incident response activity. CERT is a well-known (formerly) US trademark, managed by [CERT-CC](https://www.sei.cmu.edu/about/divisions/cert/index.cfm), but I prefer the term [CSIRT](https://www.enisa.europa.eu/sites/default/files/publications/Incident_Management_guide.pdf) as it precisely refers to incident response.
 
 # Table of Content
-* [Must read](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#must-read)
-* [Fundamental concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md)
-* [Mission-critical means (tools/sensors)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#mission-critical-means-toolssensors)
-* [IT/security Watch](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#itsecurity-watch)
+* [Must read](#must-read)
+* [Fundamental concepts](soc_basics.md)
+* [Mission-critical means (tools/sensors)](#mission-critical-means-toolssensors)
+* [IT/security Watch](#itsecurity-watch)
 * [SOAR](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md)
-* [Detection engineering](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md)
-* [Threat intelligence](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md)
-* [Management](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md)
-* [HR and training](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md)
-* [IT achitecture](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#it-achitecture-of-a-soc)
-* [To go further (next steps)](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#to-go-further)
-* [Appendix](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#appendix)
+* [Detection engineering](detection_engineering.md)
+* [Threat intelligence](threat_intelligence.md)
+* [Playbooks/SOP](playbooks.md)
+* [Management](management.md)
+* [HR and training](hr_training.md)
+* [IT achitecture](#it-achitecture-of-a-soc)
+* [To go further (next steps)](#to-go-further)
+* [Appendix](#appendix)
 
 # Must read
 
@@ -403,6 +402,18 @@ defenses, monitoring, and other actions.
 
 ## Dedicated page
 Cf. [threat intelligence page](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md).
+
+
+
+# Playbooks
+
+Based on experience, I propose a few SOP (Standard Operating Procedures), that one may want to call playbooks.
+
+## Dedicated pages
+
+- [Windows malware critical controls](https://github.com/cyb3rxp/awesome-soc/blob/main/sop_malware_critical_controls.md)
+- [Microsoft 365 and Entra ID compromise assessment](https://github.com/cyb3rxp/awesome-soc/blob/main/sop_M365_compromise_assessment.md)
+- [Web server compromise assessment](https://github.com/cyb3rxp/awesome-soc/blob/main/sop_web_server_compromise_assessment.md)
 
 
 # Management
