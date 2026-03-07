@@ -1,0 +1,28 @@
+name: Vérification des liens Markdown
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  link-check:
+    name: Vérifier les liens Markdown
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Installer link-checker
+        run: npm install -g markdown-link-check
+
+      - name: Vérifier tous les liens dans les fichiers Markdown
+        run: |
+          echo "Vérification des fichiers Markdown..."
+          find . -name '*.md' -print0 | xargs -0 -n1 markdown-link-check -q
