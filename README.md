@@ -1,4 +1,4 @@
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![GitHub stars](https://img.shields.io/github/stars/cyb3rxp/awesome-soc?style=social) ![License](https://img.shields.io/github/license/cyb3rxp/awesome-soc) ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Last Update](https://img.shields.io/github/last-commit/cyb3rxp/awesome-soc) ![GitHub stars](https://img.shields.io/github/stars/cyb3rxp/awesome-soc?style=social) ![License](https://img.shields.io/github/license/cyb3rxp/awesome-soc) ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen)
 # Awesome SOC
 
 An operational handbook and knowledge base to build, run and mature a SOC (including CSIRT). Covering:
