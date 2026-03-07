@@ -1,3 +1,4 @@
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 # Awesome SOC
 A collection of sources of documentation, and field best practices, to build and run a SOC (including CSIRT).
 
