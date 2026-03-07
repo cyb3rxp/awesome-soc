@@ -2,7 +2,16 @@
 # Awesome SOC
 A curated knowledge base to build, run and mature a SOC (including CSIRT).
 
+
 Those are my view, based on my own experience as SOC/CSIRT analyst and team manager, as well as well-known papers. Focus is more on SOC than on CERT/CSIRT.
+
+Covering:
+- SOC architecture
+- detection engineering
+- threat intelligence
+- incident response
+- SOC management
+- hiring and team structure
 
 My motto is: without reaction (response), detection is useless.
 
