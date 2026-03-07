@@ -16,17 +16,17 @@ My motto is: without reaction (response), detection is useless.
 
 NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to incident response activity. CERT is a well-known (formerly) US trademark, managed by [CERT-CC](https://www.sei.cmu.edu/about/divisions/cert/index.cfm), but I prefer the term [CSIRT](https://www.enisa.europa.eu/sites/default/files/publications/Incident_Management_guide.pdf) as it precisely refers to incident response.
 
-# Table of Content
+# Table of Contents
 * [Must read](#must-read)
-* [Fundamental concepts](soc_basics.md)
+* [Fundamental concepts](#Fundamental-concepts)
 * [Mission-critical means (tools/sensors)](#mission-critical-means-toolssensors)
 * [IT/security Watch](#itsecurity-watch)
-* [SOAR](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md)
-* [Detection engineering](detection_engineering.md)
-* [Threat intelligence](threat_intelligence.md)
-* [Playbooks/SOP](playbooks.md)
-* [Management](management.md)
-* [HR and training](hr_training.md)
+* [SOAR](#SAOR)
+* [Detection engineering](#detection-engineering)
+* [Threat intelligence](#threat-intelligence)
+* [Playbooks/SOP](#playbooks)
+* [Management](#management)
+* [HR and training](#hr-and-training)
 * [IT achitecture](#it-achitecture-of-a-soc)
 * [To go further (next steps)](#to-go-further)
 * [Appendix](#appendix)
