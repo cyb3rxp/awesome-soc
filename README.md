@@ -1,6 +1,6 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 # Awesome SOC
-An operational handbook to build, run and mature a SOC (including CSIRT).
+An operational handbook and knowledge base to build, run and mature a SOC (including CSIRT).
 
 
 Those are my view, based on my own experience as SOC/CSIRT analyst and team manager, as well as well-known papers. Focus is more on SOC than on CERT/CSIRT.
