@@ -6,8 +6,8 @@ An operational handbook and knowledge base to build, run and mature a SOC (inclu
 - detection engineering
 - threat intelligence
 - incident response
-- SOC management and team structure
-- hiring and training
+- SOC management (team structure, metrics/KPI)
+- profiles and training
 - SOP (SOC playbooks)
 
 Those are my view, based on my own experience as SOC/CSIRT analyst and team manager, as well as well-known papers. Focus is more on SOC than on CERT/CSIRT.
