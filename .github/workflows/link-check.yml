@@ -1,28 +1,44 @@
-name: Vérification des liens Markdown
+name: Resilient Link Checker
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   pull_request:
+    branches: [main]
+  schedule:
+    - cron: "0 6 * * 1" # hebdomadaire, lundi 6h
 
 jobs:
-  link-check:
-    name: Vérifier les liens Markdown
+  check-links:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - name: Run Lychee link checker
+        uses: lycheeverse/lychee-action@v1
+        id: lychee
         with:
-          node-version: 20
+          args: >
+            --verbose
+            --no-progress
+            --timeout 20
+            --redirection
+            --ignore-status 429
+            --json-report lychee-report.json
+            "./**/*.md"
 
-      - name: Installer link-checker
-        run: npm install -g markdown-link-check
+      - name: Upload reports
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: lychee-report
+          path: lychee-report.json
 
-      - name: Vérifier tous les liens dans les fichiers Markdown
+      - name: Generate PR summary
+        if: github.event_name == 'pull_request'
         run: |
-          echo "Vérification des fichiers Markdown..."
-          find . -name '*.md' -print0 | xargs -0 -n1 markdown-link-check -q
+          echo "### Link Checker Summary" > lychee-summary.md
+          jq -r '.[] | "\(.status) - \(.url)"' lychee-report.json >> lychee-summary.md
+          cat lychee-summary.md
+          echo "::set-output name=summary::$(cat lychee-summary.md)"
