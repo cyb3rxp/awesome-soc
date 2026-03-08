@@ -1,19 +1,19 @@
 # SOC/CSIRT management: 
 This page deals with SOC and CERT management
 
-# Table of Content
+# Table of Contents
 
-* [Must read](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#must-read)
-* [Challenges](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#challenges)
-* [SOC organization](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#soc-organization)
-* [CSIRT organization](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#csirt-organization)
-* [TTP knowledge base reference](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#ttp-attack-methods-knowledge-base-reference)
-* [Data quality and management](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#data-quality-and-management)
-* [Key documents for a SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#key-documents-for-a-soc)
-* [Detection assessment](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#detection-quality-assessment)
-* [Global self assessment](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#global-self-assessment)
-* [Reporting](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#reporting)
-* [To go further](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md#to-go-further)
+* [Must read](#must-read)
+* [Challenges](#challenges)
+* [SOC organization](#soc-organization)
+* [CSIRT organization](#csirt-organization)
+* [TTP knowledge base reference](#ttp-attack-methods-knowledge-base-reference)
+* [Data quality and management](#data-quality-and-management)
+* [Key documents for a SOC](#key-documents-for-a-soc)
+* [Detection assessment](#detection-quality-assessment)
+* [Global self assessment](#global-self-assessment)
+* [Reporting](#reporting-metricskpi)
+* [To go further](#to-go-further)
 
 # Must read
 
@@ -169,7 +169,7 @@ Source: [LinkedIn article](https://www.linkedin.com/posts/teodorchabin_soc-cyber
   * Run the OpenCSIRT, [SIM3 self-assessment](https://sim3-check.opencsirt.org/#/v1/) 
 
   
-# Reporting
+# Reporting: metrics/KPI 
 
 Generate metrics, leveraging the SIRP traceability and logging capabilities to get relevant data, as well as a bit of scripting.
 
