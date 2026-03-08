@@ -1,4 +1,4 @@
-name: Check links
+name: Link Checker
 
 on:
   push:
@@ -14,8 +14,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Check links with Lychee
-        uses: lycheeverse/lychee-action@v1
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
         with:
           args: >
             --verbose
@@ -23,4 +23,6 @@ jobs:
             --accept 200,204,429
             --retry-wait-time 2
             --max-retries 3
-            '**/*.md'
+            --exclude-mail
+            --exclude-loopback
+            .
