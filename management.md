@@ -12,7 +12,7 @@ This page deals with SOC and CERT management
 * [Key documents for a SOC](#key-documents-for-a-soc)
 * [Detection assessment](#detection-quality-assessment)
 * [Global self assessment](#global-self-assessment)
-* [Reporting](#reporting-metricskpi)
+* [Reporting (Metrics/KPI)](#reporting-metricskpi)
 * [To go further](#to-go-further)
 
 # Must read
