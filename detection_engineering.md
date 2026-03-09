@@ -16,7 +16,7 @@ This page deals with SOC detection engineering and management (detection use cas
 # Must read
 
 ## Threat statistics/trends 
-* MITRE, [top TTP for ransomwares](https://top-attack-techniques.mitre-engenuity.org/)
+* MITRE, [top TTP for ransomwares](https://center-for-threat-informed-defense.github.io/top-attack-techniques/#/top-10-lists)
 * MITRE, [Top 25 CWE for 2025](https://www.securityweek.com/mitre-releases-2025-list-of-top-25-most-dangerous-software-vulnerabilities/)
 * Splunk, [Top 50 cybersecurity threats](https://www.splunk.com/en_us/pdfs/gated/ebooks/top-50-cybersecurity-threats.pdf)
 * Known exploited vulnerabilities: 
