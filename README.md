@@ -27,7 +27,8 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * [Detection engineering](#detection-engineering)
 * [Threat intelligence](#threat-intelligence)
 * [Playbooks/SOP](#playbooks)
-* [Management](#management)
+* [SOC metrics (KPI/SLA)](#soc-metrics-kpisla)
+* [SOC Management](#management)
 * [HR and training](#hr-and-training)
 * [IT achitecture](#it-achitecture-of-a-soc)
 * [To go further (next steps)](#to-go-further)
@@ -267,11 +268,6 @@ availability, and any operational efficiencies gained by selecting one construct
 community to evolve capabilities and contribute to the overall security of the broader
 community.
 
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 10: Measure Performance to Improve Performance, pages 101-123
-> Determine qualitative and quantitative measures to know what is working well, and where to
-improve. A SOC metrics program includes business objectives, data sources and collection,
-data synthesis, reporting, and decision-making and action
-
 * [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 11: Turn up the Volume by Expanding SOC Functionality, pages 101-123
 > Enhance SOC activities to include threat hunting, red teaming, deception, malware analysis,
 forensics, and/or tabletop exercises, once incident response is mature. Any of these can
@@ -281,6 +277,19 @@ adversaries.
 
 ## Dedicated page
 Cf. [management page](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md).
+
+
+# SOC metrics (KPI/SLA)
+
+## MITRE reference
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 10: Measure Performance to Improve Performance, pages 101-123
+> Determine qualitative and quantitative measures to know what is working well, and where to
+improve. A SOC metrics program includes business objectives, data sources and collection,
+data synthesis, reporting, and decision-making and action
+
+## Dedicated page
+Cf. [SOC metrics (KPI/SLA) dedicated page](https://github.com/cyb3rxp/awesome-soc/blob/main/metrics-kpi.md)
+
 
 
 # HR and training
