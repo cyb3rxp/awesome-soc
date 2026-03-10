@@ -17,26 +17,6 @@ My motto is: without reaction (response), detection is useless.
 
 NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to incident response activity. CERT is a well-known (formerly) US trademark, managed by [CERT-CC](https://www.sei.cmu.edu/about/divisions/cert/index.cfm), but I prefer the term [CSIRT](https://www.enisa.europa.eu/sites/default/files/publications/Incident_Management_guide.pdf) as it precisely refers to incident response.
 
-# SOC handbook map
-
-README.md – SOC Vision & TOC
-│
-├── [Fundamental Concepts](./fundamental_concepts.md)
-├── [Mission Critical Means](./mission_critical_means.md)
-├── [Watch / SOC Threat Intelligence](./watch.md)
-├── [ML & GenAI in SOC](./ml_genai.md)
-├── [Detection Engineering](./detection_engineering.md)
-├── [Threat Intelligence Resources](./threat_intelligence.md)
-├── Playbooks/SOPs
-│    ├── [Malware Critical Controls](./sop_malware_critical_controls.md)
-│    ├── [M365 Compromise Assessment](./sop_M365_compromise_assessment.md)
-│    └── [Web Server Compromise Assessment](./sop_web_server_compromise_assessment.md)
-├── [Management](./management.md)
-└── [Metrics & KPI](./metrics-kpi.md)
-└── [SOAR](./soar.md)
-└── [HR & training](./hr_training.md)
-
-
 
 # Table of Contents
 * [Must read](#must-read)
