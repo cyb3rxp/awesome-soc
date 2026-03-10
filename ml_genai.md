@@ -29,19 +29,32 @@ This page deals with what Gen AI, AI agents, and machine leaning can effectively
 
 # Gen AI use cases for a SOC
 
-## Artefacts analysis acceleration
+## Analysis acceleration
 
 ### Command line
 
 * Context: EDR alert for a process or a file
-* Elments to be analyzed: long commandline with numerous arguments and potential obfuscation
+* Elements to be analyzed: long commandline with numerous arguments and potential obfuscation
 * Use of Gen IA: quickly understand the command line and then determine wether it is malicious or not, based on the alert details.
+* Field feedback: Quite efficient and relevant.
+
 
 ### Registry keys
 
 * Context: EDR alert for a registry key change/access/deletion
-* Elments to be analyzed: unknwon registry key or value, as well as its impact on the system/security configuration
+* Elements to be analyzed: unknwon registry key or value, as well as its impact on the system/security configuration
 * Use of Gen IA: quickly understand the registry key use (values, effects), and then determiner wether it is malicious or not, based on the alert details.
+* Field feedback: Quite efficient and relevant.
+
+
+### Business app 
+
+* Context: specific business app associated to an EDR/NDR alert 
+* Elements to be analyzed: business app activity and artfacts (binaries, files tree, network traffic, etc.)
+* Use of Gen IA: quickly have an overview of the business app components, architecture, use cases, then determine wether the alert is confirmed or not, based on the alert details.
+* Field feedback: quite useful but mMay be challenging anyhow if the business app is a proprietary one, with almost no open documentation.
+
+
 
 
 
