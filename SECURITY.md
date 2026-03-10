@@ -18,6 +18,4 @@ If the project acknowledges your report but does not provide any further respons
 
 For context on Electron's security notification process, please see the [Notifications](https://github.com/electron/governance/blob/main/wg-security/membership-and-notifications.md#notifications) section of the Security WG's [Membership and Notifications](https://github.com/electron/governance/blob/main/wg-security/membership-and-notifications.md) Governance document.
 
-## Learning More About Security
 
-To learn more about securing an Electron application, please see the [security tutorial](docs/tutorial/security.md).
