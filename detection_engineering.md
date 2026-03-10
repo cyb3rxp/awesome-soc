@@ -408,7 +408,8 @@ The idea here is to follow the 'as-code' approach, wherever possible, with a cen
 ## Must read
 
 * Synaktiv, [Traces of Windows Remote Command Execution](https://www.synacktiv.com/en/publications/traces-of-windows-remote-command-execution.html)
-* [Awesome Detection Engineering](https://github.com/infosecB/awesome-detection-engineering).
+* InfosecB, [Awesome Detection Engineering](https://github.com/infosecB/awesome-detection-engineering)
+* Ke0xes, [Detection engineering framework](https://github.com/Ke0xes/Detection-Engineering-Framework)
 * Naksyn, [Operating into EDRs blindspot](https://www.naksyn.com/edr%20evasion/2022/09/01/operating-into-EDRs-blindspot.html)
 * [MAGMA](https://www.betaalvereniging.nl/wp-content/uploads/FI-ISAC-use-case-framework-verkorte-versie.pdf), use case management framework.
 * Palantir, [ADS Framework](https://github.com/palantir/alerting-detection-strategy-framework), Alerting and Detection Strategies framework.
