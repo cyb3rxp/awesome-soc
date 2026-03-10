@@ -35,21 +35,23 @@ This page deals with what Gen AI, AI agents, and machine leaning can effectively
 
 * Context: EDR alert for a process or a file
 * Elments to be analyzed: long commandline with numerous arguments and potential obfuscation
-* Use of Gen IA: quickly understand the command line and then determine wether it is malicious or not.
+* Use of Gen IA: quickly understand the command line and then determine wether it is malicious or not, based on the alert details.
 
 ### Registry keys
 
 * Context: EDR alert for a registry key change/access/deletion
 * Elments to be analyzed: unknwon registry key or value, as well as its impact on the system/security configuration
-* Use of Gen IA: quickly understand the registry key use (values, effects), and then determiner wether it is malicious or not.
+* Use of Gen IA: quickly understand the registry key use (values, effects), and then determiner wether it is malicious or not, based on the alert details.
 
-## Attack types undestanding
+
+
+## Cyber-attack understanding
 
 ### Security solutions detections 
 
 * Context: EDR, NDR, SEG, SWG, ITDR, CASB, etc. alert 
-* Elments to be analyzed: artefacts associated to the alert, as well as the attack type itself
-* Use of Gen IA: quickly understand the attack type (TTP) and the ways it works, then determine wether the alert is confirmed or not.
+* Elments to be analyzed: artefacts associated to the alert, as well as the attack type itself as per the detected attack name
+* Use of Gen IA: quickly understand the attack type (TTP) and the ways it works, then determine wether the alert is confirmed or not, based on the information it contains.
 
 
 
