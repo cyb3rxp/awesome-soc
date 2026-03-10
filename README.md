@@ -2,13 +2,11 @@
 # Awesome SOC
 
 An operational handbook and knowledge base to build, run and mature a SOC (including CSIRT). Covering:
-- SOC architecture
+- SOC basics
 - detection engineering
 - threat intelligence
-- incident response
-- SOC team management
 - SOC metrics/KPI
-- SOC profiles and training
+- SOC automation
 - SOP (SOC playbooks)
 
 Those are my view, based on my own experience as SOC/CSIRT analyst and team manager, as well as well-known papers. Focus is more on SOC than on CERT/CSIRT.
