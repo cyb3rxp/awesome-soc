@@ -1,4 +1,4 @@
-# SOC detection engineering and management
+# SOC detection engineering
 
 This page deals with SOC detection engineering and management (detection use case creation, detection capabilities assessment, etc.)
 
@@ -38,7 +38,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * [CVE2CAPEC](https://github.com/Galeax/CVE2CAPEC)
 * F. Roth, [Detection engineering cheat sheet](https://mobile.twitter.com/cyb3rops/status/1592879894396293121/photo/1)
 * Medium, ['About detection engineering'](https://cyb3rops.medium.com/about-detection-engineering-44d39e0755f0)
-* InfoSecB, [Awesome Detection Engineering](https://github.com/infosecB/awesome-detection-engineering)
+* Ke0xes, [Detection engineering framework](https://github.com/Ke0xes/Detection-Engineering-Framework)
 * NCSC, [Detection Practices](https://www.ncsc.gov.uk/collection/building-a-security-operations-centre/detection/detection-practices)
 * Intrinsec, ['Limitations of MITRE ATT&CK' (in FR)](https://www.intrinsec.com/pilotage-dun-soc-interets-et-limites-de-la-matrice-attck/)
 * LinkedIn, [Risk assessment with ISO 27005](https://www.linkedin.com/pulse/iso-27005-risk-management-aron-lange/?trackingId=oRjjiIdY9BNjne1ALRq02A%3D%3D)
@@ -409,7 +409,6 @@ The idea here is to follow the 'as-code' approach, wherever possible, with a cen
 
 * Synaktiv, [Traces of Windows Remote Command Execution](https://www.synacktiv.com/en/publications/traces-of-windows-remote-command-execution.html)
 * InfosecB, [Awesome Detection Engineering](https://github.com/infosecB/awesome-detection-engineering)
-* Ke0xes, [Detection engineering framework](https://github.com/Ke0xes/Detection-Engineering-Framework)
 * Naksyn, [Operating into EDRs blindspot](https://www.naksyn.com/edr%20evasion/2022/09/01/operating-into-EDRs-blindspot.html)
 * [MAGMA](https://www.betaalvereniging.nl/wp-content/uploads/FI-ISAC-use-case-framework-verkorte-versie.pdf), use case management framework.
 * Palantir, [ADS Framework](https://github.com/palantir/alerting-detection-strategy-framework), Alerting and Detection Strategies framework.
