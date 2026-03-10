@@ -44,7 +44,7 @@ NB: All main steps of the SOP may not be always required, and depending on the c
 
 - Run the OpenCTI script to search for those IP addresses in the TIP;
   - If detection, mark the corresponding IP address as an IOC, and consider to block it at firewall level ASAP.
-- Manually check all the destination IP addresses, against online tools like [CyberGordon](cybergordon.com);
+- Manually check all the destination IP addresses, against online tools like [CyberGordon](https://cybergordon.com);
   - If detection, mark the corresponding IP address as an IOC, and consider to block it at firewall level ASAP.
   
 ## Local users check
