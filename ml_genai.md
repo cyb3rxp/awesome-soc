@@ -19,17 +19,17 @@ This page deals with what Gen AI, AI agents, and machine leaning can effectively
 * RAW data: Sysmon logs, DNS logs, firewall logs, router logs
 * Goal of the detection: detect unusual trafic peaks that could become denial of service, or information leak
 * Use of machine learning: learn usual trafic, including common sources and common peaks (frequency, protocol, sources, etc.), and then alert on uncommon/unseen sources and peaks.
-* Field feedback: likely prone to false positives, and may require months of training plus a huge amount of data to train the machine learning system.
+* Field feedback: interesting but likely prone to false positives, and may require months of training plus a huge amount of data to train the machine learning system.
 
 
-## Files executions abnomalies detection
+## Binaries execution abnomalies detection
 
 * RAW data: Sysmon logs, System (Windows/linux) logs, HIDS logs, EDR logs
 * Goal of the detection:
    * detect never previously seen files that are being executed = > potential new malware/variant
    * detect files that are suddenly and unexpectedly executed on a large number of endpoints  = > potential infection spread or lateral movement
 * Use of machine learning: learn usually executed files (path, hash) to alert on unexpected/uncommon executions
-* Field feedback: likely prone to false positives if you don't have a good systems/applications inventory and required logs, to train the machine learning system.
+* Field feedback: interesting but likely prone to false positives if you don't have a good systems/applications inventory and required logs, to train the machine learning system.
 
 
 
