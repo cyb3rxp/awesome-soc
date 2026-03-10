@@ -68,7 +68,8 @@ This page deals with what Gen AI, AI agents, and machine leaning can effectively
 * Context: there are more and more papers regarding cyberthreats analysis, plus cybersecurity standards, that are time-consuming to read
 * Elements to be analyzed: reports (PDF), blog posts and KB articles
 * use of Gen AI: quickly summarize the reports and texts, to get the msot important part of them with a global understanding
-* Field feedback: really efficient and relevant.
+* Field feedback: really efficient and relevant
+* Real life example: ask ChatGPT, or [Mistral.ai](https://mistral.ai/products/le-chat) to summarize the following [CTI report from Sekoia](https://blog.sekoia.io/oysterloader-unmasked-the-multi-stage-evasion-loader/), which is supposed to take **19min** to read. The generated sum-up would only take 4-5 min reading :)
 
 
 
