@@ -21,6 +21,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * [Must read](#must-read)
 * [Fundamental concepts](#Fundamental-concepts)
 * [Mission-critical means (tools/sensors)](#mission-critical-means-toolssensors)
+* [Gen AI / ML](ml_genai.md)
 * [IT/security Watch](#itsecurity-watch)
 * [SOAR](#SOAR)
 * [Detection engineering](#detection-engineering)
