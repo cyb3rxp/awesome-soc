@@ -22,7 +22,7 @@ The provided recommendations are based on experience and search.
 
 # Critical sensors for a SOC
 
-* **Antimalware/antivirus** (you may want to have a look at [my antivirus vs. EDR comparison]([https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#difference-between-antivirus-and-edr](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#what-are-the-differences-between-antivirus-and-edr))):
+* **Antimalware/antivirus** (you may want to have a look at [my antivirus vs. EDR comparison]([https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#what-are-the-differences-between-antivirus-and-edr):
   * See [Gartner magic quadrant](https://www.linkedin.com/posts/philipcao_gartnermq2025-epp-activity-7354304314963542016-1dzo/) or [Forrester Wave](https://explore.bitdefender.com/epp-nurture-2023_2/report-forrester-wave-endpoint-security-q4-2023?cid=emm%7Cb%7Chubspot%7Cnrt-epp-2023&utm_campaign=nurture-epp-2023&utm_medium=email&_hsmi=280555694&utm_content=280555694&utm_source=hs_automation)
   * My recommendations: [Microsoft Defender](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-antivirus-windows?view=o365-worldwide), [ESET Nod32](https://www.eset.com/int/business/solutions/learn-more-about-endpoint-protection/), [BitDefender](https://www.bitdefender.fr/business/products/workstation-security.html), [WithSecure Elements EPP](https://www.withsecure.com/fr/solutions/software-and-services/elements-endpoint-protection/computer)
 * **[Endpoint Detection and Response](https://www.gartner.com/reviews/market/endpoint-detection-and-response-solutions)**:
