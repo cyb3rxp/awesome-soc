@@ -148,9 +148,10 @@
 
 * ANSSI, [Recommandations de sécurité relatives au déploiement de conteneurs Docker](https://cyber.gouv.fr/publications/recommandations-de-securite-relatives-au-deploiement-de-conteneurs-docker)
 
-## IA
+## IA générative / Agent IA
 
 * InterCERT, [Intelligence artificielle dans la cybersécurité : un atout puissant à savoir maîtriser](https://www.intercert-france.fr/intelligence-artificielle-dans-la-cybersecurite-un-atout-puissant-a-savoir-maitriser/)
+* Microsoft, [Agent 365](https://info.microsoft.com/FR-CAW-VDEO-FY26-02Feb-17-Agents-everywhere-Keep-control-with-Agent-365-SRGCM15957_LP02-Thank-You---Standard-Hero.html)
 
 ## Questionnaire RGPD
 
