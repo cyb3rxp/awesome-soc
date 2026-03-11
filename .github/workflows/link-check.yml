@@ -1,5 +1,8 @@
 name: Link Checker
 
+permissions:
+  contents: read
+
 on:
   push:
     branches:
