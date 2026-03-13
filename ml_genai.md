@@ -61,7 +61,7 @@ This page deals with what Generative AI, AI agents, and machine leaning can effe
 
 * **Context:** you get/grab a sample from an user submission or a "suspicious"-type alert (AV/EDR, proxy, SEG, etc.)
 * **Element to be analyzed:** file sample
-* **Use of Gen AI:** static analysis, CTI search automation, evasion/persistence report, network behavior...
+* **Use of Gen AI:** quickly and automatically produce static analysis, CTI search automation, evasion/persistence detection, and network behavior reports...
 * **Field feedback:** See [Malware Reverse Engineering is no longer a human problem!](https://x.com/fr0gger_/status/2028014798546378938?s=20) from Thomas Roccia:
   * Static Analysis: Extract binary features, detect packing/obfuscation
   * Enrichment and Pivoting: OSINT via CTI tools, identify related campaigns/families
