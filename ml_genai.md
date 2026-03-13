@@ -76,7 +76,7 @@ This page deals with what Gen AI, AI agents, and machine leaning can effectively
 * Context: specific business app associated to an EDR/NDR alert 
 * Elements to be analyzed: business app activity and artefacts (binaries, files tree, network traffic, etc.)
 * Use of Gen Ai: quickly have an overview of the business app components, architecture, use cases, then determine wether the alert is confirmed or not, based on the alert details.
-* Field feedback: quite useful but mMay be challenging anyhow if the business app is a proprietary one, with almost no open documentation.
+* Field feedback: quite useful but may be challenging anyhow if the business app is a proprietary one, with almost no open documentation.
 
 
 ## Watch 
@@ -96,7 +96,7 @@ This page deals with what Gen AI, AI agents, and machine leaning can effectively
 * Context: EDR, NDR, SEG, SWG, ITDR, CASB, etc. alert 
 * Elments to be analyzed: artefacts associated to the alert, as well as the attack type itself as per the detected attack name
 * Use of Gen IA: quickly understand the attack type (TTP) and the ways it works, then determine wether the alert is confirmed or not, based on the information it contains.
-* Field feedback: can be useful but may lead to wrong assumtions if analysts don't take the time to deep dive and search, to go beyong the first Gen AI results.
+* Field feedback: can be useful but may lead to wrong assumptions if analysts don't take the time to deep dive and search, to go beyong the first Gen AI results.
 
 
 
