@@ -39,7 +39,7 @@ This page deals with what Gen AI, AI agents, and machine leaning can effectively
 
 # Gen AI / LLM use cases for a SOC
 
-## Analysis acceleration
+## Analysis acceleration (alert/sample)
 
 ### Command line
 
@@ -55,6 +55,20 @@ This page deals with what Gen AI, AI agents, and machine leaning can effectively
 * Elements to be analyzed: unknown registry key or value, as well as its impact on the system/security configuration
 * Use of Gen AI: quickly understand the registry key use (values, effects), and then determiner wether it is malicious or not, based on the alert details.
 * Field feedback: quite efficient and relevant.
+
+
+### File sample
+
+* Context: you get/grab a sample from an user submission or a "suspicious"-type alert (AV/EDR, proxy, SEG, etc.)
+* Element to be analyzed: file sample
+* Use of Gen AI: static analysis, CTI search automation, evasion/persistence report, network behavior...
+* Field feedback: See [Malware Reverse Engineering is no longer a human problem!](https://x.com/fr0gger_/status/2028014798546378938?s=20) from Thomas Roccia:
+  * Static Analysis: Extract binary features, detect packing/obfuscation
+  * Enrichment and Pivoting: OSINT via CTI tools, identify related campaigns/families
+  * Reverse Engineering: Disassemble key functions, detect evasion/persistence (e.g., via Unprotect), analyze network behaviors
+  * Output Generation: Extract IOCs, map to MITRE ATT&CK, create YARA rules (tested/uploaded for hunting), generate diagrams/graphs, and compile a grounded report with recommendations.
+
+
 
 
 ### Business app 
