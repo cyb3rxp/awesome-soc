@@ -19,8 +19,8 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 # Table of Contents
 * [Must read](#must-read)
 * [Fundamental concepts](#Fundamental-concepts)
-* [SOC internals/core](#soc-internals)
 * [Mission-critical means (tools/sensors)](#mission-critical-means-toolssensors)
+* [SOC internals/core](#soc-internals)
 * [Gen AI / ML](ml_genai.md)
 * [IT/security Watch](#itsecurity-watch)
 * [SOAR](#SOAR)
@@ -138,20 +138,6 @@ care toward constituency mission and business.
 Cf.: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md).
 
 
-# SOC internals
-
-## MITRE references:
-
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 8: Leverage Tools to Support Analyst Workflow, pages 101-123,
-> Consolidate and harmonize views into tools and data and integrate them to maximize SOC
-workflow. Consider how the many SOC tools, including SIEM, UEBA, SOAR, and others fit
-in with the organization’s technical landscape, to include cloud and OT environments
-
-## Dedicated page
-Cf. [SOC internals/core](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_internals.md)
-
-
-
 # Mission-critical means (tools/sensors)
 
 ## MITRE references
@@ -163,6 +149,19 @@ too much data such that tools and analysts become overwhelmed.
 
 ## Dedicated page
 Cf. [Mission-critical means](https://github.com/cyb3rxp/awesome-soc/blob/main/mission-critical-means.md)
+
+
+# SOC internals
+
+## MITRE references:
+
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 8: Leverage Tools to Support Analyst Workflow, pages 101-123,
+> Consolidate and harmonize views into tools and data and integrate them to maximize SOC
+workflow. Consider how the many SOC tools, including SIEM, UEBA, SOAR, and others fit
+in with the organization’s technical landscape, to include cloud and OT environments
+
+## Dedicated page
+Cf. [SOC internals/core](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_internals.md)
 
 
 # IT/security Watch 
