@@ -19,6 +19,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 # Table of Contents
 * [Must read](#must-read)
 * [Fundamental concepts](#Fundamental-concepts)
+* [SOC internals/core](#soc-internals)
 * [Mission-critical means (tools/sensors)](#mission-critical-means-toolssensors)
 * [Gen AI / ML](ml_genai.md)
 * [IT/security Watch](#itsecurity-watch)
@@ -126,39 +127,28 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 
 ## Concepts, tools, missions, attack lifecycle, red/blue/purple teams
 
-### MITRE references:
+## MITRE references:
 * [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 5: Prioritize Incident Response, pages 101-123,
 > Prepare for handling incidents by defining incident categories, response steps, and escalation
 paths, and codifying those into SOPs and playbooks. Determine the priorities of incidents for
 the organization and allocate the resources to respond. Execute response with precision and
 care toward constituency mission and business.
 
-### Dedicated page
+## Dedicated page
 Cf.: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md).
 
-## SOC core
 
-### MITRE references:
+# SOC internals
+
+## MITRE references:
 
 * [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 8: Leverage Tools to Support Analyst Workflow, pages 101-123,
 > Consolidate and harmonize views into tools and data and integrate them to maximize SOC
 workflow. Consider how the many SOC tools, including SIEM, UEBA, SOAR, and others fit
 in with the organization’s technical landscape, to include cloud and OT environments
 
-### From logs to alerts: global generic workflow
-
-Quoted from [this article](https://www.managedsentinel.com/siem-traditional-vs-cloud/):
-
-![image](https://user-images.githubusercontent.com/16035152/206025151-759a0040-365e-4145-aa88-f7a7b737f8be.png)
-
-Following the arrows, we go from log data sources to data management layer, to then data enrichment layer (where detection happens), to end-up in behavior analytics or at user interaction layer (alerts, threat hunting...). All of that being enabled and supported by automation.
-
-
-### SOC architecture of detection
-Based on [CYRAIL's paper drawing](https://slideplayer.com/slide/15779727/), that I've slightly modified, here is an example of architecture of detection (SIEM, SIRP, TIP interconnections) and workflow:
-![image](https://user-images.githubusercontent.com/16035152/207597681-22c9da6d-d430-4660-b807-3e86138a0d9c.png)
-
-* Sensors log sources are likely to be: audit logs, security sensors (antimalware, FW, NIDS, proxies, EDR, NDR, CASB, identity threat detection, honeypot...).
+## Dedicated page
+Cf. [SOC internals/core](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_internals.md)
 
 
 
@@ -196,7 +186,7 @@ in with the organization’s technical landscape, to include cloud and OT enviro
 
 
 ## Dedicated page
-Cf. [SOAR page](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md)
+Cf. [SOAR](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md)
 
 
 # Detection engineering
@@ -222,7 +212,7 @@ adversaries.
 
 
 ## Dedicated page
-Cf. [detection engineering page](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md).
+Cf. [detection engineering](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md).
 
 
 # Threat intelligence
@@ -234,7 +224,7 @@ adversary information, organization relevancy, and technical environment to prio
 defenses, monitoring, and other actions.
 
 ## Dedicated page
-Cf. [threat intelligence page](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md).
+Cf. [threat intelligence](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md).
 
 
 
@@ -275,7 +265,7 @@ adversaries.
 
 
 ## Dedicated page
-Cf. [management page](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md).
+Cf. [Management](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md).
 
 
 # SOC metrics (KPI/SLA)
@@ -287,7 +277,7 @@ improve. A SOC metrics program includes business objectives, data sources and co
 data synthesis, reporting, and decision-making and action
 
 ## Dedicated page
-Cf. [SOC metrics (KPI/SLA) dedicated page](https://github.com/cyb3rxp/awesome-soc/blob/main/metrics-kpi.md)
+Cf. [SOC metrics (KPI/SLA)](https://github.com/cyb3rxp/awesome-soc/blob/main/metrics-kpi.md)
 
 
 
@@ -301,7 +291,7 @@ and build a pipeline to hire. Consider how many personnel are needed for the dif
 functions.
 
 ## Dedicated page
-Cf. [HR and training page](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md).
+Cf. [HR and training](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md).
 
 
 # IT achitecture of a SOC
