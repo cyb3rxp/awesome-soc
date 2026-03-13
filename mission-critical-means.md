@@ -69,16 +69,18 @@ The provided recommendations are based on experience and search.
           * [Sysmon](https://learn.microsoft.com/fr-fr/sysinternals/downloads/sysmon):
             * install it (if not done already, let it run for a few hours/days), with [Olaf Hartong's config](https://github.com/olafhartong/sysmon-modular/blob/master/sysmonconfig.xml);
             * then investigate its log with a regarlar SIEM or with [Zircolite](https://github.com/wagga40/Zircolite)
-       * For AD: 
+       * For AD specifically: 
          * simple but efficient [ADRecon](https://github.com/tomwechsler/Active_Directory_Advanced_Threat_Hunting/blob/main/Different_hunting_methods/In-depth_investigation_active_directory.md);
          * [ADTrapper](https://github.com/MHaggis/ADTrapper);
          * [Semperis Purple Knight](https://www.semperis.com/purple-knight/);
          * [BloodHound Community](https://github.com/SpecterOps/BloodHound)
-       * For MS Entra ID & M365:
+       * For MS Entra ID & M365 specifically:
          * [CrowdStrike Reporting Tool for Azure](https://github.com/CrowdStrike/CRT)
          * [Semperis Purple Knight](https://www.semperis.com/purple-knight/);
          * [365Inspect](https://github.com/soteria-security/365Inspect);
          * [Azure AD Incident Response Powershell](https://github.com/reprise99/kql-for-dfir/tree/main/Azure%20Active%20Directory)
+       * For GWS specifically:
+         * [ALFA](https://github.com/invictus-ir/ALFA)
        * For Azure / GCP / AWS:
          * [ScootSuite](https://github.com/nccgroup/ScoutSuite)
 * **On-demand volatile data collection tool**:
