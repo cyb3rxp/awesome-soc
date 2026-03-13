@@ -92,13 +92,16 @@ As per [Forrester article](https://www.forrester.com/blogs/15-11-07-starting_soo
 
 ## Architecture example
 
-Here is [an example](https://securityonline.info/s1em-siem-with-sirp-and-threat-intel/) of an architecture with:
- * SIEM: Elastic;
- * TIP: MISP / OpenCTI;
- * SIRP: TheHive;
- * Threat intel orchestrator: Cortex.
- 
-![image](https://user-images.githubusercontent.com/16035152/204066143-6c0a9cf0-67ab-44c7-b67e-af5df5a07219.png)
+### All-in-one proprietary (and sovereign :) )
+
+Here is [another example](https://www.infinigate.com/fr/vendors/sekoia/) of an architecture with:
+ * SIEM: Sekoia XDR;
+ * TIP: Sekoia CTI;
+    * (plus OpenCTI and others if needed, _via_ API integration);
+ * SIRP: Sekoia XDR;
+ * SOA: Sekoia SOAR.
+
+![image](https://www.infinigate.com/fr/wp-content/uploads/sites/26/2025/05/sekoia-harfanglab-768x357.png)
 
 
 # Sources
