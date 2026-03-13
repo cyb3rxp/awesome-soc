@@ -1,7 +1,7 @@
 # Gen AI and machine learning opportunities for a SOC
 [WIP]
 
-This page deals with what Gen AI, AI agents, and machine leaning can effectively bring to a SOC (plus their downsides). Not marketing speech here, only watch and field feedback.
+This page deals with what Generative AI, AI agents, and machine leaning can effectively bring to a SOC (plus their downsides). No marketing speech here, only watch and field feedback.
 
 
 # Must read
