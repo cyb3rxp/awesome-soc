@@ -21,6 +21,8 @@ This page deals with SOC detection engineering and management (detection use cas
 * Splunk, [Top 50 cybersecurity threats](https://www.splunk.com/en_us/pdfs/gated/ebooks/top-50-cybersecurity-threats.pdf)
 * Known exploited vulnerabilities: 
   * [CISA KEV catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
+  * [OWASP Top 10 Web Application Security Risks](https://owasp.org/www-project-top-ten/)
+  * [OWAP top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)
 * NIST [AI 800-4](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.800-4.pdf): Challenges to the Monitoring of Deployed AI Systems
 * CyberSecurityForMe, [Microsoft Copilot Security vulnerabilities and countermeasures](https://cybersecurityforme.com/copilot-security-vulnerabilities-and-safety-measures-for-enterprises/)
 ## SIEM rules publications
