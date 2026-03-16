@@ -112,6 +112,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * AI Models and systems:
   * ETSI, [Baseline Cyber Security Requirements for  AI Models and Systems](https://www.etsi.org/deliver/etsi_en/304200_304299/304223/02.01.01_60/en_304223v020101p.pdf)
   * NIST, [R 8596, Cybersecurity Framework Profile for Artificial Intelligence](https://csrc.nist.gov/pubs/ir/8596/iprd)
+  * OWASP, [Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)
   * Microsoft [Turning threat reports into detection insights with AI](https://www.microsoft.com/en-us/security/blog/2026/01/29/turning-threat-reports-detection-insights-ai/)
 * Management:
   * Gartner, [Cybersecurity business value benchmark](https://emtemp.gcom.cloud/ngw/globalassets/en/doc/documents/775537-gartner-cybersecurity-business-value-benchmark-1st-generation.pdf)
