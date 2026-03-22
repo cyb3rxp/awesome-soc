@@ -113,7 +113,8 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 * MTTT: for all incidents, mean time in H to triage (ie.: "verify") the alerts.
 * MTTC: for critical and medium security incidents, mean time in H to handle the alerts and start mitigation steps (from triage to initial response, mostly **containment**).
 * MTTR: for critical and medium security incidents, mean time in H to handle the alerts and remediate them (from triage to **full remediation**, including containment, malware eradication, and recovery).
-* False positive rate (NB: 100% sucessfull detection is **not** achievable)
+* False positive rate (NB: 100% sucessfull detection is **not** achievable).
+* Number of purple-teaming sessions (SOC capabilities assessment) per year (at least 1).
 
 
 ## Recommended compliance SLA:
