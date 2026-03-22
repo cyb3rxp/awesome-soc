@@ -52,6 +52,7 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 * Number of alerts that had to be handled by on-call analyst.
 * List of security incidents for which containment phase failed or faced abnormal issues.
 * Number of regulation violations caused by security incidents (eg.: GDPR, NIS2, DORA, HIPAA, SOC 2, etc.).
+* Number of knowledge base articles that were created.
 * Percentage of SOC analysts that sucessfully followed SOC-related training or passed required certifications. 
 * Percentage of SOC human resources turnover year over year.
 
@@ -70,6 +71,7 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 * Number of incidents response requests that came down outside business hours.
 * Percentage of incidents for which CSIRT feedback has been leveraged to help improve the SOC.
 * Number of regulation violations caused by security incidents (eg.: GDPR, NIS2, DORA, HIPAA, SOC 2, etc.).
+* Number of knowledge base articles that were created.
 * Percentage of CSIRT analysts that sucessfully followed SOC-related training or passed required certifications. 
 * Percentage of CSIRT human resources turnover year over year.
 
