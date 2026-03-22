@@ -6,7 +6,8 @@ This page deals with SOC metrics: KPI and SLA, as part of the required reporting
 
 * Gartner, [Cybersecurity business value benchmark](https://emtemp.gcom.cloud/ngw/globalassets/en/doc/documents/775537-gartner-cybersecurity-business-value-benchmark-1st-generation.pdf)
 * LogRythm, [7 metrics to measure the effectiveness of your SOC](https://www.compuquip.com/hubfs/Vendors/LogRhythm/LogRhythm-7-Metrics-to-Measure-the-Effectiveness-of-Your-SOC-Ebook.pdf?hsCtaTracking=6f44e275-b498-4bee-af8e-c5c5b7aca241%7Cec4bcb3b-9186-4252-a4df-2e9efd8c4d47)
-* [MITRE paper](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf) 
+* SOC-CMM, [Metrics](https://www.soc-cmm.com/img/upload/files/31-soc-cmm-metrics-101.pdf)
+* [MITRE SOC strategies paper](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf) 
 
 
 # Metrics
@@ -17,12 +18,12 @@ As per Gartner, MTTR:
 
 ![image](https://user-images.githubusercontent.com/16035152/203334473-d210ed37-3d2d-4e03-a468-9cf72dad8c6f.png)
 
-
 And MTTC:
 
 ![image](https://user-images.githubusercontent.com/16035152/203334319-4caec07c-f999-4cc1-a506-078a72000359.png)
 
 Below are my recommendations for KPI and SLA. Unless specified, here are the recommended timeframes to compute those below KPI: 1 week, 1 month, and 6 months.
+
 
 # Recommended KPI 
 
@@ -36,6 +37,7 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 * Top 10 SIEM searches (ie: detection rules) triggering false positives.
 * Most seen TTP in detection.
 * Most common incident types.
+* Top 10 targeted users.
 * Top 10 longest tickets before closure.
 * Percentage of SIEM data that is not associated to SIEM searches (ie: detection rules).
 
@@ -46,6 +48,34 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 * Percentage of employees and contractors that have completed mandatory security training.
 * Percentage of employees who report suspicious emails for the standard organization-wide phishing campaigns.
 * Percentage of click-throughs for the organization-wide phishing campaigns in the past 12 months.
+* Number of endpoints having at least one vulnerability listed in CISA [KEV list](https://www.cisa.gov/known-exploited-vulnerabilities-catalog).
+* Number of user accounts for which passwords are being considered as compromised (based on dark web monitoring).
+* Number of public IP addresses (belonging to the organisation) that are black-listed or reported as malicious by third parties (eg.: on CTI portals like the ones listed on [my threat intel page](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md#sources))
+
+
+## SOC Maturity KPI (from CMM):
+* [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Technology.
+* [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Process.
+* [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for People.
+* [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Business.
+* [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Services: Security Monitoring.
+* [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Services: Security Incident Management.
+* [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Services: Security Monitoring.
+* [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Services: Vulnerability Management.
+
+
+## CSIRT Maturity KPI (from CMM):
+* [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Process: Use Case Management.
+* [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Process: Reporting & Communication.
+* [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Process: Operations & Facilities.
+* [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for People.
+* [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Business: Customers and Stakeholders.
+* [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Business: Charter.
+* [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Business: Pricacy & Policy.
+* [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Services: Security Incident Management.
+* [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Services: CTI.
+* [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Services: Forensics Analysis.
+* [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Services: Threat Hunting.
 
 
 # Recommended SLA
@@ -58,14 +88,13 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 * Number of detection rules which detection capability and handling process have been confirmed with purpleteaming session, so far.
 * MTTH: for all incidents, mean time in H to handle (assign) the alerts.
 * MTTT: for all incidents, mean time in H to triage ("verify") the alerts.
-* MTTC: for critical and medium security incidents, mean time in H to handle the alerts and start mitigation steps (from triage to initial response, mostly containment).
-* MTTR: for critical and medium security incidents, mean time in H to handle the alerts and remediate them (from triage to full remediation, including containment, malware eradication, and recovery).
+* MTTC: for critical and medium security incidents, mean time in H to handle the alerts and start mitigation steps (from triage to initial response, mostly **containment**).
+* MTTR: for critical and medium security incidents, mean time in H to handle the alerts and remediate them (from triage to **full remediation**, including containment, malware eradication, and recovery).
 
 ## Compliance SLA:
 
 * Percentage of critical assets that have successfully run ransomware recovery assessment, in the past 12 months.
 * Average number of hours from the request for termination of access to sensitive or high-risk systems or information, to deprovisioning of all access.
-
 
 
 
