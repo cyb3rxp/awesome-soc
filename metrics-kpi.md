@@ -40,8 +40,10 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 * Top 10 targeted users.
 * Top 10 longest tickets before closure.
 * Top detection rules triggering most false positives.
+* List of detection rules triggering no detection.
 * Top detection rules which corresponding alerts take the longest to be handled.
 * Top 10 SIEM/XDR searches (ie: detection rules) triggering false positives.
+* Top 10 SIEM/XDR errors (data indexing, search, scheduling, etc.).
 * Number of sources/sensors' logs that are not yet integrated to the SIEM/XDR.
 * Percentage of SIEM data that is not associated to SIEM searches (ie: detection rules).
 * Percentage of coverage of detection matrix and/or MITRE ATT&CK.
@@ -56,6 +58,7 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 * Number of regulation violations caused by security incidents (eg.: GDPR, NIS2, DORA, HIPAA, SOC 2, etc.).
 * Number of knowledge base articles that were created.
 * Number of procedures that were updated/created.
+* Number of detection use cases that were reviewed.
 * Percentage of knowledge matrix completeness. 
 * Percentage of SOC analysts that successfully followed SOC-related training or passed required certifications. 
 * Percentage of SOC human resources turnover year over year.
@@ -127,9 +130,9 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 
 ## Recommended SOC SLA:
 * Percentage and number of false positives (NB: 100% successfull detection is **not** achievable).
-* Number of new detection use-cases (SIEM rules) being put in production.
-* Number of new detection automation use-cases (enrichment, etc.) being put in production.
-* Number of new response automation use-cases (containment, eradication) being put in production.
+* Number of new detection use cases (SIEM rules) being put in production.
+* Number of new detection automation use cases (enrichment, etc.) being put in production.
+* Number of new response automation use cases (containment, eradication) being put in production.
 * Number of detection rules which detection capability and handling process have been confirmed with purpleteaming session, so far.
 * Percentage of EASM reports that were taken into account by the SOC to improve its perimeter coverage.
 * MTTD (Mean Time To Detect): for all alerts, mean team in min/H to generate a detection based on detection logic and data/events.
