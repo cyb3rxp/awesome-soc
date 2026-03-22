@@ -46,9 +46,11 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 * Percentage of SIEM data that is not associated to SIEM searches (ie: detection rules).
 * Percentage of coverage of detection matrix and/or MITRE ATT&CK.
 * Number of security incidents that impacted PII;
-* Number or security incidents that impacted business-critical data. 
+* Number or security incidents that impacted business-critical data.
+* Number of tickets in backlog (old tickets still not closed).
 * Number of alerts that were handled with a validated playbook.
-* Number of new automation playbooks that were successfully tested and validated.
+* Number of new automation playbooks that were successfully created and tested.
+* Number of reporting automations that were successfully created and tested.
 * Number of alerts that had to be handled by on-call analyst.
 * List of security incidents for which containment phase failed or faced abnormal issues.
 * Number of regulation violations caused by security incidents (eg.: GDPR, NIS2, DORA, HIPAA, SOC 2, etc.).
