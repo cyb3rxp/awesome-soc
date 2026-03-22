@@ -49,13 +49,15 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 * Number or security incidents that impacted business-critical data.
 * Number of tickets in backlog (old tickets still not closed).
 * Number of alerts that were handled with a validated playbook.
-* Number of new automation playbooks that were successfully created and tested.
-* Number of reporting automations that were successfully created and tested.
+* Number of new automation playbooks that were created and successfully tested.
+* Number of reporting automations that were created and successfully tested.
 * Number of alerts that had to be handled by on-call analyst.
 * List of security incidents for which containment phase failed or faced abnormal issues.
 * Number of regulation violations caused by security incidents (eg.: GDPR, NIS2, DORA, HIPAA, SOC 2, etc.).
 * Number of knowledge base articles that were created.
-* Percentage of SOC analysts that sucessfully followed SOC-related training or passed required certifications. 
+* Number of procedures that were updated/created.
+* Percentage of knowledge matrix completeness. 
+* Percentage of SOC analysts that successfully followed SOC-related training or passed required certifications. 
 * Percentage of SOC human resources turnover year over year.
 
 
@@ -74,7 +76,8 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 * Percentage of incidents for which CSIRT feedback has been leveraged to help improve the SOC.
 * Number of regulation violations caused by security incidents (eg.: GDPR, NIS2, DORA, HIPAA, SOC 2, etc.).
 * Number of knowledge base articles that were created.
-* Percentage of CSIRT analysts that sucessfully followed SOC-related training or passed required certifications. 
+* Number of incident response playbooks that were created and successfuly tested.
+* Percentage of CSIRT analysts that successfully followed SOC-related training or passed required certifications. 
 * Percentage of CSIRT human resources turnover year over year.
 
 
@@ -102,7 +105,6 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 * [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Business.
 * [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Services: Security Monitoring.
 * [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Services: Security Incident Management.
-* [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Services: Security Monitoring.
 * [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Services: Vulnerability Management.
 
 
@@ -114,7 +116,7 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 * [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for People.
 * [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Business: Customers and Stakeholders.
 * [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Business: Charter.
-* [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Business: Pricacy & Policy.
+* [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Business: Privacy & Policy.
 * [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Services: Security Incident Management.
 * [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Services: CTI.
 * [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Services: Forensics Analysis.
@@ -123,8 +125,8 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 
 # SLA
 
-## Recommmended SOC SLA:
-* Percentage and number of false positives (NB: 100% sucessfull detection is **not** achievable).
+## Recommended SOC SLA:
+* Percentage and number of false positives (NB: 100% successfull detection is **not** achievable).
 * Number of new detection use-cases (SIEM rules) being put in production.
 * Number of new detection automation use-cases (enrichment, etc.) being put in production.
 * Number of new response automation use-cases (containment, eradication) being put in production.
