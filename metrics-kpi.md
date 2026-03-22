@@ -63,15 +63,17 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 
 ## Recommended compliance KPI
 
-* Percentage of known endpoints with company-required security solutions.
-* Percentage of critical and high-risk applications that are protected by multifactor authentication.
+* Number of confirmed business-related security risks that have been taken in to account by the SOC for coverage.
+* Percentage of known endpoints **without** company-required security solutions.
+* Percentage of critical and high-risk applications that are **not** protected by multifactor authentication.
 * Ratio of always-on personal privileged accounts to the number of individuals in roles who should have access to these accounts.
-* Percentage of employees and contractors that have completed mandatory security training.
+* Percentage of employees and contractors that have **not** completed mandatory security training.
 * Percentage of employees who report suspicious emails for the standard organization-wide phishing campaigns.
 * Percentage of click-throughs for the organization-wide phishing campaigns in the past 12 months.
 * Number of endpoints having at least one vulnerability listed in CISA [KEV list](https://www.cisa.gov/known-exploited-vulnerabilities-catalog).
 * Number of user accounts for which passwords are being considered as compromised (based on dark web monitoring).
-* Number of public IP addresses (belonging to the organisation) that are black-listed or reported as malicious by third parties (eg.: on CTI portals like the ones listed on [my threat intel page](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md#sources))
+* Number of public IP addresses (belonging to the organisation) that are black-listed or reported as malicious by third parties (eg.: on CTI portals like the ones listed on [my threat intel page](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md#sources)).
+* Number of incidents that are likely to have an impact (ie.: non-compliance) on a ISO 27001 certification.
 
 
 ## Recommended SOC maturity KPI
