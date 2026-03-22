@@ -88,7 +88,7 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 * Number of incidents that are likely to have an impact (ie.: non-compliance) on a ISO 27001 certification.
 
 
-## Recommended SOC maturity KPI
+## Recommended SOC maturity KPI (from CMM)
 
 * [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Technology.
 * [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Process.
@@ -101,7 +101,7 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 
 
 
-## Recommended CSIRT Maturity KPI (from CMM)
+## Recommended CSIRT maturity KPI (from CMM)
 * [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Process: Use Case Management.
 * [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Process: Reporting & Communication.
 * [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Process: Operations & Facilities.
