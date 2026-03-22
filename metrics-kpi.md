@@ -30,25 +30,29 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 ## Recommended SOC KPI
 
 * Number of alerts (SIEM).
-* Number of verified alerts (meaning, confirmed security incidents).
-* Percentage of verified alerts (meaning, confirmed security incidents);
+* Number of Dark Web related alerts.
+* Number of verified alerts (ie.: confirmed security incidents).
+* Percentage of verified alerts (ie.: confirmed security incidents);
    * NB: that also gives the false-positive rate.
 * Top security incident types.
-* Top applications associated to alerts (detections).
-* Top detection rules triggering most false positives.
-* Top detection rules which corresponding alerts take the longest to be handled.
-* Top 10 SIEM searches (ie: detection rules) triggering false positives.
-* Number of sources/sensors' logs that are not yet integrated to the SIEM/XDR.
-* Percentage of coverage of MITRE ATT&CK.
+* Top applications associated to alerts (ie.: detections).
 * Most seen TTP in detection.
-* Most common incident types.
 * Top 10 targeted users.
 * Top 10 longest tickets before closure.
+* Top detection rules triggering most false positives.
+* Top detection rules which corresponding alerts take the longest to be handled.
+* Top 10 SIEM/XDR searches (ie: detection rules) triggering false positives.
+* Number of sources/sensors' logs that are not yet integrated to the SIEM/XDR.
 * Percentage of SIEM data that is not associated to SIEM searches (ie: detection rules).
+* Percentage of coverage of detection matrix and/or MITRE ATT&CK.
 * Number of security incidents that impacted PII;
-   * NB: if EU organization, that is likely to mean GDPR violation.
+* Number or security incidents that impacted business-critical data. 
 * Number of alerts that were handled with a validated playbook.
-* Number of automation playbooks that were successfully tested and validated.
+* Number of new automation playbooks that were successfully tested and validated.
+* List of security incidents for which containment phase failed or faced abnormal issues.
+* Number of regulation violations caused by security incidents (eg.: GDPR, NIS2, DORA, HIPAA, SOC 2, etc.).
+* Percentage of SOC analysts that sucessfully followed SOC-related training or passed required certifications. 
+* Percentage of SOC human resources turnover year over year.
 
 
 ## Recommended CERT/CSIRT KPI
@@ -56,9 +60,17 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 * Top security incident types.
 * Top applications associated to alerts (detections).
 * Most seen TTP in incident response.
-* Most common incident types.
+* Top incident types.
 * Top 10 targeted users.
-* Top 10 longest tickets before closure.
+* Top 10 targeted endpoints.
+* Top 10 longest tickets (ie.: incidents) before closure.
+* Number of still ongoing incidents.
+* Number of IOC that were generated during incident response.
+* Percentage of incidents for which CSIRT feedback has been leveraged to help improve the SOC.
+* Number of regulation violations caused by security incidents (eg.: GDPR, NIS2, DORA, HIPAA, SOC 2, etc.).
+* Percentage of CSIRT analysts that sucessfully followed SOC-related training or passed required certifications. 
+* Percentage of CSIRT human resources turnover year over year.
+
 
 
 ## Recommended compliance KPI
@@ -106,16 +118,16 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 # SLA
 
 ## Recommmended SOC SLA:
-* Number of false positives.
+* Percentage and number of false positives (NB: 100% sucessfull detection is **not** achievable).
 * Number of new detection use-cases (SIEM rules) being put in production.
 * Number of new detection automation use-cases (enrichment, etc.) being put in production.
 * Number of new response automation use-cases (containment, eradication) being put in production.
 * Number of detection rules which detection capability and handling process have been confirmed with purpleteaming session, so far.
+* Percentage of EASM reports that were taken into account by the SOC to improve its perimeter coverage.
 * MTTH: for all incidents, mean time in H to handle (assign) the alerts.
 * MTTT: for all incidents, mean time in H to triage (ie.: "verify") the alerts.
 * MTTC: for critical and medium security incidents, mean time in H to handle the alerts and start mitigation steps (from triage to initial response, mostly **containment**).
 * MTTR: for critical and medium security incidents, mean time in H to handle the alerts and remediate them (from triage to **full remediation**, including containment, malware eradication, and recovery).
-* False positive rate (NB: 100% sucessfull detection is **not** achievable).
 * Number of purple-teaming sessions (SOC capabilities assessment) per year (at least 1).
 
 
