@@ -25,23 +25,44 @@ And MTTC:
 Below are my recommendations for KPI and SLA. Unless specified, here are the recommended timeframes to compute those below KPI: 1 week, 1 month, and 6 months.
 
 
-# Recommended KPI 
+# KPI
 
-## SOC/CSIRT KPI:
+## Recommended SOC KPI
+
 * Number of alerts (SIEM).
 * Number of verified alerts (meaning, confirmed security incidents).
+* Percentage of verified alerts (meaning, confirmed security incidents);
+   * NB: that also gives the false-positive rate.
 * Top security incident types.
 * Top applications associated to alerts (detections).
 * Top detection rules triggering most false positives.
 * Top detection rules which corresponding alerts take the longest to be handled.
 * Top 10 SIEM searches (ie: detection rules) triggering false positives.
+* Number of sources/sensors' logs that are not yet integrated to the SIEM/XDR.
+* Percentage of coverage of MITRE ATT&CK.
 * Most seen TTP in detection.
 * Most common incident types.
 * Top 10 targeted users.
 * Top 10 longest tickets before closure.
 * Percentage of SIEM data that is not associated to SIEM searches (ie: detection rules).
+* Number of security incidents that impacted PII;
+   * NB: if EU organization, that is likely to mean GDPR violation.
+* Number of alerts that were handled with a validated playbook.
+* Number of automation playbooks that were successfully tested and validated.
 
-## Compliance KPI:
+
+## Recommended CERT/CSIRT KPI
+
+* Top security incident types.
+* Top applications associated to alerts (detections).
+* Most seen TTP in incident response.
+* Most common incident types.
+* Top 10 targeted users.
+* Top 10 longest tickets before closure.
+
+
+## Recommended compliance KPI
+
 * Percentage of known endpoints with company-required security solutions.
 * Percentage of critical and high-risk applications that are protected by multifactor authentication.
 * Ratio of always-on personal privileged accounts to the number of individuals in roles who should have access to these accounts.
@@ -53,7 +74,8 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 * Number of public IP addresses (belonging to the organisation) that are black-listed or reported as malicious by third parties (eg.: on CTI portals like the ones listed on [my threat intel page](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md#sources))
 
 
-## SOC Maturity KPI (from CMM):
+## Recommended SOC maturity KPI
+
 * [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Technology.
 * [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Process.
 * [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for People.
@@ -64,7 +86,8 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 * [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Services: Vulnerability Management.
 
 
-## CSIRT Maturity KPI (from CMM):
+
+## Recommended CSIRT Maturity KPI (from CMM)
 * [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Process: Use Case Management.
 * [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Process: Reporting & Communication.
 * [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Process: Operations & Facilities.
@@ -78,24 +101,27 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 * [SOC-CMM](https://www.soc-cmm.com/products/soc-cmm) score for Services: Threat Hunting.
 
 
-# Recommended SLA
+# SLA
 
-## SOC/CSIRT SLA:
+## Recommmended SOC SLA:
 * Number of false positives.
 * Number of new detection use-cases (SIEM rules) being put in production.
 * Number of new detection automation use-cases (enrichment, etc.) being put in production.
 * Number of new response automation use-cases (containment, eradication) being put in production.
 * Number of detection rules which detection capability and handling process have been confirmed with purpleteaming session, so far.
 * MTTH: for all incidents, mean time in H to handle (assign) the alerts.
-* MTTT: for all incidents, mean time in H to triage ("verify") the alerts.
+* MTTT: for all incidents, mean time in H to triage (ie.: "verify") the alerts.
 * MTTC: for critical and medium security incidents, mean time in H to handle the alerts and start mitigation steps (from triage to initial response, mostly **containment**).
 * MTTR: for critical and medium security incidents, mean time in H to handle the alerts and remediate them (from triage to **full remediation**, including containment, malware eradication, and recovery).
+* False positive rate (NB: 100% sucessfull detection is **not** achievable)
 
-## Compliance SLA:
+
+## Recommended compliance SLA:
 
 * Percentage of critical assets that have successfully run ransomware recovery assessment, in the past 12 months.
 * Average number of hours from the request for termination of access to sensitive or high-risk systems or information, to deprovisioning of all access.
-
+* SOC-CMM score review (half-yearly or yearly)
+ 
 
 
 # End
