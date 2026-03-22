@@ -60,7 +60,8 @@ The provided recommendations are based on experience and search.
        * for Linux:
          * WithSecure [Cat-Scale](https://labs.withsecure.com/tools/cat-scale-linux-incident-response-collection);
          * [UAC](https://github.com/tclahr/uac);
-         * [Mquire](https://blog.trailofbits.com/2026/02/25/mquire-linux-memory-forensics-without-external-dependencies/)
+         * [NullSec](https://github.com/bad-antics/nullsec-logreaper);
+         * [Mquire](https://blog.trailofbits.com/2026/02/25/mquire-linux-memory-forensics-without-external-dependencies/);
        * for Windows:
           * simple but efficient ESET [Sysinspector](https://www.eset.com/int/support/sysinspector/);
           * [Velociraptor](https://docs.velociraptor.app/docs/);
