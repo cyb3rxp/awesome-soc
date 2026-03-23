@@ -119,6 +119,10 @@
 * ANSSI [Guide sécurité pour TPE/PME en 13 questions](https://cyber.gouv.fr/publications/la-cybersecurite-pour-les-tpepme-en-treize-questions)
 * ANSSI [Guide d'Hygiène Informatique](https://cyber.gouv.fr/publications/guide-dhygiene-informatique)
 
+## Chiffrement
+
+* ANSSI [Règles et recommandations concernant le choix et le dimensionnement des mécanismes cryptographiques](https://messervices.cyber.gouv.fr/guides/mecanismes-cryptographiques)
+
 ## Fiches réflexe de réponse à incident
 
 * InterCERT [fiches réflexe](https://www.intercert-france.fr/publications/fiches-reflexes/)
