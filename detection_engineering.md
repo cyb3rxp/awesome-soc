@@ -136,6 +136,11 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 
 ### Logs:
 * Make sure your data ingestion is compliant with the datamodel you use (or, at least, the SIEM one).
+* Make sure there is no data source (sensor/logs) that do not send their data to the SIEM/XDR with no validated reason.
+
+### Already existing use cases
+* If there are alreadly existing detection use cases, double check those who never trigerred detection (or since a long time).
+* Double check the most verbose existing detection use cases, and try to fine tune them to lower the detection rate (if possible).
 
 ### Handling procedures (SOP):
 * Make sure that the handling process and procedures are clear and working fine, for the tested alerts.
