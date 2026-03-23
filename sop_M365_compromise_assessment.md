@@ -6,6 +6,16 @@ Be aware that this procedure may take hours if not days, and is quite non-predic
 
 Version: 0.3 as of 03/20/2024
 
+## ENISA incident handling process
+- Incident report
+- Registration
+- Triage
+- Incident resolution
+- Incident closure
+- Post-analysis
+
+
+
 # 1) Admin check
 
 ## List users having privileged roles (Entra ID)
@@ -157,6 +167,11 @@ Version: 0.3 as of 03/20/2024
 
 
 
+# Post-incident activity
+
+* Incident closure checklist
+* Post-analysis / lessons learned (what to improve: detections, controls, playbooks)
+* Quality assurance checklist (data completeness, evidence, ticket quality, reporting)
 
 
 # END
