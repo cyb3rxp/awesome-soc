@@ -49,6 +49,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * SOC management:
   * FIRST, [ISO 27035 Practical value for CSIRT and SOCs ](https://www.first.org/resources/papers/conf2023/FIRSTCON23-TLPCLEAR-Benetis-ISO-27035-practical-value-for-CSIRTs-and-SOCs.pdf)
   * SANS, [2024 SOC survey](https://swimlane.com/wp-content/uploads/SANS-SOC-Survey_2024.pdf)
+  * SOC CMM, [SOC Metrics](https://www.soc-cmm.com/img/upload/files/31-soc-cmm-metrics-101.pdf)
 * SOC assessment:
   * CMM, [SOC-CMM](https://www.soc-cmm.com/)
   * Rabobank CDC, [DeTTECT](https://github.com/rabobank-cdc/DeTTECT)
@@ -112,6 +113,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * AI Models and systems:
   * ETSI, [Baseline Cyber Security Requirements for  AI Models and Systems](https://www.etsi.org/deliver/etsi_en/304200_304299/304223/02.01.01_60/en_304223v020101p.pdf)
   * NIST, [R 8596, Cybersecurity Framework Profile for Artificial Intelligence](https://csrc.nist.gov/pubs/ir/8596/iprd)
+  * NIST, [Challenges to the Monitoring of Deployed AI Systems](https://www.nist.gov/news-events/news/2026/03/new-report-challenges-monitoring-deployed-ai-systems)
   * OWASP, [Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)
   * Microsoft [Turning threat reports into detection insights with AI](https://www.microsoft.com/en-us/security/blog/2026/01/29/turning-threat-reports-detection-insights-ai/)
 * Management:
