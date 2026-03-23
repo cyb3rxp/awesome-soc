@@ -175,4 +175,5 @@
 * Sekoia, [webinaire NIS2](https://www.youtube.com/watch?v=78KIo3iXjow)
 * Liste des exigences ANSSI [LeMagIT](https://www.lemagit.fr/rms/LeMagIT/NIS2-PROJETphase3decret20Reglesdesecuritev5.2.pdf)
 * ANSSI, [Mon espace NIS2](https://monespacenis2.cyber.gouv.fr/)
+* ANSSI, [ReCyF](https://cyber.gouv.fr/actualites/nis-2-lanssi-poursuit-et-renforce-sa-dynamique-daccompagnement/)
 
