@@ -6,6 +6,13 @@ Version: 0.3, as of 08/16/2024.
 
 NB: All main steps of the SOP may not be always required, and depending on the context, one may want to go through the end of the SOP anyhow after a detection, or not. 
 
+## NIST (operational lifecycle labels)
+We use the commonly adopted NIST SP 800-61 lifecycle labels for operational readability:
+- Preparation
+- Detection & Analysis
+- Containment / Eradication / Recovery
+- Post-Incident Activity
+
 
 # Prerequisites
 
