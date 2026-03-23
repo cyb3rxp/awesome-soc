@@ -6,13 +6,12 @@ Be aware that this procedure may take hours if not days, and is quite non-predic
 
 Version: 0.3 as of 03/20/2024
 
-## ENISA incident handling process
-- Incident report
-- Registration
-- Triage
-- Incident resolution
-- Incident closure
-- Post-analysis
+## NIST (operational lifecycle labels)
+We use the commonly adopted NIST SP 800-61 lifecycle labels for operational readability:
+- Preparation
+- Detection & Analysis
+- Containment / Eradication / Recovery
+- Post-Incident Activity
 
 
 
