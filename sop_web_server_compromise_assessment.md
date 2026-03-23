@@ -250,5 +250,11 @@ We use the commonly adopted NIST SP 800-61 lifecycle labels for operational read
 - Install an EDR, or at least [SysmonForLinux](https://github.com/Sysinternals/SysmonForLinux), on the server(s).
 - Enable strong authentication wherever possible.
 - Harden admin workstations.
+
+
+## Post-incident activity
+* Incident closure checklist
+* Quality assurance checklist (data completeness, evidence, ticket quality, reporting)
+
 - Update server(s) backups.
 
