@@ -15,6 +15,7 @@ This page deals with what Generative AI, AI agents, and machine leaning can effe
 * CyberSecurityForme, [Microsoft Copilot Security vulnerabilities and safety measures](https://cybersecurityforme.com/copilot-security-vulnerabilities-and-safety-measures-for-enterprises/)
 * Jivoi, [Awesome ML for cybersecurity](https://github.com/jivoi/awesome-ml-for-cybersecurity)
 * Microsoft [Turning threat reports into detection insights with AI](https://www.microsoft.com/en-us/security/blog/2026/01/29/turning-threat-reports-detection-insights-ai/)
+* Fr0gger, [Malware Reverse Engineering is no longer a human problem!](https://x.com/fr0gger_/status/2028014798546378938?s=20)
 * OWASP, [Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)
   
 
