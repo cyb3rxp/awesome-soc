@@ -123,13 +123,15 @@ Source: [LinkedIn article](https://www.linkedin.com/posts/teodorchabin_soc-cyber
 
 
 # Detection quality assessment
- * **Run regular [https://docs.vectr.io/user/important-concepts/)** in time!!
+ * **Run regular [Purple teaming](https://docs.vectr.io/user/important-concepts/) sessions** in time!!
    * e.g.: [Intrinsec](https://www.intrinsec.com/purple-team/), [SpecterOps](https://specterops.io/news/specterops-introduces-purple-team-assessments-service-to-help-customers-understand-the-efficacy-of-their-detection-capabilities/)
    * To do it on your own, here are a few recommended frameworks/tools:
        * Frameworks:
-         * RedCanary [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team)
+         * [TIBER EU](https://www.ecb.europa.eu/pub/pdf/other/ecb.tiber_eu_framework_2025~b32eff9a10.en.pdf?0309990e5e167a47ca4748370a949064)
          * [CTID](https://github.com/center-for-threat-informed-defense/adversary_emulation_library/tree/master)
        * Tools:
+         * RedCanary [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team)
+         * Filigran [OpenAEV](https://github.com/OpenAEV-Platform/openaev)
          * [Ytisf's zoo](https://github.com/ytisf/theZoo)
          * Abuse.ch [Malware Bazaar](https://bazaar.abuse.ch/)
          * Knowbe4 [ransomware simulator](https://www.knowbe4.com/ransomware-simulator)
