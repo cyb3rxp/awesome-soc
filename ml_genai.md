@@ -22,6 +22,7 @@ This page deals with what Generative AI, AI agents, and machine leaning can effe
 
 ## Threat landscape
 * CISCO, [State of AI Security 2026](https://www.cisco.com/site/us/en/products/security/state-of-ai-security.html)
+* CrowdStrike, [Global threat landscape 2026: AI Accelerates Adversaries and Reshapes the Attack Surface](https://www.crowdstrike.com/en-us/press-releases/2026-crowdstrike-global-threat-report/)
 * OWASP, [Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)
 * CyberSecurityForme, [Microsoft Copilot Security vulnerabilities and safety measures](https://cybersecurityforme.com/copilot-security-vulnerabilities-and-safety-measures-for-enterprises/)
 
