@@ -6,18 +6,25 @@ This page deals with what Generative AI, AI agents, and machine leaning can effe
 
 # Must read
 
+## Best practices
 * ETSI, [Baseline Cyber Security Requirements for  AI Models and Systems](https://www.etsi.org/deliver/etsi_en/304200_304299/304223/02.01.01_60/en_304223v020101p.pdf)
-* ENISA, [Multilayer framework for good cybersecurity practices for AI](https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai)
+* ENISA, [Multilayer framework for good cybersecurity practices for AI](https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai) 
 * OWASP, [LLM and Gen AI security best practices](https://genai.owasp.org/resource/llm-and-gen-ai-data-security-best-practices/)
 * NIST, [AI 600](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf): Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile
 * NIST [AI 800-4](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.800-4.pdf): Challenges to the Monitoring of Deployed AI Systems
-* NIST, [R 8596, Cybersecurity Framework Profile for Artificial Intelligence](https://csrc.nist.gov/pubs/ir/8596/iprd)
+* NIST, [R 8596](https://csrc.nist.gov/pubs/ir/8596/iprd): Cybersecurity Framework Profile for Artificial Intelligence
+
+## Field feedback
+
 * CyberSecurityForme, [Microsoft Copilot Security vulnerabilities and safety measures](https://cybersecurityforme.com/copilot-security-vulnerabilities-and-safety-measures-for-enterprises/)
-* Jivoi, [Awesome ML for cybersecurity](https://github.com/jivoi/awesome-ml-for-cybersecurity)
 * Microsoft [Turning threat reports into detection insights with AI](https://www.microsoft.com/en-us/security/blog/2026/01/29/turning-threat-reports-detection-insights-ai/)
-* Fr0gger, [Malware Reverse Engineering is no longer a human problem!](https://x.com/fr0gger_/status/2028014798546378938?s=20)
 * OWASP, [Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)
-  
+* Fr0gger, [Malware Reverse Engineering is no longer a human problem!](https://x.com/fr0gger_/status/2028014798546378938?s=20)
+
+
+## Knowledge bases
+* Jivoi, [Awesome ML for cybersecurity](https://github.com/jivoi/awesome-ml-for-cybersecurity)
+
 
 # Machine learning use cases for a SOC
 
@@ -74,8 +81,6 @@ This page deals with what Generative AI, AI agents, and machine leaning can effe
   * Output Generation: Extract IOCs, map to MITRE ATT&CK, create YARA rules (tested/uploaded for hunting), generate diagrams/graphs, and compile a grounded report with recommendations.
 
 
-
-
 ### Business app 
 
 * **Context:** specific business app associated to an EDR/NDR alert 
@@ -86,9 +91,9 @@ This page deals with what Generative AI, AI agents, and machine leaning can effe
 
 ## Watch 
 
-* **Context:** there are more and more papers regarding cyberthreats analysis, plus cybersecurity standards, that are time-consuming to read
+* **Context:** there are more and more papers regarding cyberthreats analysis, plus cybersecurity standards, and all of that is time-consuming to read
 * **Elements to be analyzed:** reports (PDF), blog posts and KB articles
-* **use of Gen AI:** quickly summarize the reports and texts, to get the msot important part of them with a global understanding
+* **Use of Gen AI:** quickly summarize the reports and texts, to get the msot important part of them with a global understanding
 * **Field feedback:** really efficient and relevant
 * **Real life example:** ask ChatGPT, or [Mistral.ai](https://mistral.ai/products/le-chat) to summarize the following [CTI report from Sekoia](https://blog.sekoia.io/oysterloader-unmasked-the-multi-stage-evasion-loader/), which is supposed to take **19min** to read. The generated sum-up would only take 4-5 min reading :)
 
@@ -98,7 +103,7 @@ This page deals with what Generative AI, AI agents, and machine leaning can effe
 
 ### Security solutions detections 
 
-* **Context:** EDR, NDR, SEG, SWG, ITDR, CASB, etc. alert 
+* **Context:** an alert from EDR, NDR, SEG, SWG, ITDR, CASB, etc.  
 * **Elments to be analyzed:** artefacts associated to the alert, as well as the attack type itself as per the detected attack name
 * **Use of Gen IA:** quickly understand the attack type (TTP) and the ways it works, then determine wether the alert is confirmed or not, based on the information it contains.
 * **Field feedback:** can be useful but may lead to wrong assumptions if analysts don't take the time to deep dive and search, to go beyong the first Gen AI results.
