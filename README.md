@@ -342,6 +342,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 * ANSSI (FR), [EBIOS RM methodology](https://messervices.cyber.gouv.fr/guides/en-ebios-risk-manager-method)
 * GMU, [Improving Social Maturity of Cybersecurity Incident Response Teams](https://web.archive.org/web/20250816141217/https://edu.anarcho-copy.org/Against%20Security%20-%20Self%20Security/GMU_Cybersecurity_Incident_Response_Team_social_maturity_handbook.pdf)
 * J0hnbX, [RedTeam resources](https://archive.org/details/github.com-J0hnbX-RedTeam-Resources_-_2022-02-20_01-12-12)
+* Europa.eu, [TIBER EU](https://www.ecb.europa.eu/pub/pdf/other/ecb.tiber_eu_framework_2025~b32eff9a10.en.pdf?0309990e5e167a47ca4748370a949064)
 * Fabacab, [Awesome CyberSecurity BlueTeam](https://github.com/fabacab/awesome-cybersecurity-blueteam)
 * Microsoft, [Windows 10 and Windows Server 2016 security auditing and monitoring reference](https://www.microsoft.com/en-us/download/details.aspx?id=52630).
 * iDNA, [how to mange FP in a SOC?](https://www.idna.fr/2018/11/06/comment-gerer-les-faux-positifs-dans-un-soc/), in FR
@@ -355,7 +356,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 * CyberVigilance, [Mitre Engenuity Evaluations 2022 review](https://www.cybervigilance.uk/post/2022-mitre-att-ck-engenuity-results)
 * [Wazuh at the heart of a SOC architecture for public/critical infrastructures](https://medium.com/@ludovic.doamba/wazuh-at-the-heart-of-sovereign-soc-architecture-for-public-and-critical-infrastructures-f0d18562d14b)
 * ENISA, [List of trusted cybersecurity services providers](https://www.enisa.europa.eu/sites/default/files/2025-07/EU%20Cybersecurity%20Reserve%20companies.pdf) 
-
+red
 
 
 ## Nice to read
