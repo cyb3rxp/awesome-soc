@@ -157,6 +157,9 @@ Source: [LinkedIn article](https://www.linkedin.com/posts/teodorchabin_soc-cyber
 
 # Global self-assessment
 
+## Generic / compliance assessment
+* Pick-up a security standard and run an assessment thanks to [CISO Assistant](https://github.com/intuitem/ciso-assistant-community)
+
 ## SOC Self-assessment
 *	SOC Basics:
  	*	Run the [Google SecOps assessment](https://securityassessments.withgoogle.com/secops/)
