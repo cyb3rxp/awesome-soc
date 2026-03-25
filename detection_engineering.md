@@ -56,6 +56,7 @@ This page deals with SOC detection engineering and management (detection use cas
 ### Link to risk management
 * ANSSI, [EBIOS RM methodology](https://messervices.cyber.gouv.fr/guides/en-ebios-risk-manager-method)
 * LinkedIn, [Risk assessment with ISO 27005](https://www.linkedin.com/pulse/iso-27005-risk-management-aron-lange/?trackingId=oRjjiIdY9BNjne1ALRq02A%3D%3D)
+
 ### Audit policy / forensics
 * OWASP, [logging cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html)
 * Microsoft, [Monitoring Active Directory for signs of compromise](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/monitoring-active-directory-for-signs-of-compromise)
@@ -69,17 +70,26 @@ This page deals with SOC detection engineering and management (detection use cas
 
 ## IT best practices for SOC engineering
 * Atlassian, [CI/CD/CD](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
+
 ## Offensive activity watch
 * David J. Bianco, [Pyramid of pain](https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html)
+* [MITRE ATLAS](https://atlas.mitre.org/)
 * Medium, [Named pipe impersonation abuse](https://bherunda.medium.com/hunting-named-pipe-token-impersonation-abuse-573dcca36ae0)
 * Synaktiv, [Azure Entra ID pentesting mindmap](https://github.com/synacktiv/Mindmaps?s=03)
 * Rootkit POC in Rust, [MemN0ps](https://github.com/memN0ps/rootkit-rs/?tab=readme-ov-file)
+* Enaqx, [Awesome Pentest](https://github.com/enaqx/awesome-pentest?tab=readme-ov-file)
+* Frank Heat, [OffSec Notes](https://github.com/frankheat/offsecnotes)
 * A Poc, [Red Team tools](https://github.com/A-poc/RedTeam-Tools)
+* HardSoftSecuirty, [Offensive Security Tools](https://github.com/hardsoftsecurity/Offensive-Security-Tools)
+* Syslifters, [OffSec tools](https://github.com/Syslifters/offsec-tools)
 * Technics [Unprotect.it](https://unprotect.it/techniques/)
 * VVSwift, [EDR killers list](https://github.com/vvswift/Bypass-Protection0x00)
 * Mandiant, [Net-NTLM v1 rainbow tables](https://cloud.google.com/blog/topics/threat-intelligence/net-ntlmv1-deprecation-rainbow-tables?hl=en)
-* [MITRE ATLAS](https://atlas.mitre.org/)
 * DarkOperator, [Mimikatz missing manual](https://github.com/darkoperator/mimikatz-missing-manual)
+* [LOLBAS](https://lolbas-project.github.io/): Living Off The Land Binaries, Scripts and Libraries
+* [GTFOBins](https://gtfobins.org/): curated list of Unix-like executables that can be used to bypass local security restrictions in misconfigured systems
+
+
 ## Operating systems knowledge
 * List of the expected legit system services to be found on a Windows 10/11 box, [my Git page](https://github.com/cyb3rxp/awesome-soc/blob/main/legit_Windows_services.md)
 
