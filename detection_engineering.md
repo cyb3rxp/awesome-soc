@@ -18,6 +18,7 @@ This page deals with SOC detection engineering and management (detection use cas
 ## Threat statistics/trends 
 * MITRE, [top TTP for ransomwares](https://center-for-threat-informed-defense.github.io/top-attack-techniques/#/top-10-lists)
 * MITRE, [Top 25 CWE for 2025](https://www.securityweek.com/mitre-releases-2025-list-of-top-25-most-dangerous-software-vulnerabilities/)
+* [RecordedFuture 2025 Cloud Threat hunting landscape](https://www.recordedfuture.com/research/2025-cloud-threat-hunting-defense-landscape)
 * Splunk, [Top 50 cybersecurity threats](https://www.splunk.com/en_us/pdfs/gated/ebooks/top-50-cybersecurity-threats.pdf)
 * Known exploited vulnerabilities: 
   * [CISA KEV catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
@@ -25,6 +26,7 @@ This page deals with SOC detection engineering and management (detection use cas
   * [OWAP top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)
 * NIST [AI 800-4](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.800-4.pdf): Challenges to the Monitoring of Deployed AI Systems
 * CyberSecurityForMe, [Microsoft Copilot Security vulnerabilities and countermeasures](https://cybersecurityforme.com/copilot-security-vulnerabilities-and-safety-measures-for-enterprises/)
+* My [recommended list of sources](https://github.com/cyb3rxp/awesome-soc/blob/main/watch.md)
 ## SIEM rules publications
   * [Sigma HQ (detection rules)](https://github.com/SigmaHQ/sigma/tree/master/rules) 
   * [Splunk Detections (free detection rules for Splunk)](https://research.splunk.com/detections/)
