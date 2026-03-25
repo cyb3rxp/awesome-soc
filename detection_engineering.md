@@ -40,7 +40,7 @@ This page deals with SOC detection engineering and management (detection use cas
 ### Frameworks
 * [MITRE D3FEND](https://d3fend.mitre.org/)
 * [CVE2CAPEC](https://github.com/Galeax/CVE2CAPEC)
-* MITRE [EMB#D](https://emb3d.mitre.org/assets/EMB3D_Paper_09-23-24.pdf) 
+* MITRE [EMB3D](https://emb3d.mitre.org/assets/EMB3D_Paper_09-23-24.pdf) 
 * F. Roth, [Detection engineering cheat sheet](https://mobile.twitter.com/cyb3rops/status/1592879894396293121/photo/1)
 * Ke0xes, [Detection engineering framework](https://github.com/Ke0xes/Detection-Engineering-Framework)
 ### Best practices
