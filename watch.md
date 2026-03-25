@@ -46,7 +46,10 @@ This page deals with IT/cybersecurity watch (recommended sources and tools)
 * Podcasts:
   * WithSecure [Xposed](https://www.withsecure.com/en/expertise/podcasts)
 * Other interesting websites:
-  * e.g.: [ISC](https://isc.sans.edu/), [ENISA](https://www.enisa.europa.eu/publications), [ThreatPost](https://threatpost.com/) ...
+  * [ISC](https://isc.sans.edu/)
+  * [ENISA](https://www.enisa.europa.eu/publications),
+  *  [ThreatPost](https://threatpost.com/)
+  *  etc.
  
 
 # End
