@@ -37,21 +37,23 @@ This page deals with SOC detection engineering and management (detection use cas
 ## SecOps activities
 * Ch33r10, [Enterprise purple teaming](https://github.com/ch33r10/EnterprisePurpleTeaming)
 ## Detection engineering
+### Frameworks
 * [MITRE D3FEND](https://d3fend.mitre.org/)
 * [CVE2CAPEC](https://github.com/Galeax/CVE2CAPEC)
+* MITRE [EMB#D](https://emb3d.mitre.org/assets/EMB3D_Paper_09-23-24.pdf) 
 * F. Roth, [Detection engineering cheat sheet](https://mobile.twitter.com/cyb3rops/status/1592879894396293121/photo/1)
-* Medium, ['About detection engineering'](https://cyb3rops.medium.com/about-detection-engineering-44d39e0755f0)
 * Ke0xes, [Detection engineering framework](https://github.com/Ke0xes/Detection-Engineering-Framework)
+### Best practices
+* Medium, ['About detection engineering'](https://cyb3rops.medium.com/about-detection-engineering-44d39e0755f0)
 * NCSC, [Detection Practices](https://www.ncsc.gov.uk/collection/building-a-security-operations-centre/detection/detection-practices)
 * Intrinsec, ['Limitations of MITRE ATT&CK' (in FR)](https://www.intrinsec.com/pilotage-dun-soc-interets-et-limites-de-la-matrice-attck/)
-* LinkedIn, [Risk assessment with ISO 27005](https://www.linkedin.com/pulse/iso-27005-risk-management-aron-lange/?trackingId=oRjjiIdY9BNjne1ALRq02A%3D%3D)
 * PECB, [ISO 27001:2022, what are the changes?](https://pecb.com/past-webinars/isoiec-270012022--what-are-the-changes)
-* ANSSI, [EBIOS RM methodology](https://messervices.cyber.gouv.fr/guides/en-ebios-risk-manager-method)
-* David J. Bianco, [Pyramid of pain](https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html)
+### Security solutions watch
 * Tsale, [EDR telemetry](https://github.com/tsale/EDR-Telemetry)
 * MITRE ATT&CK [Evaluations: Enterprise, 2024](https://www.withsecure.com/en/expertise/campaigns/mitre-2024)
-* RULER project, [forensics tracks of common security tools](https://ruler-project.github.io/ruler-project/)
-* Uncoder.io [UncoderIO Git](https://github.com/UncoderIO/Uncoder_IO)
+### Link to risk management
+* ANSSI, [EBIOS RM methodology](https://messervices.cyber.gouv.fr/guides/en-ebios-risk-manager-method)
+* LinkedIn, [Risk assessment with ISO 27005](https://www.linkedin.com/pulse/iso-27005-risk-management-aron-lange/?trackingId=oRjjiIdY9BNjne1ALRq02A%3D%3D)
 ### Audit policy / forensics
 * OWASP, [logging cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html)
 * Microsoft, [Monitoring Active Directory for signs of compromise](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/monitoring-active-directory-for-signs-of-compromise)
@@ -61,9 +63,12 @@ This page deals with SOC detection engineering and management (detection use cas
 * Mhtcht, [Windows DFIR artifacts collection mindmap](https://github.com/mthcht/awesome-lists/blob/a0d64850bb79902f3e3518489288eb0b62c5d9d8/Lists/CheatSheets/mthcht/windows_dfir_artifacts_collection_mindmap_high_resolution.jpg)
 * Picus Security [Active Directory Security Guide](https://www.picussecurity.com/hubfs/Threat%20Readiness%20-%20Active%20Directory%20Ebook%20-%20Q123/Picus-The-Complete-Active-Directory-Security-Handbook.pdf)
 * [EventLog Compendium](https://eventlog-compendium.streamlit.app/)
+* RULER project, [forensics tracks of common security tools](https://ruler-project.github.io/ruler-project/)
+
 ## IT best practices for SOC engineering
 * Atlassian, [CI/CD/CD](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
 ## Offensive activity watch
+* David J. Bianco, [Pyramid of pain](https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html)
 * Medium, [Named pipe impersonation abuse](https://bherunda.medium.com/hunting-named-pipe-token-impersonation-abuse-573dcca36ae0)
 * Synaktiv, [Azure Entra ID pentesting mindmap](https://github.com/synacktiv/Mindmaps?s=03)
 * Rootkit POC in Rust, [MemN0ps](https://github.com/memN0ps/rootkit-rs/?tab=readme-ov-file)
