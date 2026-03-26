@@ -6,7 +6,7 @@ The provided recommendations are based on experience and search.
 
 
 # Critical tools for a SOC/CSIRT
-* **[SIEM](https://www.gartner.com/en/information-technology/glossary/security-information-and-event-management-siem)**:
+* **[SIEM](https://www.microsoft.com/en-us/security/business/security-101/what-is-siem)**:
    * See [Gartner magic quadrant](https://www.bitdefender.com/en-us/business/campaign/2025-gartner-magic-quadrant-for-epp-the-only-visionary) and [Gartner critical SIEM capabilities](https://www.splunk.com/en_us/form/gartner-critical-capabilities-siem.html)
    * My recommendations: [Microsoft Azure Sentinel](https://azure.microsoft.com/en-us/products/microsoft-sentinel/#overview), [Sekoia.io XDR](https://www.sekoia.io/en/sekoia-io-xdr/), [Splunk](https://www.splunk.com), [Graylog](https://graylog.org/).
 * **[SIRP](https://d3security.com/blog/whats-the-difference-between-soar-and-sao/)**:
