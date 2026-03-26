@@ -39,11 +39,13 @@ The provided recommendations are based on experience and search.
   * for a one-shot security assessment of AD and Enta ID, I recommend: [Semperis Purple Knight](https://www.semperis.com/purple-knight/)  or [PingCastle](https://www.pingcastle.com/download/)
 * **EASM**: External Asset Security Monitoring / External Attack Surface Management:
   * My recommendations: [Intrinsec](https://www.intrinsec.com/en/easm-external-attack-surface-management/), [Mandiant](https://cloud.google.com/security/products/attack-surface-management), [Qualys EASM](https://www.qualys.com/apps/external-attack-surface-management/)
-  * for a security check-up:
+  * for a security check-up/assessment, one-shot:
      * quick security assessment of your website: [ImmuniWeb](https://www.immuniweb.com/websec/)
      * quick global EASM assessment: [Praetorian Pius](https://github.com/praetorian-inc/pius)
-     * AWS/Azure/GCP security assessment (community tool): [ScootSuite](https://github.com/nccgroup/ScoutSuite)
-     * SaaS solution: Qualys [CSAM-EASM](https://docs.qualys.com/en/csam/latest/inventory/sensors/easm.htm)
+     * M365/GCP security assessment (community tools): [ScootSuite](https://github.com/nccgroup/ScoutSuite), [SCuBA](https://www.cisa.gov/resources-tools/services/secure-cloud-business-applications-scuba-project)
+  * SaaS solutions:
+    * WithSecure [Elements Exposure Management](https://www2.withsecure.com/en/solutions/software-and-services/withsecure-elements-exposure-management)
+    * Qualys [CSAM-EASM](https://docs.qualys.com/en/csam/latest/inventory/sensors/easm.htm)
 * **CASB**: [Cloud Access Security Broker](https://www.gartner.com/en/information-technology/glossary/cloud-access-security-brokers-casbs), if company's IT environment uses a lot of external services like SaaS/IaaS:
   * See [Gartner magic quadrant](https://www.netskope.com/wp-content/uploads/2025/05/2025-05-SSE-MQ-site-1040x1094-1-768x808.png)
   * My recommendations: [Microsoft MCAS](https://www.microsoft.com/en-us/security/business/siem-and-xdr/microsoft-defender-cloud-apps), [Zscaler](https://info.zscaler.com/resources-white-papers-data-protection-challenges?_bt=534426399999&_bk=%2Bzscaler%20%2Bcasb&_bm=b&_bn=g&_bg=121807608181&utm_source=google&utm_medium=cpc&utm_campaign=google-ads-na&gclid=CjwKCAjwu5yYBhAjEiwAKXk_eKLlKaMfJ-oGYItPTHguAmCA_b9WP0zNZgLPqGKjfC19IGmQFFG_9RoCgJAQAvD_BwE), [Netskope](https://www.netskope.com/security-defined/what-is-casb).
