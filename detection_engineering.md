@@ -18,19 +18,19 @@ This page deals with SOC detection engineering and management (detection use cas
 ## Threat statistics/trends 
 * MITRE, [top TTP for ransomwares](https://center-for-threat-informed-defense.github.io/top-attack-techniques/#/top-10-lists)
 * MITRE, [Top 25 CWE for 2025](https://www.securityweek.com/mitre-releases-2025-list-of-top-25-most-dangerous-software-vulnerabilities/)
-* [RecordedFuture 2025 Cloud Threat hunting landscape](https://www.recordedfuture.com/research/2025-cloud-threat-hunting-defense-landscape)
+* RecordedFuture [2025 Cloud Threat hunting landscape](https://www.recordedfuture.com/research/2025-cloud-threat-hunting-defense-landscape)
 * Splunk, [Top 50 cybersecurity threats](https://www.splunk.com/en_us/pdfs/gated/ebooks/top-50-cybersecurity-threats.pdf)
 * Known exploited vulnerabilities: 
-  * [CISA KEV catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
-  * [OWASP Top 10 Web Application Security Risks](https://owasp.org/www-project-top-ten/)
-  * [OWAP top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)
+  * CISA [KEV catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
+  * OWASP [Top 10 Web Application Security Risks](https://owasp.org/www-project-top-ten/)
+  * OWASP [top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)
 * NIST [AI 800-4](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.800-4.pdf): Challenges to the Monitoring of Deployed AI Systems
 * CyberSecurityForMe, [Microsoft Copilot Security vulnerabilities and countermeasures](https://cybersecurityforme.com/copilot-security-vulnerabilities-and-safety-measures-for-enterprises/)
 * My [recommended list of sources](https://github.com/cyb3rxp/awesome-soc/blob/main/watch.md)
 ## SIEM rules publications
   * [Sigma HQ (detection rules)](https://github.com/SigmaHQ/sigma/tree/master/rules) 
-  * [Splunk Detections (free detection rules for Splunk)](https://research.splunk.com/detections/)
-  * [Splunk Stories for Office 365](https://research.splunk.com/stories/office_365_collection_techniques/)
+  * Splunk [Detections (free detection rules for Splunk)](https://research.splunk.com/detections/)
+  * Splunk [Stories for Office 365](https://research.splunk.com/stories/office_365_collection_techniques/)
   * [Michel De Crevoisier's Git](https://github.com/mdecrevoisier/SIGMA-detection-rules)
   * [SOC Prime](https://socprime.com/)
 ## SIEM standards
@@ -40,7 +40,8 @@ This page deals with SOC detection engineering and management (detection use cas
 * Ch33r10, [Enterprise purple teaming](https://github.com/ch33r10/EnterprisePurpleTeaming)
 ## Detection engineering
 ### Frameworks
-* [MITRE D3FEND](https://d3fend.mitre.org/)
+* MITRE [D3FEND](https://d3fend.mitre.org/)
+* MITRE [ATLAS](https://atlas.mitre.org/)
 * [CVE2CAPEC](https://github.com/Galeax/CVE2CAPEC)
 * MITRE [EMB3D](https://emb3d.mitre.org/assets/EMB3D_Paper_09-23-24.pdf) 
 * F. Roth, [Detection engineering cheat sheet](https://mobile.twitter.com/cyb3rops/status/1592879894396293121/photo/1)
@@ -52,7 +53,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * PECB, [ISO 27001:2022, what are the changes?](https://pecb.com/past-webinars/isoiec-270012022--what-are-the-changes)
 ### Security solutions watch
 * Tsale, [EDR telemetry](https://github.com/tsale/EDR-Telemetry)
-* MITRE ATT&CK [Evaluations: Enterprise, 2024](https://www.withsecure.com/en/expertise/campaigns/mitre-2024)
+* MITRE [ATT&CK Evaluations: Enterprise, 2024](https://www.withsecure.com/en/expertise/campaigns/mitre-2024)
 ### Link to risk management
 * ANSSI, [EBIOS RM methodology](https://messervices.cyber.gouv.fr/guides/en-ebios-risk-manager-method)
 * LinkedIn, [Risk assessment with ISO 27005](https://www.linkedin.com/pulse/iso-27005-risk-management-aron-lange/?trackingId=oRjjiIdY9BNjne1ALRq02A%3D%3D)
@@ -73,7 +74,6 @@ This page deals with SOC detection engineering and management (detection use cas
 
 ## Offensive activity watch
 * David J. Bianco, [Pyramid of pain](https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html)
-* [MITRE ATLAS](https://atlas.mitre.org/)
 * Medium, [Named pipe impersonation abuse](https://bherunda.medium.com/hunting-named-pipe-token-impersonation-abuse-573dcca36ae0)
 * Synaktiv, [Azure Entra ID pentesting mindmap](https://github.com/synacktiv/Mindmaps?s=03)
 * Rootkit POC in Rust, [MemN0ps](https://github.com/memN0ps/rootkit-rs/?tab=readme-ov-file)
