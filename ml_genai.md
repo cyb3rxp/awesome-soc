@@ -116,3 +116,7 @@ This page deals with what Generative AI, AI agents, and machine leaning can effe
 
 
 
+
+# AI Agent Frameworks for SOC
+
+- [Agentic-Mythos-SOC](https://github.com/pentrestion/Agentic-Mythos-SOC): Multi-agent offensive security and orchestration framework. Implements frontier reasoning for automated SOC operations, incident response orchestration, and red team automation.
