@@ -201,7 +201,8 @@
 
 * InterCERT, [Intelligence artificielle dans la cybersécurité : un atout puissant à savoir maîtriser](https://www.intercert-france.fr/intelligence-artificielle-dans-la-cybersecurite-un-atout-puissant-a-savoir-maitriser/)
 * Microsoft, [Agent 365](https://info.microsoft.com/FR-CAW-VDEO-FY26-02Feb-17-Agents-everywhere-Keep-control-with-Agent-365-SRGCM15957_LP02-Thank-You---Standard-Hero.html)
-* [LinkedIn], [Qu'est-ce qu'une IA Agentique ?](https://www.linkedin.com/posts/yassinechabli_arr%C3%AAtez-dappeler-votre-chatbot-une-ia-agentique-activity-7439944348948926464-yStg?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAFF-doB6B2Ni3ozMuNrY5JDC3WiW3KWP9s)
+* LinkedIn, [Qu'est-ce qu'une IA Agentique ?](https://www.linkedin.com/posts/yassinechabli_arr%C3%AAtez-dappeler-votre-chatbot-une-ia-agentique-activity-7439944348948926464-yStg?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAFF-doB6B2Ni3ozMuNrY5JDC3WiW3KWP9s)
+* InCyber, [Stratégie Zero Trust et IA : le vrai chantier n’est pas l’algorithme, mais la qualité du SI](https://incyber.org/article/strategie-zero-trust-et-ia-le-vrai-chantier-nest-pas-lalgorithme-mais-la-qualite-du-si/)
 
 
 ## Questionnaire RGPD
