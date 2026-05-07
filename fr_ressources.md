@@ -188,6 +188,11 @@
 * SpecOpsSoft, [Nouvelles recommandations NIST pour les mots de passe](https://specopssoft.com/fr/blog/dernieres-recommandations-nist-en-matiere-de-mots-de-passe/)
 
 
+## Authentification forte / multifacteur
+
+* ANSSI, [Guide authentification_multifacteur_et_mots_de_passe](https://messervices.cyber.gouv.fr/documents-guides/anssi-guide-authentification_multifacteur_et_mots_de_passe.pdf)
+
+
 ## Conteneurs
 
 * ANSSI, [Recommandations de sécurité relatives au déploiement de conteneurs Docker](https://cyber.gouv.fr/publications/recommandations-de-securite-relatives-au-deploiement-de-conteneurs-docker)
