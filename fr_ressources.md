@@ -128,6 +128,7 @@
 ## Sensibilisation
 
 * Cybermalveillance.gouv.fr [10 mesures essentielles pour la sécurité numérique](https://www.cybermalveillance.gouv.fr/tous-nos-contenus/bonnes-pratiques/10-mesures-essentielles-assurer-securite-numerique)
+* AMF, [CapCyber crises et collectivités](https://www.lemondeinformatique.fr/actualites/lire-l-etat-forme-avec-un-mooc-les-collectivites-aux-crises-cybersecurite-100112.html)
 
 
 ## OSINT/ROSO
