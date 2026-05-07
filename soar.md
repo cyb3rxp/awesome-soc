@@ -85,7 +85,7 @@ Here is [an example](https://ptp.cloud/soar-based-security-monitoring/) of a SOC
 ## My recommendations for detection (alerts handling):
 
 Try to implement at least the following automations, leveraging the SOA/SIRP/TIP/SIEM capabilities:
-* Make sure all the context from any alert is being automatically transfered to the SIRP ticket, with a link to the SIEM alert(s) in case of.
+* Make sure all the context from any alert is being automatically transferred to the SIRP ticket, with a link to the SIEM alert(s) in case of.
   * Leverage API (through SOA) if needed to retrieve the missing context info, when using built-in integrations.
 * Automatically query the TIP for any artefacts or even IOC that is associated to a SIRP ticket.
 * Automatically retrieve the history of antimalware detections for an user and/or endpoint, that is associated to a SIRP ticket.
