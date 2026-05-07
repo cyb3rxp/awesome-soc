@@ -144,7 +144,6 @@ Here is [another example](https://www.infinigate.com/fr/vendors/sekoia/) of an a
      * [Awesome Cobalt Strike](https://github.com/MichaelKoczwara/Awesome-CobaltStrike-Defence);
      * [AVAST](https://github.com/avast/ioc?tab=readme-ov-file);
      * [ThreatFox](https://threatfox.abuse.ch/);
-     * MontySecurity, [C2-Tracker](https://github.com/montysecurity/C2-Tracker/tree/main/data);
      * CrowdSec, [Free Paris2024 Olympic Games blocklist](https://app.crowdsec.net/blocklists/665d96cf0a60f8f3808a5d5c);
      * Mhtcht, [Security lists for SOC/DFIR detections](https://github.com/mthcht/awesome-lists);
      * Sekoia, [Happy YARA Christmas](https://github.com/SEKOIA-IO/Community/tree/main/yara_rules);
