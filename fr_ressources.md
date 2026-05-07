@@ -60,8 +60,6 @@
 
 * [C'est qui qui a fuité aujourd'hui ?](https://bonjourlafuite.eu.org/feed.xml)
 
-* [CERT-XMCO](https://www.xmco.fr/feed/)
-
 * [CERT Santé](https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml)
 
 
@@ -115,7 +113,7 @@
 ## Publications spécialisées (PDF)
 
 * [MISC mag](https://connect.ed-diamond.com/misc)
-* XMCO [ActuSecu](https://www.xmco.fr/actusecu/)
+* XMCO [ActuSecu](https://www.xmco.fr/publications)
 
 
 # Management de la sécurité
