@@ -31,7 +31,7 @@ This page deals with IT/cybersecurity watch (recommended sources and tools)
 * Government CERT, industry sector related CERT...
   * e.g.: [CERT-FR](https://www.cert.ssi.gouv.fr/avis/),
   * [CERT-US](https://www.cisa.gov/uscert/ncas/alerts)
-  * [ISC] [Diaries](https://isc.sans.edu/diary/0)
+  * ISC [Diaries](https://isc.sans.edu/diary/0)
   * ENISA [Threat landscape 2025](https://www.enisa.europa.eu/publications/enisa-threat-landscape-2025) 
 * SIEM rules publications:
   * [Sigma HQ (detection rules)](https://github.com/SigmaHQ/sigma/tree/master/rules) 
@@ -46,6 +46,8 @@ This page deals with IT/cybersecurity watch (recommended sources and tools)
   * e.g.: [TheRecord.media](https://therecord.media/subscribe), [Intrinsec Threat Landscape](https://intrinsec.us13.list-manage.com/subscribe?u=403249ad144b732517b9fca94&id=041976f275) & [LinkedIn posts](https://www.linkedin.com/company/intrinsec/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BAyS%2B%2F6ysQ5G%2BBlZQjTWrKg%3D%3D)
 * Podcasts:
   * WithSecure [Xposed](https://www.withsecure.com/en/expertise/podcasts)
+* OffSec (Offensive Security):
+  * [PentestCheatSheet](https://anshu19981.github.io/Pentestcheatsheet/)
 * Other interesting websites:
   * [ISC](https://isc.sans.edu/)
   * [ENISA](https://www.enisa.europa.eu/publications),
