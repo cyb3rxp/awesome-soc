@@ -24,6 +24,7 @@ This page deals with IT/cybersecurity watch (recommended sources and tools)
     
 * Known exploited vulnerabilities +0days: 
   * [CISA catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
+  * [CISA KEV Deadline Planner](https://kev-deadline-planner.vercel.app/) - Unofficial browser worksheet to match pasted CVEs against a bundled CISA KEV snapshot and export CSV/Markdown/ICS planning queues.
   * [Top 0days "in the wild"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit?gid=1331951416#gid=1331951416)
   * [ZeroDayClocl](https://zerodayclock.com/)
 * LinkedIn / Twitter:
