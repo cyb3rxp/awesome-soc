@@ -1,4 +1,4 @@
-# Gen AI and machine learning opportunities for a SOC
+# Gen AI and machine learning opportunities for a SOC and CSIRT
 [WIP]
 
 This page deals with what Generative AI, AI agents, and machine leaning can effectively bring to a SOC (**plus their known downsides**). No marketing speech here, only cybersec watch and field feedback based info.
