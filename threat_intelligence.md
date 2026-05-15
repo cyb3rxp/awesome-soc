@@ -150,6 +150,7 @@ Here is [another example](https://www.infinigate.com/fr/vendors/sekoia/) of an a
      * [Maltiverse](https://lumu.io/maltiverse/)
      * [StalkPhish](https://www.stalkphish.io/)
      * CIRCL [GCVE Vulnerability Lookup](https://vulnerability.circl.lu/)
+     * CyStack, [Stealer Fingerprints](https://github.com/cystack/stealer-fingerprints) (infostealer log fingerprints maintained from CyStack's intel pipeline);
   * To go further, some lists of feeds that could be of interest:
     * [Covert.io list](http://www.covert.io/threat-intelligence/);
     * [Bert JanP](https://github.com/Bert-JanP/Open-Source-Threat-Intel-Feeds/tree/main);
