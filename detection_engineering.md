@@ -411,6 +411,7 @@ The idea here is to follow the 'as-code' approach, wherever possible, with a cen
 
 ## Required tools
 * My recommendation: [GitLab](https://about.gitlab.com/) (or equivalent)
+* KQLab [Self-hosted KQL/SPL/ELK query manager for SOC teams](https://github.com/vinsk0h/KQLab)
 
 ## Detection-as-code
 * Implement CI/CD/CD between the SIEM rules and an internal Git repository;
