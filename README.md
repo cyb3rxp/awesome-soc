@@ -135,7 +135,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 
 ## Concepts, tools, missions, attack lifecycle, red/blue/purple teams
 
-## MITRE references:
+## MITRE references
 * [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 5: Prioritize Incident Response, pages 101-123,
 > Prepare for handling incidents by defining incident categories, response steps, and escalation
 paths, and codifying those into SOPs and playbooks. Determine the priorities of incidents for
@@ -161,7 +161,7 @@ Cf. [Mission-critical means](https://github.com/cyb3rxp/awesome-soc/blob/main/mi
 
 # SOC internals
 
-## MITRE references:
+## MITRE references
 
 * [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 8: Leverage Tools to Support Analyst Workflow, pages 101-123,
 > Consolidate and harmonize views into tools and data and integrate them to maximize SOC
