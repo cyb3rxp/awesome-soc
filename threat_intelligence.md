@@ -166,6 +166,7 @@ Here is [another example](https://www.infinigate.com/fr/vendors/sekoia/) of an a
      * [URLHaus](https://urlhaus.abuse.ch/api/);
      * [OTX](https://otx.alienvault.com/api);
 
+
 * Well-known OSINT portals/websites:
   * [CyberChef](https://cyberchef.io/)
   * URL/IP multi-search portal:
@@ -174,7 +175,10 @@ Here is [another example](https://www.infinigate.com/fr/vendors/sekoia/) of an a
   * Data breaches search portals:
     * [Have I Been Pwned](https://haveibeenpwned.com/)
     * PCloud, [Free Personal Data Breach Checker](https://www.pcloud.com/fr/pass/free-personal-data-breach-checker.html)
-  * Cisco, [Reputation Chec](https://www.talosintelligence.com/)
+  * CVE research websites:
+    *  [CVE PoC Search](https://labs.jamessawyer.co.uk/cves/)
+    *  [CVE Details](https://www.cvedetails.com/)
+  * Cisco, [Reputation Chech](https://www.talosintelligence.com/)
   * IBM, [Reputation Check](https://exchange.xforce.ibmcloud.com/)
   * [IP Reputation Check](https://www.abuseipdb.com/)
   * [Domain/IP investigation](https://cipher387.github.io/domain_investigation_toolbox/ip.html)
