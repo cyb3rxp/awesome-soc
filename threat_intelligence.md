@@ -166,10 +166,11 @@ Here is [another example](https://www.infinigate.com/fr/vendors/sekoia/) of an a
      * [URLHaus](https://urlhaus.abuse.ch/api/);
      * [OTX](https://otx.alienvault.com/api);
 
-* Well-known OSINT portals/websites:
+  * Well-known OSINT portals/websites:
   * CyberChef >> https://cyberchef.io/
   * URL/IP multi-search portal:
      * CyberGordon >> https://cybergordon.com/
+     * CVE PoC Search >> https://labs.jamessawyer.co.uk/cves/
   * URL analysis >> https://urlscan.io/
   * Data breaches search portals:
      * https://haveibeenpwned.com/
