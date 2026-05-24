@@ -167,33 +167,33 @@ Here is [another example](https://www.infinigate.com/fr/vendors/sekoia/) of an a
      * [OTX](https://otx.alienvault.com/api);
 
 * Well-known OSINT portals/websites:
-  * CyberChef >> https://cyberchef.io/
+  * [CyberChef](https://cyberchef.io/)
   * URL/IP multi-search portal:
-     * CyberGordon >> https://cybergordon.com/
-  * URL analysis >> https://urlscan.io/
+    * [CyberGordon](https://cybergordon.com/)
+  * [URL analysis](https://urlscan.io/)
   * Data breaches search portals:
-     * https://haveibeenpwned.com/
-     * https://www.pcloud.com/fr/pass/free-personal-data-breach-checker.html
-  * Cisco Reputation Check >> https://www.talosintelligence.com/
-  * IBM Reputation Check >> https://exchange.xforce.ibmcloud.com/
-  * IP Reputation Check >>https://www.abuseipdb.com/
-  * Domain/IP investigation >> https://cipher387.github.io/domain_investigation_toolbox/ip.html
-  * Malicious IPs and domains >> https://check-the-sum.fr
-  * Domain diagnostic & lookup tools >> https://mxtoolbox.com/
-  * DNS related tools >> https://viewdns.info/
-  * Search Engine for IoTs >> https://www.shodan.io/
-  * OSINT Framework >> https://lnkd.in/gXaz_Wry
-  * Malfrat's OSINT >> https://map.malfrats.industries/
-  * Find Emails >> https://hunter.io/
-  * Internet Archieve >> https://archive.org/web/
-  * Reverse Image search >> https://tineye.com  
-  * Cyberspace Search >> https://www.zoomeye.org/
-  * Search Engine >> https://search.censys.io/
-  * Website Profiler Tool >> https://builtwith.com/
-  * Email Info >> https://epieos.com/
-  * Email & Phone Info >> https://www.predictasearch.com
-  * File Search engine >> https://filepursuit.com/
-  * Hudson Rock Free Infostealer Intelligence Toolset - https://www.hudsonrock.com/threat-intelligence-cybercrime-tools
+    * [Have I Been Pwned](https://haveibeenpwned.com/)
+    * PCloud, [Free Personal Data Breach Checker](https://www.pcloud.com/fr/pass/free-personal-data-breach-checker.html)
+  * Cisco, [Reputation Chec](https://www.talosintelligence.com/)
+  * IBM, [Reputation Check](https://exchange.xforce.ibmcloud.com/)
+  * [IP Reputation Check](https://www.abuseipdb.com/)
+  * [Domain/IP investigation](https://cipher387.github.io/domain_investigation_toolbox/ip.html)
+  * [Malicious IPs and domains](https://check-the-sum.fr)
+  * [Domain diagnostic & lookup tools](https://mxtoolbox.com/)
+  * [DNS related tools](https://viewdns.info/)
+  * [Search Engine for IoTs](https://www.shodan.io/)
+  * [OSINT Framework](https://lnkd.in/gXaz_Wry)
+  * [Malfrat's OSINT](https://map.malfrats.industries/)
+  * [Find Emails](https://hunter.io/)
+  * [Email Info](https://epieos.com/)
+  * [Email & Phone Info](https://www.predictasearch.com)
+  * [Internet Archive](https://archive.org/web/)
+  * [Reverse Image search](https://tineye.com)  
+  * ZoomEye, [Cyberspace Search](https://www.zoomeye.org/)
+  * Censy, [Search Engine](https://search.censys.io/)
+  * [Website Profiler Tool](https://builtwith.com/)
+  * [File Search engine](https://filepursuit.com/)
+  * Hudson Rock, [Free Infostealer Intelligence Toolset](https://www.hudsonrock.com/threat-intelligence-cybercrime-tools)
   
 * TOR search:
   * [OnionSearch](https://github.com/megadose/OnionSearch)
