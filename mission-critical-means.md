@@ -59,7 +59,7 @@ The provided recommendations are based on experience and search.
   * My recommendations:
     * Paid ones:
       * [Thor Cloud lite](https://www.nextron-systems.com/2023/10/30/introducing-thor-cloud-lite-seamless-on-demand-security-scanning-made-easy/);
-      * [WithSecure Elements EDR](https://www.withsecure.com/us-en/solutions/software-and-services/elements-endpoint-detection-and-response);
+      * [WithSecure Elements EDR](https://www.withsecure.com/wp-content/uploads/2026/04/WithSecure_Elements_Endpoint_Detection_and_Response_Solution_Overview.pdf);
     * free ones:
        * for Linux:
          * WithSecure [Cat-Scale](https://labs.withsecure.com/tools/cat-scale-linux-incident-response-collection);
