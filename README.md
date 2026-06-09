@@ -37,49 +37,49 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 # Must read
 
 ## For a SOC
-* SOC build:
+* **SOC build**:
   * MITRE, [11 strategies for a world-class SOC](https://www.mitre.org/publications/technical-papers/11-strategies-world-class-cybersecurity-operations-center) (or use [local file](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf)): part 0 (Fundamentals).
   * FIRST, [Building a SOC](https://www.first.org/resources/guides/Factsheet_Building_a_SOC_start_small.pdf)
   * NCSC, [Building a SOC](https://www.ncsc.gov.uk/collection/building-a-security-operations-centre)
   * Gartner, [SOC model guide](https://fr.scribd.com/document/732782046/Gartner-SOC-Model-Guide-2023)
   * Splunk, [State of Security 2023](https://www.splunk.com/en_us/pdfs/gated/ebooks/state-of-security-2023.pdf)
   * Microsoft, [Secure your business with 365](https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/m365b-security-best-practices?view=o365-worldwide) 
-* SOC training/interview:
+* **SOC training/interview**:
   * LetsDefend [SOC analyst interview questions](https://github.com/LetsDefend/SOC-Interview-Questions)
-* SOC management:
+* **SOC management**:
   * FIRST, [ISO 27035 Practical value for CSIRT and SOCs ](https://www.first.org/resources/papers/conf2023/FIRSTCON23-TLPCLEAR-Benetis-ISO-27035-practical-value-for-CSIRTs-and-SOCs.pdf)
   * SANS, [2024 SOC survey](https://swimlane.com/wp-content/uploads/SANS-SOC-Survey_2024.pdf)
   * SOC CMM, [SOC Metrics](https://www.soc-cmm.com/img/upload/files/31-soc-cmm-metrics-101.pdf)
-* SOC assessment:
+* **SOC assessment**:
   * CMM, [SOC-CMM](https://www.soc-cmm.com/)
   * Rabobank CDC, [DeTTECT](https://github.com/rabobank-cdc/DeTTECT)
   * SANS, [Continous purple teaming](https://www.sans.org/blog/continuous-purple-teaming-practical-approach-strengthening-offensive-capabilities)
 
 
 ## For a CERT/CSIRT
-* Global overview:
+* **Global overview**:
   * SANS, [Incident Response](https://www.sans.org/security-resources/glossary-of-terms/incident-response)
   * FlexibleIR, [IR phases](https://playbooks.flexibleir.com/incident-response-phases-best-practices/)
-* CSIRT build:
+* **CSIRT build**:
   * FIRST, [CERT-in-a-box](https://www.first.org/resources/guides/cert-in-a-box.zip) 
   * FIRST, [CSIRT Services Framework](https://www.first.org/standards/frameworks/csirts/csirt_services_framework_v2.1)
-* Security incident response management:
+* **Security incident response management**:
   * ENISA, [Good practice for incident management](https://www.enisa.europa.eu/publications/good-practice-guide-for-incident-management)
   * EE-ISAC [Incident Response whitepaper](https://www.ee-isac.eu/media/2023/05/EE-ISAC-Incident-Response-White-Paper.pdf)
   * LinkedIn Pulse, [Security incident management according to ISO 27035](https://www.linkedin.com/pulse/security-incident-management-according-iso-27035-dipen-das-)
   * Microsoft/EY/Edelman, [Incident response reference guide](https://www.linkedin.com/posts/the-cyber-security-hub_incident-response-reference-guide-activity-7033563558642642944-0zav?utm_source=share&utm_medium=member_desktop)
   * Microsoft, [IR lessons on cloud ID compromise](https://www.microsoft.com/en-us/security/blog/2023/12/05/microsoft-incident-response-lessons-on-preventing-cloud-identity-compromise/?msockid=07788c7fcb0c689a2a5d98f6ca0169fb)
-* Forensics:
+* **Forensics**:
   * NIST, [SP800-86, integration forensics techniques into IR](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-86.pdf)
   * [ForensicsArtefacts](https://github.com/ForensicArtifacts/artifacts)
   * [ForensicsWiki](https://forensics.wiki/)
-* Incident response playbooks & methodology:
+* **Incident response playbooks & methodology**:
   * Kaspersky, [Incident Response Playbook: Dark Web Breaches](https://dfi.kaspersky.com/blog/dark-web-threats-response-guideline#form)
   * CISA, [Incident Response playbooks](https://www.cisa.gov/sites/default/files/2024-08/Federal_Government_Cybersecurity_Incident_and_Vulnerability_Response_Playbooks_508C.pdf)
   * CERT-SG, [Incident Response Methodology](https://github.com/certsocietegenerale/irm)
 
 ## Globally (SOC and CERT/CSIRT)
-* Processes and concepts:
+* **Processes and concepts**:
   * PAN, [What is SecOps?](https://www.paloaltonetworks.com/cyberpedia/what-is-security-operations)
   * Shubham, [Security 360](https://twitter.com/Shubham_pen/status/1655192003448020993?s=20)
   * Vilius Benetis, [CSIRT, SOC, ISAC and PSIRT definitions](https://www.linkedin.com/pulse/csirt-soc-isac-psirt-definitions-vilius-benetis)
@@ -89,11 +89,11 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
   * PAN, [Security orchestration for dummies](https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/cortex-xsoar/Security-Orchestration-For-Dummies-Demisto-Special-Edition.pdf)
   * ThreatConnect, [SIRP / SOA / TIP benefits](https://threatconnect.com/blog/realizing-the-benefits-of-security-orchestration-automation-and-response-soar/)
   * Medium, [Compromise assessment methodology](https://evrenbey.medium.com/compromise-assessment-methodology-820910efb6a4)
-* SOC/CSIRT processes:
+* **SOC/CSIRT processes**:
   * NIST, [SP800-61 rev3, incident handling guide](https://csrc.nist.gov/pubs/sp/800/61/r3/ipd)
-* CSIRT build:
+* **CSIRT build**:
   * ENISA, [How to set-up a CSIRT and SOC](https://www.enisa.europa.eu/publications/how-to-set-up-csirt-and-soc)
-* Frameworks and materials:
+* **Frameworks and materials**:
   * MITRE, [ATT&CK: Getting started](https://attack.mitre.org/resources/getting-started/)
   * NIST, [Cybersecurity framework](https://www.nist.gov/cyberframework)
   * FIRST, [CVSS v4 specs](https://www.first.org/cvss/v4-0/)
@@ -101,32 +101,32 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
   * OASIS Open, [STIX](https://oasis-open.github.io/cti-documentation/stix/intro.html)
   * FIRST, [TLP](https://www.first.org/tlp/) (intelligence sharing and confidentiality), and [PAP](https://cert.ssi.gouv.fr/csirt/sharing-policy/)
   * CIS, [18 critical security controls](https://www.cisecurity.org/controls/cis-controls-list)
-* Security capabilities mappings:
+* **Security capabilities mappings**:
   * CTID, [Mappings explorer](https://center-for-threat-informed-defense.github.io/mappings-explorer/external/)
-* Threat matrix:
+* **Threat matrix**:
   * Push Security, [SaaS attack matrix](https://github.com/pushsecurity/saas-attacks#the-saas-attacks-matrix)
   * Microsoft, [Threat Matrix for Azure Storage services](https://microsoft.github.io/Threat-matrix-for-storage-services/)
   * MITRE, [Threat Matrix for AI-systems](https://github.com/mitre/advmlthreatmatrix/blob/master/pages/adversarial-ml-threat-matrix.md#adversarial-ml-threat-matrix)
-* SOAR solutions:
+* **SOAR solutions**:
   * Swimlane, [Cyber Threat readiness report 2023](https://swimlane.com/wp-content/uploads/Cyber-Threat-Readiness-Report-2023.pdf);
   * Gartner, [Market Guide for Security Orchestration, Automation and Response Solutions](https://fr.scribd.com/document/619736260/Gartner-Market-Guide-for-Security-Orchestration-Automation)
-* NIS2:
+* **NIS2**:
   * NIS2Directive: [NIS2 10 main requirements](https://nis2directive.eu/nis2-requirements/) 
   * LinkedIn: [How will NIS2 impact your organization?](https://www.linkedin.com/pulse/how-eu-directive-nis2-impact-your-organization-anders-fleinert-larsen%3FtrackingId=Vq3GCGlOTXe1u0dllhn9MA%253D%253D/?_l=fr_FR)
   * CyberArk: [NIS2, how to address the security control gaps](https://event.on24.com/eventRegistration/console/apollox/mainEvent?simulive=y&eventid=4110743&sessionid=1&username=&partnerref=&format=fhvideo1&mobile=&flashsupportedmobiledevice=&helpcenter=&key=588150776CAE70D7F02ECF2848FF11FA&newConsole=true&nxChe=true&newTabCon=true&consoleEarEventConsole=false&text_language_id=en&playerwidth=748&playerheight=526&eventuserid=600843623&contenttype=A&mediametricsessionid=517006274&mediametricid=5797475&usercd=600843623&mode=launch)
   * ENISA: [NIS2 technical implementation guidance](https://www.enisa.europa.eu/publications/nis2-technical-implementation-guidance)
-* AI Models and systems:
+* **AI Models and systems**:
   * ETSI, [Baseline Cyber Security Requirements for  AI Models and Systems](https://www.etsi.org/deliver/etsi_en/304200_304299/304223/02.01.01_60/en_304223v020101p.pdf)
   * NIST, [Challenges to the Monitoring of Deployed AI Systems](https://www.nist.gov/news-events/news/2026/03/new-report-challenges-monitoring-deployed-ai-systems)
   * NIST, [AI 100-1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf)
   * OWASP, [Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)
   * CISCO, [State of AI Security 2026](https://www.cisco.com/site/us/en/products/security/state-of-ai-security.html)
   * Microsoft [Turning threat reports into detection insights with AI](https://www.microsoft.com/en-us/security/blog/2026/01/29/turning-threat-reports-detection-insights-ai/)
-* Management:
+* **Management**:
   * Gartner, [Cybersecurity business value benchmark](https://emtemp.gcom.cloud/ngw/globalassets/en/doc/documents/775537-gartner-cybersecurity-business-value-benchmark-1st-generation.pdf)
   * CrowdStrike, [State of SIEM market 2025](https://go.crowdstrike.com/rs/281-OBQ-266/images/Whitepaper2025StateofSIEMMarketCribl.pdf?version=0)
   * Microsoft, ["While the initial trigger event was a Distributed Denial-of-Service (DDoS) attack... initial investigations suggest that an error in the implementation of our defences amplified the impact of the attack rather than mitigating it"](https://www.bbc.com/news/articles/c903e793w74o)
-* SOP (Standard Operating Procedures):
+* **SOP (Standard Operating Procedures)**:
   * [Antimalware check SOP](https://github.com/cyb3rxp/awesome-soc/blob/main/sop_malware_critical_controls.md)
   * [M365/Azure compromise asssessment SOP](https://github.com/cyb3rxp/awesome-soc/blob/main/sop_M365_compromise_assessment.md)
   * [Web server compromise assessment SOP](https://github.com/cyb3rxp/awesome-soc/blob/main/sop_web_server_compromise_assessment.md)
