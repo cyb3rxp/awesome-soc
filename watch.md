@@ -45,7 +45,7 @@ This page deals with IT/cybersecurity watch (recommended sources and tools)
 * Newsletters:
   * e.g.: [TheRecord.media](https://therecord.media/subscribe), [Intrinsec Threat Landscape](https://intrinsec.us13.list-manage.com/subscribe?u=403249ad144b732517b9fca94&id=041976f275) & [LinkedIn posts](https://www.linkedin.com/company/intrinsec/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BAyS%2B%2F6ysQ5G%2BBlZQjTWrKg%3D%3D)
 * Podcasts:
-  * WithSecure [Xposed](https://www.withsecure.com/en/expertise/podcasts)
+  * WithSecure [Xposed](https://www.withsecure.com/en/resources-hub/cybersecurity-podcasts/)
 * OffSec (Offensive Security):
   * [PentestCheatSheet](https://anshu19981.github.io/Pentestcheatsheet/)
 * Other interesting websites:
