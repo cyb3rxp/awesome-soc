@@ -53,7 +53,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * PECB, [ISO 27001:2022, what are the changes?](https://pecb.com/past-webinars/isoiec-270012022--what-are-the-changes)
 ### Security solutions watch
 * Tsale, [EDR telemetry](https://github.com/tsale/EDR-Telemetry)
-* MITRE [ATT&CK Evaluations: Enterprise, 2024](https://www.withsecure.com/en/expertise/campaigns/mitre-2024)
+* MITRE [ATT&CK Evaluations: Enterprise, 2025](https://www.withsecure.com/en/about-us/achievements-certification/industry-recognitions/mitre-attck-enterprise-evaluations/)
 * Microsoft [Security Stack Mappings](https://center-for-threat-informed-defense.github.io/security-stack-mappings/Azure/README.html)
 * AWS [Security Stack Mappings](https://center-for-threat-informed-defense.github.io/security-stack-mappings/AWS/README.html)
 ### Link to risk management
