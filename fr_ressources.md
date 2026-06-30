@@ -236,6 +236,10 @@
 * ANSSI, [Mon espace NIS2](https://monespacenis2.cyber.gouv.fr/)
 * ANSSI, [ReCyF](https://cyber.gouv.fr/actualites/nis-2-lanssi-poursuit-et-renforce-sa-dynamique-daccompagnement/)
 
+## CRA
+
+* ANSSI, [FAQ Cyber Resilience Act (CRA)](https://cyber.gouv.fr/reglementation/cybersecurite-des-produits/cyber-resilience-act/)
+
 
 ## Feuille de route étatique FR pour la sécurité numérique
 
