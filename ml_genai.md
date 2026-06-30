@@ -1,4 +1,4 @@
-# Gen AI and machine learning opportunities for a SOC and CSIRT
+# Machine learning, Gen AI, and Agent AI opportunities for a SOC and CSIRT
 [WIP]
 
 This page deals with what Generative AI, AI agents, and machine learning can effectively bring to a SOC (**plus their known downsides**) and/or CSIRT. No marketing speech here, only cybersec watch and field feedback based intel.
@@ -14,6 +14,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 * NIST [AI 800-4](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.800-4.pdf): Challenges to the Monitoring of Deployed AI Systems
 * NIST, [R 8596](https://csrc.nist.gov/pubs/ir/8596/iprd): Cybersecurity Framework Profile for Artificial Intelligence
 * Medium, [Prompt engineering](https://medium.com/@egopgogojob/prompt-engineering-explained-understanding-top-k-top-p-temperature-and-advanced-techniques-b7ae7fa49fda)
+* CloudSecurityAlliance, [AI Control Matrix](https://cloudsecurityalliance.org/artifacts/ai-controls-matrix-v1-1)
 
 
 ## Field feedback 
