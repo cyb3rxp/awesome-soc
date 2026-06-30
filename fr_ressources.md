@@ -123,17 +123,18 @@
 * All4tec, [liens entre ISO27005 et EBIOS RM](https://www.all4tec.com/blog/guides/quels-sont-les-liens-entre-la-norme-iso-27005-2022-et-ebios-risk-manager/)
 
 
-# Formation 
+# Formation / sensibilisation
 
 ## Sensibilisation
 
-* Cybermalveillance.gouv.fr [10 mesures essentielles pour la sécurité numérique](https://www.cybermalveillance.gouv.fr/tous-nos-contenus/bonnes-pratiques/10-mesures-essentielles-assurer-securite-numerique)
+* Cybermalveillance.gouv.fr, [10 mesures essentielles pour la sécurité numérique](https://www.cybermalveillance.gouv.fr/tous-nos-contenus/bonnes-pratiques/10-mesures-essentielles-assurer-securite-numerique)
+* Cybermalveillance.gouv.fr, [Malette cyber pro](https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/mallettecyber-pro)
 * AMF, [CapCyber crises et collectivités](https://www.lemondeinformatique.fr/actualites/lire-l-etat-forme-avec-un-mooc-les-collectivites-aux-crises-cybersecurite-100112.html)
 
 
 ## OSINT/ROSO
 
-* OSINTFR : [OPSEC OSINT](https://mooc.osintfr.com/mod/book/tool/print/index.php?id=14)
+* OSINTFR, [OPSEC OSINT](https://mooc.osintfr.com/mod/book/tool/print/index.php?id=14)
 
 
 
@@ -141,19 +142,19 @@
 
 ## Global S.I. 
 
-* ANSSI [Guide sécurité pour TPE/PME en 13 questions](https://cyber.gouv.fr/publications/la-cybersecurite-pour-les-tpepme-en-treize-questions)
-* ANSSI [Guide d'Hygiène Informatique](https://cyber.gouv.fr/publications/guide-dhygiene-informatique)
+* ANSSI, [Guide sécurité pour TPE/PME en 13 questions](https://cyber.gouv.fr/publications/la-cybersecurite-pour-les-tpepme-en-treize-questions)
+* ANSSI, [Guide d'Hygiène Informatique](https://cyber.gouv.fr/publications/guide-dhygiene-informatique)
 * NIST, [CSF 2, guide de démarrage rapide pour les petites entreprises](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=958795)
 
 
 ## Chiffrement
 
-* ANSSI [Règles et recommandations concernant le choix et le dimensionnement des mécanismes cryptographiques](https://messervices.cyber.gouv.fr/guides/mecanismes-cryptographiques)
+* ANSSI, [Règles et recommandations concernant le choix et le dimensionnement des mécanismes cryptographiques](https://messervices.cyber.gouv.fr/guides/mecanismes-cryptographiques)
 
 
 ## Fiches réflexe de réponse à incident
 
-* InterCERT [fiches réflexe](https://www.intercert-france.fr/publications/fiches-reflexes/)
+* InterCERT, [fiches réflexe](https://www.intercert-france.fr/publications/fiches-reflexes/)
 
 
 ## Postes Windows (non classifiés)
@@ -209,7 +210,7 @@
 
 ## Questionnaire RGPD
 
-* CNIL [Guide sécurité des données personnelles](https://www.cnil.fr/sites/cnil/files/2024-03/guide_securite_donnees_personnelles_checklist.pdf)
+* CNIL, [Guide sécurité des données personnelles](https://www.cnil.fr/sites/cnil/files/2024-03/guide_securite_donnees_personnelles_checklist.pdf)
 
 
 
@@ -243,4 +244,4 @@
 
 ## Feuille de route étatique FR pour la sécurité numérique
 
-* ANSSI [Feuille de route des efforts prioritaires en matière de sécurité numérique de l’Etat 2026-2027](https://cyber.gouv.fr/nous-connaitre/publications/feuilles-de-route-de-la-securite-numerique-de-letat/feuille-de-route-de-securite-numerique-2026-2027/)
+* ANSSI, [Feuille de route des efforts prioritaires en matière de sécurité numérique de l’Etat 2026-2027](https://cyber.gouv.fr/nous-connaitre/publications/feuilles-de-route-de-la-securite-numerique-de-letat/feuille-de-route-de-securite-numerique-2026-2027/)
