@@ -81,6 +81,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 ## Globally (SOC and CERT/CSIRT)
 * **Processes and concepts**:
   * PAN, [What is SecOps?](https://www.paloaltonetworks.com/cyberpedia/what-is-security-operations)
+  * Flavio Queiroz, [SecOPS vs. OPSEC](https://www.linkedin.com/pulse/clearing-fog-secops-vs-opsec-cybersecurity-flavio-queiroz--jfief/)
   * Shubham, [Security 360](https://twitter.com/Shubham_pen/status/1655192003448020993?s=20)
   * Vilius Benetis, [CSIRT, SOC, ISAC and PSIRT definitions](https://www.linkedin.com/pulse/csirt-soc-isac-psirt-definitions-vilius-benetis)
   * Thomas Roccia, [Visual Threat Intelligence](https://www.amazon.fr/Visual-Threat-Intelligence-Illustrated-Researchers/dp/B0C7JCF8XD)
