@@ -28,6 +28,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * CyberSecurityForMe, [Microsoft Copilot Security vulnerabilities and countermeasures](https://cybersecurityforme.com/copilot-security-vulnerabilities-and-safety-measures-for-enterprises/)
 * My [recommended list of sources](https://github.com/cyb3rxp/awesome-soc/blob/main/watch.md)
 ## SIEM rules publications
+  * [Clankerusecase (threat-led detection library)](https://clankerusecase.com/) — free, ATT&CK-mapped detections in Defender/Sentinel KQL, Sigma, Splunk SPL, Datadog, Falcon and CloudWatch, generated from public threat intel.
   * [Sigma HQ (detection rules)](https://github.com/SigmaHQ/sigma/tree/master/rules) 
   * Splunk [Detections (free detection rules for Splunk)](https://research.splunk.com/detections/)
   * Splunk [Stories for Office 365](https://research.splunk.com/stories/office_365_collection_techniques/)
