@@ -81,7 +81,7 @@ Here is [an overview](https://erdalozkaya.com/cyber-threat-intelligence/) of a g
 
 ## TIP choice 
 Here are my recommendations:
-* for community ones: [MISP](https://www.misp-project.org/), [OpenCTI](https://www.filigran.io/en/products/opencti/);
+* for community ones: [MISP](https://www.misp-project.org/), [OpenCTI](https://filigran.io/platform/opencti/);
 * for paid ones: [Sekoia.io](https://www.sekoia.io/fr/produire-et-personnaliser-votre-propre-intelligence/), [ThreatQuotient](https://www.threatq.com/).
 
 ## Common TIP integrations (dataflow)
