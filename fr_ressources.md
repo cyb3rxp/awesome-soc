@@ -128,6 +128,7 @@
 ## Sensibilisation
 
 * Cybermalveillance.gouv.fr, [10 mesures essentielles pour la sécurité numérique](https://www.cybermalveillance.gouv.fr/tous-nos-contenus/bonnes-pratiques/10-mesures-essentielles-assurer-securite-numerique)
+* ANSSI, [10 règles d'or en sécurité numérique](https://cyber.gouv.fr/securisation/10-regles-or-securite-numerique/)
 * Cybermalveillance.gouv.fr, [Malette cyber pro](https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/mallettecyber-pro)
 * AMF, [CapCyber crises et collectivités](https://www.lemondeinformatique.fr/actualites/lire-l-etat-forme-avec-un-mooc-les-collectivites-aux-crises-cybersecurite-100112.html)
 
