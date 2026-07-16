@@ -146,7 +146,7 @@ Source: [LinkedIn article](https://www.linkedin.com/posts/teodorchabin_soc-cyber
 *	Use [Security Stack Mappings](https://github.com/center-for-threat-informed-defense/security-stack-mappings) to picture detection capabilities for a given security solution/environment (like AWS, Azure, NDR, etc.): 
 
 ## SOC detection capabilities **simplified** view
- * Leverage the [DeTTECT framework]()
+ * Leverage the [DeTTECT framework](https://github.com/rabobank-cdc/dettect)
  * Leverage the [RE&CT framework](https://atc-project.github.io/react-navigator/) to drive detection activities
 
 # Response capabilities representation :
