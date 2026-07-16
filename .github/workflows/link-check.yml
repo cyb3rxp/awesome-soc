@@ -24,6 +24,6 @@ jobs:
             --verbose
             --no-progress
             --accept 200,202,204,429,403
-            --retry-wait-time 2
-            --max-retries 3
+            --retry-wait-time 3
+            --max-retries 2
             .
