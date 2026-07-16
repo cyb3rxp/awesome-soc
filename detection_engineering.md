@@ -89,6 +89,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * VVSwift, [EDR killers list](https://github.com/vvswift/Bypass-Protection0x00)
 * Mandiant, [Net-NTLM v1 rainbow tables](https://cloud.google.com/blog/topics/threat-intelligence/net-ntlmv1-deprecation-rainbow-tables?hl=en)
 * Mandiant, [vSphere Brickstorm defender guide](https://cloud.google.com/blog/topics/threat-intelligence/vsphere-brickstorm-defender-guide?hl=en)
+* HackingArticles, [Windows Privilege Escalation SeTcbPrivilege](https://www.hackingarticles.in/windows-privilege-escalation-setcbprivilege/)
 
 * [LOLBAS](https://lolbas-project.github.io/): Living Off The Land Binaries, Scripts and Libraries
 * [GTFOBins](https://gtfobins.org/): curated list of Unix-like executables that can be used to bypass local security restrictions in misconfigured systems

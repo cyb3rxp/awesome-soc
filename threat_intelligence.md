@@ -81,8 +81,7 @@ Here is [an overview](https://erdalozkaya.com/cyber-threat-intelligence/) of a g
 
 ## TIP choice 
 Here are my recommendations:
-* for community ones: [MISP](https://www.misp-project.org/), [OpenCTI](https://www.filigran.io/en/products/opencti/);
-* for CTI-to-detection analysis workflow: [AdversaryGraph](https://github.com/anpa1200/adversarygraph) (ATT&CK/ATLAS mapping, IOC enrichment, TTP comparison, and analyst handoff artifacts);
+* for community ones: [MISP](https://www.misp-project.org/), [OpenCTI](https://www.filigran.io/en/products/opencti/), [AdversaryGraph](https://github.com/anpa1200/adversarygraph) for CTI-to-detection analysis workflow (ATT&CK/ATLAS mapping, IOC enrichment, TTP comparison, and analyst handoff artifacts);
 * for paid ones: [Sekoia.io](https://www.sekoia.io/fr/produire-et-personnaliser-votre-propre-intelligence/), [ThreatQuotient](https://www.threatq.com/).
 
 ## Common TIP integrations (dataflow)
@@ -152,6 +151,7 @@ Here is [another example](https://www.infinigate.com/fr/vendors/sekoia/) of an a
      * [StalkPhish](https://www.stalkphish.io/)
      * CIRCL [GCVE Vulnerability Lookup](https://vulnerability.circl.lu/)
      * CyStack, [Stealer Fingerprints](https://github.com/cystack/stealer-fingerprints) (infostealer log fingerprints maintained from CyStack's intel pipeline);
+     * [defend.network](https://defend.network/feed.xml) (free daily cyber threat briefings and weekly vulnerability reports, every CVE verified against NVD and CISA KEV; RSS feed);
   * To go further, some lists of feeds that could be of interest:
     * [Covert.io list](http://www.covert.io/threat-intelligence/);
     * [Bert JanP](https://github.com/Bert-JanP/Open-Source-Threat-Intel-Feeds/tree/main);

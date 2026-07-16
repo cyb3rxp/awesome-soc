@@ -81,6 +81,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 ## Globally (SOC and CERT/CSIRT)
 * **Processes and concepts**:
   * PAN, [What is SecOps?](https://www.paloaltonetworks.com/cyberpedia/what-is-security-operations)
+  * Flavio Queiroz, [SecOPS vs. OPSEC](https://www.linkedin.com/pulse/clearing-fog-secops-vs-opsec-cybersecurity-flavio-queiroz--jfief/)
   * Shubham, [Security 360](https://twitter.com/Shubham_pen/status/1655192003448020993?s=20)
   * Vilius Benetis, [CSIRT, SOC, ISAC and PSIRT definitions](https://www.linkedin.com/pulse/csirt-soc-isac-psirt-definitions-vilius-benetis)
   * Thomas Roccia, [Visual Threat Intelligence](https://www.amazon.fr/Visual-Threat-Intelligence-Illustrated-Researchers/dp/B0C7JCF8XD)
@@ -89,6 +90,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
   * PAN, [Security orchestration for dummies](https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/cortex-xsoar/Security-Orchestration-For-Dummies-Demisto-Special-Edition.pdf)
   * ThreatConnect, [SIRP / SOA / TIP benefits](https://threatconnect.com/blog/realizing-the-benefits-of-security-orchestration-automation-and-response-soar/)
   * Medium, [Compromise assessment methodology](https://evrenbey.medium.com/compromise-assessment-methodology-820910efb6a4)
+  * Hunt.io, [Threat Hunting Framework](https://hunt.io/glossary/tahiti-threat-hunting-framework)
 * **SOC/CSIRT processes**:
   * NIST, [SP800-61 rev3, incident handling guide](https://csrc.nist.gov/pubs/sp/800/61/r3/ipd)
 * **CSIRT build**:
@@ -345,7 +347,8 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 *	FireEye, [OpenIOC format](https://github.com/fireeye/OpenIOC_1.1/blob/master/IOC_Terms_Defs.md)
 * Herman Slatman, [Awesome Threat Intel](https://github.com/hslatman/awesome-threat-intelligence)
 *	Microsoft, [SOC/IR hierarchy of needs](https://github.com/swannman/ircapabilities) 
-* Betaalvereniging, [TaHiTI (threat hunting methodology)](https://www.betaalvereniging.nl/wp-content/uploads/TaHiTI-Threat-Hunting-Methodology-whitepaper.pdf) 
+* Betaalvereniging, [TaHiTI (threat hunting methodology)](https://www.betaalvereniging.nl/wp-content/uploads/TaHiTI-Threat-Hunting-Methodology-whitepaper.pdf)
+* Hunt.io, [PEAK threat hunting framework](https://hunt.io/glossary/peak-threat-hunting-framework)
 * ANSSI (FR), [EBIOS RM methodology](https://messervices.cyber.gouv.fr/guides/en-ebios-risk-manager-method)
 * GMU, [Improving Social Maturity of Cybersecurity Incident Response Teams](https://web.archive.org/web/20250816141217/https://edu.anarcho-copy.org/Against%20Security%20-%20Self%20Security/GMU_Cybersecurity_Incident_Response_Team_social_maturity_handbook.pdf)
 * J0hnbX, [RedTeam resources](https://archive.org/details/github.com-J0hnbX-RedTeam-Resources_-_2022-02-20_01-12-12)
@@ -361,7 +364,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 * Microsoft, [Isolate Tier 0 assets with group policy](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/initially-isolate-tier-0-assets-with-group-policy-to-start/ba-p/1184934)
 * Securenvoy, [How to be compliant with NIS2?](https://securenvoy.com/blog/how-to-be-compliant-with-new-nis-directive/)
 * CyberVigilance, [Mitre Engenuity Evaluations 2022 review](https://www.cybervigilance.uk/post/2022-mitre-att-ck-engenuity-results)
-* [Wazuh at the heart of a SOC architecture for public/critical infrastructures](https://medium.com/@ludovic.doamba/wazuh-at-the-heart-of-sovereign-soc-architecture-for-public-and-critical-infrastructures-f0d18562d14b)
+* Medium, [Wazuh at the heart of a SOC architecture for public/critical infrastructures](https://medium.com/@ludovic.doamba/wazuh-at-the-heart-of-sovereign-soc-architecture-for-public-and-critical-infrastructures-f0d18562d14b)
 * ENISA, [List of trusted cybersecurity services providers](https://www.enisa.europa.eu/sites/default/files/2025-07/EU%20Cybersecurity%20Reserve%20companies.pdf) 
 
 
@@ -415,7 +418,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 * Phishing and brand infringement protection (domain names):
   * My recommendation: [PhishLabs](https://www.phishlabs.com/), [Netcraft](https://www.netcraft.com/cybercrime/fraud-detection/)
 * NIDS:
-  * My recommendation: [Crowdsec](https://www.crowdsec.net/product/crowdsec-security-engine)
+  * My recommendation: [Crowdsec](https://www.crowdsec.net/product/crowdsec-security-engine), [ftagent-lite](https://github.com/Flowtriq/ftagent-lite) for lightweight flow-based network monitoring and DDoS detection (sFlow/NetFlow/IPFIX, adaptive baseline anomaly detection)
 * NDR:
   * My recommendation: [Gatewatcher](https://www.gatewatcher.com/en/our-solutions/trackwatch/)
   * See [Gartner MAgic Quadrant for NDR](https://www.gatewatcher.com/en/resource/2026-gartner-magic-quadrant-for-network-detection-and-response/)
