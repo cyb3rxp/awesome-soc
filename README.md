@@ -416,8 +416,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 * Phishing and brand infringement protection (domain names):
   * My recommendation: [PhishLabs](https://www.phishlabs.com/), [Netcraft](https://www.netcraft.com/cybercrime/fraud-detection/)
 * NIDS:
-  * My recommendation: [Crowdsec](https://www.crowdsec.net/product/crowdsec-security-engine)
-  * For lightweight flow-based network monitoring and DDoS detection: [ftagent-lite](https://github.com/Flowtriq/ftagent-lite) (open source, sFlow/NetFlow/IPFIX, adaptive baseline anomaly detection)
+  * My recommendation: [Crowdsec](https://www.crowdsec.net/product/crowdsec-security-engine), [ftagent-lite](https://github.com/Flowtriq/ftagent-lite) for lightweight flow-based network monitoring and DDoS detection (sFlow/NetFlow/IPFIX, adaptive baseline anomaly detection)
 * NDR:
   * My recommendation: [Gatewatcher](https://www.gatewatcher.com/en/our-solutions/trackwatch/)
   * See [Gartner MAgic Quadrant for NDR](https://www.gatewatcher.com/en/resource/2026-gartner-magic-quadrant-for-network-detection-and-response/)
