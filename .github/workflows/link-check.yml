@@ -23,7 +23,7 @@ jobs:
           args: >
             --verbose
             --no-progress
-            --accept 200,202,204,429,403
+            --accept 200,202,204,429,403,503
             --retry-wait-time 3
             --max-retries 2
             --exclude "https://drop.chapril.org/*"
