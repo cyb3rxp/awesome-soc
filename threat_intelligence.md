@@ -147,11 +147,11 @@ Here is [another example](https://www.infinigate.com/fr/vendors/sekoia/) of an a
      * CrowdSec, [Free Paris2024 Olympic Games blocklist](https://app.crowdsec.net/blocklists/665d96cf0a60f8f3808a5d5c);
      * Mhtcht, [Security lists for SOC/DFIR detections](https://github.com/mthcht/awesome-lists);
      * Sekoia, [Happy YARA Christmas](https://github.com/SEKOIA-IO/Community/tree/main/yara_rules);
-     * [Maltiverse](https://lumu.io/maltiverse/)
-     * [StalkPhish](https://www.stalkphish.io/)
-     * CIRCL [GCVE Vulnerability Lookup](https://vulnerability.circl.lu/)
+     * [Maltiverse](https://lumu.io/maltiverse/);
+     * [StalkPhish](https://www.stalkphish.io/);
+     * CIRCL [GCVE Vulnerability Lookup](https://vulnerability.circl.lu/);
      * CyStack, [Stealer Fingerprints](https://github.com/cystack/stealer-fingerprints) (infostealer log fingerprints maintained from CyStack's intel pipeline);
-     * [defend.network](https://defend.network/feed.xml) (free daily cyber threat briefings and weekly vulnerability reports, every CVE verified against NVD and CISA KEV; RSS feed);
+     * [defend.network](https://defend.network/feed.xml) (free daily cyber threat briefings and weekly vulnerability reports);
   * To go further, some lists of feeds that could be of interest:
     * [Covert.io list](http://www.covert.io/threat-intelligence/);
     * [Bert JanP](https://github.com/Bert-JanP/Open-Source-Threat-Intel-Feeds/tree/main);
