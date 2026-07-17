@@ -118,7 +118,7 @@ The provided recommendations are based on experience and search.
 * **Logs analyzers with detection capabilities**:
     * My recommendations:
       * Paid ones: [Sekoia XDR](https://www.sekoia.io/en/product/xdr/), 
-      * Community-provided / free ones: [Zircolite](https://github.com/wagga40/Zircolite), [DeepBlue](https://github.com/sans-blue-team/DeepBlueCLI), [CrowdSec](https://doc.crowdsec.net/docs/user_guides/replay_mode)
+      * Community-provided / free ones: [Zircolite](https://github.com/wagga40/Zircolite), [DeepBlue](https://github.com/sans-blue-team/DeepBlueCLI), [CrowdSec](https://doc.crowdsec.net/docs/user_guides/replay_mode), and [sigwood](https://github.com/helixmap/sigwood): a local-first CLI threat-hunting tool for detecting anomalous activity in Zeek, Pi-hole/dnsmasq, syslog, and CloudTrail logs.
       
 # Other critical tools for a SOC and a CERT/CSIRT
 * **Secure secrets sharing**:
