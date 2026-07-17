@@ -21,6 +21,7 @@ This page deals with IT/cybersecurity watch (recommended sources and tools)
   * [PacketStorm Security](https://packetstorm.news/rss/news)
   * Kaspersky [SecureList](https://securelist.com/feed/)
   * [ProofPoint](https://www.proofpoint.com/us/rss.xml)
+  * [Defend.Network](https://defend.network/feed.xml) (free daily cyber threat briefings and weekly vulnerability reports)
     
 * Known exploited vulnerabilities +0days: 
   * [CISA catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
@@ -51,7 +52,7 @@ This page deals with IT/cybersecurity watch (recommended sources and tools)
 * Other interesting websites:
   * [ISC](https://isc.sans.edu/)
   * [ENISA](https://www.enisa.europa.eu/publications),
-  *  [ThreatPost](https://threatpost.com/)
+  * [ThreatPost](https://threatpost.com/)
   *  etc.
  
 
