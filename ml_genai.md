@@ -7,7 +7,8 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 # Must read
 
 ## Key concepts and underlying technologies
-* Medium, [How do LLM work?](https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f) (NB: this also covers machine learning, neural networks, deep learning, GPT, etc.) 
+* Medium, [How do LLM work?](https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f) (NB: this also covers machine learning, neural networks, deep learning, GPT, etc.)
+* Youtube, [5 types of AI agents](https://www.youtube.com/watch?v=fXizBc03D7E)
 
 ## Best practices
 * ETSI, [Baseline Cyber Security Requirements for  AI Models and Systems](https://www.etsi.org/deliver/etsi_en/304200_304299/304223/02.01.01_60/en_304223v020101p.pdf)
