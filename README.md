@@ -45,6 +45,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
   * Splunk, [State of Security 2023](https://www.splunk.com/en_us/pdfs/gated/ebooks/state-of-security-2023.pdf)
   * Microsoft, [Secure your business with 365](https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/m365b-security-best-practices?view=o365-worldwide) 
 * **SOC training/interview**:
+  * [InfoSecLabs](https://infoseclabs.io/) - Hands-on SOC analyst training platform with real-world breach scenarios, 108+ CTF challenges, and AI-powered mentorship. Features enterprise SOC tools and structured Academy paths.
   * LetsDefend [SOC analyst interview questions](https://github.com/LetsDefend/SOC-Interview-Questions)
 * **SOC management**:
   * FIRST, [ISO 27035 Practical value for CSIRT and SOCs ](https://www.first.org/resources/papers/conf2023/FIRSTCON23-TLPCLEAR-Benetis-ISO-27035-practical-value-for-CSIRTs-and-SOCs.pdf)
