@@ -74,7 +74,7 @@ This page deals with SOC detection engineering and management (detection use cas
 ## IT best practices for SOC engineering
 * Atlassian, [CI/CD/CD](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
 
-## Offensive activity watch
+## Offensive activity/tools watch
 * David J. Bianco, [Pyramid of pain](https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html)
 * DarkOperator, [Mimikatz missing manual](https://github.com/darkoperator/mimikatz-missing-manual)
 * Medium, [Named pipe impersonation abuse](https://bherunda.medium.com/hunting-named-pipe-token-impersonation-abuse-573dcca36ae0)
@@ -90,7 +90,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * Mandiant, [Net-NTLM v1 rainbow tables](https://cloud.google.com/blog/topics/threat-intelligence/net-ntlmv1-deprecation-rainbow-tables?hl=en)
 * Mandiant, [vSphere Brickstorm defender guide](https://cloud.google.com/blog/topics/threat-intelligence/vsphere-brickstorm-defender-guide?hl=en)
 * HackingArticles, [Windows Privilege Escalation SeTcbPrivilege](https://www.hackingarticles.in/windows-privilege-escalation-setcbprivilege/)
-
+* Moond4rk, [HackBrowserData](https://github.com/moond4rk/HackBrowserData)
 * [LOLBAS](https://lolbas-project.github.io/): Living Off The Land Binaries, Scripts and Libraries
 * [GTFOBins](https://gtfobins.org/): curated list of Unix-like executables that can be used to bypass local security restrictions in misconfigured systems
 
