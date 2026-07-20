@@ -44,7 +44,7 @@ The provided recommendations are based on experience and search.
      * quick global EASM assessment: [Praetorian Pius](https://github.com/praetorian-inc/pius)
      * M365/GCP security assessment (community tools): [ScootSuite](https://github.com/nccgroup/ScoutSuite), [SCuBA](https://www.cisa.gov/resources-tools/services/secure-cloud-business-applications-scuba-project)
   * SaaS solutions:
-    * WithSecure [Elements Exposure Management](https://www2.withsecure.com/en/solutions/software-and-services/withsecure-elements-exposure-management)
+    * WithSecure [Elements Exposure Management](https://www.withsecure.com/en/for-business/platform/xm/)
     * Qualys [CSAM-EASM](https://docs.qualys.com/en/csam/latest/inventory/sensors/easm.htm)
 * **CASB**: [Cloud Access Security Broker](https://www.gartner.com/en/information-technology/glossary/cloud-access-security-brokers-casbs), if company's IT environment uses a lot of external services like SaaS/IaaS:
   * See [Gartner magic quadrant](https://www.netskope.com/wp-content/uploads/2025/05/2025-05-SSE-MQ-site-1040x1094-1-768x808.png)
