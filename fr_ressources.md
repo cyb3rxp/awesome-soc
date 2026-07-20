@@ -105,6 +105,7 @@
 ## Offensif 
 
 * Wiki-tech, ["Process hollowing"](https://wiki-tech.io/S%C3%A9curit%C3%A9/Pentest/Process-Hollowing)
+* Ayinedjimi, [Guide d'exploitation IMPacket sur AD](https://ayinedjimi-consultants.fr/articles/impacket-exploitation-active-directory)
 
 
 ## RGPD / CNIL 
