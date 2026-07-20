@@ -152,7 +152,7 @@ Cf.: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/aweso
 
 # Mission-critical means (tools/sensors)
 
-## MITRE references
+## MITRE reference
 * [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 7: Select and Collect the Right Data, pages 101-123,
 > Choose data by considering relative value of different data types such as sensor and log data
 collected by network and host systems, cloud resources, applications, and sensors. Consider
@@ -165,7 +165,7 @@ Cf. [Mission-critical means](https://github.com/cyb3rxp/awesome-soc/blob/main/mi
 
 # SOC internals
 
-## MITRE references
+## MITRE reference
 
 * [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 8: Leverage Tools to Support Analyst Workflow, pages 101-123,
 > Consolidate and harmonize views into tools and data and integrate them to maximize SOC
@@ -189,7 +189,7 @@ Cf. [Watch](https://github.com/cyb3rxp/awesome-soc/blob/main/watch.md)
 
 # SOAR
 
-## MITRE references
+## MITRE reference
 * [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 8: Leverage Tools to Support Analyst Workflow, pages 101-123,
 > Consolidate and harmonize views into tools and data and integrate them to maximize SOC
 workflow. Consider how the many SOC tools, including SIEM, UEBA, SOAR, and others fit
@@ -202,7 +202,7 @@ Cf. [SOAR](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md)
 
 # Detection engineering
 
-## MITRE reference
+## MITRE references
 * [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 1: Know What You Are Protecting and Why, pages 101-123,
 > Develop situational awareness through understanding the mission; legal regulatory
 environment; technical and data environment; user, user behaviors and service interactions;
@@ -252,7 +252,7 @@ Based on experience, I propose a few SOP (Standard Operating Procedures), that o
 
 # Management
 
-## MITRE reference
+## MITRE references
 * [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 1: Know What You Are Protecting and Why, pages 101-123
 > Develop situational awareness through understanding the mission; legal regulatory
 environment; technical and data environment; user, user behaviors and service interactions;
