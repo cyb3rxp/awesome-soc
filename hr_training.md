@@ -58,12 +58,12 @@ https://www.nist.gov/document/supplementnicespecialtyareasandworkroleksasandtask
 
 ## Regular trainings
 * PaloAlto, [Fundamentals of SOC](https://beacon.paloaltonetworks.com/student/path/521672-the-fundamentals-of-soc-security-operations-center), mainly modules 1 to 8 :) [free]
-* LetsDefend, [Fundamentals of SOC](https://app.letsdefend.io/training/lessons/soc-fundamentals); [free]
-* [Cybrary, MITRE ATT&CK threat hunting](https://www.cybrary.it/course/mitre-attack-threat-hunting/); [free]
+* LetsDefend, [Fundamentals of SOC](https://app.letsdefend.io/training/lessons/soc-fundamentals); [partly free]
+* [Cybrary, MITRE ATT&CK threat hunting](https://www.cybrary.it/course/mitre-attack-threat-hunting/); [partly free]
+* [InfoSecLabs](https://infoseclabs.io/), Hands-on SOC analyst training platform with real-world breach scenarios, 108+ CTF challenges; [partly free]
 * Active Directory specifics:
    * train on AD specific attacks, [Orange Cyberdefense GOAD](https://github.com/Orange-Cyberdefense/GOAD) [free];
      * Populate AD with "real life" objects, in an automated way, [Badblood](https://github.com/davidprowe/badblood).
-* Microsoft, [NIS2 webinar](https://info.microsoft.com/CE-NoGEP-VDEO-FY24-10Oct-09-What-is-NIS20-and-how-to-prepare-your-organization-and-customers-for-it-SREVM23845_LP02-Thank-You---Standard-Hero.html)
 * CrowdSec [Free trainings](https://academy.crowdsec.net/courses)
 
 ## Challenges
