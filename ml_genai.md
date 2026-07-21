@@ -26,6 +26,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 ## Field feedback 
 * Microsoft [Turning threat reports into detection insights with AI](https://www.microsoft.com/en-us/security/blog/2026/01/29/turning-threat-reports-detection-insights-ai/)
 * Fr0gger, [Malware Reverse Engineering is no longer a human problem!](https://x.com/fr0gger_/status/2028014798546378938?s=20)
+* CSOOnline, [SOCs face a challenge as AI speeds alerts and threats](https://www.csoonline.com/article/4198016/socs-face-a-human-challenge-as-ai-speeds-alerts-and-threats.html?utm_date=20260721140359&utm_campaign=CSO%20Security%20Leadership&utm_content=slotno-1-readmore-The%20future%20of%20the%20security%20operations%20center%20may%20depend%20less%20on%20technology%20than%20on%20how%20well%20security%20leaders%20manage%20human%20attention%2C%20expertise%2C%20and%20resilience.&utm_term=CSO%20US%20Editorial%20Newsletters&utm_medium=email&utm_source=Adestra&aid=8242015&huid=677465b3-4cd2-44f5-ba75-a9eb7364bc6c)
 
 
 ## Threat landscape
