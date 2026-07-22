@@ -34,10 +34,10 @@ The provided recommendations are based on experience and search.
 * **[Secure Web Gateway](https://www.gartner.com/en/information-technology/glossary/secure-web-gateway)** (SWG) / Security Service Edge:
   * see [Forrester wave for SSE](https://www.netskope.com/wp-content/uploads/2024/03/forrester-wave-sse-solutions-diagram-1340x1640-1.png) 
   * My recommendations: [BlueCoat Edge SWG](https://www.broadcom.com/products/cybersecurity/network/web-protection/proxy-sg-and-advanced-secure-gateway), [CISCO SASE](https://www.cisco.com/site/us/en/solutions/secure-access-service-edge-sase/index.html), [Zscaler Cloud proxy](https://www.zscaler.com/resources/security-terms-glossary/what-is-cloud-proxy), [Netskope](https://www.netskope.com/security-defined/what-is-casb).
-* **[ITDR (Identity Threat Detection and Response)](https://www.semperis.com/blog/evaluating-identity-threat-detection-response-solutions/)** * for identity and AD/AAD security (audit logs, or specific security monitoring solutions):
+* **[Identity Threat Detection and Response (ITDR)](https://www.semperis.com/blog/evaluating-identity-threat-detection-response-solutions/)** for identity and AD/AAD security (audit logs, or specific security monitoring solutions):
   * My recommendations: [Semperis Directory Services Protector](https://www.semperis.com/active-directory-security/), [Silverfort Identity Security Platform](https://go.silverfort.com/hubfs/eBooks/Silverfort_eBook_How%20to%20stop%20AI-powered%20attacks_June2026.pdf) including for enabling MFA for AD
   * for a one-shot security assessment of AD and Enta ID, I recommend: [Semperis Purple Knight](https://www.semperis.com/purple-knight/)  or [PingCastle](https://www.pingcastle.com/download/)
-* **EASM**: External Asset Security Monitoring / External Attack Surface Management:
+* **External Attack Surface Management (EASM)** / External Asset Security Monitoring:
   * My recommendations: [Intrinsec](https://www.intrinsec.com/en/easm-external-attack-surface-management/), [Mandiant](https://cloud.google.com/security/products/attack-surface-management), [Qualys EASM](https://www.qualys.com/apps/external-attack-surface-management/)
   * for a security check-up/assessment, one-shot:
      * quick security assessment of your website: [ImmuniWeb](https://www.immuniweb.com/websec/)
@@ -46,7 +46,7 @@ The provided recommendations are based on experience and search.
   * SaaS solutions:
     * WithSecure [Elements Exposure Management](https://www.withsecure.com/en/for-business/platform/xm/)
     * Qualys [CSAM-EASM](https://docs.qualys.com/en/csam/latest/inventory/sensors/easm.htm)
-* **[CASB (Cloud Access Security Broker)](https://www.gartner.com/en/information-technology/glossary/cloud-access-security-brokers-casbs)**, if company's IT environment uses a lot of external services like SaaS/IaaS:
+* **[Cloud Access Security Broker (CASB)](https://www.gartner.com/en/information-technology/glossary/cloud-access-security-brokers-casbs)**, if company's IT environment uses a lot of external services like SaaS/IaaS:
   * See [Gartner magic quadrant](https://www.netskope.com/wp-content/uploads/2025/05/2025-05-SSE-MQ-site-1040x1094-1-768x808.png)
   * My recommendations: [Microsoft MCAS](https://www.microsoft.com/en-us/security/business/siem-and-xdr/microsoft-defender-cloud-apps), [Zscaler](https://info.zscaler.com/resources-white-papers-data-protection-challenges?_bt=534426399999&_bk=%2Bzscaler%20%2Bcasb&_bm=b&_bn=g&_bg=121807608181&utm_source=google&utm_medium=cpc&utm_campaign=google-ads-na&gclid=CjwKCAjwu5yYBhAjEiwAKXk_eKLlKaMfJ-oGYItPTHguAmCA_b9WP0zNZgLPqGKjfC19IGmQFFG_9RoCgJAQAvD_BwE), [Netskope](https://www.netskope.com/security-defined/what-is-casb).
 * **Mobile Threat Defense:**
