@@ -19,6 +19,11 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 * ENISA, [ENISA's view on cybersecurity in the frontier AI era](https://www.enisa.europa.eu/publications/enisas-view-on-cybersecurity-in-the-frontier-ai-era)
 * NIST [AI 800-4](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.800-4.pdf): Challenges to the Monitoring of Deployed AI Systems
 
+## Field feedback 
+* Microsoft, [Turning threat reports into detection insights with AI](https://www.microsoft.com/en-us/security/blog/2026/01/29/turning-threat-reports-detection-insights-ai/)
+* Fr0gger, [Malware Reverse Engineering is no longer a human problem!](https://x.com/fr0gger_/status/2028014798546378938?s=20)
+* CSOOnline, [SOCs face a challenge as AI speeds alerts and threats](https://www.csoonline.com/article/4198016/socs-face-a-human-challenge-as-ai-speeds-alerts-and-threats.html?utm_date=20260721140359&utm_campaign=CSO%20Security%20Leadership&utm_content=slotno-1-readmore-The%20future%20of%20the%20security%20operations%20center%20may%20depend%20less%20on%20technology%20than%20on%20how%20well%20security%20leaders%20manage%20human%20attention%2C%20expertise%2C%20and%20resilience.&utm_term=CSO%20US%20Editorial%20Newsletters&utm_medium=email&utm_source=Adestra&aid=8242015&huid=677465b3-4cd2-44f5-ba75-a9eb7364bc6c)
+
 ## Best practices for securing AI systems/apps
 * ETSI, [Baseline Cyber Security Requirements for AI Models and Systems](https://www.etsi.org/deliver/etsi_en/304200_304299/304223/02.01.01_60/en_304223v020101p.pdf)
 * ENISA, [Multilayer framework for good cybersecurity practices for AI](https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai) 
@@ -29,13 +34,6 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 * CloudSecurityAlliance, [AI Control Matrix](https://cloudsecurityalliance.org/artifacts/ai-controls-matrix-v1-1)
   * I recommand to read the [related presentation](https://s3.amazonaws.com/content-production.cloudsecurityalliance/hqhtrzyp720yippr3w2wta7qvv4i?response-content-disposition=inline%3B%20filename%3D%22AICM%20v1.1%20Presentation.pdf%22%3B%20filename%2A%3DUTF-8%27%27AICM%2520v1.1%2520Presentation.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6XDIRHKHO4F5SU4%2F20260630%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260630T161934Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=ddff18eb89298401635f85ac1613f1eb6c1713bbdb6fab80ac984a3dee827d45)
 
-
-## Field feedback 
-* Microsoft, [Turning threat reports into detection insights with AI](https://www.microsoft.com/en-us/security/blog/2026/01/29/turning-threat-reports-detection-insights-ai/)
-* Fr0gger, [Malware Reverse Engineering is no longer a human problem!](https://x.com/fr0gger_/status/2028014798546378938?s=20)
-* CSOOnline, [SOCs face a challenge as AI speeds alerts and threats](https://www.csoonline.com/article/4198016/socs-face-a-human-challenge-as-ai-speeds-alerts-and-threats.html?utm_date=20260721140359&utm_campaign=CSO%20Security%20Leadership&utm_content=slotno-1-readmore-The%20future%20of%20the%20security%20operations%20center%20may%20depend%20less%20on%20technology%20than%20on%20how%20well%20security%20leaders%20manage%20human%20attention%2C%20expertise%2C%20and%20resilience.&utm_term=CSO%20US%20Editorial%20Newsletters&utm_medium=email&utm_source=Adestra&aid=8242015&huid=677465b3-4cd2-44f5-ba75-a9eb7364bc6c)
-
-
 ## Threat landscape
 * CISCO, [State of AI Security 2026](https://www.cisco.com/site/us/en/products/security/state-of-ai-security.html)
 * CrowdStrike, [Global threat landscape 2026: AI Accelerates Adversaries and Reshapes the Attack Surface](https://www.crowdstrike.com/en-us/press-releases/2026-crowdstrike-global-threat-report/)
@@ -43,7 +41,6 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 * Google GTIC, [Continued Integration of AI for Adversarial Use](https://www.brighttalk.com/webcast/18282/669120?utm_campaign=communication_missed_you&utm_medium=email&utm_source=brighttalk-transact&player-preauth=WpeByEIABmlF9OmrZ8Mr5xMzcFT8gfHVp76f5Ed4%2FaI%3D&utm_content=webcast)
 * OWASP, [Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)
 * CyberSecurityForMe, [Microsoft Copilot Security vulnerabilities and safety measures](https://cybersecurityforme.com/copilot-security-vulnerabilities-and-safety-measures-for-enterprises/)
-
 
 ## Knowledge bases
 * Jivoi, [Awesome ML for cybersecurity](https://github.com/jivoi/awesome-ml-for-cybersecurity)
