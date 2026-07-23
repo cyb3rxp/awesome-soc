@@ -10,7 +10,7 @@ Here is [an example](https://docs.tguard.org/) of an architecture, open source b
  * TIP: MISP;
     * plus VirusTotal, etc. _via_ automated API requests by SOA.
  * SIRP: IRIS;
- * SOA: Suffle
+ * SOA: Shuffle
 ![image](https://mintcdn.com/sgu-84307e83/drHFaNd1sEsBAeon/images/architect.png?w=1100&fit=max&auto=format&n=drHFaNd1sEsBAeon&q=85&s=95cdb285594dbfe154c419ff6ec05ed4)
 
 As per the [project's GitHub README page](https://github.com/sguresearcher/nusantara/blob/main/README.md):
