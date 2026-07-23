@@ -21,7 +21,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 * [Fundamental concepts](#Fundamental-concepts)
 * [Mission-critical means (tools/sensors)](#mission-critical-means-toolssensors)
 * [SOC internals/core](#soc-internals)
-* [Gen AI / ML](ml_genai.md)
+* [Gen AI / ML](#AI)
 * [IT/security Watch](#itsecurity-watch)
 * [SOAR](#SOAR)
 * [Detection engineering](#detection-engineering)
@@ -176,6 +176,19 @@ in with the organization’s technical landscape, to include cloud and OT enviro
 
 ## Dedicated page
 Cf. [SOC internals/core](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_internals.md)
+
+
+# AI
+
+## MITRE reference
+
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 8: Leverage Tools to Support Analyst Workflow, pages 101-123,
+> Consolidate and harmonize views into tools and data and integrate them to maximize SOC
+workflow. Consider how the many SOC tools, including SIEM, UEBA, SOAR, and others fit
+in with the organization’s technical landscape, to include cloud and OT environments
+
+## Dedicated page
+Cf. [SOC internals/core](https://github.com/cyb3rxp/awesome-soc/blob/main/ml_llm_ai.md)
 
 
 # IT/security Watch 
