@@ -3,6 +3,10 @@
 
 This page deals with what Generative AI, AI agents, and machine learning can effectively bring to a SOC (**plus their known downsides**) and/or CSIRT. No marketing speech here, only cybersec watch and field feedback based intel.
 
+# TOC
+* Must read
+* Machine learning use cases for a SOC
+* Gen AI / LLM use cases for a SOC
 
 # Must read
 
