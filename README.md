@@ -149,7 +149,7 @@ the organization and allocate the resources to respond. Execute response with pr
 care toward constituency mission and business.
 
 ## Dedicated page
-Cf.: [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md).
+Cf. [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md).
 
 
 # Mission-critical means (tools/sensors)
