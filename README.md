@@ -188,7 +188,7 @@ workflow. Consider how the many SOC tools, including SIEM, UEBA, SOAR, and other
 in with the organization’s technical landscape, to include cloud and OT environments
 
 ## Dedicated page
-Cf. [SOC internals/core](https://github.com/cyb3rxp/awesome-soc/blob/main/ml_llm_ai.md)
+Cf. [AI (ML, LLM, Agentic AI...)](https://github.com/cyb3rxp/awesome-soc/blob/main/ml_llm_ai.md)
 
 
 # IT/security Watch 
