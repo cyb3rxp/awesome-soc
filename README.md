@@ -382,6 +382,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 * CyberVigilance, [Mitre Engenuity Evaluations 2022 review](https://www.cybervigilance.uk/post/2022-mitre-att-ck-engenuity-results)
 * Medium, [Wazuh at the heart of a SOC architecture for public/critical infrastructures](https://medium.com/@ludovic.doamba/wazuh-at-the-heart-of-sovereign-soc-architecture-for-public-and-critical-infrastructures-f0d18562d14b)
 * ENISA, [List of trusted cybersecurity services providers](https://www.enisa.europa.eu/sites/default/files/2025-07/EU%20Cybersecurity%20Reserve%20companies.pdf) 
+* MDRProviders.io, [comparison of managed detection and response providers by pricing, SLA, and breach warranty](https://mdrproviders.io/)
 
 
 
