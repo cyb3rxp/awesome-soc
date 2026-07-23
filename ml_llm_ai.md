@@ -5,8 +5,8 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 
 # TOC
 * [Must read](#must-read)
-* [ML use cases for a SOC](#Machine-learning-use-cases-for-a-SOC]
-* [Gen AI / LLM use cases for a SOC](#Gen-AI-/-LLM-use-cases-for-a-SOC)
+* [ML use cases for a SOC](#machine-learning-use-cases-for-a-soc)
+* [Gen AI / LLM use cases for a SOC](#gen-ai--llm-use-cases-for-a-soc)
 
 # Must read
 
