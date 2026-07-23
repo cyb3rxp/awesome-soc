@@ -6,7 +6,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 # TOC
 * [Must read](#must-read)
 * [ML use cases for a SOC](#machine-learning-use-cases)
-* [Gen AI / LLM use cases for a SOC](#gen-ai--llm-use-cases)
+* [GenAI / LLM use cases for a SOC](#gen-ai--llm-use-cases)
 
 # Must read
 
@@ -16,7 +16,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 * Medium, [Prompt engineering](https://medium.com/@egopgogojob/prompt-engineering-explained-understanding-top-k-top-p-temperature-and-advanced-techniques-b7ae7fa49fda)
 
 ## Best practices for SOC/CSIRT teams in the AI era
-* ENISA, [ENISA's view on cybersecurity in the frontier AI era](https://www.enisa.europa.eu/publications/enisas-view-on-cybersecurity-in-the-frontier-ai-era)
+* ENISA, [View on cybersecurity in the frontier AI era](https://www.enisa.europa.eu/publications/enisas-view-on-cybersecurity-in-the-frontier-ai-era)
 * NIST [AI 800-4](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.800-4.pdf): Challenges to the Monitoring of Deployed AI Systems
 
 ## Field feedback 
@@ -58,7 +58,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 
 ## Binaries execution anomalies detection
 
-* **RAW data**: Sysmon logs, System (Windows/linux) logs, HIDS logs, EDR logs
+* **RAW data:** Sysmon logs, System (Windows/linux) logs, HIDS logs, EDR logs
 * **Goal of the detection:**
    * detect never previously seen files that are being executed = > potential new malware/variant
    * detect files that are suddenly and unexpectedly executed on a large number of endpoints  = > potential infection spread or lateral movement
@@ -69,7 +69,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 
 
 
-# Gen AI / LLM use cases 
+# GenAI / LLM use cases 
 
 ## Analysis acceleration (alert/sample)
 
@@ -115,7 +115,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 * **Elements to be analyzed:** reports (PDF), blog posts and KB articles
 * **Use of GenAI:** quickly summarize the reports and texts, to get the most important part of them with a global understanding
 * **Field feedback:** really efficient and relevant
-* **Real life example:** ask ChatGPT, or [Mistral.ai](https://mistral.ai/products/le-chat) to summarize the following [CTI report from Sekoia](https://blog.sekoia.io/oysterloader-unmasked-the-multi-stage-evasion-loader/), which is supposed to take **19min** to read. The generated sum-up would only take 4-5 min reading :)
+* **Real life example:** ask ChatGPT, or [Mistral AI](https://mistral.ai/products/vibe/) to summarize the following [CTI report from Sekoia](https://blog.sekoia.io/oysterloader-unmasked-the-multi-stage-evasion-loader/), which is supposed to take **19min** to read. The generated sum-up would only take 4-5 min reading :)
 
 
 
