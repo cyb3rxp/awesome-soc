@@ -186,8 +186,8 @@ We use the commonly adopted NIST SP 800-61 lifecycle labels for operational read
     - "UNION";
     - "SELECT".
   - HTTP code equals 40X, HTTP request type GET or POST, and string "shell" in the query (Note the source IP address, User-agent, URL, artefact being requested, etc.).
-  - IP addresses trigerring the most HTTP code 50X: double check the requests (Note the User-agent, URL, artefact being requested, etc.).
-  - IP addresses trigerring the most HTTP codes 404, 403, or 400: double check the requests (Note the User-agent, URL, artefact being requested, etc.).
+  - IP addresses triggering the most HTTP code 50X: double check the requests (Note the User-agent, URL, artefact being requested, etc.).
+  - IP addresses triggering the most HTTP codes 404, 403, or 400: double check the requests (Note the User-agent, URL, artefact being requested, etc.).
   - IP addresses that poll a particular server URL with a constant frequency (Note the IP address, User-agent, URL, artefact being requested, etc.).
   - Rare User-Agent.
   - Longest URL.
