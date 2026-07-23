@@ -77,7 +77,7 @@
     * [TLTP](https://www.nolimitsecu.fr/tltp/)
     * [Recherche de vulnérabilités](https://www.nolimitsecu.fr/referentiels-de-vulnerabilites/)
     * [Détection vs recherche de compro](https://www.nolimitsecu.fr/detection-vs-recherche-de-compromissions-la-discussion-continue/)
-    * [Modèle de PSSI pour IA](https://www.nolimitsecu.fr/modele-de-politique-de-securite-des-systemes-dinformation-pour-lia/)
+    * [Modèle de PSSI pour l'IA](https://www.nolimitsecu.fr/modele-de-politique-de-securite-des-systemes-dinformation-pour-lia/)
     * [Sécurisation chaîne d'appro logicielle](https://www.nolimitsecu.fr/securisation-de-la-chaine-dapprovisionnement-logicielle/)
     * [Compro de distributions linux](https://www.nolimitsecu.fr/compromission-de-distributions-linux/)
     * [Panorama règlementaire](https://www.nolimitsecu.fr/panorama-reglementaire/)
