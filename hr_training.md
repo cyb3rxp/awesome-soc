@@ -11,7 +11,7 @@ This page deals with SOC HR and training topics.
 * [Recommended offensive security trainings](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md#recommended-offensive-security-trainings)
 * [Recommended CTI trainings](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md#recommended-cti-trainings)
 * [Recommended VOC trainings](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md#recommended-voc-vulnerability-management-trainings)
-* [Recommmend management trainings](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md#recommended-management-trainings)
+* [Recommended management trainings](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md#recommended-management-trainings)
 * [To go further](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md#to-go-further)
 
 
