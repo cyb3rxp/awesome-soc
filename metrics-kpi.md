@@ -33,7 +33,8 @@ Below are my recommendations for KPI and SLA. Unless specified, here are the rec
 * Number of Dark Web related alerts.
 * Number of verified alerts (ie.: confirmed security incidents).
 * Percentage of verified alerts (ie.: confirmed security incidents);
-   * NB: that also gives the false-positive rate.
+   * NB: that also gives the false-positive rate, at least at first glance. Some people may complainsaying that we need to remain cautious here, because there is also the false negative rate. But who knows how to actually measure/compute it, now and in time?
+   * I do recommend to conduct regular threat hunting activities, to help in measuring the false negative rate and confirm that known incidents were completely handled, but it seems that most organizations do _not_ regularly run threat hunting operations, unfortunately :(
 * Top security incident types.
 * Top applications associated to alerts (ie.: detections).
 * Most seen TTP in detection.
