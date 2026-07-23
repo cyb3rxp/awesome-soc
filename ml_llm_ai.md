@@ -5,8 +5,8 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 
 # TOC
 * [Must read](#must-read)
-* [ML use cases for a SOC](#machine-learning-use-cases-for-a-soc)
-* [Gen AI / LLM use cases for a SOC](#gen-ai--llm-use-cases-for-a-soc)
+* [ML use cases for a SOC](#machine-learning-use-cases)
+* [Gen AI / LLM use cases for a SOC](#gen-ai--llm-use-cases)
 
 # Must read
 
@@ -49,7 +49,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 * Jivoi, [Awesome ML for cybersecurity](https://github.com/jivoi/awesome-ml-for-cybersecurity)
 
 
-# Machine learning use cases for a SOC
+# Machine learning use cases 
 
 ## Network traffic anomalies detection
 
@@ -72,7 +72,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 
 
 
-# Gen AI / LLM use cases for a SOC
+# Gen AI / LLM use cases 
 
 ## Analysis acceleration (alert/sample)
 
