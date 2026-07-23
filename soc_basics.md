@@ -11,7 +11,7 @@
 * [Attack lifecycle](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#attack-lifecycle)
 * [Most common infection vectors](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#most-common-infection-vectors)
 * [Difference/comparison between EDR and antivirus](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#difference-between-antivirus-and-edr)
-* [EDR,XDR,NDR,MDR explained](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#edr--mdr--ndr--xdr)
+* [EDR, XDR, NDR, MDR explained](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#edr--mdr--ndr--xdr)
 
 
 # What is a SOC? 
@@ -98,7 +98,7 @@ As per ENISA paper see [below](https://github.com/cyb3rxp/awesome-soc/blob/main/
 
 # What is purple/red/blue team?
 
-Quoting [Lutessa (article in French)](https://www.lutessa.com/?p=5524):
+Quoting Lutessa's article (in French: www.lutessa.com/?p=5524) now offline :( :
 
 ![image](https://user-images.githubusercontent.com/16035152/186768852-464d6e3b-1081-45ff-b0bf-0c21ea54dcaf.png)
 
