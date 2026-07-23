@@ -202,7 +202,7 @@
 * ANSSI, [Recommandations de sécurité relatives au déploiement de conteneurs Docker](https://cyber.gouv.fr/publications/recommandations-de-securite-relatives-au-deploiement-de-conteneurs-docker)
 
 
-## IA générative / Agent IA
+## IA générative / LLM / IA Agentique
 
 * InterCERT, [Intelligence artificielle dans la cybersécurité : un atout puissant à savoir maîtriser](https://www.intercert-france.fr/intelligence-artificielle-dans-la-cybersecurite-un-atout-puissant-a-savoir-maitriser/)
 * Microsoft, [Agent 365](https://info.microsoft.com/FR-CAW-VDEO-FY26-02Feb-17-Agents-everywhere-Keep-control-with-Agent-365-SRGCM15957_LP02-Thank-You---Standard-Hero.html)
@@ -230,6 +230,7 @@
 * CNIL, [L'analyse d’impact relative à la protection des données (AIPD)](https://www.cnil.fr/fr/RGPD-analyse-impact-protection-des-donnees-aipd)
 * CNIL, [Recommandations pour mots de passe](https://www.cnil.fr/fr/mots-de-passe-recommandations-pour-maitriser-sa-securite)
 * CNIL, [Gérer la sous-traitance](https://www.cnil.fr/fr/securite-gerer-la-sous-traitance)
+* CNIL, [IA agentique et protection des données personnelles : équation à inconnues multiples pour les utilisateurs](https://www.cnil.fr/fr/ia-agentique-cnil-cianum-note)
 
 
 ## NIS2 
