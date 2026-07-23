@@ -1,4 +1,4 @@
-# Machine learning, Gen AI, and Agentic AI opportunities for a SOC and CSIRT
+# Artificial intelligence: machine learning, LLM, and Agentic AI opportunities for SOC and/or CSIRT
 [WIP]
 
 This page deals with what Generative AI, AI agents, and machine learning can effectively bring to a SOC (**plus their known downsides**) and/or CSIRT. No marketing speech here, only cybersec watch and field feedback based intel.
@@ -11,14 +11,17 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 * Medium, [How do LLM work?](https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f) (NB: this also covers machine learning, neural networks, deep learning, GPT, etc.)
 * Youtube, [5 types of AI agents](https://www.youtube.com/watch?v=fXizBc03D7E)
 
+## Best practices for SOC/CSIRT teams in the AI era
+* ENISA, [ENISA's view on cybersecurity in the frontier AI era](https://www.enisa.europa.eu/publications/enisas-view-on-cybersecurity-in-the-frontier-ai-era)
+* NIST [AI 800-4](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.800-4.pdf): Challenges to the Monitoring of Deployed AI Systems
+
 ## Best practices for securing AI systems/apps
 * ETSI, [Baseline Cyber Security Requirements for AI Models and Systems](https://www.etsi.org/deliver/etsi_en/304200_304299/304223/02.01.01_60/en_304223v020101p.pdf)
 * ENISA, [Multilayer framework for good cybersecurity practices for AI](https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai) 
 * OWASP, [LLM and Gen AI security best practices](https://genai.owasp.org/resource/llm-and-gen-ai-data-security-best-practices/)
 * NIST, [AI 600](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf): Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile
-* NIST [AI 800-4](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.800-4.pdf): Challenges to the Monitoring of Deployed AI Systems
 * NIST, [R 8596](https://csrc.nist.gov/pubs/ir/8596/iprd): Cybersecurity Framework Profile for Artificial Intelligence
-* Google, [SAIF](https://safety.google/intl/en/safety/saif/)
+* Google, [SAIF](https://safety.google/intl/en/safety/saif/), Secure AI Framework
 * CloudSecurityAlliance, [AI Control Matrix](https://cloudsecurityalliance.org/artifacts/ai-controls-matrix-v1-1)
   * I recommand to read the [related presentation](https://s3.amazonaws.com/content-production.cloudsecurityalliance/hqhtrzyp720yippr3w2wta7qvv4i?response-content-disposition=inline%3B%20filename%3D%22AICM%20v1.1%20Presentation.pdf%22%3B%20filename%2A%3DUTF-8%27%27AICM%2520v1.1%2520Presentation.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6XDIRHKHO4F5SU4%2F20260630%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260630T161934Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=ddff18eb89298401635f85ac1613f1eb6c1713bbdb6fab80ac984a3dee827d45)
 
@@ -35,7 +38,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 * Google GTIG, [Adversaries Leverage AI for Vulnerability Exploitation, Augmented Operations, and Initial Access](https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access?hl=en)
 * Google GTIC, [Continued Integration of AI for Adversarial Use](https://www.brighttalk.com/webcast/18282/669120?utm_campaign=communication_missed_you&utm_medium=email&utm_source=brighttalk-transact&player-preauth=WpeByEIABmlF9OmrZ8Mr5xMzcFT8gfHVp76f5Ed4%2FaI%3D&utm_content=webcast)
 * OWASP, [Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)
-* CyberSecurityForme, [Microsoft Copilot Security vulnerabilities and safety measures](https://cybersecurityforme.com/copilot-security-vulnerabilities-and-safety-measures-for-enterprises/)
+* CyberSecurityForMe, [Microsoft Copilot Security vulnerabilities and safety measures](https://cybersecurityforme.com/copilot-security-vulnerabilities-and-safety-measures-for-enterprises/)
 
 
 ## Knowledge bases
