@@ -11,9 +11,9 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 # Must read
 
 ## Key concepts and underlying technologies
-* Medium, [Prompt engineering](https://medium.com/@egopgogojob/prompt-engineering-explained-understanding-top-k-top-p-temperature-and-advanced-techniques-b7ae7fa49fda)
 * Medium, [How do LLM work?](https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f) (NB: this also covers machine learning, neural networks, deep learning, GPT, etc.)
 * Youtube, [5 types of AI agents](https://www.youtube.com/watch?v=fXizBc03D7E)
+* Medium, [Prompt engineering](https://medium.com/@egopgogojob/prompt-engineering-explained-understanding-top-k-top-p-temperature-and-advanced-techniques-b7ae7fa49fda)
 
 ## Best practices for SOC/CSIRT teams in the AI era
 * ENISA, [ENISA's view on cybersecurity in the frontier AI era](https://www.enisa.europa.eu/publications/enisas-view-on-cybersecurity-in-the-frontier-ai-era)
@@ -31,7 +31,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 
 
 ## Field feedback 
-* Microsoft [Turning threat reports into detection insights with AI](https://www.microsoft.com/en-us/security/blog/2026/01/29/turning-threat-reports-detection-insights-ai/)
+* Microsoft, [Turning threat reports into detection insights with AI](https://www.microsoft.com/en-us/security/blog/2026/01/29/turning-threat-reports-detection-insights-ai/)
 * Fr0gger, [Malware Reverse Engineering is no longer a human problem!](https://x.com/fr0gger_/status/2028014798546378938?s=20)
 * CSOOnline, [SOCs face a challenge as AI speeds alerts and threats](https://www.csoonline.com/article/4198016/socs-face-a-human-challenge-as-ai-speeds-alerts-and-threats.html?utm_date=20260721140359&utm_campaign=CSO%20Security%20Leadership&utm_content=slotno-1-readmore-The%20future%20of%20the%20security%20operations%20center%20may%20depend%20less%20on%20technology%20than%20on%20how%20well%20security%20leaders%20manage%20human%20attention%2C%20expertise%2C%20and%20resilience.&utm_term=CSO%20US%20Editorial%20Newsletters&utm_medium=email&utm_source=Adestra&aid=8242015&huid=677465b3-4cd2-44f5-ba75-a9eb7364bc6c)
 
@@ -80,7 +80,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 
 * **Context:** EDR alert for a process or a file
 * **Elements to be analyzed:** long commandline with numerous arguments and potential obfuscation
-* **Use of Gen AI:** quickly understand the command line and then determine whether it is malicious or not, based on the alert details.
+* **Use of GenAI:** quickly understand the command line and then determine whether it is malicious or not, based on the alert details.
 * **Field feedback:** quite efficient and relevant.
 
 
@@ -88,7 +88,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 
 * **Context:** EDR alert for a registry key change/access/deletion
 * **Elements to be analyzed:** unknown registry key or value, as well as its impact on the system/security configuration
-* **Use of Gen AI:** quickly understand the registry key use (values, effects), and then determine whether it is malicious or not, based on the alert details.
+* **Use of GenAI:** quickly understand the registry key use (values, effects), and then determine whether it is malicious or not, based on the alert details.
 * **Field feedback:** quite efficient and relevant.
 
 
