@@ -162,7 +162,7 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/PDCA#/media/File:PDCA-Multi-Loo
 * Make sure there is no data source (sensor/logs) that do not send their data to the SIEM/XDR with no validated reason.
 
 ### Already existing use cases
-* If there are alreadly existing detection use cases, double check those who never trigerred detection (or since a long time).
+* If there are already existing detection use cases, double check those who never trigerred detection (or since a long time).
 * Double check the most verbose existing detection use cases, and try to fine tune them to lower the detection rate (if possible).
 
 ### Handling procedures (SOP):
