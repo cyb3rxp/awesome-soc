@@ -80,7 +80,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 
 * **Context:** EDR alert for a process or a file
 * **Elements to be analyzed:** long commandline with numerous arguments and potential obfuscation
-* **Use of Gen AI:** quickly understand the command line and then determine wrether it is malicious or not, based on the alert details.
+* **Use of Gen AI:** quickly understand the command line and then determine whether it is malicious or not, based on the alert details.
 * **Field feedback:** quite efficient and relevant.
 
 
@@ -95,7 +95,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 ### File sample
 
 * **Context:** you get/grab a sample from an user submission or a "suspicious"-type alert (AV/EDR, proxy, SEG, etc.)
-* **Element to be analyzed:** file sample
+* **Elements to be analyzed:** file sample
 * **Use of GenAI:** quickly and automatically produce static analysis, CTI search automation, evasion/persistence detection, and network behavior reports...
 * **Field feedback:** See [Malware Reverse Engineering is no longer a human problem!](https://x.com/fr0gger_/status/2028014798546378938?s=20) from Thomas Roccia:
   * Static Analysis: Extract binary features, detect packing/obfuscation
@@ -129,7 +129,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 * **Context:** an alert from EDR, NDR, SEG, SWG, ITDR, CASB, etc.  
 * **Elements to be analyzed:** artefacts associated to the alert, as well as the attack type itself as per the detected attack name
 * **Use of GenAI:** quickly understand the attack type (TTP) and the ways it works, then determine whether the alert is confirmed or not, based on the information it contains.
-* **Field feedback:** can be useful but may lead to wrong assumptions if analysts don't take the time to deep dive and search, to go beyong the first GenAI results.
+* **Field feedback:** can be useful but may lead to wrong assumptions if analysts don't take the time to deep dive and search, to go beyond the first GenAI results.
 
 
 
