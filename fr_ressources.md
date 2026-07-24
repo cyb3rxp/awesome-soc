@@ -31,6 +31,11 @@
 * Pour Google Workspace : [GWS Audit](https://github.com/cyb3rxp/GWS-Audit)
 
 
+## Gestion des faux positifs
+
+* [iDNA, Comment gérer les FP dans un SOC ?](https://www.idna.fr/2018/11/06/comment-gerer-les-faux-positifs-dans-un-soc/) 
+
+
 # Veille
 
 ## Infolettres :
