@@ -442,9 +442,6 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 - [Rawsec, Tools inventory](https://github.com/rawsec/rawsec-tools-inventory) – Inventory of security tools.
 
 ## SOC sensors, nice to have
-* **Dark Web monitoring** (data leaks, etc.)
-  * My recommendation: [AIL Framework](https://github.com/CIRCL/AIL-framework)
-  * for paid SaaS solutions, I recommend to have a look at this [top 10](https://expertinsights.com/insights/the-top-dark-web-monitoring-solutions/)
 * **Deceptive technology:**
     * My recommendation: implement [AD decoy acounts](https://medium.com/securonix-tech-blog/detecting-ldap-enumeration-and-bloodhound-s-sharphound-collector-using-active-directory-decoys-dfc840f2f644) and [AD DNS canary](https://www.protect.airbus.com/blog/active-directory-a-canary-under-your-hat/)
 * WAF for internet-facing websites/apps:
