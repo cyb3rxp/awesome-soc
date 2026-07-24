@@ -54,7 +54,7 @@ The provided recommendations are based on experience and search.
   * my recommendation : [Zimperium MTD](https://www.zimperium.com/mtd/)
 * **Dark Web monitoring** (data leaks, etc.)
   * My recommendation: [AIL Framework](https://github.com/CIRCL/AIL-framework)
-  * for paid SaaS solutions, I recommend: [Anozrway](https://anozrway.com/en/personal-protection-application/), or to have a look at this [top 10](https://expertinsights.com/insights/the-top-dark-web-monitoring-solutions/)
+  * for paid SaaS solutions, I recommend: [Anozrway](https://anozrway.com/en/personal-protection-application/), [HIBP](https://haveibeenpwned.com/Subscription) or to have a look at this [top 10](https://expertinsights.com/insights/the-top-dark-web-monitoring-solutions/)
    
 
 # Critical tools for CSIRT
