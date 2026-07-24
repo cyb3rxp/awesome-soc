@@ -31,6 +31,11 @@
 * Pour Google Workspace : [GWS Audit](https://github.com/cyb3rxp/GWS-Audit)
 
 
+## Fiches/manuels de réponse à incident 
+- InterCERT, [fiches réflexe](https://www.intercert-france.fr/publications/fiches-reflexes/)
+- Soufiane Tahiri, [Manuel de réponse à incident en cas de rançongiciel](https://www.linkedin.com/pulse/playbook-for-ransomware-incident-response-soufiane-tahiri/)
+
+
 ## Gestion des faux positifs
 
 * [iDNA, Comment gérer les FP dans un SOC ?](https://www.idna.fr/2018/11/06/comment-gerer-les-faux-positifs-dans-un-soc/) 
@@ -159,9 +164,7 @@
 * ANSSI, [Règles et recommandations concernant le choix et le dimensionnement des mécanismes cryptographiques](https://messervices.cyber.gouv.fr/guides/mecanismes-cryptographiques)
 
 
-## Fiches réflexe de réponse à incident
 
-* InterCERT, [fiches réflexe](https://www.intercert-france.fr/publications/fiches-reflexes/)
 
 
 ## Postes Windows (non classifiés)
