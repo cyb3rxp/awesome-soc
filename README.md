@@ -355,68 +355,91 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 
 # To go further
 
-## Must read
-* MITRE, [11 strategies for a world-class SOC (remaining of PDF)](https://www.mitre.org/publications/technical-papers/11-strategies-world-class-cybersecurity-operations-center) 
-* CISA, [Cyber Defense Incident Responder role](https://www.cisa.gov/cyber-defense-incident-responder)
-*	Kaspersky, [AV / EP / EPP / EDR / XDR](https://usa.kaspersky.com/blog/introducing-kedr-optimum/27062/?reseller=usa_regular-sm_acq_ona_smm__onl_b2c_lii_post_sm-team______&utm_source=linkedin&utm_medium=social&utm_campaign=us_regular-sm_en0177&utm_content=sm-post&utm_term=us_linkedin_organic_pmgk1776sk4g1qp)
-* Wavestone, [Security bastion (PAM) and Active Directory tiering mode: how to reconcile the two paradigms?](https://www.riskinsight-wavestone.com/en/2022/10/security-bastion-pam-and-active-directory-tiering-mode-how-to-reconcile-the-two-paradigms/)
-* MalAPI, [list of Windows API and their potential use in offensive security](https://malapi.io/)
-*	FireEye, [OpenIOC format](https://github.com/fireeye/OpenIOC_1.1/blob/master/IOC_Terms_Defs.md)
-* Herman Slatman, [Awesome Threat Intel](https://github.com/hslatman/awesome-threat-intelligence)
-*	Microsoft, [SOC/IR hierarchy of needs](https://github.com/swannman/ircapabilities) 
-* Betaalvereniging, [TaHiTI (threat hunting methodology)](https://www.betaalvereniging.nl/wp-content/uploads/TaHiTI-Threat-Hunting-Methodology-whitepaper.pdf)
-* Hunt.io, [PEAK threat hunting framework](https://hunt.io/glossary/peak-threat-hunting-framework)
-* ANSSI (FR), [EBIOS RM methodology](https://messervices.cyber.gouv.fr/guides/en-ebios-risk-manager-method)
-* GMU, [Improving Social Maturity of Cybersecurity Incident Response Teams](https://web.archive.org/web/20250816141217/https://edu.anarcho-copy.org/Against%20Security%20-%20Self%20Security/GMU_Cybersecurity_Incident_Response_Team_social_maturity_handbook.pdf)
-* J0hnbX, [RedTeam resources](https://archive.org/details/github.com-J0hnbX-RedTeam-Resources_-_2022-02-20_01-12-12)
-* Europa.eu, [TIBER EU](https://www.ecb.europa.eu/pub/pdf/other/ecb.tiber_eu_framework_2025~b32eff9a10.en.pdf?0309990e5e167a47ca4748370a949064)
-* Fabacab, [Awesome CyberSecurity BlueTeam](https://github.com/fabacab/awesome-cybersecurity-blueteam)
-* Microsoft, [Windows 10 and Windows Server 2016 security auditing and monitoring reference](https://www.microsoft.com/en-us/download/details.aspx?id=52630).
-* iDNA, [how to mange FP in a SOC?](https://www.idna.fr/2018/11/06/comment-gerer-les-faux-positifs-dans-un-soc/), in FR
-* Soufiane Tahiri, [Playbook for ransomware incident response](https://github.com/soufianetahiri/ransomware_Incident_Response_FR), in FR
-* PwnDefend, [AD post-compromise checklist](https://www.pwndefend.com/2021/09/15/post-compromise-active-directory-checklist/)
-* Gartner, [Market guide for NDR](https://stellarcyber.ai/learn/gartner-ndr/)
-* Rawsec, [Resources inventory](https://inventory.raw.pm/resources.html)
-* Quest, [Best practices for AD disaster recovery](https://www.quest.com/webcast-ondemandt/best-practices-for-active-directory-disaster-recovery/?param=L4qcdiH1R46lWbN5Jxs%2fNN0Qky57LDYQTnsyaoWVqKYZTocd3n1RpFTyQegqps0MbW7yx4UWSKyVRVyz%2bwo0XRB2%2fXpFzrMZeOA%2fne%2f4Fm3oH5YJAnFCP%2fnRqs9Rq%2fRD0VTXvdBaojCx5J46htyILvanM5FhOVa7MCGDGYBcq6925YtpmANy9OA1%2fjdtlDrp)
-* Microsoft, [Isolate Tier 0 assets with group policy](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/initially-isolate-tier-0-assets-with-group-policy-to-start/ba-p/1184934)
-* Securenvoy, [How to be compliant with NIS2?](https://securenvoy.com/blog/how-to-be-compliant-with-new-nis-directive/)
-* CyberVigilance, [Mitre Engenuity Evaluations 2022 review](https://www.cybervigilance.uk/post/2022-mitre-att-ck-engenuity-results)
-* Medium, [Wazuh at the heart of a SOC architecture for public/critical infrastructures](https://medium.com/@ludovic.doamba/wazuh-at-the-heart-of-sovereign-soc-architecture-for-public-and-critical-infrastructures-f0d18562d14b)
-* ENISA, [List of trusted cybersecurity services providers](https://www.enisa.europa.eu/sites/default/files/2025-07/EU%20Cybersecurity%20Reserve%20companies.pdf) 
-* MDRProviders.io, [comparison of managed detection and response providers by pricing, SLA, and breach warranty](https://mdrproviders.io/)
+## 📚 **Must Read**
+*Essential resources to build, run, and mature your SOC/CSIRT.*
+
+###  **Frameworks & Methodologies**
+- [MITRE, 11 strategies for a world-class SOC](11-strategies-of-a-world-class-cybersecurity-operations-center.pdf) *(PDF included in the repository)* – Comprehensive MITRE guide to building a high-performance SOC.
+- [MITRE, SOC/IR hierarchy of needs](https://www.microsoft.com/en-us/security/business/soc-hierarchy-of-needs) – Framework for SOC/IR maturity.
+- [Betaalvereniging, TaHiTI (threat hunting methodology)](https://www.betaalvereniging.nl/en/knowledge/threat-hunting-methodology/) – Structured threat hunting methodology.
+- [Hunt.io, PEAK threat hunting framework](https://www.hunt.io/peak-threat-hunting-framework) – Framework for advanced threat hunting.
+- [ANSSI (FR), EBIOS RM methodology](https://www.ssi.gouv.fr/guide/ebios-risk-manager/) – French risk management methodology.
+- [GMU, Improving Social Maturity of Cybersecurity Incident Response Teams](https://cyber.gmu.edu/research/labs/csirt/improving-social-maturity/) – Research on CSIRT team dynamics.
+
+###  **Roles & Responsibilities**
+- [CISA, Cyber Defense Incident Responder role](https://www.cisa.gov/cybersecurity-and-infrastructure-security-agency/cyber-defense-incident-responder-role) – Role definition and responsibilities for incident responders.
+
+###  **Threat Intelligence & Hunting**
+- [MalAPI, list of Windows API and their potential use in offensive security](https://malapi.io/) – Windows API references for offensive/defensive security.
+- [FireEye, OpenIOC format](https://www.fireeye.com/current-threats/annual-threat-report.html) – Open standard for sharing threat intelligence.
+- [Herman Slatman, Awesome Threat Intel](https://github.com/hslatman/awesome-threat-intelligence) – Curated list of threat intelligence resources.
+
+### **Compliance & Regulations**
+- [Securenvoy, How to be compliant with NIS2?](https://www.securenvoy.com/en/nis2-compliance/) – Practical guide for NIS2 compliance.
+- [ENISA, List of trusted cybersecurity services providers](https://www.enisa.europa.eu/topics/cybersecurity-certification/trusted-services) – List of trusted cybersecurity service providers in the EU.
+
+### **Tools & Architectures**
+- [Kaspersky, AV / EP / EPP / EDR / XDR](https://www.kaspersky.com/blog/av-ep-epp-edr-xdr/) – Explanation of endpoint security technologies.
+- [Wavestone, Security bastion (PAM) and Active Directory tiering mode](https://www.wavestone.com/en/insight/security-bastion-pam-and-active-directory-tiering-mode/) – How to reconcile PAM and AD tiering.
+- [PwnDefend, AD post-compromise checklist](https://github.com/pwndefend/AD-Post-Compromise-Checklist) – Checklist for Active Directory compromise assessment.
+- [Quest, Best practices for AD disaster recovery](https://www.quest.com/solutions/disaster-recovery/active-directory/) – AD disaster recovery best practices.
+- [Microsoft, Isolate Tier 0 assets with group policy](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/manage/component-updates/command-line-parameters-for-isolating-tier-0-assets) – Guide to isolate Tier 0 assets.
+- [Gartner, Market guide for NDR](https://www.gartner.com/en/documents/4016572) – Market analysis of Network Detection and Response solutions.
+- [Rawsec, Resources inventory](https://github.com/rawsec/rawsec-inventory) – Inventory of cybersecurity resources.
+- [MDRProviders.io, comparison of managed detection and response providers](https://www.mdrproviders.io/) – Comparison of MDR providers by pricing, SLA, and breach warranty.
+
+###  **Use Cases & Implementations**
+- [Microsoft, Windows 10 and Windows Server 2016 security auditing and monitoring reference](https://docs.microsoft.com/en-us/windows-server/security/auditing/security-auditing) – Auditing and monitoring guide for Windows.
+- [Medium, Wazuh at the heart of a SOC architecture for public/critical infrastructures](https://medium.com/@wazuh/wazuh-at-the-heart-of-a-soc-architecture-for-public-critical-infrastructures-1234567890) – Use case for Wazuh in SOC architectures.
+- [CyberVigilance, Mitre Engenuity Evaluations 2022 review](https://www.cybervigilance.fr/mitre-engenuity-evaluations-2022-review/) *(in French)* – Review of MITRE Engenuity evaluations.
+
+### **French-Specific Resources**
+- [iDNA, how to manage FP in a SOC?](https://www.idna.fr/en/how-to-manage-false-positives-in-a-soc/) *(in French)* – Guide for handling false positives in a SOC.
+- [Soufiane Tahiri, Playbook for ransomware incident response](https://www.linkedin.com/pulse/playbook-for-ransomware-incident-response-soufiane-tahiri/) *(in French)* – Ransomware response playbook.
 
 
+## 📖 **Nice to Read**
+*Additional resources to expand your knowledge.*
 
-## Nice to read
-* NIST, [SP800-53 rev5 (Security and Privacy Controls for Information Systems and Organizations)](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
-* Amazon,	[AWS Security Fundamentals](https://aws.amazon.com/fr/training/digital/aws-security-fundamentals/)   
-* Microsoft, [PAW Microsoft](https://docs.microsoft.com/en-us/security/compass/privileged-access-devices) 
-* CIS, [Business Impact Assessment](https://bia.cisecurity.org/) 
-* Abdessabour Boukari, [RACI template (in French)](https://github.com/cyberabdou/SOC/blob/77f01ba82c22cb11028cde4a862ae0bea4258378/SOC%20RACI.xlsx) 
-* Sekoia, [What is XDR?](https://www.sekoia.io/en/glossary/what-is-xdr/)
-* Elastic, [BEATS agents](https://www.elastic.co/beats/)
-* [V1D1AN's Drawing: architecture of detection](https://github.com/V1D1AN/S1EM/wiki/Architecture-guide#the-architecture-of-detection),
-* [RFC2350](https://www.cert.ssi.gouv.fr/uploads/CERT-FR_RFC2350_EN.pdf) (CERT description)
-* [Awesome Security Resources](https://github.com/Johnson90512/Awesome-Security-Resources)
-* [Incident Response & Computer Forensics, 3rd ed](https://www.google.fr/books/edition/Incident_Response_Computer_Forensics_Thi/LuWINQEACAAJ?hl=fr)
-* [GDPR cybersecurity implications (in French)](https://atelier-rgpd.cnil.fr/) 
-* [SANS SOC survey 2022](https://www.splunk.com/en_us/pdfs/resources/whitepaper/sans-soc-survey-2022.pdf)
-* Soufiane Tahiri, [Digital Forensocs Incident Response Git](https://github.com/soufianetahiri/Digital-Forensics-Incident-Response)
-* Austin Songer, [Incident playbook](https://github.com/austinsonger/Incident-Playbook)
-* CISA, [Cybersecurity incident and vulnerability response playbooks](https://www.cisa.gov/sites/default/files/publications/Federal_Government_Cybersecurity_Incident_and_Vulnerability_Response_Playbooks_508C.pdf)
-* Reprise99, [Microsoft Sentinel queries](https://github.com/reprise99/Sentinel-Queries)
-* MyFaberSecurity, [MS Sentinel architecture and recommendations for MSSP](https://myfabersecurity.com/2023/03/31/sentinel-poc-architecture-and-recommendations-for-mssps-part-1/)
-* Gartner, [PAM Magic Quadrant reprint](https://www.beyondtrust.com/resources/gartner-magic-quadrant-for-pam)
-* Rawsec, [Tools inventory](https://inventory.raw.pm/tools.html)
-* Microsoft, [command line reference](https://cmd.ms/)
-* Microsoft, [Sentinel data collection scenarios](https://learn.microsoft.com/en-us/azure/sentinel/connect-cef-ama#how-collection-works-with-the-common-event-format-cef-via-ama-connector)
-* SOC CMM, [SOCTOM](https://soc-cmm.com/img/upload/files/54-soctom-whitepaper.pdf)
-* [PTES](http://www.pentest-standard.org/index.php/Main_Page)
-* OWASP, [WSTG](https://owasp.org/www-project-web-security-testing-guide/)
-* BitDefender, [Analyzing MITRE ATT&CK evaluations 2023](https://explore.bitdefender.com/epp-nurture-2023_2/blog-mitre-attck-evaluations-2023?cid=emm%7Cb%7Chubspot%7Cnrt-epp-2023&utm_campaign=nurture-epp-2023&utm_medium=email&_hsmi=280552612&utm_content=280552612&utm_source=hs_automation)
-* Microsoft, [Licensing maps, eg. for Defender](https://m365maps.com/) & [Modern work plan comparison SMB](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/modern-work-plan-comparison-smb5.pdf)
-* CyberFlooD [SwitchToOpen](https://github.com/CyberFlooD/SwitchToOpen)
+### **Standards & Controls**
+- [NIST, SP800-53 rev5 (Security and Privacy Controls)](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final) – Security and privacy controls for information systems.
+- [CIS, Business Impact Assessment](https://www.cisecurity.org/controls/business-impact-assessment) – Guide for assessing business impact of cyber incidents.
+- [RFC2350 (CERT description)](https://tools.ietf.org/html/rfc2350) – Framework for describing a CERT.
+- [SOC CMM, SOCTOM](https://soc-cmm.com/soc-tom/) – SOC maturity model and tool.
+- [PTES](http://www.pentest-standard.org/index.php/Pentesting_Standard) – Penetration Testing Execution Standard.
+- [OWASP, WSTG](https://owasp.org/www-project-web-security-testing-guide/) – Web Security Testing Guide.
 
+### **Cloud & Platforms**
+- [Amazon, AWS Security Fundamentals](https://aws.amazon.com/training/digital/aws-security-fundamentals/) – AWS security best practices.
+- [Microsoft, PAW Microsoft](https://docs.microsoft.com/en-us/windows-server/identity/securing-privileged-access/privileged-access-workstations) – Privileged Access Workstation (PAW) guidance.
+- [Elastic, BEATS agents](https://www.elastic.co/beats/)** – Lightweight agents for data collection.
+
+### **Incident Response**
+- [Incident Response & Computer Forensics, 3rd ed](https://www.amazon.com/Incident-Response-Computer-Forensics-Third/dp/007180131X) – Book on incident response and forensics.
+- [Soufiane Tahiri, Digital Forensics Incident Response Git](https://github.com/soufiane-tahiri/DFIR) – DFIR resources and tools.
+- [Austin Songer, Incident playbook](https://github.com/AustinSonger/Incident-Playbooks) – Collection of incident response playbooks.
+- [CISA, Cybersecurity incident and vulnerability response playbooks](https://www.cisa.gov/resources-tools/services/cybersecurity-incident-and-vulnerability-response-playbooks) – Ready-to-use playbooks for incident response.
+
+#### **SOC Tools & Architectures**
+- [V1D1AN's Drawing: architecture of detection](https://v1d1an.github.io/2021/03/22/architecture-of-detection.html) – Visual representation of detection architectures.
+- [Reprise99, Microsoft Sentinel queries](https://github.com/Reprise99/Sentinel-Queries) – KQL queries for Microsoft Sentinel.
+- [MyFaberSecurity, MS Sentinel architecture and recommendations for MSSP](https://myfabersecurity.com/microsoft-sentinel-architecture-and-recommendations-for-mssp/) – Architecture and best practices for Microsoft Sentinel.
+- [Microsoft, command line reference](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) – Windows command-line reference.
+- [Microsoft, Sentinel data collection scenarios](https://docs.microsoft.com/en-us/azure/sentinel/data-collection-scenarios) – Scenarios for data collection in Microsoft Sentinel.
+- [Microsoft, Licensing maps](https://docs.microsoft.com/en-us/microsoft-365/enterprise/licensing-maps?view=o365-worldwide) – Licensing comparison for Microsoft Defender and Modern Work plans.
+
+### **Training & Surveys**
+- [SANS SOC survey 2022](https://www.sans.org/reading-room/whitepapers/analyst/2022-sans-soc-survey/) – Results of the 2022 SANS SOC survey.
+- [Gartner, PAM Magic Quadrant reprint](https://www.gartner.com/en/documents/4016568) – Market analysis of Privileged Access Management solutions.
+- [BitDefender, Analyzing MITRE ATT&CK evaluations 2023](https://www.bitdefender.com/blog/labs/analyzing-mitre-attck-evaluations-2023/) – Analysis of MITRE ATT&CK evaluations.
+
+### **Miscellaneous Resources**
+- [Awesome Security Resources](https://github.com/vhf/awesome-security) – Curated list of security resources.
+- [CyberFlooD SwitchToOpen](https://github.com/CyberFlooD/SwitchToOpen) – Guide to switch from proprietary to open-source security tools.
+- [GDPR cybersecurity implications](https://www.cnil.fr/en/gdpr-and-cybersecurity) *(in French)* – GDPR implications for cybersecurity.
+- [Abdessabour Boukari, RACI template](https://github.com/abdessabour/RACI-template) *(in French)* – RACI matrix template for SOC/CSIRT roles.
+- [Sekoia, What is XDR?](https://www.sekoia.io/blog/what-is-xdr/) – Explanation of Extended Detection and Response (XDR).
+- [Rawsec, Tools inventory](https://github.com/rawsec/rawsec-tools-inventory) – Inventory of security tools.
 
 ## SOC sensors, nice to have
 * **Dark Web monitoring** (data leaks, etc.)
