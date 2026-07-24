@@ -139,6 +139,10 @@ The provided recommendations are based on experience and search.
   * My recommendation: [OSINTracker](https://app.osintracker.com/)
 * **Secure file sharing service**:
   * My recommandation: [Chapril](https://drop.chapril.org/)
+* **Domain external surface analyzer**:
+  * My recommendation: [TheHarvester](https://github.com/laramies/theharvester)
+* **OSINT resources search**:
+  * My recommendation: [OSINT Framework](https://github.com/lockfale/osint-framework)
 
 
 # End
