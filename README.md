@@ -360,11 +360,11 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 
 ###  **Frameworks & Methodologies**
 - [MITRE, 11 strategies for a world-class SOC](11-strategies-of-a-world-class-cybersecurity-operations-center.pdf) *(PDF included in the repository)* – Comprehensive MITRE guide to building a high-performance SOC.
-- [MITRE, SOC/IR hierarchy of needs](https://www.microsoft.com/en-us/security/business/soc-hierarchy-of-needs) – Framework for SOC/IR maturity.
+- [Microsoft, SOC/IR hierarchy of needs](https://download.microsoft.com/download/E/6/2/E62530BF-47CC-4527-88BA-F13DF5294A65/HierarchyofCybersecurityNeeds.pdf) – Framework for SOC/IR maturity.
 - [Betaalvereniging, TaHiTI (threat hunting methodology)](https://www.betaalvereniging.nl/en/knowledge/threat-hunting-methodology/) – Structured threat hunting methodology.
-- [Hunt.io, PEAK threat hunting framework](https://www.hunt.io/peak-threat-hunting-framework) – Framework for advanced threat hunting.
+- [Hunt.io, PEAK threat hunting framework](https://hunt.io/glossary/peak-threat-hunting-framework) – Framework for advanced threat hunting.
 - [ANSSI (FR), EBIOS RM methodology](https://messervices.cyber.gouv.fr/guides/en-ebios-risk-manager-method) – French risk management methodology.
-- [GMU, Improving Social Maturity of Cybersecurity Incident Response Teams](https://cyber.gmu.edu/research/labs/csirt/improving-social-maturity/) – Research on CSIRT team dynamics.
+- [GMU, Improving Social Maturity of Cybersecurity Incident Response Teams](https://edu.anarcho-copy.org/Against%20Security%20-%20Self%20Security/GMU_Cybersecurity_Incident_Response_Team_social_maturity_handbook.pdf) – Research on CSIRT team dynamics.
 
 ###  **Roles & Responsibilities**
 - [CISA, Cyber Defense Incident Responder role](https://www.cisa.gov/careers/work-rolescyber-defense-incident-responder) – Role definition and responsibilities for incident responders.
@@ -378,11 +378,11 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 - [ENISA, List of trusted cybersecurity services providers](https://www.enisa.europa.eu/topics/cybersecurity-certification/trusted-services) – List of trusted cybersecurity service providers in the EU.
 
 ### **Tools & Architectures**
-- [Kaspersky, AV / EP / EPP / EDR / XDR](https://www.kaspersky.com/blog/av-ep-epp-edr-xdr/) – Explanation of endpoint security technologies.
+- [SentinelOne, EPP vs. EDR: Understanding the Differences](https://www.sentinelone.com/cybersecurity-101/endpoint-security/epp-vs-edr/) – Explanation of endpoint security technologies.
 - [Wavestone, Security bastion (PAM) and Active Directory tiering model](https://www.riskinsight-wavestone.com/en/2022/10/security-bastion-pam-and-active-directory-tiering-mode-how-to-reconcile-the-two-paradigms/) – How to reconcile PAM and AD tiering.
 - [PwnDefend, AD post-compromise checklist](https://github.com/pwndefend/AD-Post-Compromise-Checklist) – Checklist for Active Directory compromise assessment.
 - [Quest, Best practices for AD disaster recovery](https://blog.quest.com/active-directory-backup-strategies-you-need-today/) – AD backup best practices.
-- [Microsoft, Isolate Tier 0 assets with group policy](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/manage/component-updates/command-line-parameters-for-isolating-tier-0-assets) – Guide to isolate Tier 0 assets.
+- [Microsoft, Isolate Tier 0 assets with group policy](https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/initially-isolate-tier-0-assets-with-group-policy-to-start-administrative-tierin/1184934) – Guide to isolate Tier 0 assets.
 - [Gartner, Market guide for NDR](https://www.gartner.com/en/documents/4016572) – Market analysis of Network Detection and Response solutions.
 - [Rawsec, Resources inventory](https://github.com/rawsec/rawsec-inventory) – Inventory of cybersecurity resources.
 - [RecordedFuture](https://www.recordedfuture.com/threat-intelligence-101/tools-and-technologies/osint-tools) - Role of OSINT tools, brief history, and how to use these popular tools to deliver crucial intelligence insights.
@@ -425,7 +425,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 - [Reprise99, Microsoft Sentinel queries](https://github.com/Reprise99/Sentinel-Queries) – KQL queries for Microsoft Sentinel.
 - [MyFaberSecurity, MS Sentinel architecture and recommendations for MSSP](https://myfabersecurity.com/microsoft-sentinel-architecture-and-recommendations-for-mssp/) – Architecture and best practices for Microsoft Sentinel.
 - [Microsoft, command line reference](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) – Windows command-line reference.
-- [Microsoft, Sentinel data collection scenarios](https://docs.microsoft.com/en-us/azure/sentinel/data-collection-scenarios) – Scenarios for data collection in Microsoft Sentinel.
+- [Microsoft, Custom data ingestion and transformation in Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/data-transformation) – Scenarios for data collection in Microsoft Sentinel.
 - [Microsoft, Licensing maps](https://m365maps.com/) – Licensing comparison for Microsoft Defender and Modern Work plans.
 
 ### **Training & Surveys**
