@@ -375,7 +375,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 - [Herman Slatman, Awesome Threat Intel](https://github.com/hslatman/awesome-threat-intelligence) – Curated list of threat intelligence resources.
 
 ### **Compliance & Regulations**
-- [ENISA, List of trusted cybersecurity services providers](https://www.enisa.europa.eu/topics/cybersecurity-certification/trusted-services) – List of trusted cybersecurity service providers in the EU.
+- [ENISA, Cybersecurity certificates](https://certification.enisa.europa.eu/certificates_en) – List of trusted cybersecurity service providers in the EU.
 
 ### **Tools & Architectures**
 - [SentinelOne, EPP vs. EDR: Understanding the Differences](https://www.sentinelone.com/cybersecurity-101/endpoint-security/epp-vs-edr/) – Explanation of endpoint security technologies.
@@ -391,7 +391,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 ###  **Use Cases & Implementations**
 - [Microsoft, Windows 10 and Windows Server 2016 security auditing and monitoring reference](https://www.microsoft.com/en-us/download/details.aspx?id=52630) – Auditing and monitoring guide for Windows.
 - [Medium, Wazuh at the heart of a SOC architecture for public/critical infrastructures](https://medium.com/@wazuh/wazuh-at-the-heart-of-a-soc-architecture-for-public-critical-infrastructures-1234567890) – Use case for Wazuh in SOC architectures.
-- [CyberVigilance, Mitre Engenuity Evaluations 2022 review](https://www.cybervigilance.fr/mitre-engenuity-evaluations-2022-review/) *(in French)* – Review of MITRE Engenuity evaluations.
+- [CyberVigilance, Mitre Engenuity Evaluations 2022 review](https://www.cybervigilance.uk/insights/2022-mitre-att-ck-engenuity-results) – Review of MITRE Engenuity evaluations.
 
 ### **French-Specific Resources**
 - [iDNA, how to manage FP in a SOC?](https://www.idna.fr/en/how-to-manage-false-positives-in-a-soc/) *(in French)* – Guide for handling false positives in a SOC.
@@ -418,12 +418,12 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 - [Incident Response & Computer Forensics, 3rd ed](https://www.amazon.com/Incident-Response-Computer-Forensics-Third/dp/007180131X) – Book on incident response and forensics.
 - [Soufiane Tahiri, Digital Forensics Incident Response Git](https://github.com/soufiane-tahiri/DFIR) – DFIR resources and tools.
 - [Austin Songer, Incident playbook](https://github.com/AustinSonger/Incident-Playbooks) – Collection of incident response playbooks.
-- [CISA, Cybersecurity incident and vulnerability response playbooks](https://www.cisa.gov/resources-tools/services/cybersecurity-incident-and-vulnerability-response-playbooks) – Ready-to-use playbooks for incident response.
+- [CISA, Cybersecurity incident and vulnerability response playbooks](https://www.cisa.gov/sites/default/files/2024-08/Federal_Government_Cybersecurity_Incident_and_Vulnerability_Response_Playbooks_508C.pdf) – Ready-to-use playbooks for incident response.
 
 #### **SOC Tools & Architectures**
 - [V1D1AN's Drawing: architecture of detection](https://v1d1an.github.io/2021/03/22/architecture-of-detection.html) – Visual representation of detection architectures.
 - [Reprise99, Microsoft Sentinel queries](https://github.com/Reprise99/Sentinel-Queries) – KQL queries for Microsoft Sentinel.
-- [MyFaberSecurity, MS Sentinel architecture and recommendations for MSSP](https://myfabersecurity.com/microsoft-sentinel-architecture-and-recommendations-for-mssp/) – Architecture and best practices for Microsoft Sentinel.
+- [MyFaberSecurity, MS Sentinel architecture and recommendations for MSSP](https://myfabersecurity.com/2023/03/31/sentinel-poc-architecture-and-recommendations-for-mssps-part-1/) – Architecture and best practices for Microsoft Sentinel.
 - [Microsoft, command line reference](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) – Windows command-line reference.
 - [Microsoft, Custom data ingestion and transformation in Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/data-transformation) – Scenarios for data collection in Microsoft Sentinel.
 - [Microsoft, Licensing maps](https://m365maps.com/) – Licensing comparison for Microsoft Defender and Modern Work plans.
@@ -436,7 +436,8 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 ### **Miscellaneous Resources**
 - [Awesome Security Resources](https://github.com/vhf/awesome-security) – Curated list of security resources.
 - [CyberFlooD SwitchToOpen](https://github.com/CyberFlooD/SwitchToOpen) – Guide to switch from proprietary to open-source security tools.
-- [GDPR cybersecurity implications](https://www.cnil.fr/en/gdpr-and-cybersecurity) *(in French)* – GDPR implications for cybersecurity.
+- [CNIL, GDPR implications](https://www.cnil.fr/sites/cnil/files/2025-06/cybersecurity-economics-gdpr.pdf) – Economics implications of GDPR.
+- [CNIL, 2025 report](https://www.cnil.fr/en/annual-report-2025)
 - [Abdessabour Boukari, RACI template](https://github.com/abdessabour/RACI-template) *(in French)* – RACI matrix template for SOC/CSIRT roles.
 - [Sekoia, What is XDR?](https://www.sekoia.io/blog/what-is-xdr/) – Explanation of Extended Detection and Response (XDR).
 - [Rawsec, Tools inventory](https://github.com/rawsec/rawsec-tools-inventory) – Inventory of security tools.
