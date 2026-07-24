@@ -386,6 +386,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 - [Microsoft, Isolate Tier 0 assets with group policy](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/manage/component-updates/command-line-parameters-for-isolating-tier-0-assets) – Guide to isolate Tier 0 assets.
 - [Gartner, Market guide for NDR](https://www.gartner.com/en/documents/4016572) – Market analysis of Network Detection and Response solutions.
 - [Rawsec, Resources inventory](https://github.com/rawsec/rawsec-inventory) – Inventory of cybersecurity resources.
+- [RecordedFuture](https://www.recordedfuture.com/threat-intelligence-101/tools-and-technologies/osint-tools) - Role of OSINT tools, brief history, and how to use these popular tools to deliver crucial intelligence insights.
 - [MDRProviders.io, comparison of managed detection and response providers](https://www.mdrproviders.io/) – Comparison of MDR providers by pricing, SLA, and breach warranty.
 
 ###  **Use Cases & Implementations**
