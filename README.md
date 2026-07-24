@@ -363,26 +363,25 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 - [MITRE, SOC/IR hierarchy of needs](https://www.microsoft.com/en-us/security/business/soc-hierarchy-of-needs) – Framework for SOC/IR maturity.
 - [Betaalvereniging, TaHiTI (threat hunting methodology)](https://www.betaalvereniging.nl/en/knowledge/threat-hunting-methodology/) – Structured threat hunting methodology.
 - [Hunt.io, PEAK threat hunting framework](https://www.hunt.io/peak-threat-hunting-framework) – Framework for advanced threat hunting.
-- [ANSSI (FR), EBIOS RM methodology](https://www.ssi.gouv.fr/guide/ebios-risk-manager/) – French risk management methodology.
+- [ANSSI (FR), EBIOS RM methodology](https://messervices.cyber.gouv.fr/guides/en-ebios-risk-manager-method) – French risk management methodology.
 - [GMU, Improving Social Maturity of Cybersecurity Incident Response Teams](https://cyber.gmu.edu/research/labs/csirt/improving-social-maturity/) – Research on CSIRT team dynamics.
 
 ###  **Roles & Responsibilities**
-- [CISA, Cyber Defense Incident Responder role](https://www.cisa.gov/cybersecurity-and-infrastructure-security-agency/cyber-defense-incident-responder-role) – Role definition and responsibilities for incident responders.
+- [CISA, Cyber Defense Incident Responder role](https://www.cisa.gov/careers/work-rolescyber-defense-incident-responder) – Role definition and responsibilities for incident responders.
 
 ###  **Threat Intelligence & Hunting**
 - [MalAPI, list of Windows API and their potential use in offensive security](https://malapi.io/) – Windows API references for offensive/defensive security.
-- [FireEye, OpenIOC format](https://www.fireeye.com/current-threats/annual-threat-report.html) – Open standard for sharing threat intelligence.
+- [FireEye, OpenIOC format](https://cloud.google.com/blog/topics/threat-intelligence/openioc-basics/?hl=en) – Open standard for sharing threat intelligence.
 - [Herman Slatman, Awesome Threat Intel](https://github.com/hslatman/awesome-threat-intelligence) – Curated list of threat intelligence resources.
 
 ### **Compliance & Regulations**
-- [Securenvoy, How to be compliant with NIS2?](https://www.securenvoy.com/en/nis2-compliance/) – Practical guide for NIS2 compliance.
 - [ENISA, List of trusted cybersecurity services providers](https://www.enisa.europa.eu/topics/cybersecurity-certification/trusted-services) – List of trusted cybersecurity service providers in the EU.
 
 ### **Tools & Architectures**
 - [Kaspersky, AV / EP / EPP / EDR / XDR](https://www.kaspersky.com/blog/av-ep-epp-edr-xdr/) – Explanation of endpoint security technologies.
-- [Wavestone, Security bastion (PAM) and Active Directory tiering mode](https://www.wavestone.com/en/insight/security-bastion-pam-and-active-directory-tiering-mode/) – How to reconcile PAM and AD tiering.
+- [Wavestone, Security bastion (PAM) and Active Directory tiering model](https://www.riskinsight-wavestone.com/en/2022/10/security-bastion-pam-and-active-directory-tiering-mode-how-to-reconcile-the-two-paradigms/) – How to reconcile PAM and AD tiering.
 - [PwnDefend, AD post-compromise checklist](https://github.com/pwndefend/AD-Post-Compromise-Checklist) – Checklist for Active Directory compromise assessment.
-- [Quest, Best practices for AD disaster recovery](https://www.quest.com/solutions/disaster-recovery/active-directory/) – AD disaster recovery best practices.
+- [Quest, Best practices for AD disaster recovery](https://blog.quest.com/active-directory-backup-strategies-you-need-today/) – AD backup best practices.
 - [Microsoft, Isolate Tier 0 assets with group policy](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/manage/component-updates/command-line-parameters-for-isolating-tier-0-assets) – Guide to isolate Tier 0 assets.
 - [Gartner, Market guide for NDR](https://www.gartner.com/en/documents/4016572) – Market analysis of Network Detection and Response solutions.
 - [Rawsec, Resources inventory](https://github.com/rawsec/rawsec-inventory) – Inventory of cybersecurity resources.
@@ -390,7 +389,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 - [MDRProviders.io, comparison of managed detection and response providers](https://www.mdrproviders.io/) – Comparison of MDR providers by pricing, SLA, and breach warranty.
 
 ###  **Use Cases & Implementations**
-- [Microsoft, Windows 10 and Windows Server 2016 security auditing and monitoring reference](https://docs.microsoft.com/en-us/windows-server/security/auditing/security-auditing) – Auditing and monitoring guide for Windows.
+- [Microsoft, Windows 10 and Windows Server 2016 security auditing and monitoring reference](https://www.microsoft.com/en-us/download/details.aspx?id=52630) – Auditing and monitoring guide for Windows.
 - [Medium, Wazuh at the heart of a SOC architecture for public/critical infrastructures](https://medium.com/@wazuh/wazuh-at-the-heart-of-a-soc-architecture-for-public-critical-infrastructures-1234567890) – Use case for Wazuh in SOC architectures.
 - [CyberVigilance, Mitre Engenuity Evaluations 2022 review](https://www.cybervigilance.fr/mitre-engenuity-evaluations-2022-review/) *(in French)* – Review of MITRE Engenuity evaluations.
 
@@ -404,10 +403,10 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 
 ### **Standards & Controls**
 - [NIST, SP800-53 rev5 (Security and Privacy Controls)](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final) – Security and privacy controls for information systems.
-- [CIS, Business Impact Assessment](https://www.cisecurity.org/controls/business-impact-assessment) – Guide for assessing business impact of cyber incidents.
+- [CIS, Business Impact Analysis tool](https://www.cisecurity.org/cis-securesuite/business-impact-analysis-tool) – Guide for assessing business impact of cyber incidents.
 - [RFC2350 (CERT description)](https://tools.ietf.org/html/rfc2350) – Framework for describing a CERT.
 - [SOC CMM, SOCTOM](https://soc-cmm.com/soc-tom/) – SOC maturity model and tool.
-- [PTES](http://www.pentest-standard.org/index.php/Pentesting_Standard) – Penetration Testing Execution Standard.
+- [PTES](http://www.pentest-standard.org/index.php/PTES_Technical_Guidelines) – Penetration Testing Execution Standard.
 - [OWASP, WSTG](https://owasp.org/www-project-web-security-testing-guide/) – Web Security Testing Guide.
 
 ### **Cloud & Platforms**
@@ -427,12 +426,12 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 - [MyFaberSecurity, MS Sentinel architecture and recommendations for MSSP](https://myfabersecurity.com/microsoft-sentinel-architecture-and-recommendations-for-mssp/) – Architecture and best practices for Microsoft Sentinel.
 - [Microsoft, command line reference](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) – Windows command-line reference.
 - [Microsoft, Sentinel data collection scenarios](https://docs.microsoft.com/en-us/azure/sentinel/data-collection-scenarios) – Scenarios for data collection in Microsoft Sentinel.
-- [Microsoft, Licensing maps](https://docs.microsoft.com/en-us/microsoft-365/enterprise/licensing-maps?view=o365-worldwide) – Licensing comparison for Microsoft Defender and Modern Work plans.
+- [Microsoft, Licensing maps](https://m365maps.com/) – Licensing comparison for Microsoft Defender and Modern Work plans.
 
 ### **Training & Surveys**
 - [SANS SOC survey 2022](https://www.sans.org/reading-room/whitepapers/analyst/2022-sans-soc-survey/) – Results of the 2022 SANS SOC survey.
 - [Gartner, PAM Magic Quadrant reprint](https://www.gartner.com/en/documents/4016568) – Market analysis of Privileged Access Management solutions.
-- [BitDefender, Analyzing MITRE ATT&CK evaluations 2023](https://www.bitdefender.com/blog/labs/analyzing-mitre-attck-evaluations-2023/) – Analysis of MITRE ATT&CK evaluations.
+- [BitDefender, Analyzing MITRE ATT&CK evaluations 2024](https://www.bitdefender.com/en-za/business/campaign/forrester-analysis-2024-mitre-engenuity#form) – Analysis of MITRE ATT&CK evaluations.
 
 ### **Miscellaneous Resources**
 - [Awesome Security Resources](https://github.com/vhf/awesome-security) – Curated list of security resources.
