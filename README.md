@@ -362,6 +362,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 - [MITRE, 11 strategies for a world-class SOC](11-strategies-of-a-world-class-cybersecurity-operations-center.pdf) *(PDF included in the repository)* – Comprehensive MITRE guide to building a high-performance SOC.
 - [Microsoft, SOC/IR hierarchy of needs](https://download.microsoft.com/download/E/6/2/E62530BF-47CC-4527-88BA-F13DF5294A65/HierarchyofCybersecurityNeeds.pdf) – Framework for SOC/IR maturity.
 - [Hunt.io, PEAK threat hunting framework](https://hunt.io/glossary/peak-threat-hunting-framework) – Framework for advanced threat hunting.
+- [PwnDefend, AD post-compromise checklist](https://www.pwndefend.com/2021/09/15/post-compromise-active-directory-checklist/) – Checklist for Active Directory compromise assessment.
 - [ANSSI (FR), EBIOS RM methodology](https://messervices.cyber.gouv.fr/guides/en-ebios-risk-manager-method) – French risk management methodology.
 - [GMU, Improving Social Maturity of Cybersecurity Incident Response Teams](https://edu.anarcho-copy.org/Against%20Security%20-%20Self%20Security/GMU_Cybersecurity_Incident_Response_Team_social_maturity_handbook.pdf) – Research on CSIRT team dynamics.
 - [Expel, Reduce FP in a SOC](https://expel.com/cyberspeak/reduce-false-positives-in-soc-operations/) - Reduce FP in a SOC.
@@ -380,11 +381,9 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 ### **Tools & Architectures**
 - [SentinelOne, EPP vs. EDR: Understanding the Differences](https://www.sentinelone.com/cybersecurity-101/endpoint-security/epp-vs-edr/) – Explanation of endpoint security technologies.
 - [Wavestone, Security bastion (PAM) and Active Directory tiering model](https://www.riskinsight-wavestone.com/en/2022/10/security-bastion-pam-and-active-directory-tiering-mode-how-to-reconcile-the-two-paradigms/) – How to reconcile PAM and AD tiering.
-- [PwnDefend, AD post-compromise checklist](https://github.com/pwndefend/AD-Post-Compromise-Checklist) – Checklist for Active Directory compromise assessment.
 - [Quest, Best practices for AD disaster recovery](https://blog.quest.com/active-directory-backup-strategies-you-need-today/) – AD backup best practices.
 - [Microsoft, Isolate Tier 0 assets with group policy](https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/initially-isolate-tier-0-assets-with-group-policy-to-start-administrative-tierin/1184934) – Guide to isolate Tier 0 assets.
 - [Gartner, Market guide for NDR](https://www.gartner.com/en/documents/4016572) – Market analysis of Network Detection and Response solutions.
-- [Rawsec, Resources inventory](https://github.com/rawsec/rawsec-inventory) – Inventory of cybersecurity resources.
 - [RecordedFuture](https://www.recordedfuture.com/threat-intelligence-101/tools-and-technologies/osint-tools) - Role of OSINT tools, brief history, and how to use these popular tools to deliver crucial intelligence insights.
 - [MDRProviders.io, comparison of managed detection and response providers](https://www.mdrproviders.io/) – Comparison of MDR providers by pricing, SLA, and breach warranty.
 
@@ -411,31 +410,28 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 
 ### **Incident Response**
 - [Incident Response & Computer Forensics, 3rd ed](https://www.amazon.com/Incident-Response-Computer-Forensics-Third/dp/007180131X) – Book on incident response and forensics.
-- [Soufiane Tahiri, Digital Forensics Incident Response Git](https://github.com/soufiane-tahiri/DFIR) – DFIR resources and tools.
-- [Austin Songer, Incident playbook](https://github.com/AustinSonger/Incident-Playbooks) – Collection of incident response playbooks.
+- [Austin Songer, Incident playbook](https://github.com/AustinSonger/Incident-Playbook) – Collection of incident response playbooks.
 - [CISA, Cybersecurity incident and vulnerability response playbooks](https://www.cisa.gov/sites/default/files/2024-08/Federal_Government_Cybersecurity_Incident_and_Vulnerability_Response_Playbooks_508C.pdf) – Ready-to-use playbooks for incident response.
 
 #### **SOC Tools & Architectures**
-- [V1D1AN's Drawing: architecture of detection](https://v1d1an.github.io/2021/03/22/architecture-of-detection.html) – Visual representation of detection architectures.
 - [Reprise99, Microsoft Sentinel queries](https://github.com/Reprise99/Sentinel-Queries) – KQL queries for Microsoft Sentinel.
 - [MyFaberSecurity, MS Sentinel architecture and recommendations for MSSP](https://myfabersecurity.com/2023/03/31/sentinel-poc-architecture-and-recommendations-for-mssps-part-1/) – Architecture and best practices for Microsoft Sentinel.
-- [Microsoft, command line reference](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) – Windows command-line reference.
 - [Microsoft, Custom data ingestion and transformation in Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/data-transformation) – Scenarios for data collection in Microsoft Sentinel.
-- [Microsoft, Licensing maps](https://m365maps.com/) – Licensing comparison for Microsoft Defender and Modern Work plans.
 
-### **Training & Surveys**
+### **Benchmarks & Surveys**
 - [SANS SOC survey 2022](https://www.sans.org/reading-room/whitepapers/analyst/2022-sans-soc-survey/) – Results of the 2022 SANS SOC survey.
 - [Gartner, PAM Magic Quadrant reprint](https://www.gartner.com/en/documents/4016568) – Market analysis of Privileged Access Management solutions.
 - [BitDefender, Analyzing MITRE ATT&CK evaluations 2024](https://www.bitdefender.com/en-za/business/campaign/forrester-analysis-2024-mitre-engenuity#form) – Analysis of MITRE ATT&CK evaluations.
 
 ### **Miscellaneous Resources**
-- [Awesome Security Resources](https://github.com/vhf/awesome-security) – Curated list of security resources.
+- [Microsoft, command line reference](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) – Windows command-line reference.
 - [CyberFlooD SwitchToOpen](https://github.com/CyberFlooD/SwitchToOpen) – Guide to switch from proprietary to open-source security tools.
 - [CNIL, GDPR implications](https://www.cnil.fr/sites/cnil/files/2025-06/cybersecurity-economics-gdpr.pdf) – Economics implications of GDPR.
-- [CNIL, 2025 report](https://www.cnil.fr/en/annual-report-2025)
-- [Abdessabour Boukari, RACI template](https://github.com/abdessabour/RACI-template) *(in French)* – RACI matrix template for SOC/CSIRT roles.
+- [CNIL, 2025 report](https://www.cnil.fr/en/annual-report-2025) - French CNIL's report for 2025.
 - [Sekoia, What is XDR?](https://www.sekoia.io/blog/what-is-xdr/) – Explanation of Extended Detection and Response (XDR).
-- [Rawsec, Tools inventory](https://github.com/rawsec/rawsec-tools-inventory) – Inventory of security tools.
+- [Microsoft, Licensing maps](https://m365maps.com/) – Licensing comparison for Microsoft Defender and Modern Work plans.
+
+
 
 ## SOC sensors, nice to have
 * **Deceptive technology:**
