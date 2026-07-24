@@ -361,15 +361,15 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 ###  **Frameworks & Methodologies**
 - [MITRE, 11 strategies for a world-class SOC](11-strategies-of-a-world-class-cybersecurity-operations-center.pdf) *(PDF included in the repository)* – Comprehensive MITRE guide to building a high-performance SOC.
 - [Microsoft, SOC/IR hierarchy of needs](https://download.microsoft.com/download/E/6/2/E62530BF-47CC-4527-88BA-F13DF5294A65/HierarchyofCybersecurityNeeds.pdf) – Framework for SOC/IR maturity.
-- [Betaalvereniging, TaHiTI (threat hunting methodology)](https://www.betaalvereniging.nl/en/knowledge/threat-hunting-methodology/) – Structured threat hunting methodology.
 - [Hunt.io, PEAK threat hunting framework](https://hunt.io/glossary/peak-threat-hunting-framework) – Framework for advanced threat hunting.
 - [ANSSI (FR), EBIOS RM methodology](https://messervices.cyber.gouv.fr/guides/en-ebios-risk-manager-method) – French risk management methodology.
 - [GMU, Improving Social Maturity of Cybersecurity Incident Response Teams](https://edu.anarcho-copy.org/Against%20Security%20-%20Self%20Security/GMU_Cybersecurity_Incident_Response_Team_social_maturity_handbook.pdf) – Research on CSIRT team dynamics.
+- [Expel, Reduce FP in a SOC](https://expel.com/cyberspeak/reduce-false-positives-in-soc-operations/) - Reduce FP in a SOC.
 
 ###  **Roles & Responsibilities**
 - [CISA, Cyber Defense Incident Responder role](https://www.cisa.gov/careers/work-rolescyber-defense-incident-responder) – Role definition and responsibilities for incident responders.
 
-###  **Threat Intelligence & Hunting**
+###  **Threat Intelligence**
 - [MalAPI, list of Windows API and their potential use in offensive security](https://malapi.io/) – Windows API references for offensive/defensive security.
 - [FireEye, OpenIOC format](https://cloud.google.com/blog/topics/threat-intelligence/openioc-basics/?hl=en) – Open standard for sharing threat intelligence.
 - [Herman Slatman, Awesome Threat Intel](https://github.com/hslatman/awesome-threat-intelligence) – Curated list of threat intelligence resources.
@@ -392,11 +392,6 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 - [Microsoft, Windows 10 and Windows Server 2016 security auditing and monitoring reference](https://www.microsoft.com/en-us/download/details.aspx?id=52630) – Auditing and monitoring guide for Windows.
 - [Medium, Wazuh at the heart of a SOC architecture for public/critical infrastructures](https://medium.com/@wazuh/wazuh-at-the-heart-of-a-soc-architecture-for-public-critical-infrastructures-1234567890) – Use case for Wazuh in SOC architectures.
 - [CyberVigilance, Mitre Engenuity Evaluations 2022 review](https://www.cybervigilance.uk/insights/2022-mitre-att-ck-engenuity-results) – Review of MITRE Engenuity evaluations.
-
-### **French-Specific Resources**
-- [iDNA, how to manage FP in a SOC?](https://www.idna.fr/en/how-to-manage-false-positives-in-a-soc/) *(in French)* – Guide for handling false positives in a SOC.
-- [Soufiane Tahiri, Playbook for ransomware incident response](https://www.linkedin.com/pulse/playbook-for-ransomware-incident-response-soufiane-tahiri/) *(in French)* – Ransomware response playbook.
-
 
 ## 📖 **Nice to Read**
 *Additional resources to expand your knowledge.*
