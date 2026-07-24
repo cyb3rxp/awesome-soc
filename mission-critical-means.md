@@ -38,7 +38,7 @@ The provided recommendations are based on experience and search.
   * My recommendations: [Semperis Directory Services Protector](https://www.semperis.com/active-directory-security/), [Silverfort Identity Security Platform](https://go.silverfort.com/hubfs/eBooks/Silverfort_eBook_How%20to%20stop%20AI-powered%20attacks_June2026.pdf) including for enabling MFA for AD
   * for a one-shot security assessment of AD and Enta ID, I recommend: [Semperis Purple Knight](https://www.semperis.com/purple-knight/)  or [PingCastle](https://www.pingcastle.com/download/)
 * **External Attack Surface Management (EASM)** / External Asset Security Monitoring:
-  * My recommendations: [Intrinsec](https://www.intrinsec.com/en/easm-external-attack-surface-management/), [Mandiant](https://cloud.google.com/security/products/attack-surface-management), [Qualys EASM](https://www.qualys.com/apps/external-attack-surface-management/)
+  * My recommendations: [Intrinsec](https://www.intrinsec.com/en/easm-external-attack-surface-management/), [Mandiant](https://cloud.google.com/security/products/attack-surface-management), [Qualys EASM](https://www.qualys.com/apps/external-attack-surface-management/), [Onyphe](https://www.onyphe.io/asm-pricing.html)
   * for a security check-up/assessment, one-shot:
      * quick security assessment of your website: [ImmuniWeb](https://www.immuniweb.com/websec/)
      * quick global EASM assessment: [Praetorian Pius](https://github.com/praetorian-inc/pius)
@@ -52,6 +52,9 @@ The provided recommendations are based on experience and search.
 * **Mobile Threat Defense:**
   * See the [latest Forrester Wave about MTD](https://reprint.forrester.com/reports/the-forrester-wave-tm-mobile-threat-defense-solutions-q3-2024-fd48faab/index.html)
   * my recommendation : [Zimperium MTD](https://www.zimperium.com/mtd/)
+* **Dark Web monitoring** (data leaks, etc.)
+  * My recommendation: [AIL Framework](https://github.com/CIRCL/AIL-framework)
+  * for paid SaaS solutions, I recommend: [Anozrway](https://anozrway.com/en/personal-protection-application/), or to have a look at this [top 10](https://expertinsights.com/insights/the-top-dark-web-monitoring-solutions/)
    
 
 # Critical tools for CSIRT
