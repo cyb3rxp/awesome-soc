@@ -266,6 +266,7 @@ NB: this is mainly for red/purpleteaming activities.
 * [The best BlackHat and DefCon talks of all time](https://portswigger.net/daily-swig/the-best-black-hat-and-def-con-talks-of-all-time)
 * Paul Jerimy, [Security certification roadmap](https://pauljerimy.com/security-certification-roadmap/)
 * List of the expected legit system services to be found on a Windows 10/11 box, [my Git page](https://github.com/cyb3rxp/awesome-soc/blob/main/legit_Windows_services.md)
+* Splunk, [Quick reference guide](https://www.splunk.com/en_us/resources/splunk-quick-reference-guide.html)
  
 # End
 Go to [main page](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md).
