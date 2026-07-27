@@ -114,6 +114,7 @@ https://www.nist.gov/document/supplementnicespecialtyareasandworkroleksasandtask
   * [Intro to Splunk Security Essentials](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003433?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&amp;categoryId=categ000000000003041&amp;embeddedInTorque=true)
   * [Splunk Enterprise installation & configuration](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003503?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&categoryId=categ000000000003041&embeddedInTorque=true)
   * [Using the monitoring console](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000003639?returnurl=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT,OFFERINGTEMPLATE,CERTIFICATION,CURRICULUM,PLAYLIST,OFFERING,PACKAGE,LXPCONTENT,LEARNINGPATHWAY%3Fadvsearch%3Dtrue&categoryId=categ000000000003041&embeddedInTorque=true)
+  * [The art of investigation](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000018641)
     
   * Attack simulation & investigation: [Splunk attack range](https://github.com/splunk/attack_range_cloud).
 
