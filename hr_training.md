@@ -185,7 +185,8 @@ Not working anymore ATOW: EthicalHackersAcademy, [SOC & SIEM Security program: L
 * Sleuthkit, [Investigating data exfiltration"](https://training.dfirdiva.com/listing/investigating-data-exfiltration-basistech);
 * Embee Research, [Unpacking .Net malware](https://embee-research.ghost.io/unpacking-net-malware-with-process-hacker/);
 * Cybrary, [MITRE ATT&CK threat hunting](https://www.cybrary.it/course/mitre-attack-threat-hunting/);
-* Splunk, [Quick reference guide](https://www.splunk.com/en_us/resources/splunk-quick-reference-guide.html).
+* Splunk, [Introduction to threat hunting (PEAK)](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail;spf-url=common%2Fledetail%2Fcours000000000019621%3Freturnurl%3Dcatalog%252Fbrowse%252Fcateg000000000003041%253Ffilter%253D%25257B%25257D)
+* Splunk, [SOC investigation](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000018641).
 
 ## Certifications
 
