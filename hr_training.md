@@ -182,9 +182,10 @@ Not working anymore ATOW: EthicalHackersAcademy, [SOC & SIEM Security program: L
 * A. Borges, [MAS series](https://exploitreversing.com/2021/12/03/malware-analysis-series-mas-article-1/);
 * [Hack The Box](https://www.hackthebox.com/);
 * Root-me, ["Entretien avec l'ANSSI"-named challenges](https://www.root-me.org/);
-* Sleuthkit, [Investigating data exfiltration"](https://training.dfirdiva.com/listing/investigating-data-exfiltration-basistech)
-* Embee Research, [Unpacking .Net malware](https://embee-research.ghost.io/unpacking-net-malware-with-process-hacker/).
+* Sleuthkit, [Investigating data exfiltration"](https://training.dfirdiva.com/listing/investigating-data-exfiltration-basistech);
+* Embee Research, [Unpacking .Net malware](https://embee-research.ghost.io/unpacking-net-malware-with-process-hacker/);
 * Cybrary, [MITRE ATT&CK threat hunting](https://www.cybrary.it/course/mitre-attack-threat-hunting/);
+* Splunk, [Quick reference guide](https://www.splunk.com/en_us/resources/splunk-quick-reference-guide.html).
 
 ## Certifications
 
@@ -199,7 +200,7 @@ Not working anymore ATOW: EthicalHackersAcademy, [SOC & SIEM Security program: L
 * SANS, [FOR610: Reverse-Engineering Malware: Malware Analysis Tools and Techniques](https://www.sans.org/cyber-security-courses/reverse-engineering-malware-malware-analysis-tools-techniques/).
   
 ### Free certifications:
-* EC-Council, [Digital Forensics Essentials](https://www.coursera.org/learn/digital-forensics-essentials-dfe)
+* EC-Council, [Digital Forensics Essentials](https://www.coursera.org/learn/digital-forensics-essentials-dfe);
 * CrowdSec, [CrowdSec Fundamentals](https://academy.crowdsec.net/course/crowdsec-fundamentals)  [free];
 * Splunk, [free training](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/shared;spf-url=common%2Fsearchresults%2Fxxemptyxx%2FLEARNINGEVENT%252COFFERINGTEMPLATE%252CCERTIFICATION%252CCURRICULUM%252CPLAYLIST%252COFFERING%252CPACKAGE%252CLXPCONTENT%252CLEARNINGPATHWAY%3Fadvsearch%3Dtrue&categoryId%3Dcateg000000000003041).
 
@@ -266,7 +267,7 @@ NB: this is mainly for red/purpleteaming activities.
 * [The best BlackHat and DefCon talks of all time](https://portswigger.net/daily-swig/the-best-black-hat-and-def-con-talks-of-all-time)
 * Paul Jerimy, [Security certification roadmap](https://pauljerimy.com/security-certification-roadmap/)
 * List of the expected legit system services to be found on a Windows 10/11 box, [my Git page](https://github.com/cyb3rxp/awesome-soc/blob/main/legit_Windows_services.md)
-* Splunk, [Quick reference guide](https://www.splunk.com/en_us/resources/splunk-quick-reference-guide.html)
+
  
 # End
 Go to [main page](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md).
