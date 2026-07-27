@@ -20,6 +20,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * MITRE, [Top 25 CWE for 2025](https://www.securityweek.com/mitre-releases-2025-list-of-top-25-most-dangerous-software-vulnerabilities/)
 * RecordedFuture [2025 Cloud Threat hunting landscape](https://www.recordedfuture.com/research/2025-cloud-threat-hunting-defense-landscape)
 * Splunk, [Top 50 cybersecurity threats](https://www.splunk.com/en_us/pdfs/gated/ebooks/top-50-cybersecurity-threats.pdf)
+* Graylog, [Critical Windows events to monitor](https://graylog.org/post/critical-windows-event-ids-to-monitor/)
 * Known exploited vulnerabilities: 
   * CISA [KEV catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
   * OWASP [Top 10 Web Application Security Risks](https://owasp.org/www-project-top-ten/)
@@ -68,7 +69,6 @@ This page deals with SOC detection engineering and management (detection use cas
 
 ### Audit policy / forensics
 * OWASP, [logging cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html)
-* Graylog, [Critical Windows events to monitor](https://graylog.org/post/critical-windows-event-ids-to-monitor/)
 * Microsoft, [Monitoring Active Directory for signs of compromise](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/monitoring-active-directory-for-signs-of-compromise)
 * TheCloudTechnologist, [Microsoft 365 audit & logging](https://thecloudtechnologist.com/2021/10/15/everything-you-wanted-to-know-about-security-and-audit-logging-in-office-365/)
 * Michel de Crevoisier, [Microsoft Eventlog mindmap](https://github.com/mdecrevoisier/Microsoft-eventlog-mindmap)
