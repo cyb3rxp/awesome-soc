@@ -73,6 +73,12 @@ As per MITRE paper (SOC strategies, see [below](https://github.com/cyb3rxp/aweso
 ![image](https://user-images.githubusercontent.com/16035152/186769340-6c621383-d06a-4d48-8c09-f54cc29aaf3c.png)
 
 
+## SOC investigation
+
+If you'd like to see what a SOC investigation looks like, with explanations/comments, I recommend you to do the ["Art of investigation"](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/me/learningeventdetail/cours000000000018641) from Splunk (which is free).
+
+NB: you'll need Splunk/Windows basic knowledge to fully understand it.
+
 # SOC/CERT processes and workflows
 
 ## Incident response lifecycle (detection // incident response):
