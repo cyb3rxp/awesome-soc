@@ -61,7 +61,6 @@ This page deals with SOC detection engineering and management (detection use cas
 * Tsale, [EDR telemetry](https://github.com/tsale/EDR-Telemetry)
 * MITRE [ATT&CK Evaluations: Enterprise, 2025](https://www.withsecure.com/en/about-us/achievements-certification/industry-recognitions/mitre-attck-enterprise-evaluations/)
 * Microsoft [Security Stack Mappings](https://center-for-threat-informed-defense.github.io/security-stack-mappings/Azure/README.html)
-* Splunk, [Using Sysmon & Event Codes for Threat Hunting](https://www.splunk.com/en_us/blog/security/threat-hunting-sysmon-event-codes.html)
 * AWS [Security Stack Mappings](https://center-for-threat-informed-defense.github.io/security-stack-mappings/AWS/README.html)
 ### Link to risk management
 * ANSSI, [EBIOS RM methodology](https://messervices.cyber.gouv.fr/guides/en-ebios-risk-manager-method)
@@ -71,11 +70,13 @@ This page deals with SOC detection engineering and management (detection use cas
 * OWASP, [logging cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html)
 * Microsoft, [Monitoring Active Directory for signs of compromise](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/monitoring-active-directory-for-signs-of-compromise)
 * TheCloudTechnologist, [Microsoft 365 audit & logging](https://thecloudtechnologist.com/2021/10/15/everything-you-wanted-to-know-about-security-and-audit-logging-in-office-365/)
-* Michel de Crevoisier, [Microsoft Eventlog mindmap](https://github.com/mdecrevoisier/Microsoft-eventlog-mindmap)
 * Michel de Crevoisier, [Mapping MITRE ATT&CK with Window Event Log IDs](https://www.socinvestigation.com/mapping-mitre-attck-with-window-event-log-ids/)
 * Mhtcht, [Windows DFIR artifacts collection mindmap](https://github.com/mthcht/awesome-lists/blob/a0d64850bb79902f3e3518489288eb0b62c5d9d8/Lists/CheatSheets/mthcht/windows_dfir_artifacts_collection_mindmap_high_resolution.jpg)
 * Picus Security [Active Directory Security Guide](https://www.picussecurity.com/hubfs/Threat%20Readiness%20-%20Active%20Directory%20Ebook%20-%20Q123/Picus-The-Complete-Active-Directory-Security-Handbook.pdf)
+* NXLog, [Windows event IDs for threat detection](https://nxlog.co/news-and-blog/posts/windows-event-ids-threat-detection)
+* Splunk, [Using Sysmon & Event Codes for Threat Hunting](https://www.splunk.com/en_us/blog/security/threat-hunting-sysmon-event-codes.html)
 * [EventLog Compendium](https://eventlog-compendium.streamlit.app/)
+* Michel de Crevoisier, [Microsoft Eventlog mindmap](https://github.com/mdecrevoisier/Microsoft-eventlog-mindmap)
 * RULER project, [forensics tracks of common security tools](https://ruler-project.github.io/)
 
 ## IT best practices for SOC engineering
