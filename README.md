@@ -402,7 +402,8 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 - [SOC CMM, SOCTOM](https://soc-cmm.com/soc-tom/) – SOC maturity model and tool.
 - [PTES](http://www.pentest-standard.org/index.php/PTES_Technical_Guidelines) – Penetration Testing Execution Standard.
 - [OWASP, WSTG](https://owasp.org/www-project-web-security-testing-guide/) – Web Security Testing Guide.
-- [Threat Hunting Framework](https://hunt.io/glossary/tahiti-threat-hunting-framework) - TaHiTI threat hunting framework
+- [Threat Hunting Framework](https://hunt.io/glossary/tahiti-threat-hunting-framework) - TaHiTI threat hunting framework.
+- [RecordedFuture, Threat Hunting](https://www.recordedfuture.com/blog/cyber-threat-hunting) - Using Threat Intelligence to master modern Threat Hunting.
 
 ### **Cloud & Platforms**
 - [Amazon, AWS Security Fundamentals](https://aws.amazon.com/training/digital/aws-security-fundamentals/) – AWS security best practices.
