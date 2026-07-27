@@ -98,6 +98,7 @@ This page deals with SOC detection engineering and management (detection use cas
 
 ## Operating systems knowledge
 * List of the expected legit system services to be found on a Windows 10/11 box, [my Git page](https://github.com/cyb3rxp/awesome-soc/blob/main/legit_Windows_services.md)
+* Windows events documentation, [Ultimate Windows Security](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx)
 
 # Generic recommended approach
 
