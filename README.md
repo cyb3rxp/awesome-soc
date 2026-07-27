@@ -91,7 +91,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
   * PAN, [Security orchestration for dummies](https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/cortex-xsoar/Security-Orchestration-For-Dummies-Demisto-Special-Edition.pdf)
   * ThreatConnect, [SIRP / SOA / TIP benefits](https://threatconnect.com/blog/realizing-the-benefits-of-security-orchestration-automation-and-response-soar/)
   * Medium, [Compromise assessment methodology](https://evrenbey.medium.com/compromise-assessment-methodology-820910efb6a4)
-  * Hunt.io, [Threat Hunting Framework](https://hunt.io/glossary/tahiti-threat-hunting-framework)
+  * Hunt.io, [Threat hunting framework (PEAK)](https://hunt.io/glossary/peak-threat-hunting-framework)
 * **SOC/CSIRT processes**:
   * NIST, [SP800-61 rev3, incident handling guide](https://csrc.nist.gov/pubs/sp/800/61/r3/ipd)
 * **CSIRT build**:
@@ -402,6 +402,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 - [SOC CMM, SOCTOM](https://soc-cmm.com/soc-tom/) – SOC maturity model and tool.
 - [PTES](http://www.pentest-standard.org/index.php/PTES_Technical_Guidelines) – Penetration Testing Execution Standard.
 - [OWASP, WSTG](https://owasp.org/www-project-web-security-testing-guide/) – Web Security Testing Guide.
+- [Threat Hunting Framework](https://hunt.io/glossary/tahiti-threat-hunting-framework) - TaHiTI threat hunting framework
 
 ### **Cloud & Platforms**
 - [Amazon, AWS Security Fundamentals](https://aws.amazon.com/training/digital/aws-security-fundamentals/) – AWS security best practices.
