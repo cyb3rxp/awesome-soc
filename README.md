@@ -92,7 +92,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
   * ThreatConnect, [SIRP / SOA / TIP benefits](https://threatconnect.com/blog/realizing-the-benefits-of-security-orchestration-automation-and-response-soar/)
   * Medium, [Compromise assessment methodology](https://evrenbey.medium.com/compromise-assessment-methodology-820910efb6a4)
   * Hunt.io, [Threat hunting framework (PEAK)](https://hunt.io/glossary/peak-threat-hunting-framework)
-* **SOC/CSIRT processes**:
+* **Incident response specific process/lifecycle**:
   * NIST, [SP800-61 rev3, incident handling guide](https://csrc.nist.gov/pubs/sp/800/61/r3/ipd)
 * **CSIRT build**:
   * ENISA, [How to set-up a CSIRT and SOC](https://www.enisa.europa.eu/publications/how-to-set-up-csirt-and-soc)
@@ -431,6 +431,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 - [CNIL, 2025 report](https://www.cnil.fr/en/annual-report-2025) - French CNIL's report for 2025.
 - [Sekoia, What is XDR?](https://www.sekoia.io/blog/what-is-xdr/) – Explanation of Extended Detection and Response (XDR).
 - [Microsoft, Licensing maps](https://m365maps.com/) – Licensing comparison for Microsoft Defender and Modern Work plans.
+- [SANS cheat sheets](https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets) - Ultimate list of (free) Cheat sheets.
 
 
 
