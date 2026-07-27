@@ -92,6 +92,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * Mandiant, [vSphere Brickstorm defender guide](https://cloud.google.com/blog/topics/threat-intelligence/vsphere-brickstorm-defender-guide?hl=en)
 * HackingArticles, [Windows Privilege Escalation SeTcbPrivilege](https://www.hackingarticles.in/windows-privilege-escalation-setcbprivilege/)
 * Moond4rk, [HackBrowserData](https://github.com/moond4rk/HackBrowserData)
+* CheckPoint, [Sandbox evasion techniques](https://evasions.checkpoint.com/src/Evasions/techniques/timing.html)
 * [LOLBAS](https://lolbas-project.github.io/): Living Off The Land Binaries, Scripts and Libraries
 * [GTFOBins](https://gtfobins.org/): curated list of Unix-like executables that can be used to bypass local security restrictions in misconfigured systems
 
