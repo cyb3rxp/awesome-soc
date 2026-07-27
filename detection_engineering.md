@@ -27,6 +27,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * NIST [AI 800-4](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.800-4.pdf): Challenges to the Monitoring of Deployed AI Systems
 * CyberSecurityForMe, [Microsoft Copilot Security vulnerabilities and countermeasures](https://cybersecurityforme.com/copilot-security-vulnerabilities-and-safety-measures-for-enterprises/)
 * My [recommended list of sources](https://github.com/cyb3rxp/awesome-soc/blob/main/watch.md)
+
 ## SIEM rules publications
   * [Clankerusecase (threat-led detection library)](https://clankerusecase.com/) — free, ATT&CK-mapped detections in Defender/Sentinel KQL, Sigma, Splunk SPL, Datadog, Falcon and CloudWatch, generated from public threat intel.
   * [Sigma HQ (detection rules)](https://github.com/SigmaHQ/sigma/tree/master/rules) 
@@ -34,11 +35,14 @@ This page deals with SOC detection engineering and management (detection use cas
   * Splunk [Stories for Office 365](https://research.splunk.com/stories/office_365_collection_techniques/)
   * [Michel De Crevoisier's Git](https://github.com/mdecrevoisier/SIGMA-detection-rules)
   * [SOC Prime](https://socprime.com/)
+
 ## SIEM standards
 * Yogosha, [SIGMA Rules: how to standardize detections for any SIEM](https://yogosha.com/blog/sigma-rules/)
 * UncoderIO, [RootA](https://github.com/UncoderIO/RootA)
-## SecOps activities
+
+## Purple teaming activities
 * Ch33r10, [Enterprise purple teaming](https://github.com/ch33r10/EnterprisePurpleTeaming)
+
 ## Detection engineering
 ### Frameworks
 * MITRE [D3FEND](https://d3fend.mitre.org/)
@@ -56,6 +60,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * Tsale, [EDR telemetry](https://github.com/tsale/EDR-Telemetry)
 * MITRE [ATT&CK Evaluations: Enterprise, 2025](https://www.withsecure.com/en/about-us/achievements-certification/industry-recognitions/mitre-attck-enterprise-evaluations/)
 * Microsoft [Security Stack Mappings](https://center-for-threat-informed-defense.github.io/security-stack-mappings/Azure/README.html)
+* Splunk, [Using Sysmon & Event Codes for Threat Hunting](https://www.splunk.com/en_us/blog/security/threat-hunting-sysmon-event-codes.html)
 * AWS [Security Stack Mappings](https://center-for-threat-informed-defense.github.io/security-stack-mappings/AWS/README.html)
 ### Link to risk management
 * ANSSI, [EBIOS RM methodology](https://messervices.cyber.gouv.fr/guides/en-ebios-risk-manager-method)
@@ -452,7 +457,6 @@ The idea here is to follow the 'as-code' approach, wherever possible, with a cen
 * BrightTalk/Lacework, [CSPM comparison](https://www.brighttalk.com/webcast/18905/540127?player-preauth=xF5kcx%2FJ1zQGynPog7QyfHEnVg7fUDuwzbjCLWvJ75U%3D&utm_source=brighttalk-promoted&utm_medium=email&utm_term=Audience579476&utm_campaign=AUD-14239&utm_content=2023-05-17)
 * Mthcht, [Detection of C2 hiding in legit API services](https://github.com/mthcht/Purpleteam/blob/main/Detection/Threat%20Hunting/generic/C2_abusing_API_services.md)
 * Soteria-Security, [365Inspect](https://github.com/soteria-security/365Inspect)
-* CheckPoint, [Sandbox evasion techniques](https://evasions.checkpoint.com/src/Evasions/techniques/timing.html)
 * Quest, [9 best practices to improve AD security](https://www.quest.com/docs/nine-best-practices-to-improve-active-directory-security-and-cyber-resilience-ebook-25678.pdf)
 * Politoinc, [LDAP queries for offensive and defensive OPS](https://www.politoinc.com/post/ldap-queries-for-offensive-and-defensive-operations)
  
