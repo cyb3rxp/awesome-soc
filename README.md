@@ -149,7 +149,7 @@ paths, and codifying those into SOPs and playbooks. Determine the priorities of 
 the organization and allocate the resources to respond. Execute response with precision and
 care toward constituency mission and business.
 
-## Dedicated page
+## 🔗 Dedicated page
 Cf. [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md).
 
 
@@ -162,7 +162,7 @@ collected by network and host systems, cloud resources, applications, and sensor
 the trade-offs of too little data and therefore not having the relevant information available and
 too much data such that tools and analysts become overwhelmed.
 
-## Dedicated page
+## 🔗 Dedicated page
 Cf. [Mission-critical means](https://github.com/cyb3rxp/awesome-soc/blob/main/mission-critical-means.md)
 
 
@@ -175,7 +175,7 @@ Cf. [Mission-critical means](https://github.com/cyb3rxp/awesome-soc/blob/main/mi
 workflow. Consider how the many SOC tools, including SIEM, UEBA, SOAR, and others fit
 in with the organization’s technical landscape, to include cloud and OT environments
 
-## Dedicated page
+## 🔗 Dedicated page
 Cf. [SOC internals/core](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_internals.md)
 
 
@@ -188,7 +188,7 @@ Cf. [SOC internals/core](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_in
 workflow. Consider how the many SOC tools, including SIEM, UEBA, SOAR, and others fit
 in with the organization’s technical landscape, to include cloud and OT environments
 
-## Dedicated page
+## 🔗 Dedicated page
 Cf. [AI (ML, LLM, Agentic AI...)](https://github.com/cyb3rxp/awesome-soc/blob/main/ml_llm_ai.md)
 
 
@@ -200,7 +200,7 @@ Cf. [AI (ML, LLM, Agentic AI...)](https://github.com/cyb3rxp/awesome-soc/blob/ma
 adversary information, organization relevancy, and technical environment to prioritize
 defenses, monitoring, and other actions.
 
-## Dedicated page
+## 🔗 Dedicated page
 Cf. [Watch](https://github.com/cyb3rxp/awesome-soc/blob/main/watch.md)
 
 # SOAR
@@ -212,7 +212,7 @@ workflow. Consider how the many SOC tools, including SIEM, UEBA, SOAR, and other
 in with the organization’s technical landscape, to include cloud and OT environments.
 
 
-## Dedicated page
+## 🔗 Dedicated page
 Cf. [SOAR](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md)
 
 
@@ -238,7 +238,7 @@ improve the SOCs operating ability and increase the likelihood of finding more s
 adversaries.
 
 
-## Dedicated page
+## 🔗 Dedicated page
 Cf. [detection engineering](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md).
 
 
@@ -250,7 +250,7 @@ Cf. [detection engineering](https://github.com/cyb3rxp/awesome-soc/blob/main/det
 adversary information, organization relevancy, and technical environment to prioritize
 defenses, monitoring, and other actions.
 
-## Dedicated page
+## 🔗 Dedicated page
 Cf. [threat intelligence](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_intelligence.md).
 
 
@@ -259,7 +259,7 @@ Cf. [threat intelligence](https://github.com/cyb3rxp/awesome-soc/blob/main/threa
 
 Based on experience, I propose a few SOP (Standard Operating Procedures), that one may want to call playbooks.
 
-## Dedicated pages
+## 🔗 Dedicated pages
 
 - [Windows malware critical controls](https://github.com/cyb3rxp/awesome-soc/blob/main/sop_malware_critical_controls.md)
 - [Microsoft 365 and Entra ID compromise assessment](https://github.com/cyb3rxp/awesome-soc/blob/main/sop_M365_compromise_assessment.md)
@@ -295,7 +295,7 @@ improve the SOCs operating ability and increase the likelihood of finding more s
 adversaries.
 
 
-## Dedicated page
+## 🔗 Dedicated page
 Cf. [Management](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md).
 
 
@@ -307,7 +307,7 @@ Cf. [Management](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md)
 improve. A SOC metrics program includes business objectives, data sources and collection,
 data synthesis, reporting, and decision-making and action
 
-## Dedicated page
+## 🔗 Dedicated page
 Cf. [SOC metrics (KPI/SLA)](https://github.com/cyb3rxp/awesome-soc/blob/main/metrics-kpi.md)
 
 
@@ -321,7 +321,7 @@ progression opportunities and great culture and operating environment. Plan for 
 and build a pipeline to hire. Consider how many personnel are needed for the different SOC
 functions.
 
-## Dedicated page
+## 🔗 Dedicated page
 Cf. [HR and training](https://github.com/cyb3rxp/awesome-soc/blob/main/hr_training.md).
 
 
