@@ -143,7 +143,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 ## Concepts, tools, missions, attack lifecycle, red/blue/purple teams
 
 ## MITRE references
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 5: Prioritize Incident Response, pages 101-123,
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 5: Prioritize Incident Response, pages 125-150,
 > Prepare for handling incidents by defining incident categories, response steps, and escalation
 paths, and codifying those into SOPs and playbooks. Determine the priorities of incidents for
 the organization and allocate the resources to respond. Execute response with precision and
@@ -156,7 +156,7 @@ Cf. [SOC/CSIRT Basic and fundamental concepts](https://github.com/cyb3rxp/awesom
 # Mission-critical means (tools/sensors)
 
 ## MITRE reference
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 7: Select and Collect the Right Data, pages 101-123,
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 7: Select and Collect the Right Data, pages 179-240,
 > Choose data by considering relative value of different data types such as sensor and log data
 collected by network and host systems, cloud resources, applications, and sensors. Consider
 the trade-offs of too little data and therefore not having the relevant information available and
@@ -170,7 +170,7 @@ Cf. [Mission-critical means](https://github.com/cyb3rxp/awesome-soc/blob/main/mi
 
 ## MITRE reference
 
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 8: Leverage Tools to Support Analyst Workflow, pages 101-123,
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 8: Leverage Tools to Support Analyst Workflow, pages 241-284,
 > Consolidate and harmonize views into tools and data and integrate them to maximize SOC
 workflow. Consider how the many SOC tools, including SIEM, UEBA, SOAR, and others fit
 in with the organization’s technical landscape, to include cloud and OT environments
@@ -183,7 +183,7 @@ Cf. [SOC internals/core](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_in
 
 ## MITRE reference
 
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 8: Leverage Tools to Support Analyst Workflow, pages 101-123,
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 8: Leverage Tools to Support Analyst Workflow, pages 241-284,
 > Consolidate and harmonize views into tools and data and integrate them to maximize SOC
 workflow. Consider how the many SOC tools, including SIEM, UEBA, SOAR, and others fit
 in with the organization’s technical landscape, to include cloud and OT environments
@@ -195,7 +195,7 @@ Cf. [AI (ML, LLM, Agentic AI...)](https://github.com/cyb3rxp/awesome-soc/blob/ma
 # IT/security Watch 
 
 ## MITRE reference
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 6: Illuminate Adversaries with Cyber Threat Intelligence, pages 101-123,
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 6: Illuminate Adversaries with Cyber Threat Intelligence, pages 151-176,
 > Tailor the collection and use of cyber threat intelligence by analyzing the intersection of
 adversary information, organization relevancy, and technical environment to prioritize
 defenses, monitoring, and other actions.
@@ -206,7 +206,7 @@ Cf. [Watch](https://github.com/cyb3rxp/awesome-soc/blob/main/watch.md)
 # SOAR
 
 ## MITRE reference
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 8: Leverage Tools to Support Analyst Workflow, pages 101-123,
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 8: Leverage Tools to Support Analyst Workflow, pages 241-284,
 > Consolidate and harmonize views into tools and data and integrate them to maximize SOC
 workflow. Consider how the many SOC tools, including SIEM, UEBA, SOAR, and others fit
 in with the organization’s technical landscape, to include cloud and OT environments.
@@ -219,19 +219,19 @@ Cf. [SOAR](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md)
 # Detection engineering
 
 ## MITRE references
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 1: Know What You Are Protecting and Why, pages 101-123,
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 1: Know What You Are Protecting and Why, pages 27-40,
 > Develop situational awareness through understanding the mission; legal regulatory
 environment; technical and data environment; user, user behaviors and service interactions;
 and the threat. Prioritize gaining insights into critical systems and data and iterate understanding
 over time.
 
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 7: Select and Collect the Right Data, pages 101-123, 
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 7: Select and Collect the Right Data, pages 179-240, 
 > Choose data by considering relative value of different data types such as sensor and log data
 collected by network and host systems, cloud resources, applications, and sensors. Consider
 the trade-offs of too little data and therefore not having the relevant information available and
 too much data such that tools and analysts become overwhelmed.
 
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 11: Turn up the Volume by Expanding SOC Functionality, pages 101-123,
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 11: Turn up the Volume by Expanding SOC Functionality, pages 319-356,
 > Enhance SOC activities to include threat hunting, red teaming, deception, malware analysis,
 forensics, and/or tabletop exercises, once incident response is mature. Any of these can
 improve the SOCs operating ability and increase the likelihood of finding more sophisticated
@@ -269,22 +269,26 @@ Based on experience, I propose a few SOP (Standard Operating Procedures), that o
 # Management
 
 ## MITRE references
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 1: Know What You Are Protecting and Why, pages 101-123
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 1: Know What You Are Protecting and Why, pages 27-40
 > Develop situational awareness through understanding the mission; legal regulatory
 environment; technical and data environment; user, user behaviors and service interactions;
 and the threat. Prioritize gaining insights into critical systems and data and iterate understanding
 over time.
 
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 2: Give the SOC the Authority to Do Its Job, pages 41-50
+> Empower the SOC to carry out the desired functions, scope, partnerships, and responsibilities
+through an approved charter and the SOCs alignment within the organization
+
 * [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 3: Build a SOC Structure to Match Your Organizational Needs, pages 101-123
 > Structure SOCs by considering the constituency, SOC functions and responsibilities, service
 availability, and any operational efficiencies gained by selecting one construct over another
 
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 9: Communicate Clearly, Collaborate Often, Share Generously, pages 101-123
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 9: Communicate Clearly, Collaborate Often, Share Generously, pages 285-298
 > Engage within the SOC, with stakeholders and constituents, and with the broader cyber
 community to evolve capabilities and contribute to the overall security of the broader
 community.
 
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 11: Turn up the Volume by Expanding SOC Functionality, pages 101-123
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 11: Turn up the Volume by Expanding SOC Functionality, pages 319-356
 > Enhance SOC activities to include threat hunting, red teaming, deception, malware analysis,
 forensics, and/or tabletop exercises, once incident response is mature. Any of these can
 improve the SOCs operating ability and increase the likelihood of finding more sophisticated
@@ -298,7 +302,7 @@ Cf. [Management](https://github.com/cyb3rxp/awesome-soc/blob/main/management.md)
 # SOC metrics (KPI/SLA)
 
 ## MITRE reference
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 10: Measure Performance to Improve Performance, pages 101-123
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 10: Measure Performance to Improve Performance, pages 301-318
 > Determine qualitative and quantitative measures to know what is working well, and where to
 improve. A SOC metrics program includes business objectives, data sources and collection,
 data synthesis, reporting, and decision-making and action
@@ -311,7 +315,7 @@ Cf. [SOC metrics (KPI/SLA)](https://github.com/cyb3rxp/awesome-soc/blob/main/met
 # HR and training
 
 ## MITRE reference
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 4: Hire AND Grow Quality Staff, pages 101-123
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 4: Hire AND Grow Quality Staff, pages 101-124
 > Create an environment to attract the right people and encourage them to stay through career
 progression opportunities and great culture and operating environment. Plan for turnover
 and build a pipeline to hire. Consider how many personnel are needed for the different SOC
