@@ -45,8 +45,8 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 ## Knowledge bases
 * Jivoi, [Awesome ML for cybersecurity](https://github.com/jivoi/awesome-ml-for-cybersecurity)
 
-## EU context/regulations
-* EU [Action Plan on Cybersecurity and Artificial Intelligence](https://ec.europa.eu/newsroom/dae/redirection/document/130848)
+## European Union context/regulations
+* EU, [Action Plan on Cybersecurity and Artificial Intelligence](https://ec.europa.eu/newsroom/dae/redirection/document/130848)
 
 
 # Machine learning use cases 
