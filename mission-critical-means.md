@@ -90,6 +90,7 @@ The provided recommendations are based on experience and search.
        * For GWS specifically:
          * [ALFA](https://github.com/invictus-ir/ALFA)
        * For Azure / GCP / AWS:
+         * [Cynative](https://github.com/cynative/cynative)
          * [ScootSuite](https://github.com/nccgroup/ScoutSuite)
 * **On-demand volatile data collection tool**:
   * My recommendations: [FastIR](https://github.com/OWNsecurity/fastir_artifacts), [VARC](https://github.com/cado-security/varc), [FireEye Redline](https://fireeye.market/apps/211364), [DFIR-ORC](https://github.com/dfir-orc);
