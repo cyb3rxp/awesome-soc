@@ -434,7 +434,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 - [CyberFlooD SwitchToOpen](https://github.com/CyberFlooD/SwitchToOpen) – Guide to switch from proprietary to open-source security tools.
 - [CNIL, GDPR implications](https://www.cnil.fr/sites/cnil/files/2025-06/cybersecurity-economics-gdpr.pdf) – Economics implications of GDPR.
 - [CNIL, 2025 report](https://www.cnil.fr/en/annual-report-2025) - French CNIL's report for 2025.
-- [Sekoia, What is XDR?](https://www.sekoia.io/blog/what-is-xdr/) – Explanation of Extended Detection and Response (XDR).
+- [Sekoia, What is XDR?](https://www.sekoia.com/glossary/xdr) – Explanation of Extended Detection and Response (XDR).
 - [Microsoft, Licensing maps](https://m365maps.com/) – Licensing comparison for Microsoft Defender and Modern Work plans.
 - [SANS cheat sheets](https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets) - Ultimate list of (free) Cheat sheets.
 
