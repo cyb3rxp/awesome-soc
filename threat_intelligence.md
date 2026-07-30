@@ -86,7 +86,7 @@ Here are my recommendations:
 
 ## Common TIP integrations (dataflow)
 
-As per [Forrester article](https://www.forrester.com/blogs/15-11-07-starting_soon_threat_intelligence_platforms_research_0/), here is a drawing about examples of common integration between threat intel sources, TIP, and security solutions:
+As per [Forrester article](http://web.archive.org/web/20251012051621/https://www.forrester.com/blogs/15-11-07-starting_soon_threat_intelligence_platforms_research_0/), here is a drawing about examples of common integration between threat intel sources, TIP, and security solutions:
 
 ![image](https://user-images.githubusercontent.com/16035152/232339967-dfa4bab5-79eb-496c-ac19-6d7e3e98af92.png)
 
