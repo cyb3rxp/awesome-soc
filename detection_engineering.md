@@ -42,6 +42,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * UncoderIO, [RootA](https://github.com/UncoderIO/RootA)
 
 ## Purple teaming activities
+* Group-IB, [Purple teaming](https://www.group-ib.com/services/purple-teaming/)
 * Ch33r10, [Enterprise purple teaming](https://github.com/ch33r10/EnterprisePurpleTeaming)
 
 ## Detection engineering
