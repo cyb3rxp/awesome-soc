@@ -57,19 +57,19 @@ https://www.nist.gov/document/supplementnicespecialtyareasandworkroleksasandtask
 # Recommended SOC trainings
 
 ## Must read/watch
+* PaloAlto, [Fundamentals of SOC](https://beacon.paloaltonetworks.com/student/path/521672-the-fundamentals-of-soc-security-operations-center), mainly modules 1 to 8 :) [free]
+* CrowdSec [Free trainings](https://academy.crowdsec.net/courses)
 * MITRE, [Purple teaming fundamentals](https://attack.mitre.org/resources/learn-more-about-attack/training/purple-teaming-fundamentals/)
 * Cybrary, [MITRE ATT&CK threat hunting](https://www.cybrary.it/course/threat-hunting-with-windows-event-forwarding); [free]
 * Cybrary, [MITRE ATT&CK Defender certification](https://help.cybrary.it/where-is-the-mitre-attck-defender-certification-content);  [paid]
 
 
 ## Regular trainings & challenges
-* PaloAlto, [Fundamentals of SOC](https://beacon.paloaltonetworks.com/student/path/521672-the-fundamentals-of-soc-security-operations-center), mainly modules 1 to 8 :) [free]
 * LetsDefend, [Fundamentals of SOC](https://app.letsdefend.io/training/lessons/soc-fundamentals); [partly free]
 * [InfoSecLabs](https://infoseclabs.io/), Hands-on SOC analyst training platform with real-world breach scenarios, 108+ CTF challenges; [partly free]
 * Active Directory specifics:
    * train on AD specific attacks, [Orange Cyberdefense GOAD](https://github.com/Orange-Cyberdefense/GOAD) [free];
      * Populate AD with "real life" objects, in an automated way, [Badblood](https://github.com/davidprowe/badblood).
-* CrowdSec [Free trainings](https://academy.crowdsec.net/courses)
 
 ## Challenges
 * [**BlueTeamLabs** challenges and investigations](https://blueteamlabs.online/home/challenges), here are a few free trainings that I recommend:
