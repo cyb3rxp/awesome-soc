@@ -178,7 +178,6 @@ Not working anymore ATOW: EthicalHackersAcademy, [SOC & SIEM Security program: L
 # Recommended CERT/CSIRT trainings
 
 ## Must read/watch:
-* Microsoft, [New threat actor naming taxonomy](https://www.microsoft.com/en-us/security/blog/2023/04/18/microsoft-shifts-to-a-new-threat-actor-naming-taxonomy/)
 * Mariusz Banach, [Techniques Across the Kill-Chain](https://www.youtube.com/watch?v=IbA7Ung39o4)
 * DFIRReport, [Cobalt Strike Defender's guide](https://thedfirreport.com/2021/08/29/cobalt-strike-a-defenders-guide/)
 * NATO, [reverse engineering handbook](https://www.linkedin.com/posts/julienprovenzano_malware-reverse-engineering-handbook-ugcPost-7216606319305187328-rGG2?utm_source=share&utm_medium=member_android )
@@ -225,6 +224,10 @@ Not working anymore ATOW: EthicalHackersAcademy, [SOC & SIEM Security program: L
 
 
 # Recommended CTI trainings
+
+## Most read/watch
+* Microsoft, [New threat actor naming taxonomy](https://www.microsoft.com/en-us/security/blog/2023/04/18/microsoft-shifts-to-a-new-threat-actor-naming-taxonomy/)
+* Google, [Updated cyber threat actor naming system](https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system?hl=en)
 
 ## Certifications 
 * RecordedFuture, [Cyber Threat Intelligence Fundamentals](https://university.recordedfuture.com/page/intelligence-fundamentals-certification)  
