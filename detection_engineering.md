@@ -365,7 +365,7 @@ On top of community SIEM rules, I wanted to highlight the following ones, that I
 * C2 beaconing over DNS:
   * See [this Splunk article](https://lantern.splunk.com/Security/Use_Cases/Threat_Hunting/Monitoring_a_network_for_DNS_exfiltration/Signs_of_beaconing_activity), and [this one](https://www.splunk.com/en_us/blog/security/hunting-your-dns-dragons.html);
   * See [this blog article](http://findingbad.blogspot.com/2018/03/c2-hunting.html);
-  * See [this presentation](https://www.x33fcon.com/archive/2019/slides/x33fcon19_Hunting_Beacons_Bartek.pdf), hypothesis #2.
+  * See [this presentation](http://web.archive.org/web/20240704124951/https://www.x33fcon.com/archive/2019/slides/x33fcon19_Hunting_Beacons_Bartek.pdf), hypothesis #2.
 
 ### Newly accessed domains:
 * Typically landing page for infection, or C&C;
