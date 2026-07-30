@@ -448,15 +448,16 @@ The idea here is to follow the 'as-code' approach, wherever possible, with a cen
 
 ## Must read
 
-* Synaktiv, [Traces of Windows Remote Command Execution](https://www.synacktiv.com/en/publications/traces-of-windows-remote-command-execution.html)
+* SANS, [Purple teaming threat informed detection engineering](https://www.sans.org/blog/purple-teaming-threat-informed-detection-engineering)
 * InfosecB, [Awesome Detection Engineering](https://github.com/infosecB/awesome-detection-engineering)
 * 0xsyr0, [Awesome Cybersecurity handbook: SIEM](https://github.com/0xsyr0/Awesome-Cybersecurity-Handbooks/blob/main/handbooks/siem.md)
-* Naksyn, [Operating into EDRs blindspot](https://www.naksyn.com/edr%20evasion/2022/09/01/operating-into-EDRs-blindspot.html)
 * [MAGMA](https://www.betaalvereniging.nl/wp-content/uploads/FI-ISAC-use-case-framework-verkorte-versie.pdf), use case management framework.
 * Palantir, [ADS Framework](https://github.com/palantir/alerting-detection-strategy-framework), Alerting and Detection Strategies framework.
+* Naksyn, [Operating into EDRs blindspot](https://www.naksyn.com/edr%20evasion/2022/09/01/operating-into-EDRs-blindspot.html)
 * Splunk, [Detection Deep dive](https://on24static.akamaized.net/event/39/91/78/5/rt/1/documents/resourceList1669214675158/splunkwebinarslidesdetectiondeepdive1669214674061.pdf).
 * NIST, [IR 8286D: BIA and Risk Prioritization](https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8286D.pdf)
 * BrightTalk/Lacework, [CSPM comparison](https://www.brighttalk.com/webcast/18905/540127?player-preauth=xF5kcx%2FJ1zQGynPog7QyfHEnVg7fUDuwzbjCLWvJ75U%3D&utm_source=brighttalk-promoted&utm_medium=email&utm_term=Audience579476&utm_campaign=AUD-14239&utm_content=2023-05-17)
+* Synaktiv, [Traces of Windows Remote Command Execution](https://www.synacktiv.com/en/publications/traces-of-windows-remote-command-execution.html)
 * Mthcht, [Detection of C2 hiding in legit API services](https://github.com/mthcht/Purpleteam/blob/main/Detection/Threat%20Hunting/generic/C2_abusing_API_services.md)
 * Soteria-Security, [365Inspect](https://github.com/soteria-security/365Inspect)
 * Quest, [9 best practices to improve AD security](https://www.quest.com/docs/nine-best-practices-to-improve-active-directory-security-and-cyber-resilience-ebook-25678.pdf)
