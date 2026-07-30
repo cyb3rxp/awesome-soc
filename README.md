@@ -14,7 +14,7 @@ Those are my view, based on my own experience as SOC/CSIRT analyst and team mana
 
 My motto is: without reaction (response), detection is useless.
 
-NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to incident response activity. CERT is a well-known (formerly) US trademark, managed by [CERT-CC](https://www.sei.cmu.edu/about/divisions/cert/index.cfm), but I prefer the term [CSIRT](https://www.enisa.europa.eu/sites/default/files/publications/Incident_Management_guide.pdf) as it precisely refers to incident response.
+NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to incident response activity. CERT is a well-known (formerly) US trademark, managed by [CERT-CC](https://www.sei.cmu.edu/divisions/cert/), but I prefer the term [CSIRT](https://www.enisa.europa.eu/sites/default/files/publications/Incident_Management_guide.pdf) as it precisely refers to incident response.
 
 
 # Table of Contents
