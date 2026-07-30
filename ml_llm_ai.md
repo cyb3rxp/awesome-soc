@@ -134,4 +134,10 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 * **Field feedback:** can be useful but may lead to wrong assumptions if analysts don't take the time to deep dive and search, to go beyond the first GenAI results.
 
 
+# AI-related marketing jokes/mistakes
+
+* IBM, [AI in cybersecurity](https://www.youtube.com/watch?v=4QzBdeUQ0Dc):
+   * according to that guy, when a user gets connected to the IP address of a web domain, where an URL for the same domain points to a malicious file, then that means the user has been infected by the malicious file...
+   * OK, so the URL and the IP address designate the same things, according to IBM experts? Seriously? 
+
 
