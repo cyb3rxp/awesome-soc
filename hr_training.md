@@ -64,7 +64,7 @@ https://www.nist.gov/document/supplementnicespecialtyareasandworkroleksasandtask
 * Cybrary, [MITRE ATT&CK Defender certification](https://help.cybrary.it/where-is-the-mitre-attck-defender-certification-content);  [paid]
 
 
-## Regular trainings & challenges
+## Hands-on trainings
 * LetsDefend, [Fundamentals of SOC](https://app.letsdefend.io/training/lessons/soc-fundamentals); [partly free]
 * [InfoSecLabs](https://infoseclabs.io/), Hands-on SOC analyst training platform with real-world breach scenarios, 108+ CTF challenges; [partly free]
 * Active Directory specifics:
@@ -72,6 +72,7 @@ https://www.nist.gov/document/supplementnicespecialtyareasandworkroleksasandtask
      * Populate AD with "real life" objects, in an automated way, [Badblood](https://github.com/davidprowe/badblood).
 
 ## Challenges
+* [**InfoSecLabs**](https://infoseclabs.io/): Hands-on SOC analyst training platform with real-world breach scenarios, 108+ CTF challenges; [partly free]
 * [**BlueTeamLabs** challenges and investigations](https://blueteamlabs.online/home/challenges), here are a few free trainings that I recommend:
    * https://blueteamlabs.online/home/challenge/the-report-ii-82ea7781c5;
    * https://blueteamlabs.online/home/challenge/the-report-a6dd340dba;
