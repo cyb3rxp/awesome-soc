@@ -119,7 +119,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 * **Elements to be analyzed:** reports (PDF), blog posts and KB articles
 * **Use of GenAI:** quickly summarize the reports and texts, to get the most important part of them with a global understanding
 * **Field feedback:** really efficient and relevant
-* **Real life example:** ask ChatGPT, or [Mistral AI](https://mistral.ai/products/vibe/) to summarize the following [CTI report from Sekoia](https://blog.sekoia.io/oysterloader-unmasked-the-multi-stage-evasion-loader/), which is supposed to take **19min** to read. The generated sum-up would only take 4-5 min reading :)
+* **Real life example:** ask ChatGPT, or [Mistral AI](https://mistral.ai/products/vibe/) to summarize the following [CTI report from Sekoia](https://www.sekoia.com/blog/oysterloader-unmasked-the-multi-stage-evasion-loader/), which is supposed to take **19min** to read. The generated sum-up would only take 4-5 min reading :)
 
 
 
