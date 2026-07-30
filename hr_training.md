@@ -56,10 +56,15 @@ https://www.nist.gov/document/supplementnicespecialtyareasandworkroleksasandtask
 
 # Recommended SOC trainings
 
-## Regular trainings
+## Most read/watch
+* MITRE, [Purple teaming fundamentals](https://attack.mitre.org/resources/learn-more-about-attack/training/purple-teaming-fundamentals/)
+* Cybrary, [MITRE ATT&CK threat hunting](https://www.cybrary.it/course/threat-hunting-with-windows-event-forwarding); [free]
+* Cybrary, [MITRE ATT&CK Defender certification](https://help.cybrary.it/where-is-the-mitre-attck-defender-certification-content);  [paid]
+
+
+## Regular trainings & challenges
 * PaloAlto, [Fundamentals of SOC](https://beacon.paloaltonetworks.com/student/path/521672-the-fundamentals-of-soc-security-operations-center), mainly modules 1 to 8 :) [free]
 * LetsDefend, [Fundamentals of SOC](https://app.letsdefend.io/training/lessons/soc-fundamentals); [partly free]
-* [Cybrary, MITRE ATT&CK threat hunting](https://www.cybrary.it/course/mitre-attack-threat-hunting/); [partly free]
 * [InfoSecLabs](https://infoseclabs.io/), Hands-on SOC analyst training platform with real-world breach scenarios, 108+ CTF challenges; [partly free]
 * Active Directory specifics:
    * train on AD specific attacks, [Orange Cyberdefense GOAD](https://github.com/Orange-Cyberdefense/GOAD) [free];
