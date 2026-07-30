@@ -61,8 +61,6 @@ https://www.nist.gov/document/supplementnicespecialtyareasandworkroleksasandtask
 * CrowdSec [Free trainings](https://academy.crowdsec.net/courses)
 * MITRE, [Purple teaming fundamentals](https://attack.mitre.org/resources/learn-more-about-attack/training/purple-teaming-fundamentals/)
 * Cybrary, [MITRE ATT&CK threat hunting](https://www.cybrary.it/course/threat-hunting-with-windows-event-forwarding); [free]
-* Cybrary, [MITRE ATT&CK Defender certification](https://help.cybrary.it/where-is-the-mitre-attck-defender-certification-content);  [paid]
-
 
 ## Hands-on trainings
 * LetsDefend, [Fundamentals of SOC](https://app.letsdefend.io/training/lessons/soc-fundamentals); [partly free]
@@ -150,6 +148,8 @@ https://www.nist.gov/document/supplementnicespecialtyareasandworkroleksasandtask
 * Cybrary, [CyberSecurity Fundamentals](https://app.cybrary.it/browse/assessment/cybersecurity-fundamentals);
 * Cybrary, [Defensive Security Fundamentals](https://app.cybrary.it/browse/assessment/defensive-security-fundamentals);
 * Microsoft, [Microsoft Sentinel Ninja](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR1irKnVJZ_RBhccteqa39A9UN08wTjY4MzROVDhUUFRZRTgwME1HSUlFQS4u);
+* Splunk, [SOC investigation](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/catalog/search?searchText=%22introduction%20to%20Threat%20Hunting%22)
+* Splunk, [Intro to threat hunting](https://education.splunk.com/Saba/Web_spf/NA10P2PRD105/app/catalog/search?searchText=%22introduction%20to%20Threat%20Hunting%22)
 * Amazon, [AWS Security Fundamentals](https://aws.amazon.com/training/digital/aws-security-fundamentals/?nc1=h_ls).
 
 
@@ -158,6 +158,7 @@ https://www.nist.gov/document/supplementnicespecialtyareasandworkroleksasandtask
 * SANS [SEC555: SIEM with tactical analytics](https://www.sans.org/cyber-security-courses/siem-with-tactical-analytics/);
 * SANS, [SEC450: Blue Team Fundamentals: Security Operations and Analysis](https://www.sans.org/cyber-security-courses/blue-team-fundamentals-security-operations-analysis/);
 * Microsoft, [SC-200: Microsoft Security Operations Analyst](https://learn.microsoft.com/fr-fr/credentials/certifications/exams/sc-200/);
+* Cybrary, [MITRE ATT&CK Defender certification](https://help.cybrary.it/where-is-the-mitre-attck-defender-certification-content);  [paid]
 * EC-Council, [CEH](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/);
 * OffensiveSecurity, [OSDA SOC-200](https://www.offensive-security.com/soc200-osda/);
 * XMCyber, [Exposure Management](https://xmcyber.com/exposure-management-course/);
@@ -167,7 +168,8 @@ https://www.nist.gov/document/supplementnicespecialtyareasandworkroleksasandtask
 * SANS, [SEC587: Advanced Open-Source Intelligence (OSINT) gathering and analysis](https://www.sans.org/cyber-security-courses/advanced-open-source-intelligence-gathering-analysis/);
 * SANS, [SEC501: Advanced Security Essentials - Enterprise Defender](https://www.sans.org/cyber-security-courses/advanced-security-essentials-enterprise-defender/);
 * SANS, [SEC541: Cloud Security Attacker Techniques, Monitoring, and Threat Detection](https://www.sans.org/cyber-security-courses/cloud-security-attacker-techniques-monitoring-threat-detection/);
-* SANS, [SEC699: Purple Team Tactics - Adversary Emulation for Breach Prevention & Detection](https://www.sans.org/cyber-security-courses/purple-team-tactics-adversary-emulation/).
+* SANS, [SEC699: Purple Team Tactics - Adversary Emulation for Breach Prevention & Detection](https://www.sans.org/cyber-security-courses/purple-team-tactics-adversary-emulation/);
+
 
 
 Not working anymore ATOW: EthicalHackersAcademy, [SOC & SIEM Security program: L1, L2, L3](https://ethicalhackersacademy.com/products/soc-siem-security-training-program?_pos=1&_sid=b1d241af4&_ss=r).
