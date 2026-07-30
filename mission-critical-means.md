@@ -8,7 +8,7 @@ The provided recommendations are based on experience and search.
 # Critical tools for a SOC/CSIRT
 * **[SIEM](https://www.microsoft.com/en-us/security/business/security-101/what-is-siem)**:
    * See [Gartner magic quadrant](https://www.bitdefender.com/en-us/business/campaign/2025-gartner-magic-quadrant-for-epp-the-only-visionary) and [Gartner critical SIEM capabilities](https://www.splunk.com/en_us/form/gartner-critical-capabilities-siem.html)
-   * My recommendations: [Microsoft Azure Sentinel](https://azure.microsoft.com/en-us/products/microsoft-sentinel/#overview), [Sekoia.io XDR](https://www.sekoia.io/en/sekoia-io-xdr/), [Splunk](https://www.splunk.com), [Graylog](https://graylog.org/).
+   * My recommendations: [Microsoft Azure Sentinel](https://azure.microsoft.com/en-us/products/microsoft-sentinel/#overview), [Sekoia.io Defend (XDR)](https://www.sekoia.com/platform/defend), [Splunk](https://www.splunk.com), [Graylog](https://graylog.org/).
 * **[SIRP](https://d3security.com/blog/whats-the-difference-between-soar-and-sao/)**:
   * e.g.: [IBM Resilient](https://www.ibm.com/qradar/security-qradar-soar?utm_content=SRCWW&p1=Search&p4=43700068028974608&p5=e&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITW2yUqAfNqWNeYXyENeUAoqLxV543LT0n2oYhYxEQ47Yjm7NfYTFHAaAtwpEALw_wcB&gclsrc=aw.ds),  [TheHive](https://thehive-project.org/), [SwimLane](https://swimlane.com/), [PAN Cortex XSOAR](https://www.paloaltonetworks.com/cortex/cortex-xsoar)
   * My recommendations:  [TheHive](https://thehive-project.org/), [PAN Cortex XSOAR](https://www.paloaltonetworks.com/cortex/cortex-xsoar)
@@ -120,7 +120,7 @@ The provided recommendations are based on experience and search.
     * My recommendation: [Windows Defender Offline](https://support.microsoft.com/en-us/windows/help-protect-my-pc-with-microsoft-defender-offline-9306d528-64bf-4668-5b80-ff533f183d6c)
 * **Logs analyzers with detection capabilities**:
     * My recommendations:
-      * Paid ones: [Sekoia XDR](https://www.sekoia.io/en/product/xdr/), 
+      * Paid ones: [Sekoia Defend (XDR)](https://www.sekoia.com/platform/defend), 
       * Community-provided / free ones: [Zircolite](https://github.com/wagga40/Zircolite), [DeepBlue](https://github.com/sans-blue-team/DeepBlueCLI), [CrowdSec](https://doc.crowdsec.net/docs/user_guides/replay_mode)
       
 # Other critical tools for a SOC and a CERT/CSIRT
