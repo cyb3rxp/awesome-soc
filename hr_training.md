@@ -56,7 +56,7 @@ https://www.nist.gov/document/supplementnicespecialtyareasandworkroleksasandtask
 
 # Recommended SOC trainings
 
-## Most read/watch
+## Must read/watch
 * MITRE, [Purple teaming fundamentals](https://attack.mitre.org/resources/learn-more-about-attack/training/purple-teaming-fundamentals/)
 * Cybrary, [MITRE ATT&CK threat hunting](https://www.cybrary.it/course/threat-hunting-with-windows-event-forwarding); [free]
 * Cybrary, [MITRE ATT&CK Defender certification](https://help.cybrary.it/where-is-the-mitre-attck-defender-certification-content);  [paid]
