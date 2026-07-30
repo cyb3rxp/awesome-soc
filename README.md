@@ -408,6 +408,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 - [OWASP, WSTG](https://owasp.org/www-project-web-security-testing-guide/) – Web Security Testing Guide.
 - [Threat Hunting Framework](https://hunt.io/glossary/tahiti-threat-hunting-framework) - TaHiTI threat hunting framework.
 - [RecordedFuture, Threat Hunting](https://www.recordedfuture.com/blog/cyber-threat-hunting) - Using Threat Intelligence to master modern Threat Hunting.
+- EU, [TIBER purple teaming best practices](https://www.ecb.europa.eu/pub/pdf/annex/ecb.tiber_eu_purple_best_practices_2025.en.pdf)
 
 ### **Cloud & Platforms**
 - [Amazon, AWS Security Fundamentals](https://aws.amazon.com/training/digital/aws-security-fundamentals/) – AWS security best practices.
@@ -419,7 +420,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 - [Austin Songer, Incident playbook](https://github.com/AustinSonger/Incident-Playbook) – Collection of incident response playbooks.
 - [CISA, Cybersecurity incident and vulnerability response playbooks](https://www.cisa.gov/sites/default/files/2024-08/Federal_Government_Cybersecurity_Incident_and_Vulnerability_Response_Playbooks_508C.pdf) – Ready-to-use playbooks for incident response.
 
-#### **SOC Tools & Architectures**
+### **SOC Tools & Architectures**
 - [Reprise99, Microsoft Sentinel queries](https://github.com/Reprise99/Sentinel-Queries) – KQL queries for Microsoft Sentinel.
 - [MyFaberSecurity, MS Sentinel architecture and recommendations for MSSP](https://myfabersecurity.com/2023/03/31/sentinel-poc-architecture-and-recommendations-for-mssps-part-1/) – Architecture and best practices for Microsoft Sentinel.
 - [Microsoft, Custom data ingestion and transformation in Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/data-transformation) – Scenarios for data collection in Microsoft Sentinel.
