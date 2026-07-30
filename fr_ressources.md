@@ -24,6 +24,10 @@
 
 * CrowdStrike, [Qu'est-ce que le "threat hunting ?"](https://www.crowdstrike.fr/cybersecurity-101/threat-hunting/)
 
+## "Purple teaming" / Equipe violette / Entraînement SOC
+
+* CNPP, [Purple team](https://www.cnpp.com/glossaire/purple-team)
+
 
 ## Analyse de configuration sécurité
 
