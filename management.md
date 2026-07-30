@@ -124,7 +124,10 @@ Source: [LinkedIn article](https://www.linkedin.com/posts/teodorchabin_soc-cyber
 
 # Detection quality assessment
  * **Run regular [Purple teaming](https://docs.vectr.io/user/important-concepts/) sessions** in time!!
-   * e.g.: [Intrinsec](https://www.intrinsec.com/purple-team/), [SpecterOps](https://specterops.io/news/specterops-introduces-purple-team-assessments-service-to-help-customers-understand-the-efficacy-of-their-detection-capabilities/)
+   * My recommendations:
+      * [Intrinsec](https://www.intrinsec.com/purple-team/),
+      * [Group IB](https://www.group-ib.com/services/purple-teaming/)
+      * [SpecterOps](https://specterops.io/news/specterops-introduces-purple-team-assessments-service-to-help-customers-understand-the-efficacy-of-their-detection-capabilities/)
    * To do it on your own, here are a few recommended frameworks/tools:
        * Frameworks:
          * [TIBER EU](https://www.ecb.europa.eu/pub/pdf/other/ecb.tiber_eu_framework_2025~b32eff9a10.en.pdf?0309990e5e167a47ca4748370a949064)
