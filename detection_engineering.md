@@ -422,6 +422,7 @@ See [threat intel page](https://github.com/cyb3rxp/awesome-soc/blob/main/threat_
 The idea here is to follow the 'as-code' approach, wherever possible, with a central repository as a versioning system and source of truth. This, in order to achieve automation, quality controls, resilience (restore previous version in case something breaks), R&D with PDCA, etc. For instance, based on experience, this is applicable to SIEM rules, SOA playbooks, SOP, etc. 
 
 ## Required tools
+* [DLL Injection Lab](https://github.com/bsmensah-ctrl/DLL-Injection-Lab) — Deterministic synthetic DLL-injection event chains and controls for testing correlation logic and SARIF output without live-process access.
 * My recommendation: [GitLab](https://about.gitlab.com/) (or equivalent)
 * KQLab [Self-hosted KQL/SPL/ELK query manager for SOC teams](https://github.com/vinsk0h/KQLab)
 
