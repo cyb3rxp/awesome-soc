@@ -49,6 +49,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 
 ## European Union context/regulations
 * EU, [Action Plan on Cybersecurity and Artificial Intelligence](https://ec.europa.eu/newsroom/dae/redirection/document/130848)
+* EU, [AI Act compliance checker](https://artificialintelligenceact.eu/assessment/eu-ai-act-compliance-checker/)
 
 
 # Machine learning use cases 
