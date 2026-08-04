@@ -43,6 +43,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 * Google GTIC, [Continued Integration of AI for Adversarial Use](https://www.brighttalk.com/webcast/18282/669120?utm_campaign=communication_missed_you&utm_medium=email&utm_source=brighttalk-transact&player-preauth=WpeByEIABmlF9OmrZ8Mr5xMzcFT8gfHVp76f5Ed4%2FaI%3D&utm_content=webcast)
 * OWASP, [Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)
 * CyberSecurityForMe, [Microsoft Copilot Security vulnerabilities and safety measures](https://cybersecurityforme.com/copilot-security-vulnerabilities-and-safety-measures-for-enterprises/)
+* Proofpoint, [Notes from Underground: Adversarial Prompt Injection](https://www.proofpoint.com/us/blog/threat-insight/notes-underground-adversarial-prompt-injection)
 
 ## Knowledge bases
 * Jivoi, [Awesome ML for cybersecurity](https://github.com/jivoi/awesome-ml-for-cybersecurity)
