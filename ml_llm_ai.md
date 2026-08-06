@@ -115,8 +115,8 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 
 * **Context:** you receive an advisory regarding a 0day, associated to an application that is deployed within your environment, and that is likely to be vulnerable (with an undefined delay for patch deployment)
 * **Elements to be analyzed:** the 0day report, the exploit PoC (if published)
-* **Use of LLM/MCP**: generate an IDS/NDR/WAF detection rule, for that exploit/vulnerability, with automated quality controls for it to be the readiest possible to go live in production.
-* **Field feedback:**: see [CrowdSec's feedback about the use of AI to write WAF rules automatically](https://www.crowdsec.net/blog/crowdsec-mcp-use-ai-to-write-waf-rules-automatically)
+* **Use of LLM/MCP:** generate an IDS/NDR/WAF detection rule, for that exploit/vulnerability, with automated quality controls for it to be the readiest possible to go live in production.
+* **Field feedback:** see [CrowdSec's feedback about the use of AI to write WAF rules automatically](https://www.crowdsec.net/blog/crowdsec-mcp-use-ai-to-write-waf-rules-automatically)
 
 
 ### Business app associated to an alert
