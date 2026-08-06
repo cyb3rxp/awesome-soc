@@ -438,6 +438,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 - [Sekoia, What is XDR?](https://www.sekoia.com/glossary/xdr) – Explanation of Extended Detection and Response (XDR).
 - [Microsoft, Licensing maps](https://m365maps.com/) – Licensing comparison for Microsoft Defender and Modern Work plans.
 - [SANS cheat sheets](https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets) - Ultimate list of (free) Cheat sheets.
+- [ENISA, Secure by design and default](https://www.enisa.europa.eu/publications/enisa-secure-by-design-and-default-playbook).
 
 
 
