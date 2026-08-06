@@ -35,6 +35,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 * Google, [SAIF](https://safety.google/intl/en/safety/saif/) (Secure AI Framework)
 * CloudSecurityAlliance, [AI Control Matrix](https://cloudsecurityalliance.org/artifacts/ai-controls-matrix-v1-1)
   * I recommand to read the [related presentation](https://s3.amazonaws.com/content-production.cloudsecurityalliance/hqhtrzyp720yippr3w2wta7qvv4i?response-content-disposition=inline%3B%20filename%3D%22AICM%20v1.1%20Presentation.pdf%22%3B%20filename%2A%3DUTF-8%27%27AICM%2520v1.1%2520Presentation.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6XDIRHKHO4F5SU4%2F20260630%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260630T161934Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=ddff18eb89298401635f85ac1613f1eb6c1713bbdb6fab80ac984a3dee827d45)
+* ENISA, [Cybersecurity of AI and standardisation](https://www.enisa.europa.eu/publications/cybersecurity-of-ai-and-standardisation)
 
 ## Threat landscape
 * CISCO, [State of AI Security 2026](https://www.cisco.com/site/us/en/products/security/state-of-ai-security.html)
