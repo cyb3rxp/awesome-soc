@@ -47,8 +47,9 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 * CyberSecurityForMe, [Microsoft Copilot Security vulnerabilities and safety measures](https://cybersecurityforme.com/copilot-security-vulnerabilities-and-safety-measures-for-enterprises/)
 * Proofpoint, [Notes from Underground: Adversarial Prompt Injection](https://www.proofpoint.com/us/blog/threat-insight/notes-underground-adversarial-prompt-injection)
 
-## Knowledge bases
+## Knowledge bases and articles
 * Jivoi, [Awesome ML for cybersecurity](https://github.com/jivoi/awesome-ml-for-cybersecurity)
+* CISA, [AI related publications](https://www.cisa.gov/ai)
 
 ## European Union context/regulations
 * EU, [Action Plan on Cybersecurity and Artificial Intelligence](https://ec.europa.eu/newsroom/dae/redirection/document/130848)
