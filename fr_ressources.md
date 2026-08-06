@@ -139,6 +139,10 @@
 * All4tec, [liens entre ISO27005 et EBIOS RM](https://www.all4tec.com/blog/guides/quels-sont-les-liens-entre-la-norme-iso-27005-2022-et-ebios-risk-manager/)
 
 
+# IA
+
+* PromptFacile, [statistiques ChatGPT](https://promptfacile.fr/statistiques-chatgpt/)
+
 # Formation / sensibilisation
 
 ## Sensibilisation
