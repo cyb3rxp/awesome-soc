@@ -120,6 +120,7 @@
 
 * Wiki-tech, ["Process hollowing"](https://wiki-tech.io/S%C3%A9curit%C3%A9/Pentest/Process-Hollowing)
 * Ayinedjimi, [Guide d'exploitation IMPacket sur AD](https://ayinedjimi-consultants.fr/articles/impacket-exploitation-active-directory)
+* Safercy, [CertiGhost CVE-2026-54121](https://www.safercy.com/post/certighost-cve-2026-54121-from-user-to-domain-controller)
 
 
 ## RGPD / CNIL 
