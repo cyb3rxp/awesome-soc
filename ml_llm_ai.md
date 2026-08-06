@@ -56,7 +56,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 * EU, [AI Act compliance checker](https://artificialintelligenceact.eu/assessment/eu-ai-act-compliance-checker/)
 
 
-# Machine learning use cases 
+# Machine learning use cases for SOC/CSIRT
 
 ## Network traffic anomalies detection
 
@@ -79,7 +79,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 
 
 
-# GenAI / LLM use cases 
+# LLM / MCP use case examples, for SOC/CSIRT
 
 ## Analysis acceleration (alert/sample)
 
@@ -87,7 +87,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 
 * **Context:** EDR alert for a process or a file
 * **Elements to be analyzed:** long commandline with numerous arguments and potential obfuscation
-* **Use of GenAI:** quickly understand the command line and then determine whether it is malicious or not, based on the alert details.
+* **Use of LLM:** quickly understand the command line and then determine whether it is malicious or not, based on the alert details.
 * **Field feedback:** quite efficient and relevant.
 
 
@@ -95,7 +95,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 
 * **Context:** EDR alert for a registry key change/access/deletion
 * **Elements to be analyzed:** unknown registry key or value, as well as its impact on the system/security configuration
-* **Use of GenAI:** quickly understand the registry key use (values, effects), and then determine whether it is malicious or not, based on the alert details.
+* **Use of LLM:** quickly understand the registry key use (values, effects), and then determine whether it is malicious or not, based on the alert details.
 * **Field feedback:** quite efficient and relevant.
 
 
@@ -103,7 +103,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 
 * **Context:** you get/grab a sample from an user submission or a "suspicious"-type alert (AV/EDR, proxy, SEG, etc.)
 * **Elements to be analyzed:** file sample
-* **Use of GenAI:** quickly and automatically produce static analysis, CTI search automation, evasion/persistence detection, and network behavior reports...
+* **Use of LLM:** quickly and automatically produce static analysis, CTI search automation, evasion/persistence detection, and network behavior reports...
 * **Field feedback:** See [Malware Reverse Engineering is no longer a human problem!](https://x.com/fr0gger_/status/2028014798546378938?s=20) from Thomas Roccia:
   * Static Analysis: Extract binary features, detect packing/obfuscation
   * Enrichment and Pivoting: OSINT via CTI tools, identify related campaigns/families
@@ -111,11 +111,19 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
   * Output Generation: Extract IOCs, map to MITRE ATT&CK, create YARA rules (tested/uploaded for hunting), generate diagrams/graphs, and compile a grounded report with recommendations.
 
 
-### Business app 
+### Detection rule generation, with automated quality controls
+
+* **Context:** you receive an advisory regarding a 0day, associated to an application that is deployed within your environment, and that is likely to be vulnerable (with an undefined delay for patch deployment)
+* **Elements to be analyzed:** the 0day report, the exploit PoC (if published)
+* **Use of LLM/MCP**: generate an IDS/NDR/WAF detection rule, for that exploit/vulnerability, with automated quality controls for it to be the readiest possible to go live in production.
+* **Field feedback:**: see [CrowdSec's feedback about the use of AI to write WAF rules automatically](https://www.crowdsec.net/blog/crowdsec-mcp-use-ai-to-write-waf-rules-automatically)
+
+
+### Business app associated to an alert
 
 * **Context:** specific business app associated to an EDR/NDR alert 
 * **Elements to be analyzed:** business app activity and artefacts (binaries, files tree, network traffic, etc.)
-* **Use of GenAI:** quickly have an overview of the business app components, architecture, use cases, then determine whether the alert is confirmed or not, based on the alert details.
+* **Use of LLM:** quickly have an overview of the business app components, architecture, use cases, then determine whether the alert is confirmed or not, based on the alert details.
 * **Field feedback:** quite useful but may be challenging anyhow if the business app is a proprietary one, with almost no open documentation.
 
 
@@ -123,7 +131,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 
 * **Context:** there are more and more papers regarding cyberthreats analysis, plus cybersecurity standards, and all of that is time-consuming to read
 * **Elements to be analyzed:** reports (PDF), blog posts and KB articles
-* **Use of GenAI:** quickly summarize the reports and texts, to get the most important part of them with a global understanding
+* **Use of GenAI/LLM:** quickly summarize the reports and texts, to get the most important part of them with a global understanding
 * **Field feedback:** really efficient and relevant
 * **Real life example:** ask ChatGPT, or [Mistral AI](https://mistral.ai/products/vibe/) to summarize the following [CTI report from Sekoia](https://www.sekoia.com/blog/oysterloader-unmasked-the-multi-stage-evasion-loader/), which is supposed to take **19min** to read. The generated sum-up would only take 4-5 min reading :)
 
@@ -135,7 +143,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 
 * **Context:** an alert from EDR, NDR, SEG, SWG, ITDR, CASB, etc.  
 * **Elements to be analyzed:** artefacts associated to the alert, as well as the attack type itself as per the detected attack name
-* **Use of GenAI:** quickly understand the attack type (TTP) and the ways it works, then determine whether the alert is confirmed or not, based on the information it contains.
+* **Use of LLM:** quickly understand the attack type (TTP) and the ways it works, then determine whether the alert is confirmed or not, based on the information it contains.
 * **Field feedback:** can be useful but may lead to wrong assumptions if analysts don't take the time to deep dive and search, to go beyond the first GenAI results.
 
 
