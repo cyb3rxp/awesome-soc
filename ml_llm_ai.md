@@ -14,6 +14,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 * Medium, [How do LLM work?](https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f) (NB: this also covers machine learning, neural networks, deep learning, GPT, etc.)
 * Youtube, [5 types of AI agents](https://www.youtube.com/watch?v=fXizBc03D7E)
 * Medium, [Prompt engineering](https://medium.com/@egopgogojob/prompt-engineering-explained-understanding-top-k-top-p-temperature-and-advanced-techniques-b7ae7fa49fda)
+* Medium, [LLM can't jump](https://medium.com/data-science-in-your-pocket/google-llms-cant-jump-2b7a0727aecb)
 
 ## Best practices for SOC/CSIRT teams in the AI era
 * ENISA, [View on cybersecurity in the frontier AI era](https://www.enisa.europa.eu/publications/enisas-view-on-cybersecurity-in-the-frontier-ai-era)
