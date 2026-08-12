@@ -8,6 +8,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 * [ML use cases for a SOC](#machine-learning-use-cases-for-soccsirt)
 * [GenAI / LLM use cases for a SOC](#llm--mcp-use-case-examples-for-soccsirt)
 
+
 # Must read
 
 ## Key concepts and underlying technologies
@@ -16,17 +17,22 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 * Medium, [Prompt engineering](https://medium.com/@egopgogojob/prompt-engineering-explained-understanding-top-k-top-p-temperature-and-advanced-techniques-b7ae7fa49fda)
 * Medium, [LLM can't jump](https://medium.com/data-science-in-your-pocket/google-llms-cant-jump-2b7a0727aecb)
 
+## Technology watch
+* LinkedIn Pulse, [OpenAI launches GPT-5.6-cyber As AI Arms Race Reshapes Vulnerability Research](https://www.linkedin.com/pulse/openai-launches-gpt-56-cyber-ai-arms-race-reshapes-7brze)
+
+
 ## Best practices for SOC/CSIRT teams in the AI era
 * ENISA, [View on cybersecurity in the frontier AI era](https://www.enisa.europa.eu/publications/enisas-view-on-cybersecurity-in-the-frontier-ai-era)
 * NIST [AI 800-4](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.800-4.pdf): Challenges to the Monitoring of Deployed AI Systems
 * Silverfort, [How to stop AI-powered attacks](https://name.silverfort.com/hubfs/eBooks/Silverfort_eBook_How%20to%20stop%20AI-powered%20attacks_June2026.pdf): a readiness guide for Identity and Security teams, includes a simple five-question readiness assessment
+
 
 ## Field feedback 
 * Microsoft, [Turning threat reports into detection insights with AI](https://www.microsoft.com/en-us/security/blog/2026/01/29/turning-threat-reports-detection-insights-ai/)
 * Fr0gger, [Malware Reverse Engineering is no longer a human problem!](https://x.com/fr0gger_/status/2028014798546378938?s=20)
 * CSOOnline, [SOCs face a challenge as AI speeds alerts and threats](https://www.csoonline.com/article/4198016/socs-face-a-human-challenge-as-ai-speeds-alerts-and-threats.html?utm_date=20260721140359&utm_campaign=CSO%20Security%20Leadership&utm_content=slotno-1-readmore-The%20future%20of%20the%20security%20operations%20center%20may%20depend%20less%20on%20technology%20than%20on%20how%20well%20security%20leaders%20manage%20human%20attention%2C%20expertise%2C%20and%20resilience.&utm_term=CSO%20US%20Editorial%20Newsletters&utm_medium=email&utm_source=Adestra&aid=8242015&huid=677465b3-4cd2-44f5-ba75-a9eb7364bc6c)
 * The Washington Post, [Timeline of cyberattack by OpenAI's agent shows its sophistication](https://www.washingtonpost.com/technology/interactive/2026/07/30/timeline-cyberattack-by-openais-ai-agent-shows-its-sophistication/)
-* ABC, [AI Assistant hacks gym website](https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986)
+
 
 ## Best practices for securing AI systems/apps
 * ETSI, [Baseline Cyber Security Requirements for AI Models and Systems](https://www.etsi.org/deliver/etsi_en/304200_304299/304223/02.01.01_60/en_304223v020101p.pdf)
@@ -40,6 +46,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
   * I recommand to read the [related presentation](https://s3.amazonaws.com/content-production.cloudsecurityalliance/hqhtrzyp720yippr3w2wta7qvv4i?response-content-disposition=inline%3B%20filename%3D%22AICM%20v1.1%20Presentation.pdf%22%3B%20filename%2A%3DUTF-8%27%27AICM%2520v1.1%2520Presentation.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6XDIRHKHO4F5SU4%2F20260630%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260630T161934Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=ddff18eb89298401635f85ac1613f1eb6c1713bbdb6fab80ac984a3dee827d45)
 * ENISA, [Cybersecurity of AI and standardisation](https://www.enisa.europa.eu/publications/cybersecurity-of-ai-and-standardisation)
 
+
 ## Threat landscape
 * CISCO, [State of AI Security 2026](https://www.cisco.com/site/us/en/products/security/state-of-ai-security.html)
 * CrowdStrike, [Global threat landscape 2026: AI Accelerates Adversaries and Reshapes the Attack Surface](https://www.crowdstrike.com/en-us/press-releases/2026-crowdstrike-global-threat-report/)
@@ -48,11 +55,14 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 * OWASP, [Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)
 * CyberSecurityForMe, [Microsoft Copilot Security vulnerabilities and safety measures](https://cybersecurityforme.com/copilot-security-vulnerabilities-and-safety-measures-for-enterprises/)
 * Proofpoint, [Notes from Underground: Adversarial Prompt Injection](https://www.proofpoint.com/us/blog/threat-insight/notes-underground-adversarial-prompt-injection)
-* LinkedIn Pulse, [OpenAI launches GPT-5.6-cyber As AI Arms Race Reshapes Vulnerability Research](https://www.linkedin.com/pulse/openai-launches-gpt-56-cyber-ai-arms-race-reshapes-7brze)
+* ABC, [AI Assistant hacks gym website](https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986)
+
+
 
 ## Knowledge bases and articles
 * Jivoi, [Awesome ML for cybersecurity](https://github.com/jivoi/awesome-ml-for-cybersecurity)
 * CISA, [AI related publications](https://www.cisa.gov/ai)
+
 
 ## European Union context/regulations
 * EU, [Action Plan on Cybersecurity and Artificial Intelligence](https://ec.europa.eu/newsroom/dae/redirection/document/130848)
