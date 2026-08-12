@@ -48,6 +48,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 * OWASP, [Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)
 * CyberSecurityForMe, [Microsoft Copilot Security vulnerabilities and safety measures](https://cybersecurityforme.com/copilot-security-vulnerabilities-and-safety-measures-for-enterprises/)
 * Proofpoint, [Notes from Underground: Adversarial Prompt Injection](https://www.proofpoint.com/us/blog/threat-insight/notes-underground-adversarial-prompt-injection)
+* LinkedIn Pulse, [OpenAI launches GPT-5.6-cyber As AI Arms Race Reshapes Vulnerability Research](https://www.linkedin.com/pulse/openai-launches-gpt-56-cyber-ai-arms-race-reshapes-7brze)
 
 ## Knowledge bases and articles
 * Jivoi, [Awesome ML for cybersecurity](https://github.com/jivoi/awesome-ml-for-cybersecurity)
