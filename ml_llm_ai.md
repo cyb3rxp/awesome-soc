@@ -148,6 +148,14 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 * **Use of LLM:** quickly understand the attack type (TTP) and the ways it works, then determine whether the alert is confirmed or not, based on the information it contains.
 * **Field feedback:** can be useful but may lead to wrong assumptions if analysts don't take the time to deep dive and search, to go beyond the first GenAI results.
 
+# To go further
+
+## List of use cases of AI / agentic AI in cyber
+
+* The Cyber Security Hub, [20 practical agentic AI use cases in 5 cybersecurity domains](https://www.linkedin.com/posts/register-here-to-learn-more-httpslnkdin-share-7493023787081322497-4K2L/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAFF-doB6B2Ni3ozMuNrY5JDC3WiW3KWP9s)
+<img width="800" height="1066" alt="image" src="https://github.com/user-attachments/assets/3387581d-cfbd-4fd9-8bc5-d48aa3d9f2ca" />
+
+
 
 # AI-related marketing jokes/mistakes
 
