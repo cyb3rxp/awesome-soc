@@ -5,8 +5,8 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 
 # TOC
 * [Must read](#must-read)
-* [ML use cases for a SOC](#machine-learning-use-cases-for-soccsirt)
-* [GenAI / LLM use cases for a SOC](#llm--mcp-use-case-examples-for-soccsirt)
+* [ML use cases for a SOC/CSIRT](#machine-learning-use-cases-for-soccsirt)
+* [GenAI / LLM use cases for a SOC/CSIRT](#llm--mcp-use-case-examples-for-soccsirt)
 * [To go further](#to-go-further)
 
 
