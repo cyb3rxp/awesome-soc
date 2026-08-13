@@ -20,6 +20,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 
 ## Technology watch
 * LinkedIn Pulse, [OpenAI launches GPT-5.6-cyber As AI Arms Race Reshapes Vulnerability Research](https://www.linkedin.com/pulse/openai-launches-gpt-56-cyber-ai-arms-race-reshapes-7brze)
+* Youtube, [Processus S01E02, The challenge with voice agents](https://www.youtube.com/watch?v=IuRlGCBSqR8)
 * Guild skills, [Skills for Agentic AI](https://guildskills.com/)
 
 
