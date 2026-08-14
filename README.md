@@ -121,7 +121,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
   * ENISA: [NIS2 technical implementation guidance](https://www.enisa.europa.eu/publications/nis2-technical-implementation-guidance)
 * **AI (genAI, LLM, agentic AI): monitoring, threat landscape, management**:
   * CSOOnline, [SOCs face a challenge as AI speeds alerts and threats](https://www.csoonline.com/article/4198016/socs-face-a-human-challenge-as-ai-speeds-alerts-and-threats.html?utm_date=20260721140359&utm_campaign=CSO%20Security%20Leadership&utm_content=slotno-1-readmore-The%20future%20of%20the%20security%20operations%20center%20may%20depend%20less%20on%20technology%20than%20on%20how%20well%20security%20leaders%20manage%20human%20attention%2C%20expertise%2C%20and%20resilience.&utm_term=CSO%20US%20Editorial%20Newsletters&utm_medium=email&utm_source=Adestra&aid=8242015&huid=677465b3-4cd2-44f5-ba75-a9eb7364bc6c)
-  * ETSI, [Baseline Cyber Security Requirements for AI Models and Systems](https://www.etsi.org/deliver/etsi_en/304200_304299/304223/02.01.01_60/en_304223v020101p.pdf)
+  * ENISA, [FAICP](https://www.faicp-framework.com/): Framework for AI Cybersecurity Practices
   * NIST, [Challenges to the Monitoring of Deployed AI Systems](https://www.nist.gov/news-events/news/2026/03/new-report-challenges-monitoring-deployed-ai-systems)
   * NIST, [AI 100-1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf)
   * OWASP, [Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)
