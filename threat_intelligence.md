@@ -144,7 +144,7 @@ Here is [another example](https://www.infinigate.com/fr/vendors/sekoia/) of an a
      * [FireHOL project: GreenSwow IP set](https://github.com/firehol/blocklist-ipsets/blob/master/greensnow.ipset);
      * Snort, [IP list to block](https://www.snort.org/downloads/ip-block-list);
      * Turris' [Sentinel Graylist](https://view.sentinel.turris.cz/greylist-data/greylist-latest.csv);
-     * Laurent Minne's [blacklist](https://github.com/duggytuxy/malicious_ip_addresses);
+     * Laurent Minne's [blacklist](https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist);
      * MalTrail's [daily blacklist](https://raw.githubusercontent.com/stamparm/aux/master/maltrail-malware-domains.txt);
      * [Awesome Cobalt Strike](https://github.com/MichaelKoczwara/Awesome-CobaltStrike-Defence);
      * [AVAST](https://github.com/avast/ioc?tab=readme-ov-file);
@@ -178,6 +178,7 @@ Here is [another example](https://www.infinigate.com/fr/vendors/sekoia/) of an a
 
 * Well-known OSINT portals/websites:
   * [CyberChef](https://cyberchef.io/)
+  * [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) - Independent X (Twitter) data API for search, follower export, monitors, and MCP.
   * URL/IP multi-search portal:
     * [CyberGordon](https://cybergordon.com/)
   * [URL analysis](https://urlscan.io/)
