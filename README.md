@@ -261,6 +261,7 @@ Based on experience, I propose a few SOP (Standard Operating Procedures), that o
 
 ## 🔗 Dedicated pages
 
+- [Aegis Skills](https://github.com/AS-FOSS/aegis-skills): Defensive-security audit and response playbooks written for AI coding agents to execute against codebases and Linux servers — 40 modules spanning detection engineering, incident response, DFIR triage and vulnerability management
 - [Windows malware critical controls](https://github.com/cyb3rxp/awesome-soc/blob/main/sop_malware_critical_controls.md)
 - [Microsoft 365 and Entra ID compromise assessment](https://github.com/cyb3rxp/awesome-soc/blob/main/sop_M365_compromise_assessment.md)
 - [Web server compromise assessment](https://github.com/cyb3rxp/awesome-soc/blob/main/sop_web_server_compromise_assessment.md)
