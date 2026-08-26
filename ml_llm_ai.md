@@ -63,9 +63,10 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 
 
 
-## Knowledge bases and articles
+## Knowledge base: articles & videos
 * Jivoi, [Awesome ML for cybersecurity](https://github.com/jivoi/awesome-ml-for-cybersecurity)
 * CISA, [AI related publications](https://www.cisa.gov/ai)
+* Youtube, [AI Is Dangerous, but Not for the Reasons You Think | Sasha Luccioni](https://www.youtube.com/watch?v=eXdVDhOGqoE)
 
 
 ## European Union context/regulations
