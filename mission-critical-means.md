@@ -122,7 +122,7 @@ The provided recommendations are based on experience and search.
 * **Logs analyzers with detection capabilities**:
     * My recommendations:
       * Paid ones: [Sekoia Defend (XDR)](https://www.sekoia.com/platform/defend), 
-      * Community-provided / free ones: [Zircolite](https://github.com/wagga40/Zircolite), [DeepBlue](https://github.com/sans-blue-team/DeepBlueCLI), [CrowdSec](https://doc.crowdsec.net/docs/user_guides/replay_mode)
+      * Community-provided / free ones: [Zircolite](https://github.com/wagga40/Zircolite), [DeepBlue](https://github.com/sans-blue-team/DeepBlueCLI), [CrowdSec](https://doc.crowdsec.net/docs/user_guides/replay_mode), [sigwood](https://github.com/helixmap/sigwood): a local-first CLI that surfaces explainable hunting leads from Zeek, Pi-hole/dnsmasq, syslog and CloudTrail logs.
       
 # Other critical tools for a SOC and a CERT/CSIRT
 * **Secure secrets sharing**:
