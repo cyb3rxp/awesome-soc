@@ -35,6 +35,7 @@ This page deals with SOC detection engineering and management (detection use cas
   * Splunk [Detections (free detection rules for Splunk)](https://research.splunk.com/detections/)
   * Splunk [Stories for Office 365](https://research.splunk.com/stories/office_365_collection_techniques/)
   * [Michel De Crevoisier's Git](https://github.com/mdecrevoisier/SIGMA-detection-rules)
+* [LogTriage Detection Rules](https://logtriage.app/rules/) — free Sigma rules, each validated against a real sample log in CI before publishing: it must fire on a known-malicious sample and stay silent on the matching benign one. Mapped to log source and MITRE ATT&CK, with false-positive notes.
   * [SOC Prime](https://socprime.com/)
 
 ## SIEM standards
