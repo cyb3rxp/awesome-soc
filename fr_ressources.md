@@ -142,6 +142,7 @@
 # IA
 
 * PromptFacile, [statistiques ChatGPT](https://promptfacile.fr/statistiques-chatgpt/)
+* Cybermalveillance.gouv.fr, [Utiliser l’IA, conseils pour les particuliers et les professionnels](https://www.cybermalveillance.gouv.fr/tous-nos-contenus/bonnes-pratiques/utiliser-ia-conseils-pour-les-particuliers-et-les-professionnels)
 
 # Formation / sensibilisation
 
