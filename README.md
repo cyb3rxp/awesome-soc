@@ -487,6 +487,8 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
     * Windows 11 [clean-up script](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat);
     * Windows 11 [hardening tool](https://apps.microsoft.com/detail/9p7ggfl7dx57?hl=en-US&gl=US)
     * If needed, [Flare-VM](https://github.com/mandiant/flare-vm) framework to automate security tools installation on analysts workstations;
+* [HostDeFi](https://hostdefi.com) - Free token-safety scanner: A+–F grades from on-chain checks (mint/freeze authority, liquidity depth, holder concentration, contract flags) across Solana and 7 EVM chains.
+
 
 
 # Appendix
