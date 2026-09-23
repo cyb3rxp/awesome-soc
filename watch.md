@@ -44,7 +44,11 @@ This page deals with IT/cybersecurity watch (recommended sources and tools)
   * ESET [Threat report](https://www.welivesecurity.com/en/eset-research/)
   * Verizon [Databreach reports](https://www.verizon.com/business/resources/reports/dbir/)
 * Newsletters:
-  * e.g.: [TheRecord.media](https://therecord.media/subscribe), [Intrinsec Threat Landscape](https://intrinsec.us13.list-manage.com/subscribe?u=403249ad144b732517b9fca94&id=041976f275) & [LinkedIn posts](https://www.linkedin.com/company/intrinsec/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BAyS%2B%2F6ysQ5G%2BBlZQjTWrKg%3D%3D)
+  * e.g.: [TheRecord.media](https://therecord.media/subscribe)
+  * [Intrinsec Threat Landscape](https://intrinsec.us13.list-manage.com/subscribe?u=403249ad144b732517b9fca94&id=041976f275)
+  * [LinkedIn Cyber Security Hub Newsletter](https://www.linkedin.com/newsletters/7169505470506872833/?midToken=AQGCXkF2pApq-w&midSig=0_OI-GMzplfYs1&trkEmail=eml-email_series_follow_newsletter_02-newsletter_entity_lockup-0-newsletter_entity_cta-null-cpvx6~mud2mu6p~e6-null-null&eid=cpvx6-mud2mu6p-e6)
+  * [Erreur403](https://erreur403.fr/), NB: in French, 
+  * [LinkedIn posts](https://www.linkedin.com/company/intrinsec/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BAyS%2B%2F6ysQ5G%2BBlZQjTWrKg%3D%3D)
 * Podcasts:
   * WithSecure [Xposed](https://www.withsecure.com/en/resources-hub/cybersecurity-podcasts/)
 * OffSec (Offensive Security):
