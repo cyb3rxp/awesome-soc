@@ -48,6 +48,7 @@ This page deals with IT/cybersecurity watch (recommended sources and tools)
 * Podcasts:
   * WithSecure [Xposed](https://www.withsecure.com/en/resources-hub/cybersecurity-podcasts/)
 * OffSec (Offensive Security):
+  * [SpiderLabs](https://www.levelblue.com/blogs/spiderlabs-blog/rss.xml)
   * [PentestCheatSheet](https://anshu19981.github.io/Pentestcheatsheet/)
 * Other interesting websites:
   * [ISC](https://isc.sans.edu/)
