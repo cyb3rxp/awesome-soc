@@ -144,6 +144,9 @@ The provided recommendations are based on experience and search.
   * My recommendation: [TheHarvester](https://github.com/laramies/theharvester)
 * **OSINT resources search**:
   * My recommendation: [OSINT Framework](https://github.com/lockfale/osint-framework)
+* **Email header analysis (phishing triage)**:
+  * Reading the Received chain, SPF/DKIM/DMARC results and spam-filter verdicts of a reported email is one of the most frequent SOC triage tasks.
+  * Free ones: [Microsoft Message Header Analyzer](https://mha.azurewebsites.net/), [Email Header Analyzer by Rafael Pfister](https://rafaelpfister.ch/en/tools/header-analyzer) (runs entirely in the browser, the header is never uploaded; shows per-hop transit times, alignment and ARC).
 
 
 # End
