@@ -58,6 +58,7 @@ This page deals with IT/cybersecurity watch (recommended sources and tools)
   * [ISC](https://isc.sans.edu/)
   * [ENISA](https://www.enisa.europa.eu/publications),
   * [ThreatPost](https://threatpost.com/)
+  * [RedCanary's blog](https://redcanary.com/resources-center/category/blog/)
   *  etc.
  
 
