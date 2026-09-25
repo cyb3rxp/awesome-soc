@@ -131,6 +131,7 @@
 ## Publications spécialisées (PDF)
 
 * [MISC mag](https://connect.ed-diamond.com/misc)
+  * ex. : [MISC HS N°38 : OSINT, gouvernance SOC](https://connect.ed-diamond.com/misc/mischs-038)
 * XMCO [ActuSecu](https://www.xmco.fr/publications)
 
 
