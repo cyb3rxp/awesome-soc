@@ -115,7 +115,8 @@ We use the commonly adopted NIST SP 800-61 lifecycle labels for operational read
 ## DNS domains checks
 * Check all "custom domains names" in Entra ID:
   * TXT records;
-  * MX records.
+  * MX records;
+  * mail authentication records (SPF, DKIM, DMARC, MTA-STS, DANE), for instance with [Mail DNS Check](https://rafaelpfister.ch/en/tools/mail-check): an attacker with admin rights may have added a sending service to SPF or weakened the DMARC policy.
 
 
 
