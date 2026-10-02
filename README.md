@@ -51,6 +51,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
   * FIRST, [ISO 27035 Practical value for CSIRT and SOCs ](https://www.first.org/resources/papers/conf2023/FIRSTCON23-TLPCLEAR-Benetis-ISO-27035-practical-value-for-CSIRTs-and-SOCs.pdf)
   * SANS, [2025 SOC survey](https://www.elastic.co/pdf/sans-soc-survey-2025.pdf)
   * SOC CMM, [SOC Metrics](https://www.soc-cmm.com/img/upload/files/31-soc-cmm-metrics-101.pdf)
+  * Gartner, [Market Guide for Managed Detection and Response](https://www.gartner.com/doc/reprints?id=00ThR00000CrhUfUAJ&ct=260828&st=sg)
 * **SOC assessment**:
   * CMM, [SOC-CMM](https://www.soc-cmm.com/)
   * Rabobank CDC, [DeTTECT](https://github.com/rabobank-cdc/DeTTECT)
