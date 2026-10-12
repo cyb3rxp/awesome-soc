@@ -430,6 +430,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 - [SANS SOC survey 2022](https://www.sans.org/reading-room/whitepapers/analyst/2022-sans-soc-survey/) – Results of the 2022 SANS SOC survey.
 - [Gartner, PAM Magic Quadrant reprint](https://www.gartner.com/en/documents/4016568) – Market analysis of Privileged Access Management solutions.
 - [BitDefender, Analyzing MITRE ATT&CK evaluations 2024](https://www.bitdefender.com/en-za/business/campaign/forrester-analysis-2024-mitre-engenuity#form) – Analysis of MITRE ATT&CK evaluations.
+- MITRE, [In MITRE ATT&CK Evaluations, we don’t rank, rate, or crown a winner.](https://www.linkedin.com/posts/attackevaluations-threatinformeddefense-mitreattack-share-7340405327760162816-kVoh/)
 
 ### **Miscellaneous Resources**
 - [Microsoft, command line reference](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) – Windows command-line reference.
