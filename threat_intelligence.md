@@ -181,6 +181,7 @@ Here is [another example](https://www.infinigate.com/fr/vendors/sekoia/) of an a
   * URL/IP multi-search portal:
     * [CyberGordon](https://cybergordon.com/)
   * [URL analysis](https://urlscan.io/)
+  * ScanMalware, [free sandboxed URL analysis, with a public scan archive pivotable by domain, IP, ASN, JARM or favicon hash](https://scanmalware.com)
   * Data breaches search portals:
     * [Have I Been Pwned](https://haveibeenpwned.com/)
     * PCloud, [Free Personal Data Breach Checker](https://www.pcloud.com/fr/pass/free-personal-data-breach-checker.html)
