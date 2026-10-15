@@ -8,10 +8,10 @@
 * [SOC mission and context](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#soc-mission-and-context)
 * [SOC/CERT processes and workflow](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#soccert-processes-and-workflows)
 * [What is purple/red/blue team?](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#what-is-purpleredblue-team)
-* [Attack lifecycle](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#attack-lifecycle)
-* [Most common infection vectors](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#most-common-infection-vectors)
-* [Difference/comparison between EDR and antivirus](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#difference-between-antivirus-and-edr)
-* [EDR, XDR, NDR, MDR explained](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#edr--mdr--ndr--xdr)
+* [Attack lifecycle](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#what-is-an-attack-lifecycle)
+* [Most common infection vectors](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#what-are-the-most-common-infection-vectors)
+* [Difference/comparison between EDR and antivirus](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#what-are-the-differences-between-antivirus-and-edr)
+* [EDR, XDR, NDR, MDR explained](https://github.com/cyb3rxp/awesome-soc/blob/main/soc_basics.md#edr--mdr--ndr--xdr-)
 
 
 # What is a SOC? 
@@ -88,7 +88,7 @@ As per NIST SP800-61 rev2 paper (see [below](https://github.com/cyb3rxp/awesome-
 As an IT security teacher used to tell his students, like a SOC motto: "Without response, detection is useless" (Freely inspired from Bruce Schneier, [Secrets and Lies: Digital Security in a Networked World](https://www.amazon.fr/Secrets-Lies-Digital-Security-Networked/dp/1119092434) book).
 
 ## Typical incident handling workflow:
-As per ENISA paper see [below](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#for-a-cert):
+As per ENISA paper see [below](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#for-a-certcsirt):
 
 ![image](https://user-images.githubusercontent.com/16035152/186770414-d0d75e68-7c0f-4285-9eb2-a67cabdd5fdd.png)
 
