@@ -100,7 +100,7 @@ Source: [LinkedIn article](https://www.linkedin.com/posts/teodorchabin_soc-cyber
   * incident handler;
   * incident manager;
   * deputy CERT manager.
-* Generally speaking, follow best practices as described in ENISA's ("Good practice for incident management", see ["Must read"](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#for-a-cert))
+* Generally speaking, follow best practices as described in ENISA's ("Good practice for incident management", see ["Must read"](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#for-a-certcsirt))
 
 # TTP (attack methods) knowledge base reference
 * Use [MITRE ATT&CK](https://attack.mitre.org/matrices/enterprise/)
