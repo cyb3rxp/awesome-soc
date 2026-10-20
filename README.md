@@ -377,7 +377,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 
 ###  **Threat Intelligence**
 - [MalAPI, list of Windows API and their potential use in offensive security](https://malapi.io/) – Windows API references for offensive/defensive security.
-- [FireEye, OpenIOC format](https://cloud.google.com/blog/topics/threat-intelligence/openioc-basics/?hl=en) – Open standard for sharing threat intelligence.
+- FR ANSSI, [2025 threat landscape](https://cert.cyber.gouv.fr/uploads/CERTFR-2026-CTI-003.pdf).
 - [Herman Slatman, Awesome Threat Intel](https://github.com/hslatman/awesome-threat-intelligence) – Curated list of threat intelligence resources.
 
 ### **Compliance & Regulations**
