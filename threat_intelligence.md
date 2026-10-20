@@ -17,7 +17,7 @@
 * MITRE, [top TTP for ransomwares](https://ctid.mitre.org/projects/top-attack-techniques/);
 * David J. Bianco, [Pyramid of pain](https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html);
 * OASIS Open, [STIX](https://oasis-open.github.io/cti-documentation/stix/intro.html);
-* [FireEye, OpenIOC format](https://cloud.google.com/blog/topics/threat-intelligence/openioc-basics/?hl=en) – Open standard for sharing threat intelligence.
+* FireEye, [OpenIOC format](https://cloud.google.com/blog/topics/threat-intelligence/openioc-basics/?hl=en) – Open standard for sharing threat intelligence.
 * FIRST, [TLP](https://www.first.org/tlp/) (intelligence sharing and confidentiality);
 * [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence);
 * RecordedFuture, [Accelerate SecOps workflows in Microsoft Sentinel](https://go.recordedfuture.com/recordings/webinar-how-to-accelerate-secops-workflows-in-microsoft-azure-sentinel);
