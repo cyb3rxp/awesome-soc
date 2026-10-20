@@ -12,19 +12,20 @@
 ## Books/articles/recordings
 
 * Thomas Roccia, [Visual Threat Intelligence](https://www.amazon.fr/Visual-Threat-Intelligence-Illustrated-Researchers/dp/B0C7JCF8XD);
-* SGDSN (France), [OpenCTI Doctrine](https://www.sgdsn.gouv.fr/files/2025-04/20250415_NP_SGDSN_VIGINUM_DoctrineOpenCTI_versionENG.pdf)
-* EE-ISAC, [Threat Intel Management](https://www.ee-isac.eu/media/2023/05/Threat-Management-Master-v1.2_ENISA_Proofreading_SA.pdf)
+* SGDSN (France), [OpenCTI Doctrine](https://www.sgdsn.gouv.fr/files/2025-04/20250415_NP_SGDSN_VIGINUM_DoctrineOpenCTI_versionENG.pdf);
+* EE-ISAC, [Threat Intel Management](https://www.ee-isac.eu/media/2023/05/Threat-Management-Master-v1.2_ENISA_Proofreading_SA.pdf);
 * MITRE, [top TTP for ransomwares](https://ctid.mitre.org/projects/top-attack-techniques/);
 * David J. Bianco, [Pyramid of pain](https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html);
 * OASIS Open, [STIX](https://oasis-open.github.io/cti-documentation/stix/intro.html);
+* [FireEye, OpenIOC format](https://cloud.google.com/blog/topics/threat-intelligence/openioc-basics/?hl=en) – Open standard for sharing threat intelligence.
 * FIRST, [TLP](https://www.first.org/tlp/) (intelligence sharing and confidentiality);
 * [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence);
 * RecordedFuture, [Accelerate SecOps workflows in Microsoft Sentinel](https://go.recordedfuture.com/recordings/webinar-how-to-accelerate-secops-workflows-in-microsoft-azure-sentinel);
-* Frost & Sullivan, [Frost Radar™: Cyber Threat Intelligence Radar, 2024](https://go.recordedfuture.com/hubfs/reports/Frost%20Radar_Cyber%20Threat%20Intelligence%20Radar%2c%202024.pdf?utm_medium=email&_hsmi=315810587&utm_content=315810587&utm_source=hs_automation)
-* SecurityAffairs, [UKR/RU cyberwar](https://securityaffairs.com/128727/cyber-warfare-2/feb-27-mar-05-ukraine-russia-cyberwar.html)
-* Gartner, [Market Guide for Security Threat Intelligence Products and Services](https://www.gartner.com/doc/reprints?id=1-2IJMCHZX&ct=240815&st=sb)
-* Filigran & RecordedFuture, [Automate security response with RecordedFuture and Filigran](https://go.recordedfuture.com/automate-security-response-with-recorded-future-and-filigran?utm_medium=email&_hsmi=333916307&utm_content=333916307&utm_source=hs_email)
-* ENISA [Threat landscape 2026](https://www.enisa.europa.eu/publications/enisa-threat-landscape-2026)
+* Frost & Sullivan, [Frost Radar™: Cyber Threat Intelligence Radar, 2024](https://go.recordedfuture.com/hubfs/reports/Frost%20Radar_Cyber%20Threat%20Intelligence%20Radar%2c%202024.pdf?utm_medium=email&_hsmi=315810587&utm_content=315810587&utm_source=hs_automation);
+* SecurityAffairs, [UKR/RU cyberwar](https://securityaffairs.com/128727/cyber-warfare-2/feb-27-mar-05-ukraine-russia-cyberwar.html);
+* Gartner, [Market Guide for Security Threat Intelligence Products and Services](https://www.gartner.com/doc/reprints?id=1-2IJMCHZX&ct=240815&st=sb);
+* Filigran & RecordedFuture, [Automate security response with RecordedFuture and Filigran](https://go.recordedfuture.com/automate-security-response-with-recorded-future-and-filigran?utm_medium=email&_hsmi=333916307&utm_content=333916307&utm_source=hs_email);
+* ENISA [Threat landscape 2026](https://www.enisa.europa.eu/publications/enisa-threat-landscape-2026).
 
 
 ## What is threat intel (service)?
