@@ -420,6 +420,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 - [Incident Response & Computer Forensics, 3rd ed](https://www.amazon.com/Incident-Response-Computer-Forensics-Third/dp/007180131X) – Book on incident response and forensics.
 - [Austin Songer, Incident playbook](https://github.com/AustinSonger/Incident-Playbook) – Collection of incident response playbooks.
 - [CISA, Cybersecurity incident and vulnerability response playbooks](https://www.cisa.gov/sites/default/files/2024-08/Federal_Government_Cybersecurity_Incident_and_Vulnerability_Response_Playbooks_508C.pdf) – Ready-to-use playbooks for incident response.
+- [Amit Vijayan, SOC Playbooks](https://github.com/amitvijayan/soc-playbooks) – SOC playbooks and runbooks for common investigations, including phishing triage.
 
 ### **SOC Tools & Architectures**
 - [Reprise99, Microsoft Sentinel queries](https://github.com/Reprise99/Sentinel-Queries) – KQL queries for Microsoft Sentinel.
