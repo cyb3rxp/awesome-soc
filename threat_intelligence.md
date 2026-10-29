@@ -161,6 +161,7 @@ Here is [another example](https://www.infinigate.com/fr/vendors/sekoia/) of an a
      * [Clanker Use case](https://clankerusecase.com/intel/iocs.csv) (cf. [About](https://clankerusecase.com/about.html));
      * FastFire, [DeepDarkCTI](https://github.com/fastfire/deepdarkCTI)
      * ClickFix, [C2 tracker](https://www.clickfix.pro/c2_tracker.php)
+     * HoneyLabs, [active exploiters feed](https://honeylabs.net/feed/exploiters) (IPs its honeypots saw running an exploit or loader command in the last 7 days, also served over [TAXII 2.1 and as MISP feeds](https://honeylabs.net/integrations));
   * To go further, some lists of feeds that could be of interest:
     * [Covert.io list](http://www.covert.io/threat-intelligence/);
     * [Bert JanP](https://github.com/Bert-JanP/Open-Source-Threat-Intel-Feeds/tree/main);
