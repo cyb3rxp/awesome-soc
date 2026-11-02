@@ -48,6 +48,7 @@ This page deals with IT/cybersecurity watch (recommended sources and tools)
   * e.g.: [TheRecord.media](https://therecord.media/subscribe)
   * [Intrinsec Threat Landscape](https://intrinsec.us13.list-manage.com/subscribe?u=403249ad144b732517b9fca94&id=041976f275)
   * [Erreur403](https://erreur403.fr/), NB: in French;
+  * [SANS NewsBites](https://www.sans.org/newsletters/newsbites)
   * [LuksMentis](https://luksmentis.com/en/blog), NB: there is an associated mobile app.
 * Podcasts:
   * WithSecure [Xposed](https://www.withsecure.com/en/resources-hub/cybersecurity-podcasts/)
