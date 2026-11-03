@@ -130,6 +130,7 @@ Here is [another example](https://www.infinigate.com/fr/vendors/sekoia/) of an a
      * [ESET IOC](https://github.com/eset/malware-ioc);
      * [WithSecure IOC](https://github.com/WithSecureLabs/iocs/tree/master);
      * [Intrinsec IOC](https://github.com/Intrinsec/IOCs);
+     * [Mallory](https://www.mallory.ai/intelligence) - Correlates intelligence from thousands of sources across IOCs, vulnerabilities, threat actors and malware, with source-attributed evidence for SOC triage and a free community tier.
      * [Malware-IOC](https://github.com/executemalware/Malware-IOCs);
      * [OpenPhish](https://openphish.com/feed.txt);
      * [Bazaar](https://bazaar.abuse.ch/export/csv/recent/);
