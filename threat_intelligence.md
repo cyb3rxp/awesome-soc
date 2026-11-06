@@ -183,7 +183,9 @@ Here is [another example](https://www.infinigate.com/fr/vendors/sekoia/) of an a
     * [CyberGordon](https://cybergordon.com/)
   * [URL analysis](https://urlscan.io/)
   * Data breaches search portals:
+    * [Breach House](https://breach.house/) — Search ransomware, breach and stealer listings by keyword.
     * [Have I Been Pwned](https://haveibeenpwned.com/)
+    * [Have I Been Ransomed?](https://haveibeenransom.com/) — Check email addresses, phone numbers and company domains for exposure in ransomware leaks, breaches and stealer logs.
     * PCloud, [Free Personal Data Breach Checker](https://www.pcloud.com/fr/pass/free-personal-data-breach-checker.html)
   * CVE research websites:
     *  [CVE PoC Search](https://labs.jamessawyer.co.uk/cves/)
