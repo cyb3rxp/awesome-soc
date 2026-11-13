@@ -251,6 +251,9 @@ NB: this is mainly for red/purpleteaming activities.
 ## Regular trainings [free]
 * [HackTheBox](https://app.hackthebox.com/starting-point);
 
+## Paid trainings
+* [MalDevAcademy](https://maldevacademy.com/)
+
   
 ## Certifications
 
