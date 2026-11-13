@@ -377,10 +377,9 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 - [CISA, Cyber Defense Incident Responder role](https://www.cisa.gov/careers/work-rolescyber-defense-incident-responder) – Role definition and responsibilities for incident responders.
 
 ###  **Threat Intelligence**
-- [MalAPI, list of Windows API and their potential use in offensive security](https://malapi.io/) – Windows API references for offensive/defensive security.
 - FR ANSSI, [2025 threat landscape](https://cert.cyber.gouv.fr/uploads/CERTFR-2026-CTI-003.pdf).
 - [Herman Slatman, Awesome Threat Intel](https://github.com/hslatman/awesome-threat-intelligence) – Curated list of threat intelligence resources.
-
+   
 ### **Compliance & Regulations**
 - [ENISA, Cybersecurity certificates](https://certification.enisa.europa.eu/certificates_en) – List of trusted cybersecurity service providers in the EU.
 
