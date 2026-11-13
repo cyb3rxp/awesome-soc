@@ -84,7 +84,7 @@ Here is [an overview](https://erdalozkaya.com/cyber-threat-intelligence/) of a g
 Here are my recommendations:
 * for community ones:
   * [MISP](https://www.misp-project.org/);
-  * [OpenCTI](https://www.filigran.io/en/products/opencti/);
+  * [OpenCTI](https://filigran.io/products/opencti);
   * [AdversaryGraph](https://github.com/anpa1200/adversarygraph) for CTI-to-detection analysis workflow (ATT&CK/ATLAS mapping, IOC enrichment, TTP comparison, and analyst handoff artifacts).
 * for paid ones:  
   * [Sekoia.io CTI](https://www.sekoia.com/platform/intelligence);
@@ -132,7 +132,7 @@ Here is [another example](https://www.infinigate.com/fr/vendors/sekoia/) of an a
      * [Intrinsec IOC](https://github.com/Intrinsec/IOCs);
      * [Malware-IOC](https://github.com/executemalware/Malware-IOCs);
      * [OpenPhish](https://openphish.com/feed.txt);
-     * [Bazaar](https://bazaar.abuse.ch/export/csv/recent/);
+     * [Bazaar](https://bazaar.abuse.ch/export/#csv) - may need to login first;
      * [C2IntelFeeds](https://raw.githubusercontent.com/drb-ra/C2IntelFeeds/master/feeds/IPC2s-30day.csv);
      * [Circle's MISP feed](https://www.circl.lu/doc/misp/feed-osint/);
      * [Viriback](https://tracker.viriback.com/dump.php);
@@ -146,7 +146,7 @@ Here is [another example](https://www.infinigate.com/fr/vendors/sekoia/) of an a
      * Snort, [IP list to block](https://www.snort.org/downloads/ip-block-list);
      * Turris' [Sentinel Graylist](https://view.sentinel.turris.cz/greylist-data/greylist-latest.csv);
      * Laurent Minne's [blacklist](https://github.com/duggytuxy/malicious_ip_addresses);
-     * MalTrail's [daily blacklist](https://raw.githubusercontent.com/stamparm/aux/master/maltrail-malware-domains.txt);
+     * MalTrail's [daily blacklist](https://github.com/stamparm/trails/releases);
      * [Awesome Cobalt Strike](https://github.com/MichaelKoczwara/Awesome-CobaltStrike-Defence);
      * [AVAST](https://github.com/avast/ioc?tab=readme-ov-file);
      * [ThreatFox](https://threatfox.abuse.ch/);
