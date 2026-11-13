@@ -106,7 +106,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
   * FIRST, [TLP](https://www.first.org/tlp/) (intelligence sharing and confidentiality), and [PAP](https://cert.ssi.gouv.fr/csirt/sharing-policy/)
   * CIS, [18 critical security controls](https://www.cisecurity.org/controls/cis-controls-list)
 * **Security capabilities mappings**:
-  * CTID, [Mappings explorer](https://center-for-threat-informed-defense.github.io/mappings-explorer/external/)
+  * CTID, [Mappings explorer](https://ctid.mitre.org/mappings/external)
 * **Threat matrix**:
   * Push Security, [SaaS attack matrix](https://github.com/pushsecurity/saas-attacks#the-saas-attacks-matrix)
   * Microsoft, [Threat Matrix for Azure Storage services](https://microsoft.github.io/Threat-matrix-for-storage-services/)
@@ -462,7 +462,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
   * My recommendation: [Crowdsec](https://www.crowdsec.net/product/crowdsec-security-engine), [ftagent-lite](https://github.com/Flowtriq/ftagent-lite) for lightweight flow-based network monitoring and DDoS detection (sFlow/NetFlow/IPFIX, adaptive baseline anomaly detection)
 * NDR:
   * My recommendation: [Gatewatcher](https://www.gatewatcher.com/en/our-solutions/trackwatch/)
-  * See [Gartner MAgic Quadrant for NDR](https://www.gatewatcher.com/en/resource/2026-gartner-magic-quadrant-for-network-detection-and-response/)
+  * See [Gartner Magic Quadrant for NDR](https://www.vectra.ai/gartner-magic-quadrant-for-ndr)
 * DLP:
   * See [Gartner reviews and ratings](https://www.gartner.com/reviews/market/data-loss-prevention)
 * OT (industrial) NIDS:
