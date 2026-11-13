@@ -137,7 +137,7 @@ Source: [LinkedIn article](https://www.linkedin.com/posts/teodorchabin_soc-cyber
          * Filigran [OpenAEV](https://github.com/OpenAEV-Platform/openaev)
          * [Ytisf's zoo](https://github.com/ytisf/theZoo)
          * Abuse.ch [Malware Bazaar](https://bazaar.abuse.ch/)
-         * Knowbe4 [ransomware simulator](https://www.knowbe4.com/ransomware-simulator)
+         * Knowbe4 [ransomware simulator](https://www.knowbe4.com/free-cybersecurity-tools/ransim)
    * NB: don't forget to watermark the offensive tools being used! See [ProtectMyTooling](https://web.archive.org/web/20230209131745/https://mgeeky.tech/protectmytooling/)
  * Picture the currently confirmed detection capabilities thanks to purpleteaming, with tools based on ATT&CK:
    * e.g.: [Vectr](https://github.com/securityriskadvisors/vectr)
