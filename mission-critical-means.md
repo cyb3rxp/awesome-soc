@@ -75,7 +75,7 @@ The provided recommendations are based on experience and search.
           * [Powershell Hunter](https://github.com/MHaggis/PowerShell-Hunter/tree/main)
           * [DFIR-ORC](https://github.com/dfir-orc);
           * [Sysmon](https://learn.microsoft.com/fr-fr/sysinternals/downloads/sysmon):
-            * install it (if not done already, let it run for a few hours/days), with [Olaf Hartong's config](https://github.com/olafhartong/sysmon-modular/blob/master/sysmonconfig.xml);
+            * install it (if not done already, let it run for a few hours/days), with [Olaf Hartong's config](https://github.com/olafhartong/sysmon-modular/releases);
             * then investigate its log with a regarlar SIEM or with [Zircolite](https://github.com/wagga40/Zircolite)
        * For AD specifically: 
          * simple but efficient [ADRecon](https://github.com/tomwechsler/Active_Directory_Advanced_Threat_Hunting/blob/main/Different_hunting_methods/In-depth_investigation_active_directory.md);
