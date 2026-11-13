@@ -454,8 +454,8 @@ The idea here is to follow the 'as-code' approach, wherever possible, with a cen
 * SANS, [Purple teaming threat informed detection engineering](https://www.sans.org/blog/purple-teaming-threat-informed-detection-engineering)
 * InfosecB, [Awesome Detection Engineering](https://github.com/infosecB/awesome-detection-engineering)
 * 0xsyr0, [Awesome Cybersecurity handbook: SIEM](https://github.com/0xsyr0/Awesome-Cybersecurity-Handbooks/blob/main/handbooks/siem.md)
-* [MAGMA](https://www.betaalvereniging.nl/wp-content/uploads/FI-ISAC-use-case-framework-verkorte-versie.pdf), use case management framework.
-* Palantir, [ADS Framework](https://github.com/palantir/alerting-detection-strategy-framework), Alerting and Detection Strategies framework.
+* [MAGMA](https://www.betaalvereniging.nl/wp-content/uploads/FI-ISAC-use-case-framework-verkorte-versie.pdf): use case management framework;
+* Palantir, [ADS Framework](https://github.com/palantir/alerting-detection-strategy-framework): Alerting and Detection Strategies framework;
 * Naksyn, [Operating into EDRs blindspot](https://www.naksyn.com/edr%20evasion/2022/09/01/operating-into-EDRs-blindspot.html)
 * Splunk, [Detection Deep dive](https://on24static.akamaized.net/event/39/91/78/5/rt/1/documents/resourceList1669214675158/splunkwebinarslidesdetectiondeepdive1669214674061.pdf).
 * NIST, [IR 8286D: BIA and Risk Prioritization](https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8286D.pdf)
@@ -465,6 +465,13 @@ The idea here is to follow the 'as-code' approach, wherever possible, with a cen
 * Soteria-Security, [365Inspect](https://github.com/soteria-security/365Inspect)
 * Quest, [9 best practices to improve AD security](https://www.quest.com/docs/nine-best-practices-to-improve-active-directory-security-and-cyber-resilience-ebook-25678.pdf)
 * Politoinc, [LDAP queries for offensive and defensive OPS](https://www.politoinc.com/post/ldap-queries-for-offensive-and-defensive-operations)
+
+## Tools "nice to have"
+* Telemetry pipeline solutions:
+  * Cribl;
+  * Datadog Observability Pipelines;
+  * CrowdStrike Onum;
+  * Chronosphere.
  
 # End
 Go to [main page](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md).
