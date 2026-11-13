@@ -19,12 +19,12 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
 
 # Table of Contents
 * [Must read](#must-read)
-* [Fundamental concepts](#Fundamental-concepts)
+* [Fundamental concepts](#fundamental-concepts)
 * [Mission-critical means (tools/sensors)](#mission-critical-means-toolssensors)
 * [SOC internals/core](#soc-internals)
-* [AI (ML, LLM, GenAI, Agentic AI)](#AI)
+* [AI (ML, LLM, GenAI, Agentic AI)](#ai)
 * [IT/security Watch](#itsecurity-watch)
-* [SOAR](#SOAR)
+* [SOAR](#soar)
 * [Detection engineering](#detection-engineering)
 * [Threat intelligence](#threat-intelligence)
 * [Playbooks/SOP](#playbooks)
@@ -246,7 +246,7 @@ Cf. [detection engineering](https://github.com/cyb3rxp/awesome-soc/blob/main/det
 # Threat intelligence
 
 ## MITRE reference
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 6: Illuminate Adversaries with Cyber Threat Intelligence, pages 101-123,
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 6: Illuminate Adversaries with Cyber Threat Intelligence, pages 151-176,
 > Tailor the collection and use of cyber threat intelligence by analyzing the intersection of
 adversary information, organization relevancy, and technical environment to prioritize
 defenses, monitoring, and other actions.
@@ -280,7 +280,7 @@ over time.
 > Empower the SOC to carry out the desired functions, scope, partnerships, and responsibilities
 through an approved charter and the SOCs alignment within the organization
 
-* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 3: Build a SOC Structure to Match Your Organizational Needs, pages 101-123
+* [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 3: Build a SOC Structure to Match Your Organizational Needs, pages 51-98
 > Structure SOCs by considering the constituency, SOC functions and responsibilities, service
 availability, and any operational efficiencies gained by selecting one construct over another
 

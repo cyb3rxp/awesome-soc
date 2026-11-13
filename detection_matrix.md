@@ -8,7 +8,7 @@ The list of those feared events is supposed to be generated or identified by sec
 
 ## MITRE reference
 
-* MITRE, [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 10, pages 101-123, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/2ff550fb-4424-4489-b8fb-852eb7f9cdbf)
+* MITRE, [11 strategies for a world-class SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf), Strategy 10, pages 301-318, ![image](https://github.com/cyb3rxp/awesome-soc/assets/16035152/2ff550fb-4424-4489-b8fb-852eb7f9cdbf)
 
 
 ## Matrix sample
@@ -35,7 +35,7 @@ This detection matrix sample leverages the "top TTP / feared events" that I reco
 ## Matrix meaning/understanding
 
 * The matrix enumerates all of the security sensors in place, for the SOC perimeter's detection capabilities we wish to represent;
-  * By default, I used the 5 key security sensors for a SOC, as described [here](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md#critical-sensors-for-a-soc).
+  * By default, I used the 5 key security sensors for a SOC, as described [here](https://github.com/cyb3rxp/awesome-soc/blob/main/mission-critical-means.md#critical-sensors-for-a-soc).
 * For each feared event, the idea is to identify all the security sensors that could/should help in detecting it.
 * If, for some reasons, the detection of a feared event is not considered as working for a specific sensor, then the cross should not be there in the array, for that sensor and that feared event;
   * The provided matrix is meant to be an example, for "best cases", and "not always true in every IT environment";
