@@ -124,7 +124,7 @@ https://www.nist.gov/document/supplementnicespecialtyareasandworkroleksasandtask
 
 * Challenges:
   * CTF: BOTS [free]:
-    * https://cyberdefenders.org/search/labs/?q=splunk
+    * [CyberDefenders](https://cyberdefenders.org/blueteam-ctf-challenges/?search=splunk&content=free)
  
 ### **Microsoft** (Defender XDR / Sentinel)
 
