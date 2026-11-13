@@ -371,6 +371,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 - [ANSSI (FR), EBIOS RM methodology](https://messervices.cyber.gouv.fr/guides/en-ebios-risk-manager-method) – French risk management methodology.
 - [GMU, Improving Social Maturity of Cybersecurity Incident Response Teams](https://edu.anarcho-copy.org/Against%20Security%20-%20Self%20Security/GMU_Cybersecurity_Incident_Response_Team_social_maturity_handbook.pdf) – Research on CSIRT team dynamics.
 - [Expel, Reduce FP in a SOC](https://expel.com/cyberspeak/reduce-false-positives-in-soc-operations/) - Reduce FP in a SOC.
+- NIST, [SP800-82](https://industrialcyber.co/nist/nist-sp-800-82r4-draft-expands-ot-security-guidance-with-zero-trust-csf-2-0-consequence-driven-risk-management/) - Draft of security guidance for OT with CSF v2.
 
 ###  **Roles & Responsibilities**
 - [CISA, Cyber Defense Incident Responder role](https://www.cisa.gov/careers/work-rolescyber-defense-incident-responder) – Role definition and responsibilities for incident responders.
