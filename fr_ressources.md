@@ -97,7 +97,7 @@
     * [Panorama règlementaire](https://www.nolimitsecu.fr/panorama-reglementaire/)
  
 * [RadioCSIRT](https://www.radiocsirt.org/RadioCSIRT/radio/)
-  * [liens pour services de podcast](https://www.radiocsirt.org/qui-sommes-nous/)
+  * [liens pour services de podcast](https://www.radiocsirt.org/le_podcast/)
  
 * [Le Monde de la cyber](https://www.lemondedelacyber.com/episode-categories/mini-serie)
 
