@@ -185,6 +185,7 @@ Here is [another example](https://www.infinigate.com/fr/vendors/sekoia/) of an a
   * Data breaches search portals:
     * [Have I Been Pwned](https://haveibeenpwned.com/)
     * PCloud, [Free Personal Data Breach Checker](https://www.pcloud.com/fr/pass/free-personal-data-breach-checker.html)
+    * BreachDetect, [Free Domain Breach Check](https://breachdetect.net/domain-breach-check)
   * CVE research websites:
     *  [CVE PoC Search](https://labs.jamessawyer.co.uk/cves/)
     *  [CVE Details](https://www.cvedetails.com/)
