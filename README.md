@@ -425,6 +425,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 - [Reprise99, Microsoft Sentinel queries](https://github.com/Reprise99/Sentinel-Queries) – KQL queries for Microsoft Sentinel.
 - [MyFaberSecurity, MS Sentinel architecture and recommendations for MSSP](https://myfabersecurity.com/2023/03/31/sentinel-poc-architecture-and-recommendations-for-mssps-part-1/) – Architecture and best practices for Microsoft Sentinel.
 - [Microsoft, Custom data ingestion and transformation in Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/data-transformation) – Scenarios for data collection in Microsoft Sentinel.
+- [xrisbarney, Wazuh Alert Manager](https://github.com/xrisbarney/Wazuh-alert-manager) – Open-source Wazuh dashboard plugin that adds alert triage, case management with evidence and attack-path graphs, and automation rules on top of the Wazuh SIEM.
 
 ### **Benchmarks & Surveys**
 - [SANS SOC survey 2022](https://www.sans.org/reading-room/whitepapers/analyst/2022-sans-soc-survey/) – Results of the 2022 SANS SOC survey.
