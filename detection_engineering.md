@@ -9,7 +9,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * [PDCA applied to SOC](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md#pdca-being-applied-to-soc)
 * [How to feed the Plan phase (detection engineering)](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md#how-to-feed-the-plan-phase)
 * [Common detection use cases](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md#common-detection-use-cases)
-* [Everything-as-code](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md#everything-as-code)
+* [Everything-as-code](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md#everything-as-code-devsecops)
 * [To go further](https://github.com/cyb3rxp/awesome-soc/blob/main/detection_engineering.md#to-go-further)
 
 
@@ -234,7 +234,7 @@ Here is a suggested global overview of it, through [Open-XDR approach of Stellar
 * Refer to [Security Stack Mappings](https://github.com/center-for-threat-informed-defense/security-stack-mappings)
   * for [AWS](https://mitre-attack.github.io/attack-navigator/#layerURL=https://center-for-threat-informed-defense.github.io/security-stack-mappings/AWS/layers/platform.json);
   * for [Azure](https://mitre-attack.github.io/attack-navigator/#layerURL=https://center-for-threat-informed-defense.github.io/security-stack-mappings/Azure/layers/platform.json);
-  * for [GCP](https://mitre-attack.github.io/attack-navigator/#layerURL=https://center-for-threat-informed-defense.github.io/security-stack-mappings/AWS/layers/platform.json).
+  * for [GCP](https://mitre-attack.github.io/attack-navigator/#layerURL=https://center-for-threat-informed-defense.github.io/security-stack-mappings/GCP/layers/platform.json).
 
 ### Leverage the documented detection coverage of security solutions:
 

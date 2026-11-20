@@ -3,9 +3,9 @@
 **SOMMAIRE :**
 * [Concepts fondamentaux et outils](https://github.com/cyb3rxp/awesome-soc/blob/main/fr_ressources.md#concepts-fondamentaux-et-outils-indispensables)
 * [Veille](https://github.com/cyb3rxp/awesome-soc/blob/main/fr_ressources.md#veille)
-* [Formation](https://github.com/cyb3rxp/awesome-soc/blob/main/fr_ressources.md#formation)
+* [Formation](https://github.com/cyb3rxp/awesome-soc/blob/main/fr_ressources.md#formation--sensibilisation)
 * [Bonnes pratiques](https://github.com/cyb3rxp/awesome-soc/blob/main/fr_ressources.md#bonnes-pratiques-s%C3%A9curit%C3%A9)
-* [Juridique](https://github.com/cyb3rxp/awesome-soc/blob/main/fr_ressources.md#Juridique--r%C3%A8glementaire)
+* [Juridique](https://github.com/cyb3rxp/awesome-soc/blob/main/fr_ressources.md#juridique--r%C3%A8glementaire--cyberd%C3%A9fense-fr)
 
 
 # Concepts fondamentaux et outils indispensables
