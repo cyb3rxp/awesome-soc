@@ -129,6 +129,7 @@ The provided recommendations are based on experience and search.
   * [OneTimeSecret](https://onetimesecret.com/)  
 * **Data analysis tools**:
   * My recommendations: [CyberChef](https://github.com/NextronSystems/CyberChef), [Notepad++](https://notepad-plus-plus.org/downloads/)
+  * Lightweight offline SOC triage tool: [Decodora](https://github.com/mahialjaber/Decodora) — 100% browser-offline decoder (`connect-src 'none'` CSP) for PowerShell (`-enc`), Base64/Base85, defanged/SafeLinks URLs, and Hex.
 * **Admin tools**: 
   * My recommendations for (free) admin tools: [Azure AD Internals suite](https://aadinternals.com/), [SysInternals Suite](https://learn.microsoft.com/fr-fr/sysinternals/downloads/sysinternals-suite), [MRemoteNG](https://mremoteng.org/)
   * My recommendations for (free) remote deployment tools: [EMCO Remote installer](https://emcosoftware.com/remote-installer)
