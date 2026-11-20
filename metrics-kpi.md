@@ -12,6 +12,8 @@ This page deals with SOC metrics: KPI and SLA, as part of the required reporting
 
 # Metrics
 
+* [MTTD and MTTR calculator](https://confrontocibernetico.com.br/en/mttd-mttr-calculator/) — Free browser-local calculator with explicit detection, containment and recovery boundaries, mean, median and nearest-rank P90; available in English and Portuguese.
+
 Generate metrics, leveraging the SIRP traceability and logging capabilities to get relevant data, as well as a bit of scripting.
 
 As per Gartner, MTTR:
