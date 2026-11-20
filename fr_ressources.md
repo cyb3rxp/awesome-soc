@@ -97,7 +97,7 @@
     * [Panorama règlementaire](https://www.nolimitsecu.fr/panorama-reglementaire/)
  
 * [RadioCSIRT](https://www.radiocsirt.org/RadioCSIRT/radio/)
-  * [liens pour services de podcast](https://www.radiocsirt.org/qui-sommes-nous/)
+  * [liens pour services de podcast](https://www.radiocsirt.org/le_podcast/)
  
 * [Le Monde de la cyber](https://www.lemondedelacyber.com/episode-categories/mini-serie)
 
@@ -131,6 +131,7 @@
 ## Publications spécialisées (PDF)
 
 * [MISC mag](https://connect.ed-diamond.com/misc)
+  * ex. : [MISC HS N°38 : OSINT, gouvernance SOC](https://connect.ed-diamond.com/misc/mischs-038)
 * XMCO [ActuSecu](https://www.xmco.fr/publications)
 
 
@@ -142,6 +143,7 @@
 # IA
 
 * PromptFacile, [statistiques ChatGPT](https://promptfacile.fr/statistiques-chatgpt/)
+* Cybermalveillance.gouv.fr, [Utiliser l’IA, conseils pour les particuliers et les professionnels](https://www.cybermalveillance.gouv.fr/tous-nos-contenus/bonnes-pratiques/utiliser-ia-conseils-pour-les-particuliers-et-les-professionnels)
 
 # Formation / sensibilisation
 

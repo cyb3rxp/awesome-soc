@@ -28,6 +28,7 @@ This page deals with SOC and CERT management
 * Gartner, [Cybersecurity business value benchmark](https://emtemp.gcom.cloud/ngw/globalassets/en/doc/documents/775537-gartner-cybersecurity-business-value-benchmark-1st-generation.pdf)
 * Gartner, [Priorities navigator for CISOs](https://emt.gartnerweb.com/ngw/globalassets/en/end-user-perennial-priorities/images/ciso-perennial-priorities.webp)
 * LogRythm, [7 metrics to measure the effectiveness of your SOC](https://www.compuquip.com/hubfs/Vendors/LogRhythm/LogRhythm-7-Metrics-to-Measure-the-Effectiveness-of-Your-SOC-Ebook.pdf?hsCtaTracking=6f44e275-b498-4bee-af8e-c5c5b7aca241%7Cec4bcb3b-9186-4252-a4df-2e9efd8c4d47)
+* MSSP Alert, [2026 report](https://www.msspalert.com/whitepaper/2026-top-250-mssps-industry-report)
 * Google, [Modernize your SOC for the future](https://www.brighttalk.com/webcast/18282/565440?utm_source=brighttalk-recommend&utm_campaign=network_weekly_email&utm_medium=email&utm_content=company&utm_term=132023)
 * DogeSec, [Getting started with ATT&CK heatmaps](https://www.dogesec.com/blog/getting_started_attck_navigator/)
 * TheHackerNews, [NIST CSF v2](https://thehackernews.com/2024/09/nist-cybersecurity-framework-csf-and.html)
@@ -137,7 +138,7 @@ Source: [LinkedIn article](https://www.linkedin.com/posts/teodorchabin_soc-cyber
          * Filigran [OpenAEV](https://github.com/OpenAEV-Platform/openaev)
          * [Ytisf's zoo](https://github.com/ytisf/theZoo)
          * Abuse.ch [Malware Bazaar](https://bazaar.abuse.ch/)
-         * Knowbe4 [ransomware simulator](https://www.knowbe4.com/ransomware-simulator)
+         * Knowbe4 [ransomware simulator](https://www.knowbe4.com/free-cybersecurity-tools/ransim)
    * NB: don't forget to watermark the offensive tools being used! See [ProtectMyTooling](https://web.archive.org/web/20230209131745/https://mgeeky.tech/protectmytooling/)
  * Picture the currently confirmed detection capabilities thanks to purpleteaming, with tools based on ATT&CK:
    * e.g.: [Vectr](https://github.com/securityriskadvisors/vectr)

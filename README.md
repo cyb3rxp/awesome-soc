@@ -51,6 +51,8 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
   * FIRST, [ISO 27035 Practical value for CSIRT and SOCs ](https://www.first.org/resources/papers/conf2023/FIRSTCON23-TLPCLEAR-Benetis-ISO-27035-practical-value-for-CSIRTs-and-SOCs.pdf)
   * SANS, [2025 SOC survey](https://www.elastic.co/pdf/sans-soc-survey-2025.pdf)
   * SOC CMM, [SOC Metrics](https://www.soc-cmm.com/img/upload/files/31-soc-cmm-metrics-101.pdf)
+  * Gartner, [Market Guide for Managed Detection and Response](https://www.gartner.com/doc/reprints?id=00ThR00000CrhUfUAJ&ct=260828&st=sg)
+  * MSSP Alert, [2026 report](https://www.msspalert.com/whitepaper/2026-top-250-mssps-industry-report)
 * **SOC assessment**:
   * CMM, [SOC-CMM](https://www.soc-cmm.com/)
   * Rabobank CDC, [DeTTECT](https://github.com/rabobank-cdc/DeTTECT)
@@ -105,7 +107,7 @@ NB: Generally speaking, SOC here refers to detection activity, and CERT/CSIRT to
   * FIRST, [TLP](https://www.first.org/tlp/) (intelligence sharing and confidentiality), and [PAP](https://cert.ssi.gouv.fr/csirt/sharing-policy/)
   * CIS, [18 critical security controls](https://www.cisecurity.org/controls/cis-controls-list)
 * **Security capabilities mappings**:
-  * CTID, [Mappings explorer](https://center-for-threat-informed-defense.github.io/mappings-explorer/external/)
+  * CTID, [Mappings explorer](https://ctid.mitre.org/mappings/external)
 * **Threat matrix**:
   * Push Security, [SaaS attack matrix](https://github.com/pushsecurity/saas-attacks#the-saas-attacks-matrix)
   * Microsoft, [Threat Matrix for Azure Storage services](https://microsoft.github.io/Threat-matrix-for-storage-services/)
@@ -370,15 +372,15 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 - [ANSSI (FR), EBIOS RM methodology](https://messervices.cyber.gouv.fr/guides/en-ebios-risk-manager-method) – French risk management methodology.
 - [GMU, Improving Social Maturity of Cybersecurity Incident Response Teams](https://edu.anarcho-copy.org/Against%20Security%20-%20Self%20Security/GMU_Cybersecurity_Incident_Response_Team_social_maturity_handbook.pdf) – Research on CSIRT team dynamics.
 - [Expel, Reduce FP in a SOC](https://expel.com/cyberspeak/reduce-false-positives-in-soc-operations/) - Reduce FP in a SOC.
+- NIST, [SP800-82](https://industrialcyber.co/nist/nist-sp-800-82r4-draft-expands-ot-security-guidance-with-zero-trust-csf-2-0-consequence-driven-risk-management/) - Draft of security guidance for OT with CSF v2.
 
 ###  **Roles & Responsibilities**
 - [CISA, Cyber Defense Incident Responder role](https://www.cisa.gov/careers/work-rolescyber-defense-incident-responder) – Role definition and responsibilities for incident responders.
 
 ###  **Threat Intelligence**
-- [MalAPI, list of Windows API and their potential use in offensive security](https://malapi.io/) – Windows API references for offensive/defensive security.
-- [FireEye, OpenIOC format](https://cloud.google.com/blog/topics/threat-intelligence/openioc-basics/?hl=en) – Open standard for sharing threat intelligence.
+- FR ANSSI, [2025 threat landscape](https://cert.cyber.gouv.fr/uploads/CERTFR-2026-CTI-003.pdf).
 - [Herman Slatman, Awesome Threat Intel](https://github.com/hslatman/awesome-threat-intelligence) – Curated list of threat intelligence resources.
-
+   
 ### **Compliance & Regulations**
 - [ENISA, Cybersecurity certificates](https://certification.enisa.europa.eu/certificates_en) – List of trusted cybersecurity service providers in the EU.
 
@@ -429,6 +431,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 - [SANS SOC survey 2022](https://www.sans.org/reading-room/whitepapers/analyst/2022-sans-soc-survey/) – Results of the 2022 SANS SOC survey.
 - [Gartner, PAM Magic Quadrant reprint](https://www.gartner.com/en/documents/4016568) – Market analysis of Privileged Access Management solutions.
 - [BitDefender, Analyzing MITRE ATT&CK evaluations 2024](https://www.bitdefender.com/en-za/business/campaign/forrester-analysis-2024-mitre-engenuity#form) – Analysis of MITRE ATT&CK evaluations.
+- MITRE, [In MITRE ATT&CK Evaluations, we don’t rank, rate, or crown a winner.](https://www.linkedin.com/posts/attackevaluations-threatinformeddefense-mitreattack-share-7340405327760162816-kVoh/)
 
 ### **Miscellaneous Resources**
 - [Microsoft, command line reference](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) – Windows command-line reference.
@@ -460,7 +463,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
   * My recommendation: [Crowdsec](https://www.crowdsec.net/product/crowdsec-security-engine), [ftagent-lite](https://github.com/Flowtriq/ftagent-lite) for lightweight flow-based network monitoring and DDoS detection (sFlow/NetFlow/IPFIX, adaptive baseline anomaly detection)
 * NDR:
   * My recommendation: [Gatewatcher](https://www.gatewatcher.com/en/our-solutions/trackwatch/)
-  * See [Gartner MAgic Quadrant for NDR](https://www.gatewatcher.com/en/resource/2026-gartner-magic-quadrant-for-network-detection-and-response/)
+  * See [Gartner Magic Quadrant for NDR](https://www.vectra.ai/gartner-magic-quadrant-for-ndr)
 * DLP:
   * See [Gartner reviews and ratings](https://www.gartner.com/reviews/market/data-loss-prevention)
 * OT (industrial) NIDS:

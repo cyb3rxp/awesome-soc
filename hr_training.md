@@ -124,7 +124,7 @@ https://www.nist.gov/document/supplementnicespecialtyareasandworkroleksasandtask
 
 * Challenges:
   * CTF: BOTS [free]:
-    * https://cyberdefenders.org/search/labs/?q=splunk
+    * [CyberDefenders](https://cyberdefenders.org/blueteam-ctf-challenges/?search=splunk&content=free)
  
 ### **Microsoft** (Defender XDR / Sentinel)
 
@@ -138,7 +138,7 @@ https://www.nist.gov/document/supplementnicespecialtyareasandworkroleksasandtask
 * CISCO Netacad [Ethical Hacker](https://www.netacad.com/courses/ethical-hacker?courseLang=en-US);
 * PaloAlto, [PAN, Fundamentals of SOC](https://beacon.paloaltonetworks.com/student/path/521672-the-fundamentals-of-soc-security-operations-center);
   * NB: you'll need to [log-in](https://login.paloaltonetworks.com/) first!
-* CrowdSec, [cybersecurity fundamentals](https://academy.crowdsec.net/course/cybersecurity-fundamentals);
+* CrowdSec, [cybersecurity fundamentals](https://academy.crowdsec.net/courses/crowdsec-fundamentals);
 * FIRST, [CVSS v4](https://learn.first.org/catalog/info/id:126);
 * PaloAlto, [Fundamentals of network security](https://beacon.paloaltonetworks.com/student/path/673504/activity/726463);
 * Cybrary, [Log analysis](https://app.cybrary.it/browse/assessment/log-analysis);
@@ -250,6 +250,9 @@ NB: this is mainly for red/purpleteaming activities.
 
 ## Regular trainings [free]
 * [HackTheBox](https://app.hackthebox.com/starting-point);
+
+## Paid trainings
+* [MalDevAcademy](https://maldevacademy.com/)
 
   
 ## Certifications

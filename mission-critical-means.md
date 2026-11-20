@@ -36,7 +36,7 @@ The provided recommendations are based on experience and search.
   * My recommendations: [BlueCoat Edge SWG](https://www.broadcom.com/products/cybersecurity/network/web-protection/proxy-sg-and-advanced-secure-gateway), [CISCO SASE](https://www.cisco.com/site/us/en/solutions/secure-access-service-edge-sase/index.html), [Zscaler Cloud proxy](https://www.zscaler.com/resources/security-terms-glossary/what-is-cloud-proxy), [Netskope](https://www.netskope.com/security-defined/what-is-casb).
 * **[Identity Threat Detection and Response (ITDR)](https://www.semperis.com/blog/evaluating-identity-threat-detection-response-solutions/)** for identity and AD/AAD security (audit logs, or specific security monitoring solutions):
   * My recommendations: [Semperis Directory Services Protector](https://www.semperis.com/active-directory-security/), [Silverfort Identity Security Platform](https://go.silverfort.com/hubfs/eBooks/Silverfort_eBook_How%20to%20stop%20AI-powered%20attacks_June2026.pdf) including for enabling MFA for AD
-  * for a one-shot security assessment of AD and Enta ID, I recommend: [Semperis Purple Knight](https://www.semperis.com/purple-knight/)  or [PingCastle](https://www.pingcastle.com/download/)
+  * for a one-shot security assessment of AD and Enta ID, I recommend: [Semperis Purple Knight](https://www.semperis.com/purple-knight/), or [PingCastle](https://www.pingcastle.com/download/). For a simple online questionnaire, you can use [Silverfort](https://www.silverfort.com/active-directory-assessment/)
 * **External Attack Surface Management (EASM)** / External Asset Security Monitoring:
   * My recommendations: [Intrinsec](https://www.intrinsec.com/en/easm-external-attack-surface-management/), [Mandiant](https://cloud.google.com/security/products/attack-surface-management), [Qualys EASM](https://www.qualys.com/apps/external-attack-surface-management/), [Onyphe](https://www.onyphe.io/asm-pricing.html)
   * for a security check-up/assessment, one-shot:
@@ -75,7 +75,7 @@ The provided recommendations are based on experience and search.
           * [Powershell Hunter](https://github.com/MHaggis/PowerShell-Hunter/tree/main)
           * [DFIR-ORC](https://github.com/dfir-orc);
           * [Sysmon](https://learn.microsoft.com/fr-fr/sysinternals/downloads/sysmon):
-            * install it (if not done already, let it run for a few hours/days), with [Olaf Hartong's config](https://github.com/olafhartong/sysmon-modular/blob/master/sysmonconfig.xml);
+            * install it (if not done already, let it run for a few hours/days), with [Olaf Hartong's config](https://github.com/olafhartong/sysmon-modular/releases);
             * then investigate its log with a regarlar SIEM or with [Zircolite](https://github.com/wagga40/Zircolite)
        * For AD specifically: 
          * simple but efficient [ADRecon](https://github.com/tomwechsler/Active_Directory_Advanced_Threat_Hunting/blob/main/Different_hunting_methods/In-depth_investigation_active_directory.md);

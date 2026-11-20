@@ -63,6 +63,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * MITRE [ATT&CK Evaluations: Enterprise, 2025](https://www.withsecure.com/en/about-us/achievements-certification/industry-recognitions/mitre-attck-enterprise-evaluations/)
 * Microsoft [Security Stack Mappings](https://center-for-threat-informed-defense.github.io/security-stack-mappings/Azure/README.html)
 * AWS [Security Stack Mappings](https://center-for-threat-informed-defense.github.io/security-stack-mappings/AWS/README.html)
+* MITRE, [There is no “first place” in MITRE ATT&CK Evaluations](https://www.linkedin.com/posts/attackevaluations-threatinformeddefense-mitreattack-share-7340405327760162816-kVoh/)
 ### Link to risk management
 * ANSSI, [EBIOS RM methodology](https://messervices.cyber.gouv.fr/guides/en-ebios-risk-manager-method)
 * LinkedIn, [Risk assessment with ISO 27005](https://www.linkedin.com/pulse/iso-27005-risk-management-aron-lange/?trackingId=oRjjiIdY9BNjne1ALRq02A%3D%3D)
@@ -100,6 +101,7 @@ This page deals with SOC detection engineering and management (detection use cas
 * Mandiant, [vSphere Brickstorm defender guide](https://cloud.google.com/blog/topics/threat-intelligence/vsphere-brickstorm-defender-guide?hl=en)
 * HackingArticles, [Windows Privilege Escalation SeTcbPrivilege](https://www.hackingarticles.in/windows-privilege-escalation-setcbprivilege/)
 * Moond4rk, [HackBrowserData](https://github.com/moond4rk/HackBrowserData)
+* Mandiant, [Defending Against Active Exploitation of Citrix NetScaler ADC and Gateway Appliances](https://cloud.google.com/blog/topics/threat-intelligence/defending-against-active-exploitation-of-citrix-netscaler-adc-and-gateway-appliances)
 * CheckPoint, [Sandbox evasion techniques](https://evasions.checkpoint.com/src/Evasions/techniques/timing.html)
 * [LOLBAS](https://lolbas-project.github.io/): Living Off The Land Binaries, Scripts and Libraries
 * [GTFOBins](https://gtfobins.org/): curated list of Unix-like executables that can be used to bypass local security restrictions in misconfigured systems
@@ -452,8 +454,8 @@ The idea here is to follow the 'as-code' approach, wherever possible, with a cen
 * SANS, [Purple teaming threat informed detection engineering](https://www.sans.org/blog/purple-teaming-threat-informed-detection-engineering)
 * InfosecB, [Awesome Detection Engineering](https://github.com/infosecB/awesome-detection-engineering)
 * 0xsyr0, [Awesome Cybersecurity handbook: SIEM](https://github.com/0xsyr0/Awesome-Cybersecurity-Handbooks/blob/main/handbooks/siem.md)
-* [MAGMA](https://www.betaalvereniging.nl/wp-content/uploads/FI-ISAC-use-case-framework-verkorte-versie.pdf), use case management framework.
-* Palantir, [ADS Framework](https://github.com/palantir/alerting-detection-strategy-framework), Alerting and Detection Strategies framework.
+* [MAGMA](https://www.betaalvereniging.nl/wp-content/uploads/FI-ISAC-use-case-framework-verkorte-versie.pdf): use case management framework;
+* Palantir, [ADS Framework](https://github.com/palantir/alerting-detection-strategy-framework): Alerting and Detection Strategies framework;
 * Naksyn, [Operating into EDRs blindspot](https://www.naksyn.com/edr%20evasion/2022/09/01/operating-into-EDRs-blindspot.html)
 * Splunk, [Detection Deep dive](https://on24static.akamaized.net/event/39/91/78/5/rt/1/documents/resourceList1669214675158/splunkwebinarslidesdetectiondeepdive1669214674061.pdf).
 * NIST, [IR 8286D: BIA and Risk Prioritization](https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8286D.pdf)
@@ -463,6 +465,13 @@ The idea here is to follow the 'as-code' approach, wherever possible, with a cen
 * Soteria-Security, [365Inspect](https://github.com/soteria-security/365Inspect)
 * Quest, [9 best practices to improve AD security](https://www.quest.com/docs/nine-best-practices-to-improve-active-directory-security-and-cyber-resilience-ebook-25678.pdf)
 * Politoinc, [LDAP queries for offensive and defensive OPS](https://www.politoinc.com/post/ldap-queries-for-offensive-and-defensive-operations)
+
+## Tools "nice to have"
+* Telemetry pipeline solutions:
+  * Cribl;
+  * Datadog Observability Pipelines;
+  * CrowdStrike Onum;
+  * Chronosphere.
  
 # End
 Go to [main page](https://github.com/cyb3rxp/awesome-soc/blob/main/README.md).
