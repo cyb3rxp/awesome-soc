@@ -105,6 +105,7 @@ The provided recommendations are based on experience and search.
   * My recommendations: [SIFT Workstation](https://www.sans.org/tools/sift-workstation/), or [Tsurugi](https://tsurugi-linux.org/);
   * My recommendation for reverse engineering and malware analysis, under Windows: [FireEye Flare-VM](https://github.com/mandiant/flare-vm);
   * My recommendation for pure malware analysis, under Linux: [Remnux](https://remnux.org/).
+  * For malicious document triage (phishing attachments): [MaldocTrace](https://github.com/debugactiveprocess/MaldocTrace), static analysis and emulation of Office, RTF, OneNote and email attachments that recovers the commands and IOCs they would run, without executing them.
 * **Incident maangement tracker**: 
   * My recommendations: [Timesketch](https://timesketch.org/), [DFIR IRIS](https://dfir-iris.org/)
 * **Scanners**:
