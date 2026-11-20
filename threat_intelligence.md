@@ -133,6 +133,7 @@ Here is [another example](https://www.infinigate.com/fr/vendors/sekoia/) of an a
      * [Malware-IOC](https://github.com/executemalware/Malware-IOCs);
      * [OpenPhish](https://openphish.com/feed.txt);
      * [Bazaar](https://bazaar.abuse.ch/export/#csv) - may need to login first;
+     * [ThreatCluster IOC feed](https://threatcluster.io/iocs);
      * [C2IntelFeeds](https://raw.githubusercontent.com/drb-ra/C2IntelFeeds/master/feeds/IPC2s-30day.csv);
      * [Circle's MISP feed](https://www.circl.lu/doc/misp/feed-osint/);
      * [Viriback](https://tracker.viriback.com/dump.php);
