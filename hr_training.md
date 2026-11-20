@@ -63,6 +63,7 @@ https://www.nist.gov/document/supplementnicespecialtyareasandworkroleksasandtask
 * Cybrary, [MITRE ATT&CK threat hunting](https://www.cybrary.it/course/threat-hunting-with-windows-event-forwarding); [free]
 
 ## Hands-on trainings
+* Cybersecurity101, [Security Monitoring Labs](https://cybersecurity101.net/labs/security-monitoring/), 49 step-by-step labs on your own VMs: stand up Wazuh, onboard Linux and Windows/Sysmon logs, write, test and tune detection rules, triage alerts; [free]
 * LetsDefend, [Fundamentals of SOC](https://app.letsdefend.io/training/lessons/soc-fundamentals); [partly free]
 * [InfoSecLabs](https://infoseclabs.io/), Hands-on SOC analyst training platform with real-world breach scenarios, 108+ CTF challenges; [partly free]
 * Active Directory specifics:
