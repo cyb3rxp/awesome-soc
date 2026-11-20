@@ -66,6 +66,7 @@ https://www.nist.gov/document/supplementnicespecialtyareasandworkroleksasandtask
 * Cybersecurity101, [Security Monitoring Labs](https://cybersecurity101.net/labs/security-monitoring/), 49 step-by-step labs on your own VMs: stand up Wazuh, onboard Linux and Windows/Sysmon logs, write, test and tune detection rules, triage alerts; [free]
 * LetsDefend, [Fundamentals of SOC](https://app.letsdefend.io/training/lessons/soc-fundamentals); [partly free]
 * [InfoSecLabs](https://infoseclabs.io/), Hands-on SOC analyst training platform with real-world breach scenarios, 108+ CTF challenges; [partly free]
+* [SOC Home Lab](https://github.com/szzxli/soc-home-lab), open-source hands-on SOC analyst labs on synthetic data (cloud detection with AWS CloudTrail/GuardDuty, log IOC analysis, phishing analysis, ELF triage, threat hunting); [free]
 * Active Directory specifics:
    * train on AD specific attacks, [Orange Cyberdefense GOAD](https://github.com/Orange-Cyberdefense/GOAD) [free];
      * Populate AD with "real life" objects, in an automated way, [Badblood](https://github.com/davidprowe/badblood).
