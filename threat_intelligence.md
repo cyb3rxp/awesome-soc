@@ -121,7 +121,7 @@ Here is [another example](https://www.infinigate.com/fr/vendors/sekoia/) of an a
      * [CrowdSec](https://www.crowdsec.net/pricing);
      * [HaveIBeenPwned](https://haveibeenpwned.com/API/Key)
    * My recommendations for community ones: 
-     * [URLHaus](https://urlhaus.abuse.ch/api/#csv);
+     * [URLHaus](https://urlhaus.abuse.ch/api/#csv) - the downloads need an Auth-Key now;
      * [ISAC](https://www.enisa.europa.eu/publications/information-sharing-and-analysis-center-isacs-cooperative-models);
      * [VX Vault URL](http://vxvault.net/URL_List.php);
      * [Feodo Tracker](https://feodotracker.abuse.ch/blocklist/)
@@ -161,7 +161,7 @@ Here is [another example](https://www.infinigate.com/fr/vendors/sekoia/) of an a
      * [defend.network](https://defend.network/feed.xml) (free daily cyber threat briefings and weekly vulnerability reports);
      * [Clanker Use case](https://clankerusecase.com/intel/iocs.csv) (cf. [About](https://clankerusecase.com/about.html));
      * FastFire, [DeepDarkCTI](https://github.com/fastfire/deepdarkCTI)
-     * ClickFix, [C2 tracker](https://www.clickfix.pro/c2_tracker.php)
+     * ClickFix, [C2 tracker](https://www.clickfix.pro/c2-tracker.php)
   * To go further, some lists of feeds that could be of interest:
     * [Covert.io list](http://www.covert.io/threat-intelligence/);
     * [Bert JanP](https://github.com/Bert-JanP/Open-Source-Threat-Intel-Feeds/tree/main);
