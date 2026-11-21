@@ -148,6 +148,7 @@ Here is [another example](https://www.infinigate.com/fr/vendors/sekoia/) of an a
      * Turris' [Sentinel Graylist](https://view.sentinel.turris.cz/greylist-data/greylist-latest.csv);
      * Laurent Minne's [blacklist](https://github.com/duggytuxy/malicious_ip_addresses);
      * MalTrail's [daily blacklist](https://github.com/stamparm/trails/releases);
+     * NetAPI, [compromised IPs](https://netapi.com/compromised-ips/) (hosts caught attacking NetAPI's own honeypot sensors in the last 48 hours, rebuilt hourly, with attack type, country and ASN per address, CC BY 4.0);
      * [Awesome Cobalt Strike](https://github.com/MichaelKoczwara/Awesome-CobaltStrike-Defence);
      * [AVAST](https://github.com/avast/ioc?tab=readme-ov-file);
      * [ThreatFox](https://threatfox.abuse.ch/);
