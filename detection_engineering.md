@@ -36,6 +36,7 @@ This page deals with SOC detection engineering and management (detection use cas
   * Splunk [Stories for Office 365](https://research.splunk.com/stories/office_365_collection_techniques/)
   * [Michel De Crevoisier's Git](https://github.com/mdecrevoisier/SIGMA-detection-rules)
   * [SOC Prime](https://socprime.com/)
+  * [Agentic Attack Detections](https://github.com/ThreatDefence/agentic-attack-detections) — free detection rules, hunting queries and IOCs for AI agent attack frameworks (ARTEX, Cairn, PentAGI, HexStrike, CyberStrikeAI, Strix, Hermes Agent and Agent Zero) in Sentinel/Defender KQL, Sigma, Suricata, Zeek, YARA, Splunk and Elastic.
 
 ## SIEM standards
 * Yogosha, [SIGMA Rules: how to standardize detections for any SIEM](https://yogosha.com/blog/sigma-rules/)
