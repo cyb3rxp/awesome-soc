@@ -29,6 +29,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 * NIST [AI 800-4](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.800-4.pdf): Challenges to the Monitoring of Deployed AI Systems
 * Silverfort, [How to stop AI-powered attacks](https://name.silverfort.com/hubfs/eBooks/Silverfort_eBook_How%20to%20stop%20AI-powered%20attacks_June2026.pdf): a readiness guide for Identity and Security teams, includes a simple five-question readiness assessment
 * Mukul975, [Cybersecurity skills for AI agents](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)
+* NosisTech, [AI incident response playbook](https://github.com/nosistech/governance-templates/tree/main/04-ai-incident-response-playbook): a first-hour card, severity rating, switch-off criteria and Excel incident log for incidents caused by AI tools, with three worked examples.
 
 
 ## Field feedback 
