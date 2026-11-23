@@ -416,6 +416,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 - [Amazon, AWS Security Fundamentals](https://aws.amazon.com/training/digital/aws-security-fundamentals/) – AWS security best practices.
 - [Microsoft, PAW Microsoft](https://docs.microsoft.com/en-us/windows-server/identity/securing-privileged-access/privileged-access-workstations) – Privileged Access Workstation (PAW) guidance.
 - [Elastic, BEATS agents](https://www.elastic.co/beats/)** – Lightweight agents for data collection.
+- [Stephane Robert, Kubernetes training](https://www.stephane-robert.info/en/docs/conteneurs/orchestrateurs/kubernetes/worker-nodes/)
 
 ### **Incident Response**
 - [Incident Response & Computer Forensics, 3rd ed](https://www.amazon.com/Incident-Response-Computer-Forensics-Third/dp/007180131X) – Book on incident response and forensics.
