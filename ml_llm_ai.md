@@ -60,6 +60,7 @@ This page deals with what Generative AI, AI agents, and machine learning can eff
 * CyberSecurityForMe, [Microsoft Copilot Security vulnerabilities and safety measures](https://cybersecurityforme.com/copilot-security-vulnerabilities-and-safety-measures-for-enterprises/)
 * Proofpoint, [Notes from Underground: Adversarial Prompt Injection](https://www.proofpoint.com/us/blog/threat-insight/notes-underground-adversarial-prompt-injection)
 * ABC, [AI Assistant hacks gym website](https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986)
+* Continuum AI, [Orca AI Incident Archive](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive): open database of real-world AI agent security incidents since 2025, each record linked to its primary sources
 
 
 
