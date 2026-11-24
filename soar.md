@@ -3,7 +3,7 @@ This page deals with Security Orchestration Automation and Response.
 
 # Table of content
 
-* [Must read](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md#must-read)
+* [Must read](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md#must-readwatch)
 * [What is SOAR](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md#what-is-soar)?
 * [Simple and commonly needed automation tools](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md#simple-and-commonly-needed-automation-tools)
 * [Common automations](https://github.com/cyb3rxp/awesome-soc/blob/main/soar.md#common-security-automation-use-cases)
