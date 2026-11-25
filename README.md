@@ -458,6 +458,7 @@ SOC’s assets should be part of a separate [restricted AD forest](https://learn
 * (full-featured) Honeypot:
   * My recommendation: [Canary.tools](https://canary.tools/)
   * Or, have a look at [Awesome honeypots Git](https://github.com/paralax/awesome-honeypots)
+* Public web/API decoys: [WebDecoy API honeypot verification](https://webdecoy.com/product/endpoints/) matches an allowed HTTP request to its detection in the owning site.
 * Phishing and brand infringement protection (domain names):
   * My recommendation: [PhishLabs](https://www.phishlabs.com/), [Netcraft](https://www.netcraft.com/cybercrime/fraud-detection/)
 * NIDS:
