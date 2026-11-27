@@ -196,6 +196,7 @@ Here is [another example](https://www.infinigate.com/fr/vendors/sekoia/) of an a
   * [Malicious IPs and domains](https://check-the-sum.fr)
   * [Domain diagnostic & lookup tools](https://mxtoolbox.com/)
   * [DNS related tools](https://viewdns.info/)
+  * [BrandShield Typosquatting & RDAP Lookup](https://brand.shipbastion.com/typos) — Free read-only 28-variant DNSTwist lookalike & phishing domain scanner with live IANA RDAP creation dates, MX phishing-readiness detection, and 78-TLD availability lookup
   * [Search Engine for IoTs](https://www.shodan.io/)
   * [OSINT Framework](https://lnkd.in/gXaz_Wry)
   * [Malfrat's OSINT](https://map.malfrats.industries/)
