@@ -112,6 +112,7 @@ Here is [another example](https://www.infinigate.com/fr/vendors/sekoia/) of an a
 
 # Sources
 * Feeds and portals:
+   * [AdverseMonitor H1 2026 threat data study](https://adversemonitor.com/research/h1-2026-threat-data) — Public CSV and JSON aggregates for comparing ransomware, breach and other claims across Telegram, Tor and open-web sources.
    * My recommendations for paid ones: 
      * [ESET](https://www.eset.com/us/business/services/threat-intelligence/);
      * [Sekoia.io](https://www.sekoia.com/platform/intelligence); 
